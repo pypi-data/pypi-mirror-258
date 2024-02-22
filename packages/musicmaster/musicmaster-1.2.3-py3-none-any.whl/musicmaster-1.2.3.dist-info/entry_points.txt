@@ -1,0 +1,4 @@
+[console_scripts]
+music = music.cli:entry_point
+music-backend = music.webapp.cli.backend:entry_point
+music-webapp = music.webapp.cli.entry_point:entry_point
