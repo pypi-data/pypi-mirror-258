@@ -1,0 +1,5 @@
+llama_index/readers/huggingface_fs/__init__.py,sha256=EmF10x6XRPlGzppB02HiJfyCgxsXtQY_VJ2uFJ-UyUk,126
+llama_index/readers/huggingface_fs/base.py,sha256=fqX8fki7qvABMj5AJ8sWASPR3egy3oAFAFj-hTaFmUs,1800
+llama_index_readers_huggingface_fs-0.1.3.dist-info/METADATA,sha256=bQHixAw07pP_7-sKpG8wHgOg3BkSSDlsF8DIZ47ZJ5E,1776
+llama_index_readers_huggingface_fs-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_huggingface_fs-0.1.3.dist-info/RECORD,,
