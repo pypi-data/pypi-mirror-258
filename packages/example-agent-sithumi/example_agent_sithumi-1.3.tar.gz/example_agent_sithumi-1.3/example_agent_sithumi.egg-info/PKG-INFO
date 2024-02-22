@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: example-agent-sithumi
+Version: 1.3
+Summary: This will return Sithumi's info.
+Description-Content-Type: text/x-rst
+Requires-Dist: pandas
+Requires-Dist: numpy
