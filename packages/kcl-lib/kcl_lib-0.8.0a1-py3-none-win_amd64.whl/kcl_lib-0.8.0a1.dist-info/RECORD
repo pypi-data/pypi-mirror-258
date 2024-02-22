@@ -1,0 +1,8 @@
+kcl_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kcl_lib/lib/windows-amd64/kclvm_cli_cdylib.dll,sha256=1tRe7rwB2MfXqWfb9eYn9egLY2AlonXvFODLc-GHpGM,67980800
+kcl_lib-0.8.0a1.data/data/kclvm_cli_cdylib.dll,sha256=1tRe7rwB2MfXqWfb9eYn9egLY2AlonXvFODLc-GHpGM,67980800
+kcl_lib-0.8.0a1.dist-info/METADATA,sha256=gaotRnArOikfv8z09mvNAIXNNItmJV0slyFSH9m6j5I,364
+kcl_lib-0.8.0a1.dist-info/WHEEL,sha256=6iYPr8vTHsyDK75jr9X0V3I9wPSVmtwr_8fdATBciGk,98
+kcl_lib-0.8.0a1.dist-info/top_level.txt,sha256=kaqhxzD3mDxqCKnzwC7jxkzeJo9xvrStXrhsGEnAtck,8
+kcl_lib-0.8.0a1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kcl_lib-0.8.0a1.dist-info/RECORD,,
