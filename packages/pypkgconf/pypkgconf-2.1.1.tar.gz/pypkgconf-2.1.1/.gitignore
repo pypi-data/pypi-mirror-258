@@ -1,0 +1,10 @@
+.mesonpy-*/
+.pytest_cache/
+.tox/
+.venv/
+.vscode/
+build/
+dist/
+subprojects/packagecache/
+subprojects/pkgconf-*/
+__pycache__/
