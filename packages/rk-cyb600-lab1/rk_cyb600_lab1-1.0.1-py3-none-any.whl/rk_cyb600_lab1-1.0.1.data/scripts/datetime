@@ -1,0 +1,5 @@
+#!python
+import main
+
+main.main()
+main.create_app()
