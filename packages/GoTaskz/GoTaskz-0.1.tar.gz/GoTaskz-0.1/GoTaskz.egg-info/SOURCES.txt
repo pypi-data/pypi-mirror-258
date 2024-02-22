@@ -1,0 +1,7 @@
+README.md
+setup.py
+GoTaskz.egg-info/PKG-INFO
+GoTaskz.egg-info/SOURCES.txt
+GoTaskz.egg-info/dependency_links.txt
+GoTaskz.egg-info/entry_points.txt
+GoTaskz.egg-info/top_level.txt
