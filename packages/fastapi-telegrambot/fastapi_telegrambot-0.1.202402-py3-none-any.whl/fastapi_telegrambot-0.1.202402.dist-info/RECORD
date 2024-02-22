@@ -1,0 +1,7 @@
+telbot/__init__.py,sha256=BM7SwUAoyT_ozSKO83v-Pd2C7ooEZ9XkxXbndr5dbwU,48
+telbot/message.py,sha256=V7GSdmgwvEJJ6EVE32sFFjF8onGspp2c5vjk0i3uROU,515
+fastapi_telegrambot-0.1.202402.dist-info/LICENSE,sha256=hRJOa1bJEZFrONzX-lmYD1J3f6EvbqPxTUBOqTzVqBE,1088
+fastapi_telegrambot-0.1.202402.dist-info/METADATA,sha256=ze3qqKWMzijnW5k7wTvoNTxR6y7tg2BJayhD2UCSdXU,1159
+fastapi_telegrambot-0.1.202402.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fastapi_telegrambot-0.1.202402.dist-info/top_level.txt,sha256=U0FkTowwBQpDHvm0ImGvV3B95Orlv9pggvVA4XGQlIU,7
+fastapi_telegrambot-0.1.202402.dist-info/RECORD,,
