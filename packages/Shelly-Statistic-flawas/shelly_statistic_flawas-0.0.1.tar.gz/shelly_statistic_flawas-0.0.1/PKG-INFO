@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Shelly_Statistic_flawas
+Version: 0.0.1
+Summary: A small package used to grab data from shelly cloud
+Project-URL: Homepage, https://github.com/flawas/Python-Shelly-Statistics
+Project-URL: Issues, https://github.com/flawas/Python-Shelly-Statistics/issues
+Author-email: Flavio Waser <waserflavio@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Python Shelly Statistic
