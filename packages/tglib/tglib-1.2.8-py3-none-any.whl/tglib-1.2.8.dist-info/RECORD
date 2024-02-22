@@ -1,0 +1,13 @@
+tglib/__init__.py,sha256=fsN0KmeQ7Jrd2qZemdrbvd1nksVyl6Y09_KzP4VrBpE,295
+tglib/api.py,sha256=o7okeWagv88EQweHNC4E8ZfFsBxSWzA7TWUzOOy0CRM,27449
+tglib/client.py,sha256=wKxDuLQpwUwTNlv6SqXQo7C4aIctCRqP5e0GpaWcJwE,144169
+tglib/default_literals.py,sha256=1ZUojdFhLuFLModDHgJL1pb0wN2aH0kje0oAF9Bd7CE,3118
+tglib/logger.py,sha256=ameS22B1GNV21KBGMbQ1a0F4b9L6YONiX4V4dqdoElU,707
+tglib/types.py,sha256=3AeNikiSMVVJjgNx1p1ts_IfGW7gIhfm3l_mzPlQ1nE,195848
+tglib/update_manager.py,sha256=qjmbjGmvMmDX6LrAxGHNmRZhcMmDQiK99ommEwLomJo,7462
+tglib/utils.py,sha256=GoZVSfw4eaayvEiAssRzJqGRUvcRyKUli2oj9nqJfes,346
+tglib-1.2.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tglib-1.2.8.dist-info/METADATA,sha256=LlLv3X0gL8uRCT-WTVulhaDfOmPRx5Cm5RYkxK26Yb0,46790
+tglib-1.2.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tglib-1.2.8.dist-info/top_level.txt,sha256=z09c-w7fXhZsZXrEIetnkwVe-yZNWyCyPf93QyFg9SE,6
+tglib-1.2.8.dist-info/RECORD,,
