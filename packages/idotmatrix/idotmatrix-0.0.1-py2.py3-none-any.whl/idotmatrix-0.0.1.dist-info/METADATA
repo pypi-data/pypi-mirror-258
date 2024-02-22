@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: idotmatrix
+Version: 0.0.1
+Summary: configure any iDotMatrix compatible 16x16 or 32x32 pixel display without the chinese iDotMatrix android / iOS app.
+Home-page: https://github.com/shuds13/pyexample
+Author: Kalle Minkner
+Author-email: info@kalleminkner.de
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: asyncio
+Requires-Dist: bleak
+Requires-Dist: pillow
+
+UNKNOWN
+
