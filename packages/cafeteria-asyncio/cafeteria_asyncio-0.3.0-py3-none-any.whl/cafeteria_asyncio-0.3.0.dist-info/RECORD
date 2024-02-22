@@ -1,0 +1,8 @@
+cafeteria/asyncio/callbacks.py,sha256=nP7hjfgwVEHO4xSFAifaGaeirQzLbGPWG1gO7B345gs,8249
+cafeteria/asyncio/commons.py,sha256=5TZxfyAALEOy2rWyLSi6pcLX0YOm-EwsZ4AsERaDvAA,2364
+cafeteria/asyncio/patterns/application.py,sha256=WuLl-EKDqUgKWkOPFdcx1DE-22xI8_Hhcx7a0Sg8WFU,847
+cafeteria/asyncio/synchronous.py,sha256=lRWPsiENSCGbwfO88XImcxPFhDtf_yOJSG9HT0ZO_cY,395
+cafeteria_asyncio-0.3.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+cafeteria_asyncio-0.3.0.dist-info/METADATA,sha256=W5hv-S6tst0C5d8LxgRCrfu3V23PIXavXK9TzYUrugc,2055
+cafeteria_asyncio-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cafeteria_asyncio-0.3.0.dist-info/RECORD,,
