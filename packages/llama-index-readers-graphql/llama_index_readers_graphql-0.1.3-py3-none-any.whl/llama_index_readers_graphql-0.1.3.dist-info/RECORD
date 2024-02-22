@@ -1,0 +1,5 @@
+llama_index/readers/graphql/__init__.py,sha256=8CYRQJYP18JRyvlOfG9cGwg4myk9ILB4xwfy2jXMHm0,88
+llama_index/readers/graphql/base.py,sha256=BGZpmKif6M68V4JXINoAMwQvlMHIaDY-Pd5HpDh4YOw,2121
+llama_index_readers_graphql-0.1.3.dist-info/METADATA,sha256=rX_xQRrGZUVjLSl2cvaA1WB8nyDNtG3eFuyok1t0_bw,1952
+llama_index_readers_graphql-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_graphql-0.1.3.dist-info/RECORD,,
