@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: docking_tools_amw
+Version: 0.4.0
+Summary: Provides some functions that I have found value in reusing for molecular docking.
+Author-email: "Austin M. Wallace" <awallace43@gatech.edu>
+Project-URL: Homepage, https://github.com/Awallace3/docking_tools_amw
+Project-URL: Bug Tracker, https://github.com/Awallace3/docking_tools_amw/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# docking_tools_amw
+- Provides some functions that I have found value in reusing for molecular docking
