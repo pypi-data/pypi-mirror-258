@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "python-logx"
+version = "0.1.1"
+description = ""
+authors = ["Lucino772 <lucapalmi772@gmail.com>"]
+readme = "README.md"
+packages = [{include = "logx", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+typing-extensions = "^4.9.0"
+tomli = {version = "^2.0.1", optional = true, python = "<3.11"}
+pyyaml = {version = "^6.0.1", optional = true}
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.2.1"
+
+[tool.poetry.extras]
+toml = ["tomli"]
+yaml = ["pyyaml"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.poe.tasks]
+fmt-check = [
+    { cmd = "ruff check --no-fix ." },
+    { cmd = "ruff format --check ." }
+]
+fmt = [
+    { cmd = "ruff check --fix ." },
+    { cmd = "ruff format ." }
+]
