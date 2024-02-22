@@ -1,0 +1,7 @@
+numpy
+
+[all]
+ee_fourier_transform[extra]
+
+[extra]
+pandas
