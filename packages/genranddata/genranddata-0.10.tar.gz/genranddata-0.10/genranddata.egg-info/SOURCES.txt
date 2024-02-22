@@ -1,0 +1,13 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+genranddata/README.MD
+genranddata/__init__.py
+genranddata/requirements.txt
+genranddata/thirdparty.json
+genranddata.egg-info/PKG-INFO
+genranddata.egg-info/SOURCES.txt
+genranddata.egg-info/dependency_links.txt
+genranddata.egg-info/top_level.txt

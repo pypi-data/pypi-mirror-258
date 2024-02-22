@@ -1,0 +1,3 @@
+include genranddata/requirements.txt
+include genranddata/thirdparty.json
+include genranddata/README.MD
