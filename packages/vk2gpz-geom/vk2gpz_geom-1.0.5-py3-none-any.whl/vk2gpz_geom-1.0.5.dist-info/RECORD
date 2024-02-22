@@ -1,0 +1,9 @@
+vk2gpz/geom/__init__.py,sha256=gqeK0gGtLkg9R-amcJjVpLrB5mvtMEkkpZgrDQjMxus,46
+vk2gpz/geom/manifold.py,sha256=roskwSax_VgOmhvI2COMDp0XPSt8d2UkrqYQcNRFR9o,2484
+vk2gpz/geom/util.py,sha256=Y3dLpRBIzCKRTTjD-ZtzLP2t7AzQmmN9F0BgKHhM0xA,2416
+vk2gpz/geom/vertex.py,sha256=rPqcD4Po9WENaAz-aVkBvfQN9p4mYF1fcdoEFuoJHNU,681
+vk2gpz_geom-1.0.5.dist-info/LICENSE.txt,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+vk2gpz_geom-1.0.5.dist-info/METADATA,sha256=bDpVL1H0ccqHjq0KkVhG7M6YtKer7yZX7tKL6h8PX1A,1213
+vk2gpz_geom-1.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vk2gpz_geom-1.0.5.dist-info/top_level.txt,sha256=0w8mdHgkivVcJNryqFr0cZ3CtqtKsgVTggtlb1hit8E,7
+vk2gpz_geom-1.0.5.dist-info/RECORD,,
