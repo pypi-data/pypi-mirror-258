@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: lsl_xdf_reader
+Version: 0.1
+Summary: A package for reading and parsing Lab Streaming Layer (lsl) xdf data
+Home-page: https://github.com/metu-humate/lsl-xdf-data-reader
+Author: Bartu Atabek
+Author-email: batabek@metu.edu.tr
+Keywords: xdf data reader,lsl data reader,xdf,lsl,lab streaming layer,xdf reader,lsl reader
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# README
+
+## Lab Streaming Layer (LSL) .xdf Data Reader and Parser
+
+This is the updated version of the data reader compatible with various os directory structures.
+
+## Description
+
+This Python script reads experiment data from .xdf files and writes the data to CSV files. It also generates a report for each experiment.
+
+## Dependencies
+
+- Python 3
+- pyxdf
+- tkinter
+
+## Installation
+
+1. Install Python 3 from the official website.
+2. Install the required Python packages using pip:
+
+```bash
+pip install requirements.txt
+```
+
+## Usage
+
+Run the script in a Python environment. The script will ask for a directory. Select the directory containing the XDF files. The script will read each XDF file, extract the experiment data, and write it to a CSV file. It will also generate a report for each experiment.
+
+## License
+
+This project is licensed under the terms of the MIT license.
