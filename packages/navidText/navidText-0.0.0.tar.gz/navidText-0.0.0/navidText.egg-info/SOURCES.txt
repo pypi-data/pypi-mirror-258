@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+navidText/__init__.py
+navidText/find_admin_panel.py
+navidText/ramz_saz.py
+navidText.egg-info/PKG-INFO
+navidText.egg-info/SOURCES.txt
+navidText.egg-info/dependency_links.txt
+navidText.egg-info/top_level.txt
