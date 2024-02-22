@@ -1,0 +1,3 @@
+[console_scripts]
+setup_py_demo = setup_py_demo:hello
+
