@@ -1,0 +1,5 @@
+llama_index/readers/snowflake/__init__.py,sha256=B8s9m74WRxcgHCosc2AUg5jAMLfBLqMqG6fwxHnJLUM,94
+llama_index/readers/snowflake/base.py,sha256=JnYG6AwOrMy-uXViIKcRx6Lb9hAuhTWTrjAijMFQBfk,4565
+llama_index_readers_snowflake-0.1.3.dist-info/METADATA,sha256=G-HxU20qxGD3_MU5M-gYK7-NbsRIGBb8Gne0QO8s2DI,2424
+llama_index_readers_snowflake-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_snowflake-0.1.3.dist-info/RECORD,,
