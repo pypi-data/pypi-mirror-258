@@ -1,0 +1,10 @@
+README.md
+configFileReader.py
+psiAsrReceiver.py
+psi_common.py
+setup.py
+retico_core_psi.egg-info/PKG-INFO
+retico_core_psi.egg-info/SOURCES.txt
+retico_core_psi.egg-info/dependency_links.txt
+retico_core_psi.egg-info/requires.txt
+retico_core_psi.egg-info/top_level.txt
