@@ -1,0 +1,8 @@
+vonage_http_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vonage_http_client/auth.py,sha256=C6CAJ0IQLXq2Cfz5zSbysGs_u9rE_tVxD1tO3moAOD8,2478
+vonage_http_client/errors.py,sha256=bFPoXnl8ocHizAUk4aA_V7Y_Sl4Kl4XvrGtkMWpVDZs,3534
+vonage_http_client/http_client.py,sha256=cXKusWlx3tDTEqBGUjhPZ8mdVz8dVAvQqQGpSmVyVIY,6244
+vonage_http_client-1.0.0.dist-info/METADATA,sha256=7zM2arEZanAQFgR-talhEQgil-ZQ_cfrJhotAXPI9jo,3270
+vonage_http_client-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vonage_http_client-1.0.0.dist-info/top_level.txt,sha256=WBzH2awVVk2y3vrfhHcgFh-P_sTOt-U4RrclX7vAiXY,19
+vonage_http_client-1.0.0.dist-info/RECORD,,
