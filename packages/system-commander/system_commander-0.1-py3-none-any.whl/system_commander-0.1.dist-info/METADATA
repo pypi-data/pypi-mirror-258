@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: system-commander
+Version: 0.1
+Summary: Python package for controlling system actions
+Home-page: https://git.selfmade.ninja/karthikeyanramesh/python-pip-packages/
+Author: Karthikeyan
+Author-email: karthikeyan02022003@gmail.com
+Description-Content-Type: text/markdown
+
+## System Commander
+
+System Commander is a Python package designed to provide convenient control and management over system actions such as shutdown, reboot, lock, logout, suspend, WiFi and Bluetooth control, and more. It offers a command-line interface for easy execution of these actions, along with customizable options.
+
+## Features
+- Easily control system actions through a command-line interface.
+- Support for various system actions including shutdown, reboot, lock, logout, suspend, WiFi control, Bluetooth control and Airplane mode control.
+- Customizable options and configurations to suit different use cases.
+- Built-in color-coded output for clear indication of action statuses.
+- Lightweight and easy to install.
+
+## Installation
+You can install System Commander using pip:
+```
+pip install system-commander
+```
+
+## Usage
+
+After installation, you can use the system-commander command to execute different system actions. Here are some examples:
+
+- Shutdown the system
+
+```
+system-commander --type shutdown
+```
+
+- Lock the screen
+
+```
+system-commander --type lock
+```
+
+- Reboot the system
+
+```
+system-commander --type reboot
+```
+
+- Logout the system
+
+```
+system-commander --type logout
+```
+
+- Suspend the system
+
+```
+system-commander --type suspend
+```
+
+- For more options and detailed usage instructions, refer to the [documentation]().
+
+## Contributing
+
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change. Please make sure to update tests as appropriate.
+
+## License
+
+[MIT](https://git.selfmade.ninja/karthikeyanramesh/python-pip-packages/-/blob/master/LICENSE?ref_type=heads)
+
+## Contact
+
+For any inquiries or support, please contact karthikeyan02022003@gmail.com.

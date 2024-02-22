@@ -1,0 +1,2 @@
+[console_scripts]
+system-commander = system.main:main
