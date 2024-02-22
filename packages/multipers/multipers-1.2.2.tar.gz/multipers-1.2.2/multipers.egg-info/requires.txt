@@ -1,0 +1,4 @@
+numpy>=1.24
+gudhi>=3.9
+cython>=3.0
+joblib
