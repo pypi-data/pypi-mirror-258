@@ -1,0 +1,16 @@
+jupyterlab_jherng/__init__.py,sha256=fvzlp_gKcNOIz1ZJ0v6NWCBy0UqBsUwzxnIOIsR9mVI,600
+jupyterlab_jherng/_version.py,sha256=vYZ6rLVUw05xbWIGie5W7cVk18sWwVN72cGSZ2ngSYU,171
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/package.json,sha256=EnjgIqujlykwYaYwQ42_3M4gaaYIWOzwCmlf7GsNn88,5627
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/static/509.ed5f41e6585618e73902.js,sha256=7V9B5lhWGOc5AgFQZdavoSaA-B1CLmhR6crxURDdQ8M,545
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/static/remoteEntry.8687e1a938187aeb7569.js,sha256=hofhqTgYeut1aWTURt9r7f1JSgyHXGoYvaD2RDIyksk,6350
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/static/third-party-licenses.json,sha256=MNToQfru1YnHAie-2Virp23yWsc5co3qG0IzrO6SEfw,20
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/themes/@jherng/jupyterlab-jherng/3127f0b873387ee37e20.ttf,sha256=MSfwuHM4fuN-IEATWgbp6cBQMPUJ62NolSm-zyi1A4Q,310252
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/themes/@jherng/jupyterlab-jherng/6edc39c3df4fd1d4502a.ttf,sha256=btw5w99P0dRQKuKtqwVjE_bVXKpo_ujqhlZBuURW_70,188492
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/themes/@jherng/jupyterlab-jherng/index.css,sha256=JMz_LKPWQF_oSUf0h6Bx60VcyzZFB3XPxwcXY2YLOmM,14960
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/themes/@jherng/jupyterlab-jherng/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_jherng-0.1.2.data/data/share/jupyter/labextensions/@jherng/jupyterlab-jherng/install.json,sha256=XDFMwCwKQdLSXEgmYv4x-yoxc93mbs6v7m9IIJPPZcE,195
+jupyterlab_jherng-0.1.2.dist-info/METADATA,sha256=_wAIh_I7m1HAbnameQTxBPUlHZu9IvQYhx-IKPWRCEc,5399
+jupyterlab_jherng-0.1.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jupyterlab_jherng-0.1.2.dist-info/licenses/LICENSE,sha256=z6EjXL7Wu74CluVaY8sfYzzvA1A7aCwnq0L4hV_dJsc,1514
+jupyterlab_jherng-0.1.2.dist-info/RECORD,,
