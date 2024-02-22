@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fakeoai
+Version: 0.1.5
+Summary: A Package for local deployment of ChatGPT.
+Home-page: https://github.com/FakeOpenAI/FakeOpenAI
+Author: baobao
+Author-email: yuanbao@fakeopenai.cn
+Keywords: OpenAI ChatGPT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+
+## FakeOAI
+
+A Package for local deployment of ChatGPT.
