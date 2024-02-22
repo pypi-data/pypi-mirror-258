@@ -1,0 +1,9 @@
+importlib_metadata
+mido
+packaging
+pretty-midi
+psutil
+pypresence
+pypi_latest
+pyside6
+requests
