@@ -1,0 +1,15 @@
+antlr4-python3-runtime
+antlr4-tools
+antlr4_vba
+python-dateutil
+
+[tests]
+coveralls
+flake8-annotations
+mypy
+pep8-naming
+pytest
+pytest-cov
+pytest-mock
+types-antlr4-python3-runtime
+types-python-dateutil

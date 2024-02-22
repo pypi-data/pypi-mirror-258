@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/vba_precompiler/__init__.py
+src/vba_precompiler/__main__.py
+src/vba_precompiler/compiler.py
+src/vba_precompiler/precompiler_visitor.py
+src/vba_precompiler.egg-info/PKG-INFO
+src/vba_precompiler.egg-info/SOURCES.txt
+src/vba_precompiler.egg-info/dependency_links.txt
+src/vba_precompiler.egg-info/requires.txt
+src/vba_precompiler.egg-info/top_level.txt
