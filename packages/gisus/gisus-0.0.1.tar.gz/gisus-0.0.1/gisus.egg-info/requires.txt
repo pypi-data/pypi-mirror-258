@@ -1,0 +1,7 @@
+numpy
+
+[all]
+gisus[extra]
+
+[extra]
+pandas
