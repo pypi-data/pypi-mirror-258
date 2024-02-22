@@ -1,0 +1,14 @@
+datamapplot/__init__.py,sha256=ThmP3wy-JOyXkXzhV8m4cEbDddDjXR3s-1xIEZKTAfY,432
+datamapplot/alpha_shapes.py,sha256=KzMm9iW12VOgL379XNA0IvxyDZCrpLTwIlr_mYkpovk,2753
+datamapplot/create_plots.py,sha256=fQk3SXnmYy6uuEANg5ggQxQnMx03AsCRfrWREr44ARw,22702
+datamapplot/interactive_rendering.py,sha256=K-TfMrKdgdvJmBK_yPA_60FDaI-3mWLD7a2EGQGj634,35996
+datamapplot/medoids.py,sha256=1I2QTpU6ecBhSwqPG24O_fR38s6QLbj6Mc2zR4twtFk,3069
+datamapplot/overlap_computations.py,sha256=xViuSLXayYPQUP_rlBglByYHwEN0IEevWR50E07L42s,5189
+datamapplot/palette_handling.py,sha256=PXw4BW8xlHLk7CxuV-gQZ5qNaVf7W1V_WZQuoMzYqIA,9140
+datamapplot/plot_rendering.py,sha256=kkeXQFwMmzKCfq31tRbjcHEyOvNKKhCBy5Dc1m_M9aI,22230
+datamapplot/text_placement.py,sha256=9kv3tiN4TEgr0HV1KoWykRiMM8XIcG7Iz77LuOrUXKU,11856
+datamapplot-0.2.0.dist-info/LICENSE,sha256=fcZL6TG9ymjQaAXs4wqDgyg55tTdsxIlz_PayO6uHHQ,1102
+datamapplot-0.2.0.dist-info/METADATA,sha256=gl-ZDF9oDpD2EwVmA0IDev5grygWqftvRI_AA4quzz8,5713
+datamapplot-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+datamapplot-0.2.0.dist-info/top_level.txt,sha256=erPhsVD4ZR5XshUMWzuQaVNeSOxN_ZJ7V0tAeUyQXYs,12
+datamapplot-0.2.0.dist-info/RECORD,,
