@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pypqd
+Version: 0.1.0
+Summary: Power quality disturbances dataset generator
+License: GNU General Public License v3.0
+Author: Rafael Angel Montoya Gutierrez
+Requires-Python: >=3.9
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.8.3)
+Requires-Dist: numpy (>=1.26.4)
+Description-Content-Type: text/markdown
+
+# PyPQD
+
+Power quality disturbances dataset generator.
+
+## Installation
+
+```bash
+$ pip install pypqd
+```
+
+## Usage
+
+The `pypqd` package can be used to generate synthetic data sets of power quality disturbances, including: sag, swell, interruption, voltage fluctuation, notches, impulsive transients, oscillatory transients and harmonics.  
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`pypqd` was created by Rafael Angel Montoya Gutierrez. It is licensed under the terms of the GNU General Public License v3.0 license.
+
+## Credits
+
+`pypqd` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
