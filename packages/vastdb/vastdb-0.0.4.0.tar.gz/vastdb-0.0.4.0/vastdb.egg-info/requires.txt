@@ -1,0 +1,6 @@
+flatbuffers
+pyarrow
+requests
+aws-requests-auth
+xmltodict
+protobuf==3.19.6
