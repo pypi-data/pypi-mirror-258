@@ -1,0 +1,17 @@
+vtoollib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtoollib/add.py,sha256=-Ml5_6gg-p6CWuCUs50tGQBHVfWiUzuyO3BxQrKMafY,437
+vtoollib/imPlug.py,sha256=goPDDMK4Kw0qEekXys4v1A6tPUCpXLCf9vaRvT93ifM,33
+vtoollib/image.py,sha256=nqGuFeIa3CjOMDBCG64GIaVQNfL8kNENM2HZ8WDjCnc,32
+vtoollib/logger.py,sha256=uzKM6dADppbavtUgvRnpb35xP4l4aWnhTcHdymcnHwY,33
+vtoollib/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtoollib/data/data.txt,sha256=tybu0YTOow1aV_tkX3dSfkIyvsCF4k6NKabjsshMLbE,9
+vtoollib/font/NotoSansCJK-Bold.ttc,sha256=DAZswfIlQf2eE4GQ3ibcSApLgiG-9TIeJ-e3gCsm7l4,20930832
+vtoollib/font/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtoollib/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vtoollib/lib/imPlug.cp310-win_amd64.pyd,sha256=mgSKXMl22PeDBthzUcDmPNoQagTYh47NRkVDXAHw5aA,60416
+vtoollib/lib/image.cp310-win_amd64.pyd,sha256=MSjYv9bSFwHGgxN4MiUi35VAMWdEte6LKEuIbUMjFPM,106496
+vtoollib/lib/logger.cp310-win_amd64.pyd,sha256=zOaB0XwBLaEYOSXYxycKvB5VGZifjwARya0MBMqdf74,64000
+vtoollib-0.0.5.dist-info/METADATA,sha256=kygUesjfZZYfMbZoNziHSN9gfNPAiVqacZyqIv5q6w0,1907
+vtoollib-0.0.5.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+vtoollib-0.0.5.dist-info/licenses/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+vtoollib-0.0.5.dist-info/RECORD,,
