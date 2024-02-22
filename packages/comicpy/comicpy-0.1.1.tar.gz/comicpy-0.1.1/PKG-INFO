@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: comicpy
+Version: 0.1.1
+Summary: Tool to create CBR or CBZ files, supports PDF, ZIP, RAR files.
+Home-page: https://github.com/kurotom/comicpy
+Keywords: comic,cbz,cbr,manga
+Author: kurotom
+Author-email: 55354389+kurotom@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pillow (<=10)
+Requires-Dist: pypdf (>=4.0.1,<5.0.0)
+Requires-Dist: rarfile (>=4.1,<5.0)
+Project-URL: Bug Tracker, https://github.com/kurotom/comicpy/issues
+Project-URL: Repository, https://github.com/kurotom/comicpy
+Description-Content-Type: text/markdown
+
+# comicpy
+
+Tool to create CBR or CBZ files.
+
+Extracts images from PDF, ZIP, CBR files, generating comic files respecting their original order.
+
+
+> The original files are not altered.
+
+
+# Installation
+
+```
+pip install comicpy
+```
+
+
+# Usage
+
+```python
+>>> from comicpy import ComicPy
+>>>
+>>> pdf_file = 'pdf_comic.PDF'
+>>>
+>>> comic = ComicPy(unit='mb')
+>>> data = comic.process_pdf(filename=pdf_file, compressor='zip')
+>>>
+>>> metaFileCompress = comic.write_cbz(currentFileZip=data)
+>>> print(metaFileCompress)
+{'name': 'FNAE CAPS 01-04 (TOMO1).cbz', 'size': '76.63 MB'}
+>>>
+>>> comic.check_integrity(filename=metaFileCompress['name'])
+File is valid?:  "True"
+True
+>>> comic.check_integrity(filename=metaFileCompress['name'], show=False)
+True
+```
+
