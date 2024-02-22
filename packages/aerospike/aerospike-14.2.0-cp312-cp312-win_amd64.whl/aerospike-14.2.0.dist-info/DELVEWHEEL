@@ -1,0 +1,2 @@
+Version: 1.5.2
+Arguments: ['C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-zl7g61e2\\cp312-win_amd64\\build\\venv\\Scripts\\delvewheel', 'repair', '--add-path', './aerospike-client-c/vs/x64/Release', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-zl7g61e2\\cp312-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-zl7g61e2\\cp312-win_amd64\\built_wheel\\aerospike-14.2.0-cp312-cp312-win_amd64.whl']
