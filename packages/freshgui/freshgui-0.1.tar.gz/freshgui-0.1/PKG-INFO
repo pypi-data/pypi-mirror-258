@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: freshgui
+Version: 0.1
+Summary: A module for creating python GUI's. Lightweight, simple, begginer-friendly.
+Author: watakak
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Just a test.
+Simple test
