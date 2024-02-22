@@ -1,0 +1,8 @@
+more_snowpark/__init__.py,sha256=L3GbW81S7mD0KkKLSZGllvNvKsFZioeppRkhn4YMhbQ,29
+more_snowpark/config.py,sha256=VGnHPITNoBz3K7qPYMQyJ1XUcx1I06rso1Db2ZpULWw,2484
+more_snowpark/dataframe.py,sha256=zYml6Atfk60OcetOPCs5gCsYAdSFgzF8yj_Af5FX3RM,1598
+more_snowpark/session.py,sha256=9_pjkNzaUFttLidNfkHUWVWVkrCbv5D4wsMPqJLotko,316
+more_snowpark-0.0.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+more_snowpark-0.0.1.dist-info/METADATA,sha256=nWVBNrElDNsJrY84dVTLiTgSh8iGKmwZLiMXFzS_Uc0,697
+more_snowpark-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+more_snowpark-0.0.1.dist-info/RECORD,,

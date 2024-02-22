@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: more-snowpark
+Version: 0.0.1
+Summary: Snowpark helpers and extensions
+License: GPL-2.0-or-later
+Author: Oliver Tosky
+Author-email: olivertosky@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic-settings (>=2.2.1,<3.0.0)
+Requires-Dist: snowflake-snowpark-python (>=1.12.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# more-snowpark
+
+Snowpark helpers and extensions
+
