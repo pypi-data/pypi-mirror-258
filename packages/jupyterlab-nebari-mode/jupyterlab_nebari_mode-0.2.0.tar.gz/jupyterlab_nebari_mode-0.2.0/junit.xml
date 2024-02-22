@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="2.926">
+  <testsuite name="jupyterlab-nebari-mode" errors="0" failures="0" skipped="0" timestamp="2024-02-21T17:42:27" time="2.556" tests="1">
+    <testcase classname="jupyterlab-nebari-mode should be tested" name="jupyterlab-nebari-mode should be tested" time="0.002">
+    </testcase>
+  </testsuite>
+</testsuites>
