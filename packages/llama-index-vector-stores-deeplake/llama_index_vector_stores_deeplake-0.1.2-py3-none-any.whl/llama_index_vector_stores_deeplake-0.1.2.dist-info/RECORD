@@ -1,0 +1,5 @@
+llama_index/vector_stores/deeplake/__init__.py,sha256=w45k9B3Jlr2znlfw_9Er8oUnCeX1MbaF5eL0k9F2ouI,107
+llama_index/vector_stores/deeplake/base.py,sha256=ZFsVEMQVlfoUATfgqg85CE767dvmMfQyc1izpu_jOz8,8309
+llama_index_vector_stores_deeplake-0.1.2.dist-info/METADATA,sha256=nAt1LXp7admsjTBUm4_ldwqntBy5N6SyxVmNr7WbYu4,669
+llama_index_vector_stores_deeplake-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_deeplake-0.1.2.dist-info/RECORD,,
