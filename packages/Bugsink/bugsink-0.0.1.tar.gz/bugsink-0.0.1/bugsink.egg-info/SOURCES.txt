@@ -1,0 +1,6 @@
+setup.py
+bugsink/__init__.py
+bugsink.egg-info/PKG-INFO
+bugsink.egg-info/SOURCES.txt
+bugsink.egg-info/dependency_links.txt
+bugsink.egg-info/top_level.txt
