@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+linklog/__init__.py
+linklog.egg-info/PKG-INFO
+linklog.egg-info/SOURCES.txt
+linklog.egg-info/dependency_links.txt
+linklog.egg-info/top_level.txt
