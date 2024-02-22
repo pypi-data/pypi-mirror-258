@@ -1,0 +1,5 @@
+llama_index/readers/pinecone/__init__.py,sha256=BYE88AEOBsaNreD7cIRfv8-sfllifZ9DCW3R2cHb4VY,91
+llama_index/readers/pinecone/base.py,sha256=Ge_eNH48Y2FxSwggpH9VQwkBIT-zK8N_ld04IcgbzpM,1855
+llama_index_readers_pinecone-0.1.3.dist-info/METADATA,sha256=DlsX6-x80r8DqzE-etHFpz4nR4qEBsgK_pw3Puggf0E,721
+llama_index_readers_pinecone-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_pinecone-0.1.3.dist-info/RECORD,,
