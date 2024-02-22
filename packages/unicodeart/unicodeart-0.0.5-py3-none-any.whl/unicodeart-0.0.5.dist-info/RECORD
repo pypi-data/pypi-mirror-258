@@ -1,0 +1,11 @@
+unicodeart/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unicodeart/config.txt,sha256=Gb1V29Tz5Y_MxZIys3XHNxBjJxc7oTSCQxfL5ERASQ0,33
+unicodeart/console.py,sha256=blkTFx7buYoNUN7A3RatZGK80IHugBIOnqVmYhA_iPQ,3904
+unicodeart/cprint.py,sha256=rPI11COpp48TrlzBCH8h13Vzxbyf_wkIFLLzqyPaMvw,606
+unicodeart/global_vars.py,sha256=q8Z3Cwn1Tu_-VPD18-5WQwTBQV6oIgn_Na-D1M_BOBg,221
+unicodeart/output.txt,sha256=ZdKC6m5MNxFIXYgfE06yld9FGsVS9Z1G0gn9SJb2aUg,7540
+unicodeart/unicodeart_util.py,sha256=L6MekqqbO5IlZQnIREJG3ttXgoJ5p-_S0EHrDKcrs5g,19364
+unicodeart-0.0.5.dist-info/METADATA,sha256=muKyqwu03Ly8qwqD5frhbiBY1lHsdb7XUa2gTpFEL3I,2206
+unicodeart-0.0.5.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+unicodeart-0.0.5.dist-info/licenses/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+unicodeart-0.0.5.dist-info/RECORD,,
