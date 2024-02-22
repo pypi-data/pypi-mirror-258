@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ipclicklogger/__init__.py
+ipclicklogger.egg-info/PKG-INFO
+ipclicklogger.egg-info/SOURCES.txt
+ipclicklogger.egg-info/dependency_links.txt
+ipclicklogger.egg-info/top_level.txt
