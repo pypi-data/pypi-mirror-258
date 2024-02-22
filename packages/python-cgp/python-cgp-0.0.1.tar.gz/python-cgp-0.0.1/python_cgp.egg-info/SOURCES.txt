@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+cgp/__init__.py
+cgp/cgp.py
+cgp/config.py
+cgp/utils.py
+python_cgp.egg-info/PKG-INFO
+python_cgp.egg-info/SOURCES.txt
+python_cgp.egg-info/dependency_links.txt
+python_cgp.egg-info/requires.txt
+python_cgp.egg-info/top_level.txt
+tests/test_batch.py
+tests/test_cgp.py
+tests/test_utils.py
