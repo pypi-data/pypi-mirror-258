@@ -1,0 +1,5 @@
+llama_index/vector_stores/astra/__init__.py,sha256=-CjqrSByd3472J6c_w-UEg1tweocMDkgKKEu8eenW7g,102
+llama_index/vector_stores/astra/base.py,sha256=R9_sbWCe96Ec2Iqa7jSFjuWBrkJe1zXBQ2pyzIdkCfk,13077
+llama_index_vector_stores_astra-0.1.2.dist-info/METADATA,sha256=4-LVYU7DtMsVFMZPdrf4Sg2Q0PLVL1C74MMIL_k2lGA,700
+llama_index_vector_stores_astra-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_astra-0.1.2.dist-info/RECORD,,
