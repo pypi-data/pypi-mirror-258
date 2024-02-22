@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.py
+ssladapter/__init__.py
+ssladapter/entry.py
+ssladapter/ssl_adapter.py
+ssladapter.egg-info/PKG-INFO
+ssladapter.egg-info/SOURCES.txt
+ssladapter.egg-info/dependency_links.txt
+ssladapter.egg-info/requires.txt
+ssladapter.egg-info/top_level.txt
