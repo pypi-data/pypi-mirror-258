@@ -1,0 +1,12 @@
+mpi4all/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mpi4all/baseBuilder.py,sha256=CwuoEBenwbrPC-KzsqVGU-_byajAH46hplJ0k_fvb4M,437
+mpi4all/gobuilder.py,sha256=wJEKkgLexOmM870TDvNOVxHb_T3Na3bwPMktQmnEeU0,8540
+mpi4all/javabuilder.py,sha256=5EFO5y6ZyCwrw4pGx_DeAcBiFq6T5v3O9fneHBrxduA,17187
+mpi4all/main.py,sha256=s1tiGzdn0z4_v1IpdDppI3xIIM9JH5pDUPtXAEoC1tM,6901
+mpi4all/mpiparser.py,sha256=lRrDywPbwErJBngDHZRhJOP54eZ5wC8X7xzajuaUy5E,11499
+mpi4all/version.py,sha256=g23HNwh_WdTppsCFukhGY0ovjdBA2iKZ2MqVunvZgf4,126
+mpi4all-1.1.1.dev2.dist-info/LICENSE,sha256=-CYpJqHN61XUrS75vSXrKO-oePXX6nqYVnWaPPwIKDs,35091
+mpi4all-1.1.1.dev2.dist-info/METADATA,sha256=0tP6CLaUoZaq7RCaiZAXOtZKksX08WzTVj1iKTow2Ws,8635
+mpi4all-1.1.1.dev2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mpi4all-1.1.1.dev2.dist-info/entry_points.txt,sha256=Sd_39Z1OHRaFAAoL8yJCltAp8kmVuUi4Vlmg2KSIXNQ,45
+mpi4all-1.1.1.dev2.dist-info/RECORD,,
