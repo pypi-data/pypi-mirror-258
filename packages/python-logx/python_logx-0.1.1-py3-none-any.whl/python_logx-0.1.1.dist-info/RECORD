@@ -1,0 +1,15 @@
+logx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logx/compat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logx/compat/toml.py,sha256=SKw4OG00j9858wbznaABH3yg_4dgOw0m3EqXbyTyyCI,108
+logx/compat/yaml.py,sha256=l_ZcXIsi-0y7XlfMJQRPFkHbbu8CYIkr2i5nZCnXHCA,161
+logx/config/__init__.py,sha256=rrlGBgmFzFCSW7Q0KgNv5V2wst8xb2RJ5TSU-miih18,2014
+logx/config/configurator.py,sha256=DMoM-rqSGL4y6JcXZ2pZ4Zs2-0KNGX2tOHEKjU4nnqo,7635
+logx/config/loaders.py,sha256=ZQaenBONnmvdDwmwVwO_wJt-oqFoIs86okyiBKwc0uY,1509
+logx/types.py,sha256=rRcMUMY8DvPiWLc7s7tTQevHasUwk3Qsv0a_cYPeaxU,699
+logx/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logx/utils/factories.py,sha256=waw0ADYJ-DBLyrVnFVJeXgPF4JCSDjigXhEv8MvOKo0,2899
+logx/utils/helpers.py,sha256=1tLV_2F14sr1iqB2noL0ImPVErm0j4YJP81Lg6UN96Y,1708
+python_logx-0.1.1.dist-info/LICENSE,sha256=YFmmv_SpEG8adcckVmoBb6Q2osyXWvySff2nK-wS4Sg,1066
+python_logx-0.1.1.dist-info/METADATA,sha256=aYvxk5tNUrFlXQv-EY62Dq44F7iINfNlZVQJErUwQYA,4155
+python_logx-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_logx-0.1.1.dist-info/RECORD,,
