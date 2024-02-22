@@ -1,0 +1,16 @@
+comicpy/__init__.py,sha256=3xEs0lvIntQa9cTEns0XrTDEb2Z1ZxdSY82qa3x368E,636
+comicpy/checkfile.py,sha256=HIxPfM3vmcsNkXRpysMrGMaRCZjMFOZfiAw-A072fwc,2692
+comicpy/comicpy.py,sha256=6D5uD-FAKiXZuLSlIT9OMq7xiqpRrOvkRE72TUhX9BQ,16899
+comicpy/exceptionsClasses.py,sha256=OmEP4NfG_M-6mst5irMQ72jA0m4I-2Qjdgwz-jeLKGY,1875
+comicpy/filesigns.py,sha256=GdowpuHm3k6K_PCr2S8z1-OOwx-QfxM2K3Qdoa3FxF4,817
+comicpy/handlers/__init__.py,sha256=xGqg-LB9V7OV_-FF_E7IaTEuNaytNOy3gDUjCX3zIIo,186
+comicpy/handlers/baseziprar.py,sha256=mPtUrpMGpzk4EBR843vRGaNcC9LRlGMN7OZop3r4lAM,2294
+comicpy/handlers/pdfhandler.py,sha256=SF9p_2Xtv4Ggpp_cF76WHdlDTiLMtSJTqIS5KlSgfY4,2303
+comicpy/handlers/rarhandler.py,sha256=oYs4ueJdhodsZzFqB3zqBS-dREHuP1gs9drQvJZWj6g,7914
+comicpy/handlers/ziphandler.py,sha256=O-jMVSTEGKUGp0bn8IJLohUmdi4g_bTR2MkzkyRFh-0,6924
+comicpy/models.py,sha256=DKNcEA-ySvR5fjKsLYXbIrrVfZfZsxh7aJ3POwj6BSU,6027
+comicpy/utils.py,sha256=_ThbRlRuse_jO55WWkKXE0UYJ5aBuupDEj4WUZgRXW0,526
+comicpy/valid_extentions.py,sha256=AV0wzkJnbJOzYBszrzwyfutrVDKlhyp0e3epePQBh_4,642
+comicpy-0.1.2.dist-info/METADATA,sha256=SAFCTCCt8RY87AwbyLaa4EiWMZ5X-buEMVJWFFk8mRY,4246
+comicpy-0.1.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+comicpy-0.1.2.dist-info/RECORD,,
