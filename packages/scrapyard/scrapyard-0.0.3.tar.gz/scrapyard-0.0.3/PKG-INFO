@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: scrapyard
+Version: 0.0.3
+Summary: Scrapyard Framework
+Author: Samoxiaki
+Author-email: samoxiaki@yahoo.com
+License-File: LICENSE
+Requires-Dist: junkpy>=0.4.2
+Requires-Dist: toposort
