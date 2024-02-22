@@ -1,0 +1,10 @@
+galaxy-app
+galaxy-config
+galaxy-data
+galaxy-test-base
+galaxy-tool-util
+galaxy-util
+galaxy-web-apps
+pytest
+graphene-sqlalchemy==3.0.0b3
+starlette-graphene3
