@@ -1,0 +1,13 @@
+botifyme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botifyme/cli/__init__.py,sha256=XXVv_DHccX3VP9dRmC_g3h4kxs_hrKT8J5H1_X_5l5M,61
+botifyme/cli/common.py,sha256=Hgqt_4OUTkfHCK4_l58UjTX5yXRfaJTJ3SgVgB8FvNE,1612
+botifyme/cli/root.py,sha256=zos-BJoMj8vQAyEQ_EBVmelja4FWypE3EBd-59ISQLE,1117
+botifyme/cli/worker.py,sha256=XB8knupwkU_LVuwTsmVXVwMbMPnmryOICuSUNBOOekI,1429
+botifyme/registry.py,sha256=8N4DJ2SrfXQTOKdNU2TTjTO1XrqttZ0CEovINKJ9iy0,1045
+botifyme/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+botifyme/utils/tools.py,sha256=XIvCLzJHYKDdE3_3df4wFbB73CJpb2TvQ-gL1yJU6FU,3057
+botifyme-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+botifyme-0.1.1.dist-info/METADATA,sha256=6Z4ACACcu7jo7pL42SBjWpFbg2wkn_bi9JknqZJ-8ok,1509
+botifyme-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+botifyme-0.1.1.dist-info/entry_points.txt,sha256=ziIkhucNVFqe88tE6g4_kxncYDJ71-lpAFHJ0SRhU08,43
+botifyme-0.1.1.dist-info/RECORD,,
