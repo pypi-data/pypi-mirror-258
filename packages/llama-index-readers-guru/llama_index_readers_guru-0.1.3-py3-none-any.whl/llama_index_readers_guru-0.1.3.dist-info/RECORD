@@ -1,0 +1,5 @@
+llama_index/readers/guru/__init__.py,sha256=UhsjSqXYJrs1wReWRhTC20cHznyWnKdiRyp5k00GBtU,88
+llama_index/readers/guru/base.py,sha256=VqoJGWFWTQAQlJe9OBKJH3ysCuHHOuDUB2uyGQqknXU,5426
+llama_index_readers_guru-0.1.3.dist-info/METADATA,sha256=r8tgM5h-GN1QOYwX2UZ_uBZc9f813hOhY8_arMXGuOU,1695
+llama_index_readers_guru-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_guru-0.1.3.dist-info/RECORD,,
