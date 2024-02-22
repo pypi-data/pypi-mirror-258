@@ -1,0 +1,10 @@
+python_compile/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_compile/cli.py,sha256=TC6tTT8Qq_iVEXqbPLCIARnVgq5gjp_UZWXn6_EZtxg,1957
+python_compile/assets/debian-dockerfile,sha256=hZJxk_FmZyBXenhIUcMrST8h9kL71upCpnRbSzXp_aQ,1250
+python_compile/assets/demo_http_server.py,sha256=Ph0xsZ_gwRSea3t_6Kk_FWORSXXSWE-3-J-Ueh8gSnc,1788
+python_compile-1.0.0.dist-info/LICENSE,sha256=b6pOoifSXiUaz_lDS84vWlG3fr4yUKwB8fzkrH9R8bQ,1064
+python_compile-1.0.0.dist-info/METADATA,sha256=_8d5LCOFMUforVHIAyY2eqWzjKoHrQKaS0TxLuoGR20,379
+python_compile-1.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+python_compile-1.0.0.dist-info/entry_points.txt,sha256=HZLY-_qSjKkFCUwmHEl9QqBHEhpjiAC2BlHFXxffkFY,59
+python_compile-1.0.0.dist-info/top_level.txt,sha256=I1JDTHk50pVEikSIJXbTJTnhLUZnX4mMMtwYmAL9pQ4,15
+python_compile-1.0.0.dist-info/RECORD,,
