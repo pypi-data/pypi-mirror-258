@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pydantic-cli-model
+Version: 0.1.4
+Summary: Parse cli arguments directly into Pydantic models with help from click!
+License: GNU General Public License v3.0
+Author: Matthew Billman
+Author-email: mgbvox@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pydantic (>=2.6.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Pydantic CLI Models
+
+Pydantic + Click == Perfection (with love to Rust's [clap](https://docs.rs/clap/latest/clap/) library)
+
+[Github](https://github.com/mgbvox/pydantic-cli-model.git)
+
+[Issues](https://github.com/mgbvox/pydantic-cli-model/issues)
+
+Reduce boilerplate by 2x (at least), turning this:
+
+```python
+import click
+from pydantic import BaseModel
+
+class Person(BaseModel):
+    name: str
+    age: int
+
+@click.command()
+@click.option("--name", type=str)
+@click.option("--age", type=int)
+def main(name, age):
+    person = Person(name=name, age=age)
+    # ... do something with person ...
+```
+
+Into this:
+
+```python
+from pydantic_cli_model import CLIModel
+
+
+class Person(CLIModel):
+    name: str
+    age: int
+
+@Person.cli
+def main(person:Person):
+    ...
+    # ... do something with person ...
+```
+
+And get data validation for free!
