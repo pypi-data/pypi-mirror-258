@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: django-admin-shellx
+Version: 0.0.1
+Summary: A Django Admin Shell
+License: MIT
+Author: Adin Hodovic
+Author-email: hodovicadin@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Django (>=4)
+Requires-Dist: channels-redis (>=4.2.0,<5.0.0)
+Requires-Dist: channels[daphne] (>=4.0.0,<5.0.0)
+Requires-Dist: django-model-utils (>=4.4.0,<5.0.0)
