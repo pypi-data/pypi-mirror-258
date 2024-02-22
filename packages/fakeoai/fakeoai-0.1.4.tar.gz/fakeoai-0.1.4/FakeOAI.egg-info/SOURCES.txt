@@ -1,0 +1,10 @@
+README.md
+setup.py
+FakeOAI.egg-info/PKG-INFO
+FakeOAI.egg-info/SOURCES.txt
+FakeOAI.egg-info/dependency_links.txt
+FakeOAI.egg-info/top_level.txt
+fakeoai.egg-info/PKG-INFO
+fakeoai.egg-info/SOURCES.txt
+fakeoai.egg-info/dependency_links.txt
+fakeoai.egg-info/top_level.txt
