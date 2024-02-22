@@ -1,0 +1,52 @@
+[build-system]
+requires = []
+build-backend = 'puffling.build_self'
+backend-path = ['src']
+
+[project]
+name = "puffling"
+version = "0.1.0"
+description = "A test Python backend."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.8"
+keywords = [
+  "build",
+  "packaging",
+  "testing",
+]
+authors = [
+  { name = "Zanie Blue", email = "contact@zanie.dev" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Natural Language :: English",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+  "packaging>=21.3",
+  "pathspec>=0.10.1",
+  "pluggy>=1.0.0",
+  "tomli>=1.2.2; python_version < '3.11'",
+  "trove-classifiers",
+]
+
+[project.scripts]
+puffling = "puffling.cli:puffling"
+
+[project.optional-dependencies]
+dev = [
+  "twine",
+  "ruff",
+]

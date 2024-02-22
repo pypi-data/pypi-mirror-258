@@ -1,0 +1,16 @@
+[build-system]
+requires = ["puffling"]
+build-backend = "puffling.build"
+
+[tool.puffling.build.targets.wheel]
+packages = ["src/dummy"]
+
+[tool.puffling.build.targets.sdist]
+only-include = ["src/dummy"]
+
+[project]
+name = "dummy"
+version = "1.0.0"
+dependencies = []
+requires-python = ">=3.8"
+description = ""
