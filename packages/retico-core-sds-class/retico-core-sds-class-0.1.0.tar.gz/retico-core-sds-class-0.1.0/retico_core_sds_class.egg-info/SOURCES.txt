@@ -1,0 +1,9 @@
+README.md
+TaggerModule.py
+sds_class_iu.py
+setup.py
+retico_core_sds_class.egg-info/PKG-INFO
+retico_core_sds_class.egg-info/SOURCES.txt
+retico_core_sds_class.egg-info/dependency_links.txt
+retico_core_sds_class.egg-info/requires.txt
+retico_core_sds_class.egg-info/top_level.txt
