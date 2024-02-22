@@ -1,0 +1,6 @@
+README.md
+setup.py
+xiloudriver.egg-info/PKG-INFO
+xiloudriver.egg-info/SOURCES.txt
+xiloudriver.egg-info/dependency_links.txt
+xiloudriver.egg-info/top_level.txt
