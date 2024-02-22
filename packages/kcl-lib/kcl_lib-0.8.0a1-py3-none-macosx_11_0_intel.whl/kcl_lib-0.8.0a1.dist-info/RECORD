@@ -1,0 +1,8 @@
+kcl_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kcl_lib/lib/darwin-amd64/libkclvm_cli_cdylib.dylib,sha256=WKZR3KyloFAv0nzu7AJ2SDEjz-1taE7iuM4t29PRMeQ,79815424
+kcl_lib-0.8.0a1.data/data/libkclvm_cli_cdylib.dylib,sha256=WKZR3KyloFAv0nzu7AJ2SDEjz-1taE7iuM4t29PRMeQ,79815424
+kcl_lib-0.8.0a1.dist-info/METADATA,sha256=gaotRnArOikfv8z09mvNAIXNNItmJV0slyFSH9m6j5I,364
+kcl_lib-0.8.0a1.dist-info/WHEEL,sha256=XzNU8EB7ijPA3vmmhkZwdiqyyMSrFv-nuQ2QQinVh_Q,106
+kcl_lib-0.8.0a1.dist-info/top_level.txt,sha256=kaqhxzD3mDxqCKnzwC7jxkzeJo9xvrStXrhsGEnAtck,8
+kcl_lib-0.8.0a1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kcl_lib-0.8.0a1.dist-info/RECORD,,
