@@ -1,0 +1,11 @@
+template_project_nbdev/__init__.py,sha256=j7895T8JfsWQAOvxm8SAdESs5iFmIuAqKpyfjSAfKZ4,23
+template_project_nbdev/_modidx.py,sha256=aB0izhsCs_AQywy-7FIKqyHj7x4PvLWdrOnaf59GeFc,1723
+template_project_nbdev/inc_dec.py,sha256=b4WbwFLmtB7j1pidb_shijE2AlSWMoLdPxYO20sAWQI,444
+template_project_nbdev/module/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+template_project_nbdev/module/submodule.py,sha256=MJe0R4xRsWQCbucxmVuxYAqNgaIwLllmgyODslJh2oU,274
+template_project_nbdev-0.0.2.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+template_project_nbdev-0.0.2.dist-info/METADATA,sha256=KAgn02knrLbEUEDFjWIpFYXe7HC2MK_FKU_Yj2orMBM,4047
+template_project_nbdev-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+template_project_nbdev-0.0.2.dist-info/entry_points.txt,sha256=caVOSnStEcq0lZ3ZYOHX9v8LDRbcjQolBAKRcSsSPLQ,66
+template_project_nbdev-0.0.2.dist-info/top_level.txt,sha256=oi4yFWW_-vI3jGqBpLqAU2Kb56ah4uzTcD_dFNwHiTY,23
+template_project_nbdev-0.0.2.dist-info/RECORD,,
