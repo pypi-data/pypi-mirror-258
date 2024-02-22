@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: bolster
+Version: 0.3.0
+Summary: Bolster's Brain, you've been warned
+Home-page: https://github.com/andrewbolster/bolster
+Author: Andrew Bolster
+Author-email: me@andrewbolster.info
+Requires-Python: >=3.8.0,<=3.11
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: docs
+Requires-Dist: Sphinx (==7.1.2) ; extra == "docs"
+Requires-Dist: autoapi (==2.0.1) ; extra == "docs"
+Requires-Dist: boto3 (>=1.18.29,<2.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.3)
+Requires-Dist: click (>=8.0.1,<9.0.0)
+Requires-Dist: click-log (>=0.3.2,<0.5.0)
+Requires-Dist: lxml (>=5.0.0,<6.0.0)
+Requires-Dist: nbsphinx (>=0.8.8,<0.10.0) ; extra == "docs"
+Requires-Dist: numpy (>=1.21.2,<2.0.0)
+Requires-Dist: openpyxl (>=3.0.9,<4.0.0)
+Requires-Dist: pandas (>=1.3.2,<3.0.0)
+Requires-Dist: psycopg2-binary (>=2.9.1,<3.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Requires-Dist: requests-cache (>=0.9.3,<1.3.0)
+Requires-Dist: scipy (>=1.7.1,<2.0.0)
+Requires-Dist: setuptools (>=67.1,<70.0)
+Requires-Dist: sphinx-autoapi (==3.0.0) ; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (==2.0.0) ; extra == "docs"
+Requires-Dist: sphinx-click (==5.1.0) ; extra == "docs"
+Requires-Dist: sphinx-github-changelog (>=1.2.0,<2.0.0) ; extra == "docs"
+Requires-Dist: sphinx-issues (==4.0.0) ; extra == "docs"
+Requires-Dist: sphinx-rtd-theme (==2.0.0) ; extra == "docs"
+Requires-Dist: sphinxcontrib-apidoc (==0.5.0) ; extra == "docs"
+Requires-Dist: tqdm (>=4.62.1,<5.0.0)
+Requires-Dist: urllib3 (>=1.26,<2)
+Requires-Dist: xlrd (>=2.0.1,<3.0.0)
+Project-URL: Changelog, https://github.com/andrewbolster/bolster/releases
+Project-URL: Documentation, https://bolster.readthedocs.io
+Project-URL: Repository, https://github.com/andrewbolster/bolster
+Description-Content-Type: text/x-rst
+
+=======
+Bolster
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/bolster.svg
+    :target: https://pypi.python.org/pypi/bolster
+
+.. image:: https://travis-ci.com/andrewbolster/bolster.svg?branch=main
+    :target: https://travis-ci.com/andrewbolster/bolster
+
+.. image:: https://readthedocs.org/projects/bolster/badge/?version=latest
+    :target: https://bolster.readthedocs.io/en/latest/?version=latest
+    :alt: Documentation Status
+
+.. image:: https://pyup.io/repos/github/andrewbolster/bolster/shield.svg
+    :target: https://pyup.io/repos/github/andrewbolster/bolster/
+    :alt: Updates
+
+.. image:: https://requires.io/github/andrewbolster/bolster/requirements.svg?branch=main
+    :target: https://requires.io/github/andrewbolster/bolster/requirements/?branch=main
+    :alt: Requirements Status
+
+Bolster's Brain, you've been warned
+
+* Free software: GNU General Public License v3
+* Documentation: https://bolster.readthedocs.io.
+
+
+Features
+--------
+
+* Efficient tree/node traversal and iteration
+* Datetime helpers
+* Concurrecy Helpers
+* Web safe Encapsulation/Decapsulation helpers
+* `pandas`-esque `aggregate`/`transform_r` functions
+* "Best Practice" AWS service handling
+
+Data Sources
+------------
+* `UK Companies House Listings: <http://download.companieshouse.gov.uk/>`_
+* `NI House Price Index Data Wrangling: <https://www.nisra.gov.uk/statistics/housing-community-and-regeneration/northern-ireland-house-price-index>`_
+* `Electoral Office for Northern Ireland (2016-2022 Assembly Election Results): <https://www.eoni.org.uk/>`_
+* `NI Water Quality Data: <https://www.niwater.com/>`_
+
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
