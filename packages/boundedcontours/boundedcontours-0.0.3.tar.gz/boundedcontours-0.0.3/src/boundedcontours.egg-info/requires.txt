@@ -1,0 +1,10 @@
+numpy
+matplotlib>=2.1
+scipy
+
+[examples]
+plotly
+ipython
+
+[test]
+pytest
