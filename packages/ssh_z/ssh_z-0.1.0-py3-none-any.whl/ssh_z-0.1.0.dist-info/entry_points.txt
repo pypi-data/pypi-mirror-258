@@ -1,0 +1,3 @@
+[console_scripts]
+ssh_z=ssh_z.ssh_z:main
+
