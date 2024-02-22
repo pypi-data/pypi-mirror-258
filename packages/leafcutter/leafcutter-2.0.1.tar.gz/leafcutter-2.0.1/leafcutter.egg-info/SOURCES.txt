@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+leafcutter.egg-info/PKG-INFO
+leafcutter.egg-info/SOURCES.txt
+leafcutter.egg-info/dependency_links.txt
+leafcutter.egg-info/entry_points.txt
+leafcutter.egg-info/requires.txt
+leafcutter.egg-info/top_level.txt

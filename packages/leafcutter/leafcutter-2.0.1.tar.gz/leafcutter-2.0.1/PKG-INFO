@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: leafcutter
+Version: 2.0.1
+Summary: Leafcutter python implementation
+Author: Scott Adamson, Jack Humphrey, Yang I Li, David A Knowles
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: pyro-ppl
+Requires-Dist: scipy>=1.11
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
