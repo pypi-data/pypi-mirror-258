@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "markdown-to-blog"
+version = "0.1.0"
+description = ""
+authors = ["David Cho <david@cgoods.co.kr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+loguru = "^0.7.2"
+bs4 = "^0.0.2"
+httplib2 = "^0.22.0"
+google-api-python-client = "^2.118.0"
+oauth2client = "^4.1.3"
+configobj = "^5.0.8"
+click = "^8.1.7"
+markdown2 = {extras = ["all"], version = "^2.4.12"}
+
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.0.4"
+autoflake = "^2.3.0"
+black = "^24.2.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mdb = "markdown_to_blog:mdb"
