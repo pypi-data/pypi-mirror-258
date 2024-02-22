@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: insert_db
+Version: 0.0.2
+Summary:  Connect pandas to postgresql database to insert data
+Home-page: https://github.com/wisangyun/myfile.git
+Author: jerry
+Author-email: dnl6097@gmail.com
+Keywords: insert_db,database,postgresql,python,pypi
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
