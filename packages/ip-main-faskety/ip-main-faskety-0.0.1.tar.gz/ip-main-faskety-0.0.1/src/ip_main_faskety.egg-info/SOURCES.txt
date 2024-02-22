@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ip-test-main-faskety/__init__.py
+src/ip-test-main-faskety/main.py
+src/ip_main_faskety.egg-info/PKG-INFO
+src/ip_main_faskety.egg-info/SOURCES.txt
+src/ip_main_faskety.egg-info/dependency_links.txt
+src/ip_main_faskety.egg-info/top_level.txt
