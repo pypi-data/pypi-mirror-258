@@ -1,0 +1,52 @@
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+name = "db-az-sync-provider"
+version = "0.1.6"
+description = "A PDM package to sync Azure users, roles and service principals to Databricks"
+authors = [
+    { name = "Nicolas", email = "nicolas.jankelevitch@dataroots.io" },
+    { name = "Bram", email = "bram.decoster@dataroots.io" },
+    { name = "Adrien", email = "adrien@dataroots.io" },
+    { name = "Xuyao", email = "xuyao@dataroots.io" },
+    { name = "Sam", email = "sam@dataroots.io" },
+]
+dependencies = [
+    "azure-identity>=1.15.0",
+    "databricks-sdk>=0.17.0",
+    "msgraph-sdk>=1.0.0",
+    "ConfigParser>=6.0.0",
+    "pyyaml>=6.0.1",
+    "pytest>=7.4.4",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/datarootsio/databricks-azure-ad-sync-provider"
+
+[project.scripts]
+db-az-sync-provider = "db_az_sync_provider.main:main"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "ruff>=0.1.13",
+    "pre-commit>=3.6.0",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "F",
+    "UP",
+    "B",
+    "SIM",
+    "I",
+]
