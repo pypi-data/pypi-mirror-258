@@ -1,0 +1,8 @@
+README.md
+retico_nlu.py
+setup.py
+retico_core_rasa_nlu.egg-info/PKG-INFO
+retico_core_rasa_nlu.egg-info/SOURCES.txt
+retico_core_rasa_nlu.egg-info/dependency_links.txt
+retico_core_rasa_nlu.egg-info/requires.txt
+retico_core_rasa_nlu.egg-info/top_level.txt
