@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+httpopen/__init__.py
+httpopen/sync.py
+httpopen.egg-info/PKG-INFO
+httpopen.egg-info/SOURCES.txt
+httpopen.egg-info/dependency_links.txt
+httpopen.egg-info/requires.txt
+httpopen.egg-info/top_level.txt
