@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+src/codam/__init__.py
+src/codam/svm.py
+src/codam.egg-info/PKG-INFO
+src/codam.egg-info/SOURCES.txt
+src/codam.egg-info/dependency_links.txt
+src/codam.egg-info/not-zip-safe
+src/codam.egg-info/requires.txt
+src/codam.egg-info/top_level.txt
+src/codam_extension/svm.cpp
