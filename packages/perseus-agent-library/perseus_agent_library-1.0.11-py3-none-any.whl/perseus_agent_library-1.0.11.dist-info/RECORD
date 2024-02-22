@@ -1,0 +1,9 @@
+CHANGELOG.md,sha256=Ku_JSYTtugjw7BJ9gc7zFEM_1YndjXUVJyxJaE19qh8,848
+majormode/__init__.py,sha256=Q1JxYAUZrQ46DgV77S1l0scr_TOvtFHo8ZgfCR9HWik,854
+majormode/perseus/__init__.py,sha256=Q1JxYAUZrQ46DgV77S1l0scr_TOvtFHo8ZgfCR9HWik,854
+majormode/perseus/agent/__init__.py,sha256=Q1JxYAUZrQ46DgV77S1l0scr_TOvtFHo8ZgfCR9HWik,854
+majormode/perseus/agent/base.py,sha256=UeFa1TlhSCHNvBDsf8FpyRHolfdz3dFE0XgQ6FbNHI0,18029
+perseus_agent_library-1.0.11.dist-info/LICENSE.md,sha256=SGzGYGfcyD0_BLq9f3q1aUI5HN5_r2Y20cmHAxGndPY,1089
+perseus_agent_library-1.0.11.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+perseus_agent_library-1.0.11.dist-info/METADATA,sha256=mPDAYcUmHjR35nY1yG6KGHOuTQGHJQ3MQJFOlUw4UTk,1657
+perseus_agent_library-1.0.11.dist-info/RECORD,,
