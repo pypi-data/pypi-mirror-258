@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: DieBohnen
+Version: 0.0.1
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Author-email: Lucas Phillips <lphill57@vols.utk.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/phillipslucas/DieBohnen
+Keywords: DieBohnen
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: DieBohnen[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# DieBohnen
+
+
+[![image](https://img.shields.io/pypi/v/DieBohnen.svg)](https://pypi.python.org/pypi/DieBohnen)
+[![image](https://img.shields.io/conda/vn/conda-forge/DieBohnen.svg)](https://anaconda.org/conda-forge/DieBohnen)
+
+
+**Python Boilerplate contains all the boilerplate you need to create a Python package.**
+
+
+-   Free software: MIT License
+-   Documentation: https://phillipslucas.github.io/DieBohnen
+    
+
+## Features
+
+-   TODO
