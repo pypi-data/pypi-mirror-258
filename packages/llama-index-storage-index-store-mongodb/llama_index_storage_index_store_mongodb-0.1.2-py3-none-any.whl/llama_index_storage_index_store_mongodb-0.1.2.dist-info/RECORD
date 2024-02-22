@@ -1,0 +1,5 @@
+llama_index/storage/index_store/mongodb/__init__.py,sha256=50tHFJqBurNwrtF-0lCDnX5tb6oACYcU8RBiDqOjXvQ,104
+llama_index/storage/index_store/mongodb/base.py,sha256=vOAfQltOb6k2Vur0qkA8rTyg2-1E634R1NfSyKoOeRI,1339
+llama_index_storage_index_store_mongodb-0.1.2.dist-info/METADATA,sha256=igqsMQjN-Q1JsK_JA1BVK3Sx_Dy7xwVeUmkyrnakeEs,746
+llama_index_storage_index_store_mongodb-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_storage_index_store_mongodb-0.1.2.dist-info/RECORD,,
