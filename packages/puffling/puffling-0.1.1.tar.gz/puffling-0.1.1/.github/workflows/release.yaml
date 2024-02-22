@@ -1,0 +1,48 @@
+name: Release
+
+env:
+  UV_VERSION: "0.1.6"
+
+on:
+  push:
+    tags:
+      - "[0-9]+.[0-9]+.[0-9]+"
+      - "[0-9]+.[0-9]+rc[0-9]+"
+      - "[0-9]+.[0-9]+[ab][0-9]+"
+
+jobs:
+  release:
+    name: Release to PyPI
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Set up uv
+        run: |
+          curl --proto '=https' --tlsv1.2 -LsSf https://github.com/astral-sh/uv/releases/download/${{ env.UV_VERSION }}/uv-installer.sh | sh
+
+      - name: Install packages
+        run: |
+          uv venv
+          uv pip install -e "." --no-deps
+          uv pip install -r requirements.txt
+
+      - name: Build self
+        run: |
+          ./.venv/bin/puffling build
+
+      - name: Publish package
+        env:
+          TWINE_USERNAME: "token"
+          TWINE_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: |
+          ./.venv/bin/twine upload dist/*
