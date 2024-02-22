@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ssh_z
+Version: 0.1.0
+Summary: 
+Author: bigzhu
+Author-email: vermiliondun@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: bigzhu-py (>=0.1.3,<0.2.0)
+Description-Content-Type: text/markdown
+
+
