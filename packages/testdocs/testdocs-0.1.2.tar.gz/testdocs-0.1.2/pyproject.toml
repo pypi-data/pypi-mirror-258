@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "testdocs"
+version = "0.1.2"
+description = "doctest++"
+authors = ["Evan Voyles <evan.voyles@intrafentech.com>"]
+readme = "README.md"
+include = [
+    { path = "testdocs" }
+]
+
+[tool.poetry.scripts]
+testdocs = "testdocs:__main__.main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.1"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.10"
+mkdocstrings = {extras = ["python"], version = "^0.24.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff.lint]
+ignore-init-module-imports = true
+fixable = ["I"]
+select = ["E4", "E7", "E9", "F", "I", "D"]
+ignore = ["D105", "D203", "D213"]
