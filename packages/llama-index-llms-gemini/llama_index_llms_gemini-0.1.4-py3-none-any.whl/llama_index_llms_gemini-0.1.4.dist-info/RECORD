@@ -1,0 +1,6 @@
+llama_index/llms/gemini/__init__.py,sha256=yDNZafWHbffXPKuMJAvOMDLivUw5QUsbPa8WLK9DDcw,70
+llama_index/llms/gemini/base.py,sha256=v7Em6i0B2O90ftfT-mSCke0czqlnxKmyf2nZ3OFXqPk,6734
+llama_index/llms/gemini/utils.py,sha256=BFbNvB_Ypc4GOrcuJfvRzeX6MRNks3IO7M5oDjgDSmQ,3856
+llama_index_llms_gemini-0.1.4.dist-info/METADATA,sha256=mISbjGYTwf58P54Pr3apFnjfGutUDdFsH1E32v4QQvk,734
+llama_index_llms_gemini-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_llms_gemini-0.1.4.dist-info/RECORD,,
