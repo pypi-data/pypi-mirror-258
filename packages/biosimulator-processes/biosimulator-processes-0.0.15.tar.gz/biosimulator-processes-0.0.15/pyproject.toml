@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "biosimulator-processes"
+version = "0.0.15"
+description = "Core implementations of process-bigraph.composite.Process aligning with BioSimulators simulator tools."
+authors = ["Alex Patrie <alexanderpatrie@gmail.com>"]
+readme = "README.md"
+packages = [{include = "biosimulator_processes"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+zarr = "*"
+# kisao = ">=2.33"
+termcolor = "*"
+jupyterlab = "*"
+bigraph-schema = "*"
+process-bigraph = "*"
+numpy = "*" # "^1.26.4"
+copasi-basico = "*"
+cobra = "*"
+tellurium = "*"
+smoldyn = "*"
+bigraph-viz = "^0.0.31"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+mypy = ">=1.8.0"
+flake8 = "*"
+twine = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
