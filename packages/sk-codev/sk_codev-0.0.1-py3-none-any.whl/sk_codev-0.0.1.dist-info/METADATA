@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sk-codev
+Version: 0.0.1
+Summary: Codev AI Client for Python
+Home-page: https://github.com/skaicoding/codevclient
+Author: aicoding
+Author-email: aicoding@sk.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: nbformat
+Requires-Dist: ipython
+Requires-Dist: ipynbname
+Requires-Dist: ipylab
+
