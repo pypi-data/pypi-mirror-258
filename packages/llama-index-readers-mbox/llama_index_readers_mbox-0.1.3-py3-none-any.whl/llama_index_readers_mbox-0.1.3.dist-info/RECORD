@@ -1,0 +1,5 @@
+llama_index/readers/mbox/__init__.py,sha256=F6JlraXUmrznHnQ5RDAeUAzM5InpFeb3y1q-Bo26paw,79
+llama_index/readers/mbox/base.py,sha256=pSNy1iX9HHanDFOhNns98sFuOWWTuWBz46HadGO9OqU,1222
+llama_index_readers_mbox-0.1.3.dist-info/METADATA,sha256=WFfI966dESK_bmom1AtNduVnky0GebqZVGjpdClbbR4,722
+llama_index_readers_mbox-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_mbox-0.1.3.dist-info/RECORD,,
