@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: linkage
+Version: 0.1
+Summary: A package for modifying links in HTML files for GitHub preview.
+Home-page: https://github.com/yourusername/your_package
+Author: Ami
+Author-email: idonthavemail@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
