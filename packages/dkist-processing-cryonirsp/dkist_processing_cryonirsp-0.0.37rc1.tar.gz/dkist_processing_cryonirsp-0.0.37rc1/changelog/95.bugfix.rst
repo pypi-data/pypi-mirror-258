@@ -1,0 +1,1 @@
+Added ObsIpStartTimeBud to ramp parser to support parameter access outside of parse tasks
