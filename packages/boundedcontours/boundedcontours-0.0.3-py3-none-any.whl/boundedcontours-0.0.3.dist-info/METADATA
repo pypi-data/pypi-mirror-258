@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: boundedcontours
+Version: 0.0.3
+Summary: Bounded smoothing of 2d arrays/histograms and contour plotting
+License: BSD 2-Clause License
+Project-URL: Homepage, https://github.com/millsjc/boundedcontours
+Project-URL: Issues, https://github.com/millsjc/boundedcontours/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib >=2.1
+Requires-Dist: scipy
+Provides-Extra: examples
+Requires-Dist: plotly ; extra == 'examples'
+Requires-Dist: ipython ; extra == 'examples'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+Gaussian smoothing for 2D arrays where some condition must be maintained e.g. x>y. In the default setting this is achieved by reflection about the boundary before the kernel convolution. See the examples directory.
+
+To install and be able to run the examples:
+```bash
+python -m pip install 'boundedcontours[examples]'
+```
+
+Or from source:
+```bash
+git clone https://github.com/millsjc/boundedcontours
+cd boundedcontours
+python -m pip install '.[examples]'
+```
