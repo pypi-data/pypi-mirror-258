@@ -1,0 +1,7 @@
+numpy
+
+[all]
+spatialtsp[extra]
+
+[extra]
+pandas
