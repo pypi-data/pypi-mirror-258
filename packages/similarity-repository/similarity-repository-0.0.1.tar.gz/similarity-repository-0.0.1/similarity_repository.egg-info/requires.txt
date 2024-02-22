@@ -1,0 +1,27 @@
+pydantic
+scikit-learn
+matplotlib
+requests
+gitpython
+rsatoolbox
+netrep@ git+https://github.com/ahwillia/netrep
+repsim@ git+https://github.com/wrongu/repsim.git
+numpy>=1.17
+brainio@ git+https://github.com/brain-score/brainio
+importlib-metadata<5
+scikit-learn
+scipy
+h5py
+tqdm
+gitpython
+fire
+networkx
+matplotlib
+result_caching@ git+https://github.com/brain-score/result_caching
+jupyter
+pybtex
+peewee
+pillow
+psycopg2-binary
+dsa@ git+https://github.com/mitchellostrow/DSA.git
+msid@ git+https://github.com/xgfs/imd.git
