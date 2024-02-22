@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ncompass
+Version: 0.0.1
+Summary: A package for One-Line-Of-Code (OLOC) accelerate AI model hosting and inference
+Author-email: "nCompass Technologies Inc." <admin@ncompass.tech>
+Project-URL: Homepage, https://github.com/nCompass-tech/nCompass
+Project-URL: Issues, https://github.com/nCompass-tech/nCompass/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx >=0.27.0
+Requires-Dist: aiohttp >=3.9.3
+
+# ncompass
+A software stack built to make the accel of large scale AI models on both GPU and Neuromorphic hardware. With strong PyTorch and Huggingface integration, this is your one-stop shop for comparing and executing ANN and SNN models.
