@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: SkyStaticAnalysis
+Version: 0.2.0a0
+Summary: A pure-python (Python>=3.10) static analysis library providing various interfaces.
+Home-page: https://github.com/hzyrc6011/skystaticanalysis
+Author: hzyrc6011
+Author-email: 1295752786@qq.com
+License: MIT
+Project-URL: Documentation, https://hzyrc6011.github.io/skystaticanalysis/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: clang ~=16.0
+Requires-Dist: libclang ~=16.0
+Requires-Dist: six
+Requires-Dist: psutil
+Requires-Dist: flask
+Requires-Dist: flask-sock
+Requires-Dist: networkx
+Requires-Dist: tqdm
+Requires-Dist: MelodieFuncFlow
+Requires-Dist: ply
+Requires-Dist: dataclasses-json
+Requires-Dist: pydot
+Requires-Dist: websocket-client
+Requires-Dist: requests
+Requires-Dist: strenum ; python_version <= "3.11"
+
+# SkyStaticAnalysis
+
+[![Document-Build](https://github.com/hzyrc6011/skystaticanalysis/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/hzyrc6011/skystaticanalysis/actions/workflows/pages/pages-build-deployment)
+
+A pure-python (Python>=3.10) static analysis library providing various interfaces.
+
+For detailed informations, please visit this webpage:
+[Documentation Website](https://hzyrc6011.github.io/skystaticanalysis/)
+
+## Installation
+
+```bash
+pip install SkyStaticAnalysis
+```
+
+If you would like to run it in jupyter, please install jupyter by the commands below:
+
+```bash
+pip install jupyterlab ipywidgets
+```
+
+## Interfaces
+
+### Clang
+
+Clang interface included some useful functionalities.
+
+## Microservice By MessageQueue
+
+### Task dispatch procedure
+
+- `TaskQueue` and `ResultQueue` are `queue.Queue`s in the server program.
+- `Get Task` and `Push Result` procedures are performed by RESTFUL API.
+
+```mermaid
+sequenceDiagram
+
+participant s as Server
+participant tmq as TaskQueue
+participant rmq as ResultQueue
+participant t1 as Tool1
+participant t2 as Tool2
+
+s ->> tmq: Put task 
+tmq ->> t1: Get task
+t1 ->> t1: handle task
+tmq ->> s: Count remaining tasks
+tmq ->> t2: Get task
+t2 ->> t2: handle task
+tmq ->> s: Count remaining tasks
+t2 ->> rmq: Push result
+t1 ->> rmq: Push result
+rmq ->> s: Listen to result messages
+```
+
+### Status pushing procedure
+
+- A background task running in each tool and pushing the status of tools to scheduler by
+`Websocket` every second.
+
+### Autocompletion Request
+
+```mermaid
+sequenceDiagram
+
+participant s as Server
+participant q as TmpQueue
+participant st as WSRecvThread
+participant t as Tool
+
+s -x q: Create Tmp Queue
+s ->>+ t: WS Request No.145
+activate s
+s -->> s: Blocking get() from TmpQueue
+t -->> t: Compute the autocompletion items
+
+t -->>- st: WS Reply No.145
+activate st
+st ->> st: Match WS Req/Rep by No.
+st -->>+ q: Put reply
+deactivate st
+q -->>- s: q.get() resolved and got the reply
+deactivate s
+s --x q: destroy the TmpQueue
+```
+
+## In-Repo Third Party Dependencies
+
+### [PyC-CFG](https://github.com/shramos/pyc-cfg)
+
+Pyc-cfg is a pure python control flow graph builder for almost all Ansi C programming language.
+
+As the original version only suitable for Python2, I copied its code and made it compatible for python 3.
