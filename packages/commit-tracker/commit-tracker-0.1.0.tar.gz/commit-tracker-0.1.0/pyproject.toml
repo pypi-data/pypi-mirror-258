@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=40.6.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "commit-tracker"
+version = "0.1.0"
+description = "Commit Tracker analyzes Git repositories to present comprehensive statistics, including commit history, contribution patterns, and more, with an interactive and visually appealing interface built with Python, Dash, and Plotly."
+authors = [
+    {name = "André F. Costa", email = "afmcosta@gmail.com"},
+]
+license = {file = "LICENSE"}
+readme = "file: README.md"
+dependencies = [
+    "dash",
+    "GitPython",
+    "pandas",
+    "plotly",
+    "dash-bootstrap-components"
+]
