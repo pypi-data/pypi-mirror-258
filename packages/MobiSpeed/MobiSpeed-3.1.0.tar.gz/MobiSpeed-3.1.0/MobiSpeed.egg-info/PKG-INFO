@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: MobiSpeed
+Version: 3.1.0
+Summary: MobiSpeed VPN autoinstall script ssh-vpn installation module with layered encryption.
+Home-page: UNKNOWN
+Author: Aji permana
+Author-email: admin@MobiSpeed.net
+License: MIT
+Description: UNKNOWN
+Platform: Linux
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

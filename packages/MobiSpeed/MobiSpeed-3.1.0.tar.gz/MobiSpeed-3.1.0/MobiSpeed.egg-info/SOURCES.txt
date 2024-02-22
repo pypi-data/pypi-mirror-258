@@ -1,0 +1,9 @@
+setup.py
+MobiSpeed/__init__.py
+MobiSpeed/module.py
+MobiSpeed.egg-info/PKG-INFO
+MobiSpeed.egg-info/SOURCES.txt
+MobiSpeed.egg-info/dependency_links.txt
+MobiSpeed.egg-info/entry_points.txt
+MobiSpeed.egg-info/requires.txt
+MobiSpeed.egg-info/top_level.txt
