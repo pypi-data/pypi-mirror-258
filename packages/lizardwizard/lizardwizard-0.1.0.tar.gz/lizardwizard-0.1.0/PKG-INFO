@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: lizardwizard
+Version: 0.1.0
+Summary: 
+Author: Jacques Fleischer
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# lizardwizard
+
+<img src="https://i.pinimg.com/originals/81/f4/13/81f4137db4ad67bfd81ae4665c3a4177.png" width="200" height="200">
+
+
+It is time to make reptilian better.
+Introducing lizardwizard.
+
+Use the following in a terminal, on a computer that has Python installed.
+
+```bash
+# making sure you have python
+python -V
+
+pip install lizardwizard
+```

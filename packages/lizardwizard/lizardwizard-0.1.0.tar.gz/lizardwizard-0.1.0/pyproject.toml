@@ -1,0 +1,52 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = [
+    "setuptools >= 69",
+    "wheel >= 0.42",
+    "pip >= 23.2.1"
+]
+
+[project]
+name = "lizardwizard"
+version = "0.1.0"
+description = "A package to ease the use of the Reptilian operating system at the University of Florida."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+dynamic = ["dependencies"]
+authors = [
+    {name = "Jacques Fleischer", email = "j.fleischer@ufl.edu"},
+]
+maintainers = [
+    {name = "Jacques Fleischer", email = "j.fleischer@ufl.edu"},
+]
+keywords = ["reptilian", "operating system", "university of florida"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Topic :: Education",
+]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+lw = "lizardwizard.console:main"
+
+[project.urls]
+Homepage = "https://github.com/jpfleischer/lizardwizard"
+Documentation = "https://github.com/jpfleischer/lizardwizard/blob/main/README.md"
+Repository = "https://github.com/jpfleischer/lizardwizard.git"
+Issues = "https://github.com/jpfleischer/lizardwizard/issues"
+Changelog = "https://github.com/jpfleischer/lizardwizard/blob/main/CHANGELOG.md"
+
+[tool.poetry]
+name = "lizardwizard"
+version = "0.1.0"
+description = ""
+authors = ["Jacques Fleischer"]
+readme = "README.md"
