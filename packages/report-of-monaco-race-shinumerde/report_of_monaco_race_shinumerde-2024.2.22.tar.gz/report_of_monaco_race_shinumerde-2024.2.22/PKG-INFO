@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: report_of_monaco_race_shinumerde
+Version: 2024.2.22
+Summary: A package for task 6
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Author-email: Ruslan Vlasenko <shinumerde@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+#  Report of Monaco 2018 Racing
+
+Report is a command-line tool that show statistic of race.
+
+### Usage
+
+To use Report, follow the instructions below:
+
+### Installation
+
+- Download package from _**PyPi**_ by following command:
+
+```pip install report_of_monaco_race_shinumerde==2024.2.22```
+
+> Make sure you have Python installed on your machine.
+
+### Running the Application:
+
+- Navigate to the **app** directory:
+
+```cd app```
+
+- Run the application using the following command:
+
+```python report.py --file "data folder"```
+
+```python report.py --file <race_data> --asc```
+
+for ascendant sort or
+
+```python report.py --file <race_data> --desc```
+
+for descendant sort
+
+Also you can see statistic for the driver by the command below
+
+```python report.py --file <race_data> --driver "name of driver"```
+
+### Example
+
+```python report.py --file race_data "Lance Stroll"```
+
+This will output:
+```
+ Lance Stroll │ WILLIAMS MERCEDES │ 1:13.323 
+```
+There are name of driver, car team and final time of race.
+
+### License
+>This project is licensed under the GNU Public License - see the LICENSE file for details.
