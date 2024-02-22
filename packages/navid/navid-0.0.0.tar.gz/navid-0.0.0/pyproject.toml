@@ -1,0 +1,8 @@
+name = "navid"
+version = "0.0.1"
+authors = [
+  { name="navid" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"

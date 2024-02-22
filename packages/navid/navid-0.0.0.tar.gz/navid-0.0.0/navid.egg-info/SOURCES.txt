@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+navid/__init__.py
+navid/find_admin_panel.py
+navid/ramz_saz.py
+navid.egg-info/PKG-INFO
+navid.egg-info/SOURCES.txt
+navid.egg-info/dependency_links.txt
+navid.egg-info/top_level.txt
