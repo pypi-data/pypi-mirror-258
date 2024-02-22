@@ -1,0 +1,9 @@
+README.md
+setup.py
+geneticnets/__init__.py
+geneticnets/base.py
+geneticnets.egg-info/PKG-INFO
+geneticnets.egg-info/SOURCES.txt
+geneticnets.egg-info/dependency_links.txt
+geneticnets.egg-info/requires.txt
+geneticnets.egg-info/top_level.txt
