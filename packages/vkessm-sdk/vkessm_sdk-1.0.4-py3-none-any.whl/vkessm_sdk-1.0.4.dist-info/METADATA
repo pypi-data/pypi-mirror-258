@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vkessm-sdk
+Version: 1.0.4
+Summary: vkessm SDK 3. python package
+Home-page: UNKNOWN
+Author: vk
+Author-email: vk@vkrobot.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
