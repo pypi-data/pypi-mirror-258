@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: onequant
+Version: 0.1.2
+Summary: python package for quant trading and ai learning.
+Home-page: https://github.com/xunzhimeng/onequant
+License: Apache-2.0
+Author: recluse
+Author-email: zhiyiquant@foxmail.com
+Requires-Python: >=3.8,<3.12
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=22.10.0,<23.0.0) ; extra == "test"
+Requires-Dist: bump2version (>=1.0.1,<2.0.0) ; extra == "dev"
+Requires-Dist: dynaconf (>=3.1.12,<4.0.0)
+Requires-Dist: flake8 (>=5.0.4,<6.0.0) ; extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0) ; extra == "test"
+Requires-Dist: isort (>=5.10.1,<6.0.0) ; extra == "test"
+Requires-Dist: mkdocs (>=1.3.1,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.4.1,<0.5.0) ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.6.1,<4.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material (>=8.3.9,<9.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocstrings[python] (>=0.19.0,<0.20.0) ; extra == "doc"
+Requires-Dist: mypy (>=0.982,<0.983) ; extra == "test"
+Requires-Dist: pandas (>=2.0.0,<3.0.0)
+Requires-Dist: pip (>=22.2.0,<23.0.0) ; extra == "dev"
+Requires-Dist: pre-commit (>=2.20.0,<3.0.0) ; extra == "dev"
+Requires-Dist: pytest (>=7.1.2,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=4.0.0,<5.0.0) ; extra == "test"
+Requires-Dist: requests (>=2.28.2,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "dev"
+Requires-Dist: tox (>=3.25.1,<4.0.0) ; extra == "dev"
+Requires-Dist: twine (>=4.0.1,<5.0.0) ; extra == "dev"
+Requires-Dist: virtualenv (>=20.16.2,<21.0.0) ; extra == "dev"
+Description-Content-Type: text/markdown
+
+# onequant
+
+
+[![pypi](https://img.shields.io/pypi/v/onequant.svg)](https://pypi.org/project/onequant/)
+[![python](https://img.shields.io/pypi/pyversions/onequant.svg)](https://pypi.org/project/onequant/)
+[![Build Status](https://github.com/xunzhimeng/onequant/actions/workflows/dev.yml/badge.svg)](https://github.com/xunzhimeng/onequant/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/xunzhimeng/onequant/branch/main/graphs/badge.svg)](https://codecov.io/github/xunzhimeng/onequant)
+
+
+
+python package for quant trading and ai learning
+
+
+* Documentation: <https://xunzhimeng.github.io/onequant>
+* GitHub: <https://github.com/xunzhimeng/onequant>
+* PyPI: <https://pypi.org/project/onequant/>
+* Free software: Apache-2.0
+
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [DarkDemiurg/cookiecutter-pypackage](https://github.com/DarkDemiurg/cookiecutter-pypackage) project template.
+
