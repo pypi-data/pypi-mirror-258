@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastapi_telegrambot"
+version = "0.25"
+authors = [
+  { name="knowidea-k", email="knowidea.k@gmail.com" },
+]
+description = "TelegramBot wrapped by FastAPI"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/knowidea-k/fastapi_telegrambot"
+Issues = "https://github.com/knowidea-k/fastapi_telegrambot/issues"
