@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: fastapi_telegrambot
+Version: 0.23.202402
+Summary: TelegramBot wrapped by FastAPI
+Author-email: knowidea-k <knowidea.k@gmail.com>
+Project-URL: Homepage, https://github.com/knowidea-k/fastapi_telegrambot
+Project-URL: Issues, https://github.com/knowidea-k/fastapi_telegrambot/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fastapi-telegrambot
+TelegramBot wrapped by FastAPI
+
+## Prerequisite
+* Create telegram bot. Bot's token is required.
+
+## Usage - Run
+```python
+from fastapi_telegrambot import application
+import uvicorn
+
+uvicorn.run( '{}|application' )
+```
+
+## Usage - API
+* Check the swagger. ( http://{host}:{port}/docs )
+* Send a single text message.
+* Send multiple text messages.
+
+## TODO
+* logger
