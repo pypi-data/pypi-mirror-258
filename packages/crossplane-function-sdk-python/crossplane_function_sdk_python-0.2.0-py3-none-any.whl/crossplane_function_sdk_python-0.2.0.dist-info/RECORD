@@ -1,0 +1,13 @@
+crossplane/function/__version__.py,sha256=slI3JSn1lrsrcIeoO75cN6wfMUWyLx4d1Utz2L4MeQ4,704
+crossplane/function/logging.py,sha256=Zawqq36FBzjkVg4bJ3VGK12-so7N8yAMoSPrhdwpBSA,2503
+crossplane/function/resource.py,sha256=DJhangADTadAcjemKFSirTZcmeCraCzp9XeD_fdyDKw,3251
+crossplane/function/response.py,sha256=fYJcPz5ZVN06hbNWXzy0tBTOMHNYQvj3m9JjWb2qRU8,2429
+crossplane/function/runtime.py,sha256=Nh-nn9bAkfOoXepTTzhNs5nMH8a7JaMfSE2dP5-0E7U,3430
+crossplane/function/proto/v1beta1/run_function.proto,sha256=yfw7XP13fOZt0fH2ttOd0hS0ULOV6ngn4KHJgKKnEKA,9301
+crossplane/function/proto/v1beta1/run_function_pb2.py,sha256=Br7NNcqwTLj3duAidqYF-AzVUGttBoIAT0gcZgH3fAQ,7730
+crossplane/function/proto/v1beta1/run_function_pb2.pyi,sha256=WAuOcfCE79aOZfD0H8I0ooGS2i7pHhj5MR-SHJv927s,7602
+crossplane/function/proto/v1beta1/run_function_pb2_grpc.py,sha256=iLQTF8CHQzjZlBGJUJTWPTfNSmm3ew02zGf6OPIsxVY,3026
+crossplane_function_sdk_python-0.2.0.dist-info/METADATA,sha256=DkXn9Tus_MVDO2AZTmGd37LOi_HJl-RfFmJkiViZRFc,3160
+crossplane_function_sdk_python-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+crossplane_function_sdk_python-0.2.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+crossplane_function_sdk_python-0.2.0.dist-info/RECORD,,
