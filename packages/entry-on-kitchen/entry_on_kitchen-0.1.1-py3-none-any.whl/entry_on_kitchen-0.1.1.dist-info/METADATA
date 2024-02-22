@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: entry-on-kitchen
+Version: 0.1.1
+Summary: A Python module for interacting with entry blocks
+Author: Endevre Technologies
+Author-email: contact@endevre.com
+Requires-Dist: axios
+
