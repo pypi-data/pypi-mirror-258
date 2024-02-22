@@ -1,0 +1,56 @@
+[project]
+name = "seatre"
+version = "1.0.0"
+authors = [
+  { name="Nadzeya Hutsko", email="nadzya.info@gmail.com" },
+]
+description = "Scripts that implement different network attacks"
+readme = "README.md"
+dependencies = ["pylintfileheader", "scapy", "wikipedia"]
+license = { text="GPL-3.0 license" }
+requires-python = ">=3.10"
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Telecommunications Industry",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: POSIX :: Linux",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/nadzyah/seatre"
+"Bug Tracker" = "https://github.com/nadzyah/seatre/issues"
+
+[project.entry-points.console_scripts]
+seatre = "app:main"
+
+[tool.black]
+line-length = 79
+
+[tool.poetry]
+name = "seatre"
+version = "1.0.0"
+description = "Scripts that implement different network attacks"
+authors = ["nadzyah <nadzya.info@gmail.com>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylintfileheader = "^1.0.0"
+scapy = "^2.5.0"
+wikipedia = "^1.4.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+ruff = "^0.2.2"
+flake8 = "^7.0.0"
+pylint = "^3.0.3"
+twine = "^5.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
