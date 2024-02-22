@@ -1,0 +1,5 @@
+include LICENSE changes.md
+recursive-include suncal *.mplstyle
+recursive-include suncal *.pdf
+recursive-include test *.csv *.yaml *.txt
+global-exclude *.pyc *.pyo
