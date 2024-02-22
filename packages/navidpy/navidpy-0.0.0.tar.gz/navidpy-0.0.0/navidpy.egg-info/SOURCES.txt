@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+navidpy/__init__.py
+navidpy.egg-info/PKG-INFO
+navidpy.egg-info/SOURCES.txt
+navidpy.egg-info/dependency_links.txt
+navidpy.egg-info/top_level.txt
