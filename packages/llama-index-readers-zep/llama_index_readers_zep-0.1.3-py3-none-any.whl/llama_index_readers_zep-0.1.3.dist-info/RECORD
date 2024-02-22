@@ -1,0 +1,5 @@
+llama_index/readers/zep/__init__.py,sha256=MR3_U3NMwXjJ34U-ttGVIzia-HXqIU76JenaryjFFjw,76
+llama_index/readers/zep/base.py,sha256=HyhXA1tkjIkmd_RPTYm4NxZganyDerISQUsqsLccPZ8,2515
+llama_index_readers_zep-0.1.3.dist-info/METADATA,sha256=5P9WQ1rxqvX6p8v-H2G9jmbeb7pevrhfsEp54IdFXLM,3620
+llama_index_readers_zep-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_zep-0.1.3.dist-info/RECORD,,
