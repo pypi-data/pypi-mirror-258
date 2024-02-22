@@ -1,0 +1,9 @@
+fastapi_sqlalchemy/__init__.py,sha256=mBghawta9BfproJtLWnPOoHml5B_Z0PQFBXx_Jwp19o,130
+fastapi_sqlalchemy/exceptions.py,sha256=sXt3kujE38rcUecpS_DfhX44d3pB_-BvEpQJxwdytSI,839
+fastapi_sqlalchemy/middleware.py,sha256=mH3XgEcheYW4Fwm5SUuHF3Z5OLLNu_aswmV9ydKmcyw,2867
+fastapi_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+FTSQLALCHEMY-0.2.1.dist-info/LICENSE,sha256=o3vg4avZQlpZyCswjOiF1xcvx_VbgqKpO6SohoTPygM,1073
+FTSQLALCHEMY-0.2.1.dist-info/METADATA,sha256=p_p7IImbVYezK32UC-Q3rbScAZGrK1YqMxN2mV7-7mQ,4432
+FTSQLALCHEMY-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+FTSQLALCHEMY-0.2.1.dist-info/top_level.txt,sha256=u463V6wiHVDm9KNqgG7kXaPhROcINdxu1sKyF1gfug4,19
+FTSQLALCHEMY-0.2.1.dist-info/RECORD,,
