@@ -1,0 +1,9 @@
+fileformats/datascience/__init__.py,sha256=zeynuNek7H_sp0EdiS0vLIG_jjDH9Etyp9lxCgwp5C0,224
+fileformats/datascience/_version.py,sha256=MxUhzLJIZQfEpDTTcKSxciTGrMLd5v2VmMlHa2HGeo0,411
+fileformats/datascience/data.py,sha256=BLaSVrn05OEDvnkKX7i1lZeRqJvxwg4Bd-G_ORHC1gk,1450
+fileformats/datascience/object_serialization.py,sha256=IScLxz0zkdSPhPSlMOTV6L6xtEwdWOOL2PXIin_MApM,542
+fileformats/datascience/scripts.py,sha256=ErtKzk6CwxTQuqXcMYvXPhQ2E8ZoVatS1ufp7TC0Cko,161
+fileformats_datascience-0.2.1.dist-info/METADATA,sha256=w8xz6u2YmL3gzrY9JaYZBUqqMRPiREb5D2HuKWhkP7A,18300
+fileformats_datascience-0.2.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+fileformats_datascience-0.2.1.dist-info/licenses/LICENSE,sha256=s12hb9VeRlj1uxCx7NSbKwRGyTklVA7omWbTLyMhYIs,14222
+fileformats_datascience-0.2.1.dist-info/RECORD,,
