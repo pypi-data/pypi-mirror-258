@@ -1,0 +1,15 @@
+LICENSE.md
+README.rst
+setup.py
+dependency_track_ng.egg-info/PKG-INFO
+dependency_track_ng.egg-info/SOURCES.txt
+dependency_track_ng.egg-info/dependency_links.txt
+dependency_track_ng.egg-info/requires.txt
+dependency_track_ng.egg-info/top_level.txt
+dependencytrack_ng/__init__.py
+dependencytrack_ng/components.py
+dependencytrack_ng/exceptions.py
+dependencytrack_ng/licenses.py
+dependencytrack_ng/projects.py
+dependencytrack_ng/version.py
+dependencytrack_ng/violations.py
