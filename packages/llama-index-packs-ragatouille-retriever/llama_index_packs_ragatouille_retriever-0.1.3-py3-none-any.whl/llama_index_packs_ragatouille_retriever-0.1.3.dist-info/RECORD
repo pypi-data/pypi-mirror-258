@@ -1,0 +1,5 @@
+llama_index/packs/ragatouille_retriever/__init__.py,sha256=Qn3w5IH4-waWnoJBupwDvmbZw4rzXI8jwYALTW4mFt4,122
+llama_index/packs/ragatouille_retriever/base.py,sha256=0kNEztJh6E5xJiu8jauM8etc30QHW3Qh_Vz204fl3SY,4384
+llama_index_packs_ragatouille_retriever-0.1.3.dist-info/METADATA,sha256=6na1NhdpFHLaEZPLcxiGB-ZecALdGAk43-Tuzx77GcA,3025
+llama_index_packs_ragatouille_retriever-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_packs_ragatouille_retriever-0.1.3.dist-info/RECORD,,
