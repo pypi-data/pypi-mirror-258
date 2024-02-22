@@ -1,0 +1,4 @@
+#!python
+from cyb600_rk import main
+
+main.main()
