@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fakeoai
+Version: 0.1.6
+Summary: A Package for local deployment of ChatGPT.
+Home-page: https://github.com/FakeOpenAI/FakeOpenAI
+Author: baobao
+Author-email: yuanbao@fakeopenai.cn
+Keywords: OpenAI ChatGPT
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+
+## FakeOAI
+
+A Package for local deployment of ChatGPT.
