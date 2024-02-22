@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lboxd_scraper
+Version: 0.0.1
+Summary: A package to help scrape letterboxd
+Project-URL: Repository, https://github.com/lukegregorio/lboxd-scraper
+Author-email: Luke Gregorio <author@example.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# letterboxd-scraper
+
+Get data from letterboxd in a flash. Example python repo project.
+
+## Installation
+
+```bash
+pip install letterboxd-scraper
+```
+
+## Usage
+
+```python
+import letterboxd_scraper 
+film = Film("letterboxd.com/movie/parasite-2019/")
+print(film.director)
+``````
