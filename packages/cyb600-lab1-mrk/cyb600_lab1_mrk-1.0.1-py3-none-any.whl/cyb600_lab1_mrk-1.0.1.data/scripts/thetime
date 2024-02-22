@@ -1,0 +1,4 @@
+#!python
+from cyb600_lab1_mrk.main import thetime
+
+thetime()
