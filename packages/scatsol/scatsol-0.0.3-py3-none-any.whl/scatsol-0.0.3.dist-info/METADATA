@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: scatsol
+Version: 0.0.3
+Summary: 
+Author: tiagovla
+Author-email: tiagovla@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: docs
+Requires-Dist: matplotlib (>=3.8.3,<4.0.0)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
