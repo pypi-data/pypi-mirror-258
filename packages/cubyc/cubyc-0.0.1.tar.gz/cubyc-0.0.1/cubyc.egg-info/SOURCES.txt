@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+cubyc/__init__.py
+cubyc.egg-info/PKG-INFO
+cubyc.egg-info/SOURCES.txt
+cubyc.egg-info/dependency_links.txt
+cubyc.egg-info/requires.txt
+cubyc.egg-info/top_level.txt

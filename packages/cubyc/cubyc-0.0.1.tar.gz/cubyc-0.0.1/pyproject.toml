@@ -1,0 +1,18 @@
+[project]
+name = "cubyc"
+version = "0.0.1"
+authors = [
+  { name="Jens Rischbieth", email="jens@cubyc.com" },
+  { name="Esteban Safranchik", email="esteban@cubyc.com" },
+]
+description = "The framework for algorithmic decision-makers."
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["license", "dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://github.com/cubyc-team/cubyc"
+Issues = "https://github.com/cubyc-team/cubyc/issues"
