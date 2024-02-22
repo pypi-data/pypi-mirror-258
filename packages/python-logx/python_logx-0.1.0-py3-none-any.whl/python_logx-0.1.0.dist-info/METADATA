@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-logx
+Version: 0.1.0
+Summary: 
+Author: Lucino772
+Author-email: lucapalmi772@gmail.com
+Requires-Python: >=3.9,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: toml
+Provides-Extra: yaml
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0) ; extra == "yaml"
+Requires-Dist: tomli (>=2.0.1,<3.0.0) ; (python_version < "3.11") and (extra == "toml")
+Requires-Dist: typing-extensions (>=4.9.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# python-log
