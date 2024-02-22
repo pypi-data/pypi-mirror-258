@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: av-checker
+Version: 0.1.0
+Summary: check anything
+Home-page: https://github.com/laanhca/checker
+Download-URL: https://github.com/laanhca/checker
+Author: Anh Van
+Author-email: hikigayakma@gmail.com
+License: MIT
+Keywords: auto,tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE.txt
