@@ -1,0 +1,2 @@
+[console_scripts]
+hebill = hebill.libraries.hebill_system.console:run

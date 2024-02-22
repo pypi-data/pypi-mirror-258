@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hebill
+Version: 1.0.1
+Summary: Python Hebill
+Home-page: https://py.hebill.net
+Author: He Bill
+Author-email: hebill@me.com
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE.rst
+Requires-Dist: Flask==3.0.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: bcrypt==4.1.2
+
+Hebill websites system
