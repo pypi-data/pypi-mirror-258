@@ -1,0 +1,8 @@
+README.md
+setup.py
+HexHue/HexHue.py
+HexHue/__init__.py
+HexHue.egg-info/PKG-INFO
+HexHue.egg-info/SOURCES.txt
+HexHue.egg-info/dependency_links.txt
+HexHue.egg-info/top_level.txt
