@@ -1,0 +1,3 @@
+paho-mqtt<2.0.0
+mqtt_thread
+pyserial>=3.5
