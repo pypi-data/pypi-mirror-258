@@ -1,0 +1,14 @@
+peft_ser/__init__.py,sha256=ThA0BtG57INw8qKkJlTRg8aVrZY3rfyGe-RcjOJuZ70,6899
+peft_ser/example.py,sha256=aVAtLinxW8i_A3-AaTz3FByYAC8P9esygA869MS62B0,3575
+peft_ser/model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peft_ser/model/adapter.py,sha256=yj2G6-Jjr1II_g9_rzDvye7QfJBEvQcCKZHjCiQ0qBs,2376
+peft_ser/model/mms.py,sha256=OL0YVSf4sYRkKS2X4As_Y6RTNGY5ZzXeg3mCZ2sKzao,13678
+peft_ser/model/wav2vec.py,sha256=utEXzQmcRXs4oS7QaqGgsHdpKwHizI_i7y4EOlI2Cgs,10193
+peft_ser/model/wavlm_large.py,sha256=Tg_kRQPVCsth3kmGairhZObUFQ3guHGifF3f_9DexpM,15459
+peft_ser/model/wavlm_plus.py,sha256=63Tqy7dfTqlDLde9P8C3evFxVLtfDnE13t0T2HGtufA,11403
+peft_ser/model/whisper.py,sha256=eCAGM-KljLewvhWr54gF4X8MzECaCniEHsPXmosVyhA,18436
+peft_ser-0.0.5.dist-info/LICENSE,sha256=glOjo5lb-pTmmaDwQt4lW436V_tiGtdHpOPo0mkIAbA,1301
+peft_ser-0.0.5.dist-info/METADATA,sha256=M_Voj6-oYuCb6X4K93R1b7mGhz_tYVkrEi_yDP49lIk,4638
+peft_ser-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+peft_ser-0.0.5.dist-info/top_level.txt,sha256=StsxTa7832fUXlt8GtdqUQuyTP_ssnGF2cj6zsWAQtc,9
+peft_ser-0.0.5.dist-info/RECORD,,
