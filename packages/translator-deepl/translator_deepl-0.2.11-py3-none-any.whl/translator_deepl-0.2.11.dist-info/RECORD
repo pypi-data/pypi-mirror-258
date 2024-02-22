@@ -1,0 +1,17 @@
+srtranslator/__init__.py,sha256=taO7kqeDqdVvBSYbCfF1FQD3dGI7uMX3U0kD4pG8-HU,74
+srtranslator/__main__.py,sha256=vCJZbriH9SXzTAHDIywGxmEh1fy8QlRhWsBdAhnU9LU,2662
+srtranslator/ass_file.py,sha256=ZQTFs8lXCecFL6ajctM6eb-V7M9CKHjghxlTrk3RJ0U,7143
+srtranslator/srt_file.py,sha256=VeNX3opfYlatRS1JC8DTIUHhleLXyzKy-UGgJiDUFJ4,11081
+srtranslator/translators/__init__.py,sha256=vnQu6UEWl4T61Uibao8jEpvk2opmq-7Xlw4f4DraZJc,29
+srtranslator/translators/base.py,sha256=R-pRexq_EGYD_1APsnHeKDvUwjKndcT5dom2IFycxsg,320
+srtranslator/translators/deepl_handler.py,sha256=AUnh6-87pYAAhsaJmkxFDQN-b-PcgJGR0gPieBowjFc,16958
+srtranslator/translators/deepl_scrap.py,sha256=vXYX1rIn6U2b_zo8nHPwGvQgg4sJFi-b3DaHis--o9Y,5466
+srtranslator/translators/pydeeplx.py,sha256=ZlbQ5ORobPy18UR83Rq0AHheqDFk641AT13rVFiaL_0,1917
+srtranslator/translators/selenium_components.py,sha256=L5KUyOD35-moF-AP5HsiZ3sTjNPEelyo6MD5dYJ0xk0,4404
+srtranslator/translators/selenium_utils.py,sha256=_2CQAyxIZuU16S_xLRfA1tsfWd2B1uOD3HpNi4rMkRk,10959
+srtranslator/translators/translatepy.py,sha256=BC27n5AB9W6y9mAPoiSbTmFRQfSUNwlW3MTs3gDsnh8,549
+translator_deepl-0.2.11.dist-info/LICENSE.md,sha256=91bKshvqm0i1xuM38v8rWWyKd2-5tx5jRdjSw5CTb80,471
+translator_deepl-0.2.11.dist-info/METADATA,sha256=RDPWAa5LE-SoznySixrUDw1g-0Zpdrsl68nv7yQoPvk,5984
+translator_deepl-0.2.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+translator_deepl-0.2.11.dist-info/top_level.txt,sha256=O7TUuFGkbC4CPyb3hPNBH36zOr2VTz7XNfma4WjppHo,13
+translator_deepl-0.2.11.dist-info/RECORD,,
