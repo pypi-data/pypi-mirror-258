@@ -1,0 +1,10 @@
+fileformats/medimage_mrtrix3/__init__.py,sha256=vJ-0U-ccfIvVGX7L_fbcyZNRJDB71ey6RpudpURZpP4,286
+fileformats/medimage_mrtrix3/_version.py,sha256=7V2ukxSfzXlOjRj21NN9XMWrUwTZJIQZggSzFRx5qs8,406
+fileformats/medimage_mrtrix3/dwi.py,sha256=sR0qPmNb5g4-oU8DpTw4Jw4YUtc9T1gwFaLZik89d0k,1029
+fileformats/medimage_mrtrix3/image.py,sha256=ic3Hit6bciwfpFQ-SyKKn7o5hhgsscNPmuNNdKrMu4U,3519
+fileformats/medimage_mrtrix3/in_out.py,sha256=XZYplRN8Yr4DT5CvMsL8G2PPkW2dHT6kP9IHy8gMJXA,857
+fileformats/medimage_mrtrix3/track.py,sha256=M6gSvBcsmb8np7vJJu7ftfCjrR75koIJ6TdEjYGFsks,201
+fileformats_medimage_mrtrix3-0.1.dist-info/METADATA,sha256=1OR3Rf-zg5dS5b4wGlyo_Ewyg8IMeEcyNfg4I-EPZ2U,18623
+fileformats_medimage_mrtrix3-0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+fileformats_medimage_mrtrix3-0.1.dist-info/licenses/LICENSE,sha256=s12hb9VeRlj1uxCx7NSbKwRGyTklVA7omWbTLyMhYIs,14222
+fileformats_medimage_mrtrix3-0.1.dist-info/RECORD,,
