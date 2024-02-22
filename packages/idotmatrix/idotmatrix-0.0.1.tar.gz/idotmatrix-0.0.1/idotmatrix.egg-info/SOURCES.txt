@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+idotmatrix.egg-info/PKG-INFO
+idotmatrix.egg-info/SOURCES.txt
+idotmatrix.egg-info/dependency_links.txt
+idotmatrix.egg-info/requires.txt
+idotmatrix.egg-info/top_level.txt
