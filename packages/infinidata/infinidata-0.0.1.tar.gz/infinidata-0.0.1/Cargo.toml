@@ -1,0 +1,36 @@
+cargo-features = ["profile-rustflags"]
+
+[package]
+name = "infinidata"
+version = "0.0.1"
+license = "BSD-3-Clause"
+description = "A Python library for transparently working with datasets much larger than memory."
+homepage = "https://github.com/enolan/infinidata"
+documentation = "https://enolan.github.io/infinidata/"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "infinidata"
+crate-type = ["cdylib"]
+
+[dependencies]
+crossbeam-channel = "0.5.11"
+memmap = "0.7.0"
+mvar = "0.1.1"
+numpy = "0.20.0"
+pyo3 = "0.20.1"
+rand = "0.8.5"
+rkyv = { version = "0.7.43", default-features = false, features = [
+    "alloc",
+    "size_64",
+    "std",
+    "uuid",
+    "validation",
+] }
+uuid = { version = "1.6.1", features = ["v4"] }
+
+[profile.release]
+debug = true
+rustflags = ["-C", "force-frame-pointers=y", "-C", "target-cpu=native"]
+codegen-units = 1
