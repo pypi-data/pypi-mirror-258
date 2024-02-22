@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/vk2gpz/geom/__init__.py
+src/vk2gpz/geom/manifold.py
+src/vk2gpz/geom/util.py
+src/vk2gpz/geom/vertex.py
+src/vk2gpz_geom.egg-info/PKG-INFO
+src/vk2gpz_geom.egg-info/SOURCES.txt
+src/vk2gpz_geom.egg-info/dependency_links.txt
+src/vk2gpz_geom.egg-info/top_level.txt
