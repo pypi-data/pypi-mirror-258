@@ -1,0 +1,10 @@
+nonebot_plugin_txt2img/__init__.py,sha256=bZyc7_yj5xF__QuUPD4JxxRcF5c3JAGFuhUg_mJ7fvg,2524
+nonebot_plugin_txt2img/config.py,sha256=91kC5TrpRL_Cp4M-YJQpSBj0JyVSe-GKvNNanJdMBgU,1044
+nonebot_plugin_txt2img/download.py,sha256=sL21ix--6T43LWuGmY3Yf0pwRqLv_HGiToRCh9luuJ4,2686
+nonebot_plugin_txt2img/model.py,sha256=u4s9hpbNAv0QFxC2yv1bbwBoTOVlNxMlN5B1lGQB2gQ,2623
+nonebot_plugin_txt2img/template.py,sha256=T9IW-ebBEGjHSMReiAfhSigfhgdG7gycDmGbdGrgGK0,767
+nonebot_plugin_txt2img/txt2img.py,sha256=WN-gZq3PvfM50ytvIcH8JB5sgz7peQhy4v8lgT4xxnI,7716
+nonebot_plugin_txt2img-0.4.1.dist-info/LICENSE,sha256=novFZixW2pY0YL2H6VNY2ym_r9ETVoomSg6exHSuIkk,1083
+nonebot_plugin_txt2img-0.4.1.dist-info/METADATA,sha256=QjYB6czDHWlxh9oaS8NvsTvapsVg0kMoVGgntuy0BGk,5375
+nonebot_plugin_txt2img-0.4.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+nonebot_plugin_txt2img-0.4.1.dist-info/RECORD,,
