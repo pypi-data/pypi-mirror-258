@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: aa-fastapi-template
+Version: 0.12.0
+Summary: A robust and sensible baseline for kick-starting any new FastAPI application.
+Home-page: https://github.com/aaron-imbrock/aa-fastapi-template
+License: MIT
+Keywords: fastapi
+Author: Aaron Imbrock
+Author-email: aaron@sizza.net
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: FastAPI
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: asyncpg (>=0.29.0,<0.30.0)
+Requires-Dist: fastapi (>=0.109.2,<0.110.0)
+Requires-Dist: mypy
+Requires-Dist: psycopg2-binary (>=2.9.9,<3.0.0)
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: sqlalchemy (>=2.0.27,<3.0.0)
+Requires-Dist: sqlmodel (>=0.0.16,<0.0.17)
+Requires-Dist: uvicorn (>=0.27.1,<0.28.0)
+Project-URL: Repository, https://github.com/aaron-imbrock/aa-fastapi-template
+Description-Content-Type: text/markdown
+
+
+# AA FastAPI Template
+
+A robust and sensible baseline for kick-starting any new FastAPI applications, and also includes development dependencies from [dev-dependencies](https://pypi.org/project/dev-dependencies/).
+
+## Building a package to release
+
+### Install Dependencies
+
+```shell
+python3 -m pip install --upgrade pip
+pip install --upgrade setuptools build twine
+```
+
+### Tag release
+
+```shell
+git tag v0.1
+git push origin v0.1
+```
+
+### Build a distribution (for releases, do this on main with a fresh tag)
+
+```shell
+python3 -m build
+```
+
+### To first test release that package
+
+```shell
+twine upload --repository testpypi dist/*
+```
+
+### To formally release that package
+
+```shell
+twine upload dist/*
+```
+
+### To see what the current version will be
+
+```shell
+python -m setuptools_scm
+```
+
