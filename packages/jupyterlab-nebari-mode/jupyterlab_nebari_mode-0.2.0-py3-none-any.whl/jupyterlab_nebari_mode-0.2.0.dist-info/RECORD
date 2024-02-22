@@ -1,0 +1,13 @@
+jupyterlab_nebari_mode/__init__.py,sha256=GPqKaSAal5rJKDV_iW6oGEeVUsp17exLdbBtwFfYBnw,602
+jupyterlab_nebari_mode/_version.py,sha256=73xmj_rtt0boRuIZ0h5wqHItFsCNZHTC-Wa0tSeAxyY,171
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/package.json,sha256=-qIPw9W50rux27yQ1HfyrIxl-d_mu5gyE7zYio9A8y4,5947
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/static/388.bf5f2874bb6893f1b327.js,sha256=v18odLtok_GzJzixytomBHGhmVeiru1XRL29U3l1aVQ,4087
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/static/728.1c85c64a5f9c67322320.js,sha256=HIXGSl-cZzIjIGJ0DoRS3m0vjdLdF_4mXZMyZbexOwA,4269
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/static/remoteEntry.a8adceb91cd6f1a1c2ef.js,sha256=qK3OuRzW8aHC7-UiBsCdCYdNJ6X93oSBDfHa-5ND7Dg,6719
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/static/style.js,sha256=g_uB0d8ZM5IX46bQOUGxY6sUdW_FQXNIqtv-j0qd8AY,165
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/static/third-party-licenses.json,sha256=i4z96RB0T1_RGdmoFCyvPxH0skhEL5qSKT9D1EdclF8,2453
+jupyterlab_nebari_mode-0.2.0.data/data/share/jupyter/labextensions/jupyterlab-nebari-mode/install.json,sha256=IiZa3Zo_VwjjEhvOqlib4_tT7hXPA9eAOazxjjbEqjg,205
+jupyterlab_nebari_mode-0.2.0.dist-info/METADATA,sha256=sWu9zuGPpVEW1bF2Nn5OzffFHCwRZncvL68n4jbvLIU,6808
+jupyterlab_nebari_mode-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jupyterlab_nebari_mode-0.2.0.dist-info/licenses/LICENSE,sha256=B5ULvZbyna9TCFJHUkQDtAbR6pAdfqEvejIpYxqHvtM,1531
+jupyterlab_nebari_mode-0.2.0.dist-info/RECORD,,
