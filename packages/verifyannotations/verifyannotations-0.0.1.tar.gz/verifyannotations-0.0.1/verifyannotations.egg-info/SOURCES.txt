@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+verifyannotations/__init__.py
+verifyannotations/verifyannotations.py
+verifyannotations.egg-info/PKG-INFO
+verifyannotations.egg-info/SOURCES.txt
+verifyannotations.egg-info/dependency_links.txt
+verifyannotations.egg-info/requires.txt
+verifyannotations.egg-info/top_level.txt

@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: verifyannotations
+Version: 0.0.1
+Summary: verify YOLO data annotations
+Home-page: https://github.com/george-mountain/verifyannotations
+Author: George Mountain
+License: MIT
+Download-URL: https://github.com/george-mountain/verifyannotations/archive/refs/tags/0.0.1.tar.gz
+Project-URL: Bug Tracker, https://github.com/george-mountain/verifyannotations/issues
+Keywords: pypi,computer vision,machine learning,data annotations,deep learning,verifyannotations,verify data annotations,plot yolo bounding boxes
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+#### Example usage
+
+```
+from verifyannotations import VerifyDataAnnotations
+
+label_folder = "/path/to/labels"  # path to your annotations directory
+image_folder = "/path/to/images"  # path to your images directory
+result_folder = "/path/to/output"  # where to save the results
+image_names_path = "/path/to/image_name_list.txt"  # where to save the image names
+class_path = "/path/to/classes.txt"  # a text file containing the classes in your annotations. one class per one line
+
+verifier = VerifyDataAnnotations(
+    label_folder,
+    image_folder,
+    result_folder,
+    image_names_path,
+    class_path,
+)
+verifier.run_verification()
+
+```
+
