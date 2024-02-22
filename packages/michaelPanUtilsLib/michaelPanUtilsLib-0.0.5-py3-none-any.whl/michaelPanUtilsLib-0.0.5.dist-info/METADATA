@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: michaelPanUtilsLib
+Version: 0.0.5
+Summary: Commonly Used Functions.
+Author: chuntong pan
+Author-email: panzhang1314@gmail.com
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+Requires-Dist: michaelPanPrintLib
+Requires-Dist: numpy
+Requires-Dist: pydantic
+
+# 杂项功能公共库
+
+## 1. 简介
+
+```
+该库为常用功能的集合库，涵盖了工作生活中很多常用的方法。
+```
+
+## 2.具体使用
+
+```
+该库导入时会提示有哪些方法的关键词，使用库中的select_method方法可以查询需要的方法名称，方法中也有相关的使用介绍。
+注：
+	1.本库的所有权归作者本人，任何组织或个人未经授权禁止复制和窃取。
+	2.如果使用过程中有任何bug，请通过以下方式联系作者
+	3.欢迎对方法进行补充完善
+```
+
+## 3.作者及联系方式
+
+```
+# ***************************************************************
+# Maintainers:
+#     chuntong pan <panzhang1314@gmail.com>
+# Date:
+#     2024.02
+# ***************************************************************
+```
+
