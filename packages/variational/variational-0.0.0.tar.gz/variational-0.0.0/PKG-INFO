@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: variational
+Version: 0.0.0
+Summary: Variational Reference SDK
+Author-email: Variational Research <hello@variational.io>
+License-File: LICENSE
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Variational SDK
