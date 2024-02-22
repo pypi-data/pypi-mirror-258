@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SafeKeyGuard.egg-info/PKG-INFO
+SafeKeyGuard.egg-info/SOURCES.txt
+SafeKeyGuard.egg-info/dependency_links.txt
+SafeKeyGuard.egg-info/requires.txt
+SafeKeyGuard.egg-info/top_level.txt
