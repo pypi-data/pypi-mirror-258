@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/SpaceProjectUtils.egg-info/PKG-INFO
+src/SpaceProjectUtils.egg-info/SOURCES.txt
+src/SpaceProjectUtils.egg-info/dependency_links.txt
+src/SpaceProjectUtils.egg-info/top_level.txt
