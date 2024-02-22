@@ -1,0 +1,18 @@
+[project]
+name = "ISMgas"
+version = "0.0.3"
+authors = [
+  { name="Keerthi Vasan G.C.", email="kvch@ucdavis.edu" },
+]
+description = "ISMgas is a python module used to analyze absorption line kinematics of Interstellar Medium gas."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/kvgc/ISMgas"
+Issues = "https://github.com/kvgc/ISMgas/issues"
