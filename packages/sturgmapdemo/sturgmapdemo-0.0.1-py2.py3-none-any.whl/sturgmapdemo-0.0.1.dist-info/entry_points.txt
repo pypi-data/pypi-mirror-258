@@ -1,0 +1,2 @@
+[console_scripts]
+sturgmapdemo = sturgmapdemo.cli:main

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sturgmapdemo
+Version: 0.0.1
+Summary: A python package demo for my real python package named sturgmap
+Author-email: Nathan Sturgill <nsturgi1@vols.utk.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/nathansturgill/sturgmapdemo
+Keywords: sturgmapdemo
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: sturgmapdemo[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# sturgmapdemo
+
+
+[![image](https://img.shields.io/pypi/v/sturgmapdemo.svg)](https://pypi.python.org/pypi/sturgmapdemo)
+[![image](https://img.shields.io/conda/vn/conda-forge/sturgmapdemo.svg)](https://anaconda.org/conda-forge/sturgmapdemo)
+
+
+**A python package demo for my real python package named sturgmap**
+
+
+-   Free software: MIT License
+-   Documentation: https://nathansturgill.github.io/sturgmapdemo
+    
+
+## Features
+
+-   TODO
