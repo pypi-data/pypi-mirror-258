@@ -1,0 +1,210 @@
+Metadata-Version: 2.1
+Name: HexHue
+Version: 0.0.1
+Summary: A simple Windows Terminal ANSI Escape Code Package
+Author: aftxrlifx
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+[![License: CC0-1.0 license](https://img.shields.io/npm/l/badge-maker.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+# HexHue
+
+<details>
+
+<summary>Class 'Text' Usage</summary>
+
+<details>
+<summary>Regular Text Colors</summary>
+
+```py
+Text.GRAY # Changes the color of the text to gray
+```
+```py
+Text.GREY # Changes the color of the text to gray
+```
+```py
+Text.RED # Changes the color of the text to red
+```
+```py
+Text.GREEN # Changes the color of the text to green
+```
+```py
+Text.YELLOW # Changes the color of the text to yellow
+```
+```py
+Text.BLUE # Changes the color of the text to blue
+```
+```py
+Text.MAGENTA # Changes the color of the text to magenta
+```
+```py
+Text.CYAN # Changes the color of the text to cyan
+```
+```py
+Text.WHITE # Changes the color of the text to white
+```
+
+</details>
+
+<details>
+<summary>Lighter Text Colors</summary>
+
+```py
+Text.LIGHT_GRAY # Changes the color of the text to light gray
+```
+```py
+Text.LIGHT_GREY # Changes the color of the text to light gray
+```
+```py
+Text.LIGHT_RED # Changes the color of the text to light red
+```
+```py
+Text.LIGHT_GREEN # Changes the color of the text to light green
+```
+```py
+Text.LIGHT_YELLOW # Changes the color of the text to light yellow
+```
+```py
+Text.LIGHT_BLUE # Changes the color of the text to light blue
+```
+```py
+Text.LIGHT_MAGENTA # Changes the color of the text to light magenta
+```
+```py
+Text.LIGHT_CYAN # Changes the color of the text to light cyan
+```
+```py
+Text.LIGHT_WHITE # Changes the color of the text to light white
+```
+
+</details>
+
+<details>
+<summary>Reset Text Colors</summary>
+
+```py
+Text.RESET # Changes the color of the text to normal
+```
+
+</details>
+</details>
+
+<details>
+
+<summary>Class 'Back' Usage</summary>
+
+<details>
+<summary>Regular Back Colors</summary>
+
+```py
+Back.GRAY # Changes the background color of the text to gray
+```
+```py
+Back.GREY # Changes the background color of the text to gray
+```
+```py
+Back.RED # Changes the background color of the text to red)
+```
+```py
+Back.GREEN # Changes the background color of the text to green
+```
+```py
+Back.YELLOW # Changes the background color of the text to yellow
+```
+```py
+Back.BLUE # Changes the background color of the text to blue
+```
+```py
+Back.MAGENTA # Changes the background color of the text to magenta
+```
+```py
+Back.CYAN # Changes the background color of the text to cyan
+```
+```py
+Back.WHITE # Changes the background color of the text to white
+```
+
+</details>
+
+<details>
+<summary>Lighter Back Colors</summary>
+
+```py
+Back.LIGHT_RED # Changes the background color of the text to light red
+```
+```py
+Back.LIGHT_GREEN # Changes the background color of the text to light green
+```
+```py
+Back.LIGHT_YELLOW # Changes the background color of the text to light yellow
+```
+```py
+Back.LIGHT_BLUE # Changes the background color of the text to light blue
+```
+```py
+Back.LIGHT_MAGENTA # Changes the background color of the text to light magenta
+```
+```py
+Back.LIGHT_CYAN # Changes the background color of the text to light cyan
+```
+```py
+Back.LIGHT_WHITE # Changes the background color of the text to light white
+```
+
+</details>
+
+<details>
+<summary>Reset Back Colors</summary>
+
+```py
+Back.RESET # Changes the background color of the text to normal
+```
+
+</details>
+</details>
+
+<details>
+<summary>Class 'Type' Usage</summary>
+
+
+```py
+Type.BOLD # Changes the format of the text to bold
+```
+```py
+Type.SEMI_BOLD # Changes the format of the text to semi bold
+```
+```py
+Type.NORMAL # Changes the format of the text to normal
+```
+
+</details>
+
+<details>
+<summary>Class 'Hex' Usage</summary>
+
+```py
+Hex.RESET_ALL # Changes the format, text color, and background color to their default settings
+```
+```py
+Hex.NEW_LINE # Creates a newline character, indicating that a new line should begin at that point
+```
+```py
+# Hex.hex(hex_color_code) changes the color ONLY the text to any color provided it's supported in the Windows terminal ANSI color code table.
+# Can be used with or without the '#'
+# Examples:
+Hex.hex('#ff0000') # Changes the text color to red
+Hex.hex('ff0000') # Changes the text color to red
+```
+
+</details>
+
+## License
+No Copyright
+
+The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
+You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission. See Other Information below.
+
+ In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as [publicity or privacy](https://creativecommons.org/publicdomain/zero/1.0/#ref-publicity-rights) rights.
+Unless expressly stated otherwise, the person who associated a work with this deed makes no warranties about the work, and disclaims liability for all uses of the work, to the fullest extent permitted by applicable law.
+When using or citing the work, you should not imply [endorsement](https://creativecommons.org/publicdomain/zero/1.0/#ref-endorsement) by the author or the affirmer.
