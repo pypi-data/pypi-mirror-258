@@ -1,0 +1,3 @@
+[console_scripts]
+leafcutter-cluster = leafcutter.__main__:leafcutter_cluster
+leafcutter-ds = leafcutter.__main__:leafcutter_ds
