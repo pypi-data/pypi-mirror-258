@@ -1,0 +1,6 @@
+hypothesis[numpy]
+matplotlib
+miniball
+plato-draw
+pytest
+pytest-cov
