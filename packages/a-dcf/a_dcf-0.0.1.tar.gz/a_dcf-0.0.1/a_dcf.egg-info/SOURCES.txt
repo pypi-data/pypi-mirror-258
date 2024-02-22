@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+a_dcf.egg-info/PKG-INFO
+a_dcf.egg-info/SOURCES.txt
+a_dcf.egg-info/dependency_links.txt
+a_dcf.egg-info/top_level.txt
