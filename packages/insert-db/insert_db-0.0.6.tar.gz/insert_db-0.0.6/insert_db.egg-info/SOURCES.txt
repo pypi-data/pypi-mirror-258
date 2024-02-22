@@ -1,0 +1,9 @@
+setup.py
+insert_db/__init__.py
+insert_db/insert_db.py
+insert_db.egg-info/PKG-INFO
+insert_db.egg-info/SOURCES.txt
+insert_db.egg-info/dependency_links.txt
+insert_db.egg-info/not-zip-safe
+insert_db.egg-info/requires.txt
+insert_db.egg-info/top_level.txt
