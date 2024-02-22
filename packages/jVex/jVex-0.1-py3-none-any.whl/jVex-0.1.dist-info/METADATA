@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jVex
+Version: 0.1
+Summary: Jonathan's Vex COM Controller
+Author: Jonathan Armstrong
+Author-email: jbarmstrong@me.com
+Keywords: python,vex
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pyserial
+
+This package is a semi-wrapper of the vex python language, which allows for control through a connected computer. The purpose of this is to allow for two main things: non-vex sensors and more intense computational work.
