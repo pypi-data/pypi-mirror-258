@@ -1,0 +1,3 @@
+[console_scripts]
+mpi4all=mpi4all.main:main
+
