@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+sqlalchemy_yugabytedb/__init__.py
+sqlalchemy_yugabytedb/base.py
+sqlalchemy_yugabytedb/psycopg2.py
+sqlalchemy_yugabytedb/requirements.py
+sqlalchemy_yugabytedb.egg-info/PKG-INFO
+sqlalchemy_yugabytedb.egg-info/SOURCES.txt
+sqlalchemy_yugabytedb.egg-info/dependency_links.txt
+sqlalchemy_yugabytedb.egg-info/entry_points.txt
+sqlalchemy_yugabytedb.egg-info/not-zip-safe
+sqlalchemy_yugabytedb.egg-info/requires.txt
+sqlalchemy_yugabytedb.egg-info/top_level.txt
+test/test_suite.py
