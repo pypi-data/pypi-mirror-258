@@ -1,0 +1,2 @@
+[pytest11]
+fixturecollection = pytest_fixturecollection
