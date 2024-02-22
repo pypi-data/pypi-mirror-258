@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: printdirtree
+Version: 0.1.0
+Summary: A utility to print the directory tree structure with customizable exclusions.
+Author: Tim Farrelly
+Author-email: timf34@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE
