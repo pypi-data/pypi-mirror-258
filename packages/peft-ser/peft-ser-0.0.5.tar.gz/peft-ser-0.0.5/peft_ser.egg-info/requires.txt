@@ -1,0 +1,7 @@
+
+[dev]
+pytest
+scipy
+black
+flake8
+isort
