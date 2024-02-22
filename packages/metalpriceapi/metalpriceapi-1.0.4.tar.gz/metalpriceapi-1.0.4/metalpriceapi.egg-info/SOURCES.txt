@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+metalpriceapi/__init__.py
+metalpriceapi/client.py
+metalpriceapi.egg-info/PKG-INFO
+metalpriceapi.egg-info/SOURCES.txt
+metalpriceapi.egg-info/dependency_links.txt
+metalpriceapi.egg-info/requires.txt
+metalpriceapi.egg-info/top_level.txt
