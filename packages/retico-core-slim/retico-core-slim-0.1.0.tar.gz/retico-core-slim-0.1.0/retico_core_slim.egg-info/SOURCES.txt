@@ -1,0 +1,10 @@
+README.md
+setup.py
+slim_common.py
+wac.py
+words_as_classifiers.py
+retico_core_slim.egg-info/PKG-INFO
+retico_core_slim.egg-info/SOURCES.txt
+retico_core_slim.egg-info/dependency_links.txt
+retico_core_slim.egg-info/requires.txt
+retico_core_slim.egg-info/top_level.txt

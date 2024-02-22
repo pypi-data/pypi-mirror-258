@@ -1,0 +1,3 @@
+slim_common
+wac
+words_as_classifiers
