@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+example_agent_sithumi/__init__.py
+example_agent_sithumi/example_agent.py
+example_agent_sithumi.egg-info/PKG-INFO
+example_agent_sithumi.egg-info/SOURCES.txt
+example_agent_sithumi.egg-info/dependency_links.txt
+example_agent_sithumi.egg-info/not-zip-safe
+example_agent_sithumi.egg-info/requires.txt
+example_agent_sithumi.egg-info/top_level.txt
