@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/unicodeart/__init__.py
+src/unicodeart/console.py
+src/unicodeart/cprint.py
+src/unicodeart/global_vars.py
+src/unicodeart/unicodeart.py
+src/unicodeart.egg-info/PKG-INFO
+src/unicodeart.egg-info/SOURCES.txt
+src/unicodeart.egg-info/dependency_links.txt
+src/unicodeart.egg-info/top_level.txt
