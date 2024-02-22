@@ -1,0 +1,17 @@
+narwhals/__init__.py,sha256=LFVeiC59HWYC5zZ6mvAK2_jX5GzjXfV-Sjj93W2xHa0,277
+narwhals/containers.py,sha256=IIJ_UB-UiQNB8eqdpJ3DS2KlvXkHWhDQitRnPz9Ztqc,2545
+narwhals/translate.py,sha256=xRS9tiIUZbfshVefwzcp-H_7Ah3dvSVQSJ19hGG_VZM,2488
+narwhals/utils.py,sha256=JO0tsNvlZfhrfaA6KIcIB_7HFnD2614K9MDYwpJMx9Y,133
+narwhals/pandas_like/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+narwhals/pandas_like/dataframe.py,sha256=NtTDdMHuWkok3F3WCCNHinBWmSNscD5RKc6pHL0Z9X4,10405
+narwhals/pandas_like/expr.py,sha256=Mpe5ltBy1YQcXJViobAp20NOt_nPIZSmPv_nQPOUQh8,8084
+narwhals/pandas_like/group_by.py,sha256=fuWUf7Sojc3olAnZq8_uCx90rkrtwPIxR8P2ApRWlBo,4440
+narwhals/pandas_like/namespace.py,sha256=4JlAeIycmXhkhpcPgzx5UIHqERgvPK9nhEZV-zkniVw,5851
+narwhals/pandas_like/series.py,sha256=uZeFoKL2EOqxJpPcyIIkFFFZQWzbuWtURNaC0INXL2U,9131
+narwhals/pandas_like/translate.py,sha256=yjW8p8-w4UjmYmzKx0t9FTUg_aT6QGdRB9uy8YmCOaw,594
+narwhals/pandas_like/utils.py,sha256=zujzg2jwvd_LSAwM95vnvog4IyFH1iyCoPJmHdzvC_M,9928
+narwhals/spec/__init__.py,sha256=pTOfWBZf9rL6uSbdYrqKzNXoNkXnueUxnr1Y49kCvtk,5876
+narwhals-0.1.9.dist-info/METADATA,sha256=U-3WkKxNUwhhj8nL6Z160Hk4-RTryOEm8Wp2B2Vsg64,5045
+narwhals-0.1.9.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+narwhals-0.1.9.dist-info/licenses/LICENSE.md,sha256=heMD6hta6RzeBucppx59AUCgr_ukRY0ABj0bcrN3mKs,1071
+narwhals-0.1.9.dist-info/RECORD,,
