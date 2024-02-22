@@ -1,0 +1,2 @@
+[console_scripts]
+yabencode = yabencode.command_line:main
