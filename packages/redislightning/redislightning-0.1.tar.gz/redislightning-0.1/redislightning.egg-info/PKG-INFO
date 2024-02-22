@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: redislightning
+Version: 0.1
+Summary: A small production ready client library that emulates redis and used gRPC for communication
+Home-page: https://github.com/gautam-sharma1/redis-lightning
+Author: Gautam Sharma
+Author-email: gautamsharma2813@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
