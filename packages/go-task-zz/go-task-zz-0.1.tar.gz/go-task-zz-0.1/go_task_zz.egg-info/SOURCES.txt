@@ -1,0 +1,7 @@
+README.md
+setup.py
+go_task_zz.egg-info/PKG-INFO
+go_task_zz.egg-info/SOURCES.txt
+go_task_zz.egg-info/dependency_links.txt
+go_task_zz.egg-info/entry_points.txt
+go_task_zz.egg-info/top_level.txt
