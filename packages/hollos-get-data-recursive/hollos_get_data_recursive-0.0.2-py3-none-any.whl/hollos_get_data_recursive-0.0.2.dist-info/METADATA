@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hollos_get_data_recursive
+Version: 0.0.2
+Author: Hollo
+Author-email: hollo1234567890e@gmail.com
+Description-Content-Type: text/markdown
+
+# This is for xml
+xml thing lol
+this was made for the module [hxml](https://pypi.org/project/hxml/)<br/>
+## Here is the code for this module
+```py
+class init:
+    def __init__(self) -> None:
+        pass
+
+    def _get_data_recursive(self, element):
+        if len(element) == 0:
+            return element.text.strip() if element.text else None
+        else:
+            data = {}
+            for child in element:
+                data[child.tag] = self._get_data_recursive(child)
+            return data
+```
