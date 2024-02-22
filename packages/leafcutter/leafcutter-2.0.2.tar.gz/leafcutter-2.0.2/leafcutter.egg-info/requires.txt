@@ -1,0 +1,5 @@
+torch
+pyro-ppl
+scipy>=1.11
+pandas
+scikit-learn
