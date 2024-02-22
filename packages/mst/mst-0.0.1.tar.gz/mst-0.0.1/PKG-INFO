@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mst
+Version: 0.0.1
+Summary: Implementation details for MSTs
+Author-email: Leo Irakliotis <leo@cs.luc.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# COMP 363 
+
+This package hides some implementation details for some algorithms demos
