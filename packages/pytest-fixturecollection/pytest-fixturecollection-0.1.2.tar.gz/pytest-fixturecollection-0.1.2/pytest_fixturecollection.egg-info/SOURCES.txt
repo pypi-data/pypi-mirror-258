@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_fixturecollection.py
+setup.py
+pytest_fixturecollection.egg-info/PKG-INFO
+pytest_fixturecollection.egg-info/SOURCES.txt
+pytest_fixturecollection.egg-info/dependency_links.txt
+pytest_fixturecollection.egg-info/entry_points.txt
+pytest_fixturecollection.egg-info/requires.txt
+pytest_fixturecollection.egg-info/top_level.txt
+tests/test_fixturecollection.py
