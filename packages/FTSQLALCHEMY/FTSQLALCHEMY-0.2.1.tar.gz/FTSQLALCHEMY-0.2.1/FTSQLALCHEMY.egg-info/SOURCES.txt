@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+FTSQLALCHEMY.egg-info/PKG-INFO
+FTSQLALCHEMY.egg-info/SOURCES.txt
+FTSQLALCHEMY.egg-info/dependency_links.txt
+FTSQLALCHEMY.egg-info/not-zip-safe
+FTSQLALCHEMY.egg-info/requires.txt
+FTSQLALCHEMY.egg-info/top_level.txt
+fastapi_sqlalchemy/__init__.py
+fastapi_sqlalchemy/exceptions.py
+fastapi_sqlalchemy/middleware.py
+fastapi_sqlalchemy/py.typed
+tests/test_session.py
