@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: hair-color-detector
+Version: 0.5
+Summary: Package used to get hair color or simularity between two hairs
+Home-page: https://github.com/BryanBetancur/hair-color-detector
+Author: Bryan Betancur
+Author-email: betan2@hotmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: setuptools
+Requires-Dist: Flask>=2.2.2
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: opencv_contrib_python>=4.5.5.62
+Requires-Dist: Pillow>=9.4.0
+Requires-Dist: scikit_image>=0.19.3
+Requires-Dist: torch>=2.0.1
+Requires-Dist: torchvision>=0.15.2
+
+
+
+# Hair Color Detector [pypi](https://pypi.org/project/hair-color-detector/)
+
+Segmentator based from [nganngants/hair-dye-web-app](https://github.com/nganngants/hair-dye-web-app)
+
+## Overview
+
+This project allows you to get hair color of a person from an image. 
+
+Basic Usage
+-----------
+
+```python
+from hair_color_detector import HairColorDetector
+hcd = HairColorDetector()
+hcd.get_color('test.png',  save_result=True, n_clusters=10)
+```
