@@ -1,0 +1,101 @@
+EasyText: A Simple File Handler for Python
+
+
+Install EasyText using pip:
+
+	pip install easytext
+
+Usage:
+
+Import the EasyText module:
+
+from easytext import *
+
+
+Writing and Appending:
+
+append(location_and_name, text, log=False, newline=True): Appends text to a file, optionally adding a newline and logging the action.
+Example:
+
+
+append("my_file.txt", "This is a new line.")
+# Optional: Log the action
+append("my_file.txt", "Another line!", log=True)
+
+
+rewrite(location_and_name, text, log=False): Overwrites the entire content of a file with new text, optionally logging the action.
+Example:
+
+
+rewrite("my_file.txt", "This is the new content.\n")
+
+
+
+create_if_doesnt_exist(location_and_name, text, log=False): Creates a new file and writes text to it, handling existing files gracefully, optionally logging the action.
+Example:
+
+
+create_if_doesnt_exist("new_file.txt", "Hello, world!\n")
+
+
+
+Reading:
+
+read(location_and_name, log=False): Reads the entire content of a file and returns it as a string, optionally logging the action.
+Example:
+
+
+content = read("my_file.txt")
+print(content)
+
+
+
+Clearing and Checking:
+
+clear(location_and_name, log=False): Empties the content of a file, optionally logging the action.
+Example:
+
+
+clear("my_file.txt")
+
+
+
+is_clear(location_and_name, log=False): Checks if a file is empty, returning True if empty, False otherwise, optionally logging the result.
+Example:
+
+
+if is_clear("my_file.txt"):
+    print("The file is empty.")
+
+
+Deleting:
+
+delete(location_and_name): Deletes a file.
+Example:
+
+
+delete("old_file.txt")
+
+
+
+Checking Existence:
+
+does_exist(location_and_name): Checks if a file exists, returning True if exists, False otherwise.
+Example:
+
+
+if does_exist("my_file.txt"):
+    print("The file exists.")
+
+
+
+
+Disclaimer
+
+While EasyText handles common errors and is suitable for learning and small projects, it's not intended for critical or demanding projects due to its limited scope and testing.
+
+
+Additional Notes
+
+The log parameter allows you to control if certain actions are logged for debugging or tracking purposes.
+The newline parameter in append allows you to control whether a newline character is added before the appended text.
