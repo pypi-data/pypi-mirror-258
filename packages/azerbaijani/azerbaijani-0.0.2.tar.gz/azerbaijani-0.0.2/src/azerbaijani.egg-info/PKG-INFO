@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: azerbaijani
+Version: 0.0.2
+Summary: Utility package for Azerbaijani
+Author-email: Jafar Isbarov <cefer.isbarov@gmail.com>
+Project-URL: Homepage, https://github.com/ceferisbarov/azerbaijani
+Project-URL: Issues, https://github.com/ceferisbarov/azerbaijani
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# azerbaijani
+
+Check if your text is in Azerbaijani.
+
+```py
+from azerbaijani import is_azerbaijani
+
+is_azerbaijani("Salam")
+# True
+```
