@@ -1,0 +1,7 @@
+codam/__init__.py,sha256=o0AchBrLaRCvGwz84ECSnXz7oAxUPkDBWbMCR1fPSzA,28
+codam/svm.py,sha256=D9mqpIklgcodFksKHy4cUIrSR_vHzZP0QYrQj7RT6Q4,76
+codam/svm_extension.cpython-39-x86_64-linux-gnu.so,sha256=5cXt0CcdMQ7SrhtfmkCEwCJwJP0IdKzvpB41wyv23VY,143008
+codam-0.1.0.dist-info/METADATA,sha256=Jmg1v2HK3P5p3gTSKwXccneAE2h8waEJr6L8mgF4x1o,170
+codam-0.1.0.dist-info/WHEEL,sha256=8Y9S6Ik-s7MNceKKGr67mQkhaiiZSBnOfdPB59FW31M,108
+codam-0.1.0.dist-info/top_level.txt,sha256=mXOhsMAv0LIa8du2yhQzr20C1imU_5OWrW-a03aiS0w,6
+codam-0.1.0.dist-info/RECORD,,

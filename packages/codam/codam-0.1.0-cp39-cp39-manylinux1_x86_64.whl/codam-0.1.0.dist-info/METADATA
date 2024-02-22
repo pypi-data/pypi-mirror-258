@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: codam
+Version: 0.1.0
+Summary: A sample Python package with a C++ extension.
+Author: ['Runxiong Wu', 'Weyl Lu']
+Requires-Dist: pybind11 >=2.5
+
