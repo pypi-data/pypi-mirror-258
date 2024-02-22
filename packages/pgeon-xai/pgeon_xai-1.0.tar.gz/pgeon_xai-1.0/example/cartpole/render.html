@@ -1,0 +1,73 @@
+<script type="text/Javascript">
+    alert('Hello World!');
+    let neoViz;
+    marked = "s7";
+    config = {
+            containerId: "viz",
+            neo4j: {
+                serverUrl: "bolt://localhost:7687",
+                serverUser: "neo4j",
+                serverPassword: "spain-joker-popular-exotic-parent-8142",
+            },
+            labels: {
+                State: {
+                    label: "uid",
+                    value: "probability",
+                    group: "community",
+                    [NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+                        function: {
+                            color: function (node) {
+                                if (node.properties.uid == marked) {
+                                    return "#ff0000";
+                                } else {
+                                    return null;
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            relationships: {
+                a0: {
+                    label: "name",
+                    caption: true,
+                    value: "probability",
+                    [NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+                        static: {
+                            label: "L",     //content on edge
+                            color: "#ff5378",
+                            font: {
+                                "background": "none",
+                                "strokeWidth": "0",
+                                "size": 20,
+                                "color": "#000000"  //font color on edge
+                            }
+                        }
+                    }
+                },
+                a1: {
+                    label: "name",
+                    value: "probability",
+                    [NeoVis.NEOVIS_ADVANCED_CONFIG]: {
+                        static: {
+                            label: "R",     //content on edge
+                            color: "#461274",
+                            font: {
+                                "background": "none",
+                                "strokeWidth": "0",
+                                "size": 20,
+                                "color": "#000000"  //font color on edge
+                            }
+                        }
+                    }
+                }
+            },
+        };
+
+    function draw() {
+        neoViz = new NeoVis.default(config);
+        neoViz.render();
+    }
+
+    draw();
+</script>
