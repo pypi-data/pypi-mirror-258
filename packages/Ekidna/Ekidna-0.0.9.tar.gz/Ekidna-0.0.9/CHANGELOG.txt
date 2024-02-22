@@ -1,0 +1,27 @@
+Change Log
+===========
+0.0.9 (February 14, 2024)
+-------------------------
+- Ninth Release
+
+Notes:
+------
+Adjusted existing moving_average_baseline_subtraction function to take a new input, max_iter, which
+specifies the maximum number of iterations to be performed by the baseline subtraction algorithm.
+
+
+Added functions (see "module contents" document for descriptions of these functions):
+- running_sd 
+- running_mean 
+- fitRandlesSevcikModels 
+- RS_solution_resistance
+- RS_linear_self_blocking
+- RS_anomalous_diffusion
+- RS_linear_self_blocking_anomalous_diffusion
+- RS_basic
+- plotRSModels
+
+
+Added classes (see "module contents" document for descriptions of classes)
+- double_power_std_curve
+- self_resistance_std_curve
