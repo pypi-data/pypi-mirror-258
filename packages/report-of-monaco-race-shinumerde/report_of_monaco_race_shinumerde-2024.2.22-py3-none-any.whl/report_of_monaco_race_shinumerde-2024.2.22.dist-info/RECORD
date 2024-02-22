@@ -1,0 +1,11 @@
+report_of_monaco_race_shinumerde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+report_of_monaco_race_shinumerde/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+report_of_monaco_race_shinumerde/app/report.py,sha256=1h7m2LpoxfKtVvTwRwLTrxaTO7xVBsNd0nAYgS_fw2I,5753
+report_of_monaco_race_shinumerde/race_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+report_of_monaco_race_shinumerde/race_data/abbreviations.txt,sha256=S7dVcHzBti9iVZ_g72fybOVPCOJA25WcN7HkqJSsmsE,662
+report_of_monaco_race_shinumerde/race_data/end.log,sha256=eLACqVhJw7qqmC0aW5iQElwJ6p4rTsqdAMF9wNyIb_Q,512
+report_of_monaco_race_shinumerde/race_data/start.log,sha256=ygKJdxB-cbtBX3jpznsfA-IRAnHozfRVr9wuxy-R_BY,512
+report_of_monaco_race_shinumerde-2024.2.22.dist-info/METADATA,sha256=Ts03JPW5E8ESNgOxLapJW3bvMP1TkeFfd2Ig1fk-5Yc,1631
+report_of_monaco_race_shinumerde-2024.2.22.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+report_of_monaco_race_shinumerde-2024.2.22.dist-info/licenses/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+report_of_monaco_race_shinumerde-2024.2.22.dist-info/RECORD,,
