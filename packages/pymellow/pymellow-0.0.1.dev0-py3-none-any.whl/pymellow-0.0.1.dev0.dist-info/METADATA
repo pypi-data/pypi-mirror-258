@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pymellow
+Version: 0.0.1.dev0
+Requires-Dist: requests
+Requires-Dist: protobuf
+Requires-Dist: oss2
+Requires-Dist: pandas (<2.0)
+Requires-Dist: urllib3 (<2.0) ; python_version < "3.10"
+Requires-Dist: dataclasses ; python_version < "3.7"
+Requires-Dist: pickle5 ; python_version < "3.8"
+
