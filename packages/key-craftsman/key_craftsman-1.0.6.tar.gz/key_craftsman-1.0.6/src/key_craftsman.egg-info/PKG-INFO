@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: key-craftsman
+Version: 1.0.6
+Summary: A versatile key generation utility designed for generating secure keys with customizable features.
+Home-page: https://github.com/yousefabuz17/KeyCraftsman
+Download-URL: https://github.com/yousefabuz17/KeyCraftsman.git
+Author: Yousef Abuzahrieh
+Author-email: yousefzahrieh17@gmail.com
+License: Apache Software License
+Platform: Windows
+Platform: Linux
+Platform: MacOS
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# KeyCraftsman Documentation
+
+Welcome to the documentation for KeyCraftsman, a Python class designed to generate secure and customizable keys. KeyCraftsman offers various features, including key length specification, character exclusions, URL-safe encoding, key exporting, and more.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+  - [Key Generation](#key-generation)
+  - [Key Length](#key-length)
+  - [Exclude Characters](#exclude-characters)
+  - [Include All Characters](#include-all-characters)
+  - [URL-Safe Encoding](#url-safe-encoding)
+  - [Export Key(s)](#export-keys)
+  - [Custom Text Wrapping](#custom-text-wrapping)
+  - [Multiple Key Generation](#multiple-key-generation)
+  - [Custom Key File Name](#custom-key-file-name)
+  - [Overwrite Key File](#overwrite-key-file)
+- [Parameters](#parameters)
+- [Raises](#raises)
+- [Attributes](#attributes)
+- [Methods](#methods)
+- [Example](#example)
+
+## Installation
+
+KeyCraftsman can be installed using pip:
+
+```bash
+pip install keycraftsman
+```
+
+## Usage
+
+To use KeyCraftsman in your Python project, import the class and create an instance with the desired parameters:
+
+```python
+from keycraftsman import KeyCraftsman
+
+key_gen = KeyCraftsman(key_length=32, num_of_keys=2, include_all_chars=False, encoded=True)
+
+key = key_gen.key  # Retrieve a single generated key.
+keys = key_gen.keys  # Retrieve a dictionary of multiple generated keys.
+
+key_gen.export_key()  # Export the generated key to a file.
+key_gen.export_keys()  # Export multiple generated keys to a JSON file.
+```
+
+## Features
+
+### Key Generation
+
+Generate secure and customizable keys with various parameters.
+
+### Key Length
+
+Specify the length of the generated keys.
+
+### Exclude Characters
+
+Exclude specific characters from the generated keys.
+
+### Include All Characters
+
+Include all ASCII letters, digits, and punctuation in the generated keys.
+
+### URL-Safe Encoding
+
+Utilize URL-safe base64 encoding for generated keys.
+
+### Export Key(s)
+
+Export the generated key(s) to a file with optional formatting.
+
+- File will be created in the current working directory based on the `keyfile_name` provided.
+
+### Custom Text Wrapping
+
+Wrap the generated key with a custom separator.
+
+### Multiple Key Generation
+
+Generate multiple keys with a single instance.
+
+### Custom Key File Name
+
+Specify a custom name for the exported key file.
+
+### Overwrite Key File
+
+Overwrite the key file if it already exists.
+
+## Parameters
+
+- `key_length` (int): The length of the generated key. Defaults to 32.
+  - The key length must be a positive integer.
+  - The maximum capacity is determined by the system's maximum integer size.
+- `exclude_chars` (str): Characters to exclude from the generated key.
+  - If not specified, no characters will be excluded.
+  - Use the `return_chart` parameter from `char_excluder()` to view all possible exclude types.
+  - Whitespace characters are automatically excluded from the charset.
+- `include_all_chars` (bool): Whether to include all characters (ASCII letters, digits, and punctuation).
+- `encoded` (bool): Whether to use URL-safe base64 encoding. Defaults to False.
+  - If True, the generated key will be encoded using URL-safe base64 encoding.
+- `num_of_keys` (int): Number of keys to generate when using `export_keys()`.
+  - If not specified, the default number of keys is 2.
+  - The maximum number of keys is determined by the system's maximum integer size.
+- `sep` (str): The specified separator for text wrapping.
+  - If not specified, the key will not be wrapped with a separator.
+  - It is recommended to use one character of any standard characters for the separator (e.g., ascii_letters, digits).
+- `sep_width` (int): Width for text wrapping when using separators.
+  - If not specified, the default width is 4.
+  - The width must be 1 less than the key length to prevent the separator from being excluded.
+  - The width is only applicable when using separators.
+- `keyfile_name` (str): Name of the file when exporting key(s).
+  - If not specified, a default file name will be used.
+  - The default file name is 'generated_key' for single keys and 'generated_keys' for multiple keys.
+- `overwrite_keyfile` (bool): Whether to overwrite the key file if it already exists.
+  - If False, a unique file name will be generated to avoid overwriting the existing file.
+  - If True, the existing file will be overwritten with the new key(s).
+
+## Raises
+
+- `NotImplementedError`: When combining URL-safe encoding with custom text wrapping separators.
+- `KeyException`: When specifying both 'exclude_chars' and 'include_all_chars' parameters.
+
+## Attributes
+
+- `key`: Cached property to retrieve a single generated key.
+- `keys`: Cached property to retrieve a dictionary of multiple generated keys.
+- `_ALL_CHARS`: Class attribute containing all ASCII letters, digits, and punctuation.
+  - abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~
+- `_MIN_CAPACITY`: Class attribute defining the minimum key capacity (Value: 100_000).
+- `_MAX_CAPACITY`: Class attribute defining the maximum key capacity (Value: 9223372036854775807).
+- `_EXECUTOR`: Class attribute for the ThreadPoolExecutor.
+
+## Methods
+
+- `export_key()`: Exports the generated key to a file.
+- `export_keys()`: Exports multiple generated keys to a JSON file.
+
+## Example
+
+```python
+key_gen = KeyCraftsman(key_length=32, num_of_keys=2, include_all_chars=False, encoded=True)
+
+key = key
+
+_gen.key  # Retrieve a single generated key.
+keys = key_gen.keys  # Retrieve a dictionary of multiple generated keys.
+
+key_gen.export_key()  # Export the generated key to a file.
+key_gen.export_keys()  # Export multiple generated keys to a JSON file.
+```
+
+For detailed information on each feature and parameter, refer to the respective sections in this documentation. Feel free to explore and tailor KeyCraftsman to suit your specific key generation needs.
