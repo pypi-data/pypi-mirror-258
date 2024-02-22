@@ -1,0 +1,5 @@
+llama_index/readers/docstring_walker/__init__.py,sha256=mucShKbwlOfUQxAOQ43P28Z9xj1eDrjHg0rCozHNrGU,118
+llama_index/readers/docstring_walker/base.py,sha256=xyVSek_SP6eeTh0EyJFFkuU3lLxBHfRN9Z1wmhwQ6VY,7431
+llama_index_readers_docstring_walker-0.1.3.dist-info/METADATA,sha256=MfscWFenQO2SpHQ9jwQMAkDiT8KC3l9FuhcjBwVxjbY,7270
+llama_index_readers_docstring_walker-0.1.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_docstring_walker-0.1.3.dist-info/RECORD,,
