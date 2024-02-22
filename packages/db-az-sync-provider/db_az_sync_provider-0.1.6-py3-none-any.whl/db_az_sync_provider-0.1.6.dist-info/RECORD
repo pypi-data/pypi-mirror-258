@@ -1,0 +1,11 @@
+db_az_sync_provider-0.1.6.dist-info/METADATA,sha256=YctMJA5eYY22ViwMo0DiRJ-vYl1LF6ss_pgGRwbI7dw,3221
+db_az_sync_provider-0.1.6.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+db_az_sync_provider-0.1.6.dist-info/entry_points.txt,sha256=lacTDetZxmd4UNw-WlDQH97wPMh18vOmM8uUyB5xMZM,71
+db_az_sync_provider/__init__.py,sha256=sutCDbUNoHYDm2Rja7Vh9F5e2rCzQI3gTfn-b9NM750,77
+db_az_sync_provider/azure_identity.py,sha256=v9GthxLg96H11uN14L_9KSVgfzjXwQk6WCy7psZ-8Ek,5973
+db_az_sync_provider/databricks_identity.py,sha256=WppsUCxEnyn3j3-noppFcROihQ2tKT0M6WtJ7NswAd4,12804
+db_az_sync_provider/main.py,sha256=nhmM9htJOf6qwKaA08la02LrXkuXMawioljSwRwNLr4,5391
+db_az_sync_provider/one_way_match.py,sha256=79taF0WOIm466hX1EG_S9flAg31TU-ZLdlAhyOj5dFQ,10557
+db_az_sync_provider/sync_classes.py,sha256=q6wwPd9ZF8caqApDi_7q1F5LiPzpBaqY1eTodIJ30dI,8896
+db_az_sync_provider/yaml_parser.py,sha256=CcT51QYUFH6xOcrD0OulK9W8DKinaBNC_rImI2yhdRo,1020
+db_az_sync_provider-0.1.6.dist-info/RECORD,,

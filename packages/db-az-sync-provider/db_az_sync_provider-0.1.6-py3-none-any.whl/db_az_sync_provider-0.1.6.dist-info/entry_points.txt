@@ -1,0 +1,3 @@
+[console_scripts]
+db-az-sync-provider = db_az_sync_provider.main:main
+
