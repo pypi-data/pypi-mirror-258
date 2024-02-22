@@ -1,0 +1,4 @@
+[console_scripts]
+build-ui = burr.cli.__main__:cli_build_ui
+publish = burr.cli.__main__:cli_build_and_publish
+server = burr.cli.__main__:cli_run_server
