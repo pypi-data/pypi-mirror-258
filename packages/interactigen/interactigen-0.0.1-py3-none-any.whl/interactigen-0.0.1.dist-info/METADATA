@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: interactigen
+Version: 0.0.1
+Summary: Python module for interactional generation.
+Home-page: https://github.com/sitinc/interactigen-py
+License: MIT
+Author: Justin Randall
+Author-email: justin@sitinc.net
+Requires-Python: >=3.9,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: langchain-core (>=0.1.25,<0.2.0)
+Project-URL: Documentation, https://github.com/sitinc/interactigen-py
+Project-URL: Repository, https://github.com/sitinc/interactigen-py
