@@ -1,0 +1,5 @@
+llama_index/vector_stores/zep/__init__.py,sha256=dUpV-xLZPSzm9fpavjBN80LQ_2kzT2bio0Z7fbYJ5f4,92
+llama_index/vector_stores/zep/base.py,sha256=w2WCFe8QKiNgCmkcbhbRtPJwm8GOFs9zzTYVEsud3O4,10924
+llama_index_vector_stores_zep-0.1.2.dist-info/METADATA,sha256=7FNKXGyNL_B5mANP_KYJ1ziKVkN6yYPxf9foqDP5Y0s,697
+llama_index_vector_stores_zep-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_zep-0.1.2.dist-info/RECORD,,
