@@ -1,0 +1,5 @@
+llama_index/vector_stores/tair/__init__.py,sha256=hfEntGOaNtHylcKCBkrIUBiF7onnNI5OsPtFKT1WoF0,95
+llama_index/vector_stores/tair/base.py,sha256=_A_TO_pHO-8qeH5aAvvgaFaSSGauroAuk1zQatsRl0o,8352
+llama_index_vector_stores_tair-0.1.2.dist-info/METADATA,sha256=qfOHvdXcGpfTS1ghLEzorn6_e4I_R86kxiBF5y2dCD8,694
+llama_index_vector_stores_tair-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_vector_stores_tair-0.1.2.dist-info/RECORD,,
