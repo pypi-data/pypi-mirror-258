@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+app/fastapi_telegrambot.egg-info/PKG-INFO
+app/fastapi_telegrambot.egg-info/SOURCES.txt
+app/fastapi_telegrambot.egg-info/dependency_links.txt
+app/fastapi_telegrambot.egg-info/requires.txt
+app/fastapi_telegrambot.egg-info/top_level.txt
+app/telbot/__init__.py
+app/telbot/message.py

@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+asyncio
+python-telegram-bot
+setuptools
+pydantic
