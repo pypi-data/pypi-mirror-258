@@ -1,0 +1,16 @@
+llmbanter/bots/bot_base.py,sha256=USVFSBFgUWSKjV5tzwQA79OamBHSF9n2du6oJTgH-x4,4378
+llmbanter/bots/bot_pair.py,sha256=fdfk25hm-PnohnFsHltwWqxzi5700YC_lWgIjiXvLSs,1020
+llmbanter/bots/bot_types.py,sha256=ZqiomVmZ0WNqc2wC2EKPH5anIpPk1Fel42AMwFgI3vo,7502
+llmbanter/bots/conversation.py,sha256=ExDH7aBqkl7CBuPH1ybYsbbwxVnu4g8JKj1u5zoFML0,7727
+llmbanter/console.py,sha256=sA9fwJOvPykhk3nBDKQKW7Pwm85UWlbqOxzLrWJYics,4384
+llmbanter/library/classes.py,sha256=o1N1T3P8t_F2WW-9kwysPQyKqJde2pbeSrdBeoO9vf8,226
+llmbanter/library/consts.py,sha256=iX_w6GDLN3iy-GXYdqECV_7wJnw78Kt6tBH4qjAo1So,510
+llmbanter/library/env.py,sha256=Die1WPmGp59iFzjlDb3F_6OJAs0Cp9U91ozJaqID_yE,469
+llmbanter/library/llm.py,sha256=UvAbewohhV_qtOvDQ0zBX_HnZADajC6h3IFJqYkGnho,2858
+llmbanter/library/log.py,sha256=mclaAlRwbnikhOc-0X_HtiPHAn4G0qEavgNqDgmNuTc,457
+llmbanter/library/sound.py,sha256=z3oTU1ZOmU28aCBWAX_YY1y0fZ4KHHlPfSTsrCXVOJk,3085
+llmbanter-0.1.0.dist-info/LICENSE,sha256=VmIdG-GMag9no04OkFOnKFYVqn48USxeKCB8jNdNyKA,1066
+llmbanter-0.1.0.dist-info/METADATA,sha256=nBLM0SBPRRDAOBuUt0YffzOtht5KVy8JSD_S1KEu4bE,2371
+llmbanter-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llmbanter-0.1.0.dist-info/entry_points.txt,sha256=AFXvOUA23FRtLkKdXMotkZZ1ClX5_LY5Mk5FcDEQj7A,57
+llmbanter-0.1.0.dist-info/RECORD,,
