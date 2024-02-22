@@ -1,0 +1,4 @@
+#!python
+from csc_cyb600_time import main
+
+say_time_class()
