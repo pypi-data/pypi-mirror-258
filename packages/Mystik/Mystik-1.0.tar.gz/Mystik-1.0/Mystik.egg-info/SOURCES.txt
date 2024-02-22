@@ -1,0 +1,6 @@
+README.md
+setup.py
+Mystik.egg-info/PKG-INFO
+Mystik.egg-info/SOURCES.txt
+Mystik.egg-info/dependency_links.txt
+Mystik.egg-info/top_level.txt
