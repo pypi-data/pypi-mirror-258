@@ -1,0 +1,10 @@
+numpy
+pandas
+geemap
+leafmap
+
+[all]
+geohub[extra]
+
+[extra]
+pandas
