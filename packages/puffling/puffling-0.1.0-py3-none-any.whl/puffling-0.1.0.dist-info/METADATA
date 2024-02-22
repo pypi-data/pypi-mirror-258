@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: puffling
+Version: 0.1.0
+Summary: A test Python backend.
+Author-email: Zanie Blue <contact@zanie.dev>
+License-Expression: MIT
+License-File: LICENSE-APACHE
+License-File: LICENSE-MIT
+Keywords: build,packaging,testing
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Requires-Dist: packaging>=21.3
+Requires-Dist: pathspec>=0.10.1
+Requires-Dist: pluggy>=1.0.0
+Requires-Dist: tomli>=1.2.2; python_version < '3.11'
+Requires-Dist: trove-classifiers
+Provides-Extra: dev
+Requires-Dist: ruff; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# Puffling
+
+## Acknowlegements
+
+This is a fork of [hatchling](https://github.com/pypa/hatch/tree/master/backend) by Ofek Lev which is available under the [MIT license](https://github.com/pypa/hatch/blob/a5f62c2f298e7da39f1ca19877a362e8e97c2c24/backend/LICENSE.txt).
+
+This project only exists for test purposes and should not be used to build projects in production.
