@@ -1,0 +1,10 @@
+jsonschema_markdown/__init__.py,sha256=6UdpCb2kIhAJZ3NiKvVW6E630TOBKjuml9zDpwUlZJw,81
+jsonschema_markdown/converter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_markdown/converter/markdown.py,sha256=-mRotFBrhzUmYAL0s3_z2EYXtoCkcL_LrNhJAynfKwc,12993
+jsonschema_markdown/main.py,sha256=agZNk3T9Cb3dhvNB7SM1Gdisr29sz7qMeS2HRkIdkv8,1306
+jsonschema_markdown/utils.py,sha256=wuX8LRp7qzgFsw5GnONXlVbcMagARVipRGTh5vP2L20,1103
+jsonschema_markdown-0.3.1.dist-info/LICENSE,sha256=axN1TC4zNO_qVsrYheL5eB8fg6N4djrQEGgJY4NeMhU,1073
+jsonschema_markdown-0.3.1.dist-info/METADATA,sha256=6u2BYRtpTJaGPBLKwJH0mXLCkS0rNXoDY7l3kFc_qA0,4097
+jsonschema_markdown-0.3.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+jsonschema_markdown-0.3.1.dist-info/entry_points.txt,sha256=M6MzkSl1InYyJeflgFfh1Ewa-KluWxOWvDMWsSA7hrY,68
+jsonschema_markdown-0.3.1.dist-info/RECORD,,
