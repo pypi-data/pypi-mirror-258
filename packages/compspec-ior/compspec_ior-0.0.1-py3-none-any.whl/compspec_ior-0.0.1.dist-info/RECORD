@@ -1,0 +1,11 @@
+compspec_ior/__init__.py,sha256=LZLSAQQsLSSPo3h6eqDNs0ZQLIbetDbW9muvlBX1h9A,60
+compspec_ior/defaults.py,sha256=ZiV0GzmtyJ6ZBWh-GUVQW97Vc2Zm1hYxu9srIh3EZew,199
+compspec_ior/plugin.py,sha256=uyr8e21jOsj5uMXYXOLpV13kGfmjxzSdUFqRkuNBKgs,4796
+compspec_ior/schema.json,sha256=cCnjfp9yA9PX1LNbkfummke8hwm2tcNBiwLG-R7-JRE,21434
+compspec_ior/version.py,sha256=mQv417XY4E5aJ5_bR3Qf_R8-GJTlOn99pLKl4gyqhow,711
+compspec_ior-0.0.1.dist-info/LICENSE,sha256=c-Qv229c0h91p7gWC7TG2cjSnxzPKHxqkMTnZlcl6l8,1103
+compspec_ior-0.0.1.dist-info/METADATA,sha256=Cm00FDbWXDH2K7ClK3yqvX0IqmSkXfZlwGQT43ZpMGM,10886
+compspec_ior-0.0.1.dist-info/NOTICE,sha256=9CR93geVKl_4ZrJORbXN0fzkEM2y4DglWhY1hn9ZwQw,1167
+compspec_ior-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+compspec_ior-0.0.1.dist-info/top_level.txt,sha256=KY9RfaqAnR6hXiPiDclgdC6Y4PFRNvf1LH8yocUdxjM,13
+compspec_ior-0.0.1.dist-info/RECORD,,
