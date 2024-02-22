@@ -1,0 +1,25 @@
+[project]
+name = "cucopy"
+version = "1.0"
+authors = [
+  { name="Julian Schönau", email="j.schoenau@fz-juelich.de" },
+]
+description = "The CuCoPy package provides methods for exchanging currencies and adjusting monetary values for inflation until 1960 on a yearly basis."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/FZJ-IEK3-VSA/CuCoPy"
+Issues = "https://github.com/FZJ-IEK3-VSA/CuCoPy/issues"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"

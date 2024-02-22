@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+cucopy/__init__.py
+cucopy/currency.py
+cucopy/parser.py
+cucopy/utils.py
+cucopy.egg-info/PKG-INFO
+cucopy.egg-info/SOURCES.txt
+cucopy.egg-info/dependency_links.txt
+cucopy.egg-info/top_level.txt
