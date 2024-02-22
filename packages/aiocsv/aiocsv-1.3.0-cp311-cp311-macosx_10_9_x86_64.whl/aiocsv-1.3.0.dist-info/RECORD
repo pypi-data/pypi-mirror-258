@@ -1,0 +1,14 @@
+aiocsv/readers.py,sha256=eabc1_-9e6dhO5JmSOJFAva34vrTcnk6yyvxHMi-bRo,3664
+aiocsv/protocols.py,sha256=Si9iJJrNIyRggvZPZLDzhJgSZHxJmx5Ms9EC-BbLFfo,477
+aiocsv/_parser.cpython-311-darwin.so,sha256=fT6YuZ9KLlP0zhRF4DHI6VO8YDofP1ut6_2pISmiVWg,37768
+aiocsv/__init__.py,sha256=p3I5k2EUyMojh1aEQrPvBqJLeC8w58x2n5iq02B3NmM,697
+aiocsv/writers.py,sha256=E8NEoAGX-oTCvtxf9ptVY3OTbIxTJVpugGtcC4jyfUg,3662
+aiocsv/parser.py,sha256=RAdc1pXdwGnisQU5yyKFKscPL7i1snhRfaJriohjWFA,10204
+aiocsv/_parser.pyi,sha256=5PwkHF1F2PUMaKkO91hhiy4GR6rF83nMWU1WnineAjs,505
+aiocsv/_parser.c,sha256=A1WLEM_s1CbUmEvOcJjIm44KB868DNskV1qaUBDdjOk,31928
+aiocsv/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiocsv-1.3.0.dist-info/RECORD,,
+aiocsv-1.3.0.dist-info/LICENSE,sha256=KJOoer4F5NIuwzBbqgj11kTuOHzjAy_BmyshmG9_awk,1065
+aiocsv-1.3.0.dist-info/WHEEL,sha256=2rnFQKN1y4ODxAzmbuA5Z6aEng-PoJTYpqGpnJDGdxw,111
+aiocsv-1.3.0.dist-info/top_level.txt,sha256=OdDe092gj_o74s619Yjp23cCp_nTyoAWvFgC5K4ZlXQ,7
+aiocsv-1.3.0.dist-info/METADATA,sha256=JomahYoTBLPGZsErYjc2M4klVza16617QM1YtCPSI78,7384
