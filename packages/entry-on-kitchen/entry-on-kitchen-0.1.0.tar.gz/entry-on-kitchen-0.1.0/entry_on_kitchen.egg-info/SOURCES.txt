@@ -1,0 +1,8 @@
+setup.py
+entry-on-kitchen/__init__.py
+entry-on-kitchen/entryblock.py
+entry_on_kitchen.egg-info/PKG-INFO
+entry_on_kitchen.egg-info/SOURCES.txt
+entry_on_kitchen.egg-info/dependency_links.txt
+entry_on_kitchen.egg-info/requires.txt
+entry_on_kitchen.egg-info/top_level.txt
