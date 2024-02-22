@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SpaceProjectUtils
+Version: 1.0.0.dev0
+Summary: Un projet vous évitant des lignes de code redondante.
+Home-page: https://pypi.org/manage/projects/projectutils
+Author: SpaceCorp
+Author-email: sp4c1xyt@gmail.com
+License: LICENSE
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Topic :: Utilities
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3
+License-File: LICENSE
+
