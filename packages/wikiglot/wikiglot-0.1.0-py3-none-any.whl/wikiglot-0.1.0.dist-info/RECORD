@@ -1,0 +1,16 @@
+wikiglot/__init__.py,sha256=WzFcSqdmWBQsgqeovro0A9-D4Gmyio3NdR62ML99f0I,84
+wikiglot/utils.py,sha256=BSRu7tVts-t9TMMnxmtZC3Mu31qY3GvGilKWlT0TQLg,563
+wikiglot/wiktionary.py,sha256=2kAT01bJZbxA7kkdXRWDFSP3q1DJimzXW4YI-MJQWY4,8686
+wikiglot/data/da_lang_abbr.json,sha256=z50z9ab9WAqqC5TiWtrekicLxI-CWtrrh9m62V8JbeQ,5713
+wikiglot/data/en_form_of.txt,sha256=icsbTbotIf-eyez3TovHtseP_wRG5-oQLpDPpd1_qno,2108
+wikiglot/data/en_lang_abbr.json,sha256=2EpHIsbyaekmYBwecXZGd4rev6i-rIOCaxe1rgGB_GU,182682
+wikiglot/data/sv_lang_abbr.json,sha256=xrmMHXEkR-eKenDOdSpgt3a7XmJvyznsVsw1qMe-Hqw,10437
+wikiglot/locale/__init__.py,sha256=RMtzOTqwgI1mPoloWRUjN-ZKXPPStHdUsghX0wa3EwU,93
+wikiglot/locale/locale.py,sha256=5iqBAwxvblA_9lO1AOPGWWvEgTV_abMv2IEpevAHd34,1030
+wikiglot/locale/da/__init__.py,sha256=MKFFNbmmaPPQrZx5aMhFf_ZrQYFZpx3IOjF6RenKhYE,4288
+wikiglot/locale/en/__init__.py,sha256=EjJ0RPZRKAYdlYjVsCLliSfG_iE1hJn0UxZ8Y32DmOU,6172
+wikiglot/locale/sv/__init__.py,sha256=KgZtwiYBijY4jtc5PAP_iBjlO3ZaZpjLJpBxmtFdtlg,3791
+wikiglot-0.1.0.dist-info/METADATA,sha256=YLHxmzmtxfZjixgS244G6ckdQ3sWmpxCTN7tPoMSE4I,4040
+wikiglot-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+wikiglot-0.1.0.dist-info/licenses/LICENSE,sha256=NnhxzrrCv_z6EDM5XPgKkza_8XEy9ActjMT7wW2vUqU,1070
+wikiglot-0.1.0.dist-info/RECORD,,
