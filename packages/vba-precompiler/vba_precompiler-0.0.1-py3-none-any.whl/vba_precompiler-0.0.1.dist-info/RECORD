@@ -1,0 +1,9 @@
+vba_precompiler/__init__.py,sha256=U7XiGAmKLV7c1YP9KYLirB-Rcb1q6cFsK5JXyROwbtY,8
+vba_precompiler/__main__.py,sha256=1jjh2HO_P86b0zh5BnAZ61rjhKnTgfFEqj84boNCE9M,2525
+vba_precompiler/compiler.py,sha256=mCZYajqU1Mueh5yNTmUUT01CmxYMKnhKgZVmbw1Gw4s,1203
+vba_precompiler/precompiler_visitor.py,sha256=iq6ox3rl30rZQxr-gtAvnfnmlLZSF_8vhYdi4Q20g_c,7632
+vba_precompiler-0.0.1.dist-info/LICENSE,sha256=jltVqaGd0_MMo7j3I-4spJbyj81FtDivOhR4ra3TX4g,1071
+vba_precompiler-0.0.1.dist-info/METADATA,sha256=30eVU6sZXRjxixW15ky2HzXnH_0XsVIH83PkMs31-Ms,3504
+vba_precompiler-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vba_precompiler-0.0.1.dist-info/top_level.txt,sha256=8I9DjYhWxNII9QZahygSs6G7x51Uv8kHMYmzSn6glkE,16
+vba_precompiler-0.0.1.dist-info/RECORD,,
