@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+clicklogger/__init__.py
+clicklogger.egg-info/PKG-INFO
+clicklogger.egg-info/SOURCES.txt
+clicklogger.egg-info/dependency_links.txt
+clicklogger.egg-info/top_level.txt
