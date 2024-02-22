@@ -1,0 +1,10 @@
+numpy
+jax
+optax
+equinox
+jax-tqdm
+torch
+
+[notebook]
+jupyter
+matplotlib
