@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "aimem"
+version = "0.0.0rc0"
+description = "The langmem alpha SDK"
+authors = ["William Fu-Hinthorn <13333726+hinthornw@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
