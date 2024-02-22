@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: postmd
+Version: 0.1.0a1
+Summary: A simple package for post-processing of data from LAMMPS
+Author: Shusong Zhang
+Author-email: zhangshusong789@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/remaker789/PostMD
+Project-URL: Documentation, https://remaker789.github.io/PostMD/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: numpy >=1.22.0
+Requires-Dist: pandas >=1.4.0
+Requires-Dist: matplotlib >=3.6.0
+Requires-Dist: scipy >=1.9.0
+Requires-Dist: statsmodels >=0.13.0
+
+This is a simple package for post-processing of data from LAMMPS.
+
+## Install
+You can install this package using pip.
+```shell
+pip install PostMD
+```
