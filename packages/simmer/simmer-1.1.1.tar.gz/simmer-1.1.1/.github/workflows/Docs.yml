@@ -1,0 +1,28 @@
+name: Docs
+on: [release]
+
+jobs:
+  notebooks:
+    name: "Build the notebooks for the docs"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          python -m pip install -e .[docs]
+
+      - name: Execute the notebooks
+        run: |
+          python docs/execute_notebooks.py
+
+      - name: Committing changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Running tutorial notebooks on newest release
