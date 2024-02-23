@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: iamai
+Version: 0.0.3b4
+Summary: Comprehensive AI Toolkit for Multimodal Learning and Cross-Platform Robotics.
+Project-URL: Homepage, https://iamai.is-a.dev
+Project-URL: Documentation, https://iamai.is-a.dev
+Project-URL: Repository, https://github.com/retrofor/iamai
+Project-URL: Changelog, https://iamai.is-a.dev/en/latest/changelog.html#
+Author-email: 简律纯 <i@jyunko.cn>
+License: MIT
+License-File: COPYING
+Keywords: apscheduler,bilibili,bilibili-live,bot,console,dingtalk,gensokyo,kook,onebot11,red
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.8
+Requires-Dist: aiohttp>=3.9.1
+Requires-Dist: click>=8.1.7
+Requires-Dist: loguru<0.8.0,>=0.7.0
+Requires-Dist: pydantic<3.0.0,>=2.0.3
+Requires-Dist: requests>=2.31.0
+Requires-Dist: tomli<3.0.0,>=2.0.0; python_version < '3.11'
+Requires-Dist: typing-extensions>=4.8.0
+Requires-Dist: watchfiles>=0.21.0
+Provides-Extra: all
+Requires-Dist: iamai-adapter-apscheduler; extra == 'all'
+Requires-Dist: iamai-adapter-bililive; extra == 'all'
+Requires-Dist: iamai-adapter-console; extra == 'all'
+Requires-Dist: iamai-adapter-dingtalk; extra == 'all'
+Requires-Dist: iamai-adapter-gensokyo; extra == 'all'
+Requires-Dist: iamai-adapter-kook; extra == 'all'
+Requires-Dist: iamai-adapter-onebot11; extra == 'all'
+Requires-Dist: iamai-adapter-red; extra == 'all'
+Requires-Dist: watchfiles; extra == 'all'
+Provides-Extra: apscheduler
+Requires-Dist: iamai-adapter-apscheduler; extra == 'apscheduler'
+Provides-Extra: bililive
+Requires-Dist: iamai-adapter-bililive; extra == 'bililive'
+Provides-Extra: console
+Requires-Dist: iamai-adapter-console; extra == 'console'
+Provides-Extra: dingtalk
+Requires-Dist: iamai-adapter-dingtalk; extra == 'dingtalk'
+Provides-Extra: gensokyo
+Requires-Dist: iamai-adapter-gensokyo; extra == 'gensokyo'
+Provides-Extra: hot-reload
+Requires-Dist: watchfiles; extra == 'hot-reload'
+Provides-Extra: kook
+Requires-Dist: iamai-adapter-kook; extra == 'kook'
+Provides-Extra: onebot11
+Requires-Dist: iamai-adapter-onebot11; extra == 'onebot11'
+Provides-Extra: red
+Requires-Dist: iamai-adapter-red; extra == 'red'
+Description-Content-Type: text/x-rst
+
+See the documentation.
