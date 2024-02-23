@@ -1,0 +1,5 @@
+[console_scripts]
+dahu_server = dahu.app.tango_server:main
+dahu-reprocess = dahu.app.reprocess:main
+dahu-register = dahu.app.tango_register:main
+
