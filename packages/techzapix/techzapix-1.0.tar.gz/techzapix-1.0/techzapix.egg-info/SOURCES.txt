@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+techzapix/api.py
+techzapix.egg-info/PKG-INFO
+techzapix.egg-info/SOURCES.txt
+techzapix.egg-info/dependency_links.txt
+techzapix.egg-info/requires.txt
+techzapix.egg-info/top_level.txt
