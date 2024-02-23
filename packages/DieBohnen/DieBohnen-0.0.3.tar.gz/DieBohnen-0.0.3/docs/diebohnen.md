@@ -1,0 +1,4 @@
+ 
+# diebohnen module
+
+::: diebohnen.diebohnen
