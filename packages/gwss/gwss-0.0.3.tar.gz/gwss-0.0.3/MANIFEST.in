@@ -1,0 +1,7 @@
+graft tests
+graft gwss
+graft bin
+graft docs
+graft .github
+graft .rtd
+include .gitignore pyproject.toml *.md requirements.txt setup.py
