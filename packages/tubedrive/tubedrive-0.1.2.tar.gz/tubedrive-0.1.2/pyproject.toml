@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tubedrive"
+version = "0.1.2"
+description = "Use youtube as a storage"
+authors = ["Mayas Nova"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+tubedrive = "tubedrive.runner:app"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-auth-oauthlib = "^1.2.0"
+moviepy = "^1.0.3"
+typer = {extras = ["all"], version = "^0.9.0"}
+skinny-orm = "0.1.2"
+google-api-python-client = "^2.119.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
