@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<text>
+  <sentence>
+    <token pos="DT">Den</token>
+    <token pos="PP">i</token>
+    <token ocr-suggestion="Handelstidningens" pos="PM">HandelstidniDgens</token>
+    <token ocr-suggestion="gårdagsnummer" pos="NN">g&amp;rdagsnnmmer</token>
+    <token pos="VB">omtalade</token>
+    <token pos="NN">hvalfisken</token>
+    <token pos="MID">,</token>
+    <token ocr-suggestion="som" pos="NN">sorn</token>
+    <token pos="VB">fångats</token>
+    <token pos="PP">i</token>
+    <token ocr-suggestion="Frölandsviken" pos="PM">Frölnndaviken</token>
+  </sentence>
+</text>

@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sparv-ocr-correction-plugin
+Version: 0.1.0
+Summary: A sparv plugin for computing suggested OCR improvements.
+Project-URL: Homepage, https://spraakbanken.gu.se
+Project-URL: Repository, https://github.com/spraakbanken/sparv-ocr-correction-plugin
+Project-URL: Bug Tracker, https://github.com/spraakbanken/sparv-ocr-correction-plugin/issues
+Author-email: Kristoffer Andersson <kristoffer.andersson@gu.se>
+License: MIT
+License-File: LICENSE
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: <3.12,>=3.9
+Requires-Dist: sparv-pipeline>=5.2.0
+Requires-Dist: transformers>=4.34.1
+Description-Content-Type: text/markdown
+
+# sparv-ocr-correction-plugin
+
+[![CI](https://github.com/spraakbanken/sparv-ocr-correction-plugin/actions/workflows/ci.yml/badge.svg)](https://github.com/spraakbanken/sparv-ocr-correction-plugin/actions/workflows/ci.yml)
+[![PyPI version](https://badge.fury.io/py/sparv-ocr-correction-plugin.svg)](https://pypi.org/project/sparv-ocr-correction-plugin)
+
+Sparv plugin to annotate corrections to OCR:ed documents.
+
+## Install
+
+In a virtual environment:
+
+```bash
+pip install sparv-ocr-correction-plugin
+```
+
+or if you have `sparv` installed with `pipx`:
+
+```bash
+pipx inject sparv-pipeline sparv-ocr-correction-plugin
+```
