@@ -1,0 +1,15 @@
+initdi/__init__.py,sha256=U1R2bqMMW0wkFvrjTjuFL3iXd7JhLoINLJXW0dl7j8I,352
+initdi/core.py,sha256=7jFZidizIalz_qAbthguJ0hosjvR0xkCgJW20mzNONQ,46546
+initdi/decorators.py,sha256=NyTDNiiZODCGbRRxejxv7_uTBV_ZN2xPUPYXve8Mo0w,3318
+initdi/ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+initdi/ext/fastapi.py,sha256=lNWiIPe8gA4pFfs1o9JXNqN7ymgh6B71Lw7ry3aJVPU,2783
+initdi/ext/starlette/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+initdi/ext/starlette/middleware.py,sha256=dcpUDIaH2LRBoNDDjyYCz0QlF8f4bgSJhRqloPf1XY8,1108
+initdi/ext/utils.py,sha256=-m_BYsU5cEcxUcK_7Nplo6ExXbZtYOaJ4ZBhbp4kn4M,1923
+initdi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+initdi/utils.py,sha256=siFdvEm2f4_XfF6XXZRESzyq0_a72LhPH0UFLHaAGSo,3136
+pyxdi/__init__.py,sha256=230bRDQg_GRgcilGYJKkiFB6px5MZVl_NhYtpEUMUNc,570
+pyxdi-0.19.1.dist-info/LICENSE,sha256=V6rU8a8fv6o2jQ-7ODHs0XfDFimot8Q6Km6CylRIDTo,1069
+pyxdi-0.19.1.dist-info/METADATA,sha256=2Vcy8kI3kZqqNTiOpgbSbhb0WgbiqmIhw2PV_exgC-U,3192
+pyxdi-0.19.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyxdi-0.19.1.dist-info/RECORD,,
