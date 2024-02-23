@@ -1,0 +1,10 @@
+*.swp
+*.swl
+*.swo
+*.swn
+build
+dist
+sshlist/coba.py
+sshlist.egg-info
+__pycache__
+*.spec

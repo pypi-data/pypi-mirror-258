@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+sshlist/__init__.py
+sshlist/screen.py
+sshlist/sshlist.py
+sshlist_cli.egg-info/PKG-INFO
+sshlist_cli.egg-info/SOURCES.txt
+sshlist_cli.egg-info/dependency_links.txt
+sshlist_cli.egg-info/entry_points.txt
+sshlist_cli.egg-info/requires.txt
+sshlist_cli.egg-info/top_level.txt

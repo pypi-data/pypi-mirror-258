@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sshlist-cli
+Version: 1.0.0
+Summary: SSH Information Manager using CLI
+Author-email: Syahid Nurrohim <syahidnurrohim@gmail.com>
+Project-URL: Homepage, https://github.com/syahidnurrohim/sshlist
+Project-URL: Issues, https://github.com/syahidnurrohim/sshlist/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: inquirer
+
+# SSH List
