@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+mkdocstrings_vba.egg-info/PKG-INFO
+mkdocstrings_vba.egg-info/SOURCES.txt
+mkdocstrings_vba.egg-info/dependency_links.txt
+mkdocstrings_vba.egg-info/top_level.txt
