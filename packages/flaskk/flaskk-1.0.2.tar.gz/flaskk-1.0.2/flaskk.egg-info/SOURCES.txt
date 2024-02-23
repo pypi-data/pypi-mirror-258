@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+flaskk/__init__.py
+flaskk.egg-info/PKG-INFO
+flaskk.egg-info/SOURCES.txt
+flaskk.egg-info/dependency_links.txt
+flaskk.egg-info/requires.txt
+flaskk.egg-info/top_level.txt
