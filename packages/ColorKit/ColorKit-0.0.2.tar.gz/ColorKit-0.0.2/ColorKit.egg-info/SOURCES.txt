@@ -1,0 +1,7 @@
+setup.py
+ColorKit/__init__.py
+ColorKit/colorkit.py
+ColorKit.egg-info/PKG-INFO
+ColorKit.egg-info/SOURCES.txt
+ColorKit.egg-info/dependency_links.txt
+ColorKit.egg-info/top_level.txt
