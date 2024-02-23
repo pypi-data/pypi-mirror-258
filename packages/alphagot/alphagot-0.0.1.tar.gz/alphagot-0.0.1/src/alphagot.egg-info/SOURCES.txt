@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/alphagot.egg-info/PKG-INFO
+src/alphagot.egg-info/SOURCES.txt
+src/alphagot.egg-info/dependency_links.txt
+src/alphagot.egg-info/top_level.txt
+src/nftx/__init__.py
