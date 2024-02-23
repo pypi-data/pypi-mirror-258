@@ -1,0 +1,2 @@
+[console_scripts]
+fasthep-flow = fasthep_flow.cli:main

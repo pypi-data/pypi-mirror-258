@@ -1,0 +1,15 @@
+fasthep_flow/__init__.py,sha256=l6wvAoL226zib_0s2zWTNoq_BCSpuFFmIf7ysoK3c7E,308
+fasthep_flow/_version.py,sha256=2OTnMgE9dXgvt3KTeFq1JTwRsUbcUWbEgROCx_tsfpY,417
+fasthep_flow/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+fasthep_flow/cli.py,sha256=l9q9dlfHCGEmHwUumMYB0Q-QwOtN_-ZGv00gPzUA_7k,1902
+fasthep_flow/config.py,sha256=PPIUNoebqu_AjJgqM4T-rMoo-KU1f1OmE9LlZBwtKrY,2111
+fasthep_flow/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fasthep_flow/workflow.py,sha256=2tNQdrR8_14uv6_fXprmtv7Qs-vBlduAUr4QY0bpdnY,1220
+fasthep_flow/operators/__init__.py,sha256=PLOr_12CkugeJelXaaCqL2mkZ5fJs1Nvp0A3xYzW42s,267
+fasthep_flow/operators/base.py,sha256=06mGcNu1trIG7VejymK0ztdJr7EIhJxOKVyA8IUGRZY,482
+fasthep_flow/operators/bash.py,sha256=XXEopzjDIAeFamff9pZcwu9tww3bd-Oxb4X2p-UwnPU,1197
+fasthep_flow-2024.2.1.dist-info/METADATA,sha256=lKqRJBEWuqhPX2jn-XuvH0XRjwsbOdGsf9QZFbZhpOo,4468
+fasthep_flow-2024.2.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+fasthep_flow-2024.2.1.dist-info/entry_points.txt,sha256=Sk-g3OWLaDGTgeNWJCPndYLRBU1gfclYimv0bmw9WvY,55
+fasthep_flow-2024.2.1.dist-info/licenses/LICENSE,sha256=JOvaXpjrXtTI_K08SmY0LVx2Lsh-CmvEEhX0nHJtTak,11343
+fasthep_flow-2024.2.1.dist-info/RECORD,,
