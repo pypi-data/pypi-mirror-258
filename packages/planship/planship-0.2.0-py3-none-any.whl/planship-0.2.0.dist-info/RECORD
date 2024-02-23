@@ -1,0 +1,10 @@
+planship/__init__.py,sha256=Cf6pbXewzba0Zyrlkn618ZJQn895zX5cvjACY9aHR-k,31
+planship/auto_refresh_token_api_client.py,sha256=3A4v3yC35eVchwicySNeJEG5XjhWUjn1jYOv_vqr2dg,710
+planship/base.py,sha256=N8pO4BfJ783PlUyK-XL_qREi3L_bXlQxmWFY7McLNKA,1868
+planship/http_basic_auth_configuration.py,sha256=YcKsv0iZAl3y2iPJC5Bql54_nku_l-k-vxtJODKx7as,574
+planship/models.py,sha256=SzN-i7jTYEfczfuAy01pInnKjczFQf2gtPumbNvCioU,869
+planship/planship.py,sha256=eGwUZfeZfbYKSzNcsgMps_cxTpCsbgI9Wehu15s-HEU,16224
+planship-0.2.0.dist-info/METADATA,sha256=7YK9mXSTikUuh88zFrMZaDmgFNQTny3No4CAxOYltAg,2084
+planship-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+planship-0.2.0.dist-info/top_level.txt,sha256=NSi7dAQ6haBTovGk6e5G-RU56a_1NZw2JyfXiUGBpc4,9
+planship-0.2.0.dist-info/RECORD,,
