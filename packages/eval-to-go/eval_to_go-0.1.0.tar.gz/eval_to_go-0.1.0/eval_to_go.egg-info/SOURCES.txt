@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+eval_to_go/__init__.py
+eval_to_go/evaluation.py
+eval_to_go/main.py
+eval_to_go/models.py
+eval_to_go/prompt_templates.py
+eval_to_go.egg-info/PKG-INFO
+eval_to_go.egg-info/SOURCES.txt
+eval_to_go.egg-info/dependency_links.txt
+eval_to_go.egg-info/requires.txt
+eval_to_go.egg-info/top_level.txt
+tests/__init__.py
+tests/test_evaluation.py
