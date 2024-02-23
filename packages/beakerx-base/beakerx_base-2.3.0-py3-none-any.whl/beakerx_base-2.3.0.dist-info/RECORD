@@ -1,0 +1,12 @@
+beakerx_base/__init__.py,sha256=cPtJViInvc_pW-vg-NXy-LKcKKswq2KBEbacVzblmsg,1264
+beakerx_base/_version.py,sha256=hwVc1IRBaUkx7pPW7JdayPPi0X3TnQLAceZg78YPiWU,72
+beakerx_base/beakerx_widgets.py,sha256=R6jcf_jTx3C8MCv-2OaFGDJlOC3qRriH7DTRWMkK4w0,14713
+beakerx_base/utils.py,sha256=dbLJJzxbqaV-BGxEsWm_OA4vg97wwsiyoIo2Sb-a5t0,8046
+beakerx_base/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beakerx_base/tests/test_utils.py,sha256=h9lvb95kygpKb5h45JP58-gd4DrM4E1VleKzy_MrkW4,571
+beakerx_base-2.3.0.dist-info/LICENSE,sha256=y16Ofl9KOYjhBjwULGDcLfdWBfTEZRXnduOspt-XbhQ,11325
+beakerx_base-2.3.0.dist-info/METADATA,sha256=fLMXsU9tJ8RfDk0DGvWRJrtUf9wUKSwq2bs4BvrK6iw,1097
+beakerx_base-2.3.0.dist-info/NOTICE,sha256=kScDfIEkStPMaOa9M9CmB825w3i5TyHYhOrzGBQiMWE,193
+beakerx_base-2.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+beakerx_base-2.3.0.dist-info/top_level.txt,sha256=XEwpzuqjnFcwh7lWT-w8iMII2jfumzdZCXcY3AwciQY,13
+beakerx_base-2.3.0.dist-info/RECORD,,
