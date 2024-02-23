@@ -1,0 +1,3 @@
+[console_scripts]
+ptol = ptol.main:main
+

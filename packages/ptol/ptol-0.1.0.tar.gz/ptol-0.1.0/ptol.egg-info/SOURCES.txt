@@ -1,0 +1,14 @@
+README.md
+setup.py
+ptol/__init__.py
+ptol/download_pdfs.py
+ptol/main.py
+ptol/pdf_to_text.py
+ptol/query_syntax.py
+ptol/remove_duplicates.py
+ptol.egg-info/PKG-INFO
+ptol.egg-info/SOURCES.txt
+ptol.egg-info/dependency_links.txt
+ptol.egg-info/entry_points.txt
+ptol.egg-info/requires.txt
+ptol.egg-info/top_level.txt
