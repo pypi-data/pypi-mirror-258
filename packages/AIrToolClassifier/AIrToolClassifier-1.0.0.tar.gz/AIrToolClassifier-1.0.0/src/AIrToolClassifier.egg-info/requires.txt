@@ -1,0 +1,12 @@
+importlib-metadata
+python-dotenv==1.0.1
+prompt_toolkit>=3.0.43
+validators>=0.22.0
+openai>=1.12.0
+pyairtable>=2.2.2
+
+[testing]
+setuptools
+wheel
+pytest
+twine
