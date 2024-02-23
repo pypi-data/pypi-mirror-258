@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: grigode_env
+Version: 1.0.1
+Summary: grigode_env reads key-value pairs from a '.env' file and parses them into various data types.
+Home-page: https://github.com/angelchavez19/grigode_env
+Author: Angel Chávez
+Author-email: infoangelchavez@gmail.com
+Project-URL: Bug Tracker, https://github.com/angelchavez19/grigode_env/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# grigode_env
+
+Documentation: https://github.com/angelchavez19/grigode_env
