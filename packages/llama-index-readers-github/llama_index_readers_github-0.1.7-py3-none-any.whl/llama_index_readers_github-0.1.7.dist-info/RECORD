@@ -1,0 +1,14 @@
+llama_index/readers/github/__init__.py,sha256=NdaVfRlj8Td49sW_APDRGIFlX_SON0tcmmHt7SrsEmk,491
+llama_index/readers/github/collaborators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/readers/github/collaborators/base.py,sha256=H7qkp_-q6QY11Gi4sJwxVkAJFMHzX4JEZfJaRyMoKxI,5944
+llama_index/readers/github/collaborators/github_client.py,sha256=vkReAg7YgKiYBLhGT8QpM42yLlha5_9lIZUkqIx0gO4,5917
+llama_index/readers/github/issues/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/readers/github/issues/base.py,sha256=Z7_LMiCBiDGtuJ9mr8rSkfc6qJ6aD2hX9oJIUla7FR4,7826
+llama_index/readers/github/issues/github_client.py,sha256=Ql6WIgmV_BDXjtTWxf87W-YS8IqaUX6naTq5LPk0MJA,6496
+llama_index/readers/github/repository/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llama_index/readers/github/repository/base.py,sha256=E28wFN5m0tUUjfkXIvTHRLgVNMQPOev3k9jzdHw3WLE,21262
+llama_index/readers/github/repository/github_client.py,sha256=Rw0zYXYBqdsaYFKhqN5kOO5rmi-3PgsaR0XtxYDSy70,15317
+llama_index/readers/github/repository/utils.py,sha256=F40vGFXKVlEJmlvihHvCX6JvkR8a7FLe9BLwL5Hbf7U,5614
+llama_index_readers_github-0.1.7.dist-info/METADATA,sha256=TukIC90AjZQ6snqJMFaNJRiJlaTuW3sGu5bFkHQAIzw,837
+llama_index_readers_github-0.1.7.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_readers_github-0.1.7.dist-info/RECORD,,
