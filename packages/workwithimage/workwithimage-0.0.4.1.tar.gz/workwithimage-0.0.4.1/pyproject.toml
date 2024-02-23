@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "workwithimage"
+version = "0.0.4.1"
+description = "Library for working with images based on Pillow"
+authors = ["Nova D Andrew <andrew.d.nova@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
