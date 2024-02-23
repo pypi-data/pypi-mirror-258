@@ -1,0 +1,9 @@
+LICENSE
+README.md
+crossygame.py
+setup.py
+crossygame.egg-info/PKG-INFO
+crossygame.egg-info/SOURCES.txt
+crossygame.egg-info/dependency_links.txt
+crossygame.egg-info/entry_points.txt
+crossygame.egg-info/top_level.txt
