@@ -1,0 +1,13 @@
+ouroboros/__init__.py,sha256=2tAapdfqG18UIzIvtW_IqmZlP4lk8-PxAkdrgZMPeLQ,32
+ouroboros/kv_cache_model.py,sha256=JzOGYVIpys0vV0Sa6jNm4VXrXPDUETh9_waCtBH7NNs,10792
+ouroboros/ouroboros.py,sha256=R0KNa8QY7i1AetsdnoKJk-WRsHnq-tG_kZo4eqoCmwg,7459
+ouroboros/cache_engine/__init__.py,sha256=cg5_NHU9vxzw54Pkq6x_mi0P2dIivncbSX-78R9e02s,37
+ouroboros/cache_engine/cache_engine.py,sha256=blPUAAvdFBMo69bynNJL7WTumIK8p7HB6sIf6tkNflM,4581
+ouroboros/models/__init__.py,sha256=dZcj5-smA2wzdlWpQ5n-6iJffHOEoFN3dh4A6AtZ0mM,56
+ouroboros/models/mask_making_llama.py,sha256=VnyoYgX4cTkcUe-YAG3bqnLL39e8tdtBQ00pTIaQc3Q,12557
+ouroboros/models/modeling_llama.py,sha256=VqMtjkXYrlOWeMm2_MZ8YGwbuBOC_LHKTXRGOr_97wc,110568
+ourodec-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ourodec-0.1.0.dist-info/METADATA,sha256=K3O-V30S2gE8nbLOWpBfZuD75PrhRpsrjsUp80zzjYY,7496
+ourodec-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ourodec-0.1.0.dist-info/top_level.txt,sha256=Hgl506WwL7AKCSSy9trRPfKGZyQGCOCV8DGgKQoZVi0,10
+ourodec-0.1.0.dist-info/RECORD,,
