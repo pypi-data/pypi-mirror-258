@@ -1,0 +1,11 @@
+wagtail_draftail_hovercard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_draftail_hovercard/forms.py,sha256=t5dlWzaraHoKj7LLCN4_ZKe6velNXJIZdh0kjPeZFY8,198
+wagtail_draftail_hovercard/handlers.py,sha256=m7uJd2uW48x32ood1lWMqeqiqY5OhUQsUnPABdfGoEk,1040
+wagtail_draftail_hovercard/static/wagtail_draftail_hovercard/wagtail-draftail-hovercard.js,sha256=8-wKO2fEg4fPERRyXhLNu_B_xAYhHJ1jW56jg_oYJ-k,1096
+wagtail_draftail_hovercard/templates/wagtail_draftail_hovercard/modal.html,sha256=S63-nIELtlhSKqI01eO5GtW750nISqVwy-oKeLopwso,655
+wagtail_draftail_hovercard/views.py,sha256=mdyIIDBJOy93SQP_etUE4csjMjxNyty6UXHFiv8QHv8,1949
+wagtail_draftail_hovercard/wagtail_hooks.py,sha256=jsnMg4k60zjFh20IJYQx4G9G22CwWS6BzHnpnKHFHWw,2249
+wagtail_draftail_hovercard-0.1.0.dist-info/LICENSE,sha256=4jWqWK8t8RUJLlrkm1r9aDXs6Tkr6n3U8jTWnGxj8Uo,1065
+wagtail_draftail_hovercard-0.1.0.dist-info/METADATA,sha256=HqLS3Zk_bLd88eT0l6HyLTyTzGqYV8Y8BRUCVZnw_Vg,2745
+wagtail_draftail_hovercard-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+wagtail_draftail_hovercard-0.1.0.dist-info/RECORD,,
