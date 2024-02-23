@@ -1,0 +1,14 @@
+elephant_sock5/__init__.py,sha256=IozW1imFOct_x_K58kBryh1-hSb5bJl9XvmRTcpXFCk,19105
+elephant_sock5/protocol.py,sha256=5vBQGu_dbDqwGVAGJS7taoid-SYSSOomt70I11-haS8,4133
+elephant_sock5/utils.py,sha256=h26-66cIDx7TUIWXjWs9rsp7n2pWr9MQzP3YOzTzhpo,3430
+elephant_sock5/version.py,sha256=OaIl7v-6zEWEY90Jlh6yoBjO3zWX1oX7RsvqrK3o1TU,23
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_init.py,sha256=Hyrg1061Nx9uKyycfWQ9vI31FfnqMwkCIxwrWG7e6Rc,851
+test/test_protocol.py,sha256=Be-X8pZuN9KrPQjh5U-lAlZE0_9Sw42Y-UNH2OKkE9s,2766
+test/test_utils.py,sha256=QjSOEwiXYslDnXptNPXKiXgSVGY3b45zo9D_lYsYLkA,790
+elephant_sock5-0.0.11.dist-info/LICENSE,sha256=eASfmPNoIpPlgXAfK50x6oWVKkH4Xk3f2Kyk3MVjqVg,1065
+elephant_sock5-0.0.11.dist-info/METADATA,sha256=Q4mg90VlOqpWbXJwIX4lhgyWhx-rT1mNcLeoNho7iDI,2317
+elephant_sock5-0.0.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+elephant_sock5-0.0.11.dist-info/entry_points.txt,sha256=ldlO4X4aV1IY_gp5JOl5fEoujJQeXGJZiyi6Uqa2rVw,58
+elephant_sock5-0.0.11.dist-info/top_level.txt,sha256=IyC-fz6BTmbVQAHVhLxKQForzwInULJEfdFrQP78iHc,20
+elephant_sock5-0.0.11.dist-info/RECORD,,
