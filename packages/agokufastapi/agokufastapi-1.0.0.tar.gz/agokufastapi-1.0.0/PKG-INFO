@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: agokufastapi
+Version: 1.0.0
+Summary: 基于Fatapi框架的封装扩展库
+Home-page: 
+Author: zyx
+Author-email: 308711822@qq.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+个人封装的库
