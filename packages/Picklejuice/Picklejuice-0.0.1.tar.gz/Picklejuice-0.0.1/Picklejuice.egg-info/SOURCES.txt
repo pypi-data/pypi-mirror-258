@@ -1,0 +1,10 @@
+README.md
+setup.py
+Picklejuice.egg-info/PKG-INFO
+Picklejuice.egg-info/SOURCES.txt
+Picklejuice.egg-info/dependency_links.txt
+Picklejuice.egg-info/entry_points.txt
+Picklejuice.egg-info/requires.txt
+Picklejuice.egg-info/top_level.txt
+picklejuice/__init__.py
+picklejuice/main.py

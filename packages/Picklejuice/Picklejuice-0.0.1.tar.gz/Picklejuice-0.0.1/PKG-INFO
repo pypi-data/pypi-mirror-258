@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Picklejuice
+Version: 0.0.1
+Summary: Cli tool for quickly translating JSON and YAML config files to Pkl.
+Home-page: https://github.com/KDreynolds/vinegar
+Author: Kyle Reynolds
+Author-email: kylereynoldsdev@gmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: argparse
+
+# JSON/YAML to Apple Pkl Converter
+
+This tool provides a simple command-line interface to convert JSON or YAML files into Apple's Pkl format. It's designed to be easy to use for both developers and system administrators.
+
+## Features
+
+- Supports both JSON and YAML input formats.
+- Outputs in custom Apple Pkl format.
+- Command-line interface for easy integration into scripts and workflows.
+
+## Installation
+
+To use this script, you'll need Python installed on your system. This script has been tested with Python 3.8 and above. Additionally, you'll need to install the `PyYAML` package if you intend to process YAML files.
+
+You can install the required package using pip:
+
+pip install PyYAML
+
+## Usage
+
+To convert a file, simply run the script with the input and output file paths as arguments:
+
+python main.py --input /path/to/input.json --output /path/to/output.pkl
+
+Replace `/path/to/input.json` with the path to your source JSON or YAML file, and `/path/to/output.pkl` with the desired path for the output Pkl file.
+
+### Arguments
+
+- `--input`: Specifies the input file path. This file should be in JSON or YAML format.
+- `--output`: Specifies the output file path. The output will be in Apple's Pkl format.
+
+## Contributing
+
+Contributions to this project are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License 

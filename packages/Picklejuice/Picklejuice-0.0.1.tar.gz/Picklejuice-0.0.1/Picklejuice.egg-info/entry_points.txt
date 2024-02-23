@@ -1,0 +1,2 @@
+[console_scripts]
+picklejuice = picklejuice.main:main
