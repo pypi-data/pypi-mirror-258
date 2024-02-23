@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: HTS_doseresponse
+Version: 0.0.5
+Summary: Dose Response Curve Fitting
+Author-email: Scott McPhee <sahmcphee@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Scott McPhee
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/samcphee/HTS_doseresponse
+Project-URL: Issues, https://github.com/samcphee/HTS_doseresponse/issues
+Keywords: IC50,biochemistry,pharmacology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas>=1.5.3
+Requires-Dist: seaborn>=0.13.1
+Requires-Dist: scipy>=1.11.4
+Requires-Dist: tomli; python_version < "3.11"
+Provides-Extra: dev
+Requires-Dist: pip-tools; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+
+# dose_response
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samcphee/HTS_doseresponse/blob/main/HTS_IC50_fitting.ipynb)
+
+Package for bulk processing of dose-response data in tabular format.
+
+See the Medium Article [High-Throughput Dose-Response Data Analysis](https://medium.com/@sahmcphee/high-throughput-dose-response-data-analysis-47d27d2bf545) for usage example.
+
+## Version
+
+0.0.1 Initial commit 
+
+0.0.2 minor updates 
+
+0.0.3 minor updates 
+
+0.0.4 minor updates 
+
+0.0.5 update readme (Current Release)
+
+
