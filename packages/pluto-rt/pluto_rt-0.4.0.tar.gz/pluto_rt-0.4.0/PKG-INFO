@@ -1,0 +1,170 @@
+Metadata-Version: 2.1
+Name: pluto_rt
+Version: 0.4.0
+Summary: A reusable Django app providing a kit for storing and displaying messages from a background processor into a web view in real time, as the processor works.
+Project-URL: Homepage, https://github.com/energy-solution/pluto-rt
+Author-email: Scot Hacker <shacker@energy-solution.com>, Rob Harvey <rharvey@energy-solution.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pluto-RT: Real-time web results for long-running processes
+
+Any time you have a need to trigger a long-running process from a web view, you run into Python's
+blocking nature - nothing will be displayed until the process is complete, and you'll hit timeouts
+if you exceed the default timeout for your web application process.
+
+To solve the long-running aspect, we turn to background workers like django-q or django-celery. But
+then the user has no insight into what the background worker is doing.
+
+Pluto-RT solves that by using Redis as a message queuing service with a FIFO (first in, first out)
+queue. Messages can be placed on the queue by the background worker and when they are retrieved by
+the view, it returns the oldest ones first. It can work by polling with a WSGI server, and using server-sent events (SSE) with ASGI.
+
+https://user-images.githubusercontent.com/102694/233860792-652f8790-6f31-4dd8-8c37-fc479171c576.mov
+
+The overall strategy is this:
+
+1. Create a unique "queue name" which can be sent to a worker queue and passed into a "results" page.
+1. Invoke your background processor (worker) with that queue name. The worker places messages onto the queue as it progresses with the task.
+1. Display the results template, passing it the queue name. The template generates htmx which retrieves messages associated with that queue.
+1. The server removes the oldest messages from the queue and delivers them to the client.
+
+## Demo
+
+There is a demo available in the demo directory. The quickest way to try it out is using docker:
+```
+docker compose --project-directory demo up -d
+```
+
+Then open your browser to http://localhost:8000/ for SSE, and http://localhost:8001/ for polling.
+
+To show results in reverse order, add the "reverse" argument: http://localhost:8000/?reverse=1
+
+If you'd like to tweak or test some functionality, you can modify files in the demo directory and restart the web service:
+```
+docker compose --project-directory demo restart web
+```
+
+After the demo, you can revert with:
+```
+docker compose --project-directory demo down --rmi all -v
+```
+
+---
+
+Alternately, you can run with a venv:
+```
+python3 -m venv .venv
+. .venv/bin/activate
+.venv/bin/pip install -r demo/requirements.txt
+PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=.:src DJANGO_SETTINGS_MODULE=demo.settings .venv/bin/celery -A demo.tasks worker --loglevel=INFO
+```
+
+To test SSE, in a new terminal run:
+```
+PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=.:src .venv/bin/granian --interface asgi --port 8000 demo.asgi:application
+```
+
+To test polling, in a new terminal run:
+```
+# PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PYTHONPATH=.:src DJANGO_SETTINGS_MODULE=demo.settings .venv/bin/django-admin runserver 8001
+```
+
+## Prerequisites
+
+We assume you already have these installed and working
+
+- A running Django project with Redis configured
+- A runnning background processor such as celery, with a long-running task defined
+
+## Installation:
+
+- `pip install pluto-rt`
+- Add `pluto_rt` to the list of installed apps in project settings.
+- To enable the internal API (required), add this to your top-level urls.py:
+    ```
+    path("rt_messages/", include("pluto_rt.urls")),
+    ```
+
+## Usage
+
+There are two views you'll need to control: the view that kicks off the process
+and passes tasks to the background worker, and the view that consumes the results.
+
+After following the installation steps above...
+
+In the [launching view](demo/views.py):
+1. Make the queue name
+1. Launch the long-running process, passing it the queue name
+1. Pass the queue name onto the next view (e.g. with a page display or redirect)
+
+In the [long-running task](demo/tasks.py):
+1. Get the queue handle using `get_rt_queue_handle(queue_name)`. Put messages items onto the queue. The messages must be pickle-able.
+2. When you are finished with the task (successfully or not), call `complete()` on the queue handle.
+
+In the [results template](demo/templates/demo/demo.html):
+1. Create a target div with an id, which will hold the formatted DOM elements representing each message.
+1. Include the appropriate pluto_rt template (usually pluto_rt/sse.html for ASGI servers, and pluto_rt/polling.html for WSGI). It is recommended that you pass the target directly into the `{% include %}` tag, since it is often right nearby, e.g.:
+    ```
+    <ul id="results" class="list-group"></ul>
+    {% include "pluto_rt/sse.html" with target="#results" %}
+    ```
+
+Create an ["item" template](demo/templates/demo/pluto_rt_item.html) in your template dirs:
+1. By default, the system will look for `pluto_rt/item.html` via your django TEMPLATES setting, however you can pass your own name into your urls path function with the `item_template` argument, such as:
+    ```
+    path("rt_messages/", include("pluto_rt.urls"), {"item_template": "demo/pluto_rt_item.html"})
+    ```
+1. The format of the template is up to you! The object delivered in the template is named "item". It is a regular django template item at this point, but it will turn into an HTML snippet before it is delivered to the client. It could be as simple as or as complex as you want, so long as it can be delivered as mime type html/text:
+    ```
+    <div>{{ item }}</div>
+    ```
+
+Note: Instead of writing your own results template & item template, you can
+render your view directly to a [pre-defined template](src/pluto_rt/templates/pluto_rt/table.html) `pluto_rt/table.html` for
+polling mode only. This is marked as deprecated as it doesn't give you the option to customize
+your look and feel, but may be useful for testing.
+
+## Stop polling
+
+If you call `complete()` on the queue, the view will return a message that tells htmx to stop polling. So in your processing function, be sure
+to call that function when the work is done.
+
+## Distribution and license
+
+Creating this as a private ES github repo first, for re-usability,
+with intention to secure permission to open source it in the future.
+
+When this is pip-installed, it will install the wheel, which means you need to recompile the wheel after making changes.
+
+One-time only:
+
+```
+pip install build
+pip install twine
+```
+
+After final commit, change the version in pyproject.toml, then run
+
+`python3 -m build`
+
+Then commit the changes and publish the update to pypi with:
+
+`twine upload dist/pluto_rt-0.1.2.tar.gz`
+
+(replacing the actual build number).
+
+## Versions
+
+0.1.0 Initial version
+
+0.2.0 Sep 1, 2023: Replaced defunct QR3 lib with our own queueing code (made pluto self-sufficient).
+    Introduced support for including template partials rather than full-page only.
+
+0.3.0 Dec 14, 2023: Added reverse option, complete() function, demo app.
+
+0.4.0 Feb 21, 2024: Server-sent events, more flexible templates

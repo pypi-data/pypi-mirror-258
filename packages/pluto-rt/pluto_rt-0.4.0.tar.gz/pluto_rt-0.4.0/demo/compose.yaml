@@ -1,0 +1,50 @@
+services:
+  cache:
+    image: redis:7.2
+
+  web-base:
+    build:
+      context: ../
+      dockerfile: demo/Dockerfile
+    volumes:
+      - ../src:/code
+      - .:/code/demo
+    depends_on:
+      - cache
+    environment:
+      - REDIS_URL=redis://cache:6379/0
+      - DJANGO_SETTINGS_MODULE=demo.settings
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
+
+  web:
+    extends: web-base
+    ports:
+      - 8000:8000
+    command: granian --interface asgi --host 0.0.0.0 --port 8000 demo.asgi:application
+
+  web-polling:
+    extends: web-base
+    ports:
+      - 8001:8001
+    command: ./demo/manage.py runserver 0.0.0.0:8001
+
+  worker:
+    build:
+      context: ../
+      dockerfile: demo/Dockerfile
+    volumes:
+      - ../src:/code
+      - .:/code/demo
+    depends_on:
+      - cache
+    command: celery -A demo.tasks worker --loglevel=INFO --uid=nobody
+    environment:
+      - REDIS_URL=redis://cache:6379/0
+      - DJANGO_SETTINGS_MODULE=demo.settings
+      - DEBUG=true
+      - LOG_LEVEL=DEBUG
+      - PYTHONDONTWRITEBYTECODE=1
+      - PYTHONUNBUFFERED=1
