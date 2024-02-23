@@ -1,0 +1,12 @@
+dialoaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dialoaders/loaders.py,sha256=pN6Wx4f5tNcVuP5JWs36C7ij4BXEFJz8TTpa-PVxUbs,696
+judgyrag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+judgyrag/benchgen.py,sha256=IcNtMkNtAhmCw8Ielfbs1mvI8osp9nId_9OaBBcOA5A,4594
+judgyrag/preproc/judgypdf.py,sha256=ohztyfKv3gsT0MH-H1RBhHXzolNrEOvx2z0ilNRTD0E,5364
+judgyrag/utils/generate.py,sha256=zE69VutLeKLzf_7ALVrvKGjd_oBeI4Zbz2_0bcPX868,3396
+judgyrag/utils/postproc.py,sha256=Kr-T5xNKqppMvBXQHDXHFhpIwgyX9AXa7NBystYpj2M,2984
+fundialogues-0.1.0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fundialogues-0.1.0.dist-info/METADATA,sha256=R7Fe4fLmU6mXtOcSWEqjjRgOTZs83I-D_IKmc4v9Gd8,21530
+fundialogues-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fundialogues-0.1.0.dist-info/top_level.txt,sha256=GbmJNlUaBzVcrjJjhbIO4AWwSH_5B-Uu8_NXjgyWZLU,20
+fundialogues-0.1.0.dist-info/RECORD,,
