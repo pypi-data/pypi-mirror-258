@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: overfit
+Version: 0.0.1
+Summary: An ML code generator
+Author: hech
+Author-email: 
+Project-URL: Homepage, https://github.com/hech/overfit
+Project-URL: Issues, https://github.com/hech/overfit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# overfit
+ML training code generator. Not ready for use.
+
+## Examples
+```python
+from overfit.unsupervised import UnsupervisedPipeline
+fit = UnsupervisedPipeline(data = data,
+                         target = 'target_name',
+                         type = 'kmeans',
+                         nfolds = 10
+                         )
+# fit.get_code(), print
+fit.code_gen() # run
+
+```
