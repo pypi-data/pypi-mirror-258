@@ -1,0 +1,2 @@
+[console_scripts]
+slow-learner-convert = slow_learner_convert.cli:cli
