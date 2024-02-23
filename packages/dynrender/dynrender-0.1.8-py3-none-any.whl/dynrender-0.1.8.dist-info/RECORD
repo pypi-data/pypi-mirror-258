@@ -1,0 +1,15 @@
+dynrender-0.1.8.dist-info/METADATA,sha256=2c9cLLE00RLK8ZMdIGDZzKA3EijrgujPb7STDoElnac,2245
+dynrender-0.1.8.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+dynrender-0.1.8.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dynrender/Core.py,sha256=L73n_PVRnPledD3hI-fPJHhZ7UAgaxo6qLvLPzAUoKM,2251
+dynrender/DynAdditional.py,sha256=M463AB0gZuylY4Fu7TfcJAGNeYuND4oY0U4RihHKkm8,20255
+dynrender/DynConfig.py,sha256=oeZ1EYJ5P3HX0l2UZnQa6fuESr-duSqZzI3GFpggI54,5576
+dynrender/DynHeader.py,sha256=PHnmIiY5UBaKXXAGSo8QCmX9H48bqE4ykyf1soijxNE,11203
+dynrender/DynMajor.py,sha256=5zdN4RN452SrRVAsjFZYrfZIl4UXxLpzroyHZFiO46M,37014
+dynrender/DynRepost.py,sha256=D8_giA4UP0lFdB5LxEjJf7cQPqarRH0Qq4ZSKrh51Gs,1324
+dynrender/DynStyle.py,sha256=RSdZwSJj6Il94I7qSd8LOGxYZfUtADVEe3hZEjaDwYc,849
+dynrender/DynText.py,sha256=cRsdJirsb0bffyB21OIGXeh-i559P-taOFs_mcCRJZM,12613
+dynrender/DynTools.py,sha256=Mj2U4f3MOmm1ZCOkylEs7hfJ6mFF0NZoVCZwrWf68_8,4152
+dynrender/Static.zip,sha256=hz3KhnQvbxVRE4JOl_hIcs3zGxM3Z39k2POUQECA3cQ,341424
+dynrender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dynrender-0.1.8.dist-info/RECORD,,
