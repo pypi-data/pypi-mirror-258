@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: goals_from_team_statistic
+Version: 0.1.0
+Summary: A template Python module
+Home-page: https://github.com/niesfutbol/goals_from_team_statistic
+Author: NIES
+Author-email: nepo@nies.futbol
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+
+<a href="https://www.nies.futbol/"><img
+src="https://github.com/nepito/world_cup_semis/blob/develop/img/logo.jpeg" align="right" width="256"
+/></a>
+
+# Goals from team statistic
+[![codecov](https://codecov.io/gh/niesfutbol/goals_from_team_statistic/graph/badge.svg?token=meshj6y2yX)](https://codecov.io/gh/niesfutbol/goals_from_team_statistic)
+![licencia](https://img.shields.io/github/license/niesfutbol/goals_from_team_statistic)
+![languages](https://img.shields.io/github/languages/top/niesfutbol/goals_from_team_statistic)
+![commits](https://img.shields.io/github/commit-activity/y/niesfutbol/goals_from_team_statistic)
+
+## Step to use
+
