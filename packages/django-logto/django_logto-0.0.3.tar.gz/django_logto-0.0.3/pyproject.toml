@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-logto"
+version = "0.0.3"
+authors = [
+    { name = "Pulsation Studio", email = "liam@pulsation.eco" },
+]
+description = "DRF and Django Logto integration"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [# Optional
+    "django>=4.0",
+    "djangorestframework>=3.0",
+    "jose",
+    "asgiref",
+    "urllib",
+    "logto",
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/pulsation-studio/django-logto"
+Issues = "https://github.com/pulsation-studio/django-logto/issues"
