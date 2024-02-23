@@ -1,0 +1,2 @@
+[console_scripts]
+ays-agent = ays_agent.cli:app
