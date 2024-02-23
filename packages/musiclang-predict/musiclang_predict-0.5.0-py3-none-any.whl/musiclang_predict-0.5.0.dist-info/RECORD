@@ -1,0 +1,17 @@
+musiclang_predict/__init__.py,sha256=m2PdKHwn_jOxCyrml6nuKfVPNSvAM5wYTwoJ4tnnANA,641
+musiclang_predict/predictors/__init__.py,sha256=7GWmEjEoDGj_lcz5E8VFo1U_RlUmVeJ7P-KGv1tM-fc,167
+musiclang_predict/predictors/transformer.py,sha256=dM1hk_lLiH9yZ0OINHFbI9knhZlgiteaTzdZGTt8rxs,12905
+musiclang_predict/tokenizers/__init__.py,sha256=o9Qem5OEs1-bsWXpcSNtv_U9ln6OxJhwYrQirhqTXQU,226
+musiclang_predict/tokenizers/bpe_iterator.py,sha256=J95H0e9jblMOEdBZWkTNw0Ra76IsoAolsaDGYf50Jrk,2454
+musiclang_predict/tokenizers/bpe_tokenizer.py,sha256=5PqYxMG10RacR4jRoS9HAEApwYtvM5udLsDwjQZLgcI,1352
+musiclang_predict/tokenizers/chord_tokenizer.py,sha256=DosehE2JFSdJHBnAKZfubkzIvI_nBMnYnjcAJmSSNh8,2644
+musiclang_predict/tokenizers/interceptor.py,sha256=aHWohFDTIE3U936NkdRQdkmgjXtZ7HPGnT2XFvsvdg0,1191
+musiclang_predict/tokenizers/template_extractor.py,sha256=bo9k4m_TCaM0EWpZug8RcEfZ5znIJMJOeU7vT6wmlJI,2853
+musiclang_predict/tokenizers/tokenizer.py,sha256=2lUamJljF7Yl6xqTQbRXcVMDvQnSqiKAtj6Jyq3ZhEE,33324
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tokenizer.py,sha256=7Vr1A08paPbaItQVQ6u1d7Q5tMMXPhuHxbPO1zOgzWI,8744
+musiclang_predict-0.5.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+musiclang_predict-0.5.0.dist-info/METADATA,sha256=vasInKE_lSJVbko4BkmyY6G_Gldk0EyMIeoVSx366WI,6152
+musiclang_predict-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+musiclang_predict-0.5.0.dist-info/top_level.txt,sha256=yNwTkTDbH3J2L2eMM21afoH1g269uU8tDKbZX7UxGBM,24
+musiclang_predict-0.5.0.dist-info/RECORD,,
