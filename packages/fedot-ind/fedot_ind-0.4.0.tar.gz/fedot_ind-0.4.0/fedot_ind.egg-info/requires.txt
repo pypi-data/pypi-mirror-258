@@ -1,0 +1,16 @@
+fedot
+MKLpy==0.6
+PyMonad==2.4.0
+PyWavelets==1.4.1
+fastcore
+fastai
+distributed
+datasetsforecast
+tensorly==0.8.1
+torch==2.0.0
+torchvision==0.15.1
+statsforecast==1.5.0
+chardet
+
+[:sys_platform == "darwin"]
+catboost==1.1.1
