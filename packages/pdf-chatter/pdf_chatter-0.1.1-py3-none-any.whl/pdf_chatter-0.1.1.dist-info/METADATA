@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pdf-chatter
+Version: 0.1.1
+Summary: LLM powered Q&A over extracted PDF text
+License: MIT
+Author: David Samson
+Author-email: david.andrew.engineer@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: easyrepl (>=0.1.2)
+Requires-Dist: nougat-ocr (>=0.1.17)
+Requires-Dist: openai (>=1.12.0)
+Description-Content-Type: text/markdown
+
+# PDF Summarizer
+
+read pdf text with nougat-ocr, and summarize/chat with GPT-4
+
