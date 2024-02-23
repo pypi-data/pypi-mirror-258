@@ -1,0 +1,5 @@
+setup.py
+sankuai.egg-info/PKG-INFO
+sankuai.egg-info/SOURCES.txt
+sankuai.egg-info/dependency_links.txt
+sankuai.egg-info/top_level.txt
