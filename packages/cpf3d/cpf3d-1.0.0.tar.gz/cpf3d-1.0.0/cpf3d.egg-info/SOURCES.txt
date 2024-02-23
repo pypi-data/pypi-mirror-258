@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cpf3d/__init__.py
+cpf3d/frame.py
+cpf3d/point.py
+cpf3d/point_frames.py
+cpf3d.egg-info/PKG-INFO
+cpf3d.egg-info/SOURCES.txt
+cpf3d.egg-info/dependency_links.txt
+cpf3d.egg-info/requires.txt
+cpf3d.egg-info/top_level.txt
+tests/test_file_io.py
+tests/test_frame.py
+tests/test_point.py
+tests/test_point_frames.py
