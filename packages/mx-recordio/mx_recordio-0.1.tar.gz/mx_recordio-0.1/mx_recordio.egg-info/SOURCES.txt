@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+mx_recordio/__init__.py
+mx_recordio/base.py
+mx_recordio/libinfo.py
+mx_recordio/recordio.py
+mx_recordio.egg-info/PKG-INFO
+mx_recordio.egg-info/SOURCES.txt
+mx_recordio.egg-info/dependency_links.txt
+mx_recordio.egg-info/requires.txt
+mx_recordio.egg-info/top_level.txt
+test/tester.py
