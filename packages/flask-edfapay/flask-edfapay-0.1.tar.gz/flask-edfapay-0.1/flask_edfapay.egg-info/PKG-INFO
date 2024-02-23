@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flask-edfapay
+Version: 0.1
+Summary: A Flask library for edfapay API
+Home-page: https://github.com/BandarHL/flask-edfapay
+Author: BandarHelal
+Author-email: bandarhelal190@gmail.com
+Platform: any
+License-File: LICENSE
+Requires-Dist: Flask
+Requires-Dist: requests
+Requires-Dist: teritorio
+
+Please visit https://github.com/BandarHL/flask-edfapay
