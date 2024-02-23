@@ -1,0 +1,11 @@
+ptol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ptol/download_pdfs.py,sha256=utvo750mqrEcCAjgmnQAZ9KE_O5Zfp4hx94neZeuRsM,2886
+ptol/main.py,sha256=0nNZHMj3IIeqpmflQ-FyF5_16OZl2l8f1cjPSmcSqE8,2684
+ptol/pdf_to_text.py,sha256=HM7OXs4UZGLjJb253EBBJw_OyBHnOoGi9X69uwBkLxA,3492
+ptol/query_syntax.py,sha256=KBaIfWIMtmsyngg5OLLljkD0ZWdDcPtHF5X_6KijvYw,4996
+ptol/remove_duplicates.py,sha256=Y49YjxPUPFQDSAUOY7i1z1fJoFVJZuB6EIlV0hKjcnw,385
+ptol-0.1.0.dist-info/METADATA,sha256=hwBh0kM4QbUJcHMS5kbq1Z_YohtCYUwDkz81bB18yJM,10355
+ptol-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ptol-0.1.0.dist-info/entry_points.txt,sha256=5phXkS85VIObb8oCyNnmCXhpN1UZfEliJIONxqT8MjY,41
+ptol-0.1.0.dist-info/top_level.txt,sha256=Xy0kgBECzjjpBr4r3lQ_z1JKCtbb7sT9EPzxW5L6uUw,5
+ptol-0.1.0.dist-info/RECORD,,
