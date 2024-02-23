@@ -1,0 +1,3 @@
+[console_scripts]
+intent = intent_pilot.run.app:main
+
