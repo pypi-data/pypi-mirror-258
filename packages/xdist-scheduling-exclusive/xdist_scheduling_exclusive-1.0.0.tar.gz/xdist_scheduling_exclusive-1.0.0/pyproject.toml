@@ -1,0 +1,38 @@
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project]
+name = "xdist-scheduling-exclusive"
+dynamic = [ "version",]
+description = "pytest-xdist scheduler that runs some tests on dedicated workers. can significantly improve runtime by running long tests on separate workers."
+keywords = [ "opensearch", "log", "log-handler",]
+classifiers = [ "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent",]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
+[[project.authors]]
+name = "Andrey Sorokin"
+email = "andrey@sorokin.engineer"
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+Homepage = "https://andgineer.github.io/xdist-scheduling-exclusive/"
+Documentation = "https://andgineer.github.io/xdist-scheduling-exclusive/"
+
+[tool.setuptools]
+packages = "find:"
+
+[tool.ruff]
+line-length = 99
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.manifest]
+include = [ "README.md", "LICENSE.txt",]
+
+[tool.hatch.version]
+path = "src/xdist_scheduling_exclusive/__about__.py"
