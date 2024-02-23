@@ -1,0 +1,9 @@
+transformers
+torch
+
+[dev]
+pytest
+flake8
+mypy
+black
+isort
