@@ -1,0 +1,8 @@
+neuroqrs-0.1.0.dist-info/METADATA,sha256=82IETogxgs6EHqKS6ntDoJ1dylrzCpSD2HihSNpAqgM,2041
+neuroqrs-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+neuroqrs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+neuroqrs/genai.py,sha256=_BYETylA6PcOtBll_Io-PUpcqDRRmrgsI9k__vzUI68,2174
+neuroqrs/index.py,sha256=yenzKcG4Rhu7cEeriac9V0B22W5FXV21rIZt1Me8EB0,2479
+neuroqrs/main.py,sha256=6ChDe-M4J840QjwLT0S1blWioCOwkTbvssZK_H1j9ts,4496
+neuroqrs/utils.py,sha256=N37696qRR2JNohYYEwgXwicPCnR72-UIobN-aLPK7BA,1664
+neuroqrs-0.1.0.dist-info/RECORD,,
