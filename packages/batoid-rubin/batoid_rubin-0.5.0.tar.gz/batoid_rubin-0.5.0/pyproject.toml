@@ -1,0 +1,21 @@
+[project]
+name = "batoid_rubin"
+authors = [
+    {name = "Josh Meyers", email = "jmeyers314@gmail.com"},
+]
+dependencies = [
+    "batoid", "requests"
+]
+dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = [
+    "batoid_rubin",
+]
+
+[tool.setuptools_scm]
+write_to = "batoid_rubin/_version.py"
