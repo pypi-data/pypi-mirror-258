@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/code_meters.egg-info/PKG-INFO
+src/code_meters.egg-info/SOURCES.txt
+src/code_meters.egg-info/dependency_links.txt
+src/code_meters.egg-info/requires.txt
+src/code_meters.egg-info/top_level.txt
+src/meters/__init__.py
+src/meters/printing.py
+src/meters/resources.py
+tests/test_printing.py
+tests/test_resources.py
