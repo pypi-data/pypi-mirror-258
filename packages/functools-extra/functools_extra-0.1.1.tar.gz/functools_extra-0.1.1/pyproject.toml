@@ -1,0 +1,56 @@
+[tool.poetry]
+name = "functools-extra"
+version = "v0.1.1"
+description = "Additional functional tools for python not covered in the functools library"
+authors = ["Dennis Rall <dennis.rall@web.de>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["functional", "tools", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.urls]
+Homepage = "https://github.com/dennisrall/functools-extra"
+Documentation = "https://github.com/dennisrall/functools-extra"
+Repository = "https://github.com/dennisrall/functools-extra"
+Issues = "https://github.com/dennisrall/functools-extra/issues"
+Changelog = "https://github.com/dennisrall/functools-extra/releases"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.0.1"
+
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.2.2"
+mypy = "^1.8.0"
+
+[tool.ruff.lint]
+select = [
+    "F", # pyflakes
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "C90", # mccabe complexity check
+    "I", # isort
+    "N", # pep8-naming
+    "B", # flake8-bugbear
+    "T20", # no prints
+    "UP", # pyupgrade: check for newer syntax
+    "FA", # check future annotations are used
+    "C4", # better comprehensions
+    "PL", # pylint
+    "RUF", # ruff
+]
+ignore = [
+    "PLR0913", # too many arguments
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
