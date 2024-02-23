@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/dialoaders/__init__.py
+src/dialoaders/loaders.py
+src/fundialogues.egg-info/PKG-INFO
+src/fundialogues.egg-info/SOURCES.txt
+src/fundialogues.egg-info/dependency_links.txt
+src/fundialogues.egg-info/requires.txt
+src/fundialogues.egg-info/top_level.txt
+src/judgyrag/__init__.py
+src/judgyrag/benchgen.py
+src/judgyrag/preproc/judgypdf.py
+src/judgyrag/utils/generate.py
+src/judgyrag/utils/postproc.py
