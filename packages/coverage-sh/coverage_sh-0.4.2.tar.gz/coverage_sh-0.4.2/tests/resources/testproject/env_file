@@ -1,0 +1,5 @@
+#!/bin/sh
+PS4="COV:::\${BASH_SOURCE}:::\${LINENO}:::"
+exec {BASH_XTRACEFD}>>"/home/kilian/code/coverage-sh/tests/resources/testproject/trace_file"
+export BASH_XTRACEFD
+set -x

@@ -1,0 +1,99 @@
+CCCOV:::./test.sh:::8:::dirname -- ./test.sh
+CCOV:::./test.sh:::8:::cd -- .
+CCOV:::./test.sh:::8:::pwd
+COV:::./test.sh:::8:::SCRIPT_DIR=/home/kilian/code/coverage-sh/tests/resources/testproject
+COV:::./test.sh:::9:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::12:::variable='Hello, World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::15:::echo Hello, 'World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::18:::'[' 'Hello, World!' == 'Hello, World!' ']'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::19:::echo 'Variable is set to '\''Hello, World!'\'''
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 1'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 2'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 3'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 4'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 5'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::34:::say_hello
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::31:::echo 'Hello from a function!'
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::uname
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::os=Linux
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::38:::echo 'Current OS is: Linux'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::41:::result=8
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::42:::echo '5 + 3 = 8'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::45:::touch example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::46:::echo 'This is a sample file.'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::47:::cat example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::48:::rm -f example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::51:::fruit=banana
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::52:::case $fruit in
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::57:::echo 'You selected a banana.'
+CCCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::dirname -- /home/kilian/code/coverage-sh/tests/resources/testproject/test.sh
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::cd -- /home/kilian/code/coverage-sh/tests/resources/testproject
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::pwd
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::SCRIPT_DIR=/home/kilian/code/coverage-sh/tests/resources/testproject
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::9:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::12:::variable='Hello, World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::15:::echo Hello, 'World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::18:::'[' 'Hello, World!' == 'Hello, World!' ']'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::19:::echo 'Variable is set to '\''Hello, World!'\'''
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 1'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 2'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 3'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 4'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 5'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::34:::say_hello
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::31:::echo 'Hello from a function!'
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::uname
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::os=Linux
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::38:::echo 'Current OS is: Linux'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::41:::result=8
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::42:::echo '5 + 3 = 8'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::45:::touch example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::46:::echo 'This is a sample file.'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::47:::cat example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::48:::rm -f example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::51:::fruit=banana
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::52:::case $fruit in
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::57:::echo 'You selected a banana.'
+CCCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::dirname -- /home/kilian/code/coverage-sh/tests/resources/testproject/test.sh
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::cd -- /home/kilian/code/coverage-sh/tests/resources/testproject
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::pwd
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::8:::SCRIPT_DIR=/home/kilian/code/coverage-sh/tests/resources/testproject
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/test.sh:::9:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::12:::variable='Hello, World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::15:::echo Hello, 'World!'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::18:::'[' 'Hello, World!' == 'Hello, World!' ']'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::19:::echo 'Variable is set to '\''Hello, World!'\'''
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 1'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 2'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 3'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 4'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::25:::for i in {1..5}
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::26:::echo 'Iteration 5'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::34:::say_hello
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::31:::echo 'Hello from a function!'
+CCOV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::uname
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::37:::os=Linux
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::38:::echo 'Current OS is: Linux'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::41:::result=8
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::42:::echo '5 + 3 = 8'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::45:::touch example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::46:::echo 'This is a sample file.'
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::47:::cat example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::48:::rm -f example_file.txt
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::51:::fruit=banana
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::52:::case $fruit in
+COV:::/home/kilian/code/coverage-sh/tests/resources/testproject/syntax_example.sh:::57:::echo 'You selected a banana.'
