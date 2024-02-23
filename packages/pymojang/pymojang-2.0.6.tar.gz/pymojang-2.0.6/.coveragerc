@@ -1,0 +1,12 @@
+[run]
+branch = True
+source = mojang
+omit =
+    setup.py
+    versioneer.py
+    mojang/_version.py
+    noxfile.py
+
+[report]
+omit =
+    tests/*
