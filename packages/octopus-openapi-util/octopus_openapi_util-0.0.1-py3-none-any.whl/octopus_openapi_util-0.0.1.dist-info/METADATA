@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: octopus_openapi_util
+Version: 0.0.1
+Summary: Octopus OpenAPI authentication tool
+Home-page: https://gitlab-ee.zhenguanyu.com/yuanli/octopus-openapi-python/-/tree/master
+Author: Octopus OpenAPI SDK
+Author-email: zhangjiajunbj@kanyun.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+reviewers:
+
+# Instructions
+- pip install octopus_openapi_util
