@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: selenium_web_browser
+Version: 0.0.2
+Summary: Module covering Selenium browser
+Home-page: https://github.com/erenmustafaozdal/selenium-browser
+Author: Eren Mustafa Özdal
+Author-email: eren.060737@gmail.com
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium>=4.18.1
+Requires-Dist: webdriver-manager>=4.0.1
+
+# Selenium Browser
+
+Module covering Selenium browser

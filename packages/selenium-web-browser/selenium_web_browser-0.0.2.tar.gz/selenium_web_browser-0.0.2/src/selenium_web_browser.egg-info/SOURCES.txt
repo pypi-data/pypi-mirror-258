@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/selenium_web_browser/__init__.py
+src/selenium_web_browser/browser.py
+src/selenium_web_browser.egg-info/PKG-INFO
+src/selenium_web_browser.egg-info/SOURCES.txt
+src/selenium_web_browser.egg-info/dependency_links.txt
+src/selenium_web_browser.egg-info/requires.txt
+src/selenium_web_browser.egg-info/top_level.txt
