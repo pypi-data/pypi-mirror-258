@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+adrianpdf/__init__.py
+adrianpdf/pdf2image.py
+adrianpdf/pdf2text.py
+adrianpdf.egg-info/PKG-INFO
+adrianpdf.egg-info/SOURCES.txt
+adrianpdf.egg-info/dependency_links.txt
+adrianpdf.egg-info/top_level.txt
