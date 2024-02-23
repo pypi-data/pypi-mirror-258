@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm[toml]>=7.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lfsr-tools"
+authors = [
+  { name="jroth2858", email="jroth2858@users.noreply.github.com" },
+]
+dynamic = ["version"]
+description = "Tools for pseudo-random number sequence generation and LFSR recovery."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/jroth2858/lfsr-tools"
+Issues = "https://github.com/jroth2858/lfsr-tools/issues"
+
+[tool.setuptools_scm]
+write_to = "lfsr_tools/_version.py"
