@@ -1,0 +1,10 @@
+pywaybackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pywaybackup/__version__.py,sha256=1NSg4yHgqJJKYBklxFwmel_5eSNX51umiqsyFgx4770,21
+pywaybackup/archive.py,sha256=MyTTyvqqNh6se29mj0Ewz0OgdeoxQh-4l33z7Txysbg,10917
+pywaybackup/main.py,sha256=sCl8uvwxeef5TyHNml8J9_kJ2aZQFaoQCPm0W5GYh2g,2250
+pywaybackup-0.4.0.dist-info/LICENSE,sha256=ZQtS7nJ9j30EbPLxK4DiDdeJrLdYBciWUOFReXIiVC0,1065
+pywaybackup-0.4.0.dist-info/METADATA,sha256=YUk8bg29_Aqm7J6RDVKTahqmBFyAqVFV46d31rw718w,3550
+pywaybackup-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pywaybackup-0.4.0.dist-info/entry_points.txt,sha256=ZmF_VKgIYENo5P4wHdmW6GsgTDrJ6hDGx8rYT2lI8y0,52
+pywaybackup-0.4.0.dist-info/top_level.txt,sha256=4wVBZuqGxJVPt63G09FzoOGsB_yWzRJLqmLDEZbz_ck,12
+pywaybackup-0.4.0.dist-info/RECORD,,
