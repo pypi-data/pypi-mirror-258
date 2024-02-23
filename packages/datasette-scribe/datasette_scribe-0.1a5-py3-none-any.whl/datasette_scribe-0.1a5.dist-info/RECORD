@@ -1,0 +1,17 @@
+datasette_scribe/__init__.py,sha256=0XQbpr4TvDDNVL37UIJGSyTGHRaohqI6owEaE0IGWNE,19248
+datasette_scribe/schema.sql,sha256=v_eaEM8FSJ4-rMvECNSzSUDJEsznwvnhvMiz7vNnLcQ,2560
+datasette_scribe/static/collection/index.min.css,sha256=k65jkWLnanGVAWIL9gNiQKWoXs2hgajeNtAzPY0_G4I,18108
+datasette_scribe/static/collection/index.min.js,sha256=MnMnGadrkXjt8cJHk_ci1pfFhXxfLoCX2Rj3S5gwXbg,217231
+datasette_scribe/static/landing/index.min.css,sha256=woXfGyjnOW-Ym50RKHMTdxuG59uDKeF5xJcHLtU-J5g,18174
+datasette_scribe/static/landing/index.min.js,sha256=1mmJTtvGe5uZgqWxvvVuru9FIEAYujPJhEL-OXYmAso,218591
+datasette_scribe/static/transcript/index.min.css,sha256=hr42kVqdKKHSVR4ZTbXeyE1_Fo7FPQqKDWA31js1DL8,18404
+datasette_scribe/static/transcript/index.min.js,sha256=PkwnIbPBpMI0zGsEU7Sf4ArA4OucxEJCQcQOpdLVKyA,470033
+datasette_scribe/templates/collection.html,sha256=V4ok8YSUgGsWTzyIchzBJwXZjrP3ToIG8PzChSEpn3k,533
+datasette_scribe/templates/landing.html,sha256=XmyGXiOpPIEx_OaQCttjiv-PBwrluyXPSsZTOPKXHE0,416
+datasette_scribe/templates/transcript.html,sha256=PytSUancmoaciOQ-hFctkrqcv1YOs7MeFpavSGguYyU,533
+datasette_scribe-0.1a5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+datasette_scribe-0.1a5.dist-info/METADATA,sha256=OBC38DKv0QasDmRxnttqK8KP2hiH8v3m5JLo40J6tVk,919
+datasette_scribe-0.1a5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+datasette_scribe-0.1a5.dist-info/entry_points.txt,sha256=VpB0ukmXe5Z0h0rptHW_M52ZFcIeLCPIe9Ptxht66VE,38
+datasette_scribe-0.1a5.dist-info/top_level.txt,sha256=lpWl6W1JtYRDtC9t9uAhN3EZBIfw60BnnRCuANYxT4E,17
+datasette_scribe-0.1a5.dist-info/RECORD,,
