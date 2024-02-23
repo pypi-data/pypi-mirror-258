@@ -1,0 +1,37 @@
+[project]
+name = "NeuroQRS"
+version = "0.1.0"
+description = "NeuroQRS (Neuro Query Recommendation System) is Faiss + LLM based query recommender with auto-improvement using closed feedback loop"
+authors = [
+    { name = "Harishankar Kumar", email = "hari01584@gmail.com" },
+]
+dependencies = [
+    "faiss-cpu>=1.7.4",
+    "sentence-transformers>=2.3.1",
+    "openai>=1.12.0",
+    "sphinx>=7.1.2",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+test = "python -m unittest"
+docs = "sh -c 'make -C docs/ clean html && make -C docs/ html'"
+gh = "sh -c 'git push origin --delete gh-pages ; pdm run docs && cp -r docs/_build/html docs/gh-output-html/ && touch docs/gh-output-html/.nojekyll && git add docs/gh-output-html && git commit -m 'Deploy' && git subtree push --prefix docs/gh-output-html origin gh-pages && rm -rf docs/gh-output-html'"
+
+[tool.pdm.dev-dependencies]
+sphinx = [
+    "furo>=2024.1.29",
+]
