@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: epay-nepal
+Version: 0.1.0
+Summary: Streamline your Django project's payment processing with our easy-to-use integration powered by Poetry. Our payment integration app seamlessly integrates with Django projects, offering a robust solution for securely handling transactions.
+License: BSD License
+Author: deven
+Author-email: devendraa769@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (<3.2)
+Description-Content-Type: text/markdown
+
+README.md
