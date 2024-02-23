@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: iptracker
+Version: 1.0.0
+Summary: A Python package for tracking IP addresses and their locations.
+Home-page: https://github.com/ishanoshada/iptracker
+Author: Ishan Oshada
+Author-email: ishan.kodithuwakku.official@email.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
