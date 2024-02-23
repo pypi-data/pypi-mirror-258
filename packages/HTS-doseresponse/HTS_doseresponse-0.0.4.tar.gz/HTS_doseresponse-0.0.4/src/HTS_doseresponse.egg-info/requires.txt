@@ -1,0 +1,10 @@
+pandas>=1.5.3
+seaborn>=0.13.1
+scipy>=1.11.4
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+pip-tools
+pytest

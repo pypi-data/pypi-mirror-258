@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/HTS_doseresponse/__init__.py
+src/HTS_doseresponse/ht_curve_fitting.py
+src/HTS_doseresponse.egg-info/PKG-INFO
+src/HTS_doseresponse.egg-info/SOURCES.txt
+src/HTS_doseresponse.egg-info/dependency_links.txt
+src/HTS_doseresponse.egg-info/requires.txt
+src/HTS_doseresponse.egg-info/top_level.txt
+src/HTS_doseresponse/data/__init__.py
+src/HTS_doseresponse/data/example_data.csv
