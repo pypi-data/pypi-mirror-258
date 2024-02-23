@@ -1,0 +1,12 @@
+zope.interface
+
+[docs]
+Sphinx
+sphinx_rtd_theme
+venusian
+
+[testing]
+pytest
+pytest-cov
+venusian
+sybil
