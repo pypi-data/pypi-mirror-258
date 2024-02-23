@@ -1,0 +1,12 @@
+pyscancf/.DS_Store,sha256=SezYr_p8Y_BkOgqk7peEgkovwvHjrqmHMr4dVgfP8rs,6148
+pyscancf/__init__.py,sha256=C3-L4LJ5Xp4AJZeDLw4sr3xN5KtWNYUYSA7EbdcN9V4,1093
+pyscancf/_version_.py,sha256=lyTQD-E66akbk2DEYJF50gDiGBcmxYBXcwsSJbVnInU,60
+pyscancf/cmapmaker.py,sha256=BANQtgVg8g6UuVU8jeq1zNwmd-ScY5pAOUGi3HuExFQ,6661
+pyscancf/maxcappi.py,sha256=Ln_j__r8T569Auyx5XEP8T-6I3mWU8BRKvzherSmeEI,8985
+pyscancf/pyscancf.py,sha256=SlEImgufk2LCPg8L3nrYli1DHMB5YW0PxX5d1i2LLgo,9623
+pyscancf/__pycache__/__init__.cpython-39.pyc,sha256=RV9yPM_CHel50nh9wqj0U_Ft_bYvlPj8beTuMnuziYY,1233
+pyscancf/__pycache__/pyscancf.cpython-39.pyc,sha256=5d-76Yu6Upmo7CuPxHSjGfxW9lX12ngqUlCPkU453z4,6455
+pyscancf-1.0.29.dist-info/METADATA,sha256=tbXRhq4ok-4KKu-9diMcwIu6zMMywykWLEfBmKH21m4,4547
+pyscancf-1.0.29.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyscancf-1.0.29.dist-info/top_level.txt,sha256=51jXJzcWKkR44RTQHIX4hBogheqW0gmno_nlhq-Ucis,9
+pyscancf-1.0.29.dist-info/RECORD,,
