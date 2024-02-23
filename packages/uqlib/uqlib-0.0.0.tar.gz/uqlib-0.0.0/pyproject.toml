@@ -1,0 +1,7 @@
+[project]
+name = "uqlib"
+authors = [
+	{name = "Samuel Duffield", email = "sam@normalcomputing.ai"},
+]
+version = "0.0.0"
+description = "Coming soon"
