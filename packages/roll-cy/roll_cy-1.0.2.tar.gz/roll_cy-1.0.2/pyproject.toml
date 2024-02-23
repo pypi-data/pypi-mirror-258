@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel", "cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roll_cy"
+version = "1.0.2"
+dependencies = [
+  "numpy"
+]
+requires-python = ">= 3.9"
+authors = [
+  {name = "Aprilwill", email = "wenfangshangguan@gmail.com"},
+]
+
+
+
