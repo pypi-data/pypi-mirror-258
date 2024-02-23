@@ -1,0 +1,24 @@
+natsort
+numpy
+psutil
+scikit-learn
+torch
+torchvision
+tqdm
+matplotlib
+albumentations
+moviepy
+PyYAML>=5.1
+types-PyYAML
+gdown
+
+[:python_version < "3.7"]
+opencv-python-headless<4.3.0
+imageio==2.15.0
+
+[:python_version >= "3.8"]
+opencv-python-headless
+
+[all]
+pybullet
+tinyfk<0.6
