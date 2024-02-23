@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/typerwriter.egg-info/PKG-INFO
+src/typerwriter.egg-info/SOURCES.txt
+src/typerwriter.egg-info/dependency_links.txt
+src/typerwriter.egg-info/entry_points.txt
+src/typerwriter.egg-info/top_level.txt
+src/typewriter/__main__.py
+src/typewriter/typewriter.py
+src/typewriter/backup/typewriter.py
