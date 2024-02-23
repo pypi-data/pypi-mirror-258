@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ccodev2/__init__.py
+ccodev2/codevclient.py
+ccodev2.egg-info/PKG-INFO
+ccodev2.egg-info/SOURCES.txt
+ccodev2.egg-info/dependency_links.txt
+ccodev2.egg-info/requires.txt
+ccodev2.egg-info/top_level.txt
