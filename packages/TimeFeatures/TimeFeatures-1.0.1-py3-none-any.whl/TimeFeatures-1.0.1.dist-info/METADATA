@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: TimeFeatures
+Version: 1.0.1
+Home-page: https://github.com/alervgr/Orange-TimeFeatures
+Author: Alejandro Rivas García
+Author-email: alejandrorivasgarcia@gmail.com
+Keywords: orange3 add-on,timefeatures,graph,time series
+License-File: LICENSE
+
