@@ -1,0 +1,16 @@
+qfi_opt/__init__.py,sha256=eqy8IAibdlhPC9ICewI_Ya9mObp_11-Ge7jWlhOyoJA,155
+qfi_opt/dissipation.py,sha256=RYi1M-MgRdqGweAZYSG_rZoUJmZg-o1DumUXD7NcJms,9728
+qfi_opt/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qfi_opt/examples/benchmark_opt_methods.py,sha256=w0T1jqPXPNCfTnEfOVeviKTV9uq5BtH9YdKXM_QlD18,9261
+qfi_opt/examples/calculate_qfi.py,sha256=N9aDKUTHfXMVUmgRAlDttREm5h2K6AAEcoBcy5q9YfQ,9442
+qfi_opt/examples/matt_benchmark.py,sha256=ojvBze_KGqMzjrzVYCBk0-KWLNGw6KgVw90fN9a9Eg4,6620
+qfi_opt/examples/plot_kink.py,sha256=ZkAUJB1VpDz4c_uydaD1R6KfiLhh5ck7MQempV59w1Q,950
+qfi_opt/examples/plot_qfi_over_space.py,sha256=E8fhM7GzYzxf7ipb6r4jCl05nJO_RZZfh1VhG2DGiWw,1062
+qfi_opt/examples/plot_spin_state.py,sha256=j6FiA0gb9iahL4TfkBJa0iEwxzWrCtoy3AqBWHJLPbI,478
+qfi_opt/plot.py,sha256=GpnrZ-iexw6kMnbtDCTp9ledbNA6fQeOR_i-RJ22rmo,6306
+qfi_opt/spin_models.py,sha256=AXtMlJqp9DRobZRYNTFH3_7m-SnJqk3gtpj6Md7zrDI,18701
+qfi_opt/spin_models_test.py,sha256=624RNwE3BXWmhqex7dsoICz3TtrVC1DoWVo__YlpwS4,9887
+qfi_opt-0.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+qfi_opt-0.0.3.dist-info/METADATA,sha256=WqwgCyA2a2mKGcH5Tk7O4gBu8acRiYtdJVS6jwQEcmE,1839
+qfi_opt-0.0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qfi_opt-0.0.3.dist-info/RECORD,,
