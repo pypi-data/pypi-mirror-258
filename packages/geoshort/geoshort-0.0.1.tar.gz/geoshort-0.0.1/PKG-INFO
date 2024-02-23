@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: geoshort
+Version: 0.0.1
+Summary: A python package for class project
+Author-email: Brycen Harris <bharri94@vols.utk.edu>
+License: MIT License
+Project-URL: Homepage, https://github.com/BrycenHarris/geoshort
+Keywords: geoshort
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: geoshort[extra]; extra == "all"
+Provides-Extra: extra
+Requires-Dist: pandas; extra == "extra"
+
+# geoshort
+
+
+[![image](https://img.shields.io/pypi/v/geoshort.svg)](https://pypi.python.org/pypi/geoshort)
+[![image](https://img.shields.io/conda/vn/conda-forge/geoshort.svg)](https://anaconda.org/conda-forge/geoshort)
+
+
+**A python package for class project**
+
+
+-   Free software: MIT License
+-   Documentation: https://BrycenHarris.github.io/geoshort
+    
+
+## Features
+
+-   TODO

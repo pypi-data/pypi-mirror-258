@@ -1,0 +1,2 @@
+[console_scripts]
+geoshort = geoshort.cli:main
