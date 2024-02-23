@@ -1,0 +1,5 @@
+setup.py
+ipyclipboard.egg-info/PKG-INFO
+ipyclipboard.egg-info/SOURCES.txt
+ipyclipboard.egg-info/dependency_links.txt
+ipyclipboard.egg-info/top_level.txt
