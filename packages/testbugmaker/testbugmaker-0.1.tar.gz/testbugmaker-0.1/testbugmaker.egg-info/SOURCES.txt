@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+testbugmaker.egg-info/PKG-INFO
+testbugmaker.egg-info/SOURCES.txt
+testbugmaker.egg-info/dependency_links.txt
+testbugmaker.egg-info/requires.txt
+testbugmaker.egg-info/top_level.txt
