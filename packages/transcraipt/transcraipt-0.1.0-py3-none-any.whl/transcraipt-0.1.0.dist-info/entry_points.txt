@@ -1,0 +1,2 @@
+[console_scripts]
+transcraipt = ai_transcript.transcript:main
