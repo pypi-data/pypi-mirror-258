@@ -1,0 +1,8 @@
+README.md
+setup.py
+yoloworld/__init__.py
+yoloworld.egg-info/PKG-INFO
+yoloworld.egg-info/SOURCES.txt
+yoloworld.egg-info/dependency_links.txt
+yoloworld.egg-info/requires.txt
+yoloworld.egg-info/top_level.txt
