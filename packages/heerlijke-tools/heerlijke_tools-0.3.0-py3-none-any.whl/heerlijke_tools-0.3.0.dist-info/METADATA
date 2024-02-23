@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: heerlijke-tools
+Version: 0.3.0
+Summary: Toolbox of development utilities for my personal use.
+Author-email: Thomas Vanhelden <thomas.vanhelden@gmail.com>
+Requires-Python: >=3.12
+Requires-Dist: click>=8.1.7
+Requires-Dist: grpcio-tools>=1.60.1
+Requires-Dist: protoletariat>=3.2.19
+Description-Content-Type: text/markdown
+
+# Heerlijke Tools
+
+Describe your project here.
