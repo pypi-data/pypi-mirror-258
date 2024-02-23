@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "cloudflare-challenge"
+version = "0.1.1"
+description = "CloudFlare Challenge pages"
+authors = ["arabidopsis <ian.castleden@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cloudflare_challenge"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.3.3"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+strict = true
+python_executable=".venv/bin/python"
+exclude = ['^fabfile\.py$', '^tests/.*']
