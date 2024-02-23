@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: python-aki
+Version: 0.1.0
+Summary: Asynchronous DNS bruteforcer
+Home-page: https://github.com/irisdotsh/aki
+License: GPL-3.0-only
+Keywords: aki,dns,async,hacking,security,bruteforce
+Author: Iris Blankenship
+Author-email: iris@netwatchr.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Requires-Dist: aiodns (>=3.1.1,<4.0.0)
+Requires-Dist: aiofiles (>=23.2.1,<24.0.0)
+Project-URL: Bug Tracker, https://github.com/irisdotsh/aki/issues
+Project-URL: Repository, https://github.com/irisdotsh/aki
+Description-Content-Type: text/markdown
+
+

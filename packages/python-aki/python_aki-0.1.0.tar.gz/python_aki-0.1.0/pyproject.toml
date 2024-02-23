@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "python-aki"
+version = "0.1.0"
+description = "Asynchronous DNS bruteforcer"
+license = "GPL-3.0-only"
+authors = ["Iris Blankenship <iris@netwatchr.com>"]
+readme = "README.md"
+homepage = "https://github.com/irisdotsh/aki"
+repository = "https://github.com/irisdotsh/aki"
+keywords = ["aki", "dns", "async", "hacking", "security", "bruteforce"]
+packages = [
+    { include = "aki" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Security",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiodns = "^3.1.1"
+aiofiles = "^23.2.1"
+
+
+[tool.poetry.scripts]
+"aki" = "aki.cli:main"
+
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/irisdotsh/aki/issues"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
