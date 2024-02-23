@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pointextract
+Version: 0.0.50
+Summary: Unwraps a circular surface through a topological transform
+Home-page: https://engineering.case.edu/centers/sdle/
+Author: Roger French (ORCID:000000-0002-6162-0532),             Thomas Ciardi (ORCID:0009-0006-0942-2666),             Liangyi Huang (ORCID:0000-0003-0845-3293)
+Author-email: roger.french@case.edu
+License: BSD License (BSD-3)
+Keywords: transform,unwrap,topological
+License-File: LICENSE
