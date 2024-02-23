@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+wrongbutusefulsbi.egg-info/PKG-INFO
+wrongbutusefulsbi.egg-info/SOURCES.txt
+wrongbutusefulsbi.egg-info/dependency_links.txt
+wrongbutusefulsbi.egg-info/requires.txt
+wrongbutusefulsbi.egg-info/top_level.txt
