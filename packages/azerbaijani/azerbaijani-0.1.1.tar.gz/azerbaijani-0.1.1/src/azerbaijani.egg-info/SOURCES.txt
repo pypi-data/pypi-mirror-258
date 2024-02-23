@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/azerbaijani/__init__.py
+src/azerbaijani/config.py
+src/azerbaijani/detect.py
+src/azerbaijani/test.py
+src/azerbaijani.egg-info/PKG-INFO
+src/azerbaijani.egg-info/SOURCES.txt
+src/azerbaijani.egg-info/dependency_links.txt
+src/azerbaijani.egg-info/top_level.txt
+src/tests/__init__.py
+src/tests/test_detect.py
