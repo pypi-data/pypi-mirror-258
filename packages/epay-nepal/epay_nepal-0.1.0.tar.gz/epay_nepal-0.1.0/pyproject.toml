@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "epay-nepal"
+version = "0.1.0"
+description = "Streamline your Django project's payment processing with our easy-to-use integration powered by Poetry. Our payment integration app seamlessly integrates with Django projects, offering a robust solution for securely handling transactions."
+authors = ["deven <devendraa769@gmail.com>"]
+license = "BSD License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "<3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
