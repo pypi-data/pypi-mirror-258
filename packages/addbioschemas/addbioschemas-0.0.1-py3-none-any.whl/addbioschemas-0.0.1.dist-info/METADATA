@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: addbioschemas
+Version: 0.0.1
+Summary: A markdown extension to add bioschemas markup to rendered html
+Author-email: Geert van Geest <geert.vangeest@sib.swiss>
+Project-URL: Homepage, https://github.com/GeertvanGeest/addbioschemas/
+Project-URL: Issues, https://github.com/GeertvanGeest/addbioschemas/issues
+Requires-Dist: markdown
+Requires-Dist: pyyaml
+
