@@ -1,0 +1,3 @@
+[console_scripts]
+caracal-destruct=caracal_destruct.main:driver
+
