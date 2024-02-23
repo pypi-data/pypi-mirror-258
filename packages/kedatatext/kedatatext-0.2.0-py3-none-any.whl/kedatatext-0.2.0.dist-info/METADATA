@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: kedatatext
+Version: 0.2.0
+Summary: Skeleton project created by Python Project Wizard (ppw).
+Home-page: https://github.com/canggihpw/kedatatext
+License: MIT
+Author: Canggih Puspo Wibowo
+Author-email: cangcappo@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=22.3.0,<23.0.0) ; extra == "dev"
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: flake8 (==4.0.1) ; extra == "dev"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0) ; extra == "dev"
+Requires-Dist: isort (==5.10.1) ; extra == "dev"
+Requires-Dist: livereload (>=2.6.3,<3.0.0)
+Requires-Dist: materialx (>=1.38.8,<2.0.0) ; extra == "doc"
+Requires-Dist: mike (>=1.1.2,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs (>=1.2.3,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.3.1,<0.4.0) ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.2.3,<4.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-macros-plugin (>=1.0.5,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material (>=8.1.11,<9.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocstrings[python] (>=0.24.0,<0.25.0) ; extra == "doc"
+Requires-Dist: mypy (>=1.5.1,<2.0.0) ; extra == "dev"
+Requires-Dist: nltk (>=3.8.1,<4.0.0)
+Requires-Dist: pkginfo (>=1.9,<2.0) ; extra == "doc"
+Requires-Dist: pre-commit (>=2.17.0,<3.0.0) ; extra == "dev"
+Requires-Dist: pymdown-extensions (>=10.7,<11.0) ; extra == "doc"
+Requires-Dist: pyreadline (>=2.1,<3.0)
+Requires-Dist: pysastrawi (>=1.2.0,<2.0.0)
+Requires-Dist: pytest (>=7.0.1,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0) ; extra == "test"
+Requires-Dist: setuptools (>=68.0,<69.0) ; extra == "doc"
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "dev"
+Requires-Dist: tox (>=3.24.5,<4.0.0) ; extra == "dev"
+Requires-Dist: twine (>=3.8.0,<4.0.0) ; extra == "dev"
+Requires-Dist: virtualenv (>=20.0,<21.0) ; extra == "doc"
+Description-Content-Type: text/markdown
+
+# Kedata Text Analysis Package
+
+
+<p align="center">
+<a href="https://pypi.python.org/pypi/kedatatext">
+    <img src="https://img.shields.io/pypi/v/kedatatext.svg"
+        alt = "Release Status">
+</a>
+
+<a href="https://github.com/canggihpw/kedatatext/actions">
+    <img src="https://github.com/canggihpw/kedatatext/actions/workflows/dev.yml/badge.svg" alt="dev CI Status">
+</a>
+
+<a href="https://github.com/canggihpw/kedatatext/actions">
+    <img src="https://github.com/canggihpw/kedatatext/actions/workflows/release.yml/badge.svg" alt="release CI Status">
+</a>
+
+<a href="https://canggihpw.github.io/kedatatext/">
+    <img src="https://img.shields.io/website/https/canggihpw.github.io/kedatatext/index.html.svg?label=docs&down_message=unavailable&up_message=available" alt="Documentation Status">
+</a>
+
+<a href="https://codecov.io/gh/canggihpw/kedatatext" >
+    <img src="https://codecov.io/gh/canggihpw/kedatatext/graph/badge.svg?token=gQSMhgXOm0"/>
+</a>
+
+<a href="https://app.codacy.com/gh/canggihpw/kedatatext/dashboard" >
+    <img src="https://app.codacy.com/project/badge/Grade/2f7adf5b938c425fb85247b1efea0ac2"/>
+</a>
+
+<a href="https://pypi.python.org/pypi/kedatatext">
+    <img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/kedatatext">
+</a>
+
+<a href="https://github.com/canggihpw/kedatatext/tree/main/kedatatext">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/canggihpw/kedatatext">
+</a>
+
+
+
+</p>
+
+
+Skeleton project created by Python Project Wizard (ppw)
+
+
+* Free software: MIT
+* Documentation: <https://canggihpw.github.io/kedatatext/>
+
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with the [ppw](https://zillionare.github.io/python-project-wizard) tool. For more information, please visit the [project page](https://zillionare.github.io/python-project-wizard/).
+

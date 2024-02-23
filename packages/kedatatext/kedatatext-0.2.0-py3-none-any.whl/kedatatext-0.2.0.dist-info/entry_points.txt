@@ -1,0 +1,3 @@
+[console_scripts]
+kedatatext=kedatatext.cli:main
+

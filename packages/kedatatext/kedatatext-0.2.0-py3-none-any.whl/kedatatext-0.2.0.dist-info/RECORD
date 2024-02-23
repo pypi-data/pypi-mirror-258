@@ -1,0 +1,11 @@
+kedatatext/__init__.py,sha256=PjFh6rGIXWXD2DM6mMMcONjsByrQKbqgWKq21hNHlZg,157
+kedatatext/app.py,sha256=tpFssZvjlAIdktPHkkJd7bVHMGmfJ-LkmLaAxjvXaeI,1527
+kedatatext/cli.py,sha256=Z6xC8QbieSu60bKsgnsWKA1rLCUbrDc1SieYYH1no-k,259
+kedatatext/preprocessing.py,sha256=kEk_5tKWjznhT1DC4LonCRzh09oGvba-bwuszxIdtuw,3902
+kedatatext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kedatatext/vectorization.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kedatatext-0.2.0.dist-info/LICENSE,sha256=2n_syJ1H9AX2ujzL8epNexv9Ndt3wPTtJvO4Y-jL1xE,1078
+kedatatext-0.2.0.dist-info/METADATA,sha256=VJJl3rN7xZbEo9X1Eg-l1LWG4bWtuVZP-l4TXnZQjMA,4234
+kedatatext-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+kedatatext-0.2.0.dist-info/entry_points.txt,sha256=_XsuREhOse12Uk87Sti2fWUhocN2AdN2D5yz7ACcYeM,50
+kedatatext-0.2.0.dist-info/RECORD,,
