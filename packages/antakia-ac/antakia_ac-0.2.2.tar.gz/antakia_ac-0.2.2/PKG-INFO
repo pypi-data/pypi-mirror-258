@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: antakia-ac
+Version: 0.2.2
+Summary: 
+Author: Pierre Hulot
+Author-email: pierre@ai-vidence.com
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: antakia-core
+Requires-Dist: numba (>=0.59.0,<0.60.0)
+Requires-Dist: pandas (>=2.2.0,<3.0.0)
+Requires-Dist: pyarmor (>=8.4.7,<9.0.0)
+Requires-Dist: pyarmor-webui (>=2.2,<3.0)
+Requires-Dist: scikit-learn (>=1.4.0,<2.0.0)
+Requires-Dist: scipy (>=1.12.0,<2.0.0)
+Requires-Dist: tomaster (>=0.0.5,<0.0.6)
+Requires-Dist: umap-learn (>=0.5.5,<0.6.0)
+Description-Content-Type: text/markdown
+
+Auto-clustering algorithms for AntakIA
+
+To protect our intellectual property, this package is obfuscated
