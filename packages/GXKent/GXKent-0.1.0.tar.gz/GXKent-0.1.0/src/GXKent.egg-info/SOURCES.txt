@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+src/GXKent.egg-info/PKG-INFO
+src/GXKent.egg-info/SOURCES.txt
+src/GXKent.egg-info/dependency_links.txt
+src/GXKent.egg-info/requires.txt
+src/GXKent.egg-info/top_level.txt
