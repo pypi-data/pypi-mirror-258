@@ -1,0 +1,10 @@
+Django>=1.11
+
+[sendgrid]
+sendgrid
+
+[serializers]
+djangorestframework
+
+[sms]
+django-sms[twilio]
