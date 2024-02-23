@@ -1,0 +1,12 @@
+Monisha/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Monisha/functions/__init__.py,sha256=l9RtGxhTOEMaHTltNtrG_d9nI3oA5Ng1hdFt7e8frt0,88
+Monisha/functions/function01.py,sha256=1fO14okCl6l4UNGeox2CCvF21UCCjmd5loIfgCqTukM,1307
+Monisha/functions/function02.py,sha256=d9oH2APkMMHhGtOMJxYWiWVIJHPaMF83iQVsZcMW6hk,1021
+Monisha/scripts/__init__.py,sha256=yjsyLSdPccKx_m_8s_N3cpno9tqCBXzvSnJCPhU4-ys,47
+Monisha/scripts/en.py,sha256=yZqTmIlerQcA24byXDTfKPkHWXrZTonyJENjtgNOfzo,77
+Monisha/scripts/uo.py,sha256=rWEIwai65BmQIPL6jfNa9gWMinO9UaaVgZrDD-FbCdI,224
+monisha-0.0.20.dist-info/LICENSE,sha256=q5ZDw4z5SA3hq3dK5XaEQfGCAk9k-EXFdifNETEaw4Y,1076
+monisha-0.0.20.dist-info/METADATA,sha256=CYL2YipyBwJbTYSII9pJX1vwjAB1lx2pKk6lDnqfgSA,1798
+monisha-0.0.20.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+monisha-0.0.20.dist-info/top_level.txt,sha256=XNmRVe55lc64KtPMDifEQMTKj-qgAEwMlmy2hQF1dow,8
+monisha-0.0.20.dist-info/RECORD,,
