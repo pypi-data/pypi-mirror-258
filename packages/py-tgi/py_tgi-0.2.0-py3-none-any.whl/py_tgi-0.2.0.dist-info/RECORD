@@ -1,0 +1,9 @@
+py_tgi/__init__.py,sha256=aNBJHe1mNdVqOx22THsshKkzaedKUNJmQG27ncRw6lk,161
+py_tgi/inference_server.py,sha256=YCsC7fWtNq7bgPa53fVB8Fxs1mVcLCA6F2TOAk8tSEE,4717
+py_tgi/text_embedding_inference.py,sha256=s1CrKFiblA56gq1WYRHXAwuXqpIQLGJAybqOg2cpi0o,5494
+py_tgi/text_generation_inference.py,sha256=8ZIRFifRey-n4ifdOPg6iHC97lMyBhts5asjrI-11NE,5305
+py_tgi/utils.py,sha256=hPGJjKmPblCD02MP-E1v6iHxy2KGUJTNuGEfypfMyQo,435
+py_tgi-0.2.0.dist-info/METADATA,sha256=v7Itn_CEuOSdDXvnwUA0r8E9tFnJWoPoeIFubuUDOFI,3134
+py_tgi-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+py_tgi-0.2.0.dist-info/top_level.txt,sha256=qE1YbEIpahyzBAP9JLz95nBfL2M9XgnXPz38BGuSU6A,7
+py_tgi-0.2.0.dist-info/RECORD,,
