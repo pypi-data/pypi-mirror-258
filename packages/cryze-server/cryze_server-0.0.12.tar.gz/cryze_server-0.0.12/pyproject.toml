@@ -1,0 +1,31 @@
+[project]
+name = "cryze_server"
+version = "0.0.12"
+description = "Cryze Websocket server that coordinates the Cryze-Android app and the outside world."
+authors = [{name = "Carson Loyal", email = "carsonloyal123@me.com"}]
+license = {file = "LICENSE"}
+dependencies = [
+  "websockets",
+  "asyncio"
+]
+
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+name = "cryze_server"
+description = "Cryze Websocket server that coordinates the Cryze-Android app and the outside world."
+authors = ["Carson Loyal <carsonloyal123@me.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+websockets = "^9.0"
+asyncio = "^3.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"
+
+[tool.poetry.scripts]
+cryze_server = "scripts.run_cryze_server:main"
