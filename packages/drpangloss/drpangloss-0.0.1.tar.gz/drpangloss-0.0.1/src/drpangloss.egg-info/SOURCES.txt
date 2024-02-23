@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/drpangloss.egg-info/PKG-INFO
+src/drpangloss.egg-info/SOURCES.txt
+src/drpangloss.egg-info/dependency_links.txt
+src/drpangloss.egg-info/requires.txt
+src/drpangloss.egg-info/top_level.txt
+tests/tests.py
