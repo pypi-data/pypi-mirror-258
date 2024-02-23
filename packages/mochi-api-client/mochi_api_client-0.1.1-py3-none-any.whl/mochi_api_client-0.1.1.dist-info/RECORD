@@ -1,0 +1,12 @@
+mochi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mochi/auth.py,sha256=0Uht5wF28ETSSbiOA-T3LdFNOIzqpVYaYMFzAH77-PE,468
+mochi/cards.py,sha256=X5TPgAlhUr-aDlZH__AdwlDN_PXlQhCI44NWJtrRQQw,5480
+mochi/client.py,sha256=pC2ErS8kIgM133NE2rAyMV8Pj0OXYcMHgDhvO_QF_tY,586
+mochi/decks.py,sha256=kQCkpahTETEVFhde0RxxsglE91sJ3vkGkLqbjE0a0k4,2346
+mochi/models.py,sha256=6gsHQ96VAe0FNOtseoux1mJTq8UoBzCBxWQxBKshjIw,1074
+mochi/template.py,sha256=v8SMXpIz4lReesR7RalXjk5FkeNekaVMRZqnubliq6k,1141
+mochi_api_client-0.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+mochi_api_client-0.1.1.dist-info/METADATA,sha256=9B0SdxA6owGviZ2HCfUGKyInQSXrorSaoy6uus_631s,2585
+mochi_api_client-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mochi_api_client-0.1.1.dist-info/top_level.txt,sha256=jIdNUprLxBSVclePzRO9b_eFRtXZePFsBHqGi1bOhe8,6
+mochi_api_client-0.1.1.dist-info/RECORD,,
