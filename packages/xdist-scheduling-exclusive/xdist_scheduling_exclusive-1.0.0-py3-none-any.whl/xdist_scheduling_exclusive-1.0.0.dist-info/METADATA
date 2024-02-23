@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: xdist-scheduling-exclusive
+Version: 1.0.0
+Summary: pytest-xdist scheduler that runs some tests on dedicated workers. can significantly improve runtime by running long tests on separate workers.
+Project-URL: Homepage, https://andgineer.github.io/xdist-scheduling-exclusive/
+Project-URL: Documentation, https://andgineer.github.io/xdist-scheduling-exclusive/
+Author-email: Andrey Sorokin <andrey@sorokin.engineer>
+License: Copyright (c) 2021 Andrey Sorokin <andrey@sorokin.engineer>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE.txt
+Keywords: log,log-handler,opensearch
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+[![Build Status](https://github.com/andgineer/xdist-scheduling-exclusive/workflows/CI/badge.svg)](https://github.com/andgineer/xdist-scheduling-exclusive/actions)
+[![Coverage](https://raw.githubusercontent.com/andgineer/xdist-scheduling-exclusive/python-coverage-comment-action-data/badge.svg)](https://htmlpreview.github.io/?https://github.com/andgineer/xdist-scheduling-exclusive/blob/python-coverage-comment-action-data/htmlcov/index.html)
+# xdist-scheduling-exclusive
+
+pytest-xdist scheduler that runs some tests on dedicated workers. can significantly improve runtime by running long tests on separate workers.
+
+# Documentation
+
+[Xdist Scheduler Ordered](https://andgineer.github.io/xdist-scheduling-exclusive/en/)
+
+# Developers
+
+Do not forget to run `. ./activate.sh`.
+
+# Scripts
+    make help
+
+## Coverage report
+* [Codecov](https://app.codecov.io/gh/andgineer/xdist-scheduling-exclusive/tree/main/src%2Fxdist_scheduling_exclusive)
+* [Coveralls](https://coveralls.io/github/andgineer/xdist-scheduling-exclusive)
