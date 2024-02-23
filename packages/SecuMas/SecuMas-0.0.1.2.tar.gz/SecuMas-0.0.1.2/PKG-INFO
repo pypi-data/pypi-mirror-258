@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SecuMas
+Version: 0.0.1.2
+Summary: An application build for Securities Master platform
+Home-page: https://secumas.dev
+Author: Atul Deolekar
+Author-email: sher.buk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pythoncustompackages
+
+This Repo is for Security Masters Python custom package built using GitHub actions
