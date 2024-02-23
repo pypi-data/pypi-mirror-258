@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/board.cpp
+src/board.h
+src/env.cpp
+src/tetris_c.egg-info/PKG-INFO
+src/tetris_c.egg-info/SOURCES.txt
+src/tetris_c.egg-info/dependency_links.txt
+src/tetris_c.egg-info/requires.txt
+src/tetris_c.egg-info/top_level.txt
