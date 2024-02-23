@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements_dev.txt
+setup.cfg
+setup.py
+ssmi.py
+ssmi_py.egg-info/PKG-INFO
+ssmi_py.egg-info/SOURCES.txt
+ssmi_py.egg-info/dependency_links.txt
+ssmi_py.egg-info/entry_points.txt
+ssmi_py.egg-info/not-zip-safe
+ssmi_py.egg-info/requires.txt
+ssmi_py.egg-info/top_level.txt
