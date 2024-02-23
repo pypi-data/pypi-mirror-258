@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: roll-cy
+Version: 1.0.1
+Author-email: Aprilwill <wenfangshangguan@gmail.com>
+Requires-Python: >=3.9
+Requires-Dist: numpy
