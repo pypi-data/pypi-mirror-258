@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+Monisha/__init__.py
+Monisha/functions/__init__.py
+Monisha/functions/function01.py
+Monisha/functions/function02.py
+Monisha/scripts/__init__.py
+Monisha/scripts/en.py
+Monisha/scripts/uo.py
+monisha.egg-info/PKG-INFO
+monisha.egg-info/SOURCES.txt
+monisha.egg-info/dependency_links.txt
+monisha.egg-info/not-zip-safe
+monisha.egg-info/top_level.txt
