@@ -1,0 +1,71 @@
+[project]
+name = "gbfr-auto-restart"
+version = "0.1.0"
+description = "Granblue Fantasy Relink Auto Restart"
+authors = [
+    { name = "Dowon", email = "ks2515@naver.com" },
+]
+dependencies = [
+    "pyautogui",
+    "pillow",
+    "rich",
+    "opencv-python",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pre-commit",
+]
+build = [
+    "nuitka>=2.0.3",
+]
+
+[project.scripts]
+gbfr_auto_restart = "gbfr_auto_restart:main"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "gbfr_auto_restart.py",
+]
+
+[tool.pdm.scripts.exe]
+cmd = [
+    "python",
+    "-m",
+    "nuitka",
+    "--assume-yes-for-downloads",
+    "--onefile",
+    "gbfr_auto_restart.py",
+]
+
+[tool.pdm.scripts.encode]
+cmd = [
+    "python",
+    "encode.py",
+]
+
+[tool.pdm.scripts.export]
+cmd = [
+    "pdm",
+    "export",
+    "-o",
+    "requirements.txt",
+    "-G",
+    "build",
+]
