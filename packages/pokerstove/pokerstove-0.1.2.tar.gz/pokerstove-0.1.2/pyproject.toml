@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pokerstove"
+version = "0.1.2"
+description = ""
+authors = ["Cameron Grant <cameron.grant@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
