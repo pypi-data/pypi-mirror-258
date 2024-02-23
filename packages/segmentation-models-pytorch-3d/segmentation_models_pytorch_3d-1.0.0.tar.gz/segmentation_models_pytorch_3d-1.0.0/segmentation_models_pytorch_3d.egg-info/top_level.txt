@@ -1,0 +1,8 @@
+segmentation_models_pytorch_3d
+segmentation_models_pytorch_3d/base
+segmentation_models_pytorch_3d/datasets
+segmentation_models_pytorch_3d/decoders
+segmentation_models_pytorch_3d/encoders
+segmentation_models_pytorch_3d/losses
+segmentation_models_pytorch_3d/metrics
+segmentation_models_pytorch_3d/utils
