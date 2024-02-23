@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+py_tgi/__init__.py
+py_tgi/inference_server.py
+py_tgi/text_embedding_inference.py
+py_tgi/text_generation_inference.py
+py_tgi/utils.py
+py_tgi.egg-info/PKG-INFO
+py_tgi.egg-info/SOURCES.txt
+py_tgi.egg-info/dependency_links.txt
+py_tgi.egg-info/requires.txt
+py_tgi.egg-info/top_level.txt

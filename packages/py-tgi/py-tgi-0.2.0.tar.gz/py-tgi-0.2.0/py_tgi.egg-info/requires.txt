@@ -1,0 +1,6 @@
+docker
+huggingface-hub
+numpy
+
+[quality]
+ruff
