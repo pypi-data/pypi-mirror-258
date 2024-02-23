@@ -1,0 +1,15 @@
+defense_finder/__init__.py,sha256=C4qz7evirAKy02SfR0P07kQSH1NXzau6tKjaIHoByYQ,1532
+defense_finder_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+defense_finder_cli/main.py,sha256=Lg557zLTsIz-kNbWzIpJhYgn_U2Rez2E3_uJabNquoM,7601
+defense_finder_posttreat/__init__.py,sha256=7G26Wje8x7iL5OyxV07BxbuHtqHcSleBqYqonMomNoo,567
+defense_finder_posttreat/best_solution.py,sha256=N_F1yKhYZ9Yuu6J8DiNb9p_O3hVcN4LJs49RfoY8f7s,1825
+defense_finder_posttreat/df_genes.py,sha256=S9lWYd2HmzBIVo0RJQofd8c2D20kqsrr7QZ26MeVjlY,911
+defense_finder_posttreat/df_hmmer.py,sha256=mX0rHoju7-50m9lPhAZ34SBAMeaVyLASpmcsrLqmSTE,2337
+defense_finder_posttreat/df_systems.py,sha256=Dl9pjmmddWr3hyrCECBsssiPkuaUF94JTue8D202DGw,1874
+defense_finder_updater/__init__.py,sha256=KTuZf6nwuq8zvkObKa7JUUBEz0Xaia4GI_282fqWp_k,631
+mdmparis_defense_finder-1.2.2.dist-info/LICENSE,sha256=wCC-AbRwWSbe9BAI-xxklyzQmDtw6LKkGQ4aaTFClGI,34444
+mdmparis_defense_finder-1.2.2.dist-info/METADATA,sha256=NE0Qz9LEqjfXadf2Hx17Sixgbj2rR_C32hLsqgZEft4,11506
+mdmparis_defense_finder-1.2.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mdmparis_defense_finder-1.2.2.dist-info/entry_points.txt,sha256=TAUdAMRVokzlCLkKA7n0T0DzOT9QqwNvi61Cyyhf3GU,63
+mdmparis_defense_finder-1.2.2.dist-info/top_level.txt,sha256=HS4UkA8OlvYM3sG-jj3TJLLwWdLi4MEJCIhyciihDTo,82
+mdmparis_defense_finder-1.2.2.dist-info/RECORD,,
