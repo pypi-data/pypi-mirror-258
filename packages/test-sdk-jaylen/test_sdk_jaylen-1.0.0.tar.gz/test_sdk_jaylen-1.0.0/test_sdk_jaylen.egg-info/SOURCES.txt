@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+my_sdk/__init__.py
+my_sdk/api.py
+my_sdk/database.py
+test_sdk_jaylen.egg-info/PKG-INFO
+test_sdk_jaylen.egg-info/SOURCES.txt
+test_sdk_jaylen.egg-info/dependency_links.txt
+test_sdk_jaylen.egg-info/requires.txt
+test_sdk_jaylen.egg-info/top_level.txt
