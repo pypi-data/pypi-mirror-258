@@ -1,0 +1,5 @@
+setup.py
+evm_tools_pyversion.egg-info/PKG-INFO
+evm_tools_pyversion.egg-info/SOURCES.txt
+evm_tools_pyversion.egg-info/dependency_links.txt
+evm_tools_pyversion.egg-info/top_level.txt
