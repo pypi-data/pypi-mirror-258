@@ -1,0 +1,3 @@
+[console_scripts]
+echo-client=echo_client.__main__:main_loop
+
