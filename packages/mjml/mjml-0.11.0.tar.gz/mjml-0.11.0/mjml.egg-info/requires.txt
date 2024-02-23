@@ -1,0 +1,13 @@
+beautifulsoup4
+dotmap
+docopt
+jinja2
+
+[css_inlining]
+css_inline<0.14,>=0.11
+
+[testing]
+FakeFSHelpers
+HTMLCompare>=0.3.0
+lxml
+pytest
