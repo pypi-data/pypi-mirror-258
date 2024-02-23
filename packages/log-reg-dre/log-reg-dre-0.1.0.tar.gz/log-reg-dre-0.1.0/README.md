@@ -1,0 +1,47 @@
+# LogReg DRE (Logistic Regression for Density Ratio Estimation)
+
+LogReg DRE is a Python package for implementing regression models with a focus on handling covariate shift via density ratio estimation using logistic regression. This approach is particularly useful in scenarios where the training and test data distributions differ significantly.
+
+## Features
+
+- Data Generation: Customizable data generation for simulating training and testing datasets with different distributions.
+- Density Ratio Estimation: Utilizes logistic regression to estimate density ratios between training and test datasets, which are then used as weights in the loss function to mitigate covariate shift.
+- Regression Models: Includes implementation of standard regression models and RU regression models that leverage estimated density ratios.
+- Visualization: Functionality to visualize training loss and model predictions to evaluate performance and the impact of covariate shift correction.
+
+## Installation
+
+https://github.com/szhang120/log-reg-DRE.git
+cd log_reg_dre
+pip install .
+
+## Usage
+
+The main components of LogReg DRE are contained within the package directory, which includes modules for data generation, model definition, density ratio estimation, and training routines.
+
+### Data Generation
+
+from package.data import generate_x_vals
+x_train = generate_x_vals(P_TRAIN, NUM_PTS)
+x_test = generate_x_vals(P_TEST, NUM_PTS)
+
+### Density Ratio Estimation
+
+from package.density_ratio_estimation import train_logistic_regression, estimate_density_ratio
+classifier = train_logistic_regression(x_train, x_test)
+density_ratios = estimate_density_ratio(x_train, classifier)
+
+### Model Training
+
+from package.training import train_standard_model, train_RU_model
+std_model, std_loss = train_standard_model(X_train, Y_train, classifier)
+ru_models, ru_loss = train_RU_model(X_train, Y_train, gamma_values, classifier)
+
+### Visualization
+
+Refer to the visualization section in main.py for examples on how to plot training losses and model predictions.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+

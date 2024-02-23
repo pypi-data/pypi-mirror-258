@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+log_reg_dre.egg-info/PKG-INFO
+log_reg_dre.egg-info/SOURCES.txt
+log_reg_dre.egg-info/dependency_links.txt
+log_reg_dre.egg-info/requires.txt
+log_reg_dre.egg-info/top_level.txt
