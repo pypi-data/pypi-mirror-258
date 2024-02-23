@@ -1,0 +1,3 @@
+include PandasColorPrinter/requirements.txt
+include PandasColorPrinter/thirdparty.json
+include PandasColorPrinter/README.MD
