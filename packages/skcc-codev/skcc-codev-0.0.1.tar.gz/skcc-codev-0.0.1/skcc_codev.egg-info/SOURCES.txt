@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+skcc-codev/__init__.py
+skcc-codev/codevclient.py
+skcc_codev.egg-info/PKG-INFO
+skcc_codev.egg-info/SOURCES.txt
+skcc_codev.egg-info/dependency_links.txt
+skcc_codev.egg-info/requires.txt
+skcc_codev.egg-info/top_level.txt
