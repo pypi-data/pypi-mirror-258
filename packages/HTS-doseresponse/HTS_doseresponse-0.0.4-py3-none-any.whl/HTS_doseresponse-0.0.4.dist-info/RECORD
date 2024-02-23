@@ -1,0 +1,9 @@
+HTS_doseresponse/__init__.py,sha256=y_9SHj1h2mLl89YvJjGSIOTagI3txK_RPQLGfiv3fBQ,53
+HTS_doseresponse/ht_curve_fitting.py,sha256=tbcHJ8ZnG6Mnst2jg9TiviDZBcWtVPQ0zDkYEDBV4QY,3696
+HTS_doseresponse/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+HTS_doseresponse/data/example_data.csv,sha256=1AoF4QsPulr4FESC7124TN_KR5EkPfAtYOCoFZbEoK4,32070
+HTS_doseresponse-0.0.4.dist-info/LICENSE,sha256=xbPqan5Lf7kSd8tSjVGxP8hMml54rvd6KodwxEXlI9s,1069
+HTS_doseresponse-0.0.4.dist-info/METADATA,sha256=B388BVHEj00Y_coEHm3WzOockFPNbe7Hbn2rwGM1sx8,2585
+HTS_doseresponse-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+HTS_doseresponse-0.0.4.dist-info/top_level.txt,sha256=VCs641eHyyknODzSs2p8PgonE5fsjJjVwAjzOXSrXVQ,17
+HTS_doseresponse-0.0.4.dist-info/RECORD,,
