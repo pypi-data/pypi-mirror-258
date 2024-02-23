@@ -1,0 +1,17 @@
+[project]
+name = "fractalizer_haongo138"
+version = "0.0.1"
+authors = [
+  { name="Hao Ngo", email="haoxray@gmail.com" },
+]
+description = "Generate and display various fractals"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/haongo138/oss-fractalizer"

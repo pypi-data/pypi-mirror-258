@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/fractals.py
+src/main.py
+src/fractalizer_haongo138.egg-info/PKG-INFO
+src/fractalizer_haongo138.egg-info/SOURCES.txt
+src/fractalizer_haongo138.egg-info/dependency_links.txt
+src/fractalizer_haongo138.egg-info/top_level.txt
