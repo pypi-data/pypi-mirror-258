@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azerbaijani/__init__.py,sha256=s8cpZVur0-y1MkRwpZjYSwJZpXIMjhXkKiJlF0tNoSM,22
+azerbaijani/config.py,sha256=SUqWfbpYFeHC9uviKm6d4n28U3r6LF4i0AKQYCocRF4,50
+azerbaijani/detect.py,sha256=o-j5gtuWXwHW72tmcGRK3twQCGw_KVUiW4nl0S5xvz0,411
+azerbaijani/test.py,sha256=gBRaFinQobC-EfZYxxJC5Ol56mPMna2k32np32KM764,67
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_detect.py,sha256=XhtywC3hMfCzeNerZ71XMfcIIiNueKbDlOKK4f1ywbs,329
+azerbaijani-0.1.1.dist-info/LICENSE,sha256=L8_LgjY3fLZHtEoyZOE-f6C-HTYo167INQ31Hz1XEtE,1070
+azerbaijani-0.1.1.dist-info/METADATA,sha256=i8ToGGi_fn2mXCFOrAdaznQtFj2SrCswtDdYVZrzbns,1476
+azerbaijani-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+azerbaijani-0.1.1.dist-info/top_level.txt,sha256=ckB9PNK4uWgXNqtz4wZPv0dndXwEFqKzgHQoO-f_FGM,27
+azerbaijani-0.1.1.dist-info/RECORD,,
