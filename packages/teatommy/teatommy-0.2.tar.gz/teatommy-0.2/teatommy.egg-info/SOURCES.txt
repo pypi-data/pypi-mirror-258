@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+teatommy/__init__.py
+teatommy/main.py
+teatommy.egg-info/PKG-INFO
+teatommy.egg-info/SOURCES.txt
+teatommy.egg-info/dependency_links.txt
+teatommy.egg-info/entry_points.txt
+teatommy.egg-info/top_level.txt
