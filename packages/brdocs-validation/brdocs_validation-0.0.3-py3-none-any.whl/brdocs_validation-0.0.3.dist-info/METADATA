@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: brdocs-validation
+Version: 0.0.3
+Summary: Validates brazilian documents using typing hints in Pydantic's BaseModels.
+Author-email: Vinícius Aguiar <vaguiararqdevsoftware@proton.me>
+Maintainer-email: Vinícius Aguiar <vaguiararqdevsoftware@proton.me>
+Project-URL: Repository, https://github.com/vinicius-oa/BRdocs-validation
+Keywords: pydantic,validation,brazilian documents,documentos brasileiros,validação,cpf,cnpj
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pydantic :: 2
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pydantic >=2.6.1
+
+## Install
+```
+pip install brdocs-validation
+```
+
+
+## Supported docs and its formats
+
+| Supports |                    Format                     |
+|:--------:|:---------------------------------------------:|
+|   CNPJ   | Without special chars or *12.345.678/9012-34* |
+|   CPF    |   Without special chars or *123.456.789-01*   |
+|   CNH    |    Without special chars and only numbers     |
+
+## Usage 
+
+```python
+from br_docs import CPF, CNPJ, CNH
+from pydantic import BaseModel
+
+
+class User(BaseModel): 
+    name: str
+    age: int
+    cpf: CPF
+    cnpj: CNPJ
+    CNH: CNH
+```
