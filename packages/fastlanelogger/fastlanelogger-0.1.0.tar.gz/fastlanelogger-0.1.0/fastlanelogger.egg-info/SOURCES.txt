@@ -1,0 +1,8 @@
+setup.py
+fastlanelogger/__init__.py
+fastlanelogger/fastlanelogger.py
+fastlanelogger.egg-info/PKG-INFO
+fastlanelogger.egg-info/SOURCES.txt
+fastlanelogger.egg-info/dependency_links.txt
+fastlanelogger.egg-info/requires.txt
+fastlanelogger.egg-info/top_level.txt

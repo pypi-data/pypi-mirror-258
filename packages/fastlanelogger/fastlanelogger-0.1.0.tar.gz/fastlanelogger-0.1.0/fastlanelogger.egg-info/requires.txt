@@ -1,0 +1,4 @@
+azure-kusto-data
+azure-identity
+azure-keyvault-secrets
+pandas
