@@ -1,0 +1,7 @@
+polars_coord_transforms-0.9.1.dist-info/METADATA,sha256=uZdWWi8PMM5_R_M9FDEgDALXp-LgdNDQ7KSKZW6nvDg,24076
+polars_coord_transforms-0.9.1.dist-info/WHEEL,sha256=n3LTouPbeXrmeswaTiPhQ82K3UCyJTLFnrLsC4tzAAQ,129
+polars_coord_transforms-0.9.1.dist-info/license_files/LICENSE,sha256=LLcxxzCdECa22vjwmSVAyhnEkI9GHoRXS7cR3LVCcB0,1068
+polars_coord_transforms/__init__.py,sha256=wKgieZnCbp-AV9Km1b-QkiIdbkFJ0FHa-GkhYwlKAnY,5262
+polars_coord_transforms/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polars_coord_transforms/polars_coord_transforms.cpython-39-aarch64-linux-gnu.so,sha256=50k5ksx20yW2PCLEg3HH5pmWPvmnIg9Mm5eq8OVeXmI,26400544
+polars_coord_transforms-0.9.1.dist-info/RECORD,,
