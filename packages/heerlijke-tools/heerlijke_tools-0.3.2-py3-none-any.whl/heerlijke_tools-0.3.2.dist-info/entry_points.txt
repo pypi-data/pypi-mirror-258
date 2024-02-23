@@ -1,0 +1,2 @@
+[console_scripts]
+heerlijke-tools = heerlijke_tools:cli
