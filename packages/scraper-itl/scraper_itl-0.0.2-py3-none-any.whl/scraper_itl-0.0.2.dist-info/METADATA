@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: scraper_itl
+Version: 0.0.2
+Author-email: That Dev <sunny@thatone.ai>
+License-File: LICENSE
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: httpx
