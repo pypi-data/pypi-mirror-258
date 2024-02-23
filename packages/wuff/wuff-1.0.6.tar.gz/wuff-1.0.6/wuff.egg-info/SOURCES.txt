@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+tests/test_basic.py
+wuff.egg-info/PKG-INFO
+wuff.egg-info/SOURCES.txt
+wuff.egg-info/dependency_links.txt
+wuff.egg-info/not-zip-safe
+wuff.egg-info/requires.txt
+wuff.egg-info/top_level.txt
