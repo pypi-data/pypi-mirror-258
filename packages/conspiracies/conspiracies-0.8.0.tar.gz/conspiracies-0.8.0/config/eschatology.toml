@@ -1,0 +1,17 @@
+[base]
+language = "en"
+
+[preprocessing]
+enabled = true
+doc_type = "csv"
+
+[preprocessing.extra]
+id_column = "id"
+text_column = "body"
+
+[docprocessing]
+enabled = true
+batch_size = 5
+
+[corpusprocessing]
+enabled = true
