@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hnt_nf_consumo_library
+Version: 0.0.2
+Summary: Lib to access nexinvoice services
+Author: Jose Luis Uribe
+License: MIT License
+Keywords: nota_fiscal
+
