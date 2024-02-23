@@ -1,0 +1,10 @@
+MailClassification/LoadClassModel.py,sha256=opltiDotKKca_vgDCfxjtrNKIIt-G_-fDmpaI4MqAto,3321
+MailClassification/LoadEmbeddsModel.py,sha256=S7tKZAFxJdbuFhgO-KVEZ6kvvxZn-1zUr64aHsObSNI,3251
+MailClassification/MailClassification.py,sha256=P8OHIRuO71jmPSEU0J4Z-6D2Ubs6FS98LRHIJqP1H24,1001
+MailClassification/TextCleaner.py,sha256=srefwv1bgvMJ_80vjL3NvSpWKQrQhlUeAmhOmKP3isY,2529
+MailClassification/WordReplacements.py,sha256=sUy379GrJCpJszuuhhr5Xf5I9doFfJTuv9I4RwBL9s0,3575
+MailClassification/__init__.py,sha256=5Q-5a6YKuEbu7gno9nvnouXJwvs5eeGSUfHHDlwaVCg,52
+MailClassification-0.2.dist-info/METADATA,sha256=CEd2tflz_zMmQ0WihRvCz4nfis4AOJNEYaPR8CetaNU,486
+MailClassification-0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+MailClassification-0.2.dist-info/top_level.txt,sha256=eNKZYUTGmk2nLI8akURxgXpvW-SeWi3sczhuejC-ppw,19
+MailClassification-0.2.dist-info/RECORD,,
