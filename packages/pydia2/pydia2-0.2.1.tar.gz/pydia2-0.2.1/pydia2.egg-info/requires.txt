@@ -1,0 +1,6 @@
+comtypes
+
+[dev]
+setuptools
+pycparser
+sphinx
