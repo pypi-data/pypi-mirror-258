@@ -1,0 +1,12 @@
+attrs
+click
+jsonref
+markdown2
+pyyaml
+six
+termcolor
+xmltodict
+inflect
+
+[all]
+requests[security]

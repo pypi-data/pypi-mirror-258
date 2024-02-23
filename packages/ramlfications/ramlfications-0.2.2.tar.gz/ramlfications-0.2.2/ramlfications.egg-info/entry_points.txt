@@ -1,0 +1,2 @@
+[console_scripts]
+ramlfications = ramlfications.__main__:main
