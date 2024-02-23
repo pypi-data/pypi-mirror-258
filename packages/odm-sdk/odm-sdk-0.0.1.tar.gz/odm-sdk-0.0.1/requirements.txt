@@ -1,0 +1,5 @@
+keyring==24.3.0
+requests==2.31.0
+pyOpenSSL==24.0.0
+jsonschema==4.21.1
+pyrsistent==0.20.0
