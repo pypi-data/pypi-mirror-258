@@ -1,0 +1,10 @@
+geckoterminal_api/__init__.py,sha256=2nHdF7LZvrcKWakRIgPxCYYB_CWYGHJ_iSa8yP17zv0,688
+geckoterminal_api/api.py,sha256=782dQ_vedC37D0KCIjG57ZliTR1DoFgZKdq0lB8CFg0,17583
+geckoterminal_api/async_api.py,sha256=C5PoBVUzGUvGP8taHHEEisNoG6_jMAo7BC4lYiGySXM,18125
+geckoterminal_api/exceptions.py,sha256=Lm9B8NS7PttYcw_lBUmvzeCTTfiKhnOhkczDr_2jsE4,369
+geckoterminal_api/limits.py,sha256=0aEExg2vq3JOwuyQ704V0o_PAVx1bNvVlsemxuEY3GQ,422
+geckoterminal_api/validation.py,sha256=Ai2XL4Hb7zGAC2XXcCWQevUIWqkHHfQfSphJQdWAnUE,4139
+geckoterminal_api-0.8.0.dist-info/LICENSE.md,sha256=EZbXFK0O7WN84pLW1u3AUIkF0PddLEEfjZNRQgi7hD4,1069
+geckoterminal_api-0.8.0.dist-info/METADATA,sha256=bx19G5FQfE7AhDE70m5DYnDOCSI7sm1WqPVPNATlJnY,6054
+geckoterminal_api-0.8.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+geckoterminal_api-0.8.0.dist-info/RECORD,,
