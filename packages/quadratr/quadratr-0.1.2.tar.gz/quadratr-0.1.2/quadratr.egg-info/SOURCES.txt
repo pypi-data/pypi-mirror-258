@@ -1,0 +1,5 @@
+setup.py
+quadratr.egg-info/PKG-INFO
+quadratr.egg-info/SOURCES.txt
+quadratr.egg-info/dependency_links.txt
+quadratr.egg-info/top_level.txt
