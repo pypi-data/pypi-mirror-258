@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: polym
+Version: 0.1.2
+Summary: Small library for working with polynomials.
+Author: rusih100
+Author-email: rusih100@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# polym
+Small library for working with polynomials.
+
+# Install
+```bash
+pip install polym
+```
+
