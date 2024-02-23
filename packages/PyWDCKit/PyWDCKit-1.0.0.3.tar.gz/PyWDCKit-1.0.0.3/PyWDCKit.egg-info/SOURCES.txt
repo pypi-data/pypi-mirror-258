@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+PyWDCKit/__init__.py
+PyWDCKit/main.py
+PyWDCKit.egg-info/PKG-INFO
+PyWDCKit.egg-info/SOURCES.txt
+PyWDCKit.egg-info/dependency_links.txt
+PyWDCKit.egg-info/requires.txt
+PyWDCKit.egg-info/top_level.txt
