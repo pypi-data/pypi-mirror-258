@@ -1,0 +1,10 @@
+numpy
+pyvista==0.38.5
+pandas
+ruamel.yaml
+cython
+openpyxl
+tqdm
+pyqt5
+pyaml
+numexpr_mod
