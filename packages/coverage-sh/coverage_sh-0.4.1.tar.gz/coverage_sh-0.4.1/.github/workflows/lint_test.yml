@@ -1,0 +1,39 @@
+name: lint_pytest
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  lint_test:
+    name: "Run linters and pytest with python ${{ matrix.python-version }}"
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [ "3.8", "3.9", "3.10", "3.11", "3.12" ]
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: eifinger/setup-rye@v1
+        with:
+          enable-cache: true
+      - name: "Pin python-version ${{ matrix.python-version }}"
+        run: rye pin ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          rye sync --no-lock
+      - name: Lint with ruff
+        run: |
+          source .venv/bin/activate
+          ruff format --check .
+          rye run ruff check .
+      - name: Test with pytest
+        run: |
+          rye run pytest
