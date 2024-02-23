@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bcrxpt"
+version = "4.1.2"
+description = "Bitsquatting security research"
+authors = ["Carl Schroedl <cschroedl@usgs.gov>"]
+license = "Public Domain in the US or CC0 outside"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
