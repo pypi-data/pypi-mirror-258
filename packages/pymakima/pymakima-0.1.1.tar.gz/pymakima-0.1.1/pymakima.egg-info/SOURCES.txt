@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+makima/__init__.py
+pymakima.egg-info/PKG-INFO
+pymakima.egg-info/SOURCES.txt
+pymakima.egg-info/dependency_links.txt
+pymakima.egg-info/entry_points.txt
+pymakima.egg-info/requires.txt
+pymakima.egg-info/top_level.txt
+tests/test_makima.py

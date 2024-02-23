@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymakima"
+version = "0.1.1"
+authors = [{name="Iris Blankenship", email="iris@netwatchr.com"}]
+description="Asynchronous DNS Brute Forcer by irisdotsh"
+readme="README.md"
+license={file="LICENSE.md"}
+keywords=["makima", "async", "dns", "brute", "force", "security"]
+dependencies=["aiodns","aiofiles"]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Topic :: Security",
+]
+
+[project.scripts]
+makima = "makima:main"
+
+[project.urls]
+"Homepage" = "https://github.com/irisdotsh/makima"
+"Bug Tracker" = "https://github.com/irisdotsh/makima/issues"
+
+[tool.pytest.ini_options]
+pythonpath = ["makima"]
+testpaths = ["tests"]
