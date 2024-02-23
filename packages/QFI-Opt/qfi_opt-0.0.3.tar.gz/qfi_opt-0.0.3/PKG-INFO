@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: QFI-Opt
+Version: 0.0.3
+Summary: This repository contains codes for optimizing the quantum fisher information (QFI) of quantum systems.
+Home-page: https://github.com/jmlarson1/QFI-Opt
+License: Apache-2.0
+Keywords: quantum fisher information,QFI,quantum metrology
+Author: Jeffrey Larson
+Author-email: jmlarson@anl.gov
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Provides-Extra: dev
+Requires-Dist: checks_superstaq (>=0.4.29) ; extra == "dev"
+Requires-Dist: diffrax (>=0.5.0)
+Requires-Dist: ibcdfo ; extra == "dev"
+Requires-Dist: ipdb ; extra == "dev"
+Requires-Dist: jax (>=0.4.8)
+Requires-Dist: jaxlib (>=0.4.7)
+Requires-Dist: matplotlib (>=3.6.2)
+Requires-Dist: mpi4py ; extra == "dev"
+Requires-Dist: nlopt ; extra == "dev"
+Requires-Dist: numpy (>=1.23.4)
+Requires-Dist: scipy (>=1.9.2)
+Project-URL: Repository, https://github.com/jmlarson1/QFI-Opt
+Description-Content-Type: text/markdown
+
+![image info](./images/qfi-opt.png)
+
+This repository contains codes for optimizing the [quantum fisher information (QFI)](https://en.wikipedia.org/wiki/Quantum_Fisher_information) of quantum systems.
+
+## Installation
+
+This package requires Python>=3.10, and can be installed from PyPI with
+```
+pip install qfi-opt
+```
+To install from source:
+```
+git clone https://github.com/jmlarson1/QFI-Opt.git
+pip install -e QFI-Opt
+```
+
