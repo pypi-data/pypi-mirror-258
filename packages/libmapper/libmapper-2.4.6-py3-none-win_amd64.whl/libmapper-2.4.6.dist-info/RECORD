@@ -1,0 +1,9 @@
+libmapper-2.4.6.data/purelib/libmapper/__init__.py,sha256=aIHG8zar1SYcqdXJKm7l7T9Vl8mq7EYjyiy1yDlnPYg,2260
+libmapper-2.4.6.data/purelib/libmapper/liblo.dll,sha256=3Gi6HzEz26ppySh6bfHRmkWAidAvED9VTbDS77i_RO8,65024
+libmapper-2.4.6.data/purelib/libmapper/libmapper.dll,sha256=z5AczL2f3rybLIUpzXUtSeoZq00IypuqoG4OJuB4kf4,212480
+libmapper-2.4.6.data/purelib/libmapper/mapper.py,sha256=BjLCvRJ755a_wW0soIL9K_LsKwNvNflSixmksDsjZ-Q,73710
+libmapper-2.4.6.data/purelib/libmapper/zlib.dll,sha256=C1_HCQkTQpQUaOmSUboLf2BvNxzvgSo9QkSVgMQyVVo,86528
+libmapper-2.4.6.dist-info/METADATA,sha256=c7782-FprQOqaM04DtJypjGCc9Af2hssIF6E6hbz1Y4,376
+libmapper-2.4.6.dist-info/WHEEL,sha256=KTdQDMVZqs2eeRhOpF4kInPW2OgLgRWl7KhVZQueA2o,99
+libmapper-2.4.6.dist-info/top_level.txt,sha256=6NhuX6V2qKGof7O_dob1tiBYom8io0XPim20P0rTerk,10
+libmapper-2.4.6.dist-info/RECORD,,
