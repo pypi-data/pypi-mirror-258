@@ -1,0 +1,9 @@
+pdf_chatter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pdf_chatter/agent.py,sha256=xq07sUKiW26yVDT0vTwJJxEZFZF_jWaRQmsQUdiDVic,2309
+pdf_chatter/extract.py,sha256=zJHbkTiQRve6GG82UzJWJpqOfURFAqjkz7vgstI8oNE,3128
+pdf_chatter/main.py,sha256=Wwuv_ZCg4gp0KR0UfD0Km3pVbtaopUpdjd8Ogz5IMa8,1785
+pdf_chatter-0.1.4.dist-info/LICENSE,sha256=AvNF7aEyHzU6ZWxnHHFtzNVObmVX3mb5oXkzUNRwrXU,1076
+pdf_chatter-0.1.4.dist-info/METADATA,sha256=UkmUdSKuQOZeRNVjcSgDXmFaUDQDj2a8MyFn1bmzbko,2422
+pdf_chatter-0.1.4.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pdf_chatter-0.1.4.dist-info/entry_points.txt,sha256=vcy_CMWbvwZPFBqRBt5cWecL7YsmwsvU0zQHxrrWpfU,94
+pdf_chatter-0.1.4.dist-info/RECORD,,
