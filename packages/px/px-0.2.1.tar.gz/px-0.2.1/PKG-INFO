@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: px
+Version: 0.2.1
+Summary: px placeholder project
+Author-email: Andrew Montalenti <git@amontalenti.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# px
+
+Describe your project here.
