@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yunxiaoapi
+Version: 1.0.0
+Summary: 基于云校数字平台的身份校验库
+Author: ykm
+Author-email: 18678617683@163.com
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
