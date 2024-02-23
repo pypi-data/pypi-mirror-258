@@ -1,0 +1,7 @@
+word_prediction/__init__.py,sha256=TjkbclS_kJPR-KzN2zSx-rPGnaM9KNIGnwGdCHmIO2M,3847
+word_prediction/predictor.py,sha256=6YcIiEZrjQv-GlpVTtDa8Y_moynYPQoLhubGkiKo_-0,669
+sparv_word_prediction_plugin-0.3.0.dist-info/METADATA,sha256=2rCpEiw0mOQdLTE16wLiAy6p_I4nNhJe5jNCDcc1ZZ8,3673
+sparv_word_prediction_plugin-0.3.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+sparv_word_prediction_plugin-0.3.0.dist-info/entry_points.txt,sha256=DBALqnp5NF4nVG9Meh4RT3V6H_Ng-b-JF95vewdjohY,49
+sparv_word_prediction_plugin-0.3.0.dist-info/licenses/LICENSE,sha256=i5ugehWYUKXnSmfKm8FV_sBw2avIo47OV4JosIjpcJ0,1069
+sparv_word_prediction_plugin-0.3.0.dist-info/RECORD,,

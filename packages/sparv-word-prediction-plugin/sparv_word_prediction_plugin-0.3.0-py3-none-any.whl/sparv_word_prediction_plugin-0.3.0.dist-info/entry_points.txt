@@ -1,0 +1,2 @@
+[sparv.plugin]
+word_prediction = word_prediction
