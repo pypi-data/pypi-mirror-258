@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: figeno
+Version: 0.0.2
+Summary: Package for generating genomics figures.
+Author: Etienne Sollier
+Project-URL: Homepage, https://github.com/CompEpigen/figeno
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: numpy>=1.10.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: matplotlib>=3.4.3
+Requires-Dist: importlib-resources>=5.0.0
+Requires-Dist: pysam>=0.16.0
+Requires-Dist: pyBigWig>=0.3.18
+Requires-Dist: vcfpy>=0.13.5
+Requires-Dist: cooler>=0.9.1
+Requires-Dist: Flask>=2.2.5
+Requires-Dist: crossfiledialog>=0.2.0
+Requires-Dist: pywebview>=4.4.1
+
+# figeno
+
+Tool for making genomics figures.
+
+## Features:
+- Large collection of tracks (bigwig, HiC, alignments, copy number, SV…)
+- Graphical user interface
+- Multi-region figures
+- Highlight regions of interest
+- Output figures in svg, pdf, eps or png
+
+## Installation
+### Linux, MacOS
+Clone and repository and install it as a python package
+```
+git clone https://github.com/CompEpigen/figeno.git
+cd figeno
+pip install .
+```
+Then run `figeno` to start the graphical user interface.
+If you are using conda and notice that the user interface looks strange, also run `conda install -c conda-forge tk=*=xft_*`
+
+### Windows
+Download the figeno_windows.zip from https://github.com/CompEpigen/figeno/releases/tag/0.1, unzip it and launch the graphical user interface by clicking on `figeno.exe`.
+
+## Documentation
+https://figeno.readthedocs.io/en/latest/
+  
