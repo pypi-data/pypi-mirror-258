@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+carbonCLI.egg-info/PKG-INFO
+carbonCLI.egg-info/SOURCES.txt
+carbonCLI.egg-info/dependency_links.txt
+carbonCLI.egg-info/requires.txt
+carbonCLI.egg-info/top_level.txt
