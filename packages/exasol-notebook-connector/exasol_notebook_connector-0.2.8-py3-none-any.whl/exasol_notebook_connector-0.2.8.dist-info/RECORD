@@ -1,0 +1,17 @@
+exasol/nb_connector/ai_lab_config.py,sha256=wDBc6prffRBJLCZ5ZMu8IvY92h54c38QxEEdrTwVBUA,945
+exasol/nb_connector/bfs_utils.py,sha256=xdi7pqNaEv1CqXFEfgOB-sfChgm_F9x1g1eiM_NZfas,1044
+exasol/nb_connector/cloud_storage.py,sha256=A4GWW2bTJz3ktcAlls2yT9p9drxrVYBY_cQJ7DWxpO4,1478
+exasol/nb_connector/connections.py,sha256=Wo50bheT8fhSnJrC1LDA_mOjw8vgL-zKKmijX2gO5Xs,6995
+exasol/nb_connector/container_by_ip.py,sha256=2zL1TBG85QGcyQPGZPueODQbT0CzWK9x5UopKJR9YkI,1640
+exasol/nb_connector/extension_wrapper_common.py,sha256=Glb7KbgOAQVWLQehzmLjAN7c-gr1Iu6tqqeU3sDT1rE,4605
+exasol/nb_connector/github.py,sha256=0_AntTFcRACI30RfsfKoG2ICgch1CQsgifdIH6P5uWo,3030
+exasol/nb_connector/itde_manager.py,sha256=tv4KtuksWVb0L7W3XxEVehvn9wEJoCYiooRWr79Wgow,8367
+exasol/nb_connector/language_container_activation.py,sha256=PXWSLwR5P6pyRlRq-p2_Uhf6pD7fDZp5qRFb2fbptxA,3829
+exasol/nb_connector/sagemaker_extension_wrapper.py,sha256=ABFcdYk6Wq9N78VFGZYNmq3yHZz_I-G-gSNvCKrqPVc,5764
+exasol/nb_connector/secret_store.py,sha256=qxJkb9QUrI-c4GCqbIvEk-mJ5P_UWwaF0Kyi7ul0Sg8,5670
+exasol/nb_connector/transformers_extension_wrapper.py,sha256=Z9OmS97R37-wofAKPR1S1YEaWJ7r9YsX8t1ufIhvDm8,10571
+exasol/nb_connector/utils.py,sha256=hk0RhPCxEIKPMMKvPsh_d0QOVD8r3inPqnAhe6JDO7Y,1270
+exasol_notebook_connector-0.2.8.dist-info/LICENSE,sha256=xmwTgKQ9Ql4nYDZkUPuFNRBbRiKfxVOxaHZXBqrHcuA,1063
+exasol_notebook_connector-0.2.8.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+exasol_notebook_connector-0.2.8.dist-info/METADATA,sha256=6O8mJDMOgzZBCBG91tSkjyyayBKNqT2sCzOCc1wmxQA,3753
+exasol_notebook_connector-0.2.8.dist-info/RECORD,,
