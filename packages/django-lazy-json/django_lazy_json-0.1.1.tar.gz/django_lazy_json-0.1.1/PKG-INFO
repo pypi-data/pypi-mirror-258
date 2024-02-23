@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: django-lazy-json
+Version: 0.1.1
+Summary: Wrapper for Django's JSONField that allows for lazy loading of the JSON object.
+Home-page: https://github.com/Krakenus/django_lazy_json_field
+License: MIT
+Author: Milan Vlasák
+Author-email: krakenus02@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/Krakenus/django_lazy_json_field
+Description-Content-Type: text/markdown
+
+# Django Lazy JSON Field
+
+Wrapper for Django's JSONField that allows for lazy loading of the JSON object.
+
+## Why?
+
+Django's JSONField is great, but it's not lazy. This means that if you have a large JSON object,
+it will be loaded into memory every time you access the field.
+This can be a problem if you have a large number of records with large JSON objects.
+
+This package provides a `LazyJSONField` that only loads the JSON object when it's accessed.
+
+## Installation
+
+```bash
+pip install django-lazy-json
+```
+
+## Usage
+
+```python
+from django.db import models
+from lazy_json_field.fields import LazyJSONField
+
+class MyModel(models.Model):
+    data = LazyJSONField()
+```
+
