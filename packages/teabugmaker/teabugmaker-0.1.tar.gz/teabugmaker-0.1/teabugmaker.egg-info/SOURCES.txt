@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+teabugmaker.egg-info/PKG-INFO
+teabugmaker.egg-info/SOURCES.txt
+teabugmaker.egg-info/dependency_links.txt
+teabugmaker.egg-info/requires.txt
+teabugmaker.egg-info/top_level.txt
