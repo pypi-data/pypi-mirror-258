@@ -1,0 +1,12 @@
+[console_scripts]
+chatbot = tensorfloe.chatbot:main
+gender = tensorfloe.gender:main
+latent = tensorfloe.latent:main
+pos = tensorfloe.pos:main
+sentiment = tensorfloe.sentiment:main
+skipgram = tensorfloe.skipgram:main
+spam = tensorfloe.spam:main
+summary = tensorfloe.summary:main
+transformer = tensorfloe.transformer:main
+word2vec = tensorfloe.word2vec:main
+
