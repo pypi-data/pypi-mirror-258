@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: rfhotjup
+Version: 1.0.1
+Summary: Library that gives you predicted radio fluxes of Hot Jupiters
+Author: Cristina Cordun, ASTRON
+Requires-Dist: pandas
+Requires-Dist: sqlite3
+Requires-Dist: os
+
