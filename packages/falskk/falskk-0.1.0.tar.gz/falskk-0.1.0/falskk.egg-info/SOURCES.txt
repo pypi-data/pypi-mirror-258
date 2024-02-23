@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+falskk.egg-info/PKG-INFO
+falskk.egg-info/SOURCES.txt
+falskk.egg-info/dependency_links.txt
+falskk.egg-info/top_level.txt
+flaskk/__init__.py
