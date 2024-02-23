@@ -1,0 +1,19 @@
+[project]
+name = "libmoon"
+version = "0.0.1"
+authors = [
+  { name="Xiaoyuan Zhang", email="xzhang2523-c@my.cityu.edu.hk" },
+]
+description = "Moon: A small step of MOO, a big step for the human"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+Homepage = "https://github.com/xzhang2523/libmoon"
+Issues = "https://github.com/xzhang2523/libmoon/issues"
