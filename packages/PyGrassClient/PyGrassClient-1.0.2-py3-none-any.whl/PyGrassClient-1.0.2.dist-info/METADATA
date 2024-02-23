@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: PyGrassClient
+Version: 1.0.2
+Summary: Get Grass Python Package
+Home-page: https://github.com/Confusion-ymc/PyGrassClient
+Author: confusion
+Author-email: 1107238486@qq.com
+License: Apache-2.0
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: websocket-client ==1.7.0
+Requires-Dist: loguru ==0.7.2
+Requires-Dist: python-socks ==2.4.4
+
+# Get Grass Python Package
+
+This is a python package for get grass score.
+
+```
+#!/usr/bin/env python
+
+from PyGrassClient import PyGrassClient
+
+PyGrassClient(user_id="${userid}", proxy_url='${proxy_url}').run()
+```
