@@ -1,0 +1,6 @@
+numpy
+h5py
+sphinx
+sphinxcontrib-programoutput
+silx
+nbsphinx

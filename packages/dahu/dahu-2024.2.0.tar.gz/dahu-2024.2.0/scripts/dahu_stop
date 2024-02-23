@@ -1,0 +1,14 @@
+#!/bin/sh
+if [ -f ${HOME}/.dahu/pid ]
+then
+    pid=$(cat ${HOME}/.dahu/pid)
+else
+    pid=$(ps aux |grep dahu_server |grep python | awk '{ print $2 }' )
+fi
+if [ $pid ]
+then 
+    echo killing dahu @pid ${pid}
+    kill ${pid}
+    sleep 1
+    kill -9 ${pid}
+fi
