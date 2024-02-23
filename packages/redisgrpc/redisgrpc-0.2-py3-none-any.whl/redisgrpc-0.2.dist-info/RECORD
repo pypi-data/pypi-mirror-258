@@ -1,0 +1,11 @@
+redisgrpc/__init__.py,sha256=Ee73PPWp0VPXb7eaJRrtYFc98WbgNnW3rI9HI3kzlv0,1476
+redisgrpc/example.py,sha256=ePasSRz61qYaR_Z2vIB0LWUWbCd1nJcjCBiwtYIhGmA,1685
+redisgrpc/redisgrpc.py,sha256=IFT19vRFcdQhkxTummCCu_3NsvPJLQM5jEwEmWhGw8s,3145
+redisgrpc/redislite_pb2.py,sha256=IrwTY-6VQuwIJFhPlk5tbxqjoehl3bRx7uYhlGRLaPQ,2214
+redisgrpc/redislite_pb2.pyi,sha256=Jl_OKPHvu9CYBj95kBKNiSRi6FEM4LUh69fucNx2dsU,1510
+redisgrpc/redislite_pb2_grpc.py,sha256=OxkAOna0_scJXakTfkOIP9d1LGolfqhQi8ioSh5G3g0,5918
+redisgrpc-0.2.dist-info/LICENSE,sha256=0plOG36B7ExoukquATB5eEGZv8SxGMRhMKeVxBxbaCo,1060
+redisgrpc-0.2.dist-info/METADATA,sha256=KDJWO5DVuVyiOKlgV8diWj6hHHsbPdcntqKTKBH9ybk,2578
+redisgrpc-0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+redisgrpc-0.2.dist-info/top_level.txt,sha256=Rq3grp3sZM79MZLT2nIIOm2u7RYPWuvlxg78FpL7QNQ,10
+redisgrpc-0.2.dist-info/RECORD,,
