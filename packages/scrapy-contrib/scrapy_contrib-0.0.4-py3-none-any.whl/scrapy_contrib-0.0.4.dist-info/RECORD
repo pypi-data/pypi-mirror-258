@@ -1,0 +1,9 @@
+scrapylib/plugins/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapylib/plugins/core.cp310-win_amd64.pyd,sha256=U28_51AYTOm3ypdTBEUvHGmGDWWBX9wdSIaSFn2js5o,161792
+scrapylib/plugins/coreType.cp310-win_amd64.pyd,sha256=Qt3Cu1MN6REDVKM2DaQIfpd40I25kjrkEuJLpGWVoZE,85504
+scrapylib/plugins/ltype.cp310-win_amd64.pyd,sha256=7We5uubzyEHIIQZKqGZmQZPepzC69xDz9XB5K0tj_aU,47104
+scrapylib/plugins/parse.cp310-win_amd64.pyd,sha256=yqHPz2UDpA7IAOiyaIwRcgLU-HmD_hrN_Z270y08dUE,72704
+scrapy_contrib-0.0.4.dist-info/METADATA,sha256=ssyL3g7eoMZ_xDR1g9ijIiqffFqtZv1JRfQ9BrLmPms,1689
+scrapy_contrib-0.0.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+scrapy_contrib-0.0.4.dist-info/licenses/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+scrapy_contrib-0.0.4.dist-info/RECORD,,
