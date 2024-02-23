@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: tensorfloe
+Version: 1.2
+Summary: Description of your package
+Home-page: https://github.com/Rehaaaan/tensorfloe/tree/master
+Author: Your Name
+Author-email: your@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# axtriaalator
+axtriaalator is a Python package that provides various machine learning algorithms for natural language processing tasks.
+
+## Installation
+
+You can install axtriaalator using pip:
+
+```bash
+pip install axtriaalator
+
+
+Usage
+Once installed, you can use the programs provided by axtriaalator in your Python scripts or from the command line.
+
+
+Documentation
+For detailed documentation on MyModule and its programs, please visit the documentation website.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
+
+
