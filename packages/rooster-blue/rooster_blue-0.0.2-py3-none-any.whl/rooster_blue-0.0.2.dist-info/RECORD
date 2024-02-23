@@ -1,0 +1,15 @@
+rooster/__init__.py,sha256=Q-7aHhqf-ih-hesm-Wbio6zg76yInVgLsZnryLWvo9o,29
+rooster/__main__.py,sha256=a7mx6dYTuFa9JW7MVdzah09HB2z44x1HBo9A1Q0QmR4,62
+rooster/_cache.py,sha256=RP3KAjmY1JQNAyKUkcI0OZXcLaFrovmr3GI6PBNPBxY,2095
+rooster/_changelog.py,sha256=_eq9LGWQslhwzS4o2Mk4YlMsRejBDr4JJeHmlU2k6ps,12580
+rooster/_cli.py,sha256=oVV-eOEHu0SLwDLy5Q-YSxaBVSWfaFoa94J6CmYK9T8,11042
+rooster/_config.py,sha256=8R8CEwRNXcmFMOSlGRaS6Hmpq1PV7HxQAhpcsBE8xlw,1967
+rooster/_git.py,sha256=E3o3hf5eR9mC74Onjpfot3ysbfSbgWvyE9Sjtm9mYAU,1918
+rooster/_github.py,sha256=M8TU4OQOumCinBY0QKgnfeqPGqaotovfte504Hw6YLs,9163
+rooster/_pyproject.py,sha256=gPcgO75Yf_5XcqH7VFcboRlht-Izqex16VUqgEb1544,1163
+rooster/_testing.py,sha256=bliy_9_nQik60jd7iWWx67GOsCmk0TidM6BpGbgXBWU,2777
+rooster/_versions.py,sha256=sGZvNBnXjCqNBQMdVOWrmZf5rzO9J0N51HWOA0LPkAc,5657
+rooster_blue-0.0.2.dist-info/METADATA,sha256=0UYnSFGRjGOirEk9Ulbxc10xc5c_WKIs_gBxcboHaG4,2064
+rooster_blue-0.0.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rooster_blue-0.0.2.dist-info/entry_points.txt,sha256=MIC_hxtxM8NQ-TbNDINtCYiqkXqZK4ui6jVZPSkJ8GY,39
+rooster_blue-0.0.2.dist-info/RECORD,,
