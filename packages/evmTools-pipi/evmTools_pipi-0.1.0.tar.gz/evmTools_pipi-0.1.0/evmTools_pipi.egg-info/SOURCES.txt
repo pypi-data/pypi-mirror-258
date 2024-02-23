@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+evmTools_pipi/__init__.py
+evmTools_pipi/__version__.py
+evmTools_pipi/core.py
+evmTools_pipi.egg-info/PKG-INFO
+evmTools_pipi.egg-info/SOURCES.txt
+evmTools_pipi.egg-info/dependency_links.txt
+evmTools_pipi.egg-info/top_level.txt
