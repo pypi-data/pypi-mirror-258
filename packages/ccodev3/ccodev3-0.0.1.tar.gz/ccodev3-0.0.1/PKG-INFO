@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ccodev3
+Version: 0.0.1
+Summary: Codev AI Client for Python
+Home-page: https://github.com/skaicoding/codev#egg=codevclient&subdirectory=jupyter
+Author: aicoding
+Author-email: aicoding@sk.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: nbformat
+Requires-Dist: ipython
+Requires-Dist: ipynbname
+Requires-Dist: ipylab
