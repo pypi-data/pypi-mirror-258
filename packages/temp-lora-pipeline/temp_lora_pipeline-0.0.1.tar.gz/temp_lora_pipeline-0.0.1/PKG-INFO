@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: temp-lora-pipeline
+Version: 0.0.1
+Summary: An unofficial implementation of Temp-LoRA using Hugging Face transformers pipeline.
+Author: The LEAF team (past and future) with the help of all our contributors
+Author-email: leaf@shanda.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: accelerate (>=0.27.0,<0.28.0)
+Requires-Dist: peft (>=0.8.0,<0.9.0)
+Requires-Dist: torch (>=2.0.0,<3.0.0)
+Requires-Dist: transformers (>=4.38.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# <center>temp-lora-pipeline</center>
+
+## Introduction
+An unofficial implementation of the paper ["Inference-Time Training: With Greater Text Comes Greater Necessity"](https://arxiv.org/abs/2401.11504) using Hugging Face transformers pipeline.
+
+> 👉 Here is the official (original) implementation by the author: [TemporaryLoRA / Temp-LoRA](https://github.com/TemporaryLoRA/Temp-LoRA)
