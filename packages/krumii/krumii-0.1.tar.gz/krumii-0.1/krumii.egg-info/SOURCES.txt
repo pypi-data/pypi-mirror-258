@@ -1,0 +1,5 @@
+setup.py
+krumii.egg-info/PKG-INFO
+krumii.egg-info/SOURCES.txt
+krumii.egg-info/dependency_links.txt
+krumii.egg-info/top_level.txt
