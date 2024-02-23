@@ -1,0 +1,15 @@
+airtoolclassifier/__init__.py,sha256=QAbwlOvbqlu2uWeuVWEy0mWjW7L5grx43d_syCWWMB8,171
+airtoolclassifier/__main__.py,sha256=uFywUTfb8-Mg8jxx5EA0pUFivwehSIQ9ZYzcZqDhHwk,122
+airtoolclassifier/airtable_service.py,sha256=7zz2ZFlgSVBK5HHhz4wR34KS0nUhgDCD6RHJeIB-fjQ,1836
+airtoolclassifier/classifier.py,sha256=JgbHepw40BfN6ZFkVomhQo4Rrc82EoR3vCNTFT_cLB4,3406
+airtoolclassifier/cli.py,sha256=C9cpBdk5n1ihttoOkWAcSWQsjnQr0De8n0zRQDf9-kM,3606
+airtoolclassifier/config.py,sha256=bZX3QabC5ycR6VHlLuQS2XTytzNSl1UmnCdAkSJbuG4,2850
+airtoolclassifier/openai_service.py,sha256=1DCDkah2lAvO_m9KXhk9HRB_xdqx_512wj7sW2pRQBg,2237
+airtoolclassifier/prompts/role.txt,sha256=K3iaMxth1H5biRx08yPrSY5ZnIsu9LFkeikeqrvu__E,596
+airtoolclassifier/prompts/task.txt,sha256=g8jB_gsPhH8ihK4Anr10W6Voft79ZspreKuDTMdfvyA,599
+AIrToolClassifier-1.0.0.dist-info/LICENSE.txt,sha256=cOIFAc9cU4uYwHguOZGVBCoxv9kxNlsB3Z5QwgaLk9M,1085
+AIrToolClassifier-1.0.0.dist-info/METADATA,sha256=faNOfVbGLpPJUuSzN247FQ3a-CZBcGVhF3M5psP32U4,4256
+AIrToolClassifier-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+AIrToolClassifier-1.0.0.dist-info/entry_points.txt,sha256=MQuhSs_KZI66oAE_wqoFHzSbosBZ3-u8EeG80KRPqVI,70
+AIrToolClassifier-1.0.0.dist-info/top_level.txt,sha256=_xsdo90jSh4erG4h2eAw8Rc1Ol30xTfi5EIBX9EjVC8,18
+AIrToolClassifier-1.0.0.dist-info/RECORD,,
