@@ -1,0 +1,1 @@
+Cosmological analyses made easy
