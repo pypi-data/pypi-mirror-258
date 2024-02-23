@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+TEA_ROACH_NEW.egg-info/PKG-INFO
+TEA_ROACH_NEW.egg-info/SOURCES.txt
+TEA_ROACH_NEW.egg-info/dependency_links.txt
+TEA_ROACH_NEW.egg-info/requires.txt
+TEA_ROACH_NEW.egg-info/top_level.txt
