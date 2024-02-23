@@ -1,0 +1,7 @@
+numpy
+
+[all]
+geoelement[extra]
+
+[extra]
+pandas
