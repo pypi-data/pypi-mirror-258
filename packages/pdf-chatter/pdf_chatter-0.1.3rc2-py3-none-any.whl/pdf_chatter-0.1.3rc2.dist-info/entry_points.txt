@@ -1,0 +1,4 @@
+[console_scripts]
+pdf-chatter=pdf_chatter.main:main
+pdf-summarize=pdf_chatter.main:summarize
+
