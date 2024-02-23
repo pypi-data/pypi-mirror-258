@@ -1,0 +1,2 @@
+[console_scripts]
+corolab = corolab_app.app:main
