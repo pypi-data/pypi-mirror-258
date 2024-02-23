@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: simp-hint
+Version: 0.0.2
+Project-URL: Homepage, https://gitlab.com/TJ-coding/super-simple-pytorch-type-hint
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+
