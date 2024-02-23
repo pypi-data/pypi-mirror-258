@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turing-24
+Version: 0.1
+Summary: A simple Turing Machine simulator.
+Home-page: https://github.com/dsoman24/turing
+Author: Daniel Öman
+Author-email: dsoman24@gmail.com
