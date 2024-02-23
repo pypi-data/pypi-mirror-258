@@ -1,0 +1,8 @@
+README.md
+setup.py
+tensorfloe/__init__.py
+tensorfloe.egg-info/PKG-INFO
+tensorfloe.egg-info/SOURCES.txt
+tensorfloe.egg-info/dependency_links.txt
+tensorfloe.egg-info/entry_points.txt
+tensorfloe.egg-info/top_level.txt
