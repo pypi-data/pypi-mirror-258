@@ -1,0 +1,10 @@
+twiner/__init__.py,sha256=v8B_QhP4o4cuOdHXRZQiK0e58jFnr8GIlEdQHqMXM2s,45
+twiner/cli.py,sha256=RvEj2eyju7eN6CiYbj-FSizZ1kroSlwE9c28a4c6g7c,11388
+twiner/config.py,sha256=nsBkbG9ZKXRomCDGOCLTdq7wRMzlXOtO1FuCv2IiKFQ,1422
+twiner/notify.py,sha256=9cuN7f4LhTZMZ3bq7O45OjuFGL2a4SyMoN4r9tHdcHg,456
+twiner/twitch.py,sha256=64gu6b7mM5hv4ncjRou_x3lWAXIstU8yMpW2NkkzZRo,3301
+twiner-0.2.1.dist-info/LICENSE,sha256=innA84W0Bg-HWwMIHpzDQZLZQ2dnwVqnqO12SOCbTKw,1063
+twiner-0.2.1.dist-info/METADATA,sha256=b8VFfQqRgts_LE6wIpp2DSyDUk3ovJOvCFRPnl0-bEE,6781
+twiner-0.2.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+twiner-0.2.1.dist-info/entry_points.txt,sha256=OyHxP2zj4IpUzKbf5NBZggMBRGt2L3m_zhbQffhgrUs,41
+twiner-0.2.1.dist-info/RECORD,,
