@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: workwithimage
+Version: 0.0.2
+Summary: -
+Author: Nova D Andrew
+Author-email: andrew.d.nova@icloud.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+### Work With Image
+
+#### English
+
+This Python library, `workwithimage`, enables converting images into ASCII art with uniform character width. It utilizes the Pillow library for image processing.
+
+#### Installation
+
+```bash
+pip install workwithimage
+```
+
+#### Usage
+
+```python
+from workwithimage import convert_to_ascii
+
+# Example usage
+image_path = "your_image.jpg"
+columns = 150
+ascii_image = convert_to_ascii(image_path, columns)
+print(ascii_image)
+
+# Save to file
+with open("output.txt", "w") as file:
+    file.write(ascii_image)
+```
+
+#### Supported Image Formats
+
+- JPEG
+- PNG
+- GIF
+- BMP
+- TIFF
+- WebP
+- ICO
+- and more
+
+#### Important Notes
+
+- The library supports various image formats; check Pillow documentation for the complete list.
+- Adjust the `columns` parameter for desired output width.
+
+---
+
+#### Russian
+
+Эта библиотека на Python, `workwithimage`, позволяет преобразовывать изображения в ASCII-арт с символами одинаковой длины, используя библиотеку Pillow для обработки изображений.
+
+#### Установка
+
+```bash
+pip install workwithimage
+```
+
+#### Использование
+
+```python
+from workwithimage import convert_to_ascii
+
+# Пример использования
+image_path = "ваше_изображение.jpg"
+columns = 150
+ascii_image = convert_to_ascii(image_path, columns)
+print(ascii_image)
+
+# Сохранение в файл
+with open("output.txt", "w") as file:
+    file.write(ascii_image)
+```
+
+#### Поддерживаемые форматы изображений
+
+- JPEG
+- PNG
+- GIF
+- BMP
+- TIFF
+- WebP
+- ICO
+- и другие
+
+#### Важные замечания
+
+- Библиотека поддерживает различные форматы изображений; проверьте документацию Pillow для полного списка.
+- Измените параметр `columns` для получения нужной ширины вывода.
