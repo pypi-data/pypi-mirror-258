@@ -1,0 +1,2 @@
+[console_scripts]
+apk-signature = apk_signature:cli_main
