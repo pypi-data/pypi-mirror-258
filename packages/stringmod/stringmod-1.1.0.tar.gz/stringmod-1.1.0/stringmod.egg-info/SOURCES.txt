@@ -1,0 +1,7 @@
+setup.py
+stringmod/__init__.py
+stringmod/main.py
+stringmod.egg-info/PKG-INFO
+stringmod.egg-info/SOURCES.txt
+stringmod.egg-info/dependency_links.txt
+stringmod.egg-info/top_level.txt
