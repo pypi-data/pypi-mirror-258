@@ -1,0 +1,5 @@
+---
+features:
+  - |
+    Zuul-client is now compatible with the data format used by Zuul
+    version 10, as well as older versions.

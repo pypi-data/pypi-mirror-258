@@ -1,0 +1,126 @@
+- secret:
+    name: zuul-client-registry-credentials
+    data:
+      quay.io:
+        username: zuul-ci+opendevzuul
+        password: !encrypted/pkcs1-oaep
+          - GX8hh/xfQU8kvjbyXXtkSoFjgdV4ElWHPhWcFg5IOTD1uNdRK6taeM7mSpK/A72nSWrna
+            Ux92/67XGUbw5vHFVdaLEAc8QwEFewUSowQf6UMDd4aUmH/15HHCKL8JiGfAfnbmlFyX+
+            4xH9tAHT+3oK4uca9C9Fx+pNsYRm/2d/kYO4k4KKw4azf1ALMHUqrkHT4CZyaVICoqsfG
+            23EryqP0JsGZrFNccCGCxlzmNVR6JZi6y62udOjm/JnU8+JZwgQl6UbBj8wyK/dYN/XUF
+            dBn0LZBzTP5r+qU9Tb8181SNKl7MqhrNt7xBfCSyn9qef66G8SKdjtO8YSF1+5dbrI7GJ
+            Axmgj2GyAFUTnp630QMch/zquuDKmEeFZRkVr7+Gwwd0WRRJRc519+rzbD0+vLAgfqQ2Z
+            x8lK5+zQMsPWDyh4l98j75gTMMOcfC0s1eDlXeHfkIqd9GK0WA/RCen8u+JcR/dB3mbxH
+            mq4UKERj9Tlz6IlXI2N0/Pfs/9eIJH6kZwRr9F2PDxWEW/5M4KRs3BvyOPf0TNIdFxOgy
+            MLkNzgHuRRDzPb6aBq1rzmZs7aHVXKeI9RTS34HnOml/LKvkvP3CuqmK1HGBWqiMSh/y3
+            M127RdfowOpcXKGuXm/jC0QD8vmefX+H2h4yMU20N9t9IMZ9A+vNUa9Zp0vgzE=
+        api_token: !encrypted/pkcs1-oaep
+          - aama1hd4mHEQNOXngMq6z6AVAW0HSamIQKzAbG09dTdA8sqYLjaWNmUgYLfz7eLQGSuFg
+            sTn6YmLbUGBKXFODChWSmj7yPSqimJpdNWTgt+SXrA/s+ICIk1z/HrwszKz8a5DpsPFqt
+            f8vfG4a+5ahNe5LJuiFZ+hIdYOS1sh8q50WME7ryt1Ryt/Gqn+Qn1agQVdA5Y9LspnrOL
+            sC39MJmHOiKjbqu9vcrxAVnyVRXrYVUjUxnceMS/fbColOCiCxU067DMg+4JnycrXG1g2
+            0ZhdUJBnk5pYvt0Yi+eVBaCRgE8HhUJxxR5v1l7db677lcpEwukVjzaJGK3vledbJoEnV
+            L4oCdd29MTOgFfDkpZNWalnkWGAeqzkTDIEjqunjn2KGPm6T/HLIB+7NYeCQ1CS2n3lNT
+            YkwjIszEPR5NLJx1r/7T3MWl0TkdboTRGplNb2/tX/EoEi0PhQtpacdBeSxiEmyzbdSn5
+            +xq6C8fATAejGbPHgIH8T70UhoHWlBS4oIbDod9vOFLyCBelpC9albOEFGhfnm36o86bA
+            lz7uHUyA8BKLELLe3djz/XFbIkzTNOJquBhPRmENHWOpmAT6CYkp13HjMa4bT9pWD1+Ql
+            RIzgErjszOvZfaZu0ymsy7kUG4ZkkzjQURsJmR/eBNcA/dDltYXJu7OvyjaCIE=
+
+- job:
+    name: zuul-client-build-image
+    parent: opendev-build-container-image
+    description: Build a container image for the CLI.
+    allowed-projects: zuul/zuul-client
+    timeout: 2700
+    requires:
+      - python-builder-3.11-bookworm-container-image
+      - python-base-3.11-bookworm-container-image
+    provides:
+      - zuul-client-container-image
+    vars: &zuulclient_image_vars
+      promote_container_image_method: intermediate-registry
+      promote_container_image_job: zuul-client-upload-image
+      container_command: docker
+      container_images:
+        - context: .
+          registry: quay.io
+          repository: quay.io/zuul-ci/zuul-client
+          tags:
+            &imagetag "{{ zuul.tag is defined | ternary([zuul.get('tag', '').split('.')[0], '.'.join(zuul.get('tag', '').split('.')[:2]), zuul.get('tag', '')], ['latest']) }}"
+
+- job:
+    name: zuul-client-upload-image
+    parent: opendev-upload-container-image
+    description: Build the CLI container image and upload to the registry.
+    timeout: 3600
+    requires:
+      - python-builder-3.11-bookworm-container-image
+      - python-base-3.11-bookworm-container-image
+    provides: zuul-client-container-image
+    vars: *zuulclient_image_vars
+    secrets:
+      - name: container_registry_credentials
+        secret: zuul-client-registry-credentials
+        pass-to-parent: true
+
+- job:
+    name: zuul-client-promote-image
+    parent: opendev-promote-container-image
+    description: Promote previously uploaded container image.
+    vars: *zuulclient_image_vars
+    secrets:
+      - name: container_registry_credentials
+        secret: zuul-client-registry-credentials
+        pass-to-parent: true
+
+- project:
+    queue: zuul
+    vars:
+      release_python: python3
+    check:
+      jobs:
+        - zuul-nox-docs
+        - zuul-client-build-image
+        - nox-linters:
+            vars:
+              nox_install_bindep: false
+        - nox-py38:
+            nodeset: ubuntu-focal
+            timeout: 3600
+        - nox-py311:
+            nodeset: ubuntu-jammy
+            timeout: 3600
+        - zuul-nox-zuul-client
+        - build-python-release
+    gate:
+      jobs:
+        - zuul-nox-docs
+        - nox-linters:
+            vars:
+              nox_install_bindep: false
+        - nox-py38:
+            nodeset: ubuntu-focal
+            timeout: 3600
+        - nox-py311:
+            nodeset: ubuntu-jammy
+            timeout: 3600
+        - zuul-nox-zuul-client
+        - build-python-release
+        - zuul-client-upload-image
+    promote:
+      jobs:
+        - opendev-promote-python
+        - zuul-promote-nox-docs
+        - zuul-client-promote-image
+    release:
+      jobs:
+        - opendev-release-python
+        - zuul-publish-nox-docs
+        - upload-container-image:
+            secrets:
+              - name: container_registry_credentials
+                secret: zuul-client-registry-credentials
+                pass-to-parent: true
+            vars:
+              <<: *zuulclient_image_vars
+              upload_container_image_promote: false

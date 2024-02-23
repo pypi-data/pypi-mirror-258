@@ -1,0 +1,5 @@
+---
+features:
+  - |
+    Add freeze-job subcommand to display information about jobs as they would
+    be run in a project's pipeline.

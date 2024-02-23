@@ -1,0 +1,5 @@
+---
+features:
+  - |
+    Support for freezing and displaying the job graph has been added
+    via the ``zuul-client job-graph`` subcommand.
