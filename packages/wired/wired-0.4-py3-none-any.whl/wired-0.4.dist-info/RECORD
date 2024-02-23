@@ -1,0 +1,14 @@
+wired/__init__.py,sha256=jiZ5fU8LYI7WwsWl7S2BdNM8iZtfIoI0AK1NMfl4Pf8,167
+wired/container.py,sha256=iXCKyz8G9TvVw8ecKjuHsjWOgj4I3ePYUt6GnmmkMeg,17293
+wired/decorators.py,sha256=J87yMnBXGX_dL3CGvi-gKGzPcSNmaer0TKCHU1FWQcA,1073
+wired/dataclasses/__init__.py,sha256=GMC60MNkj3brBFM5h6DddJyew4nXPkgQ5k-EyPdm-OY,231
+wired/dataclasses/decorators.py,sha256=qOO_-deX7icipI91f0OCSTug1-XyQdUNLiFD6mN2nTU,2786
+wired/dataclasses/field_types.py,sha256=_9JjgtV-Y4OYDDkB7iL4xb7k9K8UPnWbP9zGmlBcoaE,1401
+wired/dataclasses/injector.py,sha256=kAf0LUihqpU5GV0l1OQpJAn_fxp0DVcBYt0RjgHw4b4,4693
+wired/dataclasses/models.py,sha256=A5bTJONktnFexlAO9xCq60MZ_X_ZjIlF1LorOZg5S4I,107
+wired/dataclasses/registration.py,sha256=p0xUJsduJIYIaWKzSYUvPOutzMqwozqVMR__BmtNVd8,1428
+wired-0.4.dist-info/LICENSE.txt,sha256=WxU0GEGHvFFR86cM2QU2XzFguRWhJkYp4uxmGFNnNgQ,1060
+wired-0.4.dist-info/METADATA,sha256=T262eofCWBK3dG01VsxPQ5uAShh69__1ksUHlOQujL8,3199
+wired-0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+wired-0.4.dist-info/top_level.txt,sha256=9SudOLR5Y9oxBEjXW6O0yI_OKjz2T6dlcIFuaGQ15AU,6
+wired-0.4.dist-info/RECORD,,
