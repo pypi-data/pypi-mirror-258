@@ -1,0 +1,10 @@
+README.md
+setup.py
+hnt_nf_consumo_library.egg-info/PKG-INFO
+hnt_nf_consumo_library.egg-info/SOURCES.txt
+hnt_nf_consumo_library.egg-info/dependency_links.txt
+hnt_nf_consumo_library.egg-info/top_level.txt
+nf_consumo/__init__.py
+nf_consumo/consumo_service.py
+nf_consumo/fs_util.py
+tests/test_consumo_service.py
