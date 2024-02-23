@@ -1,0 +1,8 @@
+ipython_markdown_inspector/__init__.py,sha256=5LQaiHiEXNBUXhIaD_FMejFxU8W_q0V5ht3q3qes8FM,618
+ipython_markdown_inspector/formatter.py,sha256=Hl4NQsilevKnSvqVrAfn9PJwwlLEjkuc1V0DWGsH66c,3428
+ipython_markdown_inspector/models.py,sha256=-vfvaYDMVsuVvwx9MYcL8BOweX-dt5XqN0g4t5oF3Mo,362
+ipython_markdown_inspector/tests/test_as_markdown.py,sha256=xuSve4PoX0Zvf7rJXfxFAvNurtMzrXH5UXnR73S-Xgs,1505
+ipython_markdown_inspector-1.0.0.dist-info/METADATA,sha256=_WG2Ob2lpEUuDj_Qr5hSGdLYtJ5o6QpBNAIWljo7xFg,4482
+ipython_markdown_inspector-1.0.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+ipython_markdown_inspector-1.0.0.dist-info/licenses/LICENSE,sha256=9-lp5hKpbKb7pZk3Ga8xzZ7uCUr_OidVv0LcJFfnn6E,1505
+ipython_markdown_inspector-1.0.0.dist-info/RECORD,,
