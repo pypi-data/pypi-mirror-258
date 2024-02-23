@@ -1,0 +1,7 @@
+numpy
+
+[all]
+uzvb[extra]
+
+[extra]
+pandas

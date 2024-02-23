@@ -1,0 +1,2 @@
+[console_scripts]
+uzvb = uzvb.cli:main
