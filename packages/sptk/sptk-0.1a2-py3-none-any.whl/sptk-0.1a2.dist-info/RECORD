@@ -1,0 +1,16 @@
+sptk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sptk/config.py,sha256=b7qj2DetuGtOaqnvcYFrloSYwQRoBmfo8oq4toEcCj0,3066
+sptk/envi_sli_formatter.py,sha256=eZR8awzzGWjTJugFHjKAMm50iJTAq9JgNody9MieEnc,2588
+sptk/instrument.py,sha256=Cik5iwNdsmgBnnYT1SxqEScs7sHGZP2Xw-Rf42VRm-o,21638
+sptk/linear_discriminant_analysis.py,sha256=tWW9TeT6FHQRsFu6QgODSC_25kE5x3J-TmZTzmtg1iM,11914
+sptk/material_collection.py,sha256=Ef_ncGeI-dny7nTrxYq56LawevG48k9lJxe9-krBZkc,32995
+sptk/material_sets.py,sha256=dwFR0FBLVkigcCelhgJV3afniSCWFviL7By5bKT0RZY,9359
+sptk/observation.py,sha256=BGgJtDQOvv8AMqPk7S1d3RcRyntDFiCfuGJNCLCI8TA,36467
+sptk/pds_relab_formatter.py,sha256=bayQYmt8UcQeJL1DFjGRfSa4WkH2ofxtWQs10jBxuzU,7615
+sptk/spectral_library_analyser.py,sha256=lbSalDlHo4HjFpqsxoUUkQsgIWrEDIf4bmWQ_1Hm7Gg,24936
+sptk/spectral_parameter_combination_classifier.py,sha256=zHNFvdxWQMECOdhgp2JOK8fy35pdEjQ-nJ3RQo0YC1o,92019
+sptk/spectral_parameters.py,sha256=3Q1vGeNhReXk_e4VeM-jYF9Ec487KVg6gNKUxsWaUek,38818
+sptk-0.1a2.dist-info/LICENSE.md,sha256=M8b9yXQBaFBMcsvICI-MquEil8q4SlXqUe7TCzAjO_M,1071
+sptk-0.1a2.dist-info/METADATA,sha256=YfWyli43x9rhssm4bzJDeWpMUNHbXXTF5uvZBxv_5oo,5907
+sptk-0.1a2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sptk-0.1a2.dist-info/RECORD,,
