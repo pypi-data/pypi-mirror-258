@@ -1,0 +1,13 @@
+snapshooter/__init__.py,sha256=STSaEAcqIj0b4p5lp77nWXwTB3wTlsO-ZSn-yDNavc8,54
+snapshooter/fsspec_utils.py,sha256=Y4_qP42XQ9crc0P9vlbatk9kfdVeSalGXolEpTmLGlc,3406
+snapshooter/jsonl_utils.py,sha256=zhjEQi-Zeir9gciejryxJpVYmIQ2GsNhe9r1dA3MHRs,716
+snapshooter/snapshooter.py,sha256=OLSBn8K3suH1V7OlVWttR9odnR_MiSBsTbF3qkzQWyI,29685
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=y-2iJBrfrUPIZV64Ke3Fr7aKwZ_ez500l2Wk5xAqx_Y,90
+tests/test_fsspec_snapshooter.py,sha256=oNCTcz0-BtpVOK9ZUVCgaDhqvkqqWuzhS1AZjSLbmU8,3077
+tests/test_fsspec_utils.py,sha256=jVz90cZrjU3fBb0wixABv2u2nRx2KR_RVE9R05V7AKU,1076
+snapshooter-0.0.24.dist-info/LICENSE,sha256=BfhReqY-uEMl9NItLdq4MSh19VGRYC-Q-K4fCMSUMBM,1074
+snapshooter-0.0.24.dist-info/METADATA,sha256=IP-Im12xVHxcdOH3aXxn2OpVM9U_rmZC6AdY4mHl7WY,3925
+snapshooter-0.0.24.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+snapshooter-0.0.24.dist-info/top_level.txt,sha256=WGx0Sdmqc80Gc09YetNBsfLqmuFGXsC-jCoL-FXzGLU,18
+snapshooter-0.0.24.dist-info/RECORD,,
