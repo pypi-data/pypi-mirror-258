@@ -1,0 +1,119 @@
+Metadata-Version: 2.1
+Name: fasthep-flow
+Version: 2024.2.1
+Summary: Convert YAML into a workflow DAG
+Project-URL: Homepage, https://github.com/FAST-HEP/fasthep-flow
+Project-URL: Bug Tracker, https://github.com/FAST-HEP/fasthep-flow/issues
+Project-URL: Discussions, https://github.com/FAST-HEP/fasthep-flow/discussions
+Project-URL: Changelog, https://github.com/FAST-HEP/fasthep-flow/releases
+Author-email: Luke Kreczko <kreczko@cern.ch>
+License-File: LICENSE
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Typing :: Typed
+Requires-Python: >=3.10
+Requires-Dist: eval-type-backport
+Requires-Dist: hydra-core
+Requires-Dist: omegaconf>=2.1
+Requires-Dist: plumbum
+Requires-Dist: prefect
+Requires-Dist: pyyaml>=5.4
+Requires-Dist: typer>=0.4
+Requires-Dist: typing-extensions>=3.10
+Provides-Extra: dev
+Requires-Dist: pytest-cov>=3; extra == 'dev'
+Requires-Dist: pytest>=6; extra == 'dev'
+Requires-Dist: ruff; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: furo>=2023.08.17; extra == 'docs'
+Requires-Dist: myst-parser>=0.13; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints; extra == 'docs'
+Requires-Dist: sphinx-copybutton; extra == 'docs'
+Requires-Dist: sphinx-inline-tabs; extra == 'docs'
+Requires-Dist: sphinx>=7.0; extra == 'docs'
+Requires-Dist: sphinxcontrib-mermaid; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest-cov>=3; extra == 'test'
+Requires-Dist: pytest>=6; extra == 'test'
+Description-Content-Type: text/markdown
+
+# fasthep-flow
+
+[![Actions Status][actions-badge]][actions-link]
+[![Documentation Status][rtd-badge]][rtd-link]
+
+[![PyPI version][pypi-version]][pypi-link]
+[![Conda-Forge][conda-badge]][conda-link]
+[![PyPI platforms][pypi-platforms]][pypi-link]
+
+[![GitHub Discussion][github-discussions-badge]][github-discussions-link]
+
+<!-- SPHINX-START -->
+
+<!-- prettier-ignore-start -->
+[actions-badge]:            https://github.com/FAST-HEP/fasthep-flow/workflows/CI/badge.svg
+[actions-link]:             https://github.com/FAST-HEP/fasthep-flow/actions
+[conda-badge]:              https://img.shields.io/conda/vn/conda-forge/fasthep-flow
+[conda-link]:               https://github.com/conda-forge/fasthep-flow-feedstock
+[github-discussions-badge]: https://img.shields.io/static/v1?label=Discussions&message=Ask&color=blue&logo=github
+[github-discussions-link]:  https://github.com/FAST-HEP/fasthep-flow/discussions
+[pypi-link]:                https://pypi.org/project/fasthep-flow/
+[pypi-platforms]:           https://img.shields.io/pypi/pyversions/fasthep-flow
+[pypi-version]:             https://img.shields.io/pypi/v/fasthep-flow
+[rtd-badge]:                https://readthedocs.org/projects/fasthep-flow/badge/?version=latest
+[rtd-link]:                 https://fasthep-flow.readthedocs.io/en/latest/?badge=latest
+
+<!-- prettier-ignore-end -->
+
+## Introduction
+
+## Documentation
+
+## Installation
+
+## Examples
+
+## Contributing
+
+## License
+
+## Acknowledgements
+
+Special thanks to the gracious help of FAST-HEP contributors:
+
+<!-- readme: m-glowacki,seriksen,collaborators,contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/m-glowacki">
+            <img src="https://avatars.githubusercontent.com/u/69155366?v=4" width="100;" alt="m-glowacki"/>
+            <br />
+            <sub><b>Maciek Glowacki</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/seriksen">
+            <img src="https://avatars.githubusercontent.com/u/5619270?v=4" width="100;" alt="seriksen"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/kreczko">
+            <img src="https://avatars.githubusercontent.com/u/1213276?v=4" width="100;" alt="kreczko"/>
+            <br />
+            <sub><b>Luke Kreczko</b></sub>
+        </a>
+    </td></tr>
+</table>
+<!-- readme: m-glowacki,seriksen,collaborators,contributors -end -->

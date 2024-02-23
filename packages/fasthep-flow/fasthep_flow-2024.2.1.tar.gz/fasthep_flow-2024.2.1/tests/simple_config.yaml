@@ -1,0 +1,6 @@
+stages:
+  - name: printEcho
+    type: "fasthep_flow.operators.BashOperator"
+    kwargs:
+      bash_command: echo
+      arguments: ["Hello World!"]
