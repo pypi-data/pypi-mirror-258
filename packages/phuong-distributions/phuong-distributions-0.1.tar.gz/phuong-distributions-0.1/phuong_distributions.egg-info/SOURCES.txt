@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+phuong_distributions.egg-info/PKG-INFO
+phuong_distributions.egg-info/SOURCES.txt
+phuong_distributions.egg-info/dependency_links.txt
+phuong_distributions.egg-info/not-zip-safe
+phuong_distributions.egg-info/top_level.txt
