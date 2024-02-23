@@ -1,0 +1,6 @@
+ipywidgets<9,>=7.5.1
+pandas
+pytz
+
+[test]
+pytest

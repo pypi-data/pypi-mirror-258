@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: beakerx_base
+Version: 2.3.0
+Summary: BeakerX: Beaker Base Extensions for Jupyter Notebook
+Home-page: http://beakerx.com
+Author: Two Sigma Open Source, LLC
+Author-email: beakerx-feedback@twosigma.com
+Keywords: ipython,jupyter,widgets
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: ipywidgets<9,>=7.5.1
+Requires-Dist: pandas
+Requires-Dist: pytz
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+
+BeakerX: Beaker Base Extensions for Jupyter Notebook
