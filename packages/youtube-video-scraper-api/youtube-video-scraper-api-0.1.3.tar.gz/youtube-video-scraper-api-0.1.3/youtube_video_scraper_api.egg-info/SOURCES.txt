@@ -1,0 +1,7 @@
+Pypi.py
+setup.py
+youtube_video_scraper_api.egg-info/PKG-INFO
+youtube_video_scraper_api.egg-info/SOURCES.txt
+youtube_video_scraper_api.egg-info/dependency_links.txt
+youtube_video_scraper_api.egg-info/not-zip-safe
+youtube_video_scraper_api.egg-info/top_level.txt
