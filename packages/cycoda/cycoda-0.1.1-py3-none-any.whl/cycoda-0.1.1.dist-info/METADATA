@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cycoda
+Version: 0.1.1
+Author-email: Hannah-Marie Martiny <hanmar@food.dtu.dk>
+Project-URL: Homepage, https://github.com/hmmartiny/cycoda
+Project-URL: Bug Tracker, https://github.com/hmmartiny/cycoda/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.24.3
+Requires-Dist: pandas >=1.5.3
+Requires-Dist: umap >=0.1.1
+Requires-Dist: GPUtil >=1.4.0
+Requires-Dist: scipy >=1.10.1
+Provides-Extra: gpu
+Requires-Dist: cupy ; extra == 'gpu'
+
+# CyCoDa: GPU-accelerated compositional data analysis
+
+A lot of these functions have been adapted from the [pycodamath](https://bitbucket.org/genomicepidemiology/pycodamath/) package developed by Christian Brinch.
