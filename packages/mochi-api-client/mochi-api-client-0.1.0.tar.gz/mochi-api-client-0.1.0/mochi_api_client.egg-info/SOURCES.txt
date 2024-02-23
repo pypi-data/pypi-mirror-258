@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mochi/__init__.py
+mochi/auth.py
+mochi/cards.py
+mochi/client.py
+mochi/decks.py
+mochi/template.py
+mochi_api_client.egg-info/PKG-INFO
+mochi_api_client.egg-info/SOURCES.txt
+mochi_api_client.egg-info/dependency_links.txt
+mochi_api_client.egg-info/requires.txt
+mochi_api_client.egg-info/top_level.txt
