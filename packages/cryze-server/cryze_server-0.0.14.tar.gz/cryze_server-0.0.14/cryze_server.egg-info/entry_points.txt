@@ -1,0 +1,2 @@
+[console_scripts]
+cryze-server = run_server:main
