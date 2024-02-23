@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: arize-phoenix-evals
+Version: 0.0.2
+Summary: LLM Evaluations
+Project-URL: Documentation, https://docs.arize.com/phoenix/
+Project-URL: Issues, https://github.com/Arize-ai/phoenix/issues
+Project-URL: Source, https://github.com/Arize-ai/phoenix
+Author-email: Arize AI <phoenix-devs@arize.com>
+License-Expression: Elastic-2.0
+License-File: IP_NOTICE
+License-File: LICENSE
+Keywords: Explainability,Monitoring,Observability
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: <3.12,>=3.8
+Requires-Dist: openinference-semantic-conventions
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: typing-extensions<5,>=4.5
+Provides-Extra: dev
+Requires-Dist: anthropic; extra == 'dev'
+Requires-Dist: boto3; extra == 'dev'
+Requires-Dist: litellm>=1.0.3; extra == 'dev'
+Requires-Dist: openai>=1.0.0; extra == 'dev'
+Requires-Dist: tiktoken; extra == 'dev'
+Requires-Dist: vertexai; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: anthropic; extra == 'test'
+Requires-Dist: boto3; extra == 'test'
+Requires-Dist: litellm>=1.0.3; extra == 'test'
+Requires-Dist: nest-asyncio; extra == 'test'
+Requires-Dist: openai>=1.0.0; extra == 'test'
+Requires-Dist: openinference-semantic-conventions; extra == 'test'
+Requires-Dist: pandas; extra == 'test'
+Requires-Dist: pandas-stubs<=2.0.2.230605; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest==7.4.4; extra == 'test'
+Requires-Dist: respx; extra == 'test'
+Requires-Dist: tiktoken; extra == 'test'
+Requires-Dist: tqdm; extra == 'test'
+Requires-Dist: types-tqdm; extra == 'test'
+Requires-Dist: typing-extensions<5,>=4.5; extra == 'test'
+Requires-Dist: vertexai; extra == 'test'
