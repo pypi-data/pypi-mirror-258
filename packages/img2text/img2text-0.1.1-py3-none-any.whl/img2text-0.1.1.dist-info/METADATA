@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: img2text
+Version: 0.1.1
+Summary: A lightweight module to generate colorful ascii art from images
+Project-URL: Repository, https://github.com/hmiladhia/img2text.git
+Project-URL: Issues, https://github.com/hmiladhia/img2text/issues
+Author-email: Dhia Hmila <dhiahmila.dev@gmail.com>
+Maintainer-email: Dhia Hmila <dhiahmila.dev@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2021 Hmila Dhia
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: art,ascii,ascii-art,color,colour,image,text
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: colorama>=0.4
+Requires-Dist: pillow>=8.2.0
+Description-Content-Type: text/markdown
+
+# img2text
+
+A lightweight module to generate colorful ascii art from images
+
+To install img2text:
+
+```python
+pip install img2text
+```
+
+## How To Use
+
+Let's use the python logo as reference:
+
+![Python Logo](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/python.png)
+
+To generate an ascii image
+
+```python
+from img2text import img_to_ascii
+
+ascii_img = img_to_ascii('data/python.png', width=80)
+print(ascii_img)
+```
+
+We obtain the following:
+
+![First Generated Image](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/gen1.png)
+
+### Adding Color
+
+We can customize this further by adding color (to be shown in the console):
+
+```python
+from img2text import img_to_ascii
+
+ascii_img = img_to_ascii('data/python.png', width=80, colorful=True)
+print(ascii_img)
+```
+
+We obtain the following:
+
+![Second Generated Image](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/gen2.png)
+
+### Customizing Output
+
+We can reverse the intensity of the image by setting `reverse` to True
+
+```python
+from img2text import img_to_ascii
+
+ascii_img = img_to_ascii('https://raw.githubusercontent.com/hmiladhia/img2text/master/data/python.png', width=80, colorful=True, reverse=True)
+print(ascii_img)
+```
+
+We obtain the following:
+
+![Third Generated Image](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/gen3.png)
+
+We can get a slightly brighter image by adding the `bright` option which sets the characters to bold:
+
+```python
+from img2text import img_to_ascii
+
+ascii_img = img_to_ascii('data/python.png', width=80, colorful=True, reverse=True, bright=True)
+print(ascii_img)
+```
+
+We obtain the following:
+
+![Fourth Generated Image](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/gen4.png)
+
+You can also change the character set by providing a custom string of characters that increase in intensity:
+
+```python
+from img2text import img_to_ascii
+
+chars = r" ░▒▓█"
+
+ascii_img = img_to_ascii('https://raw.githubusercontent.com/hmiladhia/img2text/master/data/python.png', width=80, colorful=True, bright=True, chars=chars)
+print(ascii_img)
+```
+
+We obtain the following:
+
+![Fourth Generated Image](https://raw.githubusercontent.com/hmiladhia/img2text/master/data/gen5.png)
+
+### Exporting ASCII image to a file
+
+It's also possible to export the result to a text file, so you can print its content using the `cat` command for example
+To do this all you need to do is to write the content to a file:
+
+```python
+from img2text import img_to_ascii
+
+ascii_img = img_to_ascii('https://raw.githubusercontent.com/hmiladhia/img2text/master/data/python.png', width=80, colorful=True)
+
+with open('logo.ascii', 'w') as f:
+    f.write(ascii_img + '\n')
+```
+
+or using the CLI:
+
+```bash
+img2text -cw 80 -o logo.ascii data/python.png
+```
+
+### Additional Options
+
+- Customize the width and height by providing the number of columns/lines to use
+- Customize the aspect ratio by providing `ar_coef` coefficient. The default value is set to 2.4
+but depending on the console you are using it might be interesting to try out values from [2, 3]
+- You can add a Background Color by setting `bg_color` to one of the following values:
+  - BLACK
+  - RED
+  - GREEN
+  - YELLOW
+  - BLUE
+  - MAGENTA
+  - CYAN
+  - WHITE
