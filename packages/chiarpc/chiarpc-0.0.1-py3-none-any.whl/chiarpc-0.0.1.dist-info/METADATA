@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chiarpc
+Version: 0.0.1
+Summary: Chia RPC HTTP Client in Python.
+Author-email: qqjt <itkid@live.com>
+Project-URL: Homepage, https://git.codegeass.cc/qqjt/chiarpc
+Project-URL: Issues, https://git.codegeass.cc/qqjt/chiarpc/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Chia RPC HTTP Client in Python.
