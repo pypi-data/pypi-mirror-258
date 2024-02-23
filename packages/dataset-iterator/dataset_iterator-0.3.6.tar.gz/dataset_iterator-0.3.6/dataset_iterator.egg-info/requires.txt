@@ -1,0 +1,7 @@
+h5py>=2.9
+keras
+numpy
+scikit-image
+scikit-learn
+scipy
+tensorflow
