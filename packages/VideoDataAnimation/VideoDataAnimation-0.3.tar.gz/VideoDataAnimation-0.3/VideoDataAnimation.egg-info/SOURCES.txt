@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+VideoDataAnimation.egg-info/PKG-INFO
+VideoDataAnimation.egg-info/SOURCES.txt
+VideoDataAnimation.egg-info/dependency_links.txt
+VideoDataAnimation.egg-info/requires.txt
+VideoDataAnimation.egg-info/top_level.txt
