@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+onsite-mine/__init__.py
+onsite-mine/setup/__init__.py
+onsite_mine.egg-info/PKG-INFO
+onsite_mine.egg-info/SOURCES.txt
+onsite_mine.egg-info/dependency_links.txt
+onsite_mine.egg-info/requires.txt
+onsite_mine.egg-info/top_level.txt
