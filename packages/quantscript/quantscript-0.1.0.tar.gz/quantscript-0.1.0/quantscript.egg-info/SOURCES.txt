@@ -1,0 +1,12 @@
+README.md
+setup.py
+quantscript/CointegrationTest .py
+quantscript/ConstructingComprehensive.py
+quantscript/Duration.py
+quantscript/StatisticalFeatures.py
+quantscript/__init__.py
+quantscript.egg-info/PKG-INFO
+quantscript.egg-info/SOURCES.txt
+quantscript.egg-info/dependency_links.txt
+quantscript.egg-info/requires.txt
+quantscript.egg-info/top_level.txt
