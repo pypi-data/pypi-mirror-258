@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+octopus_openapi_util/__init__.py
+octopus_openapi_util/authorization.py
+octopus_openapi_util.egg-info/PKG-INFO
+octopus_openapi_util.egg-info/SOURCES.txt
+octopus_openapi_util.egg-info/dependency_links.txt
+octopus_openapi_util.egg-info/top_level.txt
