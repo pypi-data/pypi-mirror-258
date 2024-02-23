@@ -1,0 +1,69 @@
+[tool.poetry]
+name = "roombapy"
+version = "1.6.13"
+description = "Python program and library to control Wi-Fi enabled iRobot Roombas"
+authors = ["Philipp Schmitt <philipp@schmitt.co>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/pschmitt/roombapy"
+classifiers = [
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking"
+]
+packages = [
+    { include = "roombapy" },
+]
+
+[tool.poetry.scripts]
+roomba-connect = "roombapy.entry_points:connect"
+roomba-discovery = "roombapy.entry_points:discovery"
+roomba-password = "roombapy.entry_points:password"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+orjson = ">=3.9.13"
+paho-mqtt = "~1.6.1"
+pydantic = ">=1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0"
+pytest-asyncio = "^0.23"
+ruff = "^0.2.2"
+pre-commit = "^3.6.2"
+pre-commit-hooks = "^4.5.0"
+codespell = "^2.2.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+ignore = [
+    "ANN001", # Parameter type
+    "ANN101", # Self... explanatory
+    "ANN102", # cls... just as useless
+    "ANN202",
+    "ANN204", # init return type
+    "ANN205",
+    "ANN201", # Return type
+    "ANN401", # Opinioated warning on disallowing dynamically typed expressions
+    "B007",
+    "C901",
+    "D203", # Conflicts with other rules
+    "D213", # Conflicts with other rules
+    "DTZ005",
+    "FBT002",
+    "COM812", # Conflicts with other rules
+    "ISC001", # Conflicts with other rules
+    "PLR2004", # Just annoying, not really useful
+    "PLR0912",
+]
+select = ["ALL"]
+
+[tool.ruff.format]
+docstring-code-format = true
