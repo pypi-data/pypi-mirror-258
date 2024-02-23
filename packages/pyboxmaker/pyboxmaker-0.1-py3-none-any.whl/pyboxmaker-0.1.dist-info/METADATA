@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyboxmaker
+Version: 0.1
+Summary: A CLI Box Maker in Python
+Home-page: https://github.com/Syan-Lin/pyboxmaker
+Author: SyanLin
+Author-email: <lin.siyuan@foxmail.com>
+License: MIT
+Keywords: python,box maker
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: colorama
+
+A CLI Box Maker in Python
+

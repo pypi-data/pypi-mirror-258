@@ -1,0 +1,9 @@
+pyboxmaker/__init__.py,sha256=XOR10Dv1R-7Fe8t1EyrZo3KNlkqtzTzQ89bjjdpZw_U,35
+pyboxmaker/__main__.py,sha256=MQeWelIKfYe1mOJWXcQocquZYIMA5cJkcyL_ESDfFQI,682
+pyboxmaker/boxmaker.py,sha256=_xHk6uz6b51NJ_qWvcVhOWBxEIjUlnMX7oFPrhsYr9Y,4407
+pyboxmaker/utils.py,sha256=X4SVQmYAiWp1cjbmkEb7goqGkJn0yo1T4NGctfJkfhw,7029
+pyboxmaker-0.1.dist-info/LICENSE,sha256=pfF1-9Uk0dxkEghCgipOvL7QseVwwV2iOweEKfMbxaY,1062
+pyboxmaker-0.1.dist-info/METADATA,sha256=anVGTNINi1ri93g7oaZ-a9muvlp1mGcsdoj7DtMK1Oc,506
+pyboxmaker-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyboxmaker-0.1.dist-info/top_level.txt,sha256=b6dnFvxSoEULJ40ykIrgXLKBO0tFSg0NAre6L0qiCh4,11
+pyboxmaker-0.1.dist-info/RECORD,,
