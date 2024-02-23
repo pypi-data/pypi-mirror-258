@@ -1,0 +1,2 @@
+[console_scripts]
+pipcn = pipcn.cli:pipcn
