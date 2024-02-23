@@ -1,0 +1,16 @@
+channels:
+- conda-forge
+dependencies:
+- click
+- furo
+- jinja2
+- packaging
+- pre-commit
+- prettytable
+- pytest
+- python >=3.11
+- pyyaml
+- setuptools_scm
+- sphinx
+- sphinx-argparse
+- sphinx-mdinclude
