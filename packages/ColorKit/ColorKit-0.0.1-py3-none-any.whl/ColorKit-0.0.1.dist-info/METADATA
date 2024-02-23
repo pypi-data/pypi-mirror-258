@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ColorKit
+Version: 0.0.1
+Summary: Python advanced color package
+Author: Benjamin Markovits
+Author-email: bzmarkovits@yahoo.com
+Keywords: color conversion,RGB,HEX,CMYK,HSL,LAB,LUV,XYZ,YIQ,HSV,YUV,YCbCr,LCH,LMS,color toolkit,color space,Python color,color manipulation,color analysis,color utility,python,color
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
