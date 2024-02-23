@@ -1,0 +1,1 @@
+Fixed errors in `CorrectionsMixin` that caused problems in rotation, shift and spectral curvature computations.

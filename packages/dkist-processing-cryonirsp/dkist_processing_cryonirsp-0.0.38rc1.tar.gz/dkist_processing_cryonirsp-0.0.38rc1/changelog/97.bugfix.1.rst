@@ -1,0 +1,1 @@
+Fixed bugs in `SPGeometricCalibration` task to use basic-corrected or gain-corrected arrays where needed.
