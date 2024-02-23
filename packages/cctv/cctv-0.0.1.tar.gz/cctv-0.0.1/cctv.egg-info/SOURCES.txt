@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+cctv/__init__.py
+cctv.egg-info/PKG-INFO
+cctv.egg-info/SOURCES.txt
+cctv.egg-info/dependency_links.txt
+cctv.egg-info/top_level.txt
