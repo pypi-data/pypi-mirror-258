@@ -1,0 +1,2 @@
+[console_scripts]
+cagey = cagey._internal.scripts.cagey:app
