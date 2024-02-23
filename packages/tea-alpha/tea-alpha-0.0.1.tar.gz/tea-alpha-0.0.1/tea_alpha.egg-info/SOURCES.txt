@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tea-alpha/__init__.py
+tea_alpha.egg-info/PKG-INFO
+tea_alpha.egg-info/SOURCES.txt
+tea_alpha.egg-info/dependency_links.txt
+tea_alpha.egg-info/top_level.txt
