@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools "]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rated-python"
+version = "0.0.1"
+authors = [
+  { name="Rated Labs", email="hi@rated.network" },
+]
+description = "Python Bindings for the Rated API"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies", "optional-dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/rated-network/rated-python"
+Issues = "https://github.com/rated-network/rated-python/issues"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+optional-dependencies = {dev = { file = ["requirements-dev.txt"] }}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rated*"]
+exclude = ["tests", "docs"]
+
+[tool.ruff]
+src = ["src"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+[tool.mypy]
+no_implicit_optional = true
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_also = [
+    # Don't complain about missing debug-only code:
+    "def __repr__",
+
+    # Don't complain if tests don't hit defensive assertion code:
+    "raise NotImplementedError",
+
+    ]
+ignore_errors = true
+skip_covered = true
+show_missing = true
+fail_under = 95

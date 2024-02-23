@@ -1,0 +1,9 @@
+httpx==0.26.0
+pyhumps==3.8.0
+
+[dev]
+pytest
+respx
+ruff
+mypy
+coverage
