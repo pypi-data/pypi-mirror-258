@@ -1,0 +1,11 @@
+setup.py
+PyQtSerializer.egg-info/PKG-INFO
+PyQtSerializer.egg-info/SOURCES.txt
+PyQtSerializer.egg-info/dependency_links.txt
+PyQtSerializer.egg-info/requires.txt
+PyQtSerializer.egg-info/top_level.txt
+src/PyQtSerializer.py
+src/Serialize.py
+src/Serializer.py
+src/__init__.py
+src/utils.py
