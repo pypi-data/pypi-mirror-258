@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: pysymlog
+Version: 1.0.0
+Summary: Symmetric (signed) logarithmic scale
+Home-page: https://github.com/pjcigan/pysymlog
+Author: Phil Cigan
+Author-email: 
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib; extra == "matplotlib"
+Provides-Extra: plotly
+Requires-Dist: plotly; extra == "plotly"
+
+pysymlog -- Symmetric (signed) logarithm scale for your python plots
+
+version 1.0.0
+
+
+
+[![PyPI version](https://badge.fury.io/py/pysymlog.svg)](https://badge.fury.io/py/pysymlog)
+[![Downloads](https://pepy.tech/badge/pysymlog)](https://pepy.tech/project/pysymlog)
+
+
+
+Sharing/Customization: Please, play around!  (MIT License)
+
+If you find this useful for your work, giving this package a nod in your acknowledgements would be greatly appreciated.  
+
+
+
+-----------------------
+
+# Dependencies
+
+* numpy
+
+* matplotlib (optional)
+
+- Tested in python 3.7, 3.10
+
+
+
+# Installation
+
+Install with pip
+```console
+pip install pysymlog
+```
+
+
+
+# Usage
+
+Basic usage:
+```python
+import pysymlog
+
+## If using matplotlib, registering 'symmetriclog' scale
+pysymlog.register_mpl()
+
+## Making a plot in symmetriclog scale
+from matplotlib import pyplot as plt
+ax1=plt.subplot(111)
+plt.plot(xdata,ydata);
+plt.yscale(SymmetricLogarithmScale(ax1,shift=0.01))
+# or
+plt.yscale('symmetriclog',shift=0.01)
+plt.show()
+
+```
+
+See the [examples](https://github.com/pjcigan/pysymlog/examples/tutorial_mpl.ipynb) section for much more detail.
+
+
+Example gallery:
+
+![Symmetric log error bars](./images/symlog_linthresh_0.1_errorbars.jpg)
+
+![Histograms with zeroes](./images/histograms_with_zeroes.jpg)
+
+![2D linear vs symmetric log scale](./images/2Doffsets_linear_symmetriclog.jpg)
+
+![2D scatter plot with marginal distributions](./images/2Doffsets_with_hists.jpg)
+
+![Heatmaps / 2D histograms](./images/2Dhistogram.jpg)
