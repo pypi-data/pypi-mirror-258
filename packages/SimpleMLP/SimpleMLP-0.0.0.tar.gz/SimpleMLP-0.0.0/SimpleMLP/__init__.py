@@ -1,0 +1,1 @@
+print('SimpleMLP succesfully installed')
