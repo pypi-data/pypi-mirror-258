@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: secwebapi
+Version: 0.1
+Summary: A Python package to interact with the Secwe API
+Author: Samet Azaboglu
+Author-email: sametazaboglu@gmail.com
+Requires-Dist: requests
