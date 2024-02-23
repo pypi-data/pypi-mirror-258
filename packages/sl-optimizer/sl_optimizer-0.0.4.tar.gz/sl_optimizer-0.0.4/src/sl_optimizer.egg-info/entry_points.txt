@@ -1,0 +1,2 @@
+[console_scripts]
+sl_optimizer = cli:main
