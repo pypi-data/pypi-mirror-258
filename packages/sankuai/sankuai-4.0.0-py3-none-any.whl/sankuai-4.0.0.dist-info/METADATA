@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sankuai
+Version: 4.0.0
+Summary: hello word
+Home-page: https://github.com/
+Author: xingxing
+Author-email: duxinglin123@gmail.com
+Classifier: Topic :: Security
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Intended Audience :: Developers
+
