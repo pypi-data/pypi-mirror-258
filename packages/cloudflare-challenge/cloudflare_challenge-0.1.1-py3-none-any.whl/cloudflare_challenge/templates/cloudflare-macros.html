@@ -1,0 +1,11 @@
+{% macro cf_challenge() %}
+<script>
+    if (window.jQuery)
+        jQuery(document).on('ajaxError', function (event, xhr, settings, errorThrown) {
+            const cloudflare = xhr.getResponseHeader('cf-mitigated')
+            if (cloudflare === 'challenge') {
+                $.get("{{url_for('cloudflare.problem')}}", {url: settings.url} )
+            }
+        });
+</script>
+{% endmacro %}
