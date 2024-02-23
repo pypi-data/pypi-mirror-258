@@ -1,0 +1,5 @@
+nltk
+pandas
+tqdm
+SpellChecker
+IPython
