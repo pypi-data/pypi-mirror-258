@@ -1,0 +1,10 @@
+flask_url_map_serializer.py
+setup.cfg
+setup.py
+flask_url_map_serializer.egg-info/PKG-INFO
+flask_url_map_serializer.egg-info/SOURCES.txt
+flask_url_map_serializer.egg-info/dependency_links.txt
+flask_url_map_serializer.egg-info/entry_points.txt
+flask_url_map_serializer.egg-info/not-zip-safe
+flask_url_map_serializer.egg-info/requires.txt
+flask_url_map_serializer.egg-info/top_level.txt
