@@ -1,0 +1,9 @@
+README.md
+setup.py
+apk_signature/__init__.py
+apk_signature/version.py
+apk_signature.egg-info/PKG-INFO
+apk_signature.egg-info/SOURCES.txt
+apk_signature.egg-info/dependency_links.txt
+apk_signature.egg-info/entry_points.txt
+apk_signature.egg-info/top_level.txt
