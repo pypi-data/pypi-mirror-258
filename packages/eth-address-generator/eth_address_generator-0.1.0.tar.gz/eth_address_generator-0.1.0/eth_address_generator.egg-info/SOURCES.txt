@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+eth_address_generator/__init__.py
+eth_address_generator/generator.py
+eth_address_generator.egg-info/PKG-INFO
+eth_address_generator.egg-info/SOURCES.txt
+eth_address_generator.egg-info/dependency_links.txt
+eth_address_generator.egg-info/requires.txt
+eth_address_generator.egg-info/top_level.txt

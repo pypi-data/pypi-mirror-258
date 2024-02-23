@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: eth-address-generator
+Version: 0.1.0
+Summary: A simple package to generate Ethereum addresses
+Home-page: https://github.com/clarencedan/eth_address_generator
+Author: ClarenceDan
+Author-email: tangdan0854@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Generate one eth address by only one click!
