@@ -1,0 +1,7 @@
+roll_cy/__init__.py,sha256=gEnStxBz190ivbEB8i0pH7buZCwAYLJEgK4Q9XE3eFg,28
+roll_cy/roll_cy.c,sha256=nPc7NtULkoiW9wP459-DtknYVJj-Evg1_53lX2vXSNA,414258
+roll_cy/roll_cy.cp310-win_amd64.pyd,sha256=iXu4rTmFN1hsiZHu1j_LsOFUDqi_bVgp2ImvnBls1o0,60928
+roll_cy-1.0.1.dist-info/METADATA,sha256=SxW241wZmMGgFdDg92fQDt9QDQucyfxo5fJVtyrH_Ww,156
+roll_cy-1.0.1.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+roll_cy-1.0.1.dist-info/top_level.txt,sha256=eAe8jLy_ONW2HWwxjh8jKALspTgSaI81yxMuLAV0dyE,8
+roll_cy-1.0.1.dist-info/RECORD,,
