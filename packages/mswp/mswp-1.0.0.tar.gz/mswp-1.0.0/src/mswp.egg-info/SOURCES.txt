@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/mswp/__init__.py
+src/mswp/mswp.py
+src/mswp.egg-info/PKG-INFO
+src/mswp.egg-info/SOURCES.txt
+src/mswp.egg-info/dependency_links.txt
+src/mswp.egg-info/top_level.txt
