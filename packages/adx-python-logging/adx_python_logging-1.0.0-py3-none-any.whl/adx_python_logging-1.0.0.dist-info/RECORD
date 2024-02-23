@@ -1,0 +1,9 @@
+adx_logging/__init__.py,sha256=smfGeZbuBE-c_Lpo8wEVeVIicAPHTFpASp7nskvJ_jk,127
+adx_logging/adx_handler.py,sha256=z7ml2ua0GmMVd7YHyo1HOghJEkzoCWF-wPdHyieF4gk,3568
+adx_logging/client.py,sha256=BmQ8wIv-SXf-GqRRSHsZm5aqINkjX6Cc0S3GjNYr26U,493
+adx_logging/ingest_client.py,sha256=kqN8tWw5P2enpKiYFgfjz7tcMY1VGwdEDjJSP1LKZJo,589
+adx_python_logging-1.0.0.dist-info/LICENSE,sha256=jjbk43JcISUKAZYc81o6vW161PpJBf4_kMhB15YbbjM,1065
+adx_python_logging-1.0.0.dist-info/METADATA,sha256=YHIb7rFOzedU89sIn-wbSN0g_XsSa1124nqgDSP_Xe0,247
+adx_python_logging-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+adx_python_logging-1.0.0.dist-info/top_level.txt,sha256=77409qBuBCnLpcTnwcHweEJxr421S04umtIVvCxG-ik,12
+adx_python_logging-1.0.0.dist-info/RECORD,,
