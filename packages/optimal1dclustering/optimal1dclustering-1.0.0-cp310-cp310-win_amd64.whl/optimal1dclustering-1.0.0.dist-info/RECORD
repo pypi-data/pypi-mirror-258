@@ -1,0 +1,9 @@
+optimal1dclustering/__init__.py,sha256=XwUYnp8Yb6Ax-muNWa82fS6holvp7ECAEvpgPzIOhOY,119
+optimal1dclustering/_core.cp310-win_amd64.pyd,sha256=LWMWUWy30P77FadzqpF3ez_-1JeDTtHzvUYk03rs9lk,28160
+optimal1dclustering/core.py,sha256=Siw33FsOaIgwBJa92y7yrVTjN3ZO3khy7gJAkgztLiM,2773
+optimal1dclustering/version.txt,sha256=klIfw8vZZL3J9YSpkbif3apXVO0cyW1tQkRTOGacEwU,5
+optimal1dclustering-1.0.0.dist-info/LICENSE,sha256=95i8j9h1ACBYmqUnJZ_UkzMZY7iVBqNCVLFgRoirdjk,1127
+optimal1dclustering-1.0.0.dist-info/METADATA,sha256=NN9PIVepIc6OQIe34BO2_VUnVCZNaEihNYSMvKmHay4,4077
+optimal1dclustering-1.0.0.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+optimal1dclustering-1.0.0.dist-info/top_level.txt,sha256=Ne6GdH4bFes5RQtpffVwNlE9v8d-UgCO4TtCu-rHOII,20
+optimal1dclustering-1.0.0.dist-info/RECORD,,
