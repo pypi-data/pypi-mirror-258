@@ -1,0 +1,164 @@
+# sodom
+__sodom__ if you prefer HTML via Python.
+
+__sodom__ is a project that utilizes Python's context manager to effortlessly generate HTML code. It provides a native way to create HTML documents using plaint dependency-free Python.
+
+No more need to use templating engines and limited language subsets ([`jinja`](https://jinja.palletsprojects.com), [`mako`](https://www.makotemplates.org/)), strange syntax ([`lxml.builder.E`](https://lxml.de/tutorial.html#the-e-factory)) or unsupported one by default ([`pyxl`](https://github.com/pyxl4/pyxl4)). There is [`dominate`]() and you want to use it? __sodom__ is faster.
+
+## Example
+```python
+# sodom/__main__.py
+
+from sodom import *
+from sodom.renderers import render_now
+
+with html(lang='en') as doc:
+    with head():
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        title('Hello sodom!')
+        link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css')
+    with body():
+        with section() < Attrs(class_='section'):
+            with div(class_='container'):
+                with h1(class_='title'):
+                    text('Hello World')
+                with p(class_='subtitle'):
+                    text('My first website with ')
+                    with a(href='https://pypi.org/project/sodom/'):
+                        strong('sodom')
+                    text('!')
+
+render_now(doc)
+```
+
+
+## Installation
+```bash
+python -m pip install git+https://codeberg.org/protasov/sodom@2.0.0
+```
+or
+```bash
+python -m pip install sodom
+```
+
+## Concepts
+### Elements
+[`sodom.elements.*`](sodom/elements.py)
+
+sodom provide 3 types of elements:
+- `NormanElement` - HTML element that may has `Attrs` and contain nested elements such as another `NormanElement`, `VoidElement` or `text`
+    ```python
+    from sodom import *
+    from sodom.renderers import render_now
+
+    with div() as doc:
+        br()
+        text('foo')
+
+    render_now(doc)
+    ```
+
+- `VoidElement` - HTML element that may has only `Attrs`
+    ```python
+    from sodom import *
+    from sodom.renderers import render_now
+
+    doc = input(type='number')
+
+    render_now(doc)
+    ```
+- `text` - actually, this is just a function that append provided text into current `NormalElement`
+    ```python
+    from sodom import *
+    from sodom.renderers import render_now
+
+    text('bar')  # raise exception, text should be called in NormalElement context
+    # -----
+    with div() as doc:
+        text('baz')
+
+    render_now(doc)
+    ```
+
+### Attrs
+[`sodom.attrs.*`](sodom/attrs.py)
+
+sodom has special `Attrs` class to represent HTML attributes. It inherit builtin `dict[str, str]` and provide base tools to merging attributes. Merge means adding attribute values to end of existing ones or create new attribute.
+```python
+# merge into new `Attrs` instance
+Attrs(foo='bar').merge({'foo': 'baz'})
+Attrs(foo='bar').merge(Attrs(foo='baz'))
+Attrs(foo='bar').merge(dict(foo='baz'))
+Attrs(foo='bar') | {'foo': 'baz'}
+Attrs(foo='bar') | Attrs(foo='baz')
+Attrs(foo='bar') | dict(foo='baz')
+# merge into left `Attrs` instance
+Attrs(foo='bar').merge_update({'foo': 'baz'})
+Attrs(foo='bar').merge_update(Attrs(foo='baz'))
+Attrs(foo='bar').merge_update(dict(foo='baz'))
+Attrs(foo='bar') |= {'foo': 'baz'}
+Attrs(foo='bar') |= Attrs(foo='baz')
+Attrs(foo='bar') |= dict(foo='baz')
+# result:
+Attrs({'foo': 'bar baz'})
+```
+
+
+
+`Attrs` can be rendered via `render_attrs` but it is required to `freeze(Attrs)`.
+### RenderContext
+[`sodom.context.*`](sodom/context.py)
+
+`RenderContext` (or `ctx` as 'constructor' with default values) provide rendering properties for selected NormalElement and it's nested elements via `NormalElement % RenderContext`.
+```python
+from sodom import *
+from sodom.renderers import render_now
+
+with div() % ctx(newline='', tabulation='') < Attrs(foo='bar') as doc:
+    br()
+
+render_now(doc)
+```
+Result:
+```html
+<div foo="bar"><br></div>
+```
+
+#### RenderContext's constructor / ctx' arguments:
+- `newline` string representing newline in HTML document
+- `tabulation` - string representing tabulation in HTML document
+- `level` - it is start level of HTML document's tabulation
+- `underscore_replacer` - replace underscores in attribute names
+- `quotes` - replace quotes around attribute values
+- `separator` - replace separator between attribute pairs
+- `special_attrs` - list[str] of attribute begins for replace
+
+---
+List of default render context variables. They are also using in `RenderContext` as default params of arguments:
+
+```python
+##### ELEMS #####
+DEFAULT_NEWLINE = '\n'
+DEFAULT_TABULATION = '  '
+DEFAULT_LEVEL = 0
+
+##### ATTRS #####
+DEFAULT_QUOTES = '"'
+DEFAULT_UNDERSCORE_REPLACER = '-'
+DEFAULT_SEPARATOR = ' '
+DEFAULT_SPECIAL_ATTRS = ['data', 'aria', 'x', 'v', 'hx']
+```
+## More features
+
+### Performance:
+sodom is faster than `dominate`. Check `sodom.tests.test_performance_dominate`.
+
+### Test coverage:
+It is ___95%+___
+
+### Processing/Threading/Asyncing:
+Actively using `ContextVar`. Tested on `asyncio` and `ThreadPoolExecutor`. Check `sodom.tests.TestContext`
+
+## Feedback
+If you have any feedback, text me at inbox@protaz.ru
