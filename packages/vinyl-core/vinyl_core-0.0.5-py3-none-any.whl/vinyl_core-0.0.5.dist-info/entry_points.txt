@@ -1,0 +1,3 @@
+[console_scripts]
+vinyl=vinyl.cli.main:app
+
