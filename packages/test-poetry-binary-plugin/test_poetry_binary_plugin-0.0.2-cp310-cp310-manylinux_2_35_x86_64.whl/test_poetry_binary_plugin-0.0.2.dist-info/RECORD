@@ -1,0 +1,8 @@
+test_poetry_binary_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test_poetry_binary_plugin/main.py,sha256=_mUcvAfPMeKqdy4IsGFxCt9y9g8vr7-6MsNnajJbfqw,667
+test_poetry_binary_plugin/testing/__init__.py,sha256=TuY2VvWr-crMreUPEHxm8hPm2_nUv33vWZLXrgk8FyQ,14
+test_poetry_binary_plugin/testing/testing.py,sha256=JIGB4noJAWGQJq5cLSV4kSbqQ0fbjwpxu7_SRN_vomg,15
+test_poetry_binary_plugin-0.0.2.dist-info/METADATA,sha256=6GDGVJqkriURB59oSuXUioFHgzyBUknsBJ0DgifXtGI,492
+test_poetry_binary_plugin-0.0.2.dist-info/WHEEL,sha256=oEQqk-LapbRYElEThdiSoBDzBdPgJhUmT6lZVAWDKTg,110
+test_poetry_binary_plugin-0.0.2.dist-info/entry_points.txt,sha256=KqwsphXTy7wE8MLq27TCOjh_9bhpsG6o5EGgUreZ7Dg,66
+test_poetry_binary_plugin-0.0.2.dist-info/RECORD,,
