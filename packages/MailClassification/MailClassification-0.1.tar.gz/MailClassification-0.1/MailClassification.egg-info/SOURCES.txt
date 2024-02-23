@@ -1,0 +1,12 @@
+setup.py
+MailClassification/LoadClassModel.py
+MailClassification/LoadEmbeddsModel.py
+MailClassification/MailClassification.py
+MailClassification/TextCleaner.py
+MailClassification/WordReplacements.py
+MailClassification/__init__.py
+MailClassification.egg-info/PKG-INFO
+MailClassification.egg-info/SOURCES.txt
+MailClassification.egg-info/dependency_links.txt
+MailClassification.egg-info/requires.txt
+MailClassification.egg-info/top_level.txt
