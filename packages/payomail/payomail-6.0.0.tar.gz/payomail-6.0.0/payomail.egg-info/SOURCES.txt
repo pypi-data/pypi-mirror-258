@@ -1,0 +1,9 @@
+README.md
+setup.py
+payomail/__init__.py
+payomail/mail.py
+payomail/strategy.py
+payomail.egg-info/PKG-INFO
+payomail.egg-info/SOURCES.txt
+payomail.egg-info/dependency_links.txt
+payomail.egg-info/top_level.txt
