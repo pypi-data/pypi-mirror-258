@@ -1,0 +1,11 @@
+[workspace]
+
+members = ["rustyms", "rustyms-py"]
+resolver = "2"
+
+[profile.release]
+debug = true
+opt-level = 3
+lto = true
+codegen-units = 1
+# bench profile inherits from release so only change the release settings
