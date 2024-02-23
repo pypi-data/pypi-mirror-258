@@ -1,0 +1,10 @@
+knowl_apidocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+knowl_apidocs/apidocs.py,sha256=34eGaxp2AsJgo80vhG_EEC9U_nuklla8HPhAi5B0JjM,3705
+knowl_apidocs/exception.py,sha256=PiZbe7r7Lo_YXnMyzprXdnUtoVA2G84ZamgnUTgiwr4,1361
+knowl_apidocs/runtime_endpoint_generation.py,sha256=8o-DyC2knPyBRI9L6dCWQXtfM4RJ24pHNxQpp_KG9iw,9411
+knowl_apidocs/version.py,sha256=Q4O-4H0W2pigBGIWxrQ5vTnRgAyqemz_71ZjpmWpHow,23
+knowl_apidocs-0.2.16.18.dist-info/METADATA,sha256=sk1-xv8RWxRoIaFj_6rEgvTuYpSPryitGUPlMNtlSgQ,1536
+knowl_apidocs-0.2.16.18.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+knowl_apidocs-0.2.16.18.dist-info/entry_points.txt,sha256=yI_F1EJrG6LsFdKcweHmnK6YZ4YWy1s73ZulC8ADpsg,104
+knowl_apidocs-0.2.16.18.dist-info/top_level.txt,sha256=OXLs7khCMM3yWPZkVdFjbCvTjKurBTFPDar6lMBKlro,14
+knowl_apidocs-0.2.16.18.dist-info/RECORD,,
