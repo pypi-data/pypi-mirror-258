@@ -1,0 +1,12 @@
+different_wrapping/__init__.py,sha256=AcEETYzTQRH_ppbKfebccwQLNaU-Zj3N9vHCzHsb4M4,57
+different_wrapping/challenge.py,sha256=Ac2nNxI2wCnEcGSYkXgkYC9ZIB0Hx9pWn4mGHf4Q9ys,3490
+different_wrapping/cli.py,sha256=fbnKrOxL-NYlLyk30pRY9LCyE1XQ-H3uL9wtDNXAh6E,4552
+different_wrapping/compose.py,sha256=kn2ibqPuTcRXR3daURRqjhKaCaT-lf3mfuaptzsPkC0,5316
+different_wrapping/metadata.py,sha256=h2s4fngdzWL3E_QK9uF7hiRU_wi0A6RTDoqYVsbNVJQ,326
+different_wrapping/yamlyaml.py,sha256=Wmey6WObgcOxSfG3mQ8OlpkcD8_mjZYFb2KVSmTb9fI,6462
+different_wrapping-1.0.1.dist-info/LICENSE,sha256=0b_Hp0mVCSS9XSfe5hCsiTP5a63BSndL55bphrnc06o,32423
+different_wrapping-1.0.1.dist-info/METADATA,sha256=3VXx5BpEDo2rVTJLujoub_d-k_7v5YuHRRPy6ZnATWo,2835
+different_wrapping-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+different_wrapping-1.0.1.dist-info/entry_points.txt,sha256=DbuqReJGJ-uFP3GgLdc-panz_8vXnpmEWVPauz8kiQc,67
+different_wrapping-1.0.1.dist-info/top_level.txt,sha256=V5-4NVP_36HX8VuZheM-u7abQcwGDhDG_31uMrw0kGY,19
+different_wrapping-1.0.1.dist-info/RECORD,,
