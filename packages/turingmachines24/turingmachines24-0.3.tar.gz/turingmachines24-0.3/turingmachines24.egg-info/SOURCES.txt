@@ -1,0 +1,8 @@
+README.md
+setup.py
+turingmachines/__init__.py
+turingmachines/turing.py
+turingmachines24.egg-info/PKG-INFO
+turingmachines24.egg-info/SOURCES.txt
+turingmachines24.egg-info/dependency_links.txt
+turingmachines24.egg-info/top_level.txt
