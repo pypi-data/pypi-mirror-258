@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: debiaosgs
+Version: 0.0.4
+Summary: SGS Room Monitor
+Home-page: https://github.com/foolmuyi/debiaosgs
+Author: Debiao
+Author-email: muyiorlk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Monitoring SGS website for new listed room, notify by email
+
