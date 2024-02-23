@@ -1,0 +1,12 @@
+ecs_engine/__init__.py,sha256=QRk7hBlSu3_HhiKj8fUH_Ryn7bFfnnvcKOxgXPDTXa0,191
+ecs_engine/component.py,sha256=3TPkNHMVD6MgoOXwtmSKZw0h9HiuJ-V2dZhNsnV1MLQ,1685
+ecs_engine/component_pool.py,sha256=tUE_yypJyUozS2CfDNn6pujgOp3-HbWF9P3L9QahuUE,2829
+ecs_engine/entity.py,sha256=MIush-p6LfLGIcpdx4PXrzyGvHj3_Xm8Ah-4x-ckrw0,2184
+ecs_engine/entity_admin.py,sha256=pDbmUFXKVQk6zED2In-82k-RnWnkkMmxS-wVPnDqkoU,3251
+ecs_engine/events.py,sha256=iqOBVtQL8mA0_X2zznt9faN-pMIdD4Bs-dYEVJV4xKU,660
+ecs_engine/interfaces.py,sha256=6cTTiLE8-E4mtFwVe7CWA2DGdEFevu2J3gPQEGVDPsQ,903
+ecs_engine/system.py,sha256=zxaGSE52xvHpx59lAPvZyttj0yRAoz5KzFViAQqBgko,3295
+ecs_engine-0.1.dist-info/METADATA,sha256=gf2p0knPm5EefFXpHnCSAphQXwjFtoLqKju1FmuyBNY,287
+ecs_engine-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ecs_engine-0.1.dist-info/top_level.txt,sha256=xsF1Hl3_Wr_lrql12wMnICle_2mLwso3OVFYVU_EUzs,11
+ecs_engine-0.1.dist-info/RECORD,,
