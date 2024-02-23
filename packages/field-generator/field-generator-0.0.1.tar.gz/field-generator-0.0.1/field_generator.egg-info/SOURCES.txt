@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+field-generator/Slope.py
+field_generator.egg-info/PKG-INFO
+field_generator.egg-info/SOURCES.txt
+field_generator.egg-info/dependency_links.txt
+field_generator.egg-info/top_level.txt
