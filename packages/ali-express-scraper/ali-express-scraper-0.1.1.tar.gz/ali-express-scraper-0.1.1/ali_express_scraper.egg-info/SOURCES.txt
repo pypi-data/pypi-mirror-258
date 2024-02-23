@@ -1,0 +1,7 @@
+Pypi.py
+setup.py
+ali_express_scraper.egg-info/PKG-INFO
+ali_express_scraper.egg-info/SOURCES.txt
+ali_express_scraper.egg-info/dependency_links.txt
+ali_express_scraper.egg-info/not-zip-safe
+ali_express_scraper.egg-info/top_level.txt
