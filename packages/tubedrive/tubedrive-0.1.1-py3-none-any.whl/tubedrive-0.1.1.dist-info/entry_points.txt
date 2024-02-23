@@ -1,0 +1,3 @@
+[console_scripts]
+tubedrive=tubedrive.runner:app
+
