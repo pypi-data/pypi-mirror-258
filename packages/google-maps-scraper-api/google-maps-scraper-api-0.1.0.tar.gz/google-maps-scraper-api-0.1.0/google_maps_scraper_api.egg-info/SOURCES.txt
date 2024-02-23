@@ -1,0 +1,7 @@
+Pypi.py
+setup.py
+google_maps_scraper_api.egg-info/PKG-INFO
+google_maps_scraper_api.egg-info/SOURCES.txt
+google_maps_scraper_api.egg-info/dependency_links.txt
+google_maps_scraper_api.egg-info/not-zip-safe
+google_maps_scraper_api.egg-info/top_level.txt
