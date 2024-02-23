@@ -1,0 +1,7 @@
+gc_count-0.1.0.dist-info/METADATA,sha256=zvyx9y4wcqC0VWuC8hxjJaBE4iEwrcrhWHIcptE3N-o,257
+gc_count-0.1.0.dist-info/WHEEL,sha256=Jloa-XO2pQ5TVHm-s-4MOjD1akQB81JzSKeBjWF4Uj8,128
+gc_count/__init__.py,sha256=JZiUEmQ5RlaW7oV-vUsmNPQ6IturoB1e8gzYxdm6rPc,115
+gc_count/__init__.pyi,sha256=qIBkclh5YLZ8Fncx_BtpnI26Zpirb-HRAvXbe9mw_fk,1950
+gc_count/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gc_count/gc_count.pypy310-pp73-x86-linux-gnu.so,sha256=M_86pqEA9I-11_z1BXMCnVMtvLswSV2lmDenP2SmAX8,3893692
+gc_count-0.1.0.dist-info/RECORD,,
