@@ -1,0 +1,403 @@
+2024-02-22 23:07:14,131 - IMPORTANT_INFO - 脚本开始运行
+2024-02-22 23:07:14,132 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-22 23:07:14,132 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-22 23:07:14,132 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-22 23:07:14,135 - IMPORTANT_INFO - 不启用提示铃声（如果有需要，你可以替换铃声文件）
+2024-02-22 23:07:14,135 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-22 23:07:14,135 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-22 23:07:14,135 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-22 23:07:14,135 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-22 23:07:15,835 - INFO - req/s: 6.94 	tru_reqs/s: 5.94 	total: 7
+2024-02-22 23:07:16,824 - INFO - req/s: 8.51 	tru_reqs/s: 8.0  	total: 17
+2024-02-22 23:07:17,824 - INFO - req/s: 8.67 	tru_reqs/s: 8.34 	total: 26
+2024-02-22 23:07:18,842 - INFO - req/s: 8.96 	tru_reqs/s: 8.71 	total: 36
+2024-02-22 23:07:19,857 - INFO - req/s: 8.94 	tru_reqs/s: 8.75 	total: 45
+2024-02-22 23:07:19,857 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-22 23:07:21,619 - IMPORTANT_INFO - 脚本已停止
+2024-02-22 23:07:31,751 - IMPORTANT_INFO - 脚本开始运行
+2024-02-22 23:07:31,751 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-22 23:07:31,751 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-22 23:07:31,751 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-22 23:07:31,753 - WARNING - simpleaudio 未安装，无法播放提示音，你可以通过 pip install simpleaudio 避免这个警告
+2024-02-22 23:07:31,753 - IMPORTANT_INFO - 不启用提示铃声（如果有需要，你可以替换铃声文件）
+2024-02-22 23:07:31,753 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-22 23:07:31,753 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-22 23:07:31,753 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-22 23:07:31,753 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-22 23:07:33,203 - INFO - req/s: 7.17 	tru_reqs/s: 6.15 	total: 7
+2024-02-22 23:07:34,223 - INFO - req/s: 8.52 	tru_reqs/s: 8.02 	total: 17
+2024-02-22 23:07:35,236 - INFO - req/s: 8.64 	tru_reqs/s: 7.65 	total: 26
+2024-02-22 23:07:36,235 - INFO - req/s: 8.98 	tru_reqs/s: 8.23 	total: 36
+2024-02-22 23:07:37,243 - INFO - req/s: 8.97 	tru_reqs/s: 8.37 	total: 45
+2024-02-22 23:07:37,243 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-22 23:07:38,251 - INFO - req/s: 9.92 	tru_reqs/s: 9.92 	total: 55
+2024-02-22 23:07:39,270 - INFO - req/s: 9.87 	tru_reqs/s: 9.87 	total: 65
+2024-02-22 23:07:40,272 - INFO - req/s: 9.9  	tru_reqs/s: 9.9  	total: 75
+2024-02-22 23:07:41,249 - INFO - req/s: 9.98 	tru_reqs/s: 9.98 	total: 85
+2024-02-22 23:07:42,252 - INFO - req/s: 9.98 	tru_reqs/s: 9.98 	total: 95
+2024-02-22 23:07:43,248 - INFO - req/s: 9.99 	tru_reqs/s: 9.99 	total: 105
+2024-02-22 23:07:44,251 - INFO - req/s: 9.99 	tru_reqs/s: 9.99 	total: 115
+2024-02-22 23:07:45,255 - INFO - req/s: 9.99 	tru_reqs/s: 9.99 	total: 125
+2024-02-22 23:07:46,267 - INFO - req/s: 9.86 	tru_reqs/s: 9.86 	total: 134
+2024-02-22 23:07:47,247 - INFO - req/s: 9.9  	tru_reqs/s: 9.9  	total: 144
+2024-02-22 23:07:48,255 - INFO - req/s: 9.9  	tru_reqs/s: 9.9  	total: 154
+2024-02-22 23:07:49,263 - INFO - req/s: 9.82 	tru_reqs/s: 9.82 	total: 163
+2024-02-22 23:07:50,258 - INFO - req/s: 9.76 	tru_reqs/s: 9.76 	total: 172
+2024-02-22 23:07:51,255 - INFO - req/s: 9.78 	tru_reqs/s: 9.78 	total: 182
+2024-02-22 23:07:52,249 - INFO - req/s: 9.86 	tru_reqs/s: 9.86 	total: 193
+2024-02-22 23:07:53,265 - INFO - req/s: 9.8  	tru_reqs/s: 9.8  	total: 202
+2024-02-22 23:07:54,274 - INFO - req/s: 9.81 	tru_reqs/s: 9.81 	total: 212
+2024-02-22 23:07:55,247 - INFO - req/s: 9.89 	tru_reqs/s: 9.89 	total: 223
+2024-02-22 23:07:56,252 - INFO - req/s: 9.84 	tru_reqs/s: 9.84 	total: 232
+2024-02-22 23:07:57,265 - INFO - req/s: 9.84 	tru_reqs/s: 9.84 	total: 242
+2024-02-22 23:07:58,275 - INFO - req/s: 9.79 	tru_reqs/s: 9.79 	total: 251
+2024-02-22 23:07:59,245 - INFO - req/s: 9.86 	tru_reqs/s: 9.86 	total: 262
+2024-02-22 23:08:00,250 - INFO - req/s: 9.87 	tru_reqs/s: 9.87 	total: 272
+2024-02-22 23:08:01,246 - INFO - req/s: 9.87 	tru_reqs/s: 9.83 	total: 282
+2024-02-22 23:08:02,253 - INFO - req/s: 9.88 	tru_reqs/s: 9.84 	total: 292
+2024-02-22 23:08:03,257 - INFO - req/s: 9.88 	tru_reqs/s: 9.84 	total: 302
+2024-02-22 23:08:04,261 - INFO - req/s: 9.88 	tru_reqs/s: 9.85 	total: 312
+2024-02-22 23:08:05,284 - INFO - req/s: 9.84 	tru_reqs/s: 9.81 	total: 321
+2024-02-22 23:08:06,299 - INFO - req/s: 9.84 	tru_reqs/s: 9.81 	total: 331
+2024-02-22 23:08:07,296 - INFO - req/s: 9.85 	tru_reqs/s: 9.82 	total: 341
+2024-02-22 23:08:08,300 - INFO - req/s: 9.85 	tru_reqs/s: 9.82 	total: 351
+2024-02-22 23:08:09,314 - INFO - req/s: 9.85 	tru_reqs/s: 9.82 	total: 361
+2024-02-22 23:08:10,324 - INFO - req/s: 9.85 	tru_reqs/s: 9.82 	total: 371
+2024-02-22 23:08:11,342 - INFO - req/s: 9.82 	tru_reqs/s: 9.77 	total: 380
+2024-02-22 23:08:12,337 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 389
+2024-02-22 23:08:13,324 - INFO - req/s: 9.84 	tru_reqs/s: 9.78 	total: 400
+2024-02-22 23:08:14,341 - INFO - req/s: 9.81 	tru_reqs/s: 9.76 	total: 409
+2024-02-22 23:08:15,324 - INFO - req/s: 9.82 	tru_reqs/s: 9.77 	total: 419
+2024-02-22 23:08:16,328 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 428
+2024-02-22 23:08:17,334 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 438
+2024-02-22 23:08:18,330 - INFO - req/s: 9.81 	tru_reqs/s: 9.76 	total: 448
+2024-02-22 23:08:19,325 - INFO - req/s: 9.81 	tru_reqs/s: 9.77 	total: 458
+2024-02-22 23:08:20,326 - INFO - req/s: 9.79 	tru_reqs/s: 9.75 	total: 467
+2024-02-22 23:08:21,324 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 477
+2024-02-22 23:08:22,334 - INFO - req/s: 9.8  	tru_reqs/s: 9.76 	total: 487
+2024-02-22 23:08:23,329 - INFO - req/s: 9.79 	tru_reqs/s: 9.74 	total: 496
+2024-02-22 23:08:24,340 - INFO - req/s: 9.77 	tru_reqs/s: 9.72 	total: 505
+2024-02-22 23:08:25,349 - INFO - req/s: 9.77 	tru_reqs/s: 9.73 	total: 515
+2024-02-22 23:08:26,330 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 525
+2024-02-22 23:08:27,324 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 535
+2024-02-22 23:08:28,333 - INFO - req/s: 9.79 	tru_reqs/s: 9.75 	total: 545
+2024-02-22 23:08:29,330 - INFO - req/s: 9.79 	tru_reqs/s: 9.75 	total: 555
+2024-02-22 23:08:30,325 - INFO - req/s: 9.8  	tru_reqs/s: 9.76 	total: 565
+2024-02-22 23:08:31,351 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 574
+2024-02-22 23:08:32,328 - INFO - req/s: 9.8  	tru_reqs/s: 9.77 	total: 585
+2024-02-22 23:08:33,337 - INFO - req/s: 9.79 	tru_reqs/s: 9.75 	total: 594
+2024-02-22 23:08:34,349 - INFO - req/s: 9.81 	tru_reqs/s: 9.77 	total: 605
+2024-02-22 23:08:35,328 - INFO - req/s: 9.81 	tru_reqs/s: 9.78 	total: 615
+2024-02-22 23:08:36,340 - INFO - req/s: 9.8  	tru_reqs/s: 9.76 	total: 624
+2024-02-22 23:08:37,365 - INFO - req/s: 9.8  	tru_reqs/s: 9.76 	total: 634
+2024-02-22 23:08:38,370 - INFO - req/s: 9.96 	tru_reqs/s: 9.96 	total: 644
+2024-02-22 23:08:39,383 - INFO - req/s: 10.41	tru_reqs/s: 10.41	total: 655
+2024-02-22 23:08:41,582 - IMPORTANT_INFO - 脚本已停止
+2024-02-22 23:08:44,023 - IMPORTANT_INFO - 脚本开始运行
+2024-02-22 23:08:44,024 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-22 23:08:44,024 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-22 23:08:44,024 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-22 23:08:44,024 - IMPORTANT_INFO - 正在尝试读取旧的配置文件: {OLD_PKL_PATH}
+2024-02-22 23:08:44,025 - WARNING - simpleaudio 未安装，无法播放提示音，你可以通过 pip install simpleaudio 避免这个警告
+2024-02-22 23:08:44,025 - IMPORTANT_INFO - 不启用提示铃声（如果有需要，你可以替换铃声文件）
+2024-02-22 23:08:44,025 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-22 23:08:44,026 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-22 23:08:44,026 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-22 23:08:44,026 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-22 23:08:45,494 - INFO - req/s: 6.95 	tru_reqs/s: 6.95 	total: 7
+2024-02-22 23:08:46,498 - INFO - req/s: 7.46 	tru_reqs/s: 7.46 	total: 15
+2024-02-22 23:08:47,500 - INFO - req/s: 8.3  	tru_reqs/s: 8.3  	total: 25
+2024-02-22 23:08:48,508 - INFO - req/s: 8.46 	tru_reqs/s: 8.46 	total: 34
+2024-02-22 23:08:49,496 - INFO - req/s: 8.59 	tru_reqs/s: 8.59 	total: 43
+2024-02-22 23:08:49,496 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-22 23:08:50,501 - INFO - req/s: 8.96 	tru_reqs/s: 8.96 	total: 52
+2024-02-22 23:08:53,963 - IMPORTANT_INFO - 脚本开始运行
+2024-02-22 23:08:53,963 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-22 23:08:53,964 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-22 23:08:53,964 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-22 23:08:53,964 - IMPORTANT_INFO - 正在尝试读取旧的配置文件: D:\Code\RUC-CourseSelectionTool\ruccourse\json_datas.pkl
+2024-02-22 23:08:53,966 - WARNING - simpleaudio 未安装，无法播放提示音，你可以通过 pip install simpleaudio 避免这个警告
+2024-02-22 23:08:53,966 - IMPORTANT_INFO - 不启用提示铃声（如果有需要，你可以替换铃声文件）
+2024-02-22 23:08:53,966 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-22 23:08:53,966 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-22 23:08:53,966 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-22 23:08:53,966 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-22 23:08:55,420 - INFO - req/s: 6.05 	tru_reqs/s: 5.05 	total: 6
+2024-02-22 23:08:56,418 - INFO - req/s: 7.54 	tru_reqs/s: 7.04 	total: 15
+2024-02-22 23:08:57,442 - INFO - req/s: 8.3  	tru_reqs/s: 7.97 	total: 25
+2024-02-22 23:08:58,424 - INFO - req/s: 8.51 	tru_reqs/s: 8.26 	total: 34
+2024-02-22 23:08:59,431 - INFO - req/s: 8.4  	tru_reqs/s: 8.2  	total: 42
+2024-02-22 23:08:59,431 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-22 23:09:00,429 - INFO - req/s: 11.02	tru_reqs/s: 11.02	total: 53
+2024-02-22 23:09:01,424 - INFO - req/s: 10.03	tru_reqs/s: 9.53 	total: 62
+2024-02-22 23:09:02,425 - INFO - req/s: 10.02	tru_reqs/s: 9.69 	total: 72
+2024-02-22 23:09:03,433 - INFO - req/s: 9.74 	tru_reqs/s: 9.49 	total: 81
+2024-02-22 23:09:04,419 - INFO - req/s: 9.82 	tru_reqs/s: 9.62 	total: 91
+2024-02-22 23:09:05,418 - INFO - req/s: 9.86 	tru_reqs/s: 9.69 	total: 101
+2024-02-22 23:09:06,433 - INFO - req/s: 9.71 	tru_reqs/s: 9.57 	total: 110
+2024-02-22 23:09:07,417 - INFO - req/s: 9.89 	tru_reqs/s: 9.77 	total: 121
+2024-02-22 23:09:08,422 - INFO - req/s: 9.9  	tru_reqs/s: 9.79 	total: 131
+2024-02-22 23:09:09,418 - INFO - req/s: 9.91 	tru_reqs/s: 9.81 	total: 141
+2024-02-22 23:09:10,426 - INFO - req/s: 9.91 	tru_reqs/s: 9.82 	total: 151
+2024-02-22 23:09:11,435 - INFO - req/s: 9.83 	tru_reqs/s: 9.75 	total: 160
+2024-02-22 23:09:12,420 - INFO - req/s: 9.85 	tru_reqs/s: 9.78 	total: 170
+2024-02-22 23:09:13,419 - INFO - req/s: 9.87 	tru_reqs/s: 9.79 	total: 180
+2024-02-22 23:09:14,439 - INFO - req/s: 9.8  	tru_reqs/s: 9.73 	total: 189
+2024-02-22 23:09:15,449 - INFO - req/s: 9.8  	tru_reqs/s: 9.74 	total: 199
+2024-02-22 23:09:16,465 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 209
+2024-02-22 23:09:17,481 - INFO - req/s: 9.75 	tru_reqs/s: 9.7  	total: 218
+2024-02-22 23:09:18,494 - INFO - req/s: 9.76 	tru_reqs/s: 9.7  	total: 228
+2024-02-22 23:09:19,510 - INFO - req/s: 9.76 	tru_reqs/s: 9.71 	total: 238
+2024-02-22 23:09:20,508 - INFO - req/s: 9.77 	tru_reqs/s: 9.73 	total: 248
+2024-02-22 23:09:21,519 - INFO - req/s: 9.82 	tru_reqs/s: 9.78 	total: 259
+2024-02-22 23:09:22,525 - INFO - req/s: 9.83 	tru_reqs/s: 9.79 	total: 269
+2024-02-22 23:09:23,499 - INFO - req/s: 9.81 	tru_reqs/s: 9.76 	total: 278
+2024-02-22 23:09:24,525 - INFO - req/s: 9.76 	tru_reqs/s: 9.72 	total: 287
+2024-02-22 23:09:25,513 - INFO - req/s: 9.82 	tru_reqs/s: 9.78 	total: 298
+2024-02-22 23:09:26,534 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 307
+2024-02-22 23:09:27,527 - INFO - req/s: 9.79 	tru_reqs/s: 9.75 	total: 317
+2024-02-22 23:09:28,532 - INFO - req/s: 9.83 	tru_reqs/s: 9.79 	total: 328
+2024-02-22 23:09:29,540 - INFO - req/s: 9.76 	tru_reqs/s: 9.73 	total: 336
+2024-02-22 23:09:30,538 - INFO - req/s: 9.8  	tru_reqs/s: 9.77 	total: 347
+2024-02-22 23:09:31,528 - INFO - req/s: 9.81 	tru_reqs/s: 9.78 	total: 357
+2024-02-22 23:09:32,542 - INFO - req/s: 9.82 	tru_reqs/s: 9.76 	total: 367
+2024-02-22 23:09:33,543 - INFO - req/s: 9.82 	tru_reqs/s: 9.76 	total: 377
+2024-02-22 23:09:34,550 - INFO - req/s: 9.82 	tru_reqs/s: 9.77 	total: 387
+2024-02-22 23:09:35,565 - INFO - req/s: 9.82 	tru_reqs/s: 9.77 	total: 397
+2024-02-22 23:09:36,544 - INFO - req/s: 9.83 	tru_reqs/s: 9.78 	total: 407
+2024-02-22 23:09:37,561 - INFO - req/s: 9.81 	tru_reqs/s: 9.76 	total: 416
+2024-02-22 23:09:38,574 - INFO - req/s: 9.78 	tru_reqs/s: 9.73 	total: 425
+2024-02-22 23:09:39,590 - INFO - req/s: 9.81 	tru_reqs/s: 9.76 	total: 436
+2024-02-22 23:09:40,586 - INFO - req/s: 9.82 	tru_reqs/s: 9.77 	total: 446
+2024-02-22 23:09:41,583 - INFO - req/s: 9.8  	tru_reqs/s: 9.75 	total: 455
+2024-02-22 23:09:42,594 - INFO - req/s: 9.78 	tru_reqs/s: 9.73 	total: 464
+2024-02-22 23:09:43,587 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 474
+2024-02-22 23:09:44,583 - INFO - req/s: 9.79 	tru_reqs/s: 9.74 	total: 484
+2024-02-22 23:09:45,580 - INFO - req/s: 9.77 	tru_reqs/s: 9.73 	total: 493
+2024-02-22 23:09:46,576 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 503
+2024-02-22 23:09:47,601 - INFO - req/s: 9.76 	tru_reqs/s: 9.72 	total: 512
+2024-02-22 23:09:48,590 - INFO - req/s: 9.78 	tru_reqs/s: 9.74 	total: 523
+2024-02-22 23:09:49,617 - INFO - req/s: 9.74 	tru_reqs/s: 9.7  	total: 531
+2024-02-22 23:09:50,619 - INFO - req/s: 9.77 	tru_reqs/s: 9.73 	total: 542
+2024-02-22 23:09:51,614 - INFO - req/s: 9.75 	tru_reqs/s: 9.72 	total: 551
+2024-02-22 23:09:52,606 - INFO - req/s: 9.8  	tru_reqs/s: 9.74 	total: 563
+2024-02-22 23:09:53,626 - INFO - req/s: 9.78 	tru_reqs/s: 9.72 	total: 572
+2024-02-22 23:09:54,637 - INFO - req/s: 9.76 	tru_reqs/s: 9.71 	total: 581
+2024-02-22 23:09:55,623 - INFO - req/s: 9.77 	tru_reqs/s: 9.72 	total: 591
+2024-02-22 23:09:56,630 - INFO - req/s: 9.77 	tru_reqs/s: 9.72 	total: 601
+2024-02-22 23:09:57,643 - INFO - req/s: 9.76 	tru_reqs/s: 9.71 	total: 610
+2024-02-22 23:09:58,621 - INFO - req/s: 9.78 	tru_reqs/s: 9.73 	total: 621
+2024-02-22 23:09:59,623 - INFO - req/s: 9.77 	tru_reqs/s: 9.72 	total: 630
+2024-02-22 23:10:00,629 - INFO - req/s: 9.95 	tru_reqs/s: 9.95 	total: 640
+2024-02-22 23:10:01,639 - INFO - req/s: 9.43 	tru_reqs/s: 9.43 	total: 649
+2024-02-22 23:10:02,629 - INFO - req/s: 9.98 	tru_reqs/s: 9.98 	total: 660
+2024-02-22 23:10:03,621 - INFO - req/s: 10.01	tru_reqs/s: 10.01	total: 670
+2024-02-22 23:10:04,620 - INFO - req/s: 10.01	tru_reqs/s: 10.01	total: 680
+2024-02-22 23:10:05,632 - INFO - req/s: 9.65 	tru_reqs/s: 9.65 	total: 688
+2024-02-22 23:10:06,631 - INFO - req/s: 9.85 	tru_reqs/s: 9.85 	total: 699
+2024-02-22 23:10:07,644 - INFO - req/s: 9.73 	tru_reqs/s: 9.73 	total: 708
+2024-02-22 23:10:08,622 - INFO - req/s: 9.89 	tru_reqs/s: 9.89 	total: 719
+2024-02-22 23:10:09,636 - INFO - req/s: 9.89 	tru_reqs/s: 9.89 	total: 729
+2024-02-22 23:10:10,620 - INFO - req/s: 9.82 	tru_reqs/s: 9.82 	total: 738
+2024-02-22 23:10:11,627 - INFO - req/s: 9.83 	tru_reqs/s: 9.83 	total: 748
+2024-02-22 23:10:12,642 - INFO - req/s: 9.83 	tru_reqs/s: 9.83 	total: 758
+2024-02-22 23:10:13,622 - INFO - req/s: 9.86 	tru_reqs/s: 9.86 	total: 768
+2024-02-22 23:10:15,457 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:08:09,313 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:08:09,314 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:08:09,314 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:08:09,314 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:08:09,315 - IMPORTANT_INFO - 正在尝试读取旧的配置文件: D:\Code\RUC-CourseSelectionTool\ruccourse\json_datas.pkl
+2024-02-24 00:08:09,315 - IMPORTANT_INFO - 不启用提示铃声（如果有需要，你可以替换铃声文件）
+2024-02-24 00:08:09,315 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-24 00:08:09,315 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:08:09,315 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:08:09,316 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:08:24,290 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:20:10,734 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:20:10,734 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:20:10,734 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:20:10,734 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:20:10,736 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:20:10,736 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:20:10,736 - IMPORTANT_INFO - 铃声文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ring.wav
+2024-02-24 00:20:10,737 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:20:10,737 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:20:10,737 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:20:33,770 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:22:18,368 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:22:18,368 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:22:18,368 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:22:18,368 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:22:18,369 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:22:18,370 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:22:18,370 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:22:18,370 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:22:18,370 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:22:18,371 - IMPORTANT_INFO - 如果你喜欢这个项目，欢迎给项目点个 star：https://github.com/panjd123/RUC-CourseSelectionTool
+2024-02-24 00:22:20,209 - INFO - req/s: 6.92 	tru_reqs/s: 3.96 	total: 7
+2024-02-24 00:22:21,208 - INFO - req/s: 8.46 	tru_reqs/s: 6.97 	total: 17
+2024-02-24 00:22:22,222 - INFO - req/s: 8.6  	tru_reqs/s: 7.61 	total: 26
+2024-02-24 00:22:23,220 - INFO - req/s: 8.7  	tru_reqs/s: 7.96 	total: 35
+2024-02-24 00:22:24,234 - INFO - req/s: 8.94 	tru_reqs/s: 8.34 	total: 45
+2024-02-24 00:22:24,234 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-24 00:22:25,235 - INFO - req/s: 8.99 	tru_reqs/s: 8.99 	total: 54
+2024-02-24 00:22:26,250 - INFO - req/s: 9.43 	tru_reqs/s: 9.43 	total: 64
+2024-02-24 00:22:27,263 - INFO - req/s: 9.25 	tru_reqs/s: 9.25 	total: 73
+2024-02-24 00:22:28,246 - INFO - req/s: 9.47 	tru_reqs/s: 9.47 	total: 83
+2024-02-24 00:22:29,260 - INFO - req/s: 9.35 	tru_reqs/s: 9.35 	total: 92
+2024-02-24 00:22:30,256 - INFO - req/s: 9.46 	tru_reqs/s: 9.46 	total: 102
+2024-02-24 00:22:31,245 - INFO - req/s: 9.56 	tru_reqs/s: 9.56 	total: 112
+2024-02-24 00:22:32,251 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 122
+2024-02-24 00:22:33,258 - INFO - req/s: 9.64 	tru_reqs/s: 9.64 	total: 132
+2024-02-24 00:22:34,252 - INFO - req/s: 9.68 	tru_reqs/s: 9.68 	total: 142
+2024-02-24 00:22:35,252 - INFO - req/s: 9.62 	tru_reqs/s: 9.53 	total: 151
+2024-02-24 00:22:36,251 - INFO - req/s: 9.65 	tru_reqs/s: 9.57 	total: 161
+2024-02-24 00:22:37,268 - INFO - req/s: 9.59 	tru_reqs/s: 9.51 	total: 170
+2024-02-24 00:22:38,278 - INFO - req/s: 9.61 	tru_reqs/s: 9.54 	total: 180
+2024-02-24 00:22:39,292 - INFO - req/s: 9.56 	tru_reqs/s: 9.5  	total: 189
+2024-02-24 00:22:40,314 - INFO - req/s: 9.58 	tru_reqs/s: 9.51 	total: 199
+2024-02-24 00:22:41,296 - INFO - req/s: 9.61 	tru_reqs/s: 9.55 	total: 209
+2024-02-24 00:22:42,310 - INFO - req/s: 9.57 	tru_reqs/s: 9.52 	total: 218
+2024-02-24 00:22:43,323 - INFO - req/s: 9.59 	tru_reqs/s: 9.53 	total: 228
+2024-02-24 00:22:44,323 - INFO - req/s: 9.61 	tru_reqs/s: 9.56 	total: 238
+2024-02-24 00:22:45,333 - INFO - req/s: 9.62 	tru_reqs/s: 9.57 	total: 248
+2024-02-24 00:22:46,333 - INFO - req/s: 9.64 	tru_reqs/s: 9.59 	total: 258
+2024-02-24 00:22:47,329 - INFO - req/s: 9.66 	tru_reqs/s: 9.61 	total: 268
+2024-02-24 00:22:48,341 - INFO - req/s: 9.62 	tru_reqs/s: 9.58 	total: 277
+2024-02-24 00:22:49,355 - INFO - req/s: 9.63 	tru_reqs/s: 9.59 	total: 287
+2024-02-24 00:22:50,367 - INFO - req/s: 9.64 	tru_reqs/s: 9.6  	total: 297
+2024-02-24 00:22:51,376 - INFO - req/s: 9.62 	tru_reqs/s: 9.58 	total: 306
+2024-02-24 00:22:52,371 - INFO - req/s: 9.63 	tru_reqs/s: 9.6  	total: 316
+2024-02-24 00:22:53,371 - INFO - req/s: 9.61 	tru_reqs/s: 9.58 	total: 325
+2024-02-24 00:22:54,389 - INFO - req/s: 9.58 	tru_reqs/s: 9.55 	total: 334
+2024-02-24 00:22:55,405 - INFO - req/s: 9.59 	tru_reqs/s: 9.53 	total: 344
+2024-02-24 00:22:56,404 - INFO - req/s: 9.57 	tru_reqs/s: 9.51 	total: 353
+2024-02-24 00:22:59,702 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:22:59,703 - IMPORTANT_INFO - 如果你喜欢这个项目，欢迎给项目点个 star：https://github.com/panjd123/RUC-CourseSelectionTool
+2024-02-24 00:22:59,703 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:22:59,703 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:22:59,703 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:22:59,704 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:22:59,704 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:22:59,705 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:22:59,705 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:22:59,705 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:23:01,190 - INFO - req/s: 6.02 	tru_reqs/s: 5.01 	total: 6
+2024-02-24 00:23:02,178 - INFO - req/s: 8.06 	tru_reqs/s: 7.55 	total: 16
+2024-02-24 00:23:03,184 - INFO - req/s: 8.36 	tru_reqs/s: 8.03 	total: 25
+2024-02-24 00:23:04,199 - INFO - req/s: 8.49 	tru_reqs/s: 8.24 	total: 34
+2024-02-24 00:23:05,201 - INFO - req/s: 8.79 	tru_reqs/s: 8.59 	total: 44
+2024-02-24 00:23:05,201 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-24 00:23:06,209 - INFO - req/s: 9.93 	tru_reqs/s: 9.93 	total: 54
+2024-02-24 00:23:07,206 - INFO - req/s: 9.98 	tru_reqs/s: 9.98 	total: 64
+2024-02-24 00:23:08,216 - INFO - req/s: 9.95 	tru_reqs/s: 9.95 	total: 74
+2024-02-24 00:23:09,218 - INFO - req/s: 9.96 	tru_reqs/s: 9.96 	total: 84
+2024-02-24 00:23:10,202 - INFO - req/s: 9.8  	tru_reqs/s: 9.8  	total: 93
+2024-02-24 00:23:11,217 - INFO - req/s: 9.64 	tru_reqs/s: 9.64 	total: 102
+2024-02-24 00:23:12,222 - INFO - req/s: 9.69 	tru_reqs/s: 9.69 	total: 112
+2024-02-24 00:23:13,208 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 121
+2024-02-24 00:23:14,204 - INFO - req/s: 9.55 	tru_reqs/s: 9.55 	total: 130
+2024-02-24 00:23:15,201 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 140
+2024-02-24 00:23:16,216 - INFO - req/s: 9.53 	tru_reqs/s: 9.53 	total: 149
+2024-02-24 00:23:17,233 - INFO - req/s: 9.56 	tru_reqs/s: 9.56 	total: 159
+2024-02-24 00:23:18,247 - INFO - req/s: 9.51 	tru_reqs/s: 9.51 	total: 168
+2024-02-24 00:23:19,247 - INFO - req/s: 9.54 	tru_reqs/s: 9.54 	total: 178
+2024-02-24 00:23:20,247 - INFO - req/s: 9.57 	tru_reqs/s: 9.57 	total: 188
+2024-02-24 00:23:21,246 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 198
+2024-02-24 00:23:22,255 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 208
+2024-02-24 00:23:23,260 - INFO - req/s: 9.69 	tru_reqs/s: 9.69 	total: 219
+2024-02-24 00:23:24,262 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 227
+2024-02-24 00:23:25,245 - INFO - req/s: 9.63 	tru_reqs/s: 9.63 	total: 237
+2024-02-24 00:23:26,260 - INFO - req/s: 9.64 	tru_reqs/s: 9.64 	total: 247
+2024-02-24 00:23:27,266 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 256
+2024-02-24 00:23:28,281 - INFO - req/s: 9.58 	tru_reqs/s: 9.58 	total: 265
+2024-02-24 00:23:29,277 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 275
+2024-02-24 00:23:30,286 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 285
+2024-02-24 00:23:31,291 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 295
+2024-02-24 00:23:32,292 - INFO - req/s: 9.63 	tru_reqs/s: 9.63 	total: 305
+2024-02-24 00:23:33,296 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 314
+2024-02-24 00:23:34,308 - INFO - req/s: 9.59 	tru_reqs/s: 9.59 	total: 323
+2024-02-24 00:23:35,292 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 333
+2024-02-24 00:23:36,292 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 343
+2024-02-24 00:23:37,295 - INFO - req/s: 9.63 	tru_reqs/s: 9.63 	total: 353
+2024-02-24 00:23:38,313 - INFO - req/s: 9.63 	tru_reqs/s: 9.63 	total: 363
+2024-02-24 00:23:39,325 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 372
+2024-02-24 00:23:40,341 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 382
+2024-02-24 00:23:41,353 - INFO - req/s: 9.63 	tru_reqs/s: 9.63 	total: 392
+2024-02-24 00:23:42,356 - INFO - req/s: 9.64 	tru_reqs/s: 9.64 	total: 402
+2024-02-24 00:23:43,357 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 411
+2024-02-24 00:23:44,372 - INFO - req/s: 9.62 	tru_reqs/s: 9.62 	total: 421
+2024-02-24 00:23:45,388 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 430
+2024-02-24 00:23:46,390 - INFO - req/s: 9.59 	tru_reqs/s: 9.59 	total: 439
+2024-02-24 00:23:47,371 - INFO - req/s: 9.6  	tru_reqs/s: 9.6  	total: 449
+2024-02-24 00:23:48,388 - INFO - req/s: 9.59 	tru_reqs/s: 9.59 	total: 458
+2024-02-24 00:23:49,371 - INFO - req/s: 9.58 	tru_reqs/s: 9.58 	total: 467
+2024-02-24 00:23:50,373 - INFO - req/s: 9.56 	tru_reqs/s: 9.56 	total: 476
+2024-02-24 00:23:51,387 - INFO - req/s: 9.55 	tru_reqs/s: 9.55 	total: 485
+2024-02-24 00:23:52,829 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:23:55,173 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:23:55,173 - IMPORTANT_INFO - 如果你喜欢这个项目，欢迎给项目点个⭐：https://github.com/panjd123/RUC-CourseSelectionTool
+2024-02-24 00:23:55,173 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:23:55,175 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:23:55,175 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:23:55,176 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:23:55,176 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:23:55,176 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:23:55,176 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:23:55,177 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:23:56,573 - INFO - req/s: 7.17 	tru_reqs/s: 6.15 	total: 7
+2024-02-24 00:23:57,579 - INFO - req/s: 8.58 	tru_reqs/s: 8.07 	total: 17
+2024-02-24 00:23:58,581 - INFO - req/s: 9.05 	tru_reqs/s: 8.71 	total: 27
+2024-02-24 00:23:59,581 - INFO - req/s: 8.79 	tru_reqs/s: 8.53 	total: 35
+2024-02-24 00:24:00,578 - INFO - req/s: 8.83 	tru_reqs/s: 8.63 	total: 44
+2024-02-24 00:24:01,590 - INFO - req/s: 8.84 	tru_reqs/s: 8.68 	total: 53
+2024-02-24 00:24:01,590 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-24 00:24:02,609 - INFO - req/s: 10.79	tru_reqs/s: 10.79	total: 64
+2024-02-24 00:24:03,624 - INFO - req/s: 9.83 	tru_reqs/s: 9.83 	total: 73
+2024-02-24 00:24:04,628 - INFO - req/s: 9.88 	tru_reqs/s: 9.88 	total: 83
+2024-02-24 00:24:05,623 - INFO - req/s: 9.67 	tru_reqs/s: 9.67 	total: 92
+2024-02-24 00:24:06,637 - INFO - req/s: 9.51 	tru_reqs/s: 9.51 	total: 101
+2024-02-24 00:24:07,627 - INFO - req/s: 9.61 	tru_reqs/s: 9.61 	total: 111
+2024-02-24 00:24:08,628 - INFO - req/s: 9.66 	tru_reqs/s: 9.66 	total: 121
+2024-02-24 00:24:09,620 - INFO - req/s: 9.59 	tru_reqs/s: 9.59 	total: 130
+2024-02-24 00:24:11,478 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:24:13,443 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:24:13,443 - IMPORTANT_INFO - 如果你喜欢这个项目，欢迎给项目点个 star ⭐：https://github.com/panjd123/RUC-CourseSelectionTool
+2024-02-24 00:24:13,443 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:24:13,444 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:24:13,444 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:24:13,445 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:24:13,445 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:24:13,445 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:24:13,445 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:24:13,446 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:24:14,882 - INFO - req/s: 6.89 	tru_reqs/s: 5.91 	total: 7
+2024-02-24 00:24:15,870 - INFO - req/s: 8.48 	tru_reqs/s: 7.98 	total: 17
+2024-02-24 00:24:16,877 - INFO - req/s: 8.64 	tru_reqs/s: 8.3  	total: 26
+2024-02-24 00:24:17,871 - INFO - req/s: 8.99 	tru_reqs/s: 8.74 	total: 36
+2024-02-24 00:24:18,878 - INFO - req/s: 9.18 	tru_reqs/s: 8.98 	total: 46
+2024-02-24 00:24:18,878 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-24 00:24:19,876 - INFO - req/s: 9.02 	tru_reqs/s: 9.02 	total: 55
+2024-02-24 00:24:20,880 - INFO - req/s: 9.49 	tru_reqs/s: 9.49 	total: 65
+2024-02-24 00:24:22,216 - IMPORTANT_INFO - 脚本已停止
+2024-02-24 00:24:40,622 - IMPORTANT_INFO - 脚本开始运行
+2024-02-24 00:24:40,623 - IMPORTANT_INFO - 如果你喜欢这个项目，欢迎给项目点个 star ⭐：https://github.com/panjd123/RUC-CourseSelectionTool
+2024-02-24 00:24:40,623 - IMPORTANT_INFO - 配置文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\config.ini
+2024-02-24 00:24:40,623 - IMPORTANT_INFO - 抢课列表路径：D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:24:40,623 - IMPORTANT_INFO - 日志文件路径：D:\Code\RUC-CourseSelectionTool\ruccourse\ruccourse.log
+2024-02-24 00:24:40,624 - IMPORTANT_INFO - 正在读取抢课列表: D:\Code\RUC-CourseSelectionTool\ruccourse\courses.json
+2024-02-24 00:24:40,624 - IMPORTANT_INFO - 不启用提示铃声
+2024-02-24 00:24:40,624 - IMPORTANT_INFO - 学期：2023-2024学年夏季学期
+2024-02-24 00:24:40,624 - IMPORTANT_INFO - gap=0，脚本将不间断执行
+2024-02-24 00:24:40,624 - IMPORTANT_INFO - 待抢课程：健康信息学01班
+2024-02-24 00:24:42,041 - INFO - req/s: 7.0  	tru_reqs/s: 6.0  	total: 7
+2024-02-24 00:24:43,041 - INFO - req/s: 8.5  	tru_reqs/s: 8.0  	total: 17
+2024-02-24 00:24:44,053 - INFO - req/s: 8.96 	tru_reqs/s: 8.63 	total: 27
+2024-02-24 00:24:45,054 - INFO - req/s: 9.22 	tru_reqs/s: 8.97 	total: 37
+2024-02-24 00:24:46,062 - INFO - req/s: 9.16 	tru_reqs/s: 8.96 	total: 46
+2024-02-24 00:24:46,062 - INFO - 请求速度小于预期，已调整为10.5   req/s
+2024-02-24 00:24:47,043 - INFO - req/s: 9.18 	tru_reqs/s: 9.18 	total: 55
+2024-02-24 00:24:48,058 - INFO - req/s: 9.52 	tru_reqs/s: 9.52 	total: 65
+2024-02-24 00:24:49,046 - INFO - req/s: 9.38 	tru_reqs/s: 9.38 	total: 74
+2024-02-24 00:24:49,995 - IMPORTANT_INFO - 脚本已停止
