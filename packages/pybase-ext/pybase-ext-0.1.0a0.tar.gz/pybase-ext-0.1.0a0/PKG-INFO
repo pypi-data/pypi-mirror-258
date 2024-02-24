@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pybase-ext
+Version: 0.1.0a0
+Summary: Basic Python modules to support new classes in old Python
+Author-email: Jaime Gonzalez Gomez <jim.gomez.dnn@gmail.com>
+License: MIT license
+Project-URL: Source, https://github.com/Jtachan/PyBaseExtension.git
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python Base Extension
+
+The `pybase_ext` modules serve three purposes:
+
+* Enable the use of new base classes in older Python versions. For example, `enum.StrEnum` is new in Python 3.11, but `pybase_ext` allows users on previous versions to use it too.
+* Enable experimental classes not implemented in other modules. For example, `enum.TupleEnum` is not implemented in `enum`, but `pybase_ext` allows users to create enumerations where its members are tuples.
+* Provide of new classes containing commonly used constant values. For example, `pybase_ext.colors.BGR` provides a wrapper to commonly used BGR color codes, like `BGR.WHITE` to use the color code `(255, 255, 255)`
+
+## TBD - WIP
+
+This code is still a work in progress!
+New functions to be included can be found [here](src/pybase_ext/TBD.md).
