@@ -1,0 +1,33 @@
+{
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/**",
+    "**/.pnpm-lock.json",
+    ".vscode",
+    "megalinter",
+    "package-lock.json",
+    "report"
+  ],
+  "language": "en",
+  "noConfigSearch": true,
+  "words": [
+    "megalinter",
+    "oxsecurity",
+    "Bohdan",
+    "Chernykh",
+    "PYPI",
+    "RSTCHECK",
+    "RSTFMT",
+    "TRIVY",
+    "blazingly",
+    "bohdan",
+    "chernykh",
+    "dind",
+    "pdoc",
+    "pycache",
+    "pysnail",
+    "venv"
+  ],
+  "version": "0.2"
+}
