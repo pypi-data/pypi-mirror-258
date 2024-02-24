@@ -1,0 +1,5 @@
+PySimpleGui
+numpy
+paho-mqtt
+pymupdf
+requests

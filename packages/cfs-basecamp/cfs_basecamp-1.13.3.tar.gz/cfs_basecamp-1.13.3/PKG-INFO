@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cfs_basecamp
+Version: 1.13.3
+Summary: Provides a lightweight environment to help you learn NASA’s core Flight System (cFS) and create app-based solutions for your projects
+Home-page: UNKNOWN
+Author: Open STEMware Foundation
+Author-email: open.stemware@gmail.com
+License: UNKNOWN
+Keywords: cfs flight software
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# core Flight System (cFS) Basecamp
+*cFS Basecamp* provides a lightweight environment to help you learn NASA’s core Flight System (cFS) and create app-based solutions for your projects. Basecamp's default cFS target runs on Linux and includes an app suite that provides a complete operational environment including support for onboard file management and transferring files between the ground and flight systems. The built-in hands-on tutorials allow you to be immediately productive. The [Open Mission Stack](https://openmissionstack.com/) website contains cFS educational material that includes [cFS-based projects](https://openmissionstack.com/projects). These goal-oriented software/hardware projects rely on [cFS Basecamp's Apps](https://github.com/orgs/cfs-apps/repositories) to provide the project functionality.  The cFS Basecamp Python GUI automates the app integration process.
+
+
