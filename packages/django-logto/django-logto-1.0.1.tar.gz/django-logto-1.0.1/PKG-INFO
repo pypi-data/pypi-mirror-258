@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: django-logto
+Version: 1.0.1
+Summary: DRF and Django Logto integration
+Home-page: https://github.com/pulsation-studio/django-logto
+Author: Pulsation Studio
+Author-email: liam@pulsation.eco
+License-File: LICENSE
+Requires-Dist: django>=4.0
+Requires-Dist: djangorestframework>=3.0
+Requires-Dist: jose
+Requires-Dist: asgiref
+Requires-Dist: urllib3
+Requires-Dist: logto
+Requires-Dist: requests
