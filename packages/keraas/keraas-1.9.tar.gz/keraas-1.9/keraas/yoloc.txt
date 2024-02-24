@@ -1,0 +1,62 @@
+
+!pip install ultralytics
+
+
+from ultralytics import YOLO
+
+
+import os
+import shutil
+import random
+!pip install tqdm --upgrade
+from tqdm.notebook import tqdm
+
+
+model = YOLO("yolov8m.pt")
+
+
+print("Model architecture: \n\n", model, "\n\n")
+print("type(model): \t", type(model), "\n")
+
+
+train_path_img = "/content/drive/MyDrive/YOLOv8/data/train/images"
+train_path_label = "/content/drive/MyDrive/YOLOv8/data/train/labels"
+val_path_img = "/content/drive/MyDrive/YOLOv8/data/valid/images"
+val_path_label = "/content/drive/MyDrive/YOLOv8/data/valid/labels"
+test_path = "/content/drive/MyDrive/YOLOv8/data/test"
+
+
+import ultralytics
+ultralytics.checks()
+
+
+!yolo task=detect mode=train model=yolov8m.pt data=/content/drive/MyDrive/YOLOv8/data/data.yaml epochs=10 imgsz=375 batch=8 project=/content/drive/MyDrive/YOLOv8/data/train
+
+
+!ls /content/drive/MyDrive/YOLOv8/runs/detect/train/weights
+
+
+from ultralytics import YOLO
+from IPython.display import display, Image
+
+
+Image(filename='/content/drive/MyDrive/YOLOv8/data/train/train/confusion_matrix.png', width=600)
+
+
+Image(filename='/content/drive/MyDrive/YOLOv8/data/train/train/results.png', width=600)
+
+
+Image(filename='/content/drive/MyDrive/YOLOv8/data/train/train/train_batch0.jpg', width=800)
+
+
+!yolo task=detect mode=val model=/content/drive/MyDrive/YOLOv8/data/train/train/weights/best.pt data=/content/drive/MyDrive/YOLOv8/data/data.yaml
+
+
+!yolo task=detect mode=predict model=/content/drive/MyDrive/YOLOv8/data/train/train/weights/best.pt conf=0.25 source=/content/drive/MyDrive/YOLOv8/data/test/images
+
+
+import glob
+from IPython.display import Image, display
+for image_path in glob.glob('/content/runs/detect/predict/*.jpeg')[:8]:
+      display(Image(filename=image_path, width=800))
+      print("\n")
