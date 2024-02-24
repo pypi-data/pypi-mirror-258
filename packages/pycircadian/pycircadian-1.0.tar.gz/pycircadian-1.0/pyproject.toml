@@ -1,0 +1,19 @@
+[project]
+name = "pycircadian"
+version = "1.0"
+description = "Suspend-On-Idle Daemon for GNU/Linux systemd"
+dependencies = [
+    "dbus-python",
+    "psutil",
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools >= 61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+pycircadian = "pycircadian.__main__:circadian_main"
+
+[tool.setuptools]
+packages = ["pycircadian"]

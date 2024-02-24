@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycircadian
+Version: 1.0
+Summary: Suspend-On-Idle Daemon for GNU/Linux systemd
+Requires-Python: >=3.11
+License-File: LICENSE
+Requires-Dist: dbus-python
+Requires-Dist: psutil
