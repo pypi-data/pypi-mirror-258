@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: aio_send_dir
+Version: 0.1.1
+Summary: Gives you the ability to compress and send directory to a email
+Home-page: https://github.com/devalv/aio_send_dir
+Author: Aleksei Devyatkin
+Author-email: aleksei@devyatkin.dev
+Requires-Python: >=3.11,<4.0
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiofiles[os] (>=23.2.1,<24.0.0)
+Requires-Dist: aiosmtplib (>=3.0.1,<4.0.0)
+Requires-Dist: aiozipstream (>=0.4,<0.5)
+Project-URL: Repository, https://github.com/devalv/aio_send_dir
+Description-Content-Type: text/markdown
+
+# aio_send_dir
+[github](https://github.com/devalv/aio_send_dir)
+
+## Для чего
+
+Например, надо отправить coverage отчет после прогона pytest
+
+```python
+def pytest_sessionfinish(session, exitstatus):
+    import asyncio
+
+    asyncio.run(send_dir(
+        dir_path="htmlcov",
+        smtp_hostname="localhost",
+        smtp_port=1025,
+        from_email="yoba@yoba.net",
+        recipient_emails="peka@yoba.net",
+        )
+    )
+```
+
+## Публикация
+Для ручной публикации необходимо задать переменные окружения `PYPI_USERNAME` и `PYPI_PASSWORD`
+
