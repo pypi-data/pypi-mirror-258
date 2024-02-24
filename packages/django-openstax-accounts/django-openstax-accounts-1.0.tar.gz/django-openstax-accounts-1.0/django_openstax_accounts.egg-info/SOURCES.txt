@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+django_openstax_accounts.egg-info/PKG-INFO
+django_openstax_accounts.egg-info/SOURCES.txt
+django_openstax_accounts.egg-info/dependency_links.txt
+django_openstax_accounts.egg-info/requires.txt
+django_openstax_accounts.egg-info/top_level.txt
+openstax_accounts/__init__.py
+openstax_accounts/apps.py
+openstax_accounts/functions.py
+openstax_accounts/strategy_2.py
+openstax_accounts/tests.py
