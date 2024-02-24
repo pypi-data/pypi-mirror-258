@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ecs_engine
+Version: 0.2
+Summary: This is an ECS Engine for building game in python.
+Home-page: https://github.com/jsimerly/ecs_engine
+Author: Jacob Simerly
+Author-email: simerly81@gmail.com
+License: MIT
+Keywords: ECS Entity Component System pygame
+Platform: UNKNOWN
+
+UNKNOWN
+
