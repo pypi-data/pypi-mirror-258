@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+
+
+[project]
+name = "NBIN"
+version = "1.2"
+requires-python = ">=3.11"
+authors = [
+  {name = "Markada", email = "markada.py@gmail.com"},
+]
+description = "Official library for working with the BIN file format"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["markada", "NBIN", "file", "storage", "HisOS"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "Topic :: File Formats",
+    "Typing :: Typed",
+]
+
+
+# [project.urls]
+# Homepage = "https://example.com"
+# Documentation = "https://readthedocs.org"
+# Repository = "https://github.com/me/spam.git"
+# "Bug Tracker" = "https://github.com/me/spam/issues"
+# Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+# Вот как удалить пакет через веб-интерфейс PyPI:
+# 1. Перейдите на сайт PyPI по адресу https://pypi.org/.
+# 2. Войдите в свою учетную запись PyPI.
+# 3. Найдите ваш пакет в списке ваших пакетов.
+# 4. Нажмите на ссылку "Edit" рядом с вашим пакетом.
+# 5. В разделе "Danger Zone" найдите ссылку "Remove package".
+# 6. Нажмите на эту ссылку и подтвердите удаление пакета.
+# После выполнения этих шагов ваш пакет будет удален с PyPI. Не забудьте предупредить пользователей о том, что пакет больше не поддерживается или обновляется.
