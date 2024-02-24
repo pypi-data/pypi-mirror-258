@@ -1,0 +1,11 @@
+meteosatpy/__init__.py,sha256=0sJjt4Yb52uPQdvXqRzfVXySJ0yd-1jOEd4PTbaIkwM,80
+meteosatpy/chirps.py,sha256=LVXhJ1E4Ai_pFmoSgqaqiS7o25y3w3UxMRTRVSvMync,3110
+meteosatpy/cmorph.py,sha256=wMoMHBL8enRZE8m2qRAs6bzG8PdyMK31KWOryjqYdbA,3478
+meteosatpy/mswep.py,sha256=e-t_QBzhIKq74ZlXJhCIwZIBEMj7QckuofOU8mSV0Is,3994
+meteosatpy/utils.py,sha256=5m7TFk4tnPsCc1hj5onjSdEMFEn5-Di5aBbZnM4tYmU,5205
+meteosatpy/warnings.py,sha256=-AY6czZjF0W4EY4AYPTLrFhF2DdTIslZAdkYJDvjrNo,83
+meteosatpy-0.0.2.dist-info/LICENCE.txt,sha256=vO-jyo5nqBA4u-dGwnZfBUnXb_vS2XKX9atWoJDRjlw,1119
+meteosatpy-0.0.2.dist-info/METADATA,sha256=PRLttY6Wrj02sThfTxHv8p1_CmCGYmEB6gsPpBYCm3E,4024
+meteosatpy-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+meteosatpy-0.0.2.dist-info/top_level.txt,sha256=XGmRu1A_YR-yn1bOwZ0ghLxxDIUWt0gFe78ZPlp32go,11
+meteosatpy-0.0.2.dist-info/RECORD,,
