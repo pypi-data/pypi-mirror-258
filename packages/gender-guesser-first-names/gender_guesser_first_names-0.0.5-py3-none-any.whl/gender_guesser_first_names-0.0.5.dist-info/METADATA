@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: gender_guesser_first_names
+Version: 0.0.5
+Summary: Hello World!
+Home-page: https://github.com/restrepo/DevOps
+Author: restrepo
+Author-email: restrepo@udea.edu.co
+License: BSD
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Template for GitHub actions for DevOps
+
+![Python package](https://github.com/restrepo/DevOps/workflows/Python%20package/badge.svg)
+![Upload Python Package](https://github.com/restrepo/DevOps/workflows/Upload%20Python%20Package/badge.svg)
+
+The related software just print `Hello World!`. To avoid conflicts with the package name, we use the Spanish translation _DesOper_
+
+## Install
+```bash
+$ pip install -i https://test.pypi.org/simple/ desoper
+```
+## USAGE
+```python
+>>> from desoper import hello
+>>> hello.hello()
+Hello World!
+```
+Links:
+* [Test pip page](https://test.pypi.org/project/desoper/)
+* Flake8 Tool For Style Guide Enforcement
+  * https://flake8.pycqa.org/ 
+  * https://peps.python.org/pep-0008/
+* [Test python code](https://docs.pytest.org/en/7.1.x/)
+* [GitHub actions](https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions)
