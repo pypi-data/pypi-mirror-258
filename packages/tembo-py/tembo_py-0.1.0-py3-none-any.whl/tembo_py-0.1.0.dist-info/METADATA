@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tembo-py
+Version: 0.1.0
+Summary: The official Python client for Tembo.io
+License: Apache-2
+Author: Adam Hendel
+Author-email: adam@tembo.io
+Requires-Python: >=3.8.1,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: llama-index (>=0.10.9,<0.11.0)
+Requires-Dist: llama-index-vector-stores-postgres (>=0.1.1,<0.2.0)
+Requires-Dist: psycopg (>=3.1.18,<4.0.0)
+Requires-Dist: tiktoken (>=0.6.0,<0.7.0)
+Description-Content-Type: text/markdown
+
+# tembo-py
+
+The official Python client for Tembo.io
+
+
+## Installation
+
+```bash
+pip install tembo-py
+```
+
+
+
