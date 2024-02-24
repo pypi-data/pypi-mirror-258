@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+examples/mflike_example.yaml
+mflike/MFLike.yaml
+mflike/__init__.py
+mflike/_version.py
+mflike/mflike.py
+mflike/theoryforge.py
+mflike.egg-info/PKG-INFO
+mflike.egg-info/SOURCES.txt
+mflike.egg-info/dependency_links.txt
+mflike.egg-info/requires.txt
+mflike.egg-info/top_level.txt
+mflike/tests/test_mflike.py
