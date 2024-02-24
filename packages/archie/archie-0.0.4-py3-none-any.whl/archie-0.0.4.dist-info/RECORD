@@ -1,0 +1,13 @@
+archie/__init__.py,sha256=WhLRQGq4YmJ18NMBUQkXzOO0M7xh-vBNlDonuFXQ6vk,405
+archie/backup.py,sha256=l9E-cxMfBC90X_5VAdQw4ROBnggF99uJZLMldb74WgA,740
+archie/configuration.py,sha256=AG-BkK5Uq_mbKkP880qk2mWSEkkr56-Pbo9jwIbtkvo,947
+archie/helpers.py,sha256=Y0xrO8hzKUvhWKGzBSwMgYf1iVIXAOBeJlIxjmDFatE,823
+archie/handlers/__init__.py,sha256=zGPwNgcBuKHeGKlhxRY8pYnGVu2jR9WcYEj7NOEAb78,58
+archie/handlers/install.py,sha256=xBHiPiTli6gx6nBxNFQkC3rqxIcH4tH9tc3G6ooDzSA,846
+archie/handlers/restore.py,sha256=-F3aHza-CQmBjxUryVFGWSlK_YBWhYxOgqBhFclQTnI,773
+archie-0.0.4.data/scripts/arc,sha256=T2kae75Ayw-UR97BHFCMUtMn5rbVPKDTBUr7FNoCXdY,1022
+archie-0.0.4.dist-info/LICENSE.txt,sha256=Adr6yqAeqmFOANTokPEG3RmmYD3aia0GWBlar66wCTA,1077
+archie-0.0.4.dist-info/METADATA,sha256=pI667KIMO-vOT28hfGNyXSGBCiEjuDHb13IeDoaEE6s,569
+archie-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+archie-0.0.4.dist-info/top_level.txt,sha256=FQT31XYJoP6SvvAbTzHJJUacaQrnVb-omFpAef8TuEU,7
+archie-0.0.4.dist-info/RECORD,,
