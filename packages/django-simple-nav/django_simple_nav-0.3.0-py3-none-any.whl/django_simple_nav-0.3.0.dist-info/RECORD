@@ -1,0 +1,12 @@
+django_simple_nav/__init__.py,sha256=5t5xAGVZ6H-J75fZtKJSSecTIBz0Z2pwmHUEMlHN_pQ,91
+django_simple_nav/apps.py,sha256=9ItMDl_2vZ35VxDg_G63izowLu20SeZmeOntc8X4uus,143
+django_simple_nav/conf.py,sha256=mZc1JT1mO6BCw00xxP6cs5fvHCGBvfuhNjs9YqVTWV4,464
+django_simple_nav/nav.py,sha256=VxtA2ldTZotlR1jAfxJUN7DepsULm5SuW19Tyg4mgU4,2794
+django_simple_nav/permissions.py,sha256=Skyjo0bNkufq9tbx9-Cvgw1jWUBldNMM8J4l7365Qw4,1400
+django_simple_nav/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_nav/templatetags/django_simple_nav.py,sha256=4vGeZ--h_ESlIRNL7tbnB3QRq_0_WM4wb-aC83V-PRg,1472
+django_simple_nav-0.3.0.dist-info/METADATA,sha256=6oJi1xhzSY-RFial5Q1S1_I__bKRzV5Z7xhDsrstcYI,11820
+django_simple_nav-0.3.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+django_simple_nav-0.3.0.dist-info/licenses/AUTHORS.md,sha256=8cylUX4T7srQtwM46kTFVKUk0UbY6IipfLb2Z52-8f4,112
+django_simple_nav-0.3.0.dist-info/licenses/LICENSE,sha256=FdZMz6vbhB-ED2GVlYRwrdBMVlSMXYNhWa2q7KK_5IY,1068
+django_simple_nav-0.3.0.dist-info/RECORD,,
