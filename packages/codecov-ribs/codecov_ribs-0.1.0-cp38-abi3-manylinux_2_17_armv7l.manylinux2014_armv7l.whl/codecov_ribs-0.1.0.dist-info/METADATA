@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: codecov-ribs
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Author: Thiago Ramos <thiago@codecov.io>
+Author-email: Codecov <support@codecov.io>
+License: BuSL-1.1
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# ribs
+
+Report comparisons and other CPU-bound logic, implemented in Rust to speed up usages in Python from our other repositories:
+- [`worker`](https://github.com/codecov/worker)
+- [`codecov-api`](https://github.com/codecov/codecov-api)
+
+It uses [pyo3](https://pyo3.rs) for bindings and [maturin](https://www.maturin.rs/) for packaging.
+
+Testing:
+```
+$ cargo test --no-default-features
+```
+
