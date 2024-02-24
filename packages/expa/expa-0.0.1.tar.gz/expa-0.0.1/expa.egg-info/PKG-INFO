@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: expa
+Version: 0.0.1
+Summary: Metric logging and analysis for ML experiments
+Author: Jurgis Pasukonis
+Author-email: jurgisp@gmail.com
+License: Apache 2.0
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# expa
+
+Metric logging and analysis for ML experiments.
+
+This is a work-in-progress pre-release, not for use.
