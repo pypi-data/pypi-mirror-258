@@ -1,0 +1,127 @@
+trigger:
+- master
+- "*.*.x"
+
+variables:
+  python.version: '3.12'
+  PIP_CACHE_DIR: $(Pipeline.Workspace)/.pip
+  PYTEST_ADDOPTS: '-v --color=yes --durations=0 --nunit-xml=test-data/test-results.xml'
+  TEST_EXTRA: 'test-full'
+  DEPENDENCIES_VERSION: "latest"  # |"pre-release" | "minimum-version"
+  TEST_TYPE: "standard" # | "coverage"
+
+jobs:
+- job: PyTest
+  pool:
+    vmImage: 'ubuntu-22.04'
+  strategy:
+    matrix:
+      Python3.9:
+        python.version: '3.9'
+      Python3.12: {}
+      minimal_dependencies:
+        TEST_EXTRA: 'test-min'
+      anndata_dev:
+        DEPENDENCIES_VERSION: "pre-release"
+        TEST_TYPE: "coverage"
+      minimum_versions:
+        python.version: '3.9'
+        DEPENDENCIES_VERSION: "minimum-version"
+        TEST_TYPE: "coverage"
+
+
+  steps:
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '$(python.version)'
+    displayName: 'Use Python $(python.version)'
+
+  - task: Cache@2
+    inputs:
+      key: '"python $(python.version)" | "$(Agent.OS)" | pyproject.toml'
+      restoreKeys: |
+        python | "$(Agent.OS)"
+        python
+      path: $(PIP_CACHE_DIR)
+    displayName: Cache pip packages
+
+  - script: |
+      export MPLBACKEND="agg"
+      echo $MPLBACKEND
+    displayName: 'Set env'
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install wheel
+      pip install .[dev,$(TEST_EXTRA)]
+    displayName: 'Install dependencies'
+    condition: eq(variables['DEPENDENCIES_VERSION'], 'latest')
+
+  - script: |
+      python -m pip install --pre --upgrade pip
+      pip install --pre wheel
+      pip install --pre .[dev,$(TEST_EXTRA)]
+      pip install -v "anndata[dev,test] @ git+https://github.com/scverse/anndata"
+    displayName: 'Install dependencies release candidates'
+    condition: eq(variables['DEPENDENCIES_VERSION'], 'pre-release')
+
+  - script: |
+      python -m pip install pip wheel tomli packaging
+      pip install `python3 ci/scripts/min-deps.py pyproject.toml --extra dev test`
+      pip install --no-deps .
+    displayName: 'Install dependencies minimum version'
+    condition: eq(variables['DEPENDENCIES_VERSION'], 'minimum-version')
+
+  - script: |
+      pip list
+    displayName: 'Display installed versions'
+
+  - script: pytest
+    displayName: 'PyTest'
+    condition: eq(variables['TEST_TYPE'], 'standard')
+
+  - script: |
+      pytest --cov --cov-report=xml --cov-context=test
+    displayName: 'PyTest (coverage)'
+    condition: eq(variables['TEST_TYPE'], 'coverage')
+
+  - task: PublishCodeCoverageResults@1
+    inputs:
+      codeCoverageTool: Cobertura
+      summaryFileLocation: 'test-data/coverage.xml'
+      failIfCoverageEmpty: true
+    condition: eq(variables['TEST_TYPE'], 'coverage')
+
+  - task: PublishTestResults@2
+    condition: succeededOrFailed()
+    inputs:
+      testResultsFiles: 'test-data/test-results.xml'
+      testResultsFormat: NUnit
+      testRunTitle: 'Publish test results for $(Agent.JobName)'
+
+  - script: bash <(curl -s https://codecov.io/bash)
+    displayName: 'Upload to codecov.io'
+    condition: eq(variables['TEST_TYPE'], 'coverage')
+
+- job: CheckBuild
+  pool:
+    vmImage: 'ubuntu-22.04'
+  steps:
+
+  - task: UsePythonVersion@0
+    inputs:
+      versionSpec: '3.12'
+    displayName: 'Use Python 3.12'
+
+  - script: |
+      python -m pip install --upgrade pip
+      pip install build twine
+    displayName: 'Install build tools and requirements'
+
+  - script: pip list
+    displayName: 'Display installed versions'
+
+  - script: |
+      python -m build --sdist --wheel .
+      twine check dist/*
+    displayName: 'Build & Twine check'
