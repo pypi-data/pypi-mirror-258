@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: django-openstax-accounts
+Version: 1.0
+Summary: A Django app to read data from the logged-in user OpenStax account using the SSO cookie.
+Home-page: https://www.openstax.org/
+Author: Michael Volo
+Author-email: volo@rice.edu
+License: GNU Affero General Public License v3
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django >=3.0
+Requires-Dist: PyJWE
+Requires-Dist: PyJWT
+Requires-Dist: requests-oauthlib
+
+========================
+django-openstax-accounts
+========================
+
+``django-openstax-accounts`` is a Django app to read data
+from the logged-in user's OpenStax account using the SSO cookie.
+
+Quick start
+-----------
+
+Add the following settings to your settings file::
+
+    # OpenStax Accounts settings
+    SSO_COOKIE_NAME = "<oxa_env>"
+    SSO_SIGNATURE_PUBLIC_KEY = "<public_key_for_accounts>"
+    SSO_ENCRYPTION_PRIVATE_KEY = "<private_key_for_accounts>"
+
+
+Usage
+-----
+
+If you need to access the current user's OpenStax account UUID,
+you can use the ``get_logged_in_user_uuid`` function from ``openstax_accounts.functions``.
+This function will a UUID.::
+
+    from django.shortcuts import render
+    from openstax_accounts.functions import get_logged_in_user_uuid
+
+    def my_view(request):
+        user_uuid = get_logged_in_user_uuid(request)
+        # function to do something with the uuid, like save it to your database or use for an API call
+        return render(request, "my_template.html", {"user_uuid": user_uuid})
+

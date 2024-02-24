@@ -1,0 +1,10 @@
+openstax_accounts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openstax_accounts/apps.py,sha256=8U7HaNGV4sxbEo1Zuqw64useyARU0Rc3TRKqcY8wlRc,180
+openstax_accounts/functions.py,sha256=Z1UKmjLVC2t_NzR71eOfiq8gFkPV0YZ0CUHLmbbUiy8,3763
+openstax_accounts/strategy_2.py,sha256=SWZXZ6dmPUQ9Ms71TZXr8Uljt4BxJMropakx9JBlO0M,1552
+openstax_accounts/tests.py,sha256=QUo0S5Ki93ftxP6z-_ur59Hy2nsUhCaZzMJPs-CJK98,2747
+django_openstax_accounts-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_openstax_accounts-1.0.dist-info/METADATA,sha256=9ROL0MJYD0KQVzli363c8qzojTWlfv3Zz4-Z5yByuJA,2238
+django_openstax_accounts-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_openstax_accounts-1.0.dist-info/top_level.txt,sha256=286wCu__n_Y9v-wUiZ-71Ms4EvSY-Lm9NYVhj1m1Efg,18
+django_openstax_accounts-1.0.dist-info/RECORD,,
