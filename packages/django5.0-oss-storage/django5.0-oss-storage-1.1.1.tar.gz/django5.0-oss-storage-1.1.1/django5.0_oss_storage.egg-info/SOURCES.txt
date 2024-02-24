@@ -1,0 +1,17 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+django5.0_oss_storage.egg-info/PKG-INFO
+django5.0_oss_storage.egg-info/SOURCES.txt
+django5.0_oss_storage.egg-info/dependency_links.txt
+django5.0_oss_storage.egg-info/requires.txt
+django5.0_oss_storage.egg-info/top_level.txt
+django_oss_storage/__init__.py
+django_oss_storage/backends.py
+django_oss_storage/defaults.py
+tests/manage.py
+tests/django-oss-storage-test/__init__.py
+tests/django-oss-storage-test/settings.py
+tests/django-oss-storage-test/tests.py
