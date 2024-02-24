@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+django_app_router/__init__.py
+django_app_router/app_router.py
+django_app_router/utils.py
+django_app_router.egg-info/PKG-INFO
+django_app_router.egg-info/SOURCES.txt
+django_app_router.egg-info/dependency_links.txt
+django_app_router.egg-info/requires.txt
+django_app_router.egg-info/top_level.txt
