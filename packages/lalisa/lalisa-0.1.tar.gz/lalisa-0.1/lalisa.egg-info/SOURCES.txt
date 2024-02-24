@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+lalisa/__init__.py
+lalisa.egg-info/PKG-INFO
+lalisa.egg-info/SOURCES.txt
+lalisa.egg-info/dependency_links.txt
+lalisa.egg-info/top_level.txt

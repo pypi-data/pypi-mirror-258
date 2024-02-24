@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lalisa
+Version: 0.1
+Summary: DESCRIPTION
+Home-page: https://github.com/lalisa-studio/lalisa
+Author: nshout
+License: MIT
+Keywords: protection,security,obfuscation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
