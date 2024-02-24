@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69.1.1", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "BasicTextMetrics"
+version = "0.0.3"
+description = "Analyze textual data and extract useful metrics such as word count, character count, average word length, and most common words"
+readme = "README.md"
+authors = [{ name = "Famosa Muyiwa", email = "nenling19@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["Text analysis",
+"Text metrics",
+"Word counting",
+"Character counting",
+"Word length",
+"Frequency analysis",
+"Linguistic analysis",
+"Natural language processing (NLP)",
+"Textual data processing",
+"Textual insights",
+"Textual statistics",
+"Textual analytics",
+"Language metrics",
+"Language analysis",
+"Text readability",
+"Sentiment analysis (potentially)",
+"Tokenization",
+"Part-of-speech tagging (PoS tagging)",
+"Textual summarization",
+"Lexical analysis"
+]
+
+dependencies = [
+    "nltk"
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/famosamuyiwa/TextMetrics.git"
+
