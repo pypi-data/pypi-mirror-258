@@ -1,0 +1,11 @@
+LICENCE
+README.md
+setup.py
+SimpleMLP/__init__.py
+SimpleMLP/network.py
+SimpleMLP/value.py
+SimpleMLP.egg-info/PKG-INFO
+SimpleMLP.egg-info/SOURCES.txt
+SimpleMLP.egg-info/dependency_links.txt
+SimpleMLP.egg-info/requires.txt
+SimpleMLP.egg-info/top_level.txt
