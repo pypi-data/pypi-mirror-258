@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+debiaosgs.egg-info/PKG-INFO
+debiaosgs.egg-info/SOURCES.txt
+debiaosgs.egg-info/dependency_links.txt
+debiaosgs.egg-info/requires.txt
+debiaosgs.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/sgs.py
