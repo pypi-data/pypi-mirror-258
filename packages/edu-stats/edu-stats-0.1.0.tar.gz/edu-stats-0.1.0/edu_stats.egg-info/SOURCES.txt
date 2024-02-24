@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+edu_stats.egg-info/PKG-INFO
+edu_stats.egg-info/SOURCES.txt
+edu_stats.egg-info/dependency_links.txt
+edu_stats.egg-info/top_level.txt
+edustats/__init__.py
+edustats/google.py
