@@ -1,0 +1,8 @@
+datafog/__about__.py,sha256=wAxkK8w13vqoF47A8iqWdSlIgRRXmZiQ0R4wePZfzhs,22
+datafog/__init__.py,sha256=0F7drtoA4vO8Wz1PoYikmep1yWkW5iJxiCwt93q46XA,170
+datafog/pii_tools/PresidioEngine/__init__.py,sha256=4ZMXasL-9SVTR_isI0miD0ffS_iAbf8Wr95OUZl-wNo,1827
+datafog/pii_tools/PresidioEngine/analyzer.py,sha256=Rf8WC-m0V3F_aA4OdegYNESbDfQfnjEGQg6_6ptxhCU,3998
+datafog-2.0.1.dist-info/LICENSE,sha256=92VVcPDWS9-a7saJJcTXK_sud-FMp6hD-zLJ81MPJws,1091
+datafog-2.0.1.dist-info/METADATA,sha256=hyE0cc4-ow3Et5WKO8G6UZsztoC7-tdkCKFxH__iTUU,3172
+datafog-2.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+datafog-2.0.1.dist-info/RECORD,,
