@@ -1,0 +1,5 @@
+gcp_cloud_storage_client_lib/__init__.py,sha256=PUuAxSUMM2CRHZhErgiEjjV9uUNSWyGUprJoWVorO-I,44
+gcp_cloud_storage_client_lib/mlops_gcp_client.py,sha256=cikJkSnxH1X3gPIJVO8Xiqq9JpiO_Q2lEPoGJNv5XMo,1444
+gcp_storage_client-0.1.0.dist-info/METADATA,sha256=X_lLH9_MRC6lZhsqUmM9mH5Gl5n3c7lIa-A_IIvYZ9I,6963
+gcp_storage_client-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gcp_storage_client-0.1.0.dist-info/RECORD,,
