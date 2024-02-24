@@ -1,0 +1,14 @@
+deltabot-cli<4.0,>=3.0.0
+requests
+
+[dev]
+black
+mypy
+isort
+pylint
+pylama
+pytest
+types-requests
+
+[fast]
+cchardet>=2.1.7
