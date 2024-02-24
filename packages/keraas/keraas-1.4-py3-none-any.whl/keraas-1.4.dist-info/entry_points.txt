@@ -1,0 +1,12 @@
+[console_scripts]
+cgan = keraas:cgan
+diffusion = keraas:diffusion
+face = keraas:face
+image = keraas:image
+mod1 = keraas:mod1
+rcnn = keraas:rcnn
+stable = keraas:stable
+vae = keraas:vae
+yolo = keraas:yolo
+yoloc = keraas:yoloc
+
