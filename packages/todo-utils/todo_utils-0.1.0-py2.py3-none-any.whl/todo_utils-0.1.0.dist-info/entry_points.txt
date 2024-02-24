@@ -1,0 +1,3 @@
+[console_scripts]
+scan-codebase = todo_utils.scan_codebase:main
+update-todo-md = todo_utils.update_todo_md:main
