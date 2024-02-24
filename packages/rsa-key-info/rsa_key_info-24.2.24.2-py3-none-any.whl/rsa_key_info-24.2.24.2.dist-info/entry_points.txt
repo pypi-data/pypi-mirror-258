@@ -1,0 +1,2 @@
+[console_scripts]
+rsa_key_info = rsa_key_info.main:main
