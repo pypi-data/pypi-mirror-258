@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+./README.md
+src/findthegap/__init__.py
+src/findthegap/gapper.py
+src/findthegap/quarticKDE.py
+src/findthegap.egg-info/PKG-INFO
+src/findthegap.egg-info/SOURCES.txt
+src/findthegap.egg-info/dependency_links.txt
+src/findthegap.egg-info/top_level.txt
