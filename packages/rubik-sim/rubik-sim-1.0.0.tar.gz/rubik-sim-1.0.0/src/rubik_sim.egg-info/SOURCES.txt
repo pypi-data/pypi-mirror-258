@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/rubik_sim/__init__.py
+src/rubik_sim/_version.py
+src/rubik_sim/cube.py
+src/rubik_sim/notations.py
+src/rubik_sim.egg-info/PKG-INFO
+src/rubik_sim.egg-info/SOURCES.txt
+src/rubik_sim.egg-info/dependency_links.txt
+src/rubik_sim.egg-info/requires.txt
+src/rubik_sim.egg-info/top_level.txt

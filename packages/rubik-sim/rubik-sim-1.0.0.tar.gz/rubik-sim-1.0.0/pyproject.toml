@@ -1,0 +1,28 @@
+[project]
+name = "rubik-sim"
+authors = [
+    { name = "Jaime Gonzalez Gomez", email = "jim.gomez.dnn@gmail.com" },
+]
+description = "Basic Rubik's cube (3x3) simulator"
+urls = { Source = "https://github.com/Jtachan/Rubik_sim.git" }
+dependencies = [
+    "numpy>=1.20",
+]
+requires-python = ">=3.9"
+license = { text = "MIT license" }
+dynamic = ["readme", "version"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "rubik_sim._version.__version__" }
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "unittests"]
