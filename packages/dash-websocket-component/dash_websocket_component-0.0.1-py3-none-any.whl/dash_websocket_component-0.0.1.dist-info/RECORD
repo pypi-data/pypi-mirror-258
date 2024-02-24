@@ -1,0 +1,14 @@
+dash_websocket_component/DashWebsocketComponent.py,sha256=r4u_a_QPJcDMWO8Eg7gd_qB21N9q8H7ag2fr66K-EzA,2109
+dash_websocket_component/__init__.py,sha256=zydv4ahMiz6N_ufh2NJHcGtANdGK-I7lDKwFlf8fHK4,2389
+dash_websocket_component/_imports_.py,sha256=sKeT_Xv9Cb7_-kqVc6ZFgEIdx9ZUYad1KGwt9AjoZOE,106
+dash_websocket_component/async-DashWebsocketComponent.js,sha256=Lw2MFNpPcoRX6QGRFeYPqYPsXZ_3i8lwoiqBSkYJS00,4006
+dash_websocket_component/async-DashWebsocketComponent.js.map,sha256=HaT9XbXOb-6AvklrZn06ky2ST73Gb8rdSsvLd7jmcT8,6846
+dash_websocket_component/dash_websocket_component.min.js,sha256=29Xx-cKxxxdd5ODozTqQAMQuO1ONrkj9Jq2Q_deXA3U,4113
+dash_websocket_component/dash_websocket_component.min.js.map,sha256=F0APxbSkYbyeGyuseo_aU-saANNo0YEq_e10V_1DNvQ,20188
+dash_websocket_component/metadata.json,sha256=k8mWtRTBb6gNDy6jjSKeACM6jUK2S_5A7uFyFlPH_T4,2747
+dash_websocket_component/package-info.json,sha256=6N0qhL6_lyHFT4WyHxs4qMNT66SXRC1H0imTfpi5utY,2118
+dash_websocket_component-0.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dash_websocket_component-0.0.1.dist-info/METADATA,sha256=d0gYfrrGSBIzhE2oMk10iWCMj8VOsZEd0xtWh1nHddE,4094
+dash_websocket_component-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dash_websocket_component-0.0.1.dist-info/top_level.txt,sha256=E1R6djsegr32E1f67Phx0XmX4Pwe26H6gZMp_GaTiOc,25
+dash_websocket_component-0.0.1.dist-info/RECORD,,
