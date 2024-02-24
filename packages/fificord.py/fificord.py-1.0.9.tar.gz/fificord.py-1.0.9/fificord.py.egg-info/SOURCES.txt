@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+fificord/__init__.py
+fificord.py.egg-info/PKG-INFO
+fificord.py.egg-info/SOURCES.txt
+fificord.py.egg-info/dependency_links.txt
+fificord.py.egg-info/requires.txt
+fificord.py.egg-info/top_level.txt
+fificord/ext/__init__.py
+fificord/ext/commands.py
+fificord/ext/functions.py
