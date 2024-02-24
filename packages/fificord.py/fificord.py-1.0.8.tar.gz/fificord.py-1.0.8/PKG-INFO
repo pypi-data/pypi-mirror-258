@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: fificord.py
+Version: 1.0.8
+Summary: fificord.py is a better discord.py alternative.
+Home-page: 
+Author: maxeqx
+Author-email: maxeqxmail@gmail.com
+License: MIT
+Keywords: discord discord.py nextcord nextcord.py discord.py-self discord-self selfbot self bot
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: tls_client
+Requires-Dist: maxdev
+Requires-Dist: asyncio
+
+fificord.py
+===========
+
+.. image:: https://img.shields.io/pypi/v/fificord.py.svg
+   :target: https://pypi.org/project/fificord.py/
+   :alt: PyPI version info
+
+fificord.py is a better discord.py alternative.
+
+Installing
+~~~~~~~~~~
+
+**Python 3 or higher is required**
+
+.. code-block:: sh
+
+    # Linux/macOS
+    pip3 install -U fificord.py
+
+    # Windows
+    pip install -U fificord.py
