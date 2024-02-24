@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/dclex/__init__.py
+src/dclex/dclex.py
+src/dclex/dclex_client.py
+src/dclex/settings.py
+src/dclex/types.py
+src/dclex.egg-info/PKG-INFO
+src/dclex.egg-info/SOURCES.txt
+src/dclex.egg-info/dependency_links.txt
+src/dclex.egg-info/requires.txt
+src/dclex.egg-info/top_level.txt
+tests/test_dclex.py
