@@ -1,0 +1,3 @@
+[console_scripts]
+fern=fern:_cli
+
