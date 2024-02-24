@@ -1,0 +1,3 @@
+[console_scripts]
+rfinder=rfinder.main:driver
+

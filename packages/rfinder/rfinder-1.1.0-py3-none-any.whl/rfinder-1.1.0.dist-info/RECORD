@@ -1,0 +1,16 @@
+rfinder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rfinder/main.py,sha256=mbghj0MOS3PJaVGrkL4270TdK0npsTIcGLbPu0Wkw8s,28951
+rfinder/rfi.py,sha256=DBLMc2p24eFUvSYZ_rBxnt8VnxF1_0Wcdcn-oVSNLCg,21757
+rfinder/rfinder_default.yml,sha256=RSJuvrVDej8gD0QL4R6Cjc5RaQHjelbDYdIOjaBnykg,3832
+rfinder/rfinder_files.py,sha256=9_RVvQbEuZDL8qCpPpQlxiqXFfYJZX3SE2QgeYzFY24,28429
+rfinder/rfinder_plots.py,sha256=Xxk6jeaoOK7vx8jU4MigvFMQ3Zo_LvwH8qt7aO8TVPg,41282
+rfinder/rfinder_stats.py,sha256=gPU3zxdJP1Ypde9vZgYdC5F-Ic5KwuBy0Yez4lS0v-I,15169
+rfinder/templates/full_template.html,sha256=xwFPLen_NinnRI0ZYD6orLZ77Fj8_KU45lNzsugIBAM,2625
+rfinder/templates/fullshort_template.html,sha256=9B_9P5TEHWn2OmDk09_PBtxeo6PL3sUnqyVENkJm55U,2473
+rfinder/templates/summary_template.html,sha256=b3iVBhjJ5vedXnEZlfZSMlLWVPXa88IUrbYtzDKzuBs,2079
+rfinder/templates/time_template.html,sha256=7pKdaTJIGCJlk8tQpOeD-1xWN8-lXOPUy05RQgmoWqc,2277
+rfinder-1.1.0.dist-info/LICENSE.md,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+rfinder-1.1.0.dist-info/METADATA,sha256=p_F1QVTKxVPuXrIqSisXWeJrlY3G8yM4bFqdq6OpsqM,9754
+rfinder-1.1.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+rfinder-1.1.0.dist-info/entry_points.txt,sha256=ftjkdEGG3cm9Tf0QnJEt4t_fT5dq5P8A2ZGxFQLxwiU,47
+rfinder-1.1.0.dist-info/RECORD,,
