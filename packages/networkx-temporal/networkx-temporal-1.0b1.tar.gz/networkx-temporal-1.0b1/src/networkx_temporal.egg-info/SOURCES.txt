@@ -1,0 +1,13 @@
+LICENSE.md
+README.md
+setup.py
+src/networkx_temporal/__init__.py
+src/networkx_temporal/__version__.py
+src/networkx_temporal/base.py
+src/networkx_temporal/networkx_temporal.py
+src/networkx_temporal/utils.py
+src/networkx_temporal.egg-info/PKG-INFO
+src/networkx_temporal.egg-info/SOURCES.txt
+src/networkx_temporal.egg-info/dependency_links.txt
+src/networkx_temporal.egg-info/requires.txt
+src/networkx_temporal.egg-info/top_level.txt
