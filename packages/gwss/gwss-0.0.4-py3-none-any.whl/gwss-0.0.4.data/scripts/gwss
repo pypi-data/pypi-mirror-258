@@ -1,0 +1,4 @@
+#!python
+from gwss.cli import cli
+
+cli()
