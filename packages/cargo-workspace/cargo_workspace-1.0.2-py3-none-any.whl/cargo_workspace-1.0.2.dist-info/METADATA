@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: cargo_workspace
+Version: 1.0.2
+Summary: Parse a cargo workspace and analyze its packages
+Author-email: Oliver Tale-Yazdi <oliver@tasty.limo>
+Project-URL: Homepage, https://github.com/ggwpez/py_cargo_workspace
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
