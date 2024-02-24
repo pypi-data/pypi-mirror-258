@@ -1,0 +1,7 @@
+datasette_enrichments_shell/__init__.py,sha256=M-WGBgEdVAXPxn3YN4QiaT1rVtuHDZqhZaxYecGGAUM,196
+datasette_enrichments_shell/cli.py,sha256=oT84U2OyvbZQSkkk5WALfAHKTyOQU1pCXfHjVoq-8Cg,2625
+datasette_enrichments_shell/enrichment.py,sha256=4xRAJXuj6QvY6VfJ1mBxkVznUHY1KpH8671Wq7PNWOU,5362
+datasette_enrichments_shell-0.2.0.dist-info/METADATA,sha256=0ZsWeBDwbwRaOmZa6uitDfJDt1AsrvPIGOu_j2YlKuw,2701
+datasette_enrichments_shell-0.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+datasette_enrichments_shell-0.2.0.dist-info/entry_points.txt,sha256=NdHguA8zKX3zD-Cf7BIzWiA0E-M8pW2qQn-OJVZQJaA,129
+datasette_enrichments_shell-0.2.0.dist-info/RECORD,,
