@@ -1,0 +1,7 @@
+requests
+pandas
+urllib3
+csv
+json
+os
+urllib3
