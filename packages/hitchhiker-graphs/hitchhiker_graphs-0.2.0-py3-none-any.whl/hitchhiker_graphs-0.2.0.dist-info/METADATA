@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hitchhiker-graphs
+Version: 0.2.0
+Summary: An educational package for learning about graph algorithms and theory
+License: MIT
+Author: Alejandro Piad-Morffis
+Author-email: apiad@apiad.net
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# graphs
+Source code examples for The Hitchhiker's Guide to Graphs book
+
