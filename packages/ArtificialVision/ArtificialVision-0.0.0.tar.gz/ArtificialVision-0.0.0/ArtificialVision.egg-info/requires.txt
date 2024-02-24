@@ -1,0 +1,9 @@
+pytorch
+tensorflow
+opencv-python
+scikit-learn
+numpy
+scipy
+matplotlib
+tqdm
+pillow
