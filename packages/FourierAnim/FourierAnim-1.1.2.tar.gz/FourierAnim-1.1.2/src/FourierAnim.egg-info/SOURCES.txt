@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/FourierAnim.py
+src/__init__.py
+src/FourierAnim.egg-info/PKG-INFO
+src/FourierAnim.egg-info/SOURCES.txt
+src/FourierAnim.egg-info/dependency_links.txt
+src/FourierAnim.egg-info/requires.txt
+src/FourierAnim.egg-info/top_level.txt
