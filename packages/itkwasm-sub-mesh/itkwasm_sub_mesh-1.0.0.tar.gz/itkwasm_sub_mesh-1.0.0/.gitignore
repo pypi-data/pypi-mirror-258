@@ -1,0 +1,6 @@
+**/__pycache__/*
+**/.ipynb_checkpoints/*
+test/test_files/*
+**/*.swp
+pretrained_OAI_model
+oai_analysis/data/
