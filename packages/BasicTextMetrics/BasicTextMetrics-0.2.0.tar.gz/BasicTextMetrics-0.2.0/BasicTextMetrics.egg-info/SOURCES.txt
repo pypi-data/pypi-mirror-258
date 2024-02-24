@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+BasicTextMetrics.egg-info/PKG-INFO
+BasicTextMetrics.egg-info/SOURCES.txt
+BasicTextMetrics.egg-info/dependency_links.txt
+BasicTextMetrics.egg-info/requires.txt
+BasicTextMetrics.egg-info/top_level.txt
+basictextmetrics/__init__.py
+basictextmetrics/core.py
