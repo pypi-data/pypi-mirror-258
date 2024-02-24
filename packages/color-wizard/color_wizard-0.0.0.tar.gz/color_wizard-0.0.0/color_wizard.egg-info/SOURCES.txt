@@ -1,0 +1,8 @@
+README.md
+setup.py
+color_wizard/__init__.py
+color_wizard/__version__.py
+color_wizard.egg-info/PKG-INFO
+color_wizard.egg-info/SOURCES.txt
+color_wizard.egg-info/dependency_links.txt
+color_wizard.egg-info/top_level.txt
