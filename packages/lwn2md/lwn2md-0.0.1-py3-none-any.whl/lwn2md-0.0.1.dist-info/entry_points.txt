@@ -1,0 +1,3 @@
+[console_scripts]
+lwn2md = lwn2md.__init__:app
+
