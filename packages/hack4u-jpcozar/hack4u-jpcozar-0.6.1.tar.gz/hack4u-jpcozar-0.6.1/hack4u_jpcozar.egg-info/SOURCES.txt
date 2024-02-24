@@ -1,0 +1,9 @@
+README.md
+setup.py
+hack4u-jpcozar/__init__.py
+hack4u-jpcozar/courses.py
+hack4u-jpcozar/utils.py
+hack4u_jpcozar.egg-info/PKG-INFO
+hack4u_jpcozar.egg-info/SOURCES.txt
+hack4u_jpcozar.egg-info/dependency_links.txt
+hack4u_jpcozar.egg-info/top_level.txt
