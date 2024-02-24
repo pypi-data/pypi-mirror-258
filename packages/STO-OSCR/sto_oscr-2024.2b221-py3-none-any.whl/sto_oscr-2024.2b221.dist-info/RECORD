@@ -1,0 +1,13 @@
+OSCR/__init__.py,sha256=NNRiIO4QYyKE83u_vnGPLGjYCnzyxMDU_g-5y4m3KuU,1191
+OSCR/baseparser.py,sha256=-9lVZlV6lVYemdAXjlCb8KNfzUzAuGbKUkcFUOV17Hc,8344
+OSCR/cli.py,sha256=pOccMPaG6uEi3GbF2V9JhHgvIICdPxq3w46jLQqBXTQ,860
+OSCR/datamodels.py,sha256=JUPOPPI5OpowqXfJeou6uq43gF1xY2ztH-px3txNpeI,18620
+OSCR/iofunc.py,sha256=lSeyXmQtgHey48VvY23WV8tiY_ufUPxLmfYeSKywJeA,11288
+OSCR/main.py,sha256=Eomh2jKjIRE54gAiEi-hL8WGAPG6Fb4m3_jgumcdo_4,10863
+OSCR/parser.py,sha256=DtW83R05mQV7nxyzoo-fWtTxiPlwWNFdYhEogVLmFDw,21814
+OSCR/utilities.py,sha256=IWUTVKAXE_1hv6UzsehN8vTdFRgqYcjCqPOIdr7zXfA,2704
+sto_oscr-2024.2b221.dist-info/METADATA,sha256=d1U1sHKq5G0W_FYdMxUtQy0_62KEAOE7uUQDUHNe0Ho,41256
+sto_oscr-2024.2b221.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+sto_oscr-2024.2b221.dist-info/entry_points.txt,sha256=kNOboQ4fq3hylAdN10o0Lp7jpGuXEFiHAWFQzrdUe9Q,43
+sto_oscr-2024.2b221.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sto_oscr-2024.2b221.dist-info/RECORD,,
