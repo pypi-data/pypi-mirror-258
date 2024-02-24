@@ -1,0 +1,109 @@
+name: Ribs CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+jobs:
+  python-lint:
+    name: Run Lint for Python
+    uses: codecov/gha-workflows/.github/workflows/lint.yml@v1.0.0
+  rust-lint:
+    name: Run Lint for Rust
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+      - name: Run lint
+        run: |
+          cargo fmt --all --check
+          cargo clippy
+
+
+      # uses: codecov/gha-workflows/.github/workflows/rust-lint.yml@v1.0.0 # TODO
+  build:
+    name: Build Ribs
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.8.13", "3.9.12", "3.10.5"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+      - name: Run build
+        run: |
+          python -m venv venv
+          . venv/bin/activate
+          pip install maturin
+          maturin build --release
+  codecovstartup:
+    name: Codecov Startup
+    needs: build
+    uses: codecov/gha-workflows/.github/workflows/codecov-startup.yml@v1.2.0
+    secrets: inherit
+  test:
+    name: Test
+    needs: [build]
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          toolchain: stable
+      - name: Run tests
+        run: |
+          cargo test --no-default-features
+      - name: Install `cargo llvm-cov`
+        uses: taiki-e/install-action@cargo-llvm-cov
+      - name: Collect coverage
+        run: |
+          cargo llvm-cov --no-default-features --lcov --output-path lcov.info
+      - name: Install codecov-cli
+        run: |
+          make test_env.install_cli
+
+      # Don't upload on forks for now.
+      - name: upload using codecovcli
+        if: ${{ !github.event.pull_request.head.repo.fork && github.repository_owner == 'codecov' }}
+        run: |
+          codecovcli upload-process --flag python${{ matrix.python-version }} --token ${{ secrets.CODECOV_ORG_TOKEN }} --fail-on-error
+
+      - name: upload using codecovcli staging
+        if: ${{ !github.event.pull_request.head.repo.fork && github.repository_owner == 'codecov' }}
+        run: |
+          codecovcli -u ${{ secrets.CODECOV_STAGING_URL }} upload-process --flag python${{ matrix.python-version }} --token ${{ secrets.CODECOV_ORG_TOKEN_STAGING }} --fail-on-error
+
+#      - name: upload using codecovcli qa
+#        if: ${{ !github.event.pull_request.head.repo.fork && github.repository_owner == 'codecov' }}
+#        run: |
+#          codecovcli -u ${{ secrets.CODECOV_QA_URL }} upload-process --flag python${{ matrix.python-version }} --token ${{ secrets.CODECOV_QA_TOKEN }} --fail-on-error
+
+#      - name: upload using codecovcli public qa
+#        if: ${{ !github.event.pull_request.head.repo.fork && github.repository_owner == 'codecov' }}
+#        run: |
+#          codecovcli -u ${{ secrets.CODECOV_PUBLIC_QA_URL }} upload-process --flag python${{ matrix.python-version }} --token ${{ secrets.CODECOV_PUBLIC_QA_TOKEN }} --fail-on-error
