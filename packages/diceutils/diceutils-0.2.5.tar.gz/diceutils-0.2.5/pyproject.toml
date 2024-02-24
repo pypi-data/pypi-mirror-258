@@ -1,0 +1,29 @@
+[project]
+name = "diceutils"
+version = "0.2.5"
+description = "基于水系 Infini 标准的骰娘相关组件和工具类"
+authors = [
+    { name = "苏向夜", email = "fu050409@163.com" },
+]
+dependencies = [
+    "infini>=2.0.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "GNU Affero General Public License v3"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=8.0.1",
+]
