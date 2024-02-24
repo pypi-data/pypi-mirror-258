@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tools-kit
+Version: 0.0.6
+Summary: Gerenciador para facilitar o desenvolvimento padronizado
+Author: Mateus Laurentino de Andrade
+Author-email: mateus_laurentino@outlook.com
+License: MIT License
+Keywords: tools kit
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: django
+
+# Testando publicado
