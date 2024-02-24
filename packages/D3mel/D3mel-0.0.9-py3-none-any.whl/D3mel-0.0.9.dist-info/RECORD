@@ -1,0 +1,12 @@
+D3mel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+D3mel/d3mel.py,sha256=3NI2why6NSu3_yCUuIdhBu71Mx_qEvIXUG7ApNYuwwk,1923
+D3mel/utilities/utilities.py,sha256=dfeK-NVgdSsBM0dZcM4ThZR6Dy-8RH5-0jZ8okwIhRY,883
+D3mel/utilities/utilities_gos.py,sha256=3JpY_A5RfQJJDy7fUoAghZIZq3ZfeknrPRVWgkL1oZw,5361
+D3mel/utilities/utilities_position_map.py,sha256=rCvB4dR2Je03OJ7y35Sz99ER4X7rl9tCIpSMrQVbxGo,1617
+D3mel/utilities/utilities_protein_complex.py,sha256=8pbf40Jbxb3nXVsyb5Cjy7qF5X3OPqHKbiEkgKJfxGk,785
+D3mel/utilities/utilities_rnaseq.py,sha256=Ut8Ad2yArFi57fTXHAUhjyDV6cXcn9B1sddhCBrj8Og,1415
+D3mel/utilities/ExtraData/7227.tsv,sha256=1cleXv8cdGd1OKyVmyZ51bJqGDHROZ3C9122yv7WjUg,246593
+D3mel-0.0.9.dist-info/METADATA,sha256=ON2MlCd5C2KnVxm-6NRMWquaMUz0XzlD9tAXq-vQJvc,583
+D3mel-0.0.9.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+D3mel-0.0.9.dist-info/top_level.txt,sha256=rN2jz9J37wwrG3t5sG7kE82qaoovZki7rf8SofNymFc,6
+D3mel-0.0.9.dist-info/RECORD,,
