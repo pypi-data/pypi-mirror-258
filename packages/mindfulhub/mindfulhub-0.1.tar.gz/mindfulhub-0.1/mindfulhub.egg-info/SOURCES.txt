@@ -1,0 +1,6 @@
+README.md
+setup.py
+mindfulhub.egg-info/PKG-INFO
+mindfulhub.egg-info/SOURCES.txt
+mindfulhub.egg-info/dependency_links.txt
+mindfulhub.egg-info/top_level.txt
