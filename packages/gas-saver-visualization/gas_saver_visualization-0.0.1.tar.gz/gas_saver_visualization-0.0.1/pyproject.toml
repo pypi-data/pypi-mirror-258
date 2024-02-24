@@ -1,0 +1,18 @@
+[project]
+name = "gas_saver_visualization"
+version = "0.0.1"
+authors = [
+  { name="nguyenquangthang", email="nguyenquangthang1997@gmail.com" },
+]
+description = "Gas Saver visualization"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/nguyenquangthang1997/gas_saver_visualization"
+Issues = "https://github.com/nguyenquangthang1997/gas_saver_visualization/issues"
