@@ -1,0 +1,2 @@
+[console_scripts]
+qlever = qlever.__main__:main
