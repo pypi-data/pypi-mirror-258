@@ -1,0 +1,10 @@
+gnartz_webproxy-0.0.1.data/scripts/webproxy,sha256=GTm551ZZ-hBROOb6q6-P-GjF4M0AZyrF5jSYGTjAGxE,78
+gnartz_webproxy-0.0.1.data/scripts/webproxy.py,sha256=x6KuIPWq4yZvpDYmMaQX7hg8ClvB7Ab7bFU6eXmQ4sE,3662
+webproxy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+webproxy/setup.py,sha256=0L6REpFmV0HZgA1kOdSLTLfTzTas3_hcEzBVauivosk,538
+webproxy/webproxy.py,sha256=mDCCLX_0qA5CUYEhBWrU1aDHp1lspEgz16PSvEU6MOM,3652
+gnartz_webproxy-0.0.1.dist-info/LICENSE,sha256=PvkNYTgm-0fK3MnpupuLSBaMYWsEYC5XIUU-dWBjlQk,1069
+gnartz_webproxy-0.0.1.dist-info/METADATA,sha256=wKpiTzJ9awg9gO1NaB2tKLoqfv1sldfunqQtaJ_89Q0,406
+gnartz_webproxy-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+gnartz_webproxy-0.0.1.dist-info/top_level.txt,sha256=g3Q7tDBSzeuFKsOwTNo5j_o6X1le4CjxEBBcYTQZnnU,9
+gnartz_webproxy-0.0.1.dist-info/RECORD,,
