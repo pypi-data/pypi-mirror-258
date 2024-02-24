@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ovos-lang-detector-classics-plugin
+Version: 0.0.0a2
+Summary: average plugin classifications for language detection
+Home-page: https://github.com/OpenVoiceOS/ovos-lang-detector-classics-plugin
+Author: JarbasAI
+Author-email: jarbasai@mailfence.com
+License: apache-2
+Platform: UNKNOWN
+Requires-Dist: pycld2
+Requires-Dist: pycld3
+Requires-Dist: langdetect
+Requires-Dist: fastlang
+
+UNKNOWN
+
+
