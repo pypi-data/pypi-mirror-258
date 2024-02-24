@@ -1,0 +1,6 @@
+from dongdong.TeamsNotificator import TeamsNotificator
+from dongdong.BarkNotificator import BarkNotificator
+from dongdong.DesktopNotificator import DesktopNotificator
+from dongdong.DingTalkNotificator import DingTalkNotificator
+from dongdong.SetConfigures import setconfigures
+from dongdong.WechatNotificator import WechatNotificator

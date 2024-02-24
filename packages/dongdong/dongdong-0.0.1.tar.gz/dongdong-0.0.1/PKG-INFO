@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dongdong
+Version: 0.0.1
+Summary: Be notified when your running script is complete
+Home-page: https://github.com/ChenglongLi777/DongDong
+Author: Chenglong Li
+Author-email: chenglongli@cug.edu.cn
+License: MIT
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+This package is used to monitor python scripts and push status messages to Bark, WeChat, DingTalk, Teams and Desktop.
