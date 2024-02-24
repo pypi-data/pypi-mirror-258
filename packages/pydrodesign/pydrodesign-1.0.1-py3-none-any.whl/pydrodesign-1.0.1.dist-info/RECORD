@@ -1,0 +1,16 @@
+RiSA/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+RiSA/__version__.py,sha256=E5KHVp8I53QniZOH2Cxs5bNm6QbVgc8_kwBWdml2rgc,34
+RiSA/download.py,sha256=cnqSwOcMIKJ9qLnjO4jXfSwYI4_9WQLM43G_zATl7P8,1130
+RiSA/frequency_analysis.py,sha256=ksxTI68BGniPBQWR6NS6hBmx_XgcxnXhbKm7ylBYOI8,35407
+RiSA/geo_tools.py,sha256=210g_XS_3d6TwVGZpBQ-_4mAnwYeDVYh1Oj8ZawR4gk,44790
+RiSA/hydro_tools.py,sha256=kOMAugVDPxQqKHdrOATHCkQ65x8Wnxw5HGMm2P7APsA,23587
+RiSA/libraries.py,sha256=aC7kfF4lPflYnamyQGvw-1oyBBzhT71BUwTDYog7Dsw,2503
+RiSA/master_results.py,sha256=IhtgezkWp-qx137137wZaINL8T9kw8I27kieVwXoQpg,35697
+RiSA/results.py,sha256=lN3TySNe3k2mgZdVi0C6YV8ltqKMES7UDsrQ22__w10,182
+RiSA/rg_pre.py,sha256=aB_6O5CjTWy09-qzXjyDLz5URVj6LrIMfN-kJUZmXVk,16035
+RiSA/tools.py,sha256=R_40XpByhTzZbJHstVHIpzImyLqRWDjKEyOx3C3j3t8,644
+pydrodesign-1.0.1.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pydrodesign-1.0.1.dist-info/METADATA,sha256=e9YRDRzpRKgkz71iwy9qQrgIuFwwsj4DmsejC2uAbnk,852
+pydrodesign-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pydrodesign-1.0.1.dist-info/top_level.txt,sha256=j_AsrEXDb-bNtdgRTXLd_v4aZsP12rAmC4arZAfO7Fk,5
+pydrodesign-1.0.1.dist-info/RECORD,,
