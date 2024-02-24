@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: cli-jarvis
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/AarshShah9/Jarvis-CLI
+Project-URL: Issues, https://github.com/AarshShah9/Jarvis-CLI/issues
+Author-email: Aarsh Shah <aarsh@live.ca>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Jarvis-CLI
+
+A custom CLI tool built in Python that is my personalized assistant
+
+### How I created it:
+
+### Development
+
+1. `virtualenv venv`
+2. `venv\Scripts\activate`
+3. `python setup.py develop`
+
+### Distributing
+
+1. `py -m pip install --upgrade build`
+2. `py -m build`
+3. `twine upload dist/*`
