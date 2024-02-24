@@ -1,0 +1,9 @@
+README.md
+setup.py
+cnv_phenopacket.egg-info/PKG-INFO
+cnv_phenopacket.egg-info/SOURCES.txt
+cnv_phenopacket.egg-info/dependency_links.txt
+cnv_phenopacket.egg-info/entry_points.txt
+cnv_phenopacket.egg-info/top_level.txt
+phenopacket/__init__.py
+phenopacket/cnv_phenopacket.py

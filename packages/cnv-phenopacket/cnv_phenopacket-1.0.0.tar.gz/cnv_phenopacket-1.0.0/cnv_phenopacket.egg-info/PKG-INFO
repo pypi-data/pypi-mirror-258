@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cnv-phenopacket
+Version: 1.0.0
+Summary: Convert TSV metadata to Phenopacket JSON
+Author: Khaled Jumah
+Author-email: khalled.joomah@yahoo.com
