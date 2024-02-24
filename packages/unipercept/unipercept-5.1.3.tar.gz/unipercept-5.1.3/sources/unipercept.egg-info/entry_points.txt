@@ -1,0 +1,2 @@
+[console_scripts]
+unipercept = unipercept.cli:__main__
