@@ -1,0 +1,8 @@
+tensorflow
+tensorflow-probability
+gym
+numpy
+sphinx
+matplotlib
+sphinx_rtd_theme
+sphinxcontrib-bibtex
