@@ -1,0 +1,6 @@
+setup.py
+ree_scylla.egg-info/PKG-INFO
+ree_scylla.egg-info/SOURCES.txt
+ree_scylla.egg-info/dependency_links.txt
+ree_scylla.egg-info/requires.txt
+ree_scylla.egg-info/top_level.txt
