@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+parcelfile/P_Requirments.py
+parcelfile/Parcelfile.py
+parcelfile/__init__.py
+parcelfile/__main__.py
+parcelfile.egg-info/PKG-INFO
+parcelfile.egg-info/SOURCES.txt
+parcelfile.egg-info/dependency_links.txt
+parcelfile.egg-info/top_level.txt
