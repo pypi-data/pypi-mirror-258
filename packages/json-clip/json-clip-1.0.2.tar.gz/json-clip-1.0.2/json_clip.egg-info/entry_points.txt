@@ -1,0 +1,2 @@
+[console_scripts]
+clip = src.main:main
