@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyboxmaker/__init__.py
+pyboxmaker/__main__.py
+pyboxmaker/boxmaker.py
+pyboxmaker/utils.py
+pyboxmaker.egg-info/PKG-INFO
+pyboxmaker.egg-info/SOURCES.txt
+pyboxmaker.egg-info/dependency_links.txt
+pyboxmaker.egg-info/requires.txt
+pyboxmaker.egg-info/top_level.txt
