@@ -1,0 +1,15 @@
+localization/__init__.py,sha256=BXNAF8CriIuSGnUu57wpZIAlzYFprJRe4Q2RgZ2iGLw,26
+localization/find_centroid.py,sha256=S9k0nOWK3KPNxUdD3_97TMgn1mZMoFCGeGGGVi8zgZI,1659
+localization/geoInterface.py,sha256=aFpMSLRAP_QsIOspVsdp5S3dDUQSxoMSF4sdpeYbabg,480
+localization/geoProject.py,sha256=7Rev09mqoOmkqnUU-V-ENSfj3vzViQ8YxUbYFmgATHA,1709
+localization/geometry.py,sha256=cyoYeF9pOEm8KNX0p4by1AnxyK8jxrhHjyMAGUJIOT8,18523
+localization/methods.py,sha256=-MrO-sUo6jQ87zA14wMD14EGUqwnFZ91vAClct0fsSk,2437
+localization/shapely_2D.py,sha256=wigQoxoC5RaEzkspPb6GJ4AGeGifBA8Ot7fyLYzDVWU,278
+localization/shapely_earth1.py,sha256=hVYdFSyfBinxH3ZX5VII6OkMuWVnPysrmNY4sLGPm48,2804
+localization/test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+localization_patched-0.1.4.data/scripts/sample.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+localization_patched-0.1.4.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+localization_patched-0.1.4.dist-info/METADATA,sha256=EQJMJafUo8xH9jG_Vl_0v8lqfnDmrD_pQJfuFP7gk88,2380
+localization_patched-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+localization_patched-0.1.4.dist-info/top_level.txt,sha256=Y4DN3aGt9fuAoii6D-4T3rFeNTCoGY89FI0Kq_ry13M,13
+localization_patched-0.1.4.dist-info/RECORD,,
