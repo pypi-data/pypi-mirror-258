@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/ClickTriggers/__init__.py
+src/ClickTriggers/custom_trigger.py
+src/ClickTriggers/testCustomPackage.py
+src/ClickTriggers.egg-info/PKG-INFO
+src/ClickTriggers.egg-info/SOURCES.txt
+src/ClickTriggers.egg-info/dependency_links.txt
+src/ClickTriggers.egg-info/top_level.txt
