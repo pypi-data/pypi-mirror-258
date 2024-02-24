@@ -1,0 +1,8 @@
+parrypdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parrypdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parrypdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+parrypdf-1.0.dist-info/LICENCE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+parrypdf-1.0.dist-info/METADATA,sha256=VRJyN1QxWZw5qqA3xQuO3Ng99PPSEk6L2Xrvf1qipy4,122
+parrypdf-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+parrypdf-1.0.dist-info/top_level.txt,sha256=A93V4BhYNWVSnXIoHSzHSBKF0fgmWIrhtGeohpRuGns,9
+parrypdf-1.0.dist-info/RECORD,,
