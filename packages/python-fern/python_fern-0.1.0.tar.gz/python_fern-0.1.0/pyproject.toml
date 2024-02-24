@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "python-fern"
+version = "0.1.0"
+description = "HTML Highlight and Screenshot Tool"
+authors = ["Iris Blankenship <iris@netwatchr.com>"]
+readme = "README.md"
+homepage = "https://github.com/irisdotsh/fern"
+repository = "https://github.com/irisdotsh/fern"
+keywords = ["fern", "osint", "hacking", "security", "web scraping"]
+packages = [
+    { include = "fern" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Security",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)"
+]
+
+[tool.poetry.scripts]
+"fern" = "fern:_cli"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/irisdotsh/fern/issues"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "^4.18.1"
+webdriver-manager = "^4.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+flake8 = "^7.0.0"
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
