@@ -1,0 +1,21 @@
+CHANGES
+=======
+
+v2.1.0
+------
+
+* test: fix test
+* style: black
+* test: should probably test this stuff
+* feat: serde subclassses need a file extension
+* feat: add file extension in functional reader
+
+v2.0.3
+------
+
+* Allow preexisting directories in the cache path
+
+v2.0.2
+------
+
+* Commit code
