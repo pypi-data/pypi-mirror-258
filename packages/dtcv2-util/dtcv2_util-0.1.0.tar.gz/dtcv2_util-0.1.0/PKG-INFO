@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dtcv2_util
+Version: 0.1.0
+Summary: Library for workflow management
+Home-page: https://gitlab.geo3bcn.csic.es/dtgeo/dtc-v2/meteo-gfs
+Author: Alejandra Guerrero - DTGEO
+Author-email: aguerrero@geo3bcn.csic.es
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: datetime
+Requires-Dist: eccodes
+Requires-Dist: ecmwflibs
+Requires-Dist: cfgrib
+Requires-Dist: xarray
+Requires-Dist: requests
+Requires-Dist: netcdf4
+
+# DTCV2-utils
+The library 
+
+
+## Getting started
+
+This is a library with utilities developed in DTGEO project in DTCV2 for general purpose. This library contains scripts and functions required for:
+- ****Input file validation:****  through a json file definition of variables
+- ****Log (error) file manager:**** creates and writes the log_file
+- ****Meteo utils:**** utilities for meteorological download
+- ****ESP utils:**** utilities for Eruption Source Parameters 
+## Input file validation
+
+
+## Authors and acknowledgment
+
+
+## License
+For open source projects, say how it is licensed.
+
+## Project status
+In progress
