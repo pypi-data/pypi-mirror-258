@@ -1,0 +1,15 @@
+AUTHOR_ROLE = 'a'
+REVIEWER_ROLE = 'r'
+EXIT_COMMAND = 'exit'
+AUTHOR_OR_REVIEWER = "Are you an author or a reviewer ? type a if you are author, type r if you are reviewer? "
+EXIT_PROGRAM = "Exiting... the program"
+INVALID_ROLE = "Invalid role. Please enter either 'author' or 'reviewer' or type 'exit' to quit."
+ENTER_API_KEY = "Enter OPEN AI API key: "
+ENTER_SOURCE_BRANCH = "Enter the source branch name: "
+ENTER_LOCAL_REPO_PATH = "Enter the local repository path: "
+SAVED_SUCCESSFULLY = "Details Saved Successfully in init.cfg file."
+FILE_NOT_CREATED = "File not created since you didn't enter correct details."
+ENTER_THE_BRANCH_NAME_THAT_YOU_WANT_TO_REVIEW = "Enter the branch name that you want to review: "
+INVALID_BRANCH_NAME = "Invalid branch name. Please enter a valid branch name."
+PROMPT_FOR_REVIEW = """Review the following code diff for the file '{file}' starting from line {starting_line_number} and provide constructive comments according to best code practices, and also check for any security vulnerabilities or bugs in the code. Please be specific and provide detailed comments for each change."""
+MODEL_NAME="gpt-4"

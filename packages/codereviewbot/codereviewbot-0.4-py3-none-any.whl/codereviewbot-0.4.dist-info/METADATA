@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: codereviewbot
+Version: 0.4
+Summary: This is a code review bot. Where you can review your code or other's code and get the feedback.
+Home-page: UNKNOWN
+Author: Sriram
+Author-email: Sriram.Chembrolu@powerschool.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
