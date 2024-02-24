@@ -1,0 +1,13 @@
+adx_logging/__init__.py,sha256=smfGeZbuBE-c_Lpo8wEVeVIicAPHTFpASp7nskvJ_jk,127
+adx_logging/adx_handler.py,sha256=z7ml2ua0GmMVd7YHyo1HOghJEkzoCWF-wPdHyieF4gk,3568
+adx_logging/client.py,sha256=BmQ8wIv-SXf-GqRRSHsZm5aqINkjX6Cc0S3GjNYr26U,493
+adx_logging/ingest_client.py,sha256=kqN8tWw5P2enpKiYFgfjz7tcMY1VGwdEDjJSP1LKZJo,589
+adx_logging_handler/__init__.py,sha256=smfGeZbuBE-c_Lpo8wEVeVIicAPHTFpASp7nskvJ_jk,127
+adx_logging_handler/adx_handler.py,sha256=DNIV3O4kMv0zv1SNYwdFdQ-en8prn6PXwVUEsqjTHjk,2075
+adx_logging_handler/client.py,sha256=l3BKMFyY5D3dmEaA4gW-i-g6hqrcfGhZe8NqnbS1xfc,493
+adx_logging_handler/ingest_client.py,sha256=8Bl4vyiIHo8Xgh6si8SQXFfPZFwAxkV1qGvbTsKdHZA,623
+adx_logging_handler-1.0.0.dist-info/LICENSE,sha256=jjbk43JcISUKAZYc81o6vW161PpJBf4_kMhB15YbbjM,1065
+adx_logging_handler-1.0.0.dist-info/METADATA,sha256=cxDm-giRhhadp4jjkQ0sM8b_Mw-FfJuQxRHKu4mFeQU,248
+adx_logging_handler-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+adx_logging_handler-1.0.0.dist-info/top_level.txt,sha256=1jpoIy4iS_oxvLam-iEnfiBJpFiO9HR6tlA9-O3we7U,20
+adx_logging_handler-1.0.0.dist-info/RECORD,,
