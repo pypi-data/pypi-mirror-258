@@ -1,0 +1,10 @@
+__pycache__/
+build/
+htmlcov/
+*.egg-info/
+_auto_examples/
+_autosummary/
+.idea/
+.coverage
+
+*.pclprof
