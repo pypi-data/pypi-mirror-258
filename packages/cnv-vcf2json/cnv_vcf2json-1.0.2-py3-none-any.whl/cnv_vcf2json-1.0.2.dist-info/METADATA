@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: cnv-vcf2json
+Version: 1.0.2
+Summary: Converts the structural variants VCF file into JSON file
+Author: Khaled Jumah
+Author-email: khalled.joomah@yahoo.com
+
