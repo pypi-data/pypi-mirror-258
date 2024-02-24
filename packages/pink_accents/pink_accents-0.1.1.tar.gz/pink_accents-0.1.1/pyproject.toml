@@ -1,0 +1,136 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pink_accents"
+dynamic = ["version"]
+description = "Accent system based on string pattern matching"
+readme = "README.md"
+authors = [
+    { name = "Fogapod", email = "fogaprod@gmail.com" },
+]
+maintainers = [
+    { name = "Fogapod", email = "fogaprod@gmail.com" },
+]
+requires-python = ">=3.10"
+license = "MIT"
+keywords = ["accents", "regex", "pattern-replacements"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Topic :: Text Processing",
+    "Typing :: Typed",
+]
+urls = { repository = "https://github.com/Fogapod/pink-accents" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.2.2",
+    "mypy==1.8.0",
+    "pytest==8.0.1",
+    "pytest-cov==4.1.0",
+]
+
+[project.scripts]
+pink_accents = "pink_accents.__main__:main"
+
+[tool.hatch.version]
+path = "src/pink_accents/__init__.py"
+
+[tool.ruff]
+line-length = 121
+
+[tool.ruff.lint]
+ignore = [
+    # doesn't like Optional
+    # https://github.com/charliermarsh/ruff/issues/4858
+    "UP007",
+    # explicit raise from might be a bit too verbose, disable for now
+    "B904",
+    # suggest inlining complex if statements
+    "SIM108",
+    # requires ClassVar for WORDS and PATTERNS annoyingly
+    "RUF012"
+]
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E",
+    "W",
+    # isort
+    "I",
+    # flake8-bugbear
+    "B",
+    # flake8-naming
+    "N",
+    # pyupgrade
+    "UP",
+    # flake8-comprehensions
+    "C4",
+    # flake8-logging-format
+    "G",
+    # flake8-simplify
+    "SIM",
+    # flake8-use-pathlib
+    "PTH",
+    # ruff
+    "RUF",
+    # flake8-unused-arguments
+    "ARG",
+]
+fixable = [
+    "I"
+]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+lines-between-types = 1
+
+[tool.mypy]
+show_column_numbers = true
+show_error_codes = true
+
+warn_redundant_casts = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_return_any = true
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_untyped_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_incomplete_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+no_implicit_reexport = true
+strict_equality = true
+
+exclude = [
+    # mypy goes into setuptools (?) directory for some reason even though it is gitignored
+    "build",
+]
+
+[[tool.mypy.overrides]]
+module = [
+    "setuptools.*",
+    "googletrans.*",
+    "PIL.*",
+    "aiocache.*",
+]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-vv --cov src"
+testpaths = ["tests"]

@@ -1,0 +1,14 @@
+/.venv/
+__pycache__/
+
+# lint
+/.ruff_cache/
+/.pytest_cache/
+/.mypy_cache/
+
+# cov
+/htmlcov/
+/.coverage
+
+# package build artifacts
+/dist/
