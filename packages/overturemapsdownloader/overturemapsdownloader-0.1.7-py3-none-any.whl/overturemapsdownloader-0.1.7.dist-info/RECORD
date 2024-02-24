@@ -1,0 +1,14 @@
+config.yml,sha256=ZKII_LcZmREjYztAyRN4aBDLXZNFMi4qs1flZXlc0Bk,1032
+overturemapsdownloader/__init__.py,sha256=EcBG2FiAH1ByaYEFr2meWlgLnWcK8UHtAwP9iBK0PGI,314
+overturemapsdownloader/config.py,sha256=JZSzA3zAqv7ziCBeeIirmQ795PK7FMw0pt3nxxu7UQE,4123
+overturemapsdownloader/dask_qrys.py,sha256=_bU-S9yYi7DHYA-qp0vHqb4Gipwa81scImHEzp7hHFw,2436
+overturemapsdownloader/main.py,sha256=mZhmsAaAWPhr2vLUozxXttDo58WhS-cr8AQQJed7QNM,2050
+overturemapsdownloader/om_logic.py,sha256=DcKmNkJyXx-R9bEHIBRJa5qcrmNqNpdFvDJImAnBnOo,1580
+overturemapsdownloader/read_om_schemas.py,sha256=392XL73OhoivWKlrj0LMMcYCDWajaoyTeBCKU2Do9J8,879
+overturemapsdownloader/utils_helper.py,sha256=cYWGaE1UopINU-2FShF-bKCR4pGHDAQFmeMQ831zjjk,6444
+overturemapsdownloader/yaml_helper.py,sha256=9R4ixvTukLEEbWAHHi5RIVtsvxsOyOQbYqcvf3crwJA,746
+overturemapsdownloader-0.1.7.dist-info/LICENSE,sha256=3PiVmEdQck9owx5GGvY20G417IRbTB1vyEr3kLyh6L0,585
+overturemapsdownloader-0.1.7.dist-info/METADATA,sha256=5XqoLJNrQ-gbDUKiRbFb0wHtjw5s9eDomgWV2GEyo9Y,12503
+overturemapsdownloader-0.1.7.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+overturemapsdownloader-0.1.7.dist-info/entry_points.txt,sha256=EM1eC2xudYss5GHghcQ4iaG-MUwbmxzr2WNwHwYcyYw,64
+overturemapsdownloader-0.1.7.dist-info/RECORD,,
