@@ -1,0 +1,6 @@
+pyomp/__init__.py,sha256=HXam5pRwJ2rT2qASsjB-ZY9BtZ1vaxUx8TxXy9oKpnk,2324
+pyomp/PyOMP.pyd,sha256=5c0xy6l2meNPSRTvQ5gpyRItp4pQw3N2EA2id8tleHk,149504
+pyomp-0.1.0.dist-info/LICENSE.txt,sha256=tXVI7N-U8A8vTQbKlvWYxS7tO6rum04sgb9-ycAsRnI,736
+pyomp-0.1.0.dist-info/METADATA,sha256=BWdeOnaphODk4sLA4-tkRoMBDd9E1ensj7LHhiru8yo,949
+pyomp-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyomp-0.1.0.dist-info/RECORD,,
