@@ -1,0 +1,17 @@
+permetrics/__init__.py,sha256=Y6DPaVnSHSzEy4V-Ausz8YnVYdfgdjsjY-UXbK6JRlw,1942
+permetrics/classification.py,sha256=uRT-Vgy9yPfHOJcrxZ3zNyLwAkwSiPkTbeDfoj4EQPs,39315
+permetrics/clustering.py,sha256=yooa4EQF-OnjNXqFAnNjjP_U6UU_Nym_QqTRMq3qUW4,54639
+permetrics/evaluator.py,sha256=ckAwSF_JZYdo7i2h-yS3jRTTDdy1Hk0DxBbbD4SJ7Wg,5107
+permetrics/regression.py,sha256=0UnAraRNmhjnRp7KWPikPRdOD_WoRfZzRXvqc_keRSw,75149
+permetrics/utils/__init__.py,sha256=wFhkw7ZqgheIkEsIELJsjCIljE_L3hb3VGzygdT8lE8,399
+permetrics/utils/classifier_util.py,sha256=KoZ9yCG2oIwsoa9vQZPY6yYa75QvTi8EANHM-t-oaok,8456
+permetrics/utils/cluster_util.py,sha256=cMit8MDmU43E90PKXAz1RxssvaCCPrdtpSNY19gkya0,35660
+permetrics/utils/constant.py,sha256=8PZPgpLOLPqY1T5arZhZR1zF4ZQOQ91vINUQ6XHE7os,486
+permetrics/utils/data_util.py,sha256=a0Gz4vyaetwDwqjzILPG8pUWmJGGdPBl8wCzdcIgzUw,11915
+permetrics/utils/encoder.py,sha256=kKrlEw5_rE6Nr4bwB89llYHbS3v88wvk5LV1_kqsdNA,959
+permetrics/utils/regressor_util.py,sha256=-bBDTg0YsrvDJNByZ5Nsn7N8jeiL51I7UXKHZEhfRgc,1825
+permetrics-2.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+permetrics-2.0.0.dist-info/METADATA,sha256=RfMSVnfF9o3QQlLK6P-p-_WhN8KW72EGAHNweB0FIRI,8745
+permetrics-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+permetrics-2.0.0.dist-info/top_level.txt,sha256=NA1260BfAHQrAbPt6RDtgjH0_XRJvEwji8XckYExKAc,11
+permetrics-2.0.0.dist-info/RECORD,,
