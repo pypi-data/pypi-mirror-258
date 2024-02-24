@@ -1,0 +1,10 @@
+gdt/data/hete2-fregate.urls,sha256=5BkcoVL-cVDG6Yz9xGUtj4xvoak51dddTc50cOOpH-s,225
+gdt/missions/hete2/__init__.py,sha256=qYxGFhKM28OQLDiXR9j1xuPQ-MTGZWypraatOLZTQO0,1563
+gdt/missions/hete2/fregate/__init__.py,sha256=ncOtKifAaXufsj4WbQRaPvLRMAy-6DC_ctef4ghKPPw,1540
+gdt/missions/hete2/fregate/detectors.py,sha256=hcEt5_k42kiV5dAK0IBsHrH6t_zVBv4g5-LBvGSyPK4,2416
+gdt/missions/hete2/fregate/lightcurve.py,sha256=q-vuls3MmX2NFLJB7i2nevgZ0lDmTu4m2eXOJeEPFbs,12055
+astro_gdt_hete2-1.0.0.dist-info/METADATA,sha256=nPw8c8Zdw4xBEZE6mPW2ajfr1P7Q7eSXiMTDxEnEs5U,1923
+astro_gdt_hete2-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+astro_gdt_hete2-1.0.0.dist-info/license.txt,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+astro_gdt_hete2-1.0.0.dist-info/top_level.txt,sha256=fGz3vRc04UXiHt5UkRvQE4_ojQP_ZUm4n7JV5Z3LVak,4
+astro_gdt_hete2-1.0.0.dist-info/RECORD,,
