@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lsorm
+Version: 0.0.2
+Summary: LimeSurvey ORM (lsorm) - An ORM package for LimeSurvey using SQLAlchemy
+Author: Viktor Sandström
+Author-email: v.sandstrom@icloud.com
+Requires-Python: >=3.8.10,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: PyYaml (==6.0.1)
+Requires-Dist: SQLAlchemy (>=2.0.25,<3.0.0)
+Requires-Dist: pandas (>=1.5.3,<2.0.0)
+Requires-Dist: pymysql (==1.1.0)
+Description-Content-Type: text/markdown
+
+# LimeSurvey Object Relational Mapper (lsorm)
+<!-- README.md -->
++ [![cov](https://sandstromviktor.github.io/lsorm/badges/coverage.svg)](https://github.com/sandstromviktor/lsorm/actions)
+## 
+This project is a work in progress
