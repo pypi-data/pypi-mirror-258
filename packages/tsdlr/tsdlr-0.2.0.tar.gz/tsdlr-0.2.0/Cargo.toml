@@ -1,0 +1,20 @@
+[package]
+name = "tsdlr"
+version = "0.2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "tsdlr"
+crate-type = ["cdylib"]
+
+[dependencies]
+ndarray = "0.15.6"
+numpy = "0.20.0"
+rand = "0.8.5"
+rayon = "1.8.1"
+smartcore = { version = "0.3.2", features = ["ndarray-bindings"] }
+
+[dependencies.pyo3]
+version = ">=0.20.2,<0.20.3"
+features = ["extension-module"]
