@@ -1,0 +1,11 @@
+linode_mgmt/LINODE-MGMT_VERSION,sha256=_F7mY-yQhcTU_cEUAaOyHdkxo_oz4zXfT8D_YYcL-qA,6
+linode_mgmt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+linode_mgmt/args.py,sha256=n0QUdN7vZ2qgrg3zC6qq4KI9hOrPolUAxqwm6IAKeuc,15928
+linode_mgmt/linode_mgmt.py,sha256=9DC_Whb9m4Fz9xDgimW50badffudzgx7CZSbKfDBgwI,18820
+linode_mgmt/scripts/linode-mgmt,sha256=rhBTG1hmIyQijg_gxbykP17ROL1ug3LAzntrnmshxBw,241
+linode_mgmt-0.0.7.data/data/docs/linode_mgmt/README.md,sha256=8eC5EgHjaaRZN4rd_gkpBc6p3IgFnrU72LpubKRLTJI,2484
+linode_mgmt-0.0.7.data/scripts/linode-mgmt,sha256=nb1tq4f-gRwg-JI8EC34V3su2wXKdNMbmRHAdw_CHvI,228
+linode_mgmt-0.0.7.dist-info/METADATA,sha256=B4HlGLU9wMV6ZCUZ-CzmHRC-qKm94khjInBs1ExiYiM,3167
+linode_mgmt-0.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+linode_mgmt-0.0.7.dist-info/top_level.txt,sha256=5DeOEP_f2SqoYnuaP-soWkOuIWxhLv42XlP-7ijBfrs,12
+linode_mgmt-0.0.7.dist-info/RECORD,,
