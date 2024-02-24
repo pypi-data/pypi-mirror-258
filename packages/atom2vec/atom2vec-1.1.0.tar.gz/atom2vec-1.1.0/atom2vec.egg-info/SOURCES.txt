@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+atom2vec/__init__.py
+atom2vec/atom_similarity.py
+atom2vec.egg-info/PKG-INFO
+atom2vec.egg-info/SOURCES.txt
+atom2vec.egg-info/dependency_links.txt
+atom2vec.egg-info/requires.txt
+atom2vec.egg-info/top_level.txt
+tests/test_atom2vec.py
