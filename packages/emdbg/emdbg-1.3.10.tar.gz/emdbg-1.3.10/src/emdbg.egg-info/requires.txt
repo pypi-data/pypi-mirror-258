@@ -1,0 +1,12 @@
+pyserial
+graphviz
+pygdbmi
+cmsis-svd
+arm-gdb
+pydwf
+yoctopuce<2.0
+rpyc
+rich
+
+[all]
+pdoc
