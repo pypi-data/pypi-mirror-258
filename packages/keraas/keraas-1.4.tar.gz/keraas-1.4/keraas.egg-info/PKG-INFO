@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: keraas
+Version: 1.4
+Summary: Description of your package
+Home-page: https://github.com/yourusername/keraas
+Author: Your Name
+Author-email: your@email.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Keraas
+
+## Introduction
+Keraas is a Python package that provides various modules for deep learning tasks using Keras.
+
+## Installation
+You can install Keraas using pip:
+
+```bash
+pip install keraas
+
+
