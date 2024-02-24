@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: h_yt_downloader
+Version: 0.1.1
+Summary: 
+Author: Henish Patel
+Author-email: 200120107182@git.org.in
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: moviepy (>=1.0.3,<2.0.0)
+Requires-Dist: pytube (>=15.0.0,<16.0.0)
+Description-Content-Type: text/markdown
+
+# YouTube Downloader
+
+This is a simple YouTube downloader that uses the `pytube` library to download videos from YouTube. It is a simple command line application that takes a YouTube video URL and downloads the video to the current working directory.
+
+## Installation
+
+To install the application, you can use the following command:
+
+```bash
+pip install git+hhttps://github.com/henishpatel9045/youtube-downloader.git
+```
+
+## Usage
+
+To use the application, you can run the following command:
+
+```bash
+yt-downloader
+```
