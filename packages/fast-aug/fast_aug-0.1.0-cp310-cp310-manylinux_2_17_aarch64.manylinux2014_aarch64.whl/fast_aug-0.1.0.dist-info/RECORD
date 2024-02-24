@@ -1,0 +1,14 @@
+fast_aug-0.1.0.dist-info/METADATA,sha256=QVw_AV1JZRW-_HkNEnN4jTvc4FHSpIk4Dzw0PPSl9-c,4185
+fast_aug-0.1.0.dist-info/WHEEL,sha256=vk357jJ79C0nh5Tv5mlLgqKK5VrrFdPWo2xqol_tiK0,131
+fast_aug/flow/__init__.pyi,sha256=0_BamjWPANY1EiHr1BNaDm9F_EyfVSF7F6tjcLh_GC0,2284
+fast_aug/flow/__init__.py,sha256=lEyHiPkMPF5qO9vRSLTLDzpgchw0a4G9YUuCkqXLtf0,229
+fast_aug/models/__init__.pyi,sha256=cLBx0BKXcqat9C18p3WoQLuQ1RvbsQbp6w9qd1zru8s,67
+fast_aug/models/__init__.py,sha256=jQOZx7dYeR0jOSmJ0X4IwIdL92Pq9cwOOnri7YSybWk,93
+fast_aug/base/__init__.pyi,sha256=2lB2RdNq6yTmV1PcQxCC-nUBPJG17xi9XgpuMXAwMwY,618
+fast_aug/base/__init__.py,sha256=kA116e-rv0rdo1OFkMGdbBKhMmdLSPxwsjuE3_L5aPk,135
+fast_aug/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_aug/__init__.py,sha256=ThvgRjSr2-pfAigBVtCCZh8j3oBMdx8w1jNbgVBmluk,355
+fast_aug/text/__init__.pyi,sha256=PA429i-PEoGzkk6pWzA4oqh1uj2tvxjXUPkD-m7ZvKU,8549
+fast_aug/text/__init__.py,sha256=2-qouHdlekqMTy2PccEVBZvPghAPrShqIt0LmsJFfCQ,639
+fast_aug/fast_aug.cpython-310-aarch64-linux-gnu.so,sha256=YYlTEIUbmVjrJPQ2RVsnZO2L5gEgSgMDPuzCTpCyuyg,4978960
+fast_aug-0.1.0.dist-info/RECORD,,
