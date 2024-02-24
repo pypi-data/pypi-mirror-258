@@ -1,0 +1,4 @@
+{"filename": "index.rst", "lineno": 15, "status": "unchecked", "code": 0, "uri": "", "info": ""}
+{"filename": "index.rst", "lineno": 13, "status": "working", "code": 0, "uri": "https://www.npmjs.com/", "info": ""}
+{"filename": "index.rst", "lineno": 13, "status": "working", "code": 0, "uri": "https://pypi.org", "info": ""}
+{"filename": "index.rst", "lineno": 23, "status": "broken", "code": 0, "uri": "https://pypi.org/project/rst-package-refs", "info": "404 Client Error: Not Found for url: https://pypi.org/project/rst-package-refs/"}
