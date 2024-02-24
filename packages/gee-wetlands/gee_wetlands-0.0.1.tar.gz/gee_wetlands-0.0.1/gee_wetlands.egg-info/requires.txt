@@ -1,0 +1,7 @@
+numpy
+
+[all]
+gee_wetlands[extra]
+
+[extra]
+pandas
