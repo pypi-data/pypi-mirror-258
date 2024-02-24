@@ -1,0 +1,9 @@
+setup.py
+InstaAli.egg-info/PKG-INFO
+InstaAli.egg-info/SOURCES.txt
+InstaAli.egg-info/dependency_links.txt
+InstaAli.egg-info/not-zip-safe
+InstaAli.egg-info/top_level.txt
+InstaBek/Insta_script.py
+InstaBek/__init__.py
+InstaBek/data.py
