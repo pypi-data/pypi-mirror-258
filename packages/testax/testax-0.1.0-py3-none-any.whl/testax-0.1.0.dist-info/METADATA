@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: testax
+Version: 0.1.0
+Description-Content-Type: text/markdown
+Requires-Dist: jax
+
+Jit-able runtime assertions for jax in numpy style.
