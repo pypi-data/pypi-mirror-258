@@ -1,0 +1,10 @@
+kubespawner_keycloak/__init__.py,sha256=ed6oKcnd9t57IBdLn99U48DskAX5PuJvtEkSXymqSPY,110
+kubespawner_keycloak/_version.py,sha256=9g-NM1wN0axo-Og6F6FKKRHA12hADrI6D1HhrufjX9s,89
+kubespawner_keycloak/exceptions.py,sha256=Yn24Xd_kc5sU7Oo6cPu5Ifa9aL5ze1E_QjPXZjZwVfE,1417
+kubespawner_keycloak/k8sio.py,sha256=jHoNdaaINZxGE-EtGIdgtjIhI2yWEhtehlKeyxIbIxU,3529
+kubespawner_keycloak/keycloak.py,sha256=22W28yYBVep39tiqyBvNIuAlLdPvhDOy4AkRtjoV-0g,5182
+kubespawner_keycloak/objects.py,sha256=krZ27buflsXpGpMKFylqCVCn-NOBdjOrVSGh1iPFBOA,2360
+kubespawner_keycloak-0.1.4.dist-info/METADATA,sha256=EijStmRF-a5x_eKmb01PY81b_MC3zKGhb4oMay23350,788
+kubespawner_keycloak-0.1.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+kubespawner_keycloak-0.1.4.dist-info/licenses/LICENSE,sha256=9vQuWFnpa7Kuqz9ucNaTls-9rhNSsT7opiqZIgaRH80,1130
+kubespawner_keycloak-0.1.4.dist-info/RECORD,,
