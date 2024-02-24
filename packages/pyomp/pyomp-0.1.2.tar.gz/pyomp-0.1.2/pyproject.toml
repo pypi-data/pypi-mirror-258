@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyomp"
+version = "0.1.2"
+description = ""
+authors = ["Cameron Grant <cameron.grant@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+
+[tool.poetry.group.dev.dependencies]
+Cython = "^3.0.8"
+setuptools = "^69.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
