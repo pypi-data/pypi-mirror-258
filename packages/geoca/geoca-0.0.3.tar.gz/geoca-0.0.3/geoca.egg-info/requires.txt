@@ -1,0 +1,8 @@
+numpy
+rasterio
+
+[all]
+geoca[extra]
+
+[extra]
+pandas
