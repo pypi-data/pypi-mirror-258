@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: kurumii
+Version: 0.6
+Summary: A small package that does stuff
+Home-page: https://github.com/Kurumii-nightcore/kurumii
+Author: Kurumii
+Author-email: Kurumii <ocinstartk@gmail.com>
+Project-URL: Homepage, https://github.com/thegamer3514/gamer3514
+Project-URL: Bug Tracker, https://github.com/thegamer3514/gamer3514/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kurumii
+
+A small package that does stuff
+
+## Installation
+
+```bash
+pip install kurumii
+```
+
+## Usage
+
+
+
+## Resources
+
+- [Discord server](https://discord.gg/3qvpkgWSbF)
+- [Free hosting](https://sillydev.co.uk)
+- Contact me: gamer@sillydev.co.uk
