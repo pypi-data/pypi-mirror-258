@@ -1,0 +1,159 @@
+""" This file will contain various features of shrillecho that are to be sorted into classes later """
+from dataclasses import asdict
+
+import spotipy
+from shrillecho.playlist.playlist_engine import PlaylistEngine
+from shrillecho.types.albums import ArtistAlbums, AlbumTracks, SimplifiedTrack, SeveralAlbums
+from shrillecho.types.artists import Artist
+from shrillecho.types.playlists import PlaylistTrack, PlaylistTracks
+from typing import List, Set
+import json
+from shrillecho.types.tracks import Track, SavedTrack, SavedTracks, SeveralTracks
+from typing import Type, TypeVar, Callable, Any
+from shrillecho.utility.general_utility import *
+import httpx
+import math
+import asyncio
+import time
+from shrillecho.utility.async_spotify import *
+from shrillecho.utility.mongo import Mongo
+
+""" Mongo Master Object """
+mongo_client = Mongo('localhost', '27017', 'shrillecho')
+
+""" Look at a users artists from a specific playlist, pick random songs from them """
+
+
+async def select_random_song_from_artists(sp: spotipy.Spotify, playlist_id: str) -> List[Track]:
+    all_tracks: List[Track] = []
+
+    artists = set()
+    pl_engine = PlaylistEngine(sp)
+    playlist_tracks: List[PlaylistTrack] = await fetch_async(sp, PlaylistTracks, playlist_id, chunk_size=50)
+
+    unique_artists = set()
+    for pl_track in playlist_tracks[:2]:
+
+        main_artist = None
+        if 'Remix' in pl_track.track.name:
+            for artist in pl_track.track.artists:
+                if artist.name in pl_track.track.name:
+                    main_artist = artist
+            if not main_artist:
+                main_artist = pl_track.track.artists[0]
+        else:
+            main_artist = pl_track.track.artists[0]
+
+        if main_artist.id not in unique_artists:
+            all_tracks.extend(get_all_artists_song(sp, main_artist.id, main_artist.name))
+            unique_artists.add(main_artist.id)
+
+    for track in all_tracks:
+        mongo_client.write_collection('random-tracks', asdict(track))
+    return all_tracks
+
+
+""" Given an artist id, return all their songs 
+
+TODO:
+    - Consider removing duplicate using ISRC set
+"""
+
+
+def get_all_artists_song(sp: spotipy.Spotify, artist_id: str, artist_name: str) -> List[Track]:
+    all_tracks: set[Track] = set()
+    artist_albums: ArtistAlbums = sp_fetch(sp.artist_albums, ArtistAlbums, artist_id,
+                                           album_type='album,single')
+    tracks_to_fetch = set()
+    albums_to_fetch = set()
+
+    for album in artist_albums.items:
+        albums_to_fetch.add(album.id)
+
+    chunk_size = 50  
+    for i in range(0, len(albums_to_fetch), chunk_size):
+        chunk = list(albums_to_fetch)[i:i + chunk_size]
+        albums:SeveralAlbums = sp_fetch(sp.albums, SeveralAlbums, chunk)
+
+        for album_item in albums.albums:
+            for track in album_item.tracks.items:
+                tracks_to_fetch.add(track.id)
+
+    all_fetched_tracks = []
+    for i in range(0, len(tracks_to_fetch), chunk_size):
+        chunk = list(tracks_to_fetch)[i:i + chunk_size]
+        tracks: SeveralTracks = sp_fetch(sp.tracks, SeveralTracks, chunk)
+        all_fetched_tracks.extend(tracks.tracks)
+
+    print(artist_name)
+    print(len(all_fetched_tracks))
+    return all_fetched_tracks
+
+
+"""
+Given a song (uri) and a user, return a boolean saying whether they have liked it or not
+
+TODO
+    - support a list and a single uri
+"""
+
+
+def is_liked(sp: spotipy.Spotify, uris: List[str]):
+    return sp.current_user_saved_tracks_contains(tracks=uris)[0]
+
+
+""" fetch all saved tracks for current user """
+
+
+async def fetch_liked_tracks(sp: spotipy.Spotify) -> List[Track]:
+    return await fetch_async(sp, SavedTracks, chunk_size=50)
+
+
+
+"""
+Play a specific uri on the first device ID listed.
+
+uri = spotify:track:xyz
+"""
+def play_track(sp: spotipy.Spotify, uri: str):
+    device_id = sp.devices()['devices'][0]['id']
+
+
+    sp.start_playback(device_id=device_id, uris=[uri])
+
+
+"""
+    Make a new playlist and add tracks
+"""
+
+
+def write_songs_to_playlist(sp, name: str, tracks):
+    playlist = sp.user_playlist_create(user='alcct3q9gddtkpcyidgx1z9yf', name=name, public=False)
+    limit = 50
+    for i in range(0, len(tracks), limit):
+        sp.playlist_add_items(playlist['id'], list(tracks)[i:i + limit])
+
+
+"""
+    Return all tracks from A , based on the difference  with B
+    or example if A has tracks [1,2,3] and B has tracks [1], return [2,3] 
+"""
+
+def track_difference(track_list_A: List[Track], track_list_B: List[Track]) -> List[Track]:
+
+    # create a set of isrcs from B
+    isrcs_b = {track.external_ids.isrc for track in track_list_B}
+
+    # use the set to do O(1) lookup for isrc.
+    filtered_a = [track for track in track_list_A if track.external_ids.isrc not in isrcs_b]
+    return filtered_a
+
+"""
+    Given a list of tracks return a list of the uris only
+"""
+
+def fetch_track_uris(tracks: List[Track]) -> List[str]:
+    uris: List[str] = []
+    for track in tracks:
+        uris.append(track.uri)
+    return uris
