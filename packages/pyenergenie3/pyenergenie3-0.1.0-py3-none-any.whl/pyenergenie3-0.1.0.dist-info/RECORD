@@ -1,0 +1,8 @@
+pyenergenie3/__init__.py,sha256=hrbG6xoPcErZK8PbcyA-yLjxSNbRlP4djtTco5jIqqA,31
+pyenergenie3/core.py,sha256=zAnaV1J5B-4Acn7oEIXFWQdo-AZ68d-NzglGLU_vUlI,5826
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pyenergenie3.py,sha256=cXrpe28cGpz7JW5G82YcKGABCRss_U2CEDb9KDknX5g,4419
+pyenergenie3-0.1.0.dist-info/METADATA,sha256=Tgc-ElgHVumdDtubnCDdnw4mFN-SJK5fxG6k-ruWPA4,486
+pyenergenie3-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyenergenie3-0.1.0.dist-info/top_level.txt,sha256=cMM5wrfsq6Ke4fQV3AeMXaJknUcb6KbDJw2UHlPT9YI,19
+pyenergenie3-0.1.0.dist-info/RECORD,,
