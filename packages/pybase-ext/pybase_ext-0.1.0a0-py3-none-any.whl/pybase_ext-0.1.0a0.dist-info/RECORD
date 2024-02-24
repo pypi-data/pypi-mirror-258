@@ -1,0 +1,10 @@
+pybase_ext/TBD.md,sha256=pgEr35FAgGqzVfF0dH4zMDgrj54yB1yjmeQzgi15gts,165
+pybase_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybase_ext/_version.py,sha256=tTXFbNoCGRRyO0NyQm2HVyh2YYfr4wzVr_dsGvzR5oU,65
+pybase_ext/enum/__init__.py,sha256=3zU45dXYu1xWxi_DMUXfSOq1jDN-8xg7iVqSpiWu9gQ,291
+pybase_ext/enum/_types.py,sha256=3EEhMqJCwZsNW80UWripiMqSqM5CG0xgYWkdzDg-nC8,1638
+pybase_ext-0.1.0a0.dist-info/LICENSE,sha256=LR9zfYro-riFCR2J66STX5iXBAcveCP9xes0SUdJbPw,1064
+pybase_ext-0.1.0a0.dist-info/METADATA,sha256=bDp22OpBJT2GMcsaqtT5OnaoAYOQYAsflNNYDeufdO4,1160
+pybase_ext-0.1.0a0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pybase_ext-0.1.0a0.dist-info/top_level.txt,sha256=9lZ7m3r1WrVhj708So6r-miPWl8xDHsPh1Ea36kANGc,11
+pybase_ext-0.1.0a0.dist-info/RECORD,,
