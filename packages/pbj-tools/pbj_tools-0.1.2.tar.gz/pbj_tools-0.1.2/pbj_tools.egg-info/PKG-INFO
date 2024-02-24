@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pbj-tools
+Version: 0.1.2
+Summary: Python package used to interact with phage.db
+Home-page: https://github.com/JoshuaIszatt
+Author: Joshua Iszatt
+Author-email: joshiszatt@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3
+
+UNKNOWN
+
