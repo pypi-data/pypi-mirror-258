@@ -1,0 +1,7 @@
+build
+dist
+notes
+readingbricks
+requirements
+tests
+venv
