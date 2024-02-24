@@ -1,0 +1,5 @@
+cryptography
+flask
+requests
+random2
+discord

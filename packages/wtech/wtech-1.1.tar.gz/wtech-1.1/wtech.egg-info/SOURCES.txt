@@ -1,0 +1,16 @@
+pyproject.toml
+setup.py
+wtech/__init__.py
+wtech/app.py
+wtech/auto_check.py
+wtech/http.py
+wtech/network.py
+wtech.egg-info/PKG-INFO
+wtech.egg-info/SOURCES.txt
+wtech.egg-info/dependency_links.txt
+wtech.egg-info/requires.txt
+wtech.egg-info/top_level.txt
+wtech/dcBot/__init__.py
+wtech/dcBot/bot_commands.py
+wtech/dcBot/bot_helpers.py
+wtech/dcBot/bot_intents.py
