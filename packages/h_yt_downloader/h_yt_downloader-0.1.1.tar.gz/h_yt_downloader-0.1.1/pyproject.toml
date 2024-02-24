@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "h_yt_downloader"
+version = "0.1.1"
+description = ""
+authors = ["Henish Patel <200120107182@git.org.in>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytube = "^15.0.0"
+moviepy = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+yt-downloader = 'h_yt_downloader.main:main'
