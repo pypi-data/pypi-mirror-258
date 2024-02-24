@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "augen"
+version = "0.0.2"
+description = ""
+authors = ["bjornaer <max@eigendata.ai>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://eigendata.ai"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+numpy = "^1.24.2"
+pydantic = "^1.10.6"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+isort = "^5.12.0"
+flake8 = "^6.0.0"
+pytest = "^7.2.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py39', 'py310', 'py311']
+exclude = '''
+(
+  /(
+    \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+profile = "black"
