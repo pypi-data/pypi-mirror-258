@@ -1,0 +1,3 @@
+[console_scripts]
+clip_gofer=clip_gofer.cli:main
+

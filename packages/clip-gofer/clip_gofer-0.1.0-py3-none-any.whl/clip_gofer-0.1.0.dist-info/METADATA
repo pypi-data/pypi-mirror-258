@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: clip_gofer
+Version: 0.1.0
+Summary: easily search through videos using natural language queries.
+Home-page: https://github.com/qgofer/clip-gofer
+License: MIT
+Author: Frank Acquaye
+Author-email: acquayefrank@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=22.3.0,<23.0.0) ; extra == "dev"
+Requires-Dist: bump2version (>=1.0.1,<2.0.0)
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: flake8 (==4.0.1) ; extra == "dev"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0) ; extra == "dev"
+Requires-Dist: isort (==5.10.1) ; extra == "dev"
+Requires-Dist: livereload (>=2.6.3,<3.0.0)
+Requires-Dist: mike (>=1.1.2,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs (>=1.2.3,<2.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.3.1,<0.4.0) ; extra == "doc"
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.2.3,<4.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material (>=8.1.11,<9.0.0) ; extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocstrings (>=0.18.0,<0.19.0) ; extra == "doc"
+Requires-Dist: mypy (>=1.5.1,<2.0.0) ; extra == "dev"
+Requires-Dist: pkginfo (>=1.9,<2.0) ; extra == "doc"
+Requires-Dist: pre-commit (>=2.17.0,<3.0.0) ; extra == "dev"
+Requires-Dist: pyreadline (>=2.1,<3.0)
+Requires-Dist: pytest (>=7.0.1,<8.0.0) ; extra == "test"
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0) ; extra == "test"
+Requires-Dist: setuptools (>=68.0,<69.0) ; extra == "doc"
+Requires-Dist: toml (>=0.10.2,<0.11.0) ; extra == "dev"
+Requires-Dist: tox (>=3.24.5,<4.0.0) ; extra == "dev"
+Requires-Dist: twine (>=3.8.0,<4.0.0) ; extra == "dev"
+Requires-Dist: virtualenv (>=20.0,<21.0) ; extra == "doc"
+Description-Content-Type: text/markdown
+
+# clip-gofer
+
+<p align="center">
+<a href="https://pypi.python.org/pypi/clip-gofer">
+    <img src="https://img.shields.io/pypi/v/clip-gofer.svg"
+        alt = "Release Status">
+</a>
+
+<a href="https://github.com/qgofer/clip-gofer/actions">
+    <img src="https://github.com/qgofer/clip-gofer/actions/workflows/main.yml/badge.svg?branch=release" alt="CI Status">
+</a>
+
+<a href="https://qgofer.github.io/clip-gofer/">
+    <img src="https://img.shields.io/website/https/qgofer.github.io/clip-gofer/index.html.svg?label=docs&down_message=unavailable&up_message=available" alt="Documentation Status">
+</a>
+
+<a href="https://pyup.io/repos/github/qgofer/clip-gofer/">
+<img src="https://pyup.io/repos/github/qgofer/clip-gofer/shield.svg" alt="Updates">
+</a>
+
+</p>
+
+easily search through videos using natural language queries
+
+-   Free software: MIT
+-   Documentation: <https://qgofer.github.io/clip-gofer/>
+
+## Features
+
+-   TODO
+-   Complete actual functionality for searching through videos :)
+
+## Credits
+
+This package was created with the [ppw](https://zillionare.github.io/python-project-wizard) tool. For more information, please visit the [project page](https://zillionare.github.io/python-project-wizard/).
+
