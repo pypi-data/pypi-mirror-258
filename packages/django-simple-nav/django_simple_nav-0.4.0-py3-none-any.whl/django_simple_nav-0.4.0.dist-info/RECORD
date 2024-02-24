@@ -1,0 +1,12 @@
+django_simple_nav/__init__.py,sha256=si7mV1Y-Y4nwP0eDLglrhZrWygUwe8EpX7EbLAyZL8k,91
+django_simple_nav/apps.py,sha256=9ItMDl_2vZ35VxDg_G63izowLu20SeZmeOntc8X4uus,143
+django_simple_nav/conf.py,sha256=mZc1JT1mO6BCw00xxP6cs5fvHCGBvfuhNjs9YqVTWV4,464
+django_simple_nav/nav.py,sha256=s-IPmPpF-U-Rp5h6PDEaEFVZVQwK9tT8b9QGvRvW9w4,2898
+django_simple_nav/permissions.py,sha256=Skyjo0bNkufq9tbx9-Cvgw1jWUBldNMM8J4l7365Qw4,1400
+django_simple_nav/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_nav/templatetags/django_simple_nav.py,sha256=dwhMHOrc1yL0YdfZdOKzVZDm5Q2vEL2i5GYXp27_TVU,1448
+django_simple_nav-0.4.0.dist-info/METADATA,sha256=3kuxuCZ3fhFdup0MWEHgUyj6WQuV0RL4_KthhpI8YnM,12653
+django_simple_nav-0.4.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+django_simple_nav-0.4.0.dist-info/licenses/AUTHORS.md,sha256=8cylUX4T7srQtwM46kTFVKUk0UbY6IipfLb2Z52-8f4,112
+django_simple_nav-0.4.0.dist-info/licenses/LICENSE,sha256=FdZMz6vbhB-ED2GVlYRwrdBMVlSMXYNhWa2q7KK_5IY,1068
+django_simple_nav-0.4.0.dist-info/RECORD,,
