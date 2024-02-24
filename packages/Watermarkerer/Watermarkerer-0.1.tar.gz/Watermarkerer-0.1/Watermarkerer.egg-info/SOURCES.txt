@@ -1,0 +1,8 @@
+setup.py
+Watermarkerer.egg-info/PKG-INFO
+Watermarkerer.egg-info/SOURCES.txt
+Watermarkerer.egg-info/dependency_links.txt
+Watermarkerer.egg-info/requires.txt
+Watermarkerer.egg-info/top_level.txt
+watermarkerer/WaterMarker.py
+watermarkerer/__init__.py

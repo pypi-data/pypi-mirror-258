@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: Watermarkerer
+Version: 0.1
+Summary: Python package to put watermarks to videos or images
+Home-page: https://github.com/NoneNameDeveloper/WaterMarkerer.git
+Author: John Doe
+Author-email: anon@user.com
+License: MIT
+Requires-Dist: pillow==9.5.0
+Requires-Dist: moviepy==1.0.3
