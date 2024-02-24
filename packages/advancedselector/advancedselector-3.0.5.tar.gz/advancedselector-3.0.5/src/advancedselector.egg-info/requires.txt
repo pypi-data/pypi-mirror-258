@@ -1,0 +1,4 @@
+httpx
+
+[:os_name != "nt"]
+getch
