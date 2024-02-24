@@ -1,0 +1,22 @@
+[project]
+name = "addition_lpkapil"
+version = "0.0.1"
+authors = [
+  { name="Kapil Yadav", email="lpkapil@gmail.com" },
+]
+description = "A small two numbers addition package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lpkapil/addition_lpkapil"
+Issues = "https://github.com/lpkapil/addition_lpkapil/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
