@@ -1,0 +1,53 @@
+# SPDX-FileCopyrightText: 2024 Georg-August-Universität Göttingen
+#
+# SPDX-License-Identifier: CC0-1.0
+
+[project]
+name = "tgadmin"
+description = "texgrid repository administration cli tool, based on tgclients"
+
+requires-python = ">= 3.8"
+dynamic = ["version"]
+
+readme = "README.md"
+license = { file = "LICENSE" }
+
+authors = [
+  {name = "Ubbo Veentjer", email = "veentjer@sub.uni-goettingen.de"},
+]
+
+maintainers = [
+  {name = "Ubbo Veentjer", email = "veentjer@sub.uni-goettingen.de"},
+]
+
+dependencies = [
+    "click",
+    "tgclients",
+]
+
+[project.optional-dependencies]
+dev = [
+    "reuse",
+    "black",
+    "pip-tools",
+]
+
+[project.urls]
+repository = "https://gitlab.gwdg.de/dariah-de/textgridrep/tgadmin"
+
+[project.scripts]
+tgadmin = "tgadmin.tgadmin:cli"
+
+[tool.setuptools.dynamic]
+version = {attr = "tgadmin.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.semantic_release]
+version_variables = ["src/tgadmin/__init__.py:__version__"]
+major_on_zero = false
+
+[tool.semantic_release.remote]
+type = "gitlab"
+
