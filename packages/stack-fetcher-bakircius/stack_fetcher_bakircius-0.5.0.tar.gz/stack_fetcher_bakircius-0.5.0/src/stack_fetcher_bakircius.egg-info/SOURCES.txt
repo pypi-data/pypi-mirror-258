@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/stack_fetcher_bakircius/__init__.py
+src/stack_fetcher_bakircius/example.py
+src/stack_fetcher_bakircius.egg-info/PKG-INFO
+src/stack_fetcher_bakircius.egg-info/SOURCES.txt
+src/stack_fetcher_bakircius.egg-info/dependency_links.txt
+src/stack_fetcher_bakircius.egg-info/requires.txt
+src/stack_fetcher_bakircius.egg-info/top_level.txt

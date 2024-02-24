@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: stack_fetcher_bakircius
+Version: 0.5.0
+Summary: A small fetcher for Stack Exchange API
+Author-email: bakircius <burakbakirci@gmail.com>
+Project-URL: Homepage, https://github.com/bakircius/stack-exchange-fetcher
+Project-URL: Issues, https://github.com/bakircius/stack-exchange-fetcher/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+
+# stack-exchange-fetcher
+
+This project fetches StackOverflow API
+
+# install
+
+pip install stack-fetcher-bakircius
+
+# for use
+
+1- Get your key and token from stackexchange (https://stackapps.com/users/login?returnurl=/apps/oauth/register)
+
+2- Copy and Paste Credentials in a file.
