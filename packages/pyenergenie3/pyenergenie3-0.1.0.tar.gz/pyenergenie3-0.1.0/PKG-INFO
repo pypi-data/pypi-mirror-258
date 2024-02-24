@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyenergenie3
+Version: 0.1.0
+Summary: Python 3 library for controlling the EnerGenie power strip EG-PMS2-LANSW
+Author: r3turnNull
+Author-email: r3turnNull@protonmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
