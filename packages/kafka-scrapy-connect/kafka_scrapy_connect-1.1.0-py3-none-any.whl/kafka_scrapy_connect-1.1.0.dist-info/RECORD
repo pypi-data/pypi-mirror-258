@@ -1,0 +1,8 @@
+kafka_scrapy_connect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafka_scrapy_connect/pipelines.py,sha256=XWuQp3k0Xn5k9JTYMzNvbrql5-pCbQl7iTtoNsWg-G0,2942
+kafka_scrapy_connect/spiders.py,sha256=Ts3fXUcw6Poom_KRUI0OuK0HqFWaIQL3f37yl9svbz0,7416
+kafka_scrapy_connect-1.1.0.dist-info/LICENSE,sha256=Od-c9yaDTxyyXPCGdb1UGOm_hgaFJOBdmA_WGloT8S4,1068
+kafka_scrapy_connect-1.1.0.dist-info/METADATA,sha256=w2xYr38nwlkEJSRo6tUUvYhWoaK5UM_9VoD38HGDFqs,6303
+kafka_scrapy_connect-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kafka_scrapy_connect-1.1.0.dist-info/top_level.txt,sha256=Dy803BeS6Vl2oiOHmfXh14BjzSVVUgWokVY8TxBpfIk,21
+kafka_scrapy_connect-1.1.0.dist-info/RECORD,,
