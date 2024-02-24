@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: netapiclient
+Version: 0.0.0a0
+Summary: Network Related API Clients based on httpx
+License: MPL-2.0
+Author: Mike Simkins
+Author-email: 487+msimkins@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Description-Content-Type: text/markdown
+
+# Network API Clients
+
+This is a placeholder before final publishing
+
