@@ -1,0 +1,14 @@
+[project]
+name = "assure"
+version = "0.0.6"
+authors = [
+    { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "assert + ensure = assure"
+dependencies = [
+    "numpy",
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/assure"
+download = "https://pypi.org/project/assure/#files"
