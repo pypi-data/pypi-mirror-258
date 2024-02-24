@@ -1,0 +1,15 @@
+MANIFEST.in
+PYPI-README.rst
+README.rst
+license.txt
+setup.py
+src/astro_gdt_hete2.egg-info/PKG-INFO
+src/astro_gdt_hete2.egg-info/SOURCES.txt
+src/astro_gdt_hete2.egg-info/dependency_links.txt
+src/astro_gdt_hete2.egg-info/requires.txt
+src/astro_gdt_hete2.egg-info/top_level.txt
+src/gdt/data/hete2-fregate.urls
+src/gdt/missions/hete2/__init__.py
+src/gdt/missions/hete2/fregate/__init__.py
+src/gdt/missions/hete2/fregate/detectors.py
+src/gdt/missions/hete2/fregate/lightcurve.py
