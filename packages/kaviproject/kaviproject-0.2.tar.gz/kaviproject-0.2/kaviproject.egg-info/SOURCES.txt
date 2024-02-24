@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+kaviproject.egg-info/PKG-INFO
+kaviproject.egg-info/SOURCES.txt
+kaviproject.egg-info/dependency_links.txt
+kaviproject.egg-info/top_level.txt
+mylibrary/ module1.py
+mylibrary/ module2.py
+mylibrary/__init__.py
+mylibrary/subpackage/__init__.py
+mylibrary/subpackage/submodule1.py
+mylibrary/subpackage/submodule2.py
