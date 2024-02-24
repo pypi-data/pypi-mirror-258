@@ -1,0 +1,143 @@
+#!/usr/bin/env python
+
+import json
+import os
+import time
+from beaupy.spinners import *
+from rich.console import Console
+from beaupy import confirm, select_multiple
+import termcolor
+import requests
+
+console = Console()
+
+def get_skills():
+    requests.get('https://api.composio-backend.ai/api/v1/skills.json')
+    return requests.get('https://api.composio-backend.ai/api/v1/skills.json').json()
+
+def load_skills_from_json():
+    try:
+        with open(os.path.join(os.path.dirname(__file__), 'skills.json'), 'r') as file:
+            data = json.load(file)
+            flattened_data = [item for sublist in data.values() for item in sublist]
+            return flattened_data
+    except FileNotFoundError:
+        print("skills.json file not found.")
+        return []
+    except json.JSONDecodeError:
+        print("Error decoding JSON from skills.json.")
+        return []
+    
+def check_autogen_installed():
+    try:
+        import autogen
+    except ImportError:
+        print("Autogen not installed")
+        return False
+    return True
+
+
+def check_autogen_studio_installed():
+    try:
+        from autogenstudio.version import VERSION
+        return True
+    except ImportError:
+        print("Autogen Studio not installed")
+        return False
+
+def install_autogen_if_not_installed():
+    if not check_autogen_installed():
+        print("Installing autogen")
+        import os
+        os.system("pip install autogen")
+
+    return True
+
+def install_composio_skills(dbManager):
+    from autogenstudio.utils.dbutils import upsert_skill
+    from autogenstudio.datamodel import Skill
+
+    skl = load_skills_from_json()
+    for skill in skl:
+        upsert_skill(skill=Skill(
+            id=skill["id"],
+            content=skill["content"],
+            file_name=skill["file_name"],
+            title=skill["title"],
+            description=skill["description"]
+        ), dbmanager=dbManager)
+
+    return True
+    
+
+def install_autogen_studio_if_not_installed():
+    if not check_autogen_studio_installed():
+        print("Installing autogen studio")
+        import os
+        os.system("pip install autogenstudio")
+        # start autogen studio for DB sequilize to be created
+        os.system("autogenstudio")
+
+    # @TODO: Verify this will work as expected
+    from autogenstudio.utils.dbutils import DBManager, upsert_skill
+    import autogenstudio
+    import os
+    database_path = os.path.join(os.path.dirname(autogenstudio.__file__), "web/database.sqlite")
+    db_manager = DBManager(path=database_path)
+
+    return db_manager
+
+def run():
+    try:
+        text = termcolor.colored('Composio', 'white', attrs=['bold'])  
+        aiPlatformText = termcolor.colored('100+', 'green', attrs=['bold'])
+        pinkEmojiText = termcolor.colored('hi@composio.dev', 'magenta', attrs=['bold'])
+        boldNoteText = termcolor.colored('Note*', 'white', attrs=['bold'])
+        print(f"""
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│                           {text} <-> AutoGen                            │
+│                                                                           │
+│                     Plug {aiPlatformText} platforms in your agent                     │
+│                                                                           │
+│ {boldNoteText}: This package is in closed beta, please contact {pinkEmojiText}     │
+│        to get early access.                                               │
+│                                                                           │
+└───────────────────────────────────────────────────────────────────────────┘
+        """)
+        # if confirm("Do you want to run autogen studio?"):
+        #     print("Running autogen studio")
+        spinner = Spinner(BARS, "Checking Requirements")
+        spinner.start()
+        install_autogen_if_not_installed()
+        db_manager = install_autogen_studio_if_not_installed()
+        spinner.stop()
+        print("> All requirements are met... Good to go!\n")
+
+        access_token = input("Paste your beta access token here: ")
+        if access_token != "abcdefghi":
+            print("\n> Invalid access token ❌\n")
+            return
+        with open(os.path.join(os.path.dirname(__file__), 'skills.json'), 'r') as file:
+            data = json.load(file)
+            capitalized_integration_names = [integrationName.capitalize() for integrationName in data.keys()]
+            # add "All" option to the top of the list
+            # capitalized_integration_names.insert(0, "All")
+            print("> Which integrations do you want to install?")
+            ask = select_multiple(capitalized_integration_names, tick_character='■', ticked_indices=[0], maximal_count=100, cursor_style='bold', tick_style='green', pagination=True)
+            # clear last line of cli
+            print("\033[F\033[K", end="")
+            spinner = Spinner(BARS, "Setting up your skills...")
+            spinner.start()
+            install_composio_skills(db_manager)
+            time.sleep(2)
+            spinner.stop()
+            print("> All skills installed successfully! 🚀\n")
+            # print(f"> {ask}\n")
+            from autogenstudio.cli import ui
+            ui()
+        # run()
+    except Exception as e:
+        print("Error occurred: ", e)
+
+run()
