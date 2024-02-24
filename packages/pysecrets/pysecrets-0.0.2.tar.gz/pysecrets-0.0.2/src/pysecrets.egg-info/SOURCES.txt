@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/pysecrets/__init__.py
+src/pysecrets/main.py
+src/pysecrets.egg-info/PKG-INFO
+src/pysecrets.egg-info/SOURCES.txt
+src/pysecrets.egg-info/dependency_links.txt
+src/pysecrets.egg-info/top_level.txt
+src/pysecrets/models/secret.py

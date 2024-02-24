@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pysecrets"
+version = "0.0.2"
+authors = [{ name = "Spencer Jensen", email = "spencerwjensen96@gmail.com" }]
+description = "The lightest weight package for loading secrets into a project"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://spencerjensen.dev"
+Issues = "https://spencerjensen.dev"
