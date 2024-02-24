@@ -1,0 +1,25 @@
+[project]
+name = "context-haystack"
+dynamic = ["version"]
+description = ''
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = []
+authors = [
+  { name = "Alec Barber", email = "alec@context.ai" },
+  { name = "Alex Gamble", email = "alex@context.ai" },
+  { name = "Amisha Singh", email = "amisha@context.ai" }
+]
+dependencies = [
+  "haystack-ai",
+  "context-python",
+]
+
+[project.urls]
+Documentation = "https://docs.context.ai"
+Issues = "https://github.com/contextco/context-haystack/issues"
+Source = "https://github.com/contextco/context-haystack"
+
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
