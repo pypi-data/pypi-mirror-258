@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gas_saver_visualization
+Version: 0.0.1
+Summary: Gas Saver visualization
+Author-email: nguyenquangthang <nguyenquangthang1997@gmail.com>
+Project-URL: Homepage, https://github.com/nguyenquangthang1997/gas_saver_visualization
+Project-URL: Issues, https://github.com/nguyenquangthang1997/gas_saver_visualization/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
