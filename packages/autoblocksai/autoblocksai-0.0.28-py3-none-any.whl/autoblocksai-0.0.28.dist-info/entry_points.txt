@@ -1,0 +1,3 @@
+[console_scripts]
+autoblocks=autoblocks._impl.cli.main:main
+
