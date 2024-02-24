@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kubespawner_keycloak
+Version: 0.1.2
+Summary: Keycloak integration into kubespawner
+Project-URL: Homepage, https://github.com/lsc-sde/py-kubespawner-keycloak
+Project-URL: Issues, https://github.com/lsc-sde/py-kubespawner-keycloak/issues
+Author-email: Shaun Turner <shaun.turner1@nhs.net>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: importlib-metadata; python_version < '3.10'
+Requires-Dist: jupyterhub-kubespawner
+Requires-Dist: requests
+Description-Content-Type: text/markdown
+
+# kubespawner-keycloak
+Python Module for Keycloak Kubespawner
+
+# Building the python library
+```bash
+python -m build
+```
