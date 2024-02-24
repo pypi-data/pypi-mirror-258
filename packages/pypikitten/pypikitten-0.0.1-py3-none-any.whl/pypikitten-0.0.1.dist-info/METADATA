@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pypikitten
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/HiromiNagamoto20230511/pypikitten
+Project-URL: Issues, https://github.com/HiromiNagamoto20230511/pypikitten/issues
+Author-email: ownner <pypi@cats-in.space>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
