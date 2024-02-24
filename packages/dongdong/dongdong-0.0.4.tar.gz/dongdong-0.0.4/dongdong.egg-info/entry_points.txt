@@ -1,0 +1,2 @@
+[console_scripts]
+dongdong = dongdong.__main__:main

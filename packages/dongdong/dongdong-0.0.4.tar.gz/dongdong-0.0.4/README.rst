@@ -1,0 +1,1 @@
+This package is used to monitor python scripts and push status messages to Bark, WeChat, DingTalk, Teams and Desktop.
