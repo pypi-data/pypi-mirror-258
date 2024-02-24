@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dt-distance
+Version: 0.1.4
+Summary: A library for calculating the distance between two decision trees
+Author: Vassilis Digalakis Jr
+Author-email: vvdigalakis@gmail.com
+License: MIT
+Keywords: decision trees,distance
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+
