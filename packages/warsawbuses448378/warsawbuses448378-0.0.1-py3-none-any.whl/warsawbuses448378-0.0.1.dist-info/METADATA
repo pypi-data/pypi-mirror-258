@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: warsawbuses448378
+Version: 0.0.1
+Summary: Analysing buses traffic in Warsaw
+Home-page: UNKNOWN
+Author: Michal Nowicki 
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: python,bus
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: opencv-python
+Requires-Dist: pandas
+Requires-Dist: warsaw-data-api
+Requires-Dist: shapely
+
+UNKNOWN
+
+
