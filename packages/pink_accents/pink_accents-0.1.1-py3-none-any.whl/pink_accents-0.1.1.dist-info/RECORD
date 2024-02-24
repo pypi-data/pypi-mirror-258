@@ -1,0 +1,15 @@
+pink_accents/__init__.py,sha256=pzPrnXKPBiFez5dDUnxvCP9W7snTKdaFh8rmSOwIiqk,961
+pink_accents/__main__.py,sha256=kQoPkhpVqUokNoaLzTF3bxDmOSXXni9_muZnRs86nlY,101
+pink_accents/accent.py,sha256=pQCU7aXv--PAzA8ANO4qLLWm5CW8FQcvSJboP67_QOY,5076
+pink_accents/cli.py,sha256=3wKZ0U_I-tUOvhguXFWJSECS8bBTKea_SK0GsD9YiLw,2661
+pink_accents/context.py,sha256=1F4potbduIGpgsspNDA3KLhUFZEPri3kbsXAnrC6HLY,1078
+pink_accents/errors.py,sha256=FDDfxJnCn4Qe5n3PCDGITWf-5CqMSUtHNADLugzkQlc,672
+pink_accents/match.py,sha256=Je7hNj5SrzlnIvWo96EQSTd3d2UWdM9Nw0Xc8x0uLGc,755
+pink_accents/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pink_accents/replacement.py,sha256=ex2GzV-KMs6uaqju5g771TAgWvaqnmj5pHMKRZTNdIw,7743
+pink_accents/types.py,sha256=_cX-Zk9or9cT1nfdxhaYnCyYEqiB93MCFoJMtuYdnNU,665
+pink_accents-0.1.1.dist-info/METADATA,sha256=-BRvtuCbfVff7Ng6s80a-axvq8XmpoOzcU5Dh7A2fNE,2212
+pink_accents-0.1.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pink_accents-0.1.1.dist-info/entry_points.txt,sha256=9Q3zJFxhwX54FehyiePjCn-85onRj7M_nYDO3wOxhGw,60
+pink_accents-0.1.1.dist-info/licenses/LICENSE,sha256=h8E0W0qUVdq4FUrO1P8kysT9tEHgrPscRP-wplTZxhU,1081
+pink_accents-0.1.1.dist-info/RECORD,,

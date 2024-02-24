@@ -1,0 +1,2 @@
+[console_scripts]
+pink_accents = pink_accents.__main__:main
