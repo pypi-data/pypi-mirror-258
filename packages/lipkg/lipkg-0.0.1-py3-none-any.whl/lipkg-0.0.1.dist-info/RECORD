@@ -1,0 +1,17 @@
+lipkg/__init__.py,sha256=OVGRDelc2cdMCcWfzWGioxVQz8-z0zAv_AWEBjy2pG0,18
+lipkg/pack/__init__.py,sha256=AwGM37EGdE9xUtSc0PgezTTYkH_A9nWYxENDnPVKm4k,702
+lipkg/pack/dog.py,sha256=3ABbjnAWgaDYLuYyGfTA1b2bgnWbUOTeVfg3YREro5o,161
+lipkg/pack/human.py,sha256=v7gQzlDjckyDh0gjmFvOBEMajeTqzwdmK5zqoWTJatU,157
+lipkg/pack/game/__init__.py,sha256=JCBngRLOIR7g-JunMs21FPr-MEvM2YBsnsKGNs7M0c0,45
+lipkg/pack/game/dou_di_zhu.py,sha256=eKzC8riA7w7jUMkF5hlmnbu1VYg438oo0dS0VGCsJyE,71
+lipkg/pack/game/yxlm.py,sha256=Ddbt_Jr3062Xme7hGcCmJdnygA_078LUB2Y8vxK-QQs,138
+lipkg/pack/game/chiji/__init__.py,sha256=n3Tb9nOyZXceRPAKBA_VG0YP_HTrDkUJlYg4cJzf6js,94
+lipkg/pack/game/csgo2/__init__.py,sha256=5yzlQtdyL4oWhWtrfDkH5JmFrIruoiu0M_AQAhhxNvQ,47
+lipkg/pack/learn/__init__.py,sha256=dnZX-bC4TSffYbm00eoM2C2-dTEDeQhC1l38NhkUm_8,108
+lipkg/pack/learn/chinese/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lipkg/pack/learn/english/__init__.py,sha256=QgPXiPUb57OfGN4sgxvUMkghNvGRwUaIKPPLP0VdxUU,41
+lipkg-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+lipkg-0.0.1.dist-info/METADATA,sha256=iuqBe0Q-R7UFTZE_CbJBC0HFOy7aAAP2rEcuxNSEv7A,690
+lipkg-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lipkg-0.0.1.dist-info/top_level.txt,sha256=gF7hdewQ62toohtH2_Yjs1ihPuyWx00q-HkvpoCkaXw,6
+lipkg-0.0.1.dist-info/RECORD,,
