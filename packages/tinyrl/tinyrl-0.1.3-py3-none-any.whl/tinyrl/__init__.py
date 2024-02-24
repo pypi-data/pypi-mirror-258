@@ -1,0 +1,1 @@
+from tinyrl.src import *
