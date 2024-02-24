@@ -1,0 +1,9 @@
+mdxcanvas/__init__.py,sha256=qc1nrmPK3uchdmrR7pOfPWHIeKr6IDhQ1YaVc0s79ps,156
+mdxcanvas/canvas_creator.py,sha256=pznU0FVNzqWVuVLDnYgKnOqJVY-PKgG53rHQAuiRDRA,19568
+mdxcanvas/deploy.py,sha256=2Mwtn_iaszTuotu6Xa73VpgPstGXAtx9qo8qlw9CuME,908
+mdxcanvas/parser.py,sha256=bkWZ1bI6jK4s3zByTio3auvVZv1zlo6qSFTajR0maJI,25295
+mdxcanvas-0.0.4.dist-info/LICENSE,sha256=oB3hA0YO-CaRruKFNFX39MzraymCi9a4WIYfwEYhiSM,1065
+mdxcanvas-0.0.4.dist-info/METADATA,sha256=eiduo_1XKiNo89_0QgYFE2X6p8g-m1SqUbhiN0QLU1E,669
+mdxcanvas-0.0.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+mdxcanvas-0.0.4.dist-info/entry_points.txt,sha256=lmpwKohyYxY8TgIvIYvvPb1lldfA3bUYu4QOqBFgHmw,52
+mdxcanvas-0.0.4.dist-info/RECORD,,
