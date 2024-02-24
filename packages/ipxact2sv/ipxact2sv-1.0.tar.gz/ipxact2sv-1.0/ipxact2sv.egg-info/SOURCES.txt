@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+bin/ipxact2sv
+ipxact2sv/__init__.py
+ipxact2sv/ipxact2hdlCommon.py
+ipxact2sv/validate.py
+ipxact2sv.egg-info/PKG-INFO
+ipxact2sv.egg-info/SOURCES.txt
+ipxact2sv.egg-info/dependency_links.txt
+ipxact2sv.egg-info/not-zip-safe
+ipxact2sv.egg-info/requires.txt
+ipxact2sv.egg-info/top_level.txt
