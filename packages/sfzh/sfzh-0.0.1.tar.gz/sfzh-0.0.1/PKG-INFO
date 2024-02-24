@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sfzh
+Version: 0.0.1
+Summary: 中国公民身份证号码的解析，校验与生成
+Home-page: http://tbstxl.wikidot.com/sfzh
+Author: ykm
+Author-email: 18678617683@163.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
