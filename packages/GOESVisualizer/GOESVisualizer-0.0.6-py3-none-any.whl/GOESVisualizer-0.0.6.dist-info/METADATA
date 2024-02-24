@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: GOESVisualizer
+Version: 0.0.6
+Summary: A simple tool to visualize GOES16/17
+Author: Amir Souri
+Author-email: ahsouri@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: boto3 (==1.24.28)
+Requires-Dist: botocore (==1.27.28)
+Requires-Dist: Cartopy (==0.21.1)
+Requires-Dist: matplotlib (==3.5.2)
+Requires-Dist: netCDF4 (==1.6.5)
+Requires-Dist: numpy (==1.21.5)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: Pillow (==10.2.0)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: xarray (==0.20.1)
+
+[![DOI](https://zenodo.org/badge/389640097.svg)](https://zenodo.org/badge/latestdoi/389640097)
+
+# GOESVisualizer
+
+A simple toolbox to retrieve/visualize/save GOES16(east) and GOES17(west) RGB image over a region of interest
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install GOESVisualizer.
+
+```bash
+pip install GOESVisualizer
+```
+
+## Usage
+
+see example.py
+
+or
+
+```bash
+from GOESVisualizer import GSVis
+
+GSobj = GSVis('west', 2021, 7, 20, 12, -125, -117, 35, 45, gamma = 2.5)
+
+```
+you have two options here: either make a snapshot for the given time or loop over days/hour;
+if you just want a snapshot follow this:
+
+```bash
+GSobj.snapshot()
+
+GSobj.savepics()
+
+```
+
+if you are interested in animating a series of images, follow this:
+
+```bash
+GSobj.loop(21,4)
+GSobj.savepics()
+GSobj.animate()
+
+```
+
+Pictures or animated gif will be stored under /pics/
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
