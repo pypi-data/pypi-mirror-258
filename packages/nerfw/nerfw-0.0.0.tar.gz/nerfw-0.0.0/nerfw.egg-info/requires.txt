@@ -1,0 +1,13 @@
+python-dotenv
+flask
+pyjwt
+authlib
+requests
+patreon
+
+[dev]
+black
+pylint
+pytest
+sphinx
+sphinx-rtd-theme
