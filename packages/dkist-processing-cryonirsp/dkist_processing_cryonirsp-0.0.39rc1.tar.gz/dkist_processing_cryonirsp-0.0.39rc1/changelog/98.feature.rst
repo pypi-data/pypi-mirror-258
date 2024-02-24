@@ -1,0 +1,1 @@
+Added time-based computation of flux-scaled, fringe-removed, lamp gain to correct for spectral lines leaking into the average solar gain images. This problem will be resolved by the installation of a new optical filter.
