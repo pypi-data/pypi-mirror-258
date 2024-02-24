@@ -1,0 +1,8 @@
+ldifparse/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldifparse/parse.py,sha256=4Y7IYwbXnAxB0DTYV2JM8KCXbZRFRbE0P_Fy__K42pI,1939
+ldifparse/run.py,sha256=B2Cyx1RHQqLbAUATu0XIhtU46hBLQApLgSFrwiB8pjM,1021
+ldifparse-1.0.0a1.dist-info/LICENSE,sha256=JFLz_IO6JD-66Eb2CNyflEfYh92gtWFI9Bexs6FPeGw,1061
+ldifparse-1.0.0a1.dist-info/METADATA,sha256=h9L5zteCH-33-KyFQRb01shZ55dmm90AFbOrIbbmqFg,3072
+ldifparse-1.0.0a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ldifparse-1.0.0a1.dist-info/entry_points.txt,sha256=gmFEZf1fzYcAiKw8DBIrrCL1QjFvzEfZTBn_c23N3Eg,48
+ldifparse-1.0.0a1.dist-info/RECORD,,
