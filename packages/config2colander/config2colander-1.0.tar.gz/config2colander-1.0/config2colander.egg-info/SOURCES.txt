@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+changelog.txt
+setup.py
+config2colander/__init__.py
+config2colander/customfill.py
+config2colander/custominsert.py
+config2colander.egg-info/PKG-INFO
+config2colander.egg-info/SOURCES.txt
+config2colander.egg-info/dependency_links.txt
+config2colander.egg-info/requires.txt
+config2colander.egg-info/top_level.txt
