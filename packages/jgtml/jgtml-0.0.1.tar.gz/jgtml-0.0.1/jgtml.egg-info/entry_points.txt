@@ -1,0 +1,2 @@
+[console_scripts]
+jgtcli = jgtml.jgtcli:main
