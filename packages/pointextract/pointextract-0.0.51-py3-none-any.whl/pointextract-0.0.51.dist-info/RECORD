@@ -1,0 +1,9 @@
+pointextract/__init__.py,sha256=2TA7YdzHwJJm1_bLx59kTHPoG0KfcmIKVx4m9RwqkCI,24
+pointextract/transform.py,sha256=2nKCTZGQxi9o1GXgM01IFIAsF-cE-NaSoCA_s38AmPQ,3092
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_sdle_empty_module.py,sha256=hL0tCkIKkCJvTbkuSs4TeZdS6Fx-QnZuuvPVVTVz090,253
+pointextract-0.0.51.dist-info/LICENSE,sha256=-FKQFqWFTCfIfXKsjgTXy7-4qw5GMdqQUnU6w3RSidM,1492
+pointextract-0.0.51.dist-info/METADATA,sha256=mlvwBIR7U4Zli6_cIgDrYsZfLFcd6jlIlVlk6WFziLY,522
+pointextract-0.0.51.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pointextract-0.0.51.dist-info/top_level.txt,sha256=7M3_qVa-pjUgSmSyBziYVizGfDGijLpH5YLk7L1Zrz0,18
+pointextract-0.0.51.dist-info/RECORD,,
