@@ -1,0 +1,4 @@
+[pennylane.plugins]
+projectq.classical = pennylane_pq:ProjectQClassicalSimulator
+projectq.ibm = pennylane_pq:ProjectQIBMBackend
+projectq.simulator = pennylane_pq:ProjectQSimulator
