@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/docx2msg/__init__.py
+src/docx2msg/mail_props.py
+src/docx2msg.egg-info/PKG-INFO
+src/docx2msg.egg-info/SOURCES.txt
+src/docx2msg.egg-info/dependency_links.txt
+src/docx2msg.egg-info/requires.txt
+src/docx2msg.egg-info/top_level.txt
