@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/cv2ext/__init__.py
+src/cv2ext/_iterablevideo.py
+src/cv2ext/py.typed
+src/cv2ext.egg-info/PKG-INFO
+src/cv2ext.egg-info/SOURCES.txt
+src/cv2ext.egg-info/dependency_links.txt
+src/cv2ext.egg-info/requires.txt
+src/cv2ext.egg-info/top_level.txt
+src/cv2ext/cli/__init__.py
+src/cv2ext/cli/resize_video/__init__.py
+src/cv2ext/cli/resize_video/__main__.py
+src/cv2ext/cli/resize_video/_resize_video.py
