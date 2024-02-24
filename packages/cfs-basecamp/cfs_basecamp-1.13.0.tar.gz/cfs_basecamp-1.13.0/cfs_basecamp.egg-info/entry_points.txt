@@ -1,0 +1,3 @@
+[console_scripts]
+cfs_basecamp = cfs_basecamp:app
+
