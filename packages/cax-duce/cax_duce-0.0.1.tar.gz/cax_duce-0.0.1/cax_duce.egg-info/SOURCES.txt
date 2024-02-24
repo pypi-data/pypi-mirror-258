@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+cax_duce/__init__.py
+cax_duce/main.py
+cax_duce.egg-info/PKG-INFO
+cax_duce.egg-info/SOURCES.txt
+cax_duce.egg-info/dependency_links.txt
+cax_duce.egg-info/requires.txt
+cax_duce.egg-info/top_level.txt
