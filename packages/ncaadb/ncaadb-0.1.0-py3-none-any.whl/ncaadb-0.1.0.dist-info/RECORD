@@ -1,0 +1,9 @@
+ncaadb/__init__.py,sha256=iUu2jyKuC0R5-21kG2TfBrv03Th5oW2NylCoZ2QTFvs,84
+ncaadb/const.py,sha256=jkC8ZW5DNaAEBb4jWqe1c3gsx5IKeaDpkApWYZmEcn0,174
+ncaadb/file.py,sha256=rqRgs5Xvy2XSJuVhKZO6pKP9svIs1Pt6TVfsvXvto7c,2628
+ncaadb/hex.py,sha256=dcccZyif3SlFOESVeAkjiV32QTBg41livoa5-emnoAI,2240
+ncaadb/read.py,sha256=4rzac97qvMZCkfd43Sq_9IFV2WjEJyNyx9MPPihiDfU,4612
+ncaadb-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ncaadb-0.1.0.dist-info/METADATA,sha256=0cgtzjoJkeuQDGBtnxzNSu4RyIp73HlQKLch0P-WMdE,1307
+ncaadb-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+ncaadb-0.1.0.dist-info/RECORD,,
