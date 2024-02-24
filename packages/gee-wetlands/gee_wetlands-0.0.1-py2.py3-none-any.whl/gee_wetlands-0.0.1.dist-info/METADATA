@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: gee_wetlands
+Version: 0.0.1
+Summary: Python Lib for doing wetland classifications in google earth engine
+Author-email: Ryan Hamilton <ryan.hamilton@ec.gc.ca>
+License: MIT License
+Project-URL: Homepage, https://github.com/Hamilton97/gee_wetlands
+Keywords: gee_wetlands
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: all
+Requires-Dist: gee-wetlands[extra] ; extra == 'all'
+Provides-Extra: extra
+Requires-Dist: pandas ; extra == 'extra'
+
+# gee_wetlands
+
+
+[![image](https://img.shields.io/pypi/v/gee_wetlands.svg)](https://pypi.python.org/pypi/gee_wetlands)
+[![image](https://img.shields.io/conda/vn/conda-forge/gee_wetlands.svg)](https://anaconda.org/conda-forge/gee_wetlands)
+
+
+**Python Lib for doing wetland classifications in google earth engine**
+
+
+-   Free software: MIT License
+-   Documentation: https://Hamilton97.github.io/gee_wetlands
+    
+
+## Features
+
+-   TODO
