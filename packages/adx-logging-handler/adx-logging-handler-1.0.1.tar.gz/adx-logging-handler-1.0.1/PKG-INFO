@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: adx-logging-handler
+Version: 1.0.1
+Summary: A python logging handler for Azure Data explorer
+License-File: LICENSE
+Requires-Dist: azure-kusto-data
+Requires-Dist: azure-kusto-ingest
