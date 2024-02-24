@@ -1,0 +1,11 @@
+del_fem-0.1.1.dist-info/METADATA,sha256=Nr3OdzJoQ_uuow4Pu5595OeeIIiYnrZ4Oy85E5__t3M,857
+del_fem-0.1.1.dist-info/WHEEL,sha256=VCgI3oAHpbER3at1pdnksPhkpDosdwB_Gq3l8AyvxhM,147
+del_fem-0.1.1.dist-info/license_files/LICENSE,sha256=cIeBR2kKQ-61JxkVKn7lcjHHB_Sq59mQvgdth32-k9A,1073
+del_fem/LaplacianMatrix.py,sha256=1-iMmkgdXtLiusGzx82GLsPLoKoEPcUy2N5gfT4-B5c,671
+del_fem/MassMatrix.py,sha256=TNqCWBEX8XmwDov61PhWTedey5cMUAnUi2OmjNisVQg,354
+del_fem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+del_fem/Arap.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+del_fem/Mitc3.py,sha256=BNsSxKTjrJM6fn9ypD4eNeovRG2s9CUL60Ad_UtTWY8,1157
+del_fem/LinearSolid.py,sha256=zZmDUy52d6No_fNMP0X9OqAFwg2L_CICGmVJvL3zH40,547
+del_fem/del_fem.cpython-310-darwin.so,sha256=JKo5QnBJjdJWccM7DvX9ZEkndA0pEjIjBUtStLwIr4I,1365818
+del_fem-0.1.1.dist-info/RECORD,,
