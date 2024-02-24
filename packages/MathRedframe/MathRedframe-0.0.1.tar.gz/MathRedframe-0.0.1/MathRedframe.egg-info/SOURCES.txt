@@ -1,0 +1,5 @@
+setup.py
+MathRedframe.egg-info/PKG-INFO
+MathRedframe.egg-info/SOURCES.txt
+MathRedframe.egg-info/dependency_links.txt
+MathRedframe.egg-info/top_level.txt
