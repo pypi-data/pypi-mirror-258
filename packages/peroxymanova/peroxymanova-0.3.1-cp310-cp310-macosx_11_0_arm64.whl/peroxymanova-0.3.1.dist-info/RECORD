@@ -1,0 +1,11 @@
+peroxymanova-0.3.1.dist-info/METADATA,sha256=nICw6wLrrwb2k2X_pY3brq2Qoc63ELo0QPDK3UzyTqg,2984
+peroxymanova-0.3.1.dist-info/WHEEL,sha256=jeGCWsLwsj0vfKZMTZZ2JfENqOHSESYjqgS_dVZx9no,104
+peroxymanova-0.3.1.dist-info/license_files/LICENSE.txt,sha256=9Bu_ohrT0hhYQxkEEAdWEGbajDYhQbSCJrOOw2Nhuts,1068
+peroxymanova/_peroxymanova.py,sha256=gKhLiIyK5Je-7Y0dWlqKvNOZoIfCw5B_axUkwTpKwQU,10341
+peroxymanova/__init__.py,sha256=wuGQ-NGRCAOxz4AOusJNb1YZ9bbe4fKWSnIfunOeYmg,154
+peroxymanova/types.py,sha256=rbOz8eMctSOImkWsOyiC2AXbVDW_4S2Pxt6Icp-6zks,281
+peroxymanova/distance.py,sha256=WDI07TVb4WpVsOtejnf1-Gc6-oDAR0AEpsWWiFaef2U,2856
+peroxymanova/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+peroxymanova/_oxide.pyi,sha256=-QVgrb66sOo2bZN_djQ6Ri3N5vKOqaXvqVJZKgF8Fhw,1773
+peroxymanova/_oxide.cpython-310-darwin.so,sha256=ck-IsVEdJuOZt5pU4Q3K7aTCKudX2_CjGmW-XnNKwnM,685238
+peroxymanova-0.3.1.dist-info/RECORD,,
