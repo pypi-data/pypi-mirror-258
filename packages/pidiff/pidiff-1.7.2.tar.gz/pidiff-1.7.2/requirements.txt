@@ -1,0 +1,5 @@
+jsonschema
+virtualenv-api
+semver
+astroid
+setuptools
