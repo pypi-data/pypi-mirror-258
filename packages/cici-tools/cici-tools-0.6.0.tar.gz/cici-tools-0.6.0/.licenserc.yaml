@@ -1,0 +1,16 @@
+header:
+  - comment: never
+    license:
+      spdx-id: MIT
+      content: |-
+        SPDX-FileCopyrightText: 2024 UL Research Institutes
+        SPDX-License-Identifier: MIT
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.rst"
+      - "**/*.json"
+      - .secrets.baseline
+      - "**/LICENSE*"
+      - MANIFEST.in
+      - requirements.txt
+      - py.typed

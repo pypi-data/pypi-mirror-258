@@ -1,0 +1,17 @@
+# SPDX-FileCopyrightText: 2024 UL Research Institutes
+# SPDX-License-Identifier: MIT
+
+- id: cici-bundle
+  name: cici bundle
+  description: Bundle CI includes into single files
+  language: python
+  entry: cici bundle
+  pass_filenames: false
+  always_run: true
+- id: cici-update
+  name: cici update
+  description: Update CI includes to latest released versions
+  language: python
+  entry: cici update
+  pass_filenames: false
+  always_run: true
