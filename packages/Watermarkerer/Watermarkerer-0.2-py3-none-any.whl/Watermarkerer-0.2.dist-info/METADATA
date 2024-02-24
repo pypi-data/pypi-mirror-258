@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: Watermarkerer
+Version: 0.2
+Summary: Python package to put watermarks to videos or images
+Home-page: https://github.com/NoneNameDeveloper/WaterMarkerer.git
+Author: John Doe
+Author-email: anon@user.com
+License: MIT
+Requires-Dist: pillow ==9.5.0
+Requires-Dist: moviepy ==1.0.3
+
+WaterMarkerer Documentation
+===========================
+
+Introduction
+------------
+
+WaterMarkerer is a Python package for putting watermarks on videos or images.
+
+Installation
+------------
+
+Install WaterMarkerer using pip:
+
+.. code-block:: bash
+
+   pip install WaterMarkerer
+
+Example Usage
+-------------
+
+Here's an example of how to use WaterMarkerer:
+
+.. code-block:: python
+
+   from watermarkerer import WaterMarker
+
+   # Create a WaterMarker instance
+   wm = WaterMarker(obj='input.jpg', output='output_with_watermark.jpg', position='bottom_right')
+
+   # Put the watermark
+   wm.put()
