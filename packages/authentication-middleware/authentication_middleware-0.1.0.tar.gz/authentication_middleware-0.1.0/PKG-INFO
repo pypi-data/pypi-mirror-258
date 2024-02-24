@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: authentication-middleware
+Version: 0.1.0
+Summary: 
+Author: Karl Robeck Alferez
+Author-email: karlalferezfx@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: python-jose[cryptography] (>=3.3.0,<4.0.0)
+Requires-Dist: starlette (>=0.37.1,<0.38.0)
+Description-Content-Type: text/markdown
+
+
