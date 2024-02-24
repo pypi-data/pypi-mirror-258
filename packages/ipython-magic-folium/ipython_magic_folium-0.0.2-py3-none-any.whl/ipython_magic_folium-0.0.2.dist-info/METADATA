@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ipython_magic_folium
+Version: 0.0.2
+License-File: LICENSE
+Requires-Dist: folium
+Requires-Dist: fiona
+Requires-Dist: geocoder
+Requires-Dist: branca
+
