@@ -1,0 +1,12 @@
+pineappl-0.7.4rc1.dist-info/METADATA,sha256=c3unmBY1EK_wXHMOtQjMqu8f8youRgfs2X7NQqROOf0,2417
+pineappl-0.7.4rc1.dist-info/WHEEL,sha256=QWeP2iNVclb1lqJMYxkB3S_jGRNF2KI-alH1eOqR1Tk,95
+pineappl/bin.py,sha256=ykIzAON8xFisyANGJoyagcQGsKBBg6LuV9mzKxiqjf0,536
+pineappl/fk_table.py,sha256=8Bci4sGk9GXzi6hRhf7xrQ4J1jdgNgn34_h9Ggx5uUQ,1754
+pineappl/grid.py,sha256=ReBVJddWgFwuRfTp2HkAIdOdk0EWBftfvoV5gPSODtU,15747
+pineappl/import_only_subgrid.py,sha256=xZ7VO_ULPhhWQJWuEfaS1RohuvSt79rfKseTNqUeFZM,1515
+pineappl/lumi.py,sha256=A9djBgigZoEE_zkoPUfPEynIdlPdgNlsDQJoGgLXQsk,395
+pineappl/subgrid.py,sha256=Yg7Y3BktdS86YUfVziOXWB5B2yduXLrTScR4Gs22LaI,375
+pineappl/utils.py,sha256=sphPCzhHb7_f5q7XWBskR04QFfUyxuESGmIlK7dwekk,449
+pineappl/__init__.py,sha256=k-J_gTSSOZPAUemUOvgqjCBlguzsa8lCgH8GMYaQIPw,117
+pineappl/pineappl.cp311-win_amd64.pyd,sha256=HpnELj4O4-Pn0zduwzWS8s9Z0yhe_3B9bkBpS5ZsF14,1891840
+pineappl-0.7.4rc1.dist-info/RECORD,,
