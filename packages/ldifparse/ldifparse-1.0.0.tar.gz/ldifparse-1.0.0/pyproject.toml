@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ldifparse"
+version = "1.0.0"
+description = "Parse LDIF data into YAML or JSON"
+authors = ["Matteo Bouvier <m.bouvier@vidium-solutions.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/MatteoBouvier/ldifparse"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.9.0"
+pyyaml = "^6.0.1"
+python-ldap = "^3.4.4"
+
+[tool.poetry.scripts]
+ldifparse = 'ldifparse.run:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
