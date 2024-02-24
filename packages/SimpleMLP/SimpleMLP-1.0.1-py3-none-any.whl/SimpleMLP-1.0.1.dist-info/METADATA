@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: SimpleMLP
+Version: 1.0.1
+Summary: test
+Home-page: https://github.com/TheFreezeBee/SimpleMLP
+Author: Freeze
+Requires-Python: >=3.8
+Description-Content-Type: text/plain
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: pytest >=7.0 ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+
+
+## Installation
+You can install the package using pip:
+pip install SimpleMLP
