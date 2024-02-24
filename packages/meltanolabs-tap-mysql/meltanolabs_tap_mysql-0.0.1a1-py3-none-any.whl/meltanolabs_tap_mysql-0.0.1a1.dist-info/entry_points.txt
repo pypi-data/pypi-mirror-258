@@ -1,0 +1,3 @@
+[console_scripts]
+tap-mysql=tap_mysql.tap:TapMySQL.cli
+
