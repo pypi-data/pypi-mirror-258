@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+NBIN/errors.py
+NBIN/nbin.py
+NBIN/nbin.pyi
+NBIN/types.py
+NBIN.egg-info/PKG-INFO
+NBIN.egg-info/SOURCES.txt
+NBIN.egg-info/dependency_links.txt
+NBIN.egg-info/top_level.txt
