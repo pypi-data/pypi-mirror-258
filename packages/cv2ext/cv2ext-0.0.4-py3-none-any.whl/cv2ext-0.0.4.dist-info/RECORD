@@ -1,0 +1,12 @@
+cv2ext/__init__.py,sha256=KD1nnAqbQg6o6Pk5BvGy5n5loAiCu_W7Lgd13hmyeFk,2105
+cv2ext/_iterablevideo.py,sha256=lLvTeiutsOmuGAWzZg_XwScAlFlT9gGS_QCgovVR3EE,8634
+cv2ext/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cv2ext/cli/__init__.py,sha256=4QYZ3VlNUKnvI-Hn7FAtnT74bZPfMcztQCt6W14iA1M,896
+cv2ext/cli/resize_video/__init__.py,sha256=q1_bbJqcseel68EKnKaqD2wMAAgwMTt0yguvNFYjygk,893
+cv2ext/cli/resize_video/__main__.py,sha256=i3SxyOHeGYoEYnWxAATJcMcm0tFv70NByvH8EOfI5xI,851
+cv2ext/cli/resize_video/_resize_video.py,sha256=Z9jj_8l7aURnAp9htpGwrA22zLNcZsqojGH2H-dPZeo,2392
+cv2ext-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cv2ext-0.0.4.dist-info/METADATA,sha256=WZhcIu2ScYCvOvT5GvjKd4DfBf8g2p3XoQVKBPQdWOA,3684
+cv2ext-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cv2ext-0.0.4.dist-info/top_level.txt,sha256=E6vA4LtEli7bSlfCoYrYZrCD8pjOLndkG4zuOqwhDvk,7
+cv2ext-0.0.4.dist-info/RECORD,,
