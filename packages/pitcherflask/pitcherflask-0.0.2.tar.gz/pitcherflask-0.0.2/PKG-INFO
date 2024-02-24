@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: pitcherflask
+Version: 0.0.2
+Summary: Build a basic flask project without wasting time on setup.
+Home-page: http://github.com/divine-architect/pitcherflask
+Author: divine-architect
+Author-email: solarhatesbeing@gmail.com
+License: MIT
+Keywords: flask web api
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+
+# pitcherflask
+
+pitcherflask is a tool that helps you set up a basic Flask project structure quickly and easily. Inspired by Rust's Cargo, pitcherflask aims to streamline the process of creating Flask web applications by providing a simple command-line interface (CLI).
+
+## Features
+- Project Creation: Create a new Flask project with the required directory structure (templates, static, static/img).
+
+
+
+## Getting Started
+
+To get started with pitcherflask, follow these steps:
+
+
+Install pitcherflask using pip:
+
+```bash
+pip install pitcherflask
+```
+
+Create a new pitcherflask project:
+```bash
+pitcherflask create my_project
+```
+Change into the project directory:
+
+
+```bash
+cd my_project
+```
+Start adding routes, generating templates, and managing static files using the pitcherflask CLI.
+
+## Usage
+
+pitcherflask provides the following commands:
+
+`create <project_name>`: Create a new pitcherflask project. 
+
+
+Feel free to open issues in-case of bugs or suggestions
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
