@@ -1,0 +1,2 @@
+[console_scripts]
+pycircadian = pycircadian.__main__:circadian_main
