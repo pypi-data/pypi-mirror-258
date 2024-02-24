@@ -1,0 +1,10 @@
+redisgrpc/__init__.py,sha256=Ee73PPWp0VPXb7eaJRrtYFc98WbgNnW3rI9HI3kzlv0,1476
+redisgrpc/redisgrpc.py,sha256=HKnKNIVOyXTEkMg-ZLJL3FidgxxufOA4AuIhaRUDS64,2989
+redisgrpc/redisgrpc_pb2.py,sha256=-2EGnYMGOsUt6iSkguaLWOqR2FJHN5bPGtHDUiAXroA,2214
+redisgrpc/redisgrpc_pb2.pyi,sha256=Jl_OKPHvu9CYBj95kBKNiSRi6FEM4LUh69fucNx2dsU,1510
+redisgrpc/redisgrpc_pb2_grpc.py,sha256=Y3TyMsGM3i_22B-uDrhAHTrNfCqSIE2rkBgqZHIEIDw,5375
+redisgrpc-0.3.dist-info/LICENSE,sha256=0plOG36B7ExoukquATB5eEGZv8SxGMRhMKeVxBxbaCo,1060
+redisgrpc-0.3.dist-info/METADATA,sha256=rHehumQ2jdL7WqYtYmm3JUAYXfkfaGbP0owKYZi7OJY,2579
+redisgrpc-0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+redisgrpc-0.3.dist-info/top_level.txt,sha256=Rq3grp3sZM79MZLT2nIIOm2u7RYPWuvlxg78FpL7QNQ,10
+redisgrpc-0.3.dist-info/RECORD,,
