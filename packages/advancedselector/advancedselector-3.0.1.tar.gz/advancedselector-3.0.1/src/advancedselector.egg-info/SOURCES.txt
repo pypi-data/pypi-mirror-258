@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.py
+src/advanced_selector/__init__.py
+src/advanced_selector/colors.py
+src/advanced_selector/keyboard.py
+src/advanced_selector/menu.py
+src/advanced_selector/wrapper.py
+src/advanced_selector/xlib.py
+src/advancedselector.egg-info/PKG-INFO
+src/advancedselector.egg-info/SOURCES.txt
+src/advancedselector.egg-info/dependency_links.txt
+src/advancedselector.egg-info/top_level.txt
