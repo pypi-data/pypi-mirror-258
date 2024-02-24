@@ -1,0 +1,17 @@
+magelang/__init__.py,sha256=Wqhb7Op16ywuJnWp46N6D2UCZtBESb9EZhdjHQQtpVI,107
+magelang/ast.py,sha256=cK95LqU381dHe8yTogSG-cqrsJIDousPfAPabNDwr6w,7066
+magelang/main.py,sha256=GTLBq5VoKCGYtGH2CfRE6bMXV3ukvvZkETySdyYL7B4,2858
+magelang/parser.py,sha256=4NrXiPVhPJRjARNEDzedjjGoObeHLaZ56lif6rLJDr4,6673
+magelang/prefix.py,sha256=C9tCup8E1BeUzm0yUevnCgA3keEWHPiRWOeCqyAJ-ag,3180
+magelang/reduce.py,sha256=gOhe1J2wIjgfYMlSOrPKGQPxAWE0vOmh23nGjMrCjM4,3711
+magelang/repr.py,sha256=n9uDUBodoBTB30ms4jmzysVxu-SiuR8Kk8l46fLQco0,10927
+magelang/scanner.py,sha256=doP9b7DmcN-onF5mbwBQZA3Ef_N-b1jsOJeBw2-SOlQ,9534
+magelang/util.py,sha256=_trfb8Q4cZAyzErOXm2WM0TYwPzvV-uJG7PQ3TjQ5UQ,372
+magelang/codegen/cxx.py,sha256=_c3No8l8Olz1AmQkyq9Bp9MtyTtv5wf1Oik3L4Jd8EY,11667
+magelang/lang/python/cst.py,sha256=wPxwioQp3fFtx1x3GbM0MikRfOhzT9RsEtEqB1dP01w,38099
+magelang/lang/python/lexer.py,sha256=W3rDcLuOcVrG-QyXxtCGo9gCpRhNq3pD5O5dUTq5X_8,268
+magelang-0.1.0.dist-info/METADATA,sha256=G0772asJZ198jZ0Yu_n3W1toOgNJ5SZHNRJLiOA-jYA,5233
+magelang-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+magelang-0.1.0.dist-info/entry_points.txt,sha256=KTFgeae9Ax_3eKJOUH_yzgQBWZ0oeltQ8KzxLWi1et4,39
+magelang-0.1.0.dist-info/top_level.txt,sha256=IqJdj0N9ffnk2Bfk5GY1u0OgCIP5f-PmETN8etEs2S8,9
+magelang-0.1.0.dist-info/RECORD,,
