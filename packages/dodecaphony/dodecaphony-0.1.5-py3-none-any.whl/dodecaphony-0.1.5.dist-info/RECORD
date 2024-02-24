@@ -1,0 +1,16 @@
+dodecaphony/__init__.py,sha256=ENl6FywxAqielkAyZ92028P0sDezWiFSD43SXsx9yXM,75
+dodecaphony/__main__.py,sha256=Cfxkck1m1ENFQH82xCHsb_mIdWjixDJDi2OUdJcT-5s,2849
+dodecaphony/evaluation.py,sha256=FHocDqGfYLU1rXd6FWPOgmh32HVFCQJs56QdiKvEXjI,37795
+dodecaphony/fragment.py,sha256=GmggH8DAhL4XJF1JWqX-tk6p3C8VexmWR4VPtwmor0k,24443
+dodecaphony/music_theory.py,sha256=gp44fs_ID3Kz0Gt6osU9UVruLDVNx4pvHE096kg4tUk,8102
+dodecaphony/optimization.py,sha256=wb-8iAYfjUj0Ps6RlHWI7PVivuHH-YOhx4GZ9NfAdCA,10757
+dodecaphony/rendering.py,sha256=Va-SMxdx6FA2Hd7DOYGQHzdJuasBT6OvLA3_c_5RSGg,19126
+dodecaphony/transformations.py,sha256=W7Uzn3vu5KGR4bF5ykCdt9aqS-27wyMgO6_pNhmCyxE,11542
+dodecaphony/utils.py,sha256=hjuq3H1yVpuPmw2HX4_AyEXJGcsT4ZPqtliccyWaUzA,2156
+dodecaphony/configs/default_config.yml,sha256=GkAzQ7egAXRIs9oWH7URICNGTRdoFaX8zPuLGN0xRD0,11416
+dodecaphony/configs/sinethesizer_presets.yml,sha256=CJzLDv10k0hbuG44ufbMUn7NUuqVHEaL8RBXESFHWbU,56632
+dodecaphony-0.1.5.dist-info/LICENSE,sha256=c3UFssIfwF6EZFXmk66JLwgsar--IlwsVadDFnMzysE,1072
+dodecaphony-0.1.5.dist-info/METADATA,sha256=qb-_QXpS0v2RRJO_GYr_JqKA6FMXgzRKhN4SibCuieI,3242
+dodecaphony-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dodecaphony-0.1.5.dist-info/top_level.txt,sha256=_oJlr4scOlkIse828PSYgamfcbjl1aPUBLaYn7dzJp4,12
+dodecaphony-0.1.5.dist-info/RECORD,,
