@@ -1,0 +1,14 @@
+dongdong/BarkNotificator.py,sha256=Y6Nt57sPbW877MsI90kffeG_06-R7Z84F5hVukxYOBY,6821
+dongdong/DesktopNotificator.py,sha256=8GRITXAD7qpl_y02C9ygqNY9lHKLr7TryXh0nJmSNds,5731
+dongdong/DingTalkNotificator.py,sha256=B27dmpfjse5M3A6myjSpUzR7Vbw_J5RaPckGF6zA72Q,8853
+dongdong/SetConfigures.py,sha256=QuUn3nXQ65oLKRvzq8a6WHXa0OA3JyX43cx-vBQ6ASI,1585
+dongdong/TeamsNotificator.py,sha256=KX1yUGhfwaXprVHpFSHLNKUq7nv2Bw_pWuERI0KrjhE,5380
+dongdong/WechatNotificator.py,sha256=xEIX1HekfNZyQhFnWBJNeL5c1BIIXZvT8E0y18GSxvI,6474
+dongdong/__init__.py,sha256=SOI3OxMb6ljF1JwH3nG3vA3FO5iRbQz13yAg8NibFrc,285
+dongdong/configure.py,sha256=sLCSdtfD_JgmyV-G2kXEJX-N5y5mr5-ybRL54JWg7OA,265
+dongdong-0.0.3.dist-info/LICENSE,sha256=XSRH_d3vWBw3plQUf0D5TUjMmjPAECTdHb-rIEf_xXQ,1067
+dongdong-0.0.3.dist-info/METADATA,sha256=AJx9c6sRuRuC6PTemjP7lZANBEhqAl81hxHaHdJq7to,834
+dongdong-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dongdong-0.0.3.dist-info/entry_points.txt,sha256=1PTatfr4rvs3dyIFXAXqbJHShqkf32hzHlwcEgKmsto,52
+dongdong-0.0.3.dist-info/top_level.txt,sha256=i0WZXcAS1WjBihpKjdtiLsC4dWSBtnYGDV1gRCjN26c,9
+dongdong-0.0.3.dist-info/RECORD,,
