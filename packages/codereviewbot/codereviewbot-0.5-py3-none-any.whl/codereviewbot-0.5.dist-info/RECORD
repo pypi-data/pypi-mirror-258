@@ -1,0 +1,15 @@
+codereviewbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codereviewbot/author.py,sha256=EfY9m_fctG20j6HVLT59WKxgxrScbMJroGGlqKuC3BY,744
+codereviewbot/codereviewbot.py,sha256=UeqUbCeQL6CEjf15x4AQeqmDjCBZDneYgwfMwENRFNQ,1778
+codereviewbot/constants.py,sha256=j7uLy7p6XRsfRy9hPhOpRFnVxpB-7bzAXhGH_8QlUYU,1146
+codereviewbot/gitOperations.py,sha256=qlWnQ-k6BEykB77GZRU3Hpr9V22FWAy46zkTeOASE04,3887
+codereviewbot/main.py,sha256=9_sSM3yUWtaXG2K9bOL7p71FXregOS0Mc0iFBmVkcwY,1786
+codereviewbot/read_config.py,sha256=whWR7A_gqlttt1oQT_LBtSfDow-mMxh6c3lklj55bVM,587
+codereviewbot/reviewCode.py,sha256=N87nFqnIT8133gt4LDsKXW9Y3UFajlTPK8HeNgFQlCs,7472
+codereviewbot/reviewer.py,sha256=eNWe0wH2tOUTXsn_ISB7_BNmVIAntrRO2r51JuBOgMA,1751
+codereviewbot/utilities.py,sha256=ARnkd_bPYJIjUITD-b4YIDNzF6dNJh_BNgfh76pkGPw,114
+codereviewbot-0.5.dist-info/LICENSE.txt,sha256=Qdz1cMi66FSH3kAGJ92SfltOWRF8nt21PXF0J-zeyRQ,1059
+codereviewbot-0.5.dist-info/METADATA,sha256=dBwufBm-bLUyVQeTx2bZN9qbRvj5Ht2cUOhzsI2kxJQ,449
+codereviewbot-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+codereviewbot-0.5.dist-info/top_level.txt,sha256=2ZkXG5E4kHfffGDr_U_gGcoDYVjNd1_Ss_FUx7qs7D0,14
+codereviewbot-0.5.dist-info/RECORD,,
