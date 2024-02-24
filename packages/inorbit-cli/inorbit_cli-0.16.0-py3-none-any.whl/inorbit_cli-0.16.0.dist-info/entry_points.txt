@@ -1,0 +1,2 @@
+[console_scripts]
+inorbit = inorbit.cli:cli
