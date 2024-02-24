@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+parrypdf/__init__.py
+parrypdf/pdf2image.py
+parrypdf/pdf2text.py
+parrypdf.egg-info/PKG-INFO
+parrypdf.egg-info/SOURCES.txt
+parrypdf.egg-info/dependency_links.txt
+parrypdf.egg-info/top_level.txt
