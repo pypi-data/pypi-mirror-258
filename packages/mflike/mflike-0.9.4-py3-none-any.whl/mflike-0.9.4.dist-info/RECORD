@@ -1,0 +1,12 @@
+examples/mflike_example.yaml,sha256=HBHtv9nAzi8u1eAAMRsZ3rDAjQFXOUmsBQgFz1mpei4,1468
+mflike/MFLike.yaml,sha256=9y_1PjAtIoPZyA5pxmDJ-Jz1ED8yK4cdAidRNazv1XQ,6443
+mflike/__init__.py,sha256=BbFIqnPa3LoSioE8zF0kw_xOrf-2-sdQbnLx-gdPW1Q,27
+mflike/_version.py,sha256=N2r6Pxbr0xZx1XwnfGZ1tTgnRDaJpNzOV5NmOdJYA4A,411
+mflike/mflike.py,sha256=2akAPl7NBkDICw5kv6b-gNUEzbg3KkCas0vv6XjSXUc,15501
+mflike/theoryforge.py,sha256=DVfLFzadcMYlLiNNAHnZih_5BCtUO3i7TBlKABf7-AE,19456
+mflike/tests/test_mflike.py,sha256=vAYidYm9oVCSN2pzYO2627WqP5C3KSinBvowtEy-RN4,5739
+mflike-0.9.4.dist-info/LICENSE,sha256=9BmfXNGK6vPw4R2N0Srx8mnJ4v2OthTWWXp2AamxMws,1553
+mflike-0.9.4.dist-info/METADATA,sha256=X_x8nXRpRQlLhrxZtLd0FSYBGNTxCguptajz5L9zoXg,6804
+mflike-0.9.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mflike-0.9.4.dist-info/top_level.txt,sha256=IbB4E4BhWVsH4PIzSv8hW29NhbRs9EwLwX7IXOgnW3U,16
+mflike-0.9.4.dist-info/RECORD,,
