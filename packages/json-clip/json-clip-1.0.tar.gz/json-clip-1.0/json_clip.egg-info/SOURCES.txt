@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+json_clip.egg-info/PKG-INFO
+json_clip.egg-info/SOURCES.txt
+json_clip.egg-info/dependency_links.txt
+json_clip.egg-info/entry_points.txt
+json_clip.egg-info/top_level.txt
