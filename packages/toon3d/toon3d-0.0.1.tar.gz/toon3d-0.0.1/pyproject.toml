@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "toon3d"
+version = "0.0.1"
+description = "toon3d package"
+requires-python = ">=3.7.3"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python",
+]
+dependencies = [
+    "black",
+    "h5py",
+    "mediapy",
+    "ipykernel",
+    "kmeans_pytorch",
+    "kornia>=0.7.0",
+    "rich>=12.5.1",
+    "scikit-learn",
+    "torchtyping",
+    "transformers==4.35.2",
+    "tyro>=0.4.0",
+    "opencv-python",
+    "colour-science",
+    "tqdm",
+    "scikit-image",
+    "ffmpeg",
+    "pycocotools", 
+    "matplotlib", 
+    "onnxruntime", 
+    "onnx",
+    "gdown==5.0.0",
+    "diffusers>=0.25.1",
+    "wandb>=0.16.2",
+    "peft>=0.6.0"
+]
+
+[tool.setuptools.packages.find]
+include = ["toon3d*"]
