@@ -1,0 +1,2 @@
+[console_scripts]
+cnv-phenopacket = phenopacket.cnv_phenopacket:tsv_to_phenopacket
