@@ -1,0 +1,3 @@
+[console_scripts]
+ssb-libtest75=ssb_libtest75.__main__:main
+
