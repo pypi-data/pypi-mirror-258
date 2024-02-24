@@ -1,0 +1,10 @@
+databaselib/__init__.py,sha256=IZwxQkRb4BionOngaGr7PnPXO3dSRan6qaSq7mT_IVw,180
+databaselib/databaseDevFriendlyAbstraction.py,sha256=8-To3PV2BKTsK8ZC85VNW0xqnXT8eW7J08mLD4s7TfY,5908
+databaselib/etodatabaselib.py,sha256=MntsJmFelwkbZHQ70XIwsxsfqWy9J1xul5hvMo6pXbw,9821
+databaselib/etohashlib.py,sha256=SX-H_Gxi3UpWxkA1v5y8T9qdgMuNZEzN705n8r7Ons4,693
+databaselib/helper.py,sha256=HD1BqjGCoafgDQXu2tBNNW-OJzi2uBt3K_KaILAEjY8,266
+eto_mysql_databaselib-1.1.3.dist-info/LICENSE,sha256=O6Az01uzubrb7xw5MCkbAZqA8iDoPEUv3xQw7GQHIZQ,1090
+eto_mysql_databaselib-1.1.3.dist-info/METADATA,sha256=zzbCUti6-n1OphSuR0HScbS9G2FwszL-NmxO4Ff_tCc,6926
+eto_mysql_databaselib-1.1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+eto_mysql_databaselib-1.1.3.dist-info/top_level.txt,sha256=dgymprZZA0XegsdI1Llm8Rllh0mGVNQNZa7iTo9rDn4,12
+eto_mysql_databaselib-1.1.3.dist-info/RECORD,,
