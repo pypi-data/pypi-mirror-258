@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cargo_workspace"
+version = "1.0.2"
+requires-python = ">=3.6"
+authors = [
+    { name = "Oliver Tale-Yazdi", email="oliver@tasty.limo" },
+]
+description = "Parse a cargo workspace and analyze its packages"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ggwpez/py_cargo_workspace"
