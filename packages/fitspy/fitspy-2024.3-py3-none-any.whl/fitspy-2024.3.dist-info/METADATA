@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: fitspy
+Version: 2024.3
+Summary: Fitspy: a generic tool to fit spectra in python
+Author-email: Patrick Quéméré <patrick.quemere@cea.fr>
+License: GPL v3
+Keywords: Fitspy,fit,spectra,spectrum,map,1D,2D,decomposition,Gaussian,Lorentzian,Pseudovoigt,GUI
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Environment :: Console
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: lmfit
+Requires-Dist: parse
+Requires-Dist: dill
+Requires-Dist: pywin32 ; platform_system == "Windows"
+
