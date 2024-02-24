@@ -1,0 +1,5 @@
+__pycache__
+build
+llments.egg-info
+.vscode
+.pytest_cache
