@@ -1,0 +1,14 @@
+setup.py
+codereviewbot/__init__.py
+codereviewbot/author.py
+codereviewbot/constants.py
+codereviewbot/gitOperations.py
+codereviewbot/main.py
+codereviewbot/read_config.py
+codereviewbot/reviewCode.py
+codereviewbot/reviewer.py
+codereviewbot/utilities.py
+codereviewbot.egg-info/PKG-INFO
+codereviewbot.egg-info/SOURCES.txt
+codereviewbot.egg-info/dependency_links.txt
+codereviewbot.egg-info/top_level.txt
