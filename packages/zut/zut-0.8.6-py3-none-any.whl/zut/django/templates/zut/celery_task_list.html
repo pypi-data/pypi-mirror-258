@@ -1,0 +1,89 @@
+{% extends 'zut/layout.html' %}
+{% load zut_tags i18n static %}
+
+{% block title %}{{ _("Tasks") }}{% endblock %}
+
+{% block content %}
+<h1>{{ _("Tasks") }}</h1>
+
+<div id="task-list-toolbar">
+<form method="post" action="{% url 'zut:celery_task_list' %}" class="row row-cols-lg-auto g-3 align-items-center">
+    {% csrf_token %}
+
+    <div class="col">
+        <label for="task-list-action" class="visually-hidden">{{ _("Action") }}</label>
+        <select name="action" id="task-list-action" class="form-select">
+            <option value="" selected>{{ _("Action") }} ...</option>
+            <option value="terminate">{{ _("Terminate selected tasks") }}</option>
+            <option value="revoke">{{ _("Revokate selected tasks") }}</option>
+            <option value="forget">{{ _("Forget selected tasks") }}</option>
+        </select>
+    </div>
+  
+    <div class="col">
+        <button type="submit" class="btn btn-primary">{{ _("Submit") }}</button>
+    </div>
+</form>
+</div>
+
+<table id="task-list" class="table table-sm table-bordered">
+<thead>
+    <tr>
+        <th data-field="_checkbox"></th>
+        <th data-field="id">{{ _("Id") }}</th>
+        <th data-field="name">{{ _("Name") }}</th>
+        <th data-field="params">{{ _("Params") }}</th>
+        <th data-field="worker">{{ _("Worker") }}</th>
+        <th data-field="state">{{ _("State") }}</th>
+        <th data-field="progress">{{ _("Progress") }}</th>
+        <th data-field="details">{{ _("Details") }}</th>
+        <th data-field="start">{{ _("Start") }}</th>
+        <th data-field="end">{{ _("End") }}</th>
+        <th data-field="duration">{{ _("Duration") }}</th>
+    </tr>
+</thead>
+</table>
+
+<hr />
+<h2 class="mb-3">{{ _("Launch a task") }}</h2>
+
+<form method="post" action="{% url 'zut:celery_task_launch' %}" id="task-launch" class="row row-cols-lg-auto g-3 align-items-center">
+    {% csrf_token %}
+    
+    <div class="col">
+        <label for="task-launch-name" class="visually-hidden">{{ _("Name") }}</label>
+        <select name="name" id="task-launch-name" class="form-select" data-placeholder="{{ _('Name') }}" required>
+            <option></option>
+            {% for task in task_list %}
+            <option value="{{ task.name }}">{{ task.display_name }}</option>
+            {% endfor %}
+        </select>
+    </div>
+    
+    <div class="col">
+        <label for="task-launch-args" class="visually-hidden">{{ _("Arguments") }}</label>
+        <input type="text" name="args" id="task-launch-args" class="form-control" placeholder="{{ _('Arguments') }}" />
+    </div>
+    
+    <div class="col">
+        <label for="task-launch-countdown" class="visually-hidden">{{ _("Delay") }}</label>
+        <input type="number" step="any" name="countdown" id="task-launch-countdown" class="form-control" placeholder="{{ _('Delay') }}" />
+    </div>
+  
+    <div class="col">
+        <button type="submit" class="btn btn-primary">{{ _("Launch") }}</button>
+    </div>
+</form>
+
+{% endblock %}
+
+{% block style %}
+    {{ block.super }}
+    {% include 'zut/_style_libs.html' with libs='bootstrap-table,select2' %}
+{% endblock %}
+
+{% block script %}
+    {{ block.super }}
+    {% include 'zut/_script_libs.html' with libs='bootstrap-table,select2' %}
+    {% script_min '{page}' %}
+{% endblock %}

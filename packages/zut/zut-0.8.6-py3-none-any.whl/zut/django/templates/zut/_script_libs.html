@@ -1,0 +1,29 @@
+{% load zut_tags %}
+
+{% if 'bootstrap-table' in libs or 'select2' in libs or 'dirty' in libs %}
+    {% script_lib 'jquery' '3.7.1' 'dist/jquery.min.js' 'sha384-1H217gwSVyLSIfaLxHbE7dRb3v4mYCKbpQvzx0cegeju1MVsGrX5xXxAvs/HgeFs' %}
+{% endif %}
+
+{% if 'dirty' in libs %}
+    {% script_lib 'jquery.dirty' '0.8.4' 'dist/jquery.dirty.js' 'sha384-tIRIrOLgv5hr4FAOMrXg3EE+tTg/1rVw0ngKzyPnc8rvEQ2S05tVzjJIRWV/49VG' %}
+{% endif %}
+
+{% if 'bootstrap-table' in libs %}
+    {% script_lib 'bootstrap-table' '1.22.1' 'dist/bootstrap-table.min.js' 'sha384-GVLHfbEvuGA/RFiQ3MK2ClEJkWYJXABg55t9LpoDPZFGIsSq8xhFlQydm5poV2jW' %}
+    {% if LANGUAGE_CODE|slice:':2' == 'fr' %}
+    {% script_lib 'bootstrap-table' '1.22.1' 'dist/locale/bootstrap-table-fr-FR.min.js' 'sha384-06y5PMbZWShUs943c9AQ6FIA+pUV/cRcMyrwDJx+cs/jOyXeeUGkyCsLGfpzRBTb' %}
+    {% elif LANGUAGE_CODE|slice:':2' == 'ru' %}
+    {% script_lib 'bootstrap-table' '1.22.1' 'dist/locale/bootstrap-table-ru-RU.min.js' 'sha384-GdTPlbY0FGO4WeTj9IUBUsP6RZsLd4zJ2MQXoswGgmmzMD1oFu4W2SZgt23ldYfm' %}
+    {% endif %}
+{% endif %}
+
+{% if 'select2' in libs %}
+    {% script_lib 'select2' '4.0.13' 'dist/js/select2.min.js' 'sha384-JnbsSLBmv2/R0fUmF2XYIcAEMPHEAO51Gitn9IjL4l89uFTIgtLF1+jqIqqd9FSk' %}
+    {% if LANGUAGE_CODE|slice:':2' == 'en' %}
+    {% script_lib 'select2' '4.0.13' 'dist/js/i18n/en.js' 'sha384-IIJ6IHdHK9zqt0rd+auUYZppXprB4ykzj3AjkazkUGd9uVJ+2vAfToQqKcTU25yV' %}
+    {% elif LANGUAGE_CODE|slice:':2' == 'fr' %}
+    {% script_lib 'select2' '4.0.13' 'dist/js/i18n/fr.js' 'sha384-FjG+QnfbXJriyRtK2FM17Yij1UAh3PyFVb8EcZ+toeIX0j1OruipPxkbqbO10046' %}
+    {% elif LANGUAGE_CODE|slice:':2' == 'ru' %}
+    {% script_lib 'select2' '4.0.13' 'dist/js/i18n/ru.js' 'sha384-I4Cimp+WHCHt/Ph/aea67WPteHWcQfcyOdXr4FpDzoTp2vyHYBebYgkmybgXOSXj' %}
+    {% endif %}
+{% endif %}

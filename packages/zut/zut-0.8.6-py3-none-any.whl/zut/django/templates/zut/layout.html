@@ -1,0 +1,88 @@
+{% load zut_tags i18n static %}{% get_current_language as LANGUAGE_CODE %}{% get_current_language_bidi as LANGUAGE_BIDI %}<!doctype html>
+<html lang="{{ LANGUAGE_CODE|slice:':2'|default:'en' }}" dir="{{ LANGUAGE_BIDI|yesno:'rtl,ltr,auto' }}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% block favicon %}<link rel="icon" type="image/png" href="{% static 'zut/logo.png' %}" />{% endblock %}
+
+    {% style_lib 'bootstrap' '5.3.2' 'dist/css/bootstrap.min.css' 'sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN' %}
+    {% style_lib 'bootstrap-icons' '1.11.2' 'font/bootstrap-icons.min.css' 'sha384-c9MVH4yRDZMY+bSlECVISp9U4xBl1dKb5z4x8IgF6lBKTHsh1AtxHBfHiiA+S/Nr' %}
+    
+    {% style_min 'zut/commons/globals.css' %}
+    {% style_min 'zut/commons/layout.css' %}
+
+{% block style %}{% endblock %}
+
+    <title>{% filter suffix_unless_empty:' :: ' %}{% block title %}{% endblock %}{% endfilter %}{% block site_title %}Zut{% endblock %}</title>
+</head>
+<body data-static-prefix="{% get_static_prefix %}" data-media-prefix="{% get_media_prefix %}"{% if debug %} data-debug="true"{% endif %}>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+    <div class="container" id="nav-container">
+        {% block brand %}<a href="{% url 'zut:index' %}" class="navbar-brand"><img src="{% static 'zut/logo-32x32.png' %}" title="{{ _('Home') }}" width="32" height="32" class="d-inline-block align-text-top"></a>{% endblock %}
+        <ul class="me-auto navbar-nav">
+            {% block top_menu %}
+            <li class="nav-item"><a href="{% url 'zut:index' %}" class="nav-link">{{ _("Home") }}</a></li>
+            {% endblock %}
+        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollabsibleContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollabsibleContent">
+            <ul class="me-auto navbar-nav">
+                {% block collapsible_menu %}
+                {% endblock %}
+            </ul>            
+            <ul class="ms-auto navbar-nav">
+                {% if request.user.is_authenticated %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"><i class="bi-person-fill"></i> <span id="username">{{ request.user.username }}</span></a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        {% block user_menu %}
+                        {% if request.user.is_staff %}
+                            <li><a class="dropdown-item" href="{% url 'admin:index' %}"><i class="bi-gear-fill"></i> {{ _("Administration panel") }}</a></li>
+                            <li><hr class="dropdown-divider"></li>               
+                        {% endif %}
+                        {% endblock %}
+                        <li><form method="post" action="{% url 'zut:logout' %}">{% csrf_token %}<button class="dropdown-item" type="submit"><i class="bi-door-closed-fill"></i> {{ _("Log out") }}</button></form></li>                        
+                    </ul>
+                </li>            
+                {% else %}
+                <li class="nav-item"><a class="nav-link" href="{% url 'zut:login' %}">{{ _("Log in") }}</a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    </nav>
+    
+    <div class="container" id="messages-container">
+        {% include "zut/_messages.html" %}
+    </div>
+        
+    <main role="main" class="pb-3">
+    <div class="container" id="main-container">
+        {% block content %}{% endblock %}
+    </div>
+    </main>
+
+    <footer class="text-muted">
+    <div class="container" id="footer-container">
+        <div class="row">
+            <div class="col-6">
+                {% block left_footer %}
+                {% if debug %}<span class="text-danger">DEBUG</span>{% endif %}
+                {% endblock %}
+            </div>
+            <div class="col-6 text-end">
+                {% block right_footer %}
+                {% include 'zut/_lang.html' %}
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    {% script_lib 'bootstrap' '5.3.2' 'dist/js/bootstrap.bundle.min.js' 'sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL' %}
+    {% script_min 'zut/commons/globals.js' %}
+{% block script %}{% endblock %}
+  </body>
+</html>
