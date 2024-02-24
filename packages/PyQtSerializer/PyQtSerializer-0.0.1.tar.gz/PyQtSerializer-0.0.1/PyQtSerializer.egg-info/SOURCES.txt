@@ -1,0 +1,12 @@
+README.md
+setup.py
+PyQtSerializer/PyQtSerializer.py
+PyQtSerializer/Serialize.py
+PyQtSerializer/Serializer.py
+PyQtSerializer/__init__.py
+PyQtSerializer/utils.py
+PyQtSerializer.egg-info/PKG-INFO
+PyQtSerializer.egg-info/SOURCES.txt
+PyQtSerializer.egg-info/dependency_links.txt
+PyQtSerializer.egg-info/requires.txt
+PyQtSerializer.egg-info/top_level.txt
