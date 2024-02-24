@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: coloraura
+Version: 1.0.0
+Summary: A module for Python 3 with text styling with color and gradient support
+Home-page: https://github.com/visuallysynced/coloraura
+Author: VisuallySynced
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+
