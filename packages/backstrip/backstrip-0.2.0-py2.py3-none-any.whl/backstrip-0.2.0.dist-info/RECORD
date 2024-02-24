@@ -1,0 +1,9 @@
+backstrip/__init__.py,sha256=x7tMWKHlaEjrkav5eRop7sE7HECK2PXWg0EcPnp-7cc,365
+backstrip/_backplot.py,sha256=mBCvov1lBkO9ZrcfikpTiUJ1fRGgK6GoKpVYCjCyU3o,11573
+backstrip/_backstrip.py,sha256=_K1TzKhmhnLrGbQosTKvG2Xw5CuC3seEoisuS715Vtc,3482
+backstrip/_get_bbox_generic.py,sha256=z4P-3-BgeLD4EZyVXSU7PKvazCvvOk8nbr8H659HxE0,282
+backstrip-0.2.0.dist-info/LICENSE,sha256=poo0TdjzwCrtm9SoWnJzbKxrLeRg_iCDOYyqop-0qxU,1069
+backstrip-0.2.0.dist-info/METADATA,sha256=9keAyPx2UHqn5pD9DcjpOpZDBTvXADXQ8ZMNDjhqjas,8264
+backstrip-0.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+backstrip-0.2.0.dist-info/top_level.txt,sha256=tO90p-LIp4jghDi9BtYtKDcbL5VmGrpjmzTwHZckz6k,10
+backstrip-0.2.0.dist-info/RECORD,,
