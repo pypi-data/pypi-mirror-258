@@ -1,0 +1,11 @@
+datasets
+librosa
+num2words
+paddlepaddle
+paddlespeech
+pydub
+python-multipart
+soundfile
+speechbrain
+transformers
+zhconv
