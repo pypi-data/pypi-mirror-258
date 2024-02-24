@@ -1,0 +1,10 @@
+networkx_temporal/__init__.py,sha256=BvB3W9ntbJ6bhJNH14IbLurq1W0WTJ6pGsKOTBFsKqc,273
+networkx_temporal/__version__.py,sha256=OoCtYcbm1Q-QkU6WhY8bbpBswX6bDMD9gednauaDMDU,22
+networkx_temporal/base.py,sha256=k6cyuOXNFb7KHYtwtAYYPjr2p3YRio8eFvgZQHn3BD8,22133
+networkx_temporal/networkx_temporal.py,sha256=Ni746IN7AEVXNRxvGt2Ey9v9necmti606lxEPL3QXao,1193
+networkx_temporal/utils.py,sha256=LnAqVDSAa9q24-euwaFQyJ5tWdEBUS9iV5dCIFsizM0,4533
+networkx_temporal-1.0b2.dist-info/LICENSE.md,sha256=bfWbslDsUkcQU1BModyaaVBR1hslb1D3qXj0VOVZKEM,1101
+networkx_temporal-1.0b2.dist-info/METADATA,sha256=QpN8y4vzvsLdo2AsTUjn-9vwqNRzKwaUK0dyPG71HgE,10877
+networkx_temporal-1.0b2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+networkx_temporal-1.0b2.dist-info/top_level.txt,sha256=D-WibDmdgfVnMhiKGQKrW05Q5eYGyIQXclQxBjRq0XY,18
+networkx_temporal-1.0b2.dist-info/RECORD,,
