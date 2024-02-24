@@ -1,0 +1,7 @@
+opentelemetry/exporter/zipkin/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+opentelemetry/exporter/zipkin/version.py,sha256=xAnAlSantzbEuy5Y72fhuZ_KZRQ65dlGzJrPq6_i6r8,608
+opentelemetry_exporter_zipkin-1.23.0.dist-info/METADATA,sha256=Lv_tOw7--RPKZWfe7SVUCV57hIL0R4vX_3NiZy8NSas,2036
+opentelemetry_exporter_zipkin-1.23.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+opentelemetry_exporter_zipkin-1.23.0.dist-info/entry_points.txt,sha256=-M8YPurm_FuYAdyppWvPn40XiXJQNcpmSUvfkz927AA,97
+opentelemetry_exporter_zipkin-1.23.0.dist-info/licenses/LICENSE,sha256=h8jwqxShIeVkc8vOo9ynxGYW16f4fVPxLhZKZs0H5U8,11350
+opentelemetry_exporter_zipkin-1.23.0.dist-info/RECORD,,
