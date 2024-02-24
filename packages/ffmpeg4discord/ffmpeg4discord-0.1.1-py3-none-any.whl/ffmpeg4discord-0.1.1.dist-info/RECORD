@@ -1,0 +1,11 @@
+ffmpeg4discord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ffmpeg4discord/app.py,sha256=-xB-uKOAI3VSUfJdkbOkOQ69D3u8GI9gI-_qqvbWTdM,3167
+ffmpeg4discord/arguments.py,sha256=W5onXchBBOtyDOTV96Pp0HHAoY20zR_QoSWlYATotIA,1486
+ffmpeg4discord/twopass.py,sha256=XwrI3hAcI6syaD9VbMFEgx2kw6Ezw2FALS_aq4V2jFc,8951
+ffmpeg4discord/windows.py,sha256=gXX63u1E5bmRScwP0RAEKJSm8f3_eFOCm2Iesj1QoLc,3326
+ffmpeg4discord/templates/web.html,sha256=ljZhUKD-4zr5zuGvDnRqWblu8fYQbNZku0rfVpqGTHc,7554
+ffmpeg4discord-0.1.1.dist-info/METADATA,sha256=6QyaJeinKIQxBwFQajoJJzDieKDiG4zWu23p_S0BNjc,7706
+ffmpeg4discord-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ffmpeg4discord-0.1.1.dist-info/entry_points.txt,sha256=3_SAPecNBybOztxp0MZhRXTuHg3xYuGHOb8UXU_CM_E,105
+ffmpeg4discord-0.1.1.dist-info/top_level.txt,sha256=cDpnI2NlOK61-zcUSki3AiItpsJYYUWOvFbErJpWP4I,15
+ffmpeg4discord-0.1.1.dist-info/RECORD,,
