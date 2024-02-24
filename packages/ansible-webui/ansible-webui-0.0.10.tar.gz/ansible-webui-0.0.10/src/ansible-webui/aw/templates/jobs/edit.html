@@ -1,0 +1,20 @@
+{% extends "../body.html" %}
+{% load static %}
+{% load util %}
+{% block content %}
+<script src="{% static 'js/jobs/edit.js' %}"></script>
+<a href="/ui/jobs/manage">
+    <button class="btn btn-info aw-btn-action" title="Return">
+        {% include "../button/icon/return.html" %}
+    </button>
+</a>
+
+{% include "../forms/base.html" %}
+
+<a href="/ui/jobs/manage">
+    <button class="btn btn-info aw-btn-action" title="Return">
+        {% include "../button/icon/return.html" %}
+    </button>
+</a>
+
+{% endblock %}
