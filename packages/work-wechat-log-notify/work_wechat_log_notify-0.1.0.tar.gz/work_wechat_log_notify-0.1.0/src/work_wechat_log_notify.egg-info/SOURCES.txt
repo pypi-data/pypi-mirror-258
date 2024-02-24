@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/work_wechat_log_notify.egg-info/PKG-INFO
+src/work_wechat_log_notify.egg-info/SOURCES.txt
+src/work_wechat_log_notify.egg-info/dependency_links.txt
+src/work_wechat_log_notify.egg-info/requires.txt
+src/work_wechat_log_notify.egg-info/top_level.txt
