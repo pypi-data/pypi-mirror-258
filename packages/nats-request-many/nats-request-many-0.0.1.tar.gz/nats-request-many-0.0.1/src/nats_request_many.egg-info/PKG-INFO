@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nats-request-many
+Version: 0.0.1
+Summary: NATS Micro implementation for Python
+Author-email: Guillaume Charbonnier <gu.charbon@gmail.com>
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: <4.0,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: nats-py
+Provides-Extra: build
+Requires-Dist: pip-tools; extra == "build"
+Requires-Dist: build; extra == "build"
+Requires-Dist: wheel; extra == "build"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: invoke; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: mutmut; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-asyncio; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: async-timeout; extra == "dev"
+Requires-Dist: nats-test-server; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: requests; extra == "docs"
+Requires-Dist: mkdocs-gen-files; extra == "docs"
+Requires-Dist: mkdocs-literate-nav; extra == "docs"
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mkdocs-section-index; extra == "docs"
+Requires-Dist: mkdocstrings[python]; extra == "docs"
+Requires-Dist: pymdown-extensions; extra == "docs"
+Requires-Dist: termynal; extra == "docs"
+
+# NATS Request-Many
+
+See usage [here](https://charbonats.github.io/nats-request-many)
