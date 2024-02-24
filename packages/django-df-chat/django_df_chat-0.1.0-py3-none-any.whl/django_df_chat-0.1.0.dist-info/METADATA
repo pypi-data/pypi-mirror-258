@@ -1,0 +1,191 @@
+Metadata-Version: 2.1
+Name: django-df-chat
+Version: 0.1.0
+Summary: Opinionated Django Chat
+Author-email: Apexive OSS <open-source@apexive.com>
+License: MIT License
+        
+        Copyright (c) 2023 Apexive.com
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: homepage, https://apexive.com/
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >4
+Requires-Dist: djangorestframework >=3
+Requires-Dist: django-df-api-drf >=0.0.9
+Requires-Dist: django-model-utils
+Requires-Dist: Pillow
+Requires-Dist: channels ==4.0.0
+Requires-Dist: channels[daphne]
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-django ; extra == 'test'
+Requires-Dist: django-stubs[compatible-mypy] ; extra == 'test'
+Requires-Dist: black ==23.7.0 ; extra == 'test'
+Requires-Dist: ruff ==0.0.284 ; extra == 'test'
+Requires-Dist: httpretty ; extra == 'test'
+Requires-Dist: model-bakery ; extra == 'test'
+Requires-Dist: faker ; extra == 'test'
+Requires-Dist: channels-redis ; extra == 'test'
+
+# django-df-chat
+
+
+## Development
+
+Installing dev requirements:
+
+```
+pip install -e .[test]
+```
+
+Installing pre-commit hook:
+
+```
+pre-commit install
+```
+
+Running tests:
+
+```
+pytest
+```
+
+
+## New Design
+
+### Model Data
+
+
+ChatRoom
+
+- name = str
+- description = str
+- avatar = ImageField
+- type = Enum: 'private_messages', 'group', 'channel'
+- is_public = BooleanField(default=False)  # does appear in search results; can be joined by anyone
+
+RoomUser
+
+- room = ForeignKey(ChatRoom)
+- user = ForeignKey(settings.CHAT_USER_MODEL)
+- muted = BooleanField(default=False)
+- created_by = ForeignKey(ChatUser)
+- last_seen_at = DateTimeField()  # To show how many messages are unread
+
+Somehow we need to manage perms per room:
+- can_add_users
+- can_remove_users
+- can_create_messages
+- can_delete_messages
+- can_delete_own_messages
+- can_edit_messages
+- can_edit_own_messages
+- can_edit_room
+- can_delete_room
+
+
+It could be JSONField with list of permissions. Or separate RoomUserPermission model (room_user fk + permission Enum).
+
+ChatMessage
+
+- room = ForeignKey(ChatRoom)
+- user = ForeignKey(settings.CHAT_USER_MODEL)
+- text = TextField()
+
+ChatMessageMedia
+
+- message = ForeignKey(ChatMessage)
+- chat_media = ForeignKey(ChatMedia)
+- sequence = IntegerField()
+
+
+ChatMedia
+
+- media = FileField
+
+
+ChatMessageReaction
+
+- message = ForeignKey(ChatMessage)
+- user = ForeignKey(settings.CHAT_USER_MODEL)
+- reaction = CharField(max_length=255) -- Constrained in settings: only `like/dislike` or `emoji` or custom text.
+
+
+### API:
+
+- chat_room:
+  - list
+  - create
+  - retrieve
+- room_user:
+  - list
+  - create
+  - retrieve
+  - update
+  - delete
+- chat_message:
+  - list
+  - create
+  - retrieve
+  - update
+  - delete
+- chat_media:
+  - create
+  - retrieve
+- chat_message_reactions:
+  - list (for specific message only or for myself)
+  - create
+  - retrieve
+  - delete
+
+### Use cases:
+
+- Private messages: room with 2 users. Nobody can add other users to the room. Both can delete the room.
+- Group: room where everybody can create a message. Everybody can add other users to the room. Only is_owner can delete the room.
+- Channel: room where only `admin` can create a message. Everybody can add other users to the room. Only is_owner can delete the room.
+
+
+### Flows:
+
+- Send picture to a room:
+  - Create chat_media, retrieve media_id
+  - Create chat_message with media_id
+- Create a chat on 3 people:
+  - Create new room type=group
+  - Create room_user for each user
+  - Create chat_message with text="User X created a chat" and room_id
+- Create a news channel:
+  - Create new room type=channel
+  - Add User to the room with can_add_users=True, can_write_messages=True (and other perms). So user can post news to the channel.
+  - Add create other room_users without perms. So they can read the channel.
