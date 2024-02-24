@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.py
+src/main.cpp
+src/stb/stb_vorbis.c
+src/tinysoundfont.egg-info/PKG-INFO
+src/tinysoundfont.egg-info/SOURCES.txt
+src/tinysoundfont.egg-info/dependency_links.txt
+src/tinysoundfont.egg-info/top_level.txt
+src/tsf/LICENSE
+src/tsf/tsf.h
+test/example.sf2
+test/test_tinysoundfont.py
