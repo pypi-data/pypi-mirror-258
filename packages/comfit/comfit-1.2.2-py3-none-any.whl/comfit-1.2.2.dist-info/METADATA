@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: comfit
+Version: 1.2.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Vidar Skogvoll and Jonas Rønning
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scikit-image
+Requires-Dist: matplotlib
+Requires-Dist: moviepy ==1.0.3
+Requires-Dist: imageio
+Requires-Dist: vtk
+Requires-Dist: PyQt5
+Requires-Dist: mayavi ==4.8.1
+
+UNKNOWN
+
