@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ascii2graph
+Version: 0.3.2
+Summary: Converts ASCII text to a graph (represented as a dictionary of connections and
+Author-email: Radovan Bast <radovan.bast@uit.no>
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Project-URL: Home, https://github.com/bast/ascii2graph
