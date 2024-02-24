@@ -1,0 +1,16 @@
+IsoSpecCppPy.cpython-311-darwin.so,sha256=VQshGxAeF-SSfwXlWSS5BWs3MjL6XS8BCP8-n56KVIM,221904
+IsoSpecPy/Formulas.py,sha256=Y_J1WSgxz60L_nXoIftgSyLS_HoWCA2QpIHzd5kFGJE,1659
+IsoSpecPy/Advanced.py,sha256=ojNpP5zUR9kBSDvlGqbgIpIHDa1oJndI5Jk39v5xhMY,1058
+IsoSpecPy/PeriodicTbl.py,sha256=CLTJJZWJzYDsrvQ8JDWEtGR4gZvOq30C1y62XaKE6Z4,1384
+IsoSpecPy/confs_passthrough.py,sha256=IgAkPjDFNg19Qb7Q4p8geevnfnAIZZmWGZ3Abj52eeQ,268
+IsoSpecPy/IsoSpecPyOld.py,sha256=2KuhegqERcgMw_pzj6JhceYrslpUa8evq1fdW0_TBRg,11058
+IsoSpecPy/__init__.py,sha256=hfxjYX2NHzZRXjC9hKa74KpgxcKQDt2D2dYL9PkIZhQ,428
+IsoSpecPy/IsoSpecPy.py,sha256=S8NA8GNUu76eqIgW9HbMnZ7KUpx_M3ZN2gAu7jhykJI,33819
+IsoSpecPy/Distributions.py,sha256=3jT1b3RilNgjZCWk72YEboHNV5mpwU85mcK1jv0bF9M,2519
+IsoSpecPy/isoFFI.py,sha256=ydKAStz-x4J6ke5AVb2SW3JiBGaOjvuVzT1qGGl0l_c,9705
+IsoSpecPy/approximations.py,sha256=Et1dqEHtS7bTf9HJ4i2lJriKZlVYWqIMV5P6Ll3dQRg,4368
+IsoSpecPy-2.2.2.dist-info/RECORD,,
+IsoSpecPy-2.2.2.dist-info/WHEEL,sha256=qZ5gUYMG4t2JcLLcFLlOXld9g3WjqyANneXZkxLH8gU,110
+IsoSpecPy-2.2.2.dist-info/top_level.txt,sha256=gj-wKSvtFsgo0fxQ7i_S_84VMKuJoqfeVElLCNz4YqM,23
+IsoSpecPy-2.2.2.dist-info/METADATA,sha256=5g3emJ5p7-FmEQu5D7oWecqbw2SnDne_8ZBup_Kr_S8,1292
+IsoSpecPy-2.2.2.dist-info/LICENCE,sha256=v4zbYQAEv_MThbXj7dcIEOzoOKU1x8vdQF-VeuVXp-M,1667
