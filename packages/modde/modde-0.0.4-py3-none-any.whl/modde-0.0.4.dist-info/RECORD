@@ -1,0 +1,16 @@
+modde/__init__.py,sha256=1qSiwaWXvKLEfrMd3qzH-LAAyY34xYQOPi1Bxun78s4,376
+modde/asktellde.py,sha256=nrur9BwWBvOrnnPDgbHGWSqQmazwgKsZoKxX7gIwR0I,7616
+modde/modularde.py,sha256=s8n9HLpdij6Wdvskra7iK90wbHrcBVbf3uXFeSTQSGA,20060
+modde/parameters.py,sha256=57YKlQrliKDzssILKwLia7zU_op54qTVV8LPlYXlw1E,18723
+modde/population.py,sha256=q_T_gd0E22U0XbhmXhLDy-yeLkQfEYkK2e8i2fgFsXg,3037
+modde/sampling.py,sha256=Apir9V4-XHaB4AzYSKpasV53shgkVQ9-LN9VJvRmEHw,476
+modde/utils.py,sha256=fgeKV7RxiP5OToHbJvMisoy7xhbgRM5DdO9fny5vQn8,6773
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/create_expected.py,sha256=wX6ogH8SBGsSr458ivcyvW55UfOUWcEB40SzjlAPsRc,1656
+tests/test_asktell.py,sha256=dzo3QjZY7vQ98AO96ZqCV9_jMyztykf1oaDMpbnGSjc,2372
+tests/test_modularde.py,sha256=Xyg1COLSGJnN_q8Iss_2WfLvZQEu_aaskAkrHMVP7zM,2816
+modde-0.0.4.dist-info/LICENCE,sha256=PfH1M0GK46lcBTk-urTcGPEfzJi4Sx8ktBogwWwNuA8,1075
+modde-0.0.4.dist-info/METADATA,sha256=4gG_qUucbNB4heABCtwplDYcLvQPoX4MPjm-TDpbdbg,3555
+modde-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+modde-0.0.4.dist-info/top_level.txt,sha256=5kE44hh8W84WBrKuY9zzvIBxQOmYYVzLknlKXFrI1lo,12
+modde-0.0.4.dist-info/RECORD,,
