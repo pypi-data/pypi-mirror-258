@@ -1,0 +1,7 @@
+README.md
+setup.py
+solidity_auto_compiler.egg-info/PKG-INFO
+solidity_auto_compiler.egg-info/SOURCES.txt
+solidity_auto_compiler.egg-info/dependency_links.txt
+solidity_auto_compiler.egg-info/requires.txt
+solidity_auto_compiler.egg-info/top_level.txt

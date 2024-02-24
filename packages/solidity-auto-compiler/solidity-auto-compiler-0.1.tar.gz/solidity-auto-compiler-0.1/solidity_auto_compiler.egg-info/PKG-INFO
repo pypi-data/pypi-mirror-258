@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: solidity-auto-compiler
+Version: 0.1
+Summary: Compile your .sol file when modified automatically by giving file path
+Home-page: http://github.com/mustafa-demirci/solidity-auto-compiler
+Author: Mustafa Demirci
+Author-email: your-email@example.com
+License: GNU
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
