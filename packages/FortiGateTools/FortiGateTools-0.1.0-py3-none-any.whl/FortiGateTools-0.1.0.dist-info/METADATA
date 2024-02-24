@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: FortiGateTools
+Version: 0.1.0
+Summary: Tools for FortiGate configuration comparison and MOP operations
+Home-page: https://github.com/yourgithub/FortiGateTools
+Author: Jeremiah Eastwood
+Author-email: cisconomadic@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: urllib3
+Requires-Dist: csv
+Requires-Dist: json
+Requires-Dist: os
+
+FortiGateTools
+Tools for FortiGate configuration comparison and MOP operations
