@@ -1,0 +1,9 @@
+README.md
+setup.py
+solana_inscription_py/__init__.py
+solana_inscription_py/main.py
+solana_inscription_py.egg-info/PKG-INFO
+solana_inscription_py.egg-info/SOURCES.txt
+solana_inscription_py.egg-info/dependency_links.txt
+solana_inscription_py.egg-info/requires.txt
+solana_inscription_py.egg-info/top_level.txt
