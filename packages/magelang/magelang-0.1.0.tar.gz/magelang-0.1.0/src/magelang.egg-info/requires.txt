@@ -1,0 +1,10 @@
+sweetener
+astor
+templaty
+
+[dev]
+check-manifest
+
+[test]
+pytest
+coverage
