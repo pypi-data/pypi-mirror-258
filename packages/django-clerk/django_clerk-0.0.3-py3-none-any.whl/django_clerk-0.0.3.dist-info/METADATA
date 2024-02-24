@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: django-clerk
+Version: 0.0.3
+Summary: Django Integration for Clerk Auth Platform
+Project-URL: Documentation, https://github.com/yesawoo/django-clerk#readme
+Project-URL: Issues, https://github.com/yesawoo/django-clerk/issues
+Project-URL: Source, https://github.com/yesawoo/django-clerk
+Author-email: James Thigpen <james.r.thigpen@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+License-File: LICENSE.txt
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: django>=4.0
+Requires-Dist: pyjwt>=2.8
+Description-Content-Type: text/markdown
+
+# django-clerk
+
+django-clerk is a Django library that integrates with the Clerk authentication platform. It provides seamless integration with Clerk's user authentication and authorization features, allowing you to easily authenticate and manage users in your Django application.
+
+(or at least that's the goal - currently very alpha - thar be dragons)
+
+[![PyPI - Version](https://img.shields.io/pypi/v/django-clerk.svg)](https://pypi.org/project/django-clerk)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-clerk.svg)](https://pypi.org/project/django-clerk)
+
+---
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install django-clerk
+```
+
+Add to apps
+
+```python
+INSTALLED_APPS = [
+    # other apps...
+    'django_clerk',
+]
+```
+
+Add Middleware which sets request.user
+
+```python
+MIDDLEWARE = [
+
+# other middleware...
+
+'django_clerk.middleware.ClerkMiddleware',
+]
+```
+
+The following setting is required.
+CLERK_JWT_PEM_PUBLIC_KEY = "your_public_key_here"
+
+## License
+
+`django-clerk` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
