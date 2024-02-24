@@ -1,0 +1,10 @@
+siger/__init__.py,sha256=TIikv-U3sPtK8FZ-lwJgV58t7Ledf0QW8IZwQaiLBR8,157
+siger/import_siger.py,sha256=mFkPuC73twgGR3SV_cEfTUMUupZiv3_Hj-eXLOPkZvY,40288
+siger/verifica_siger.py,sha256=GanBz22vJOkFbeNvNwNCQ--oLByUeCD2dfmZ24riQ-k,78545
+siger/visualiza_obra.py,sha256=HxddiOQ2W6Zz7dnutKNyz-z88FKMmPq2eU_Ck_YaoY4,24217
+siger/web_siger.py,sha256=j1mMeQvRYJB5gysREVQdvPKNaUiVn6-r8SVfEgwzF0I,22064
+siger-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+siger-0.2.0.dist-info/METADATA,sha256=7_7NZ0nRkhl-LRYJRVPjHlHiq5oTH0TkNL-pMBdvolA,576
+siger-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+siger-0.2.0.dist-info/top_level.txt,sha256=Tbt1gy6TmrblO1TByaIaR0RkPDl8yt9AN36z6TZ1rmY,6
+siger-0.2.0.dist-info/RECORD,,
