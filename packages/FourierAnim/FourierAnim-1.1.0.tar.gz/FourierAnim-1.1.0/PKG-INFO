@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: FourierAnim
+Version: 1.1.0
+Summary: Create visualizations of Fourier series
+Author-email: Shaheer Ziya <shaheer@connect.hku.hk>
+License: MIT License
+        
+        Copyright (c) 2024 Matthew
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/MatthewSummons/FourierAnim.git
+Keywords: math,animation,fourier
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: manim>=0.18.0
+
+# fourier-anim
+
+An animation tool to create visualisations for Fourier Series on top of manimCE
+
+## Installation
+
+Please ensure that manimCE (>v18.0.0) is installed on your machine before using this package. We reccomend running the program in a conda environment. This requires you to install [anaconda](https://www.anaconda.com/download/) or [miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/). Otherwise, you may also wish to install manim locally please refer to the official guide [here](https://docs.manim.community/en/stable/installation.html).
+
+To install this package in a conda environment follow the steps on manim's conda installation [here](https://docs.manim.community/en/stable/installation.html#conda-installation).
+
+Otherwise run the following,
+
+```
+conda create -n my-manim-environment
+conda activate my-manim-environment
+conda install -c conda-forge manim
+```
+
+Finally install the package in the ``
+
+`pip install fourier-a`
+
+## Usage
