@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/adx_logging_handler/__init__.py
+src/adx_logging_handler/adx_handler.py
+src/adx_logging_handler/client.py
+src/adx_logging_handler/ingest_client.py
+src/adx_logging_handler.egg-info/PKG-INFO
+src/adx_logging_handler.egg-info/SOURCES.txt
+src/adx_logging_handler.egg-info/dependency_links.txt
+src/adx_logging_handler.egg-info/requires.txt
+src/adx_logging_handler.egg-info/top_level.txt
