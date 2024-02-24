@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pysparkutilsag
+Version: 0.1.0
+Summary: This project is meant to help pyspark user (Databricks) to get some utility functions.
+Home-page: https://github.com/ashishgargmp/pyspark_utils_agarg
+Author: Ashish Garg
+Author-email: ashishgargmp@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Faker >=23.2.1
+Requires-Dist: pyspark >=3.5.0
+Requires-Dist: wheel >=0.42.0
+Requires-Dist: twine >=5.0.0
+Requires-Dist: setuptools >=69.1.1
+
+# pyspark_agarg_utils
+Provide utility functions for pyspark 
