@@ -1,0 +1,7 @@
+pywin32
+infinity
+os
+time
+datetime
+mysql
+pyautogui
