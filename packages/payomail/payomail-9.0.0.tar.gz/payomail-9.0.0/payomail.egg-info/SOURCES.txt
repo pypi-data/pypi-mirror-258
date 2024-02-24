@@ -1,0 +1,13 @@
+README.md
+setup.py
+payomail/__init__.py
+payomail.egg-info/PKG-INFO
+payomail.egg-info/SOURCES.txt
+payomail.egg-info/dependency_links.txt
+payomail.egg-info/top_level.txt
+payomail/core/__init__.py
+payomail/core/file.py
+payomail/core/mail.py
+payomail/core/strategy.py
+payomail/template/__init__.py
+payomail/template/template.py
