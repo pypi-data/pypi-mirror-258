@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ree-scylla
+Version: 0.0.2
+Summary: Bulk records add into Cassandra or ScyllaDB.
+Author: Reeya Patel and Meet Rathod
+Author-email: 
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: pyarrow
+Requires-Dist: cassandra-driver ==3.29.0
+
