@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: bisos.transit
+Version: 0.2
+Summary: bisos.transit: Misc python modules accessible through the bisos.transit namesapce. Used in bisos and also generally available.
+Home-page: http://www.by-star.net/PLPC/180047
+Download-URL: http://www.by-star.net/PLPC/180047
+Author: Mohsen Banan
+Author-email: libre@mohsen.1.banan.byname.net
+Maintainer: Mohsen Banan
+Maintainer-email: libre@mohsen.1.banan.byname.net
+License: AGPL
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+=========
+bisos.icm
+=========
+
+.. contents::
+   :depth: 3
+..
+
+Overview
+========
+
+BASICS: Modules and facilities that can be used by ICMs and others and
+which do not import icm.
+
+Support
+=======
+
+| For support, criticism, comments and questions; please contact the
+  author/maintainer
+| `Mohsen Banan <http://mohsen.1.banan.byname.net>`__ at:
+  http://mohsen.1.banan.byname.net/contact
+
+Documentation
+=============
+
+Part of ByStar Digital Ecosystem http://www.by-star.net.
+
+This module’s primary documentation is in
+http://www.by-star.net/PLPC/180047
+
+Installation
+============
+
+::
+
+   sudo pip install bisos.aais
+
+Usage
+=====
+
+::
+
+   bin/aaisBpoManage.py
+
+
