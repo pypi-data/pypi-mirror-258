@@ -1,0 +1,11 @@
+mylibrary/ module1.py,sha256=g_XwbfaGzwJNILcZizjfJHXJ57CDAzXYJFwsPEfT-8w,104
+mylibrary/ module2.py,sha256=apqkGjo82XcSgx4erpD27FI4cXexvQ_sZ0Bf1K3q61U,133
+mylibrary/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mylibrary/subpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mylibrary/subpackage/submodule1.py,sha256=vIVRZq-VtJHlnDxGUwVVdQh9d24ozUy9-3E8aYozUSk,132
+mylibrary/subpackage/submodule2.py,sha256=Tsk9rEKVTIUcdbZEyiXgm0a2dqQ7ZDD0twndxdE2oLE,372
+kaviproject-0.2.dist-info/LICENSE,sha256=_9fdY5D6YThUTtdVSL6Mvjym95FegzY9SIVbuFVmpro,1092
+kaviproject-0.2.dist-info/METADATA,sha256=LNSC2jhuMIG9cVY53BuLeR8LlN-Yx3udd2TTnUmAHVM,459
+kaviproject-0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kaviproject-0.2.dist-info/top_level.txt,sha256=qmgk4BZwTMCBa1l_FQ9vfMcdQIvZTFPAkbgZz786anU,10
+kaviproject-0.2.dist-info/RECORD,,
