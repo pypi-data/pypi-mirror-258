@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+czbag_code/main.py
+czbag_code.egg-info/PKG-INFO
+czbag_code.egg-info/SOURCES.txt
+czbag_code.egg-info/dependency_links.txt
+czbag_code.egg-info/not-zip-safe
+czbag_code.egg-info/top_level.txt
