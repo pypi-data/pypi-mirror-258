@@ -1,0 +1,10 @@
+geoca/__init__.py,sha256=NCEB6Y51bsRjgmRvgXahh-vMeQ4topyH2jg-kUAI5I8,124
+geoca/cellularautomata.py,sha256=w2_Bp0vcxOo0sYYgUu9s-21kr0Fj9tfoZ-QSkgXOxco,3410
+geoca/geoca.py,sha256=R-qMGps-0z0pqe6BQXrzEY6jGs4JOsBF7uWY8lwoFWM,91
+geoca/rasterconvert.py,sha256=ZESLq89w7c5Tenb2ZZ59GU4A6VfvB9AHIgfAaNUkQoI,2571
+geoca-0.0.3.dist-info/LICENSE,sha256=yVMmT5dZMVdkU2-rukTFNat-OReQxuqw8c-U-kGndQI,1069
+geoca-0.0.3.dist-info/METADATA,sha256=5mXaz4-8xwWP7f-VlWWIb57Ps79Bze8lwymLlIisN0k,2099
+geoca-0.0.3.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+geoca-0.0.3.dist-info/entry_points.txt,sha256=lfYD0b7XIQ7xCW-9Ut-1GAtnkF33IJBEmeV06mCxjh8,41
+geoca-0.0.3.dist-info/top_level.txt,sha256=iMu9zJaVkGTM-MNSdpIyXP4Nbpt1WlCWTb88GQK2j9E,6
+geoca-0.0.3.dist-info/RECORD,,
