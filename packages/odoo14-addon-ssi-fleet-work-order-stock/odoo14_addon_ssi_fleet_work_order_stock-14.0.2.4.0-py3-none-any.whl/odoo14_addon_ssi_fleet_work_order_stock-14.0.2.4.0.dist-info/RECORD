@@ -1,0 +1,16 @@
+odoo/addons/ssi_fleet_work_order_stock/README.rst,sha256=3Me_KV8q4f6Bm3oF0Ik6-syYwVyPz8K-mBxAdWRngpA,1308
+odoo/addons/ssi_fleet_work_order_stock/__init__.py,sha256=FbIBhTxE0B9t4Qy2J-JOW-Fc0f1Xz43AL15wmxKbCO4,172
+odoo/addons/ssi_fleet_work_order_stock/__manifest__.py,sha256=6zJc0Rr_8RQ2flX58NaJ1L3lu3xFGtcKvlvYmBuNnbk,649
+odoo/addons/ssi_fleet_work_order_stock/models/__init__.py,sha256=8AJlJhS_3Q2CMuRigelllh0xPybUps6nMlOi6L7XSzQ,268
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order.py,sha256=VKyOKAGOJRKvCmq-2iHKT7-KSZEGOqbIJc7QkufsbTQ,3189
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order_manifest.py,sha256=0wboa_RaMEKHAeL7B0Sy4QziXuBmfJhuJdMPV0axVaw,816
+odoo/addons/ssi_fleet_work_order_stock/models/fleet_work_order_type.py,sha256=Zf35-c7xCXzrkmXCGEVfEbDuwlH4NgNi2uZzHJnfiU0,1739
+odoo/addons/ssi_fleet_work_order_stock/models/stock_picking.py,sha256=NQeaeEDjmDaUpeeUydnorqigDz3vYmTIzFXJhEhW5Is,392
+odoo/addons/ssi_fleet_work_order_stock/security/ir.model.access.csv,sha256=3Yj6itxA0nqwypsn5lLkxaMwXJ1qStyq25tZkOxbbl0,237
+odoo/addons/ssi_fleet_work_order_stock/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_fleet_work_order_stock/views/fleet_work_order_type_views.xml,sha256=PMJdf-T6P9nbuFNqzrUjFwic4MF6OrJEAwO1tnz6OIU,2075
+odoo/addons/ssi_fleet_work_order_stock/views/fleet_work_order_views.xml,sha256=rUdsJpxvSj56DoCfTdutb9APzjv2AMQUyjwXOjgCyP4,2611
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.4.0.dist-info/METADATA,sha256=VTT_Sui3iZkH0p6tpW_MNY4IxtRb6khqcjzph8MFzUo,1912
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.4.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_fleet_work_order_stock-14.0.2.4.0.dist-info/RECORD,,
