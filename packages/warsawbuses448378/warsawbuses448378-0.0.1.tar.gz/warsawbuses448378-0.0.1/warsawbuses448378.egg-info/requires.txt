@@ -1,0 +1,4 @@
+opencv-python
+pandas
+warsaw_data_api
+shapely
