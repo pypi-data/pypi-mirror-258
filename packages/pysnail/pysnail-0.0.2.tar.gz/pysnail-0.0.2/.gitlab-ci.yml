@@ -1,0 +1,131 @@
+variables:
+  GITLAB_USERNAME: bohdan.chernykh
+
+stages:
+  - lint
+  - build
+  - deploy
+
+.lint_rules:
+  high_priority:
+    # Allow to run manually in a merge request.
+    - if: $CI_PIPELINE_SOURCE == "web" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+    # Prevent creating duplicate pipelines because pipelines are already created for PUSH events.
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+  regular_priority:
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - "**/*"
+        - "*"
+  low_priority:
+    # For such pipelines, the code is the same, so no reason to run linters
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_PIPELINE_SOURCE == "schedule"
+      when: never
+    # Do not run on Merge Request creation.
+    - if: $CI_COMMIT_BEFORE_SHA == "0000000000000000000000000000000000000000"
+      when: never
+
+pip-audit:
+  image: python:3.11.7-slim-bookworm
+  allow_failure: True # Show only a warning and allow to run tests (our assumption is that this should be safe to do in a test environment).
+  stage: lint
+  before_script:
+    - python -m pip install pip-audit
+  script:
+    - timeout --kill-after=60 5m pip-audit
+  rules:
+    - !reference [.lint_rules, high_priority]
+    - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+      changes:
+        - "pyproject.toml"
+    - !reference [.lint_rules, low_priority]
+    - if: $CI_PIPELINE_SOURCE == "push"
+      changes:
+        - "pyproject.toml"
+
+anything:
+  stage: lint
+  script:
+    - echo "'anything' should be added to a pipeline on change in any file."
+  rules:
+    - !reference [.lint_rules, high_priority]
+    - !reference [.lint_rules, regular_priority]
+    - !reference [.lint_rules, low_priority]
+    - if: $CI_PIPELINE_SOURCE == "push"
+
+# ci_commit_before_sha:
+#   stage: lint
+#   script:
+#     - echo $CI_COMMIT_BEFORE_SHA
+#   rules:
+#     - !reference [.lint_rules, rules]
+#     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+
+# only_py_files:
+#   stage: lint
+#   script:
+#     - echo "only_py_files is triggered"
+#   rules:
+#     - !reference [.lint_rules, rules]
+#     - if: $CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH != $CI_DEFAULT_BRANCH
+#       changes:
+#         - "**/*.py"
+#     - if: $CI_COMMIT_BEFORE_SHA == "0000000000000000000000000000000000000000"
+#       changes:
+#         compare_to: "refs/heads/master"
+#         paths:
+#           - "**/*.py"
+
+# megalinter:
+#   stage: lint
+#   image: oxsecurity/megalinter-python:v7.4.0
+#   script: ["true"] # if script: ["true"] doesn't work, you may try ->  script: [ "/bin/bash /entrypoint.sh" ]
+#   variables:
+#     # All available variables are described in documentation
+#     # https://megalinter.io/configuration/
+#     DEFAULT_WORKSPACE: $CI_PROJECT_DIR
+#     # ADD YOUR CUSTOM ENV VARIABLES HERE TO OVERRIDE VALUES OF .mega-linter.yml AT THE ROOT OF YOUR REPOSITORY
+#   artifacts:
+#     when: always
+#     paths:
+#       - megalinter-reports
+#     expire_in: 1 week
+
+# build-docker-image:
+#   stage: build
+#   image: docker:24.0.6
+#   services:
+#     - docker:24.0.6-dind
+#   before_script:
+#     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+#   script:
+#     - echo "Building docker image..."
+#     - docker build -t $CI_REGISTRY/$GITLAB_USERNAME/$CI_PROJECT_NAME .
+#     - docker push $CI_REGISTRY/$GITLAB_USERNAME/$CI_PROJECT_NAME
+#     - echo "Finished building docker image!"
+
+# pages:
+#   stage: build
+#   image: python:3.11.5-alpine3.18
+#   before_script:
+#     - pip install pdoc
+#   script:
+#     - echo "Building docs..."
+#     - pdoc src/pysnail -o public/
+#     - echo "Finished building docs!"
+#   artifacts:
+#     paths:
+#       - public
+
+publish-package:
+  stage: deploy
+  image: python:3.11.5-alpine3.18
+  environment: production
+  before_script:
+    - pip install build twine
+  script:
+    - echo "Publishing package to PyPI..."
+    - python -m build
+    - TWINE_PASSWORD=$PYPI_MAIN_TOKEN TWINE_USERNAME=$PYPI_USERNAME python -m twine upload dist/*
+    - echo "Finished publishing package to PyPI!"
