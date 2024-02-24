@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "swap-env"
+version = "1.0.1"
+description = "A simple CLI for swapping between .env files"
+authors = ["Ben Berry-Allwood <benberryallwood@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{include = "swap_env", from = "src"}]
+repository = "https://github.com/benberryallwood/swap-env"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+inquirerpy = "^0.3.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+black = "^24.2.0"
+ruff = "^0.2.2"
+pre-commit = "^3.6.2"
+
+[tool.poetry.scripts]
+swap-env = 'swap_env.cli:app'
+
+[tool.pytest.ini_options]
+addopts = [
+  "--import-mode=importlib",
+]
+
+[tool.ruff]
+line-length = 90
+lint.select = [
+  "E",   # pycodestyle
+  "F",   # pyflakes
+  "UP",  # pyupgrade
+]
+
+[tool.black]
+line-length = 90
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
