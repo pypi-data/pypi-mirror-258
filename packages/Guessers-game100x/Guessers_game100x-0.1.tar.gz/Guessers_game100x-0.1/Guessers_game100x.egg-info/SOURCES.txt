@@ -1,0 +1,8 @@
+setup.py
+GuessersGame100x/GuessersGame100x.py
+GuessersGame100x/__init__.py
+GuessersGame100x/numberGuessersGame100x.py
+Guessers_game100x.egg-info/PKG-INFO
+Guessers_game100x.egg-info/SOURCES.txt
+Guessers_game100x.egg-info/dependency_links.txt
+Guessers_game100x.egg-info/top_level.txt
