@@ -1,0 +1,9 @@
+rubik_sim/__init__.py,sha256=AMEClHaziyMry7Rp62ISMkqmAHfgifriNB-WZxMMXxQ,225
+rubik_sim/_version.py,sha256=jdfzPf-GtgwQ9wLYWDBKQ4jWXhblSi5LeMeVaHd7BVI,59
+rubik_sim/cube.py,sha256=ng7Tq6x2MoM14z1LrL90OmPNDF50Jix99goEppNK1IY,17092
+rubik_sim/notations.py,sha256=K1jD-fX0mVVQ_puU2KknnGr8HgkRMNtkUG8R4fXeZZQ,1104
+rubik_sim-1.0.0.dist-info/LICENSE,sha256=LR9zfYro-riFCR2J66STX5iXBAcveCP9xes0SUdJbPw,1064
+rubik_sim-1.0.0.dist-info/METADATA,sha256=niPHErI1Nl15KCt5gJgYI8u9cjVBxgwjKP6ESJzEBVc,2890
+rubik_sim-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rubik_sim-1.0.0.dist-info/top_level.txt,sha256=eAJ3x7TmMRReoiqi3n-BqJlgzwvblS2q4xV7_UDHAeY,10
+rubik_sim-1.0.0.dist-info/RECORD,,
