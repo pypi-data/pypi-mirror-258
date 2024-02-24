@@ -1,0 +1,14 @@
+fast_aug-0.1.0.dist-info/METADATA,sha256=Y5sVvzn8f83JOjmaMgLw_Pg3EaLCC-ay8ds8M8rllzk,4251
+fast_aug-0.1.0.dist-info/WHEEL,sha256=S0rB2hDy1vo9ABZi7A01rQ8AAoGmft-elqksCH-s-Bw,95
+fast_aug/base/__init__.py,sha256=COVKQgdz4OFekvc2ZI5H1IK7rNyW2q9-HWoy-jv3Jlc,142
+fast_aug/base/__init__.pyi,sha256=0mjzF8Q2LvSUpBmxlQKjbboUmi79JgTqcU7wcc2GAAQ,644
+fast_aug/flow/__init__.py,sha256=kXqbA8tQIV5ovgAhYBvktvyySJiTcEWjpnJ-WKReGhA,238
+fast_aug/flow/__init__.pyi,sha256=_dH3GI7uMrM1xwHxPQeinC8YaOejIuLLu3AX3bY3PQg,2361
+fast_aug/models/__init__.py,sha256=fnMJKgD5lOeao5K6HeSmuqzcdleP6eVJ4U1_3WyEnLc,98
+fast_aug/models/__init__.pyi,sha256=XprQgnN5rB3cFsMZkCa_NLFZf_6jmFtJdSQCu7d3xj8,69
+fast_aug/text/__init__.py,sha256=sYBN9AZcj4ue5Ntp-HDLzLTk1L74ruBt-qR81oYPQoY,654
+fast_aug/text/__init__.pyi,sha256=3h6M32aWnmIiYgTDJ0K_qaDsQuNI9GriNkC3usaI9wc,8831
+fast_aug/__init__.py,sha256=M6Wpua2D3PN-dCBjKPiGDFTAh_NrDWRMTn8bgzp_ESY,368
+fast_aug/__init__.pyi,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fast_aug/fast_aug.cp310-win_amd64.pyd,sha256=DNy4MOACqWHINPPC-HtNqaxSsHHkF25UcsdTV3kHx7Q,753152
+fast_aug-0.1.0.dist-info/RECORD,,
