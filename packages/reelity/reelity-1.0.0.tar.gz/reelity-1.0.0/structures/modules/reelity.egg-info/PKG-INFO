@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: reelity
+Version: 1.0.0
+Summary: The dreams that found there way to a canvas.
+License: GPL 3.0 + MongoDB SSPL
+Keywords: custom support required
+Description-Content-Type: text/markdown
+Requires-Dist: bracelet
+Requires-Dist: carbonado
+Requires-Dist: ships
+Requires-Dist: asn1crypto
+Requires-Dist: aztec_code_generator
+Requires-Dist: click
+Requires-Dist: ecdsa
+Requires-Dist: ECPy
+Requires-Dist: flask
+Requires-Dist: rich
+Requires-Dist: selenium
+Requires-Dist: textual
+Requires-Dist: websockets
+Requires-Dist: pycryptodome
+Requires-Dist: PyOpenSSL
+Requires-Dist: pymongo
+Requires-Dist: pyzbar
+Requires-Dist: qrcode
