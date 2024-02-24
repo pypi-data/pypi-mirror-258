@@ -1,0 +1,15 @@
+socketman/__init__.py,sha256=PcU8zlofAsmSAYwhbvz2HdbVUnEZjfbReOnfj5RSNf4,161
+socketman/test.py,sha256=_d51NsobzX_axzjMCCm33YpIDiJrXICaOIXIRb9dX2o,984
+socketman/v2.py,sha256=Llk_vYb_R_LEcX8lkVor8AtzO696nPLeWI_LgBz5xLU,4822
+socketman/v3.py,sha256=v7k8G_eeNGiK8Km2mno9-st3m3HRsantTV4qE5VfNPk,9060
+socketman/version.py,sha256=kcEaTxa4uhrPuZDrQrq9DNyJmK8ICsF5iid5POiybSo,99
+socketman/websocketthread.py,sha256=Uxo4jsWOCS_Fxzm1lK6fhoGIIbDcp3pLD-6xSVZrf1U,7628
+socketman/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socketman/utils/infowrap.py,sha256=25_8IAzbxHxtc7GoJPz4XwWqWYMf969czIrL2KTS0-g,567
+socketman/utils/iptools.py,sha256=VQz7Y9b9P88ctFPgvaKASLTeO7aWJQuUp31PnrdNt-g,1110
+socketman/utils/packing.py,sha256=lnhpEwavqzKbb67nO_vTFDrHZGYFxnSbT1iKzYyHdzA,5696
+socketman-0.2.0.dist-info/LICENSE,sha256=2sgX_PfZhQYX3EYizW2ewMR43cGBq1hGWJiJpiowHks,1083
+socketman-0.2.0.dist-info/METADATA,sha256=eXp2syticGCI38y9lWdUgXfRdlkfiEZPmWSOyRFgzDI,1903
+socketman-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+socketman-0.2.0.dist-info/top_level.txt,sha256=9UWVCwHKpu5SxpzmxY5rFWj1LfLI2vSt0Kqut_TFiW8,10
+socketman-0.2.0.dist-info/RECORD,,
