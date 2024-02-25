@@ -1,0 +1,1 @@
+{"extensions": {"python.commands": {"wrap_console": {"make_tea": "tea_AI.tea:make_tea"}}, "python.details": {"document_names": {"description": "DESCRIPTION.rst"}}, "python.exports": {"console_scripts": {"make_tea": "tea_AI.tea:make_tea"}}}, "generator": "bdist_wheel (0.30.0)", "metadata_version": "2.0", "name": "tea-AI", "summary": "UNKNOWN", "version": "0.1"}
