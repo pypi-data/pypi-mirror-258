@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: mllopenaimanager
+Version: 0.1.2
+License-File: LICENCE.txt
+Requires-Dist: openai >=1.12.0
+
