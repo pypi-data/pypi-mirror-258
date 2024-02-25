@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: webhookpy
+Version: 0.1.0
+Summary: post for webhook
+License: NYSL 0.9982
+Author: nattoujam
+Author-email: Public.kyuuanago@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+[![pytest](https://github.com/nattoujam/webhookpy/actions/workflows/pytest.yml/badge.svg)](https://github.com/nattoujam/webhookpy/actions/workflows/pytest.yml)
+
+# webhookpy
+webhook送信用のコマンド
+
+## Quick Start
+```bash
+pip install webhookpy
+
+name=test       # 登録名
+url=https://... # webhookのURL
+channel=channel # 投稿するチャンネル名
+bot=bot         # botの名前
+
+webhook add $name $url $channel $bot -d
+
+webhook post hello!
+```
+
+## Usage
+```bash
+webhook --help
+```
+
