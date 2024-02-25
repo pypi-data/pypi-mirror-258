@@ -1,0 +1,62 @@
+<div class="col-md-3 pull-right right-side-panel noprint">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <span class="mdi mdi-magnify" aria-hidden="true"></span>
+            <strong>Search</strong>
+        </div>
+        <div class="panel-body">
+            <form action="{{ request.build_absolute_uri }}" method="get" class="form">
+                <div class="input-group">
+                    <input type="text"
+                           name="q"
+                           class="form-control"
+                           placeholder="Search"
+                           value="{{ request.GET.q }}"/>
+                    <span class="input-group-btn">
+                        <button type="submit" class="btn btn-primary">
+                            <span class="mdi mdi-magnify" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div>
+                <br />
+                <div class="text-right noprint">
+                    <button type="submit" class="btn btn-primary">
+                        <span class="mdi mdi-magnify" aria-hidden="true"></span> Apply
+                    </button>
+                    <a href="{{ request.path }}" class="btn btn-default">
+                        <span class="mdi mdi-close-thick" aria-hidden="true"></span> Clear
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="table-responsive">
+    <table class="table table-hover table-headings">
+        <tr>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>Categories</th>
+            <th>Location</th>
+            <th>distance</th>
+        </tr>
+        {% for result in results %}
+            <tr>
+                <td>
+                    <a href="{{ result.url }}" target="_blank">{{ result.name }}</a> <span class="badge">{{ result.price }}</span>
+                </td>
+                <td>{{ result.rating }}</td>
+                <td>
+                    {% for item in result.categories %}
+                    {{ item.title }}{% if not forloop.last %},{% endif %}
+                    {% endfor %}
+                </td>
+                <td>{{ result.address|safe }}</td>
+                <td>
+                    {{ result.distance_kilometers }} km <br />
+                    {{ result.distance_miles }} miles
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+</div>

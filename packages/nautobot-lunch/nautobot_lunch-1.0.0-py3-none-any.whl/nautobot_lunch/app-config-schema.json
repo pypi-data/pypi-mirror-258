@@ -1,0 +1,17 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://raw.githubusercontent.com/nlgotz/nautobot-app-lunch/develop/nautobot_lunch/app-config-schema.json",
+    "$comment": "TBD: Update $id, replace `develop` with the future release tag",
+    "type": "object",
+    "properties": {
+        "yelp_api_key": {
+            "type": "string",
+            "default": "Qq_"
+        },
+        "cache_time": {
+            "type": "string",
+            "default": "3600"
+        }
+    },
+    "additionalProperties": false
+}
