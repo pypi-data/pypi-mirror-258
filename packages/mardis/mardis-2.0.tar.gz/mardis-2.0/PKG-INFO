@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mardis
+Version: 2.0
+Summary: Auto decompile marshal
+Home-page: https://github.com/kapten-kaizo/mardis-test
+Author: kapten-kaizo
+Author-email: kapten-kaizo@gmail.com
+License: MIT
+Download-URL: https://github.com/kapten-kaizo/mardis-test/archive/refs/tags/2.0.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
