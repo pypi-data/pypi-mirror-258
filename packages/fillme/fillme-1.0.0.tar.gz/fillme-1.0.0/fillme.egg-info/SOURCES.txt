@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+fillme/__init__.py
+fillme/__main__.py
+fillme.egg-info/PKG-INFO
+fillme.egg-info/SOURCES.txt
+fillme.egg-info/dependency_links.txt
+fillme.egg-info/entry_points.txt
+fillme.egg-info/requires.txt
+fillme.egg-info/top_level.txt
