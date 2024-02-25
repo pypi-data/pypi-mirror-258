@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+petcmd/__init__.py
+petcmd/commander.py
+petcmd.egg-info/PKG-INFO
+petcmd.egg-info/SOURCES.txt
+petcmd.egg-info/dependency_links.txt
+petcmd.egg-info/top_level.txt
