@@ -1,0 +1,11 @@
+tree_sitter_requirements/__init__.py,sha256=wa2vQ-E8MqtpcsjWpuoZs7nyAsnXAArId8FITqVHx7k,192
+tree_sitter_requirements/_core.py,sha256=OZkyMmvhno3-WGo7qieg-cThQ7PJ5ksi9Wxgd2zbal4,1033
+tree_sitter_requirements/requirements.dll,sha256=Ce_RFN46Om74zIMbw0rBUJfQmpsE0AdaafkBh9xTvTg,40448
+tree_sitter_requirements/requirements.exp,sha256=tEGV5ntzV2VQPAoI4wDMAVbaRijmp5xE5F-QgyRPh7s,809
+tree_sitter_requirements/requirements.lib,sha256=V-w94yZ3fzXDtz6k4dg27Ram8seT2HiDrxbm0MKR_hQ,1920
+tree_sitter_requirements/queries/highlights.scm,sha256=HzOzEhE3Ni-gG_2XmfSayYYmsiQb7jRMyH_cO3sHnng,510
+tree_sitter_requirements-0.3.1.dist-info/LICENSE,sha256=QT7Ew4QvlbyvZiq6fWRrIrrwRKpqxe-mUxuU1O4AJIs,1058
+tree_sitter_requirements-0.3.1.dist-info/METADATA,sha256=MwddCn7EijhsPss-o28uX4CJLUMh0Dzqfh6HlPUSruU,3442
+tree_sitter_requirements-0.3.1.dist-info/WHEEL,sha256=UyMHzmWA0xVqVPKfTiLs2eN3OWWZUl-kQemNbpIqlKo,100
+tree_sitter_requirements-0.3.1.dist-info/top_level.txt,sha256=5rJX1erEibfNEFlXGYUPbl7D_bFsOSV-1MMh6JUVAoY,25
+tree_sitter_requirements-0.3.1.dist-info/RECORD,,
