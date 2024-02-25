@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+RNAsselem.egg-info/PKG-INFO
+RNAsselem.egg-info/SOURCES.txt
+RNAsselem.egg-info/dependency_links.txt
+RNAsselem.egg-info/top_level.txt
+rnasselem/__init__.py
+rnasselem/rnasselem.py

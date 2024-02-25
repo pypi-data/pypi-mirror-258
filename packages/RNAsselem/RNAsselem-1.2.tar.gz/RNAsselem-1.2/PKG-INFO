@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: RNAsselem
+Version: 1.2
+Summary: a Python package for descriptive analysis of RNA secondary structure elements in viral genomes
+Home-page: https://github.com/KazanovLab/RNAsselem
+Author: Fedor Kazanov, Evgenii Matveev, Gennady Ponomarev, Dmitry Ivankov, Marat Kazanov
+Author-email: mkazanov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
