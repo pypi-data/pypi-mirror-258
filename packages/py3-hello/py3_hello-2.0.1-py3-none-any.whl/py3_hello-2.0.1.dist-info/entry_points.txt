@@ -1,0 +1,2 @@
+[console_scripts]
+py3-hello = py3_hello.py3_hello:hello
