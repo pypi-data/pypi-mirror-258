@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: lizardwizard
+Version: 0.2.0
+Summary: A package to ease the use of the Reptilian operating system at the University of Florida.
+Home-page: https://github.com/jpfleischer/lizardwizard
+License: MIT
+Keywords: reptilian,operating system,university of florida
+Author: Jacques Fleischer
+Author-email: jacquespfleischer@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Education
+Requires-Dist: cloudmesh-common (>=5.0.60,<6.0.0)
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: pygetwindow (>=0.0.9,<0.0.10)
+Requires-Dist: setuptools (>=69.1.0,<70.0.0)
+Requires-Dist: wheel (>=0.42.0,<0.43.0)
+Project-URL: Documentation, https://github.com/jpfleischer/lizardwizard/blob/main/README.md
+Project-URL: Repository, https://github.com/jpfleischer/lizardwizard.git
+Description-Content-Type: text/markdown
+
+# lizardwizard
+
+<img src="https://i.pinimg.com/originals/81/f4/13/81f4137db4ad67bfd81ae4665c3a4177.png" width="200" height="200">
+
+
+It is time to make reptilian better.
+Introducing lizardwizard.
+
+Use the following in a terminal, on a computer that has Python installed.
+
+```bash
+# making sure you have python
+python -V
+
+pip install lizardwizard
+```
+
+Then use the `lw` command.
+
+```bash
+lw hello
+```
+
+You can use the `down` command to shut down reptilian without having to fiddle with the mouse integration -> ctrl -> ctrl+del -> mouse over shutdown -> click combo... dont do any of that anymore... simply say
+
+```bash
+lw down
+```
+Credits: Original shutdown script by Dominik Kapuscinski
+
