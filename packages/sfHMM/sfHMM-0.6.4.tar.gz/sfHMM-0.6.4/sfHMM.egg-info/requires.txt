@@ -1,0 +1,4 @@
+hmmlearn>=0.2.3
+scikit-learn
+matplotlib
+pandas>=1
