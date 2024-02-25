@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/linksiren/__main__.py
+src/linksiren/template.library-ms
+src/linksiren/template.lnk
+src/linksiren/template.searchConnector-ms
+src/linksiren/template.url
+src/linksiren.egg-info/PKG-INFO
+src/linksiren.egg-info/SOURCES.txt
+src/linksiren.egg-info/dependency_links.txt
+src/linksiren.egg-info/entry_points.txt
+src/linksiren.egg-info/requires.txt
+src/linksiren.egg-info/top_level.txt
