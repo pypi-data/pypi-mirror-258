@@ -1,0 +1,65 @@
+---
+variables:
+  LINT_PY_BLACK: "true"
+  LINT_PY_BLACK_ALLOW_FAILURE: "true"
+  LINT_PY_BLACK_IMAGE: pyfound/black:latest_release
+  LINT_PY_BLACK_SRC: "src/ tests/"
+  LINT_PY_MYPY: "true"
+  LINT_PY_MYPY_ALLOW_FAILURE: "true"
+  LINT_PY_MYPY_IMAGE: jfxs/rye
+  LINT_PY_MYPY_FLAG: "--strict"
+  LINT_PY_MYPY_SRC: "src/ tests/"
+  LINT_PY_RUFF: "true"
+  LINT_PY_RUFF_ALLOW_FAILURE: "true"
+  LINT_PY_RUFF_IMAGE: jfxs/rye
+  LINT_PY_RUFF_SRC: "src/ tests/"
+  LINT_PY_FLAKE8: "true"
+  LINT_PY_FLAKE8_ALLOW_FAILURE: "true"
+  LINT_PY_FLAKE8_IMAGE: jfxs/rye
+  LINT_PY_FLAKE8_SRC: "src/ tests/"
+
+lint:py-black:
+  image: $LINT_PY_BLACK_IMAGE
+  stage: lint
+  before_script:
+    - black --version
+  script:
+    - black --check --diff $LINT_PY_BLACK_SRC
+  rules:
+    - if: ($LINT_PY_BLACK_ALLOW_FAILURE == "true") && ($LINT_PY_BLACK == "true")
+      allow_failure: true
+    - if: $LINT_PY_BLACK == "true"
+
+lint:py-mypy:
+  image: $LINT_PY_MYPY_IMAGE
+  stage: lint
+  before_script:
+    - rye sync
+  script:
+    - rye run mypy "$LINT_PY_MYPY_FLAG" $LINT_PY_MYPY_SRC
+  rules:
+    - if: ($LINT_PY_MYPY_ALLOW_FAILURE == "true") && ($LINT_PY_MYPY == "true")
+      allow_failure: true
+    - if: $LINT_PY_MYPY == "true"
+
+lint:py-ruff:
+  image: $LINT_PY_RUFF_IMAGE
+  stage: lint
+  script:
+    - rye fmt --check $LINT_PY_RUFF_SRC
+  rules:
+    - if: ($LINT_PY_RUFF_ALLOW_FAILURE == "true") && ($LINT_PY_RUFF == "true")
+      allow_failure: true
+    - if: $LINT_PY_RUFF == "true"
+
+lint:py-flake8:
+  image: $LINT_PY_FLAKE8_IMAGE
+  stage: lint
+  before_script:
+    - rye sync
+  script:
+    - rye run flake8 $LINT_PY_FLAKE8_SRC
+  rules:
+    - if: ($LINT_PY_FLAKE8_ALLOW_FAILURE == "true") && ($LINT_PY_FLAKE8 == "true")
+      allow_failure: true
+    - if: $LINT_PY_FLAKE8 == "true"

@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: py3-hello
+Version: 2.0.0
+Summary: A program to test packaging and deployment
+Author-email: FX Soubirou <soubirou@yahoo.fr>
+License: MIT
+License-File: LICENSE
+Requires-Python: >=3.10
+Requires-Dist: click>=8.1.7
