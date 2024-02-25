@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: readdatabrickstables
+Version: 0.0.2
+Summary: Databricks connectors to read tables
+Author: Mateus Esteves
+Author-email: <mestev17@its.jnj.com>
+Keywords: databricks,pandas,sql,table,python
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
