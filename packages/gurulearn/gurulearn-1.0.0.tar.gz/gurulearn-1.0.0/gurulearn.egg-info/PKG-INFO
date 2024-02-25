@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: gurulearn
+Version: 1.0.0
+Summary: A library for linear regression analysis and accuracy assessment
+Author: Guru Dharsan T
+Author-email: gurudharsan123@gmail.com
+License-File: LICENSE
