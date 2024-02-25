@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyClictune
+Version: 0.0.1
+Summary: Clictune Api Wrapper
+Author: Plati
+Author-email: plati@platipuss.xyz
+Keywords: python,api,money,clictune,clictune api
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: fake-useragent
+Requires-Dist: requests
+
+Clictune Api Wrapper, not finish yet because I have no time, but it's cool to share it
