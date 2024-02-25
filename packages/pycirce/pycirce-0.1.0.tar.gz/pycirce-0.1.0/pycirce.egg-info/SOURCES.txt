@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pycirce/__init__.py
+pycirce.egg-info/PKG-INFO
+pycirce.egg-info/SOURCES.txt
+pycirce.egg-info/dependency_links.txt
+pycirce.egg-info/top_level.txt
+tests/test_pycirce.py
