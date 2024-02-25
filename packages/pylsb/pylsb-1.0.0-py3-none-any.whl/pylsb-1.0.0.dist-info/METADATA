@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pylsb
+Version: 1.0.0
+Summary: Library for downloading, storing, and retrieving the Legacy Standard Bible.
+Author-email: Matthew Rease <scubaventure101@hotmail.com>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Homepage, https://gitlab.com/Magicrafter13/pylsb
+Project-URL: Issues, https://gitlab.com/Magicrafter13/pylsb/-/issues
+Keywords: bible,lsb
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Religion
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+# PyLSB
+This library provides a convenient way to retrieve the content of the Legacy
+Standard Bible. It is platform agnostic, saves data into an easy to parse JSON
+file, and retrieves all data from the official website
+(https://read.lsbible.org/).
+
+This software is not officially endorsed by, or affiliated with, The Lockman
+Foundation or Three Sixteen Publishing Inc. (the copyright holders of the LSB)
+in any way. I hold no responsibility for your usage of this software. It was
+created as a hobby/mild-learning project for myself as this is the translation I
+personally read. To support the translators and printers, consider
+[purchasing](https://316publishing.com/collections/lsb) your own copy of the
+LSB.
+
+# How to Use
+to be updated
