@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+chemax/__init__.py
+chemax/computer.py
+chemax/molecule.py
+chemax.egg-info/PKG-INFO
+chemax.egg-info/SOURCES.txt
+chemax.egg-info/dependency_links.txt
+chemax.egg-info/top_level.txt
+chemax/datas/__init__.py
+chemax/datas/abundant_nuclide.py
+chemax/datas/balance.py
+chemax/datas/groups.py
+chemax/datas/nuclide.py
