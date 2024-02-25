@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: schneiders
+Version: 0.0.2
+Summary: biblioteca para auxílio da simulação de um braço robótico de 3 DOF
+Author: Júlio Rolim Schneiders
+Author-email: julioschneiders@ieee.org
+License: MIT License
+Keywords: schneiders mosquito
+Description-Content-Type: text/markdown
+License-File: LICENSE
