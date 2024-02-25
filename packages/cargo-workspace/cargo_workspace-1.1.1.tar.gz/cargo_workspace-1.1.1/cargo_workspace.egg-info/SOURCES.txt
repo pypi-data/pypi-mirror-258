@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+cargo_workspace/__init__.py
+cargo_workspace/parsing.py
+cargo_workspace.egg-info/PKG-INFO
+cargo_workspace.egg-info/SOURCES.txt
+cargo_workspace.egg-info/dependency_links.txt
+cargo_workspace.egg-info/requires.txt
+cargo_workspace.egg-info/top_level.txt
+tests/test_parsing.py
