@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tsontson_learn_py
+Version: 0.2.0
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Requires-Dist: numpy
+Summary: A Python wrapper for the tsontson_learn Rust library
+Keywords: linear-regression,rust,python
+Author: Inzirillo & Genet (aka da sonsons)
+License: MIT/Apache-2.0
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
