@@ -1,0 +1,5 @@
+aspecd>=0.9.0
+numpy
+scipy
+matplotlib
+python-dateutil

@@ -1,0 +1,14 @@
+aspecd>=0.9.0
+numpy
+scipy
+matplotlib
+
+[dev]
+prospector[with_pyroma]
+black
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-bibtex
+sphinx-multiversion
