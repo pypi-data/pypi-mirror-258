@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tests/test_plugin.py
+vedro_import_profiler/__init__.py
+vedro_import_profiler/_import_profiler_plugin.py
+vedro_import_profiler/_scenario_file_loader.py
+vedro_import_profiler/py.typed
+vedro_import_profiler.egg-info/PKG-INFO
+vedro_import_profiler.egg-info/SOURCES.txt
+vedro_import_profiler.egg-info/dependency_links.txt
+vedro_import_profiler.egg-info/requires.txt
+vedro_import_profiler.egg-info/top_level.txt
