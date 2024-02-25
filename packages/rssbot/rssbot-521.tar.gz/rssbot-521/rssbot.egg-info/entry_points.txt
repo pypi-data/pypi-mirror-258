@@ -1,0 +1,3 @@
+[console_scripts]
+rssbot = rssbot.runtime:cli
+rssbotd = rssbot.runtime:main
