@@ -1,0 +1,16 @@
+pgcachewatch/__init__.py,sha256=SiU87kUdp2x_-1_E7Q04ifiCBHZWChOxj1mqCXo3QaQ,102
+pgcachewatch/__main__.py,sha256=7aCsa6BHSuUlmwkPfCyoYiCx7vaZGpFttjrlajuhGVc,236
+pgcachewatch/_version.py,sha256=4gL0W4-u58XR5lRLpeoIPrGhcewTk0-527de6uTNmkg,411
+pgcachewatch/cli.py,sha256=GfbWpD3QFdDuFrcihIIHw9VG7OxmgzaD8Xj-uIK5CfU,3521
+pgcachewatch/decorators.py,sha256=lDnmgT-Ek9Jvczptkr27bvmxB4jke4yqET6x_mQ9JeU,2161
+pgcachewatch/listeners.py,sha256=fSow_npXK2_G6So5V377F319gGJnIHVxc-yofQ7Wbj4,5210
+pgcachewatch/logconfig.py,sha256=ZwKrQZcouy_Mf7YliPjVn9rsPYNLlL_CWftWdzooS_o,132
+pgcachewatch/models.py,sha256=DfFXBgATPR87kbj48jBPFfBX0QKtIxOISMlXpS9_OjM,1786
+pgcachewatch/queries.py,sha256=xqNGnaU-6CRb2N_WdgCpEZNXf2tdJE8gO1-lIfji0fE,1170
+pgcachewatch/strategies.py,sha256=3r_5HvDRpvD6RCKtDyr8ZEGp5e2a62EKnui86HN6Nyg,3150
+pgcachewatch/utils.py,sha256=o-v2JMRUfpjpu0f06oxlOn22AXzffjstxh_5VriSa68,1223
+PGCacheWatch-0.2.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+PGCacheWatch-0.2.4.dist-info/METADATA,sha256=T6zz1KR4MEHNz7eMifv-stIO0K4gud0y71uTHkxnA3U,10059
+PGCacheWatch-0.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PGCacheWatch-0.2.4.dist-info/top_level.txt,sha256=5sfpA5FQd3sS-JHtcP8zJ33tg268y9m4l_gJ9DHqPLI,13
+PGCacheWatch-0.2.4.dist-info/RECORD,,
