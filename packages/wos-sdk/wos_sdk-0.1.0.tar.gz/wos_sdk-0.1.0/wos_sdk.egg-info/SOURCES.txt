@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+wos_sdk/__init__.py
+wos_sdk/client.py
+wos_sdk.egg-info/PKG-INFO
+wos_sdk.egg-info/SOURCES.txt
+wos_sdk.egg-info/dependency_links.txt
+wos_sdk.egg-info/top_level.txt
