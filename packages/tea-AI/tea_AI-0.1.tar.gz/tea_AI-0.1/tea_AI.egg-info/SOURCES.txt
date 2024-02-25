@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+tea_AI.egg-info/PKG-INFO
+tea_AI.egg-info/SOURCES.txt
+tea_AI.egg-info/dependency_links.txt
+tea_AI.egg-info/entry_points.txt
+tea_AI.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+make_tea = tea_AI.tea:make_tea
