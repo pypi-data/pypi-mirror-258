@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: nitro-promo-gen
+Version: 3.0.3
+Summary: A Nitro Promo Code Generator
+Home-page: https://github.com/umwtt/nitro-promo-gen
+Author: umwtt
+Author-email: ozkanumtt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi ==2021.10.8
+Requires-Dist: charset-normalizer ==2.0.7
+Requires-Dist: idna ==3.3
+Requires-Dist: pyperclip ==1.8.2
+Requires-Dist: requests ==2.26.0
+Requires-Dist: urllib3 ==1.26.8
+
+# NITRO Promo Gen 'V3
+
+NITRO Promo Gen V3, Discord Nitro promo kodları oluşturmak için bir araçtır.
+
+## Kurulum
+
+Projeyi çalıştırmak için bilgisayarınızda Python'un yüklü olması gerekmektedir.
+
+1. Proje dosyalarını bu depodan klonlayın veya ZIP olarak indirin.
+2. Terminal veya komut istemcisinde proje dizinine gidin.
+3. Gereksinimleri yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
+4. Uygulamayı başlatmak için `python main.py` komutunu çalıştırın.
+
+## Kullanım
+
+- Kullanıcı bir sayı girmek suretiyle üretilecek promo kodlarının miktarını belirtmelidir.
+- Üret butonuna basarak belirtilen sayıda promo kodu oluşturulur ve output alanına yazdırılır.
+- Üretilen promo kodları otomatik olarak `promo.txt` dosyasına kaydedilir.
+- Copy butonu kullanılarak en son üretilen promo kodu panoya kopyalanabilir.
+
+## Özellikler
+
+- Basit arayüz.
+- Otomatik promo kodu oluşturma.
+- Oluşturulan kodların dosyaya kaydedilmesi.
+- Panoya kopyalama özelliği.
+
+## Katkıda Bulunma
+
+1. Bu repo'yu fork edin.
+2. Yeni bir özellik için bir dal (`branch`) oluşturun: `git checkout -b yeni-özellik`
+3. Değişikliklerinizi yapın ve bunları (`commit`) gönderin: `git commit -am 'Yeni özellik eklendi'`
+4. Dalınızı ana dalınızın üstüne (`upstream`) gönderin: `git push origin yeni-özellik`
+5. Bir Birleştirme İsteği (`Pull Request`) oluşturun.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atın.
+# NITRO Promo Gen V3
+
+NITRO Promo Gen V3, Discord Nitro promo kodları oluşturmak için basit bir araçtır.
+
+## Kurulum
+
+Projeyi çalıştırmak için Python'un yüklü olması gerekmektedir.
+
+1. Proje dosyalarını bu depodan klonlayın veya ZIP olarak indirin.
+2. Terminal veya komut istemcisinde proje dizinine gidin.
+3. Gereksinimleri yüklemek için `pip install -r requirements.txt` komutunu çalıştırın.
+4. Uygulamayı başlatmak için `python main.py` komutunu çalıştırın.
+
+## Kullanım
+
+- Kullanıcı bir sayı girmek suretiyle üretilecek promo kodlarının miktarını belirtmelidir.
+- Üret butonuna basarak belirtilen sayıda promo kodu oluşturulur ve output alanına yazdırılır.
+- Üretilen promo kodları otomatik olarak `promo.txt` dosyasına kaydedilir.
+- Copy butonu kullanılarak en son üretilen promo kodu panoya kopyalanabilir.
+
+## Özellikler
+
+- Basit arayüz.
+- Otomatik promo kodu oluşturma.
+- Oluşturulan kodların dosyaya kaydedilmesi.
+- Panoya kopyalama özelliği.
+
+## Katkıda Bulunma
+
+1. Bu repo'yu fork edin.
+2. Yeni bir özellik için bir dal (`branch`) oluşturun: `git checkout -b yeni-özellik`
+3. Değişikliklerinizi yapın ve bunları (`commit`) gönderin: `git commit -am 'Yeni özellik eklendi'`
+4. Dalınızı ana dalınızın üstüne (`upstream`) gönderin: `git push origin yeni-özellik`
+5. Bir Birleştirme İsteği (`Pull Request`) oluşturun.
+
+## Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Daha fazla bilgi için `LICENSE` dosyasına göz atın.
