@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/og-log/__init__.py
+src/og-log/log.py
+src/og_log.egg-info/PKG-INFO
+src/og_log.egg-info/SOURCES.txt
+src/og_log.egg-info/dependency_links.txt
+src/og_log.egg-info/entry_points.txt
+src/og_log.egg-info/top_level.txt
+test/test00.py
