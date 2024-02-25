@@ -1,0 +1,14 @@
+django_typer/__init__.py,sha256=XmdKB5msYKUm62eYDgHhTLb1cttcwTXHsR4ojdu84Bo,69822
+django_typer/apps.py,sha256=n8YuJoXrtcBroyDYHSs4lwQF9NZkqS5FWUubtO2LBxQ,2871
+django_typer/completers.py,sha256=9TYRlivTlVEaL0WnAaFaY9sA3ecCxZXlLg1IOTC6EtE,12303
+django_typer/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typer/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_typer/management/commands/shellcompletion.py,sha256=E9xwa4LGpsKS8sCz3RotkZ8E0tmcQ5BT_yO3JIP8B0I,24868
+django_typer/parsers.py,sha256=p6WLSu2fQQG9EybXVPInwuGfnvOG_2tosOMS_jbwxNA,4096
+django_typer/patch.py,sha256=30R2Q5AP-8AmuW5Cs5T793TEmD8NDtCDPL-E7SVcZ6Y,5658
+django_typer/types.py,sha256=O9K99hKSvZDzCZNrGrgvINwZ0PnvxT1WsnAVjpbfFSQ,4703
+django_typer/utils.py,sha256=bMjQx4Gk8WBvpa2_l8e9MGNV0KJG9gM8byWl7MH4SRc,2232
+django_typer-0.6.1b0.dist-info/LICENSE,sha256=5SMDi07iGC_DvPivAMIO1JPcG-NuNTdWTpsoGTICPzQ,1068
+django_typer-0.6.1b0.dist-info/METADATA,sha256=L08mj5RoWGoT_tNjEDLQqtEUei0j1oJsRp3p2Oq8KyE,10407
+django_typer-0.6.1b0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+django_typer-0.6.1b0.dist-info/RECORD,,
