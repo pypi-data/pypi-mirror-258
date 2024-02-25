@@ -1,0 +1,8 @@
+[build-system]
+requires = ["maturin>=0.8,<0.10"]
+build-backend = "maturin"
+
+
+[project]
+name = "fractus"
+dependencies = ["cffi"]
