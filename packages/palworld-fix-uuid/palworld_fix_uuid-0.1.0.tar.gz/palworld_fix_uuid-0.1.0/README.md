@@ -1,0 +1,38 @@
+# Palworld UUID fix
+
+This projects implements suggestion on this thread: https://github.com/xNul/palworld-host-save-fix/issues/158  
+This tool should provide less invasive way to transfer host (and any other player) save to another player.  
+
+## How to transfer co-op save to dedicated server (As of 2024/2/25)
+
+I recommend SteamCMD so that you can unbind your steam account from the dedicated server (so that you can use another pc)  
+
+
+ref: https://www.reddit.com/r/Palworld/comments/1abtxw5/psa_how_i_got_my_dedicated_server_working_steam/  
+
+
+Update steamapps\common\PalServer\Pal\Saved\Config\WindowsServer\PalWorldSettings.ini  
+
+For normal difficulty: (Or copy values from steamapps\common\PalServer\Pal\DefaultPalWorldSettings.ini)  
+"""  
+[/Script/Pal.PalGameWorldSettings]  
+
+OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.000000,ExpRate=1.100000,PalCaptureRate=1.300000,PalSpawnNumRate=1.000000,PalDamageRateAttack=1.000000,PalDamageRateDefense=1.000000,PlayerDamageRateAttack=1.000000,PlayerDamageRateDefense=1.000000,PlayerStomachDecreaceRate=0.100000,PlayerStaminaDecreaceRate=1.000000,PlayerAutoHPRegeneRate=1.000000,PlayerAutoHpRegeneRateInSleep=1.000000,PalStomachDecreaceRate=0.100000,PalStaminaDecreaceRate=1.000000,PalAutoHPRegeneRate=1.000000,PalAutoHpRegeneRateInSleep=1.000000,BuildObjectDamageRate=1.000000,BuildObjectDeteriorationDamageRate=0.100000,CollectionDropRate=1.200000,CollectionObjectHpRate=1.000000,CollectionObjectRespawnSpeedRate=1.100000,EnemyDropItemRate=1.200000,DeathPenalty=None,bEnablePlayerToPlayerDamage=False,bEnableFriendlyFire=False,bEnableInvaderEnemy=True,bActiveUNKO=False,bEnableAimAssistPad=True,bEnableAimAssistKeyboard=False,DropItemMaxNum=3000,DropItemMaxNum_UNKO=100,BaseCampMaxNum=128,BaseCampWorkerMaxNum=15,DropItemAliveMaxHours=1.000000,bAutoResetGuildNoOnlinePlayers=False,AutoResetGuildTimeNoOnlinePlayers=72.000000,GuildPlayerMaxNum=20,PalEggDefaultHatchingTime=50.000000,WorkSpeedRate=2.000000,bIsMultiplay=False,bIsPvP=False,bCanPickupOtherGuildDeathPenaltyDrop=False,bEnableNonLoginPenalty=True,bEnableFastTravel=True,bIsStartLocationSelectByMap=True,bExistPlayerAfterLogout=False,bEnableDefenseOtherGuildPlayer=False,CoopPlayerMaxNum=10,ServerPlayerMaxNum=32,ServerName="Default Palworld Server",ServerDescription="Server",AdminPassword="",ServerPassword="",PublicPort=8211,PublicIP="",RCONEnabled=False,RCONPort=25575,Region="",bUseAuth=True,BanListURL="https://api.palworldgame.com/api/banlist.txt")  
+""  
+
+to set "hard" difficulty on the dedicated server: (As of now, Difficulty=None does nothing)  
+source: https://www.reddit.com/r/Palworld/comments/19coabg/how_to_set_hard_difficulty_for_dedicated_servers/  
+
+"""  
+[/Script/Pal.PalGameWorldSettings]  
+OptionSettings=(Difficulty=None,DayTimeSpeedRate=1.000000,NightTimeSpeedRate=1.000000,ExpRate=0.800000,PalCaptureRate=0.800000,PalSpawnNumRate=1.000000,PalDamageRateAttack=1.000000,PalDamageRateDefense=1.000000,PlayerDamageRateAttack=0.500000,PlayerDamageRateDefense=4.000000,PlayerStomachDecreaceRate=1.000000,PlayerStaminaDecreaceRate=1.000000,PlayerAutoHPRegeneRate=1.000000,PlayerAutoHpRegeneRateInSleep=1.000000,PalStomachDecreaceRate=1.000000,PalStaminaDecreaceRate=1.000000,PalAutoHPRegeneRate=1.000000,PalAutoHpRegeneRateInSleep=1.000000,BuildObjectDamageRate=1.000000,BuildObjectDeteriorationDamageRate=1.000000,CollectionDropRate=0.500000,CollectionObjectHpRate=1.000000,CollectionObjectRespawnSpeedRate=1.000000,EnemyDropItemRate=0.500000,DeathPenalty=All,bEnablePlayerToPlayerDamage=False,bEnableFriendlyFire=False,bEnableInvaderEnemy=True,bActiveUNKO=False,bEnableAimAssistPad=True,bEnableAimAssistKeyboard=False,DropItemMaxNum=3000,DropItemMaxNum_UNKO=100,BaseCampMaxNum=128,BaseCampWorkerMaxNum=15,DropItemAliveMaxHours=1.000000,bAutoResetGuildNoOnlinePlayers=False,AutoResetGuildTimeNoOnlinePlayers=72.000000,GuildPlayerMaxNum=20,PalEggDefaultHatchingTime=72.000000,WorkSpeedRate=1.000000,bIsMultiplay=False,bIsPvP=False,bCanPickupOtherGuildDeathPenaltyDrop=False,bEnableNonLoginPenalty=True,bEnableFastTravel=True,bIsStartLocationSelectByMap=True,bExistPlayerAfterLogout=False,bEnableDefenseOtherGuildPlayer=False,CoopPlayerMaxNum=4,ServerPlayerMaxNum=32,ServerName="Default Palworld Server",ServerDescription="",AdminPassword="",ServerPassword="",PublicPort=8211,PublicIP="",RCONEnabled=False,RCONPort=25575,Region="",bUseAuth=True,BanListURL="https://api.palworldgame.com/api/banlist.txt")  
+"""  
+
+Update publicIP, AdminPassword, ServerPassword.  
+If you do not expose your public IP, use VPN service like nordVPN.  
+
+Meshnet example: (Use meshnet IP instead of your public IP)  
+https://meshnet.nordvpn.com/how-to/gaming/palworld-dedicated-server  
+
+
+## Port forwarding
