@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: hexcrypt
+Version: 0.2
+Summary: A simple hex module for encrypting and decrypting.
+Author: Matel Matel
