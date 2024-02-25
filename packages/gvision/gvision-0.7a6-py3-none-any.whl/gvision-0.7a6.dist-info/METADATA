@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: gvision
+Version: 0.7a6
+Summary: End-to-end automation platform for computer vision projects.
+Home-page: https://github.com/gaurang157/gvision
+Author: Gaurang Ingle
+Author-email: gaurang.ingle@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: av ==11.0.0
+Requires-Dist: numpy ==1.24.4
+Requires-Dist: opencv-python ==4.9.0.80
+Requires-Dist: opencv-python-headless ==4.8.0.74
+Requires-Dist: pandas ==2.0.3
+Requires-Dist: Pillow ==10.2.0
+Requires-Dist: PyYAML ==6.0.1
+Requires-Dist: Requests ==2.31.0
+Requires-Dist: roboflow ==1.1.1
+Requires-Dist: streamlit ==1.31.1
+Requires-Dist: streamlit-ace ==0.1.1
+Requires-Dist: streamlit-webrtc ==0.47.1
+Requires-Dist: supervision ==0.18.0
+Requires-Dist: torch ==2.2.0
+Requires-Dist: ultralytics ==8.1.10
+Requires-Dist: YAML2ST ==1.0.20
+Requires-Dist: tensorboard ==2.14.0
+
+# GVISION 🚀
+![logo](https://raw.githubusercontent.com/gaurang157/gvision/main/logo.png)
+
+GVISION is an end-to-end automation platform for computer vision projects, providing seamless integration from data collection to model training and deployment. Whether you're a beginner or an expert, GVISION simplifies the entire process, allowing you to focus on building and deploying powerful models.
+
+## Features ✨
+
+- **Easy-to-Use Interface:** Intuitive UI design for effortless project management and model development.
+- **No Coding Required:** Build and train models without writing any code.
+- **Roboflow Integration:** Easily download datasets from Roboflow for your computer vision projects.
+- **Multiple Tasks Supported:** Develop models for object detection, segmentation, classification, and pose estimation.
+- **Ultralytics Model Training:** Train your custom models using Ultralytics YOLOv8.
+- **Performance Monitoring:** Track model performance and visualize results.
+- **Quick Deployment:** Deploy trained models seamlessly for various applications.
+- **Streamlit Deployment Demo:** Quickly deploy your trained models with Streamlit for interactive demos and visualization.
+
+## Getting Started 🌟
+1. **Installation**
+You can install GVISION using pip:
+```bash
+pip install gvision
+```
+# Global CLI
+2. **Run GVISION**: Launch the GVISION application.
+```bash
+gvision
+```
+![Global cli](https://raw.githubusercontent.com/gaurang157/gvision/main/image.png)
+
+# #UI:
+![GVISION-AUTOMATION](https://raw.githubusercontent.com/gaurang157/gvision/main/image-1.png)
+
+3. Import Your Data: Use the Roboflow integration to import datasets and preprocess your data.
+
+4. Train Your Model: Utilize Ultralytics for training your custom models with ease.
+
+5. Deploy Your Model: Showcase your trained models with Streamlit deployment for interactive visualization.
+
+## Documentation 📚
+For detailed instructions on how to use GVISION, check out the [Documentation](https://github.com/gaurang157/gvision#).
+
+## Contributing 🤝
+We welcome contributions from the community! If you have any feature requests, bug reports, or ideas for improvement, please [open an issue](https://github.com/gaurang157/gvision/issues) or submit a [pull request](https://github.com/gaurang157/gvision/pulls).
+
+## Support 💌
+For any questions, feedback, or support requests, please contact us at gaurang.ingle@gmail.com.
+
+
+
+
