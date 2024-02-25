@@ -1,0 +1,3 @@
+[console_scripts]
+py7zip-setup = py7zip.py7zip:setup
+
