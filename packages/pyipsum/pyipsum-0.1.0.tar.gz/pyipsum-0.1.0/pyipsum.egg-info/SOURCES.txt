@@ -1,0 +1,5 @@
+setup.py
+pyipsum.egg-info/PKG-INFO
+pyipsum.egg-info/SOURCES.txt
+pyipsum.egg-info/dependency_links.txt
+pyipsum.egg-info/top_level.txt
