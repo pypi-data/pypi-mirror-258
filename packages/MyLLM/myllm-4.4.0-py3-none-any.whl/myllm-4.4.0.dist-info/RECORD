@@ -1,0 +1,14 @@
+myllm/__init__.py,sha256=XuJPEhZ9MbdYHLqwWsD-h9z9JbulIeW71w5oTFAFl4o,95
+myllm/config.py,sha256=UKEKkDg4prEna4RqhNCxQ_YDzE4G7T6_3kWQtUXB99c,772
+myllm/default_settings.toml,sha256=MmX3QpZJtVWs-hrHjTPc5XrM18Mqc_Jtk1MvrrcpcyQ,3347
+myllm/main.py,sha256=cSPSVzamZ9-2RdLRzzeofuoITna2kBa6K9nBee5roKs,5488
+myllm/provider/__init__.py,sha256=DOD9nILG4zYd4Ia60UXFbjlC4cwEtvoVdo_1gutKoog,216
+myllm/provider/client.py,sha256=76m6pSBw5xbNlGS7plmNAT_6RfNfaHptIqUWJSRd0j8,4382
+myllm/provider/g4f.py,sha256=4dIItrbwef1EHDti-Wd-b-SnVGtxm0aDjA6jpNB278s,2374
+myllm/provider/gemini.py,sha256=qGjK-cI9ipOSuyqGkchn8kEPlYl2g2WqqmbFQc-CPKQ,2212
+myllm/provider/openai.py,sha256=JikzYK2zEYoWVEhEj3hTBrWX4Hinky8mDdeyBeM8Ahw,2078
+myllm/provider/petals.py,sha256=XTvHsaqaQkOkBOmcDHSOj1WaU2I6qjLYwuLMG1iA1Bo,2206
+myllm-4.4.0.dist-info/LICENSE,sha256=Ym-WJCFdWfn0XKn-qLQI-u5nxBJX6F2kl-hPeRJp1fI,1064
+myllm-4.4.0.dist-info/METADATA,sha256=l9CZqmo4oS6bAZ8X04_-CAL9Z97KvzIuq81_jBa54CI,3726
+myllm-4.4.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+myllm-4.4.0.dist-info/RECORD,,
