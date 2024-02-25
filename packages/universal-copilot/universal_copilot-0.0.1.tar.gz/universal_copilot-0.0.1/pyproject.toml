@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "universal-copilot"
+version = "0.0.1"
+description = ""
+authors = ["Wenyu Zhao <wenyuzhaox@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "universal_copilot" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
