@@ -1,0 +1,10 @@
+setup.py
+genetok/__init__.py
+genetok/genepool.py
+genetok/layers.py
+genetok/tokenizer.py
+genetok.egg-info/PKG-INFO
+genetok.egg-info/SOURCES.txt
+genetok.egg-info/dependency_links.txt
+genetok.egg-info/requires.txt
+genetok.egg-info/top_level.txt
