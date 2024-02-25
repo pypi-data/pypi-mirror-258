@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "audio-transcript-ai"
+version = "0.1.0"
+description = "A tool for transcribing audio files using OpenAI's API"
+authors = ["Jesus Iniesta <jesus.inica@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^1.12.0"
+requests = "^2.31.0"
+tqdm = "^4.66.1"
+argcomplete = "^3.2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
