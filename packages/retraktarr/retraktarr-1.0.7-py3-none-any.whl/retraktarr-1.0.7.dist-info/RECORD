@@ -1,0 +1,13 @@
+retraktarr/VERSION,sha256=6fmB8RVMkjgdY7ZTz7_Hm-ksP2zJXgkVpeXBnzkkylg,5
+retraktarr/__init__.py,sha256=FXOiobt7nkrcBes0Qv6_d_XkEP7_dFq6tdcESyO3BPs,29
+retraktarr/config.py,sha256=FV16CGN1zEZX3UHui6SuFSA0BceksJUvPpjlwUBb2pA,8341
+retraktarr/retraktarr.py,sha256=_LaFNlLRAiWy670r6g3Rw53g3vS_w3TLC4GqzTlveh0,6034
+retraktarr/api/__init__.py,sha256=I94eDqjHAKW1bKB3RjLDPOGIWn2vavZQEe_LoR5oxmw,52
+retraktarr/api/arr.py,sha256=lxQp9BXdcDbaxaa-ggx2IGvdOVcHZS6-usUW8psaB1c,4804
+retraktarr/api/trakt.py,sha256=9T8k_X_ZmDRWqPCcLmARG83E_ClskEXW9Wbr7hi_FhE,23154
+retraktarr-1.0.7.dist-info/LICENSE,sha256=AwXVY9h1y6gKWTJg8Zswfay5cpHz43rS40kqgMIDnJY,1063
+retraktarr-1.0.7.dist-info/METADATA,sha256=OhXt6nl7n5xfznXfIDgWHz875YxnnVqFgSOJg0Iv0k0,8614
+retraktarr-1.0.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+retraktarr-1.0.7.dist-info/entry_points.txt,sha256=loZruJVYSJTk7iXNDU2_IgUS1Gb1WTB8eOi6sTYJA24,47
+retraktarr-1.0.7.dist-info/top_level.txt,sha256=aSmSN0yfoCk1I6jpUIqFyx61lJZYfVFQY_dEDyz2zDo,11
+retraktarr-1.0.7.dist-info/RECORD,,
