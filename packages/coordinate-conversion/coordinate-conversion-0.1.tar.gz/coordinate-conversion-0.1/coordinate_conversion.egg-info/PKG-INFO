@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: coordinate-conversion
+Version: 0.1
+Summary: A Python package for converting coordinates between Cartesian, spherical, and cylindrical systems.
+Author: Your Name
+Author-email: your@email.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy
