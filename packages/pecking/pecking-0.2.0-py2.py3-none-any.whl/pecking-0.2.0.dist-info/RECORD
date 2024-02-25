@@ -1,0 +1,11 @@
+pecking/__init__.py,sha256=_3_pYQGhgiVKn9Ukntid87WstzRi3U1_NQfqxjIuZCM,506
+pecking/_mask_skimmed_rows.py,sha256=Iq3cYh3n-PeQP19CPc0WWzZhO9f-HemcZV4w5Pwnysg,3894
+pecking/_peckplot.py,sha256=8IjGMQcogGISYUYrvr3hhinpa2O2cuSo8cbOxWm9knM,6132
+pecking/_robust_groupby.py,sha256=bRgAuqctO7CzbdGuqwOWAv7b22VQSHr37TxYiiJ8Jns,1506
+pecking/_skim_highest.py,sha256=h4b-f67bM01t1ukgJ3-c08dWIQkgA40y4lakyqOZHLE,811
+pecking/_skim_lowest.py,sha256=MsJdAuWGJk7M3zGaMs5E9GIoEBMW4YXXm3-AinB3Ozg,6384
+pecking-0.2.0.dist-info/LICENSE,sha256=poo0TdjzwCrtm9SoWnJzbKxrLeRg_iCDOYyqop-0qxU,1069
+pecking-0.2.0.dist-info/METADATA,sha256=57vgeKfyNp2XQMj5z10pv696l-z8UILirKfOoOTUmnQ,7082
+pecking-0.2.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+pecking-0.2.0.dist-info/top_level.txt,sha256=RUugJvOBmt3qELuYssOSuvQl7vv9vliu97I_27-hlTY,8
+pecking-0.2.0.dist-info/RECORD,,
