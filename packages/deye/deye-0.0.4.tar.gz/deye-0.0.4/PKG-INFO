@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: deye
+Version: 0.0.4
+Home-page: https://github.com/BennyThink/deye
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: paho-mqtt
