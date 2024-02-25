@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyraptorq
+Version: 0.1.0
+Summary: RaptorQ RFC6330 C++ bindings for python
+Home-page: https://github.com/yungwine/pyraptorq
+Author: Maksim Kurbatov
+Author-email: cyrbatoff@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# pyraptorq
+
