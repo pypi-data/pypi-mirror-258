@@ -1,0 +1,15 @@
+file-renamer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file-renamer/form.ui,sha256=iPlOzfTCOdxwTcIkfDrmUapd_sCjdu2JsXPyR3W68fg,9197
+file-renamer/rename.py,sha256=_x_rYzxnuAi7u4RBe97yLz9AFcekbnAOj41hXqybhWg,17416
+file-renamer/ui_form.py,sha256=S-BGu9U6X3wYUTXUQhZJ0VOUXzaZ_pWlRA__YzTg7SA,8295
+file-renamer/widget.py,sha256=b7vsMBYkEWzpGFBIefEobrnmmcibmac871ss7ZySSQM,6721
+file-renamer/lib/case_insensitive.py,sha256=TghOpn3iRDhDaQqFZlQ-9CSxvBMXROizOw3UEIGCUVo,2062
+file-renamer/lib/exceptions.py,sha256=mQFJlOU6Dc1nT4IqDxhs_r0HvRcppIrGV7WAh1rQUj8,647
+file-renamer/lib/files.py,sha256=wS4TrF6N6Pw2Qjqidh8PttapC8awE3LnxqCfyKX5APc,10744
+file-renamer/style/default.qss,sha256=EfFZll5DtUquJ2FrSj-EZXgN2IfuWm8VSZhldcnqhF8,492
+file-renamer/style/default_macos.qss,sha256=fhNZclAJ-xITbUb2kJFQaiZ9c5GwOKAHX0d-z8Xic-o,689
+file-renamer/style/default_win.qss,sha256=fhNZclAJ-xITbUb2kJFQaiZ9c5GwOKAHX0d-z8Xic-o,689
+file_renamer-1.0.1.dist-info/METADATA,sha256=hOOZ1V-GCuR_pmua6g1kX7GbpvGMeB65Vcy5vgLej7I,903
+file_renamer-1.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+file_renamer-1.0.1.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+file_renamer-1.0.1.dist-info/RECORD,,
