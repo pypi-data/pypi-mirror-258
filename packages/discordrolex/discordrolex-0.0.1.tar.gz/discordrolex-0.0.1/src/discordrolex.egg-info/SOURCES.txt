@@ -1,0 +1,6 @@
+pyproject.toml
+src/discordrolex/discordrol.py
+src/discordrolex.egg-info/PKG-INFO
+src/discordrolex.egg-info/SOURCES.txt
+src/discordrolex.egg-info/dependency_links.txt
+src/discordrolex.egg-info/top_level.txt
