@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: p2k
+Version: 2024.2.24
+Summary: p2k: utilities for the Aggregated Common Era Paleoclimate Database
+Home-page: https://github.com/fzhu2e/p2k
+Author: Feng Zhu, Michael N. Evans
+Author-email: fengzhu@ucar.edu, mnevans@umd.edu
+License: MIT
+Keywords: paleoclimate database,Common Era
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: seaborn
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Requires-Dist: netCDF4
+Requires-Dist: nc-time-axis
+Requires-Dist: dask
+Requires-Dist: plotly
+Requires-Dist: pylipd
+
+# p2k
+p2k: utilities for the Aggregated Common Era Paleoclimate Database

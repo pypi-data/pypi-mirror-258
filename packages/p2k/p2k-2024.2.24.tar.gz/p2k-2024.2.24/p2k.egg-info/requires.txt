@@ -1,0 +1,11 @@
+colorama
+seaborn
+pandas
+scipy
+tqdm
+xarray
+netCDF4
+nc-time-axis
+dask
+plotly
+pylipd
