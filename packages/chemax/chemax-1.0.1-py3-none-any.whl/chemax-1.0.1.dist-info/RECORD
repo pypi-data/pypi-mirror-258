@@ -1,0 +1,13 @@
+chemax/__init__.py,sha256=QSau10Mw7Mm9lJ583hNLZZjytxDwxMpIWjVg7DlyweU,58
+chemax/computer.py,sha256=8oileCzEK8Qipe_3kUjrWuHp0Md1u_RVhPQ8SIPzWjY,7842
+chemax/molecule.py,sha256=fSxMfhtiL_GtlAPuqdDbfFrOqXdpvy-OWqBF8rExTKQ,1982
+chemax/datas/__init__.py,sha256=N-mQFpvGmnMcdbEdVvRAlS_Ua7KF-SzARfbKxsof_TI,435
+chemax/datas/abundant_nuclide.py,sha256=23UvX1JwLDb8DUyhvQPfllitwNFGkQ1nwYq7pJIMQfc,6331
+chemax/datas/balance.py,sha256=-GdC00KXIQapZbMqDhvY-o59NX1vabCiMS3DrXG4Hmc,2468
+chemax/datas/groups.py,sha256=oqxt7ej5i92rvnTFVhQE7suuy5mbVOxUOEEycU7JIrg,567
+chemax/datas/nuclide.py,sha256=x6BNfYxX5LMkzN4150kd3d2-B_GVudcJ2aPlZ7Y2zIw,367780
+chemax-1.0.1.dist-info/LICENSE,sha256=lkPzhczsMubUP37Ry8bF5dJ9q5IWqXhmu5XtW8K_bjU,1093
+chemax-1.0.1.dist-info/METADATA,sha256=VRICzM14iowl1pDi8Nhy9yCeCBQOZ788ZlbuPBqpKY4,1374
+chemax-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+chemax-1.0.1.dist-info/top_level.txt,sha256=fE4DmtK1wGJEv7-8kXU4TfSlelnGFd8j7Svhwn4HKI0,7
+chemax-1.0.1.dist-info/RECORD,,
