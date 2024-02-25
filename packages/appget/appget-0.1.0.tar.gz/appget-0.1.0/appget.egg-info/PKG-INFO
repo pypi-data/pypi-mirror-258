@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: appget
+Version: 0.1.0
+Summary: A package management tool.
+Home-page: https://github.com/LonelyPale/appget
+Author: lonelypale
+Author-email: lonelypale@126.com
+License: MIT
+Keywords: appget
+Requires-Python: >=3
+License-File: LICENSE
+
+============
+appget tools
+============
+
+This project provides a tools for packaging and distributing python application.
