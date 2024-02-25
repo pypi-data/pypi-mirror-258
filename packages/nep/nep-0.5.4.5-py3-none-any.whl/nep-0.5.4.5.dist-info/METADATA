@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nep
+Version: 0.5.4.5
+Summary: NEP Python libraries
+Home-page: https://enrique-coronado.gitbook.io/nep-docs/
+Author: Enrique Coronado
+Author-email: Enrique Coronado <enriquecoronadozu@gmail.com>
+Project-URL: Homepage, https://enrique-coronado.gitbook.io/nep-docs/
+Project-URL: Issues, https://enrique-coronado.gitbook.io/nep-docs/
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+NEP Python library
+==================
+
+NEP+ is a comprehensive software platform that facilitates the integration and design of interactive applications involving a spectrum of agents, whether physical (e.g., robots) or digital (e.g., digital twins).
+
+The main functionality of NEP+ is to help and support in the design heterogeneous software architectures (i.e., complex applications composed of several modules developed over different programming languages, running on different operating systems, and performing different tasks).
+
+Official website: https://enrique-coronado.gitbook.io/nep-docs/
+
+
