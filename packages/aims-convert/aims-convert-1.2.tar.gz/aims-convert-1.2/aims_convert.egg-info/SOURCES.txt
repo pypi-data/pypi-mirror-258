@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+aims/__init__.py
+aims/airframe_lookup.py
+aims/cli.py
+aims/gui.py
+aims/output.py
+aims/roster.py
+aims_convert.egg-info/PKG-INFO
+aims_convert.egg-info/SOURCES.txt
+aims_convert.egg-info/dependency_links.txt
+aims_convert.egg-info/entry_points.txt
+aims_convert.egg-info/requires.txt
+aims_convert.egg-info/top_level.txt
+tests/test_detailed_roster.py
