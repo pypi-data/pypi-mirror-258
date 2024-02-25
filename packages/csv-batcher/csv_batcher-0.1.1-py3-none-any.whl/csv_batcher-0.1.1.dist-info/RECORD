@@ -1,0 +1,9 @@
+csv_batcher/__init__.py,sha256=SpTl-Tg1B1HTyjNOE-8ue-N2wGnXN_2zl7RFUSxlkiM,33
+csv_batcher/csv_pooler.py,sha256=EpIOwsQZ8zZbGtmHBkeRjcp0v6NYcdO60788Hq3M7JA,3787
+csv_batcher/csv_splitter.py,sha256=oTQI5oE4c4h4WhOmJLEdHoaDQNt31caH73O-tEVt60Q,2061
+csv_batcher/test_csv_pooler.py,sha256=1ld7sqMzpE2XJmp6Cn9G6bgEHeREjPPF3Z6Fy2o56Bc,1319
+csv_batcher/utils/logger.py,sha256=uzue4kipaU56kCn341V0i8Bp3KzJ0C7f2quSHmOCctE,87
+csv_batcher/utils/time.py,sha256=_0h3QdoY9Fpon1eVhhQxKK2Do_yPydsUa3RwtOiEF_c,555
+csv_batcher-0.1.1.dist-info/METADATA,sha256=Ys2Vhfoy6xw8ulyUtHpKwSEYROm7zvJDyly06buPQ00,2773
+csv_batcher-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+csv_batcher-0.1.1.dist-info/RECORD,,
