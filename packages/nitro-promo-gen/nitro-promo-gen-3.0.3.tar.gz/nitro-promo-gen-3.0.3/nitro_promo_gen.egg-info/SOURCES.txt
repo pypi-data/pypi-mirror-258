@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+nitro_promo_gen.egg-info/PKG-INFO
+nitro_promo_gen.egg-info/SOURCES.txt
+nitro_promo_gen.egg-info/dependency_links.txt
+nitro_promo_gen.egg-info/entry_points.txt
+nitro_promo_gen.egg-info/requires.txt
+nitro_promo_gen.egg-info/top_level.txt
