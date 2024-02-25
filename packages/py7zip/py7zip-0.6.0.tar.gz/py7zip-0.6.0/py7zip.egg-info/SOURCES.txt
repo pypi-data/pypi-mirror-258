@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+py7zip/__init__.py
+py7zip/general.py
+py7zip/py7zip.py
+py7zip.egg-info/PKG-INFO
+py7zip.egg-info/SOURCES.txt
+py7zip.egg-info/dependency_links.txt
+py7zip.egg-info/top_level.txt
