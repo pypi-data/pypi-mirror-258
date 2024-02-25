@@ -1,0 +1,42 @@
+# agentscript.pyo3
+
+Python bindings for the Rust agentscript interpreter.
+
+Binds [Agentscript.rs](https://github.com/agentsea/agentscript.rs) to [Agentscript](https://github.com/agentsea/agentscript).
+
+## Install
+
+```sh
+pip install agentscript_pyo3
+```
+
+## Usage
+
+```python
+from agentscript_pyo3 import Parser
+
+parser = Parser()
+
+message = 'We need to do translation <Invoke tool="Translator" action="translate" parameters={"text": "Hello", "options": {"from": "en", "to": "es"}} /> with some tailing text'
+parser.parse(message)
+
+parsed_data = parser.get_parsed_data()
+print(parsed_data)
+```
+
+## Develop
+
+To test
+
+```sh
+python -m venv .venv
+source .venv/bin/activate
+maturin develop
+make test
+```
+
+To publish
+
+```sh
+maturin publish
+```
