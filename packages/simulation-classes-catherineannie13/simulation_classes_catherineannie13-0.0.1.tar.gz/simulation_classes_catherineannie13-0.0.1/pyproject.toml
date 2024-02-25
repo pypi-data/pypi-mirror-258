@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulation_classes_catherineannie13"
+version = "0.0.1"
+description = "A package to run Monopoly simulations"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    { name="Catherine Jackson", email="catherine@uni.minerva.edu" },
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/catherineannie13/Capstone-Optimising-Monopoly-Gameplay-Strategies"
