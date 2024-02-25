@@ -1,0 +1,7 @@
+build
+bumpversion
+dist
+overrides
+requirements
+site
+test-reports
