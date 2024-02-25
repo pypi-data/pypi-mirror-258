@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+diapasons/__init__.py
+diapasons/base.py
+diapasons/exceptions.py
+diapasons/tests.py
+diapasons/validators.py
+diapasons.egg-info/PKG-INFO
+diapasons.egg-info/SOURCES.txt
+diapasons.egg-info/dependency_links.txt
+diapasons.egg-info/requires.txt
+diapasons.egg-info/top_level.txt
