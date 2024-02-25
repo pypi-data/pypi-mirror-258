@@ -1,0 +1,4 @@
+yaml
+requests
+memory_profiler
+psutil
