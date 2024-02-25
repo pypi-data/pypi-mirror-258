@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: python-dag-runner
+Version: 0.0.1
+Summary: Run tasks as a DAG
+Author: Jatin Lal
+Author-email: jatinlal1994@gmail.com
+Keywords: python,dag,runner
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: networkx
+
+
+# Python DAG Runner
+Dagger is a Python library for running Directed Acyclic Graphs (DAGs) efficiently. It provides a simple and intuitive interface for defining and executing complex workflows. It uses networkx library to generate directed acyclic graph from the tasks and it's dependencies.
+
+## Installation
+You can install python-dag-runner library easily using pip:
+```bash
+pip install python-dag-runner
+```
