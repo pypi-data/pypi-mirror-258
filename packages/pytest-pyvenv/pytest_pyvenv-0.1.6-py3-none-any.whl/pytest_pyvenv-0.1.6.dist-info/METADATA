@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pytest-pyvenv
+Version: 0.1.6
+Summary: A package for create venv in tests
+Author-email: Mohammad Sina Allahkaram <msinamsina@gmail.com>
+Project-URL: Homepage, https://github.com/msinamsina/pytest-pyvenv
+Project-URL: Bug Tracker, https://github.com/msinamsina/pytest-pyvenv/issues
+Project-URL: Change Log, https://github.com/msinamsina/pytest-pyvenv/blob/main/CHANGELOG.md
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+Provides-Extra: all
+Requires-Dist: pytest-pyvenv[cli,doc,lint,test] ; extra == 'all'
+Provides-Extra: cli
+Requires-Dist: click ; extra == 'cli'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: tomlkit ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-bugbear ; extra == 'lint'
+Requires-Dist: flake8-pyproject ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-cookies ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+# Pytest-env
+
+This is a simple plugin for pytest that allows you to set environment
+variables for your tests.
+
+## Installation
+
+### From PyPI
+
+```bash
+pip install pytest-pyvenv
+```
+
+### From Source
+
+```bash
+pip install git+https://github.com/msinamsina/pytest-pyvenv.git
+```
+
+
+## Usage
+
+```python
+
+def test_env(pyvenv):
+    pyvenv.install_package('pytest-pyvenv')
+    pyvenv.run('mkdir -p tests')
+```
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue 
+first to discuss what you would like to change.
