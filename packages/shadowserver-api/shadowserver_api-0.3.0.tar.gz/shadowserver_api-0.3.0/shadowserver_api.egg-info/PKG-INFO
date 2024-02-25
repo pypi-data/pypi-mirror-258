@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: shadowserver_api
+Version: 0.3.0
+Summary: Shadowserver API implementation library
+Author-email: Georges Toth <georges.toth@govcert.etat.lu>
+License: AGPLv3+
+Project-URL: Homepage, https://github.com/GOVCERT-LU/shadowserver_api
+Keywords: shadowserver
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: httpx
+Provides-Extra: docs
+Requires-Dist: mkdocs-material; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.18; extra == "docs"
+Provides-Extra: dev
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: coverage; extra == "test"
+
+[![Documentation Status](https://readthedocs.org/projects/shadowserver-api/badge/)](https://shadowserver-api.readthedocs.io)
+[![PyPI](https://badge.fury.io/py/shadowserver-api.svg)](https://badge.fury.io/py/shadowserver_api)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/shadowserver_api.svg)](https://pypi.python.org/pypi/shadowserver-api/)
+
+This project is about implementing the [Shadowserver API](https://www.shadowserver.org/what-we-do/network-reporting/api-documentation/), foremost the reports API, in Python.
+
+Supported and tested Python version: 3.11
+
+Should work on Python version >= 3.8
+
+**Note:** To use this library you must have a valid API key in order to access the API services of Te Shadowserver Foundation.
+
+### Installation
+```shell script
+pip install shadowserver-api
+```

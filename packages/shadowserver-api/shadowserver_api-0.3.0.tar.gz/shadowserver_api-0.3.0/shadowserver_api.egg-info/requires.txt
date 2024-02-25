@@ -1,0 +1,14 @@
+pyyaml
+httpx
+
+[dev]
+mypy
+ruff
+
+[docs]
+mkdocs-material
+mkdocstrings[python]>=0.18
+
+[test]
+pytest
+coverage
