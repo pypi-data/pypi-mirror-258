@@ -1,0 +1,3 @@
+[console_scripts]
+c-const = c_helpers.__main__:c_const
+c-struct = c_helpers.__main__:c_struct

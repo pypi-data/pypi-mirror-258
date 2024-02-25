@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: c-helpers
+Version: 0.0.1
+Summary: Helpers for c-structs sizes and offsets
+Author-email: doronz88 <doron88@gmail.com>
+Maintainer-email: doronz88 <doron88@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/doronz88/c-helpers
+Project-URL: Bug Reports, https://github.com/doronz88/c-helpers/issues
+Keywords: c,struct
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: plumbum
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+# C-Helpers
+
+## Overview
+
+Just like the old saying ["girls just wanna have fun"](https://www.youtube.com/watch?v=PIb6AZdTr-A), so do software
+researchers.
+
+Many of us sometimes need to just get the values of some basic C native types. We can look for them in the headers or
+just compile a simple C program to print them - which can be quite exhausting each time.
+
+That's where `c-helpers` comes into place - Simply use the `c-const` and `c-struct` directly from your terminal!
+
+For example:
+
+```shell
+$ c-struct 'struct dirent'
+sizeof(struct dirent): 1048 (0x418)
+
+$ c-struct 'struct dirent' d_ino
+sizeof(struct dirent): 1048 (0x418)
+offsetof(struct dirent, d_ino): 0 (0x00)
+sizeof(struct dirent::d_ino): 8 (0x08)
+
+$ c-const EAGAIN
+35 (0x23)
+```
+
+## Installation
+
+```shell
+python3 -m pip install c-helpers
+```
