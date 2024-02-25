@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: nba_analytica
+Version: 0.1.0
+Summary: A package to fetch NBA player stats.
+Home-page: https://github.com/Adamlip1334/nba-stats
+Author: Adam Lipson
+Author-email: lipson.adam13@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# nba-stats
+ 
