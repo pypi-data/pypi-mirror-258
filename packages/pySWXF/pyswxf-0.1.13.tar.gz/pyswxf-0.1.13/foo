@@ -1,0 +1,39 @@
+MCA_utils.py:def get_mca_data_CLS(dir,fname,scan_nu,quiet=True):
+MCA_utils.py:    def plot_mca_sum(datadir,fname,snum,xmin=1400,xmax=14800,scale='log'):
+MCA_utils.py:def peak_label(Energy,Info,height=.8,linespec='-r'):
+MCA_utils.py:def K_label(elem,height=.8):
+MCA_utils.py:def L_label(elem,height=.8):
+MCA_utils.py:def get_br_amps(Energy,mcas,rr):
+MCA_utils.py:def plot_br_fluor(datadir,fspec,scans):
+MCA_utils.py:def get_edge_absorb(element,edge):
+MCA_utils.py:def Au_L_peak(A,sig0,energy):
+MCA_utils.py:def Br_K_peak(A,sig,energy):
+MCA_utils.py:def Br_peak_sim(x,A_Br,A_Au,sig):
+cbwe.py:def cbwe(y1,dy1,y2,dy2):
+cbwe.py:def cbwe_s(y1,dy1,y2,dy2):
+get_prof.py:def get_prof(amp, zcen, sig):
+get_prof.py:def get_dprof(amp, zcen, sig):
+get_realspace.py:def get_realspace(params,E0):
+half.py:def half(q,I,dI):
+refl_funs.py:def mlayer_rough(alpha,k0,n_r,zm0,sig):        
+refl_funs.py:def mlayer_conv(alpha,k0,n,z,sig,res,npt):
+refraction_funs.py:def n_elem(elem,E): 
+refraction_funs.py:def n_water(E):
+refraction_funs.py:def n_SiO2(E):
+spec_utils.py:def readscan(specfile,scanno):
+spec_utils.py:def readscascan(specfile,scanno):
+spec_utils.py:def readscan_2():
+spec_utils.py:def getscan_mca(filename,scan_no,lld,uld):
+spec_utils.py:def merge_scans(specfile,scanset,norm='mca'):
+spec_utils.py:def merge_duplicates(x,y,dy):
+spec_utils.py:def getscan(filename,scan_no,norm):
+spec_utils.py:def getscan_bg(filename,scan_no,norm):
+spec_utils.py:def readscan_2_DND(specfile,scanno):
+spec_utils.py:def get_mca_data(dir,fname,exposure,quiet=False):
+spec_utils.py:def dtcorrect(y,exposure,quiet):
+spec_utils.py:def list_scans(filename):
+standing_wave.py:def reflection_matrix(alpha,E,layers):
+standing_wave.py:def standing_wave(z,T,R,kz,h_i):
+xray_utils.py:def eden_to_rho(material,eden):
+xray_utils.py:def rho_to_n(material,rho,energy):
+xray_utils.py:def rho_to_rhoe(material,rho,energy):
