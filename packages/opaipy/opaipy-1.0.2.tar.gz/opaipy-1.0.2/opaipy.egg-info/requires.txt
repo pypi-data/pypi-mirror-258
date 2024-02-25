@@ -1,0 +1,5 @@
+LibHanger
+Scrapinger
+decorator
+twython
+openai==0.28.0
