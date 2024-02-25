@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pylsb/bible.py
+pylsb/data.py
+pylsb/parse.py
+pylsb/utils.py
+pylsb.egg-info/PKG-INFO
+pylsb.egg-info/SOURCES.txt
+pylsb.egg-info/dependency_links.txt
+pylsb.egg-info/requires.txt
+pylsb.egg-info/top_level.txt
