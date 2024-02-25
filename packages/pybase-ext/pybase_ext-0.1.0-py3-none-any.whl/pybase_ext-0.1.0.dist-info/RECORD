@@ -1,0 +1,13 @@
+pybase_ext/TBD.md,sha256=e0H6ARk1O9QJh3mWqsTmWbTY2IBOQJjzbN_bU3vJ_fA,165
+pybase_ext/__init__.py,sha256=0YR6RRQASd4AAWqF24hhGHM5RD_Q6ccNGxiIAFEBVr4,102
+pybase_ext/_version.py,sha256=UXSmxT9tAO9iYw9DvtqTuTdazA_tuLjpUZEgdlWNQ4w,59
+pybase_ext/constants/__init__.py,sha256=vIGGBqjziKIE0Mjuo20XbfRbj379P3A7fBtEuykpzD8,104
+pybase_ext/constants/_generate_color_enums.py,sha256=NFOuYShLMzLwWUgW282aeX3ZQTHupcyN5UZrbbHHxhI,2908
+pybase_ext/constants/colors.py,sha256=otgWU95wtxFfCe-IvmAFNXJ0U1Xg0Fj_fMCDE9X7R78,1209
+pybase_ext/enum/__init__.py,sha256=3zU45dXYu1xWxi_DMUXfSOq1jDN-8xg7iVqSpiWu9gQ,291
+pybase_ext/enum/_types.py,sha256=9x9MzorMniGJ3REm2E12nzVtMEmOOJNa7B0RGf7Ysb4,1842
+pybase_ext-0.1.0.dist-info/LICENSE,sha256=LR9zfYro-riFCR2J66STX5iXBAcveCP9xes0SUdJbPw,1064
+pybase_ext-0.1.0.dist-info/METADATA,sha256=Ue6WglzaN1LU-6iVx8Q3DOVNRg287Yd6DHskC3v7ZZE,1397
+pybase_ext-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pybase_ext-0.1.0.dist-info/top_level.txt,sha256=9lZ7m3r1WrVhj708So6r-miPWl8xDHsPh1Ea36kANGc,11
+pybase_ext-0.1.0.dist-info/RECORD,,
