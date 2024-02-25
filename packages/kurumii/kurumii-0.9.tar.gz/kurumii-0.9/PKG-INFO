@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: kurumii
+Version: 0.9
+Summary: Print and ASCII addons
+Home-page: https://github.com/Kurumii-nightcore/kurumii
+Author: Kurumii
+Author-email: ocinstark@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kurumii
+
+A small package that does stuff
+
+## Installation
+
+```bash
+pip install kurumii
+```
+
+
+
