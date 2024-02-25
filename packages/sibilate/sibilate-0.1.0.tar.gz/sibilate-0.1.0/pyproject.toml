@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "sibilate"
+author = "Brendan Strejcek"
+author-email = "brendan@datagazing.com"
+home-page = "https://github.com/datagazing/sibilate"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.rst"
+requires-python = ">=3.7"
+requires = ["humanize", "monist", "tabulate", "PyYAML"]
+
+[tool.flit.scripts]
+#xscript = "xmodule:xfunction"
+sibilate = "sibilate:main"
