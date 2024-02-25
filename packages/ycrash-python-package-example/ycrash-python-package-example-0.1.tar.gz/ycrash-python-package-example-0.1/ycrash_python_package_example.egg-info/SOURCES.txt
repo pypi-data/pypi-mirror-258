@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+myPackage/__init__.py
+myPackage/somePython.py
+myPackage/packageData/sampleData.dat
+tests/test.py
+ycrash_python_package_example.egg-info/PKG-INFO
+ycrash_python_package_example.egg-info/SOURCES.txt
+ycrash_python_package_example.egg-info/dependency_links.txt
+ycrash_python_package_example.egg-info/requires.txt
+ycrash_python_package_example.egg-info/top_level.txt
