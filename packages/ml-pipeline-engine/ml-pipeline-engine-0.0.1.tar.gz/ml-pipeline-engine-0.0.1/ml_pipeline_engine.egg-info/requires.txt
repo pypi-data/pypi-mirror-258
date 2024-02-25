@@ -1,0 +1,11 @@
+networkx<4.0,>=3.1
+python-ulid<2.0,>=1.1.0
+cloudpickle<3.0,>=2.2.1
+
+[tests]
+pytest>=4.0.0
+pytest-mock>=3.10.0
+pre-commit>=2.0.0
+flake8>=3.8.3
+pytest-cov>=2.11.0
+pytest-asyncio>=0.18.3
