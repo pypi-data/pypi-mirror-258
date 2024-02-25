@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mongoDBcnnt.egg-info/PKG-INFO
+src/mongoDBcnnt.egg-info/SOURCES.txt
+src/mongoDBcnnt.egg-info/dependency_links.txt
+src/mongoDBcnnt.egg-info/requires.txt
+src/mongoDBcnnt.egg-info/top_level.txt
+src/mongodb_connect/__init__.py
+src/mongodb_connect/mongo_crud.py
