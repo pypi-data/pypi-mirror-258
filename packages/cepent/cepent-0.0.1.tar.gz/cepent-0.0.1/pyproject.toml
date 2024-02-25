@@ -1,0 +1,22 @@
+[project]
+name = "cepent"
+version = "0.0.1"
+authors = [
+  { name="Ysis Longart (Biwiser)", email="ysisl@biwiser.com" },
+]
+description = "Catch error pentaho"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+]
+
+
+
+[project.urls]
+Homepage = "https://github.com/biwiser-com/cepent"
+Issues = "https://github.com/biwiser-com/cepent/issues"
