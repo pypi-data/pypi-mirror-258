@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: llama-index-networks
+Version: 0.1.0a3
+Summary: llama-index networks  integration
+License: MIT
+Author: Andrei Fajardo
+Author-email: andrei@llamaindex.ai
+Maintainer: nerdai
+Requires-Python: >=3.8.1,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.9.3,<4.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: fastapi[all] (>=0.109.2,<0.110.0)
+Requires-Dist: llama-index-core (>=0.10.10,<0.11.0)
+Requires-Dist: pydantic[dotenv] (>=2.6.1,<3.0.0)
+Requires-Dist: pyjwt[crypto] (>=2.8.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: python-jose (>=3.3.0,<4.0.0)
+Requires-Dist: uvicorn[standard] (>=0.27.1,<0.28.0)
+Description-Content-Type: text/markdown
+
+# LlamaIndex Networks Integration:
+
