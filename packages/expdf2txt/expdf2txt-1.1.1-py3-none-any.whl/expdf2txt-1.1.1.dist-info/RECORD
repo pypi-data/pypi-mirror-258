@@ -1,0 +1,8 @@
+expdf2txt/__init__.py,sha256=ci9Iwjl-yIVfLRLzZ4qt_qw7_sfYpy204VY5AE2OQB0,68
+expdf2txt/base.py,sha256=eek-pW0EQ-_aRo0JaFJL6_HrIIMO3oL93ZmbU1F51E0,1966
+expdf2txt/invoice2data.py,sha256=1kBye7g3drHvRap7Kz6k7oOuP7Qcm78O-4zwzRDWH18,3597
+expdf2txt/pdf2data.py,sha256=yQVFCPUr9WZpX3UwbLt9EvaqC9sFqIbtkK3ZhgHzOsk,2034
+expdf2txt-1.1.1.dist-info/METADATA,sha256=6ZR6wFX1zoVADmwUtSqpuPxt6-yp-SnAClgvE2n9Tv4,2917
+expdf2txt-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+expdf2txt-1.1.1.dist-info/top_level.txt,sha256=NZYvWP_nhj3EUajAQZYbueicMJ7zOh_XDfam5S1w7Ao,10
+expdf2txt-1.1.1.dist-info/RECORD,,
