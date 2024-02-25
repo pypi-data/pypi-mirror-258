@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: shroudstone
+Version: 0.1.0a2
+Summary: Python utilities for working with Stormgate replays
+Author-email: Anthony Carapetis <anthony.carapetis@gmail.com>
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pandas~=2.1
+Requires-Dist: protobuf~=4.23
+Requires-Dist: pydantic~=2.6
+Requires-Dist: typer[all]~=0.9.0
+
+# shroudstone
+
+Shroudstone is a command-line tool that automatically renames replays of
+your Stormgate ladder games.
+
+Say goodbye to `CL44420-2024.02.03-08.28.SGReplay` and say hello to `2024-02-03
+08.28 L 03m03s Pox IvI Veni Vidi Vici - Broken Crown.SGReplay`.
+
+Shroudstone also acts as a general Python + CLI toolkit for working with
+Stormgate replays.
+
+## Installation & Usage
+
+### On Windows
+
+1. Install Python 3.11 from the Microsoft Store.
+2. Open Command Prompt and type `pip install shroudstone` to install shroudstone.
+3. You can now invoke `python -m shroudstone rename-replays` from the command
+   line to rename your replays. To avoid having to do this every time, `python
+   -m shroudstone create-rename-replays-shortcut` will create an icon on your
+   desktop so it's just a double-click away :)
+
+You should also be able to get it working using a non-UWP python install, or
+using WSL - just `pip install shroudstone` and you should be good to go.
+
+### On Linux
+
+If you're running Stormgate on Linux+Steam+Proton, hopefully this should also
+work for you - just `pip install shroudstone` and give it a shot.
+
