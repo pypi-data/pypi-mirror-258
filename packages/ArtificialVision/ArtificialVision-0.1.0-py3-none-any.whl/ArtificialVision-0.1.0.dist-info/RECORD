@@ -1,0 +1,10 @@
+artificialvision/ImgClassification.py,sha256=nISPGryENB2dbW-zfegqNfixgIAwhlnTzUWCzp1Nz9Y,1502
+artificialvision/ImgMatching.py,sha256=nryrnqSa-x0FE5ldm7-rUW7qT_UQpCiSvCGPnEQAa9I,2737
+artificialvision/ObjDetection.py,sha256=IwoKBC-LZPAFvel40LXLAEJv8pK8sbwV39cT4AwSKsE,3526
+artificialvision/Segmentation.py,sha256=nJuCZbjDWnxKwqdkxuXdlWfpNTRdCk4mngiadqeRhq4,4044
+artificialvision/__init__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ArtificialVision-0.1.0.dist-info/METADATA,sha256=dOJ33PN0IVuwH57gtI0YS8Is0dQL-JUp4CoFoF84nS8,9592
+ArtificialVision-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ArtificialVision-0.1.0.dist-info/top_level.txt,sha256=EoUkXjmlDN4GDX-mdughT5t5CKJ9Yi5bIN1VlZuqwQ4,23
+ArtificialVision-0.1.0.dist-info/RECORD,,
