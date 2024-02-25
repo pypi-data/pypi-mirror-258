@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+branch_namer/__init__.py
+branch_namer/branch_naming.py
+jira_git_branch_namer.egg-info/PKG-INFO
+jira_git_branch_namer.egg-info/SOURCES.txt
+jira_git_branch_namer.egg-info/dependency_links.txt
+jira_git_branch_namer.egg-info/entry_points.txt
+jira_git_branch_namer.egg-info/top_level.txt
