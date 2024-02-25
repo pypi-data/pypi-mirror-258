@@ -1,0 +1,34 @@
+---
+variables:
+  IMAGE_PYTHON: jfxs/rye
+  DOC_PUBLISH_PAGES: "true"
+  TASK_SET_VERSION: 00:project-set-version
+
+pypi-release:
+  image: $IMAGE_PYTHON
+  stage: pypi-release
+  before_script:
+    - if [ -z "$PYPI_TOKEN"]; then echo "PYPI_TOKEN is empty!" && exit 1; fi
+    - rye sync --no-dev
+    - VERSION=$(echo $CI_COMMIT_TAG | sed 's/v//g')
+  script:
+    - task ${TASK_SET_VERSION} VERSION=$VERSION
+    - rye build
+    - rye publish --token "$PYPI_TOKEN" --yes
+  rules:
+    - if: $CI_COMMIT_TAG
+
+pages:
+  image: $IMAGE_PYTHON
+  stage: pages-release
+  before_script:
+    - rye sync
+    - VERSION=$(echo $CI_COMMIT_TAG | sed 's/v//g')
+  script:
+    - task ${TASK_SET_VERSION} VERSION=$VERSION
+    - rye run mkdocs build --site-dir public
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: $CI_COMMIT_TAG && ($DOC_PUBLISH_PAGES == "true")

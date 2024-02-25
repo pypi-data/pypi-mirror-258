@@ -1,0 +1,17 @@
+---
+site_name: "Hello World!"
+
+theme:
+  name: "material"
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - mkdocs-click
+
+nav:
+  - index.md
+  - cli.md
+  - py3_hello.md

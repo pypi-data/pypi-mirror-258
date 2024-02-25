@@ -1,0 +1,17 @@
+# python generated files
+__pycache__/
+*.py[oc]
+.coverage
+build/
+dist/
+reports/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+/.devcontainer/
+/.cache/
+/styles/
+/Taskfile.d/
