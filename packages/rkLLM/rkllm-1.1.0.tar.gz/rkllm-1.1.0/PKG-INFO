@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: rkLLM
+Version: 1.1.0
+Summary: 
+Author: rkwork
+Author-email: rkwork17527796274@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: Pillow (==10.2.0)
+Requires-Dist: PyMuPDF (==1.23.7)
+Requires-Dist: PyQt5 (==5.15.10)
+Requires-Dist: PyYAML (==6.0.1)
+Requires-Dist: QScintilla (==2.14.1)
+Description-Content-Type: text/markdown
+
+*LLMapp的v1.1.0版本*
+
+详情请访问github
+
