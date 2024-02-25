@@ -1,0 +1,10 @@
+adjusttext
+connectorx
+google-cloud-bigquery
+matplotlib
+numpy
+pandas
+polars>=0.20.5
+pyarrow
+tqdm
+statsmodels
