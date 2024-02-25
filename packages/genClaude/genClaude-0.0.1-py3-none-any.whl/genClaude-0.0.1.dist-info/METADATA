@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: genClaude
+Version: 0.0.1
+Summary: Mi primer paquete de Python
+Requires-Dist: anthropic-bedrock
+
+Mi primer paquete de Python
