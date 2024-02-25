@@ -1,0 +1,5 @@
+pytest>=6.2.0
+pyspark>=3
+
+[delta]
+delta-spark
