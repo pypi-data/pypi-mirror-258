@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+ArtificialVision.egg-info/PKG-INFO
+ArtificialVision.egg-info/SOURCES.txt
+ArtificialVision.egg-info/dependency_links.txt
+ArtificialVision.egg-info/requires.txt
+ArtificialVision.egg-info/top_level.txt
+artificialvision/ImgClassification.py
+artificialvision/ImgMatching.py
+artificialvision/ObjDetection.py
+artificialvision/Segmentation.py
+artificialvision/__init__.py
