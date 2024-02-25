@@ -1,0 +1,9 @@
+README.md
+setup.py
+kaladeno/__init__.py
+kaladeno/courses.py
+kaladeno/utils.py
+kaladeno.egg-info/PKG-INFO
+kaladeno.egg-info/SOURCES.txt
+kaladeno.egg-info/dependency_links.txt
+kaladeno.egg-info/top_level.txt
