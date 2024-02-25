@@ -1,0 +1,11 @@
+tree_sitter_pymanifest/__init__.py,sha256=aXvHY6Ci5jtwxsT6Ej2Zs3o232G0_vyD8e3tWH1ij3s,189
+tree_sitter_pymanifest/_core.py,sha256=1hW3mnAIxBSEtB7r9B1fMcJZdtBLsh5h40fHsVzbVvE,876
+tree_sitter_pymanifest/pymanifest.dll,sha256=k8wER6P5NS00rzLjY_KVkK7E0zppx715LD9-IRdWqkM,22528
+tree_sitter_pymanifest/pymanifest.exp,sha256=OCKTy9ZbxBDmZhebBiJAdtKcmqAWoA3qFqYaipqTp8A,793
+tree_sitter_pymanifest/pymanifest.lib,sha256=eFCAHBgBz8bBkFs4sCQTlOngrrvZuDdSxX8Yrcp4zho,1808
+tree_sitter_pymanifest/queries/highlights.scm,sha256=vx9e_s2gorrlBH7hhcBhi0Io2k8oBiuC0iZFJhIJN6E,314
+tree_sitter_pymanifest-0.4.0.dist-info/LICENSE,sha256=QT7Ew4QvlbyvZiq6fWRrIrrwRKpqxe-mUxuU1O4AJIs,1058
+tree_sitter_pymanifest-0.4.0.dist-info/METADATA,sha256=uLrW2NTkod6dMdEIKAqJcgGebsWkNGTRY75d9K52hSY,3058
+tree_sitter_pymanifest-0.4.0.dist-info/WHEEL,sha256=ZzJfItdlTwUbeh2SvWRPbrqgDfW_djikghnwfRmqFIQ,100
+tree_sitter_pymanifest-0.4.0.dist-info/top_level.txt,sha256=PN4vkDZTqjU6BlH8Ha9XczVCBTPutl0egC4NNAYQWWE,23
+tree_sitter_pymanifest-0.4.0.dist-info/RECORD,,
