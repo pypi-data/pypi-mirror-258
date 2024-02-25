@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: work-wechat-log-notify
+Version: 0.2.1
+Summary: Work wechat log notify.
+Home-page: https://gitee.com/temporary-worker-team/work_wechat_log_notify
+Author: kingsword09
+License: MIT
+Project-URL: Documentation, https://gitee.com/temporary-worker-team/work_wechat_log_notify
+Project-URL: Source, https://gitee.com/temporary-worker-team/work_wechat_log_notify
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Work wechat log notify.
+
+#### WorkWechatLog(webhook_urls: str | List[str], mode: bool) 企业微信日志类
+
+- `webhook_urls` {str|List[str]} webhook链接地址，可传字符串或者字符串列表
+- `mode` {bool} 是否测试模式，测试模式使用print输出 True: 测试模式 False: 生产模式
+
+example:
+```python
+log = WorkWechatLog("https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", False)
+# 或
+log = WorkWechatLog(
+  [
+    "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+  ],
+  False
+)
+```
+
+-------------------------------------------------------------------------------------
+#### text(msg: str, mentioned_list: List[str], mentioned_mobile_list: List[str]) 发送文本消息
+
+- `msg` {str} 文本内容，最长不超过2048个字节，必须是utf8编码
+- `mentioned_list` {List[str]} userid的列表，提醒群中的指定成员(@某个成员)，@all表示提醒所有人，如果开发者获取不到userid，可以使用mentioned_mobile_list
+- `mentioned_mobile_list` {List[str]} 手机号列表，提醒手机号对应的群成员(@某个成员)，@all表示提醒所有人
+- returns {None}
+
+example:
+```python
+from work_wechat_log.log import WorkWechatLog
+
+log = WorkWechatLog(webhook_urls, False)
+log.text("haha", ["@all"])
+```
+
+-------------------------------------------------------------------------------------
+#### markdown(msg: str) 发送markdown消息
+
+- `msg` {str} 文本内容，最长不超过2048个字节，必须是utf8编码
+- `mentioned_list` {List[str]} userid的列表，提醒群中的指定成员(@某个成员)，@all表示提醒所有人，如果开发者获取不到userid，可以使用mentioned_mobile_list
+- `mentioned_mobile_list` {List[str]} 手机号列表，提醒手机号对应的群成员(@某个成员)，@all表示提醒所有人
+- returns {None}
+
+example:
+```python
+from work_wechat_log.log import WorkWechatLog
+
+log = WorkWechatLog(webhook_urls, False)
+log.markdown("###实时新增用户反馈<font color=\"warning\">132例</font>")
+```
+-------------------------------------------------------------------------------------
+#### image(image_path: str) 发送图片消息
+
+- `image_path` {str} 图片地址，图片最大不能超过2M
+- returns {None}
+
+example:
+```python
+from work_wechat_log.log import WorkWechatLog
+
+log = WorkWechatLog(webhook_urls, False)
+log.image("./tmp/test.png")
+```
+
+-------------------------------------------------------------------------------------
+#### table(table: TableType, headers: TableHeadersType = (), tablefmt: TableFmtType = "simple") 发送表格消息
+
+- @see https://pypi.org/project/tabulate/
+- 参数都和`tabulate`一样
+- returns {None}
+
+> 测试模式使用tabulate输出表格，生产模式会转化为image发送
+
+example:
+```python
+from work_wechat_log.log import WorkWechatLog
+
+log = WorkWechatLog(webhook_urls, False)
+table = [["spam",42],["eggs",451],["bacon",0]]
+headers = ["item", "qty"]
+log.table(table, headers, "simple_grid")
+```
+
