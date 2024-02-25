@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+futcli/__init__.py
+futcli/evolutions.py
+futcli/futcli.py
+futcli/sbc.py
+futcli/urls.py
+futcli.egg-info/PKG-INFO
+futcli.egg-info/SOURCES.txt
+futcli.egg-info/dependency_links.txt
+futcli.egg-info/entry_points.txt
+futcli.egg-info/requires.txt
+futcli.egg-info/top_level.txt
