@@ -1,0 +1,15 @@
+pypi_simple/__init__.py,sha256=p-PPNBPzM4z2RqfOd4YDeQ401P4_CVKuDY-Eg3lQz04,3412
+pypi_simple/classes.py,sha256=IibQzY_LcI8mvv9boq-jEQommH5SU5-lSDlhQ_LQqgA,17620
+pypi_simple/client.py,sha256=ErleAPrdO3irJz4L-KcgTc4lahfewnjdWaT5m463zCc,20538
+pypi_simple/errors.py,sha256=El0Q5J5OQQzqZuDAD6ZcrS1fXTkgB0PQ4tj4RJpKi5o,3180
+pypi_simple/filenames.py,sha256=IiY--i5kRzFSiCqaUxCU2Nh6EcYCnaNNPQoH2sfyHzQ,5533
+pypi_simple/html.py,sha256=cYHeyUnsM3QHRfohaYKHKGbLxW4FJiMfFAkmHQCUuIA,4986
+pypi_simple/html_stream.py,sha256=rdPKMETZN2PFPaCiABDrNNwd5wNvVjXse3VKb_o_91I,9593
+pypi_simple/pep691.py,sha256=Cha5XU919_ZTg5ag6CRVNUGkNIDMJZKfX6t3Q_lkXX0,2211
+pypi_simple/progress.py,sha256=TM7SrOH4qw-MFI4epdFNzKrFDKfyJKfTS4cco4WjQa8,2706
+pypi_simple/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypi_simple/util.py,sha256=OOR9eZqpi3GyO6qjz0mtJd2hgvv0zLxeNRnUctv-guI,2826
+pypi_simple-1.5.0.dist-info/METADATA,sha256=nPGKqJUTOZmH77_4SjqJ3SjTXSf6tMLrdU-Cot066-k,4792
+pypi_simple-1.5.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pypi_simple-1.5.0.dist-info/licenses/LICENSE,sha256=9DkygZUdkNo6B7oByv1nJbR1-JgryEKypJHD1QrQRWc,1112
+pypi_simple-1.5.0.dist-info/RECORD,,
