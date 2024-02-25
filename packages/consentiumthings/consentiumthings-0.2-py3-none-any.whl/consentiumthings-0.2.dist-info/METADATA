@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: consentiumthings
+Version: 0.2
+Summary: Python lib for sending sensor data to Consentium IoT server.
+Author: Debjyoti Chowdhury, Ph.D.
+Author-email: <consentium.inc@gmail.com>
+Keywords: Python,Internet of Things
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+
+# ConsentiumThings
+Python API to send and receive data for Consentium Cloud.
+
+# Example usage
+
+```python
+ct = ConsentiumThings("board-key")
+ct.begin_send("send-key")
+ct.send_data([1, 2, 3, 4, 5], ['info1', 'info2', 'info3'])
+
+ct.begin_receive("receive-key", recent=False)
+print(ct.receive_data())
+```
