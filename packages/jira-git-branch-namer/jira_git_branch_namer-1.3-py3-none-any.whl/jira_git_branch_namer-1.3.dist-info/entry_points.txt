@@ -1,0 +1,3 @@
+[console_scripts]
+jira-git-branch-namer=jira_git_branch_namer.branch_naming:main
+
