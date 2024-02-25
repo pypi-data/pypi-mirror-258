@@ -1,0 +1,26 @@
+[console_scripts]
+autoassist = myhand.autoassist:main
+autobuilder = myhand.autobuilder:main
+automath = myhand.automath:main
+autoretriever = myhand.autoretriever:main
+chatgpt = myhand.chatgpt:main
+codellama = myhand.ollamachat:codellama
+codey = myhand.codey:main
+commandprompt = myhand.commandprompt:main
+etextedit = myhand.eTextEdit:main
+geminipro = myhand.geminipro:main
+geminiprovision = myhand.geminiprovision:main
+gemma2b = myhand.ollamachat:gemma2b
+gemma7b = myhand.ollamachat:gemma7b
+llama2 = myhand.ollamachat:llama2
+llama213b = myhand.ollamachat:llama213b
+llama270b = myhand.ollamachat:llama270b
+llava = myhand.ollamachat:llava
+mistral = myhand.ollamachat:mistral
+myhand = myhand.main:main
+myhandtray = myhand.systemtray:main
+ollamachat = myhand.ollamachat:main
+palm2 = myhand.palm2:main
+phi = myhand.ollamachat:phi
+vicuna = myhand.ollamachat:vicuna
+
