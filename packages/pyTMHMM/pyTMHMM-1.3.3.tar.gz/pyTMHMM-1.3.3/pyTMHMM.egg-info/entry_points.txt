@@ -1,0 +1,2 @@
+[console_scripts]
+pyTMHMM = pyTMHMM.cli:cli
