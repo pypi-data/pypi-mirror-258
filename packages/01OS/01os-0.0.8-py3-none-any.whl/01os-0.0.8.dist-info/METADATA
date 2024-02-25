@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: 01OS
+Version: 0.0.8
+Summary: The open-source language model computer
+License: AGPL
+Author: Killian
+Author-email: killian@openinterpreter.com
+Requires-Python: >=3.9,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: ffmpeg-python (>=0.2.0,<0.3.0)
+Requires-Dist: ngrok (>=1.0.0,<2.0.0)
+Requires-Dist: open-interpreter[os] (==0.2.1rc1)
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: pyaudio (>=0.2.14,<0.3.0)
+Requires-Dist: pydub (>=0.25.1,<0.26.0)
+Requires-Dist: pynput (>=1.7.6,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: simpleaudio (>=1.0.4,<2.0.0)
+Requires-Dist: textual (>=0.50.1,<0.51.0)
+Requires-Dist: uvicorn (>=0.27.1,<0.28.0)
+Requires-Dist: websockets (>=12.0,<13.0)
+Description-Content-Type: text/markdown
+
+The open-source language model computer.
+
+```bash
+pip install 01OS
+```
+
+```bash
+01 # Runs the 01 server and client.
+```
+
