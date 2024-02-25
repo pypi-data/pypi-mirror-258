@@ -1,0 +1,6 @@
+PyQt6
+maidenhead
+PyADIF-File==1.0
+
+[extra]
+openpyxl
