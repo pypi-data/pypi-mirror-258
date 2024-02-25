@@ -1,0 +1,18 @@
+[project]
+name = "pyoui_db"
+version = "1.0"
+authors = [
+  { name="Tomas Illuminati", email="tomiluminati@gmail.com" },
+]
+description = "Python package providing a dictionary containing MAC address Organizationally Unique Identifiers (OUIs)"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/tomasilluminati/pyoui-db"
+Issues = "https://github.com/pypa/sampleproject/issues"
