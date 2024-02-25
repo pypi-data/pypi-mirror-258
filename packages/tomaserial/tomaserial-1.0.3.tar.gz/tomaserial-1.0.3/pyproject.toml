@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+exclude = [
+    "*/.__pycache/",
+    "*/.pytest_cache/",
+    "*/*test.py",
+    "publish.py",
+    "Doxyfile",
+    "pyproject.toml",
+    "doxygen_docs",
+    "venv",
+    "test"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/tmt"]
+
+[project]
+name = "tomaserial"
+version = "1.0.3"
+authors = [
+    { name = "sunlulu.tomato", email = "sunlulu.tomato@bytedance.com" },
+]
+description = "python serial and deserial"
+readme = "README.md"
+license = { file = 'LICENSE' }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "configparser; python_version >= '3.7'"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sunlulu427/tomato"
+"Bug Tracker" = "https://github.com/sunlulu427/tomato/issues"
