@@ -1,0 +1,6 @@
+include *.py
+include *.txt
+include *.md
+recursive-include your_project *.py
+recursive-include your_project *.txt
+recursive-include your_project *.md

@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+CorePyLib.egg-info/PKG-INFO
+CorePyLib.egg-info/SOURCES.txt
+CorePyLib.egg-info/dependency_links.txt
+CorePyLib.egg-info/requires.txt
+CorePyLib.egg-info/top_level.txt
