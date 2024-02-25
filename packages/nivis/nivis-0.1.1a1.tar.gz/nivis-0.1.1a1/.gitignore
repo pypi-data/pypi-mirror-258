@@ -1,0 +1,29 @@
+readme.md
+
+# python
+__pycache__
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+
+# LangTrans
+LangTrans/
+
+# mkdocs
+docs/site/
+
+# pdm
+.pdm-python
+.pdm-build/
+.venv/
+dist/
+
+# vscode
+.vscode/
+
+# ruff
+.ruff_cache/
