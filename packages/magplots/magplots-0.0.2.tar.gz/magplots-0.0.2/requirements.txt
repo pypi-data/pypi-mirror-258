@@ -1,0 +1,10 @@
+pandas
+plotly
+matplotlib
+numpy
+ai.cdas
+datetime
+scipy
+pyplot
+os
+plotly.express

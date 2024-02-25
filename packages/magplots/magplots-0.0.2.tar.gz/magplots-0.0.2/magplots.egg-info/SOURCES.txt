@@ -1,0 +1,14 @@
+Examples.ipynb
+LICENSE
+README.md
+magFunctions.py
+pyproject.toml
+requirements.txt
+stations.csv
+.github/workflows/python-publish.yml
+magplots.egg-info/PKG-INFO
+magplots.egg-info/SOURCES.txt
+magplots.egg-info/dependency_links.txt
+magplots.egg-info/requires.txt
+magplots.egg-info/top_level.txt
+output/2016-01-24 00:00:00_.csv
