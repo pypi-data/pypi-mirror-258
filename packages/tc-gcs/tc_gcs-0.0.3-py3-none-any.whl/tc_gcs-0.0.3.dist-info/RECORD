@@ -1,0 +1,11 @@
+tc_gcs/__init__.py,sha256=8yhZQvw3lpWux9SskkT6UlZSsnL86N-n8sAuESxS1V4,1588
+tc_gcs/gcs/__init__.py,sha256=mIIFC9Mbjwvnn3O9rutl3caJvUQciinIZ4nV9RQQwY0,36
+tc_gcs/gcs/bucket.py,sha256=RVjzu3iOBZbS9RSf2EjzpGPLbNIgFDnfZYGg8lTZqmw,2420
+tc_gcs/gcs/storage.py,sha256=jbeatGs8SypbEeSzbAqHtxInoPhV3GYe4yQO1gS52i4,4354
+tc_gcs/storages/__init__.py,sha256=mIIFC9Mbjwvnn3O9rutl3caJvUQciinIZ4nV9RQQwY0,36
+tc_gcs/storages/gcs_storage.py,sha256=tdZmzg27MhslLna0C__zBVZ79tgDm4LMA_PmPhzlnJs,4814
+tc_gcs-0.0.3.dist-info/LICENSE,sha256=A_sGdUGsdn8VIqqExCjvfkxBvfAbIDse6ddqZhl-3ek,1077
+tc_gcs-0.0.3.dist-info/METADATA,sha256=ePjdNJS8MSTQGGVGqe_LOFwJTewtUHRs5yNtzTeILxU,1940
+tc_gcs-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tc_gcs-0.0.3.dist-info/top_level.txt,sha256=JG-MYZZUuPjKIEuXAjV7WewxnvcDiMQshZnd_qdbBEs,7
+tc_gcs-0.0.3.dist-info/RECORD,,
