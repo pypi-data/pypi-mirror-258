@@ -1,0 +1,2 @@
+carabiner-tools[pd]
+pandas
