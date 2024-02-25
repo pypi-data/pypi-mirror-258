@@ -1,0 +1,3 @@
+[submodule "strassen"]
+	path = strassen
+	url = https://github.com/mikecvet/strassen.git

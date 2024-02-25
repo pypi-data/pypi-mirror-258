@@ -1,0 +1,26 @@
+[package]
+name = "strassen"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "strassen"
+path = "src/main.rs"
+
+[lib]
+name = "strassen"
+path = "src/lib.rs"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+codegen-units = 1
+opt-level = 3
+lto = "thin"
+
+[dependencies]
+colored = "2.0.4"
+clap = { version = "4.2.7", features = ["derive"] }
+rand = "0.8.5"
+threadpool = "1.8.1"
