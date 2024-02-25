@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: daiego43_rasptank
+Version: 0.0.2
+Summary: This is a clearer implementation of a library to interact with the Adeept rasptank robot. Pins are hardcoded
+Home-page: https://github.com/Daiego43/Adeept_RaspTank
+Author: Daiego43
+Author-email: diedelcha@gmail.com
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Adafruit-GPIO >=1.0.3
+Requires-Dist: Adafruit-PCA9685 >=1.0.1
+Requires-Dist: RPi.GPIO >=0.7.1
+Requires-Dist: gpiozero >=2.0
+Requires-Dist: spidev >=3.6
+Requires-Dist: opencv-python >=4.8
+
+# My Rasptank
+This is my own implementation to interface with rasptank sensors and actuators
