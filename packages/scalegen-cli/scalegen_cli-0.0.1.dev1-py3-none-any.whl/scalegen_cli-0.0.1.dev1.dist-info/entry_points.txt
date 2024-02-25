@@ -1,0 +1,2 @@
+[console_scripts]
+scaletorch = st_cli:cli
