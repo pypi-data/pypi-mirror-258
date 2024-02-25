@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+DoRePy/__init__.py
+DoRePy/dorepy.py
+DoRePy.egg-info/PKG-INFO
+DoRePy.egg-info/SOURCES.txt
+DoRePy.egg-info/dependency_links.txt
+DoRePy.egg-info/entry_points.txt
+DoRePy.egg-info/requires.txt
+DoRePy.egg-info/top_level.txt
