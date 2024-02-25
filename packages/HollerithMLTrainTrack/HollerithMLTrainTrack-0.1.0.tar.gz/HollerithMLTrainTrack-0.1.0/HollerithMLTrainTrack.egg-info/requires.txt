@@ -1,0 +1,8 @@
+scikit-learn
+pandas
+numpy
+codecarbon
+
+[dev]
+pytest
+flake8
