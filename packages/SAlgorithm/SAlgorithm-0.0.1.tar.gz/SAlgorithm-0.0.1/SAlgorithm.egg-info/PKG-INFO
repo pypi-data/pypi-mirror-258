@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SAlgorithm
+Version: 0.0.1
+Summary: 让算法变得简单一点
+Home-page: 
+Author: SoulCodingYanhun
+Author-email: souls2906@gmail.com
+Maintainer: SoulCodingYanhun
+Maintainer-email: souls2906@gmail.com
+License: MIT License
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12

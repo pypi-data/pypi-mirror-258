@@ -1,0 +1,9 @@
+README.md
+setup.py
+SAlgorithm/SAlgorithm.py
+SAlgorithm/__init__.py
+SAlgorithm.egg-info/PKG-INFO
+SAlgorithm.egg-info/SOURCES.txt
+SAlgorithm.egg-info/dependency_links.txt
+SAlgorithm.egg-info/entry_points.txt
+SAlgorithm.egg-info/top_level.txt
