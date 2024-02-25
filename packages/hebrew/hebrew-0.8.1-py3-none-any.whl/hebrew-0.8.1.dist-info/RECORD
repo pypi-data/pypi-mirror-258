@@ -1,0 +1,13 @@
+hebrew/__init__.py,sha256=24pQliWs-xGPYrtnv11GPJElI3Y0WAtK0vt7_6-Zk3s,84
+hebrew/chars.py,sha256=BsoUQ66B-uH9nr13ZlwBgX7Kx3gDLtNExchsLalIJhk,43934
+hebrew/gematria.py,sha256=W8CPZJnHd9LnzwHJG5z6QMHHC9YgG_ZIQV4J-1ufJUQ,12806
+hebrew/grapheme_string.py,sha256=OssqNi8-1JbfBuuIJ7dtHvfgj3SMss_A9WNlhh1hDyM,7574
+hebrew/hebrew_obj.py,sha256=aF-jQ2Z2UOv2eCRChNR1BfNYEAbkY9m2mIxPrW5bSnw,14391
+hebrew/numerical_conversion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hebrew/numerical_conversion/convert.py,sha256=vyrS47xfx_9jy5mr2Qw3d0mSh_nYZsuCVjO3d5aM2YA,4019
+hebrew/numerical_conversion/mappings.py,sha256=txfcTe90QV-ZeaCCx5mGPxNm6opC4CFg2ijVa3Q1MrI,1039
+hebrew/numerical_conversion/substitute.py,sha256=OjoWT99266-qBP1WGd9_84UjPhr9N_KsijLT97HZ0wE,1384
+hebrew-0.8.1.dist-info/LICENSE,sha256=7onwL9_Dyj1GZkYXuhnOdBBy4wK39_evazqKHZfioFM,1057
+hebrew-0.8.1.dist-info/METADATA,sha256=mbVOgq8U4J5yxw89caJPu0siMdaVgQCQam8-0Tw2tro,11580
+hebrew-0.8.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+hebrew-0.8.1.dist-info/RECORD,,
