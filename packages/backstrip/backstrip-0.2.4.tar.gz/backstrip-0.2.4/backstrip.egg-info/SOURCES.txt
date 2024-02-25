@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+backstrip/__init__.py
+backstrip/_backplot.py
+backstrip/_backstrip.py
+backstrip/_get_bbox_generic.py
+backstrip.egg-info/PKG-INFO
+backstrip.egg-info/SOURCES.txt
+backstrip.egg-info/dependency_links.txt
+backstrip.egg-info/requires.txt
+backstrip.egg-info/top_level.txt
