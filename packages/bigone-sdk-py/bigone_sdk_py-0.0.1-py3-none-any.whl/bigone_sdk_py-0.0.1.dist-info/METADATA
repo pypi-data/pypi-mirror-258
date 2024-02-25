@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: bigone-sdk-py
+Version: 0.0.1
+Summary: A Python SDK for BigOne (https://big.one)
+Home-page: https://github.com/Halimao/bigone-sdk-py
+Maintainer: Halimao
+Maintainer-email: halimao.lin@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: pyjwt
+
+A Python SDK for BigOne (https://big.one)
