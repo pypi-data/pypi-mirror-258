@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cnrtncy-library-globalaihub
+Version: 0.0.2
+Summary: A simple library management system. Based on a Global AI Hub Python Bootcamp(Project Based).
+Home-page: https://github.com/cnrtncy/library-globalaihub.git
+Download-URL: https://github.com/cnrtncy/library-globalaihub/archive/refs/tags/0.0.2.tar.gz
+Author: Caner Tuncay
+License: MIT
+Keywords: SIMPLE,LIBRARY,MANAGEMENT,GLOBALAIHUB,BOOTCAMP
+License-File: LICENCE.txt
+Requires-Dist: rich
