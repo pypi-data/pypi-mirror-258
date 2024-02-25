@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: realdistance_mandrin35
+Version: 0.0.1
+Summary: A small application to calculate real distance between given lat-lon coordinates
+Author-email: izzet sen <izzetsen@gmail.com>
+Project-URL: Homepage, https://github.com/mandrin35/realdistance_mandrin35
+Project-URL: Issues, https://github.com/mandrin35/realdistance_mandrin35/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Real Distance Package
+
+This small library provides you the function to calculate distance in meters for given coordinates.
+
