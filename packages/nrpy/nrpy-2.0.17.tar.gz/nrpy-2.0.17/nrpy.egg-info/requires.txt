@@ -1,0 +1,6 @@
+appdirs
+multiprocess
+nrpypn
+py-cpuinfo
+sympy
+typing-extensions
