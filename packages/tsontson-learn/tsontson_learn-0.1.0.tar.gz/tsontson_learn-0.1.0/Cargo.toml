@@ -1,0 +1,13 @@
+[package]
+name = "tsontson_learn"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "tsontson_learn"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.3", features = ["extension-module"] }
+numpy = "*"
+
