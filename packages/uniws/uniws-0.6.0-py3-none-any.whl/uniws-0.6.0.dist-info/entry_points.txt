@@ -1,0 +1,14 @@
+[console_scripts]
+uha = uniws.uniws:uha
+uhc = uniws.uniws:uhc
+uhd = uniws.uniws:uhd
+uhp = uniws.uniws:uhp
+uhs = uniws.uniws:uhs
+uhu = uniws.uniws:uhu
+usa = uniws.uniws:usa
+usb = uniws.uniws:usb
+usc = uniws.uniws:usc
+usd = uniws.uniws:usd
+usi = uniws.uniws:usi
+ust = uniws.uniws:ust
+uws = uniws.uniws:uws
