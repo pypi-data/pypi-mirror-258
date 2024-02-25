@@ -1,0 +1,7 @@
+README.md
+setup.py
+mockuser/__init__.py
+mockuser.egg-info/PKG-INFO
+mockuser.egg-info/SOURCES.txt
+mockuser.egg-info/dependency_links.txt
+mockuser.egg-info/top_level.txt
