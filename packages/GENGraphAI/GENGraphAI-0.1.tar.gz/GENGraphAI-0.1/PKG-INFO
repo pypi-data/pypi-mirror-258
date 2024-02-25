@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: GENGraphAI
+Version: 0.1
+Summary: Libreria generacion de grafos con AI
+Home-page: https://github.com/AlejandroMesa1811
+Download-URL: https://github.com/AlejandroMesa1811/Base_Gen.git
+Author: Alejandro Mesa
+Author-email: alejomessa1811@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE

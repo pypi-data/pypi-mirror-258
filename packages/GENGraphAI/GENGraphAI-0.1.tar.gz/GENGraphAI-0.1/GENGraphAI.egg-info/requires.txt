@@ -1,0 +1,5 @@
+google.cloud
+spacy
+google-cloud-aiplatform
+neo4j
+langchain

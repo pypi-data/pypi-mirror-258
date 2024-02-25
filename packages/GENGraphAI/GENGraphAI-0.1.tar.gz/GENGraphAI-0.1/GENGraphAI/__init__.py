@@ -1,0 +1,1 @@
+from GENGraphAI.Funciones import una_extracion, extracion_completa, extracion_emb

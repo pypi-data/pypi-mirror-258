@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+GENGraphAI/Funciones.py
+GENGraphAI/__init__.py
+GENGraphAI.egg-info/PKG-INFO
+GENGraphAI.egg-info/SOURCES.txt
+GENGraphAI.egg-info/dependency_links.txt
+GENGraphAI.egg-info/requires.txt
+GENGraphAI.egg-info/top_level.txt
