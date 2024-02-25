@@ -1,0 +1,11 @@
+numpy<1.99
+scipy
+pyaml
+cython
+requests
+shapely
+pandas
+pyproj
+rtree
+openmatrix
+geopandas
