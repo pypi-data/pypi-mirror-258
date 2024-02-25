@@ -1,0 +1,2 @@
+[console_scripts]
+putconf = putconf:__main__.main

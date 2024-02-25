@@ -1,0 +1,9 @@
+putconf/.gitignore,sha256=MtrjBS8zHuNNYo71NXCbMBJZpF33x1IsTTXc9Jhz8As,13
+putconf/__about__.py,sha256=p4MxVO8ih2-hnh7INVBkrqMKBDGTkMso1LEbM6mx3jg,23
+putconf/__init__.py,sha256=RaF-TB9TtjCF2AR80Es5MBMNEuJ0t0tc38kqlyMpbwI,38
+putconf/__main__.py,sha256=EYlZ0YNDZZmv6yCpw77ScXBoMUBpXIUOve7MOfi7JHs,9002
+putconf-0.1.0.dist-info/METADATA,sha256=nVYH0AvC1aLuHuWVBuMMi-wuXm90JGvx6FsDdoE4ZL0,2559
+putconf-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+putconf-0.1.0.dist-info/entry_points.txt,sha256=uFVnWwBBGM19wefEjDoRzmzH_GgYETzw8WjpZwums34,50
+putconf-0.1.0.dist-info/licenses/LICENSE.txt,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+putconf-0.1.0.dist-info/RECORD,,
