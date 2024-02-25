@@ -1,0 +1,11 @@
+pyarrow
+datafusion
+jwt
+pydantic
+pydantic_settings
+pandas
+
+[test]
+pydantic
+pydantic_settings
+pandas
