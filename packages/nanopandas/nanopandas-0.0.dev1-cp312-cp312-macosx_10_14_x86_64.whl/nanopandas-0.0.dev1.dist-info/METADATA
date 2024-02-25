@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: nanopandas
+Version: 0.0.dev1
+Summary: Nano implementation of pandas arrays
+Author-Email: Will Ayd <william.ayd@icloud.com>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024-present Will Ayd
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Source, https://github.com/willayd/nanopandas
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+For usage you can simply ``pip install .``
+
+
+If developing install nanobind then:
+
+```sh
+cmake -S . -B build
+cmake --build build
+cd build/src
+```
+
+You can then run the test suite from the build folder with ``python -m pytest ../../tests``
+
+Usage:
+
+```python
+>>> import nanopandas as nanopd
+>>> arr = nanopd.StringArray(["foo", "bar", "baz", "baz", None])
+>>> arr.size
+5
+>>> arr.nbytes
+48
+>>> arr.dtype
+'large_string[nanoarrow]'
+>>> arr.to_pylist()
+['foo', 'bar', 'baz', 'baz', None]
+>>> arr.unique().to_pylist()
+['bar', 'baz', 'foo']
+```
+
+Note that we use utf8proc for string handling:
+
+```python
+>>> import nanopandas as nanopd
+>>> arr = nanopd.StringArray(["üàéµ"])
+>>> arr.upper().to_pylist()
+['ÜÀÉΜ']
+>>> arr.capitalize().to_pylist()
+['Üàéµ']
+```
+
+Developing with sanitizers can work. Try this cmake config from the project root:
+
+```
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DUSE_SANITIZERS=ON
+cmake --build build
+cd build/src
+ASAN_OPTIONS="detect_leaks=0" LD_PRELOAD="$(gcc -print-file-name=libasan.so)" python -m pytest -s ../../tests/
+```
