@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+py_dependency_injection.egg-info/PKG-INFO
+py_dependency_injection.egg-info/SOURCES.txt
+py_dependency_injection.egg-info/dependency_links.txt
+py_dependency_injection.egg-info/top_level.txt
