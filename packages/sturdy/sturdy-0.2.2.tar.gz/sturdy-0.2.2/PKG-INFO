@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: sturdy
+Version: 0.2.2
+Summary: Modular app server
+Home-page: https://github.com/zaryanezrya/sturdy
+License: MIT
+Keywords: Plugin,IoC,Inversion of control,resolve
+Author: Ivan Sharun
+Author-email: ivan@sha.run
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/zaryanezrya/sturdy
+Description-Content-Type: text/markdown
+
+# Description
+
+coming soon ...
+
+# Installation
+
+From [pypi.org](https://pypi.org/project/sturdy/):
+```
+pip install sturdy
+```
+
+From [test.pypi.org](https://test.pypi.org/project/sturdy/):
+```
+pip install -i https://test.pypi.org/simple/ sturdy
+```
+
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
