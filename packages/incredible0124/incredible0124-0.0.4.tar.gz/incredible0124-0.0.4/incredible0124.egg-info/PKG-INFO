@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: incredible0124
+Version: 0.0.4
+Home-page: https://github.dev/Louis0124/incredible
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: paho-mqtt
