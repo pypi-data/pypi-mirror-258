@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: franknpython
+Version: 0.1.1
+Summary: Running application parts async with different python interpreters
+Home-page: https://github.com/tommmlij/franknpython
+License: MIT
+Author: tommmlij
+Author-email: tommmlij@gmail.com
+Requires-Python: >=3.8,<=3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: GitHub: issues, https://github.com/tommmlij/franknpython/issues
+Project-URL: GitHub: repo, https://github.com/tommmlij/franknpython
+Description-Content-Type: text/markdown
+
+![Static Badge](https://img.shields.io/badge/Python-3.8%2B-brightgreen?logo=python)
+![PyPI - Version](https://img.shields.io/pypi/v/franknpython?logo=pypi&logoColor=yellow&color=brightgreen)
+
