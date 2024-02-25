@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: kurumii
+Version: 0.7
+Summary: Print and ASCII addons
+Home-page: https://github.com/Kurumii-nightcore/kurumii
+Author: Kurumii
+Author-email: ocinstark@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Kurumii
+
+A small package that does stuff
+
+## Installation
+
+```bash
+pip install kurumii
+```
+
+## Usage
+
+
+
+## Resources
+
+- [Discord server](https://discord.gg/3qvpkgWSbF)
+- [Free hosting](https://sillydev.co.uk)
+- Contact me: gamer@sillydev.co.uk
+
