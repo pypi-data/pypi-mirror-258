@@ -1,0 +1,8 @@
+setup.py
+genClaude/__init__.py
+genClaude/get_response.py
+genClaude.egg-info/PKG-INFO
+genClaude.egg-info/SOURCES.txt
+genClaude.egg-info/dependency_links.txt
+genClaude.egg-info/requires.txt
+genClaude.egg-info/top_level.txt
