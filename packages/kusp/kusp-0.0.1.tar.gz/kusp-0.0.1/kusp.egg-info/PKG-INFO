@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kusp
+Version: 0.0.1
+Summary: kusp
+Author: Amit Gupta
+Author-email: gupta839@umn.edu
+Requires-Dist: pyyaml
+Requires-Dist: loguru
