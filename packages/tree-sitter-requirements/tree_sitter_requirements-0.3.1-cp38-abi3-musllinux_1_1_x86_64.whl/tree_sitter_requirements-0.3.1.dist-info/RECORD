@@ -1,0 +1,9 @@
+tree_sitter_requirements-0.3.1.dist-info/METADATA,sha256=Hej1QO3Ul0_Cor1CGQXoh2MD3GbKnAGVFzSkIpm507I,3306
+tree_sitter_requirements-0.3.1.dist-info/top_level.txt,sha256=5rJX1erEibfNEFlXGYUPbl7D_bFsOSV-1MMh6JUVAoY,25
+tree_sitter_requirements-0.3.1.dist-info/WHEEL,sha256=KoLRrjtsqLPqG-zWK7p1BWj5iFtYFl42z1mukAko-OU,111
+tree_sitter_requirements-0.3.1.dist-info/RECORD,,
+tree_sitter_requirements-0.3.1.dist-info/LICENSE,sha256=QT7Ew4QvlbyvZiq6fWRrIrrwRKpqxe-mUxuU1O4AJIs,1058
+tree_sitter_requirements/requirements.so,sha256=vNsqQ49KT_sL8g08MCUUIfN7u7DEwOHtwrQLEeYcxQM,50480
+tree_sitter_requirements/_core.py,sha256=OZkyMmvhno3-WGo7qieg-cThQ7PJ5ksi9Wxgd2zbal4,1033
+tree_sitter_requirements/__init__.py,sha256=wa2vQ-E8MqtpcsjWpuoZs7nyAsnXAArId8FITqVHx7k,192
+tree_sitter_requirements/queries/highlights.scm,sha256=HzOzEhE3Ni-gG_2XmfSayYYmsiQb7jRMyH_cO3sHnng,510
