@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "agentscript"
+version = "0.1.1"
+description = "A programming language for AI agents"
+authors = ["Patrick Barker <patrickbarkerco@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+agent-tool = "^0.1.6"
+agentscript-pyo3 = "0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
