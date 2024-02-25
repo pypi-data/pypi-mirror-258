@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: remoteio
+Version: 1.0.7
+Summary: remoteio - Remote GPIO control 
+Home-page: UNKNOWN
+Author: Christoph Scherbeck
+Author-email: christoph@scherbeck.tech
+License: UNKNOWN
+Project-URL: Homepage, https://github.com/schech1/remoteio
+Keywords: python,remoteio
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Hardware
+License-File: LICENSE
+
+A Raspberry Pi GPIO remote control based on gpiozero
+
