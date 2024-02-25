@@ -1,0 +1,11 @@
+zensols/amrspring/__init__.py,sha256=3psk0W7Mb9LzdFpSMGnQUY_xOI8xO9DU8Q5KsvLlmds,38
+zensols/amrspring/app.py,sha256=iC8D550qOMWhptstbaC2VUJP3G1Gbxlhpkx3FcLjIXU,4773
+zensols/amrspring/cli.py,sha256=86M-RR_GvJetzONSlsDXhinelQSkSPUeelz5XRc1B_M,876
+zensols/amrspring/resources/app.conf,sha256=N_LYxBGPzqAjRYpoYCacbSlyQEHkEQ0Pa4PWTKeoT8s,821
+zensols/amrspring/resources/default.conf,sha256=cddCMOxD04BySCTm-OecwllLUf7b19ofrnEHue4Gvxo,124
+zensols/amrspring/resources/obj.yml,sha256=NXW-C9QMa_O_LqIkQESTg7ZG0F9OelNfk4WrPyXPJMM,201
+zensols.amrspring-0.0.1.dist-info/METADATA,sha256=OHxM5vAzC8JRbOZgNyFF5KrMtnVgaBt4lBorgHfXvjk,5102
+zensols.amrspring-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+zensols.amrspring-0.0.1.dist-info/entry_points.txt,sha256=DozXRLX4micOsjApL2I3rOrcoG_imSMh66GHVTaE4oo,53
+zensols.amrspring-0.0.1.dist-info/top_level.txt,sha256=Ev43bBZQSR_S8ckMhHwIqiXV6l-T8fdAQmvyEidK5m8,18
+zensols.amrspring-0.0.1.dist-info/RECORD,,
