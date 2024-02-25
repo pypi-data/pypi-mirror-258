@@ -1,0 +1,12 @@
+br_docs/__init__.py,sha256=ryGfBjk1cCF-R3B_TOHiUckC4VzWu-4r1yzTtwyzHEc,394
+br_docs/validators/__init__.py,sha256=7oe03O6otVjvwgAhlgmgZMhJxOA89UoljmBsJD1L4es,899
+br_docs/validators/cnh.py,sha256=ICK6g6iBZfP9_KY90_gFi-KRb4MYD7TSgkXCIcBshgw,1169
+br_docs/validators/cnpj.py,sha256=m_pU0eQdVQHm84x8iVuYvNolsmXzvQj1fRVUpECuS4Y,932
+br_docs/validators/cpf.py,sha256=9Fo5K50JdLkpzWH4UWJ-2aRM5sVQfBCFGC4h7WxIeVg,645
+br_docs/validators/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+br_docs/validators/types/format.py,sha256=hj4f3KjW7mAz7l1F6pXby4_BahGNGdaIbNbmsQxrXTI,421
+brdocs_validation-0.0.4.dist-info/LICENSE.txt,sha256=FdwJdtrJG9B1E0C3y6BG6QhRznIfFLzPXdUzclDkZYs,1073
+brdocs_validation-0.0.4.dist-info/METADATA,sha256=n_reWmTI4jiBNFY3C7LyBdZipHN2y3Q5t2JYWmGxM7w,2406
+brdocs_validation-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+brdocs_validation-0.0.4.dist-info/top_level.txt,sha256=COjwP4hy4qNtPXnPVmsgWBi_-2Byyw_0gmjorp3UnRA,8
+brdocs_validation-0.0.4.dist-info/RECORD,,
