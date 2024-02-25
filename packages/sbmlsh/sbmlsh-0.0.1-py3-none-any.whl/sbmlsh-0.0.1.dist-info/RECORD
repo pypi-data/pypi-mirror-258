@@ -1,0 +1,10 @@
+sbmlsh/__init__.py,sha256=8zf6mt3shNLnIsxaPIpoYgVaJ2_VSw99D4AndJMUJn0,71
+sbmlsh/mod2sbml.py,sha256=cYGR2VuDjBpwi6ioUxaMzhGK8lVx1P33gjdk7081YjM,20184
+sbmlsh/roundtrip.py,sha256=WyMkACqkh5wZ9MsfDe-1E90g8oX1pgdJzUNhtnVA7xQ,1080
+sbmlsh/sbml-latex-extract.py,sha256=RYmUMiK0gEJGE94mk2NY6-J0r_GR_qzsuIRkiMAlJ5Q,497
+sbmlsh/sbml2latex.py,sha256=aglC4sx9_b7VFg3xfpx-Oj88BmwU8fwFKmaf1LcE5PY,9671
+sbmlsh/sbml2mod.py,sha256=4UyH_eXfCXZUfm8CDEm78pJV3Ws-CL2QNoqOIbRQRV4,11882
+sbmlsh-0.0.1.dist-info/METADATA,sha256=fZ1eBOf9u38KBQRPPwE30Dc5lT-c7AkLVnSpVlTt2Hc,3354
+sbmlsh-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+sbmlsh-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbmlsh-0.0.1.dist-info/RECORD,,
