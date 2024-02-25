@@ -1,0 +1,16 @@
+gdt/missions/swift/__init__.py,sha256=J5GM0f2ORG3nfWDVQlwGUM6yza-3lsneWBib9nEH028,1510
+gdt/missions/swift/frame.py,sha256=UwkvO1RJKQWtCjQgZ-66q0FmsI9_ixGPQGPM8cJBAYw,3203
+gdt/missions/swift/time.py,sha256=MSjdd6DUR00n6U4_hBdGJM1-p7T4W-d-OOausiF_b3g,2255
+gdt/missions/swift/bat/catalogs.py,sha256=b7ITlkmI01QuJdLGDDZhdOnYbFmx5OrE7eUOsQdHHXI,1962
+gdt/missions/swift/bat/detectors.py,sha256=8crV-TCwEYQuyQH4v2y7CsxP7b66aNRCszEMXEv6LYg,6438
+gdt/missions/swift/bat/finders.py,sha256=7Jj4wnbDXIlvTh1QPs9xDAAuZg2Yvug1OlLWG3Eytz8,12312
+gdt/missions/swift/bat/headers.py,sha256=lF1pvrv2D19kxpT-WIhzxDdQLPG89fzedJs5Itw2usA,23580
+gdt/missions/swift/bat/lightcurve.py,sha256=7XIm9Lelnph4XLjZloFw8CVymPVDOMDmgqVTbiI7pNU,9707
+gdt/missions/swift/bat/pha.py,sha256=r_yGDFh3bhg25w16SPZa0tZksR3xjK2eBclfDv_TfH4,10651
+gdt/missions/swift/bat/poshist.py,sha256=ehUBoL0hPzLRcOa5QKN4Vu3yIVvzgBqRA4nXzGNc_nA,5157
+gdt/missions/swift/bat/response.py,sha256=qKbaFwYjpcF6ROTEtaWQ-aRzFwyjRyM9k6pxgYQSocE,6168
+astro_gdt_swift-1.0.0.dist-info/METADATA,sha256=B8sH7nbFIKx6-9yf_fikjvsQdmqEHD7Jyzrn-JgDhrU,1923
+astro_gdt_swift-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+astro_gdt_swift-1.0.0.dist-info/license.txt,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+astro_gdt_swift-1.0.0.dist-info/top_level.txt,sha256=fGz3vRc04UXiHt5UkRvQE4_ojQP_ZUm4n7JV5Z3LVak,4
+astro_gdt_swift-1.0.0.dist-info/RECORD,,
