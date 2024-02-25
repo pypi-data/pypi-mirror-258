@@ -1,0 +1,26 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nep"
+version = "0.5.4.5"
+authors = [
+  { name="Enrique Coronado", email="enriquecoronadozu@gmail.com" },
+]
+description = "NEP Python libraries"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 2.7",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development"
+]
+
+[project.urls]
+Homepage = "https://enrique-coronado.gitbook.io/nep-docs/"
+Issues = "https://enrique-coronado.gitbook.io/nep-docs/"
