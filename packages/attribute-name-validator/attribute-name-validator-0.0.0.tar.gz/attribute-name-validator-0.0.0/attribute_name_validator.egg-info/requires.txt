@@ -1,0 +1,5 @@
+oapi~=1.62
+openpyxl~=3.1
+
+[:python_version <= "3.6"]
+dataclasses~=0.8
