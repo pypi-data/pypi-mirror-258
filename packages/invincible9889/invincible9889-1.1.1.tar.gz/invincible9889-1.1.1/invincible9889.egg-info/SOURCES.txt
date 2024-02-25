@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+invincible9889.egg-info/PKG-INFO
+invincible9889.egg-info/SOURCES.txt
+invincible9889.egg-info/dependency_links.txt
+invincible9889.egg-info/requires.txt
+invincible9889.egg-info/top_level.txt
