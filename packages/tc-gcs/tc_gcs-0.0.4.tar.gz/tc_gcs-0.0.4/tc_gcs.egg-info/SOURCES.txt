@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+tc_gcs/__init__.py
+tc_gcs.egg-info/PKG-INFO
+tc_gcs.egg-info/SOURCES.txt
+tc_gcs.egg-info/dependency_links.txt
+tc_gcs.egg-info/requires.txt
+tc_gcs.egg-info/top_level.txt
+tc_gcs/gcs/__init__.py
+tc_gcs/gcs/bucket.py
+tc_gcs/gcs/storage.py
+tc_gcs/storages/__init__.py
+tc_gcs/storages/gcs_storage.py
