@@ -1,0 +1,9 @@
+recursive-include templates *
+recursive-include static *
+recursive-include images *
+recursive-include structured_data_metrics *
+recursive-include unstructured_data_metrics *
+include README.md
+include app.py
+include requirements.txt
+

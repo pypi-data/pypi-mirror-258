@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url("/images/homepage_bg2.png");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            margin-top: 100px;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        h3 {
+            font-size: 1.5em;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .button-container a {
+            margin: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Optional: Add animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .animated {
+            animation: fadeIn 1.5s ease-out;
+        }
+    </style>
+</head>
+<body class="animated">
+    <h1>Welcome to AIDRIn</h1>
+    <h3>Step into the future with AIDRIn, your indispensable AI Data Readiness Inspector. Uncover the true potential of your data as AIDRIn ensures it's primed and polished for seamless integration with artificial intelligence.</h3>
+    <div class="button-container">
+        <a href="{{ url_for('upload_csv') }}">
+            <button>Structured Data Readiness</button>
+        </a>
+
+        <a href="{{ url_for('FAIRness') }}">
+            <button>FAIRness Assessment</button>
+        </a>
+        <a href="{{ url_for('med_img_readiness') }}">
+            <button>Medical Image Readiness</button>
+        </a>
+    </div>
+</body>
+</html>
