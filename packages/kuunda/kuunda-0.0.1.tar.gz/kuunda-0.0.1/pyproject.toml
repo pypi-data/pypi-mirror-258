@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "kuunda"
+version = "0.0.1"
+description = "Allround tool to help with test data setup for PySpark tests"
+authors = ["Sven Hofstede <info@svenhofstede.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
