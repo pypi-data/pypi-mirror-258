@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ConfigIniGUI/__init__.py
+ConfigIniGUI/example.py
+ConfigIniGUI.egg-info/PKG-INFO
+ConfigIniGUI.egg-info/SOURCES.txt
+ConfigIniGUI.egg-info/dependency_links.txt
+ConfigIniGUI.egg-info/top_level.txt
