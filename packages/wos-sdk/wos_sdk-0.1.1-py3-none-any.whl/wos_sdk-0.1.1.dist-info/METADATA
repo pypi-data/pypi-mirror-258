@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wos-sdk
+Version: 0.1.1
+Summary: Python SDK for interacting with WinGs Operating System
+Home-page: UNKNOWN
+Author: WinGs Robotics
+Author-email: dev@wingsrobotics.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: websocket-client
+
+## WOS SDK for Python
+
+This is the official python package for wos
+
+
