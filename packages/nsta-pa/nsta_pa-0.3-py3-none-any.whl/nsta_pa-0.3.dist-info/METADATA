@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nsta_pa
+Version: 0.3
+Summary: A personal assistant to store contacts.
+Home-page: https://github.com/nazarsmith/goitneo-python-hw-3-group-3
+Author: Nazar Stakhovskyi
+Author-email: nazarstahovsky@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+License-File: LICENSE
+
+# goitneo-python-hw-3-group-3
+
+## Description
+A CLI organizer that can help store contacts' phone numbers and birthday dates.
