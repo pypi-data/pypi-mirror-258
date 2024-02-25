@@ -1,0 +1,13 @@
+spkg/__about__.py,sha256=Y8muM8ZctRi3miGeBuLA7hwKK0neVipxgXQNtcNJKZE,136
+spkg/__init__.py,sha256=hYcUyROCic6ckdurzRkBwBgnnSknAJ7-Brbh0jWvE0I,113
+spkg/__main__.py,sha256=7uRQnpwU5cH19ZoYjFrsqUhIvkFLMjMPNP5ISg7jd_E,210
+spkg/action/__init__.py,sha256=1r8NJgdpOkUO0Bwrj1KGvHy-BTwuCvOo9FtNTbQ_YY8,2155
+spkg/ci/__init__.py,sha256=hIMJGmDgOjTnAzhVGM8Dhfv4aPLcSEBqKyNiWNQOJNQ,1267
+spkg/cli/__init__.py,sha256=Q5ZggU16oBUrKWSm30o0MmSK1dC_DBchdJBFoiDmEgw,2876
+spkg/hatch/__init__.py,sha256=lFEfdgFbta-1iZ99-P3GzF1OLT_s-rETH7YvJHGzw3I,1563
+spkg/log/__init__.py,sha256=-USrMDAG7HaeLW49r7Fq66bU_UQC6LlGBALLhEb9XeU,639
+spkg-1.0.4.dist-info/METADATA,sha256=DLwmBm1lIxGm-I2LbcwgENlaiJXmWFyamkOKY2-7j_U,1719
+spkg-1.0.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+spkg-1.0.4.dist-info/entry_points.txt,sha256=qAKI11FSz28t4S3y0pbJ3ksAxWvcJDqNSrt27nvQxF0,39
+spkg-1.0.4.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+spkg-1.0.4.dist-info/RECORD,,
