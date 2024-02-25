@@ -1,0 +1,9 @@
+pylsb/bible.py,sha256=iQ-nDDLsD9WiC_0epwSPaMxSbrTtNjrkGdgkwTBAsiY,13950
+pylsb/data.py,sha256=SgpS7XmSMAuK4fkCl2sWMsPR67qmm1rM9WBzsphB9Fs,3243
+pylsb/parse.py,sha256=5rL2KfZgxc8kYkknJSM1oRPAjY-6MTsx3iG7OU15ABk,6854
+pylsb/utils.py,sha256=HMVZkYFQrgM8VTRt8ZOEmxR-QU9MOGrveywsuEs4-ic,455
+pylsb-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pylsb-1.0.1.dist-info/METADATA,sha256=PqzrYHy3eMCx7G56Puu9D7J_v_Sr8agJ5sPaCIZH0rY,1846
+pylsb-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pylsb-1.0.1.dist-info/top_level.txt,sha256=fCXIjEdUohsGheDyjf5tGj0P2c5O0z39P6Ozg8Vgz0w,6
+pylsb-1.0.1.dist-info/RECORD,,
