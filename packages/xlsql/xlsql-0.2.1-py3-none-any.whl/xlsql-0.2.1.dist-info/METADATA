@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: xlsql
+Version: 0.2.1
+Summary: Convert a spreadsheet into a sqlite3 database.
+Author: Carl Anderson
+Author-email: carl.anderson@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.0,<9.0.0)
+Requires-Dist: openpyxl (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+
