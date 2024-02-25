@@ -1,0 +1,2 @@
+[pytest11]
+pyvenv = pytest_pyvenv.__init__
