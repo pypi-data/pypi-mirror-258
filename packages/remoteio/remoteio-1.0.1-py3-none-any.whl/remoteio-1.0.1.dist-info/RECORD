@@ -1,0 +1,9 @@
+remoteio/__init__.py,sha256=F2F32ngrBFY-4d18_0zfXCAHynyRBD-v3Siw7lYyx_U,81
+remoteio/remoteio_client.py,sha256=EuoM4rd8g5L6lEB0gdoxHF2_mUumU4oRVwaSKh9IpjU,1788
+remoteio/remoteio_server.py,sha256=7UhdzdiD_pycFnPfju7j2bW3yZsnkOJ73HHfa98b5XM,2503
+remoteio/test.py,sha256=t_nfPNcSvUba-i_QVll_CMA16zsawpEpIoQIzGRunSA,529
+remoteio-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+remoteio-1.0.1.dist-info/METADATA,sha256=15SHzYR9eTltGvCohzhVPfD19a66VF27xyXkm21p4Rc,838
+remoteio-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+remoteio-1.0.1.dist-info/top_level.txt,sha256=H4ZH455xp1Au8ZJDjBXU9hCtzAHzDterfnihOlETrSc,9
+remoteio-1.0.1.dist-info/RECORD,,
