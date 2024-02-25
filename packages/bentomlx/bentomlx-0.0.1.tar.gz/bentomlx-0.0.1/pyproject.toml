@@ -1,0 +1,62 @@
+[project]
+name = "bentomlx"
+version = "0.0.1"
+description = ""
+authors = [
+    { name = "kimsoungryoul", email = "kimsoungryoul@gmail.com" },
+]
+package-dir = "src"
+includes = [
+    "bentomlx/",
+]
+dependencies = [
+    "bentoml>=1.1.10",
+    "orjson>=3.6.9",
+    "pydantic-settings>=2.0.3",
+    "async-lru>=2.0.4",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.optional-dependencies]
+ipex = [
+    "torch>=1.13.1",
+    "intel-extension-for-pytorch>=1.13.1",
+]
+featurestore-aerospike = [
+    "aerospike>=11.0.0",
+]
+featurestore-redis = [
+    "redis-om>=0.2.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.3",
+]
+docs = [
+    "sphinx>=5",
+    "myst-parser",
+    "sphinx-click>=3.0.2",
+    "furo",
+    "sphinx-inline-tabs",
+    "sphinxext-opengraph",
+    "sphinxcontrib-fulltoc",
+    "sphinxcontrib-spelling",
+    "sphinx-copybutton",
+    "sphinx-issues",
+    "sphinx-design",
+    "pyenchant",
+    "Jinja2>=3.1",
+    "sphinx-autobuild",
+    "sphinx-hoverxref",
+]
