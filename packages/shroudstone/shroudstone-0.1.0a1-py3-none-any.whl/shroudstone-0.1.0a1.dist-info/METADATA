@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: shroudstone
+Version: 0.1.0a1
+Summary: Python utilities for working with Stormgate replays
+Author-email: Anthony Carapetis <anthony.carapetis@gmail.com>
+Requires-Python: ~=3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pandas~=2.1
+Requires-Dist: protobuf~=4.23
+Requires-Dist: pydantic~=2.6
+Requires-Dist: typer[all]~=0.9.0
