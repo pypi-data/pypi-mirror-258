@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: bruttle
+Version: 0.0.3
+Summary: A cli app to bruteforce pdf, zip, and some common hashes
+Home-page: https://github.com/tamton-aquib/bruttle
+License: MIT
+Keywords: pdf,zip,hash,crack,bruteeforce,brute force
+Author: Aquib
+Author-email: aquibjavedt007@gmail.com
+Requires-Python: >=3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pikepdf (==8.13.0)
+Requires-Dist: tqdm (==4.66.2)
+Project-URL: Documentation, https://github.com/tamton-aquib/bruttle
+Description-Content-Type: text/markdown
+
+
+# Bruttle
+
+A small script to bruteforce pdf, zip, and some popular hashes. <br />
+You can find the improved rust version of this script [here](https://github.com/tamton-aquib/veldora).
+
+
+### Installation:
+```bash
+pip3 install bruttle
+```
+
+### Usage:
+```bash
+bruttle <file/hash> <wordlist>
+# Example
+bruttle ~/test/test.zip /opt/password_list.txt
+bruttle "482c811da5d5b4bc6d497ffa98491e38" /opt/password_list.txt
+```
+
+### Features:
+- Less than 100 lines of code.
+- List of hashes include md5,sha1,sha224,sha256,sha384,sha512 (for now).
+- Filetypes include zip, pdf (for now)
+- Automatic filetype and/or hash detection.
+
+### Showcase:
+<!-- ![noice](https://user-images.githubusercontent.com/77913442/131712946-5aa50471-5b94-4f0c-97ff-08928c9e0316.gif) -->
+![noice](https://user-images.githubusercontent.com/77913442/158861560-16e60fdf-dab9-4c4d-8501-e549f605dbdf.gif)
+
+### Notes:
+* Get password lists from [here](https://github.com/kkrypt0nn/Wordlists)
+* To create custom passlist, try: [cupp.py](https://github.com/Mebus/cupp)
+* As always, not to be used for illegal purposes  : )
+

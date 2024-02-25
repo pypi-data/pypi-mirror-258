@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "bruttle"
+version = "0.0.3"
+authors = ["Aquib <aquibjavedt007@gmail.com>"]
+description = "A cli app to bruteforce pdf, zip, and some common hashes"
+homepage = "https://github.com/tamton-aquib/bruttle"
+documentation = "https://github.com/tamton-aquib/bruttle"
+readme = "README.md"
+keywords = ["pdf", "zip", "hash", "crack", "bruteeforce", "brute force"]
+license = "MIT"
+
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+pikepdf = "8.13.0"
+tqdm = "4.66.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+smassh = 'bruttle.bruttle:main'
