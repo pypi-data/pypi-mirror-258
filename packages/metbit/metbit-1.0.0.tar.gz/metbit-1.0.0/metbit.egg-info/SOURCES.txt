@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+metbit/__init__.py
+metbit.egg-info/PKG-INFO
+metbit.egg-info/SOURCES.txt
+metbit.egg-info/dependency_links.txt
+metbit.egg-info/requires.txt
+metbit.egg-info/top_level.txt
