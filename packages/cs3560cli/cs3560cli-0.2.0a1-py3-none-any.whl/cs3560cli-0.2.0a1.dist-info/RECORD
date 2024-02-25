@@ -1,0 +1,17 @@
+cs3560cli/VERSION,sha256=uvC6t52_3NHJ9wIFQ_q0yaO6iXLds5LAHx_tEW_umFs,7
+cs3560cli/__init__.py,sha256=vO0_eA7oxRhSUkMH12mkSLysqs97qbz4Nmf2pEB4Q6s,154
+cs3560cli/__main__.py,sha256=Jl83BF_5iaefRosgGELiDQG7ggYTjiQHyv70VdlHoIY,59
+cs3560cli/blackboard.py,sha256=RnSlQPMu6_r4hbr6nDzFovmcKvESK-WswVfyVF7gyrc,805
+cs3560cli/main.py,sha256=Ch3ZadgyTNJFM5ItazE3hYQAB5O9gGl7VhDWYYujm7I,612
+cs3560cli/commands/blackboard.py,sha256=7Uv1sEwu573zacY6O9t9zBCGHCwf82hfng9UXmIYdrw,3908
+cs3560cli/commands/check_username.py,sha256=v8QT3htUlVmvT9RzB6iXh21nLsUTjLG_SUv2xEr7al4,2266
+cs3560cli/commands/create_gitignore.py,sha256=evvVXqLAVT96FOPOuzKSV7Zi4LkFjYp1jkaD5ktEeE4,3636
+cs3560cli/commands/highlight.py,sha256=9lAMSsQH4Nnoku9MWyIorxYU_egxfJ0aQQiVPxXcBI8,2355
+cs3560cli/commands/watch_zip.py,sha256=yDSmgXjEt4uWbl3wfF8DuimmqU-WazaeA8N-XSSgh7Y,3322
+cs3560cli/templates/index.html,sha256=KQm7N8piHQyIucLF5mHFfuznv6OXKccr3rkLwZKvaLM,782
+cs3560cli-0.2.0a1.dist-info/LICENSE,sha256=wcO2ITAIr8HnRgQhOwuyPHNArUhoBhQ6zv6xYMVW4qw,1066
+cs3560cli-0.2.0a1.dist-info/METADATA,sha256=dMHkjhm3ga_inJeqLC8Jt8vTGiZbPrP5yk9U8SgSZHE,2978
+cs3560cli-0.2.0a1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cs3560cli-0.2.0a1.dist-info/entry_points.txt,sha256=8th4ErQd5YVaGxhJ2mItDKFu5_bwnwLFCxCYkrCq4Kc,49
+cs3560cli-0.2.0a1.dist-info/top_level.txt,sha256=McurWnmxjxLN_nW242ThdQzqB65z-bV_moHOyJaz5Ck,10
+cs3560cli-0.2.0a1.dist-info/RECORD,,
