@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dwoht"
+version = "0.0.1"
+authors = [
+  { name="ryleesnow", email="author@example.com" },
+]
+description = "personal_used_codebase_inspired_by_Taylor_Swift"
+readme = "README.md"
+requires-python = ">=3.8.13"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "setuptools>=68",
+  "pathos>=0.3.0",
+  "pandas>=1.3.4",
+  "numpy>=1.22.3",
+  "pyarrow>=14.0.1",
+  "tqdm>=4.64.0"
+]
