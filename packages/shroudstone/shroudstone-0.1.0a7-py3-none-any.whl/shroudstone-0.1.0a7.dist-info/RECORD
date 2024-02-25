@@ -1,0 +1,13 @@
+shroudstone/__init__.py,sha256=AmOYoLu-rSuxOoowOMHROsmCWjYfbOTcAHIHUATLlu0,83
+shroudstone/__main__.py,sha256=z1Mrmn8KSzvAYuz6kfQIEmcpGlihz6nkQzJd6AFQD2U,28
+shroudstone/cli.py,sha256=bmR644iOAMBcBcm9XDEsG_eCEJ07FchO9YZzW51hyUI,5886
+shroudstone/config.py,sha256=0EMirULPRO7dtaZX7kK3Q770Hsb8HCQEsyCJICDGufw,1210
+shroudstone/renamer.py,sha256=Y9F4F1E4c7cUZpasacJf0TIc6HaHJku6kEBht2Jtues,9570
+shroudstone/replay.py,sha256=0XMG_ZPqNpz7jk9AbXDY6CkVZeEvhOpixoSbtrrfmoA,2088
+shroudstone/stormgate_pb2.py,sha256=aiGkC9xqOliqE268pW6Ntgm_Ymrk4LKNuZSp7jn2Uhg,2121
+shroudstone/stormgate_pb2.pyi,sha256=WukIRwzpKUYS6Y3N6KLTP0mmOahLXJjFYeIyPpIKNRA,1847
+shroudstone-0.1.0a7.dist-info/entry_points.txt,sha256=BcZ_hZOB-AeUj7Zc4OEQrafTQCMn8Nv2QIs5G_b8sL0,51
+shroudstone-0.1.0a7.dist-info/LICENSE,sha256=ljOS4DjXvqEo5VzGfdaRwgRZPbNScGBmfwyC8PChvmQ,32422
+shroudstone-0.1.0a7.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+shroudstone-0.1.0a7.dist-info/METADATA,sha256=x3xHJ5aAzK3LwE9KCMYO1h8OYO0A0OUEFogpbhLf6bs,2841
+shroudstone-0.1.0a7.dist-info/RECORD,,
