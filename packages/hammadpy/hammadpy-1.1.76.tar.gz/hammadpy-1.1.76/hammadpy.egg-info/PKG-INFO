@@ -1,0 +1,104 @@
+Metadata-Version: 2.1
+Name: hammadpy
+Version: 1.1.76
+Summary: Hammad's Python Library
+Author: Hammad Saeed
+Author-email: hammad@supportvectors.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.10
+Requires-Dist: aiohttp
+Requires-Dist: aiosignal
+Requires-Dist: annotated-types
+Requires-Dist: anyio
+Requires-Dist: async-timeout
+Requires-Dist: attrs
+Requires-Dist: blis
+Requires-Dist: bottleneck
+Requires-Dist: catalogue
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: cloudpathlib
+Requires-Dist: colorama
+Requires-Dist: confection
+Requires-Dist: cymem
+Requires-Dist: dataclasses-json
+Requires-Dist: distro
+Requires-Dist: docstring-parser
+Requires-Dist: exceptiongroup
+Requires-Dist: fastapi
+Requires-Dist: filelock
+Requires-Dist: frozenlist
+Requires-Dist: fsspec
+Requires-Dist: greenlet
+Requires-Dist: h11
+Requires-Dist: httpcore
+Requires-Dist: httpx
+Requires-Dist: huggingface-hub
+Requires-Dist: idna
+Requires-Dist: instructor
+Requires-Dist: Jinja2
+Requires-Dist: joblib
+Requires-Dist: jsonpatch
+Requires-Dist: jsonpointer
+Requires-Dist: langchain
+Requires-Dist: langchain-community
+Requires-Dist: langchain-core
+Requires-Dist: langcodes
+Requires-Dist: langsmith
+Requires-Dist: markdown-it-py
+Requires-Dist: MarkupSafe
+Requires-Dist: marshmallow
+Requires-Dist: mdurl
+Requires-Dist: multidict
+Requires-Dist: murmurhash
+Requires-Dist: mypy-extensions
+Requires-Dist: nltk
+Requires-Dist: numpy
+Requires-Dist: openai
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: preshed
+Requires-Dist: prompt-toolkit
+Requires-Dist: pydantic
+Requires-Dist: pydantic_core
+Requires-Dist: Pygments
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: PyYAML
+Requires-Dist: regex
+Requires-Dist: requests
+Requires-Dist: rich
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: six
+Requires-Dist: smart-open
+Requires-Dist: sniffio
+Requires-Dist: spacy
+Requires-Dist: spacy-legacy
+Requires-Dist: spacy-loggers
+Requires-Dist: SQLAlchemy
+Requires-Dist: srsly
+Requires-Dist: starlette
+Requires-Dist: tenacity
+Requires-Dist: thinc
+Requires-Dist: threadpoolctl
+Requires-Dist: tqdm
+Requires-Dist: typer
+Requires-Dist: typing-inspect
+Requires-Dist: typing_extensions
+Requires-Dist: tzdata
+Requires-Dist: urllib3
+Requires-Dist: uvicorn
+Requires-Dist: wasabi
+Requires-Dist: wcwidth
+Requires-Dist: weasel
+Requires-Dist: yarl
+
+
+Hammad's Python Tools
+
+Documentation available at: https://github.com/hsaeed3/hammad-python
+    
