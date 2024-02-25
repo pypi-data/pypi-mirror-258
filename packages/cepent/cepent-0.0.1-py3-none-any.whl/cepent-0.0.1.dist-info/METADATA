@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cepent
+Version: 0.0.1
+Summary: Catch error pentaho
+Home-page: https://github.com/biwiser-com/cepent
+Author: Ysis Longart (Biwiser)
+Author-email: "Ysis Longart (Biwiser)" <ysisl@biwiser.com>
+Project-URL: Homepage, https://github.com/biwiser-com/cepent
+Project-URL: Issues, https://github.com/biwiser-com/cepent/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cepent
+
+Se encuentra en construccion es una libreria para almacenar errores de procesos ETL
+
+
+
+## Ejemplo de como usarlo
+
+Creando captura de error en caso de proceso rechazado
+
+```python
+from cepent import StreamingServer
+
+error = ErrorHandling(usr, pwd, bd_pg, bd_port,bd_procesos, bd_company, table_name)
+error.handle_error()
+
+```
