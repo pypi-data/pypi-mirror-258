@@ -1,0 +1,10 @@
+psyqlepg/__init__.py,sha256=yIVzKhiQOUAJNYuh4GHNhbBsbbF6xhZDF24S70Xex7Q,147
+psyqlepg/table.py,sha256=a7kq9Hx_c5CmG3dSllxdOc12i5v9veKkSa7ooFSb01Y,1835
+psyqlepg/table_info.py,sha256=XKOwntWVYXxZUkdyH2DScZSHEu6Ry3L6D8WF4jSOkLc,2767
+psyqlepg/util.py,sha256=b6JhDszyCTct1pgh0jINUd-V8YIgMTTCQMlga0b-NI0,3453
+psyqlepg/where.py,sha256=ylOGKwIT2cL52hp1l-Facm47rRXF9b07U-H_MbF3Ur0,1572
+psyqlepg-0.3.2.dist-info/LICENSE,sha256=bY6vJL9UluEKioQKxXMkNIhUJ3hCqcuzP91z5gocJxI,1515
+psyqlepg-0.3.2.dist-info/METADATA,sha256=KELn7PuFB3L0KT7FIt7vB1AmD8bFllWYJ_O5wxVhnr8,932
+psyqlepg-0.3.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+psyqlepg-0.3.2.dist-info/top_level.txt,sha256=VExX89mrw_p9J-IXy3e0YartP8B-2mwJnpOjZSvnqtQ,9
+psyqlepg-0.3.2.dist-info/RECORD,,
