@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aiowiserbyfeller
+Version: 1.0.0b0
+Summary: Wiser by Feller µGateway API
+Author: Michael Burri
+Author-email: <michael.burri@syonix.ch>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: aiohttp
+Requires-Dist: websockets
+
+This library provides an interface to Wiser by Feller µGateway device.See https://wiser.feller.ch for more information
