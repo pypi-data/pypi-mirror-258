@@ -1,0 +1,9 @@
+vedro_import_profiler/__init__.py,sha256=Hqe3uWb3PVBHV2nAuwwg5vKlXygB5VchCfZ3HNaZ4kQ,171
+vedro_import_profiler/_import_profiler_plugin.py,sha256=GYdXPDjMzf0H1AsJrfgJ9DawC3n_t4PcOaKsmnZaN7Y,1460
+vedro_import_profiler/_scenario_file_loader.py,sha256=9os-bnX0CujbVCK1JUNyLuFJaG1ov-iTiNg01OLfgts,907
+vedro_import_profiler/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vedro_import_profiler-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vedro_import_profiler-0.0.1.dist-info/METADATA,sha256=WsMZbI4-gZ_BsCngUH9hceH4slR_sFQ2EQKm_q1vXJU,2155
+vedro_import_profiler-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vedro_import_profiler-0.0.1.dist-info/top_level.txt,sha256=fbBDRviofl6_KQdBNpiGWuFvgl7GWQPM-98LQn-uI50,22
+vedro_import_profiler-0.0.1.dist-info/RECORD,,
