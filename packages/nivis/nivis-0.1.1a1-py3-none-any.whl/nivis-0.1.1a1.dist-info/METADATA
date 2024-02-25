@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nivis
+Version: 0.1.1a1
+Summary: Python implementation for Nivis.
+Author-email: 简律纯 <i@jyunko.cn>
+License: MIT
+License-File: COPYING
+Requires-Python: >=3.11
+Requires-Dist: ply>=3.11
+Description-Content-Type: text/x-rst
+
+|ruff|
+
+Nivis
+=======
+
+    ❄ Lightweight and easy-to-use multi-paradigm interactive scripting language.
+
+Welcome to nivis community!
+
+
+.. |ruff| image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json
+    :target: https://github.com/astral-sh/ruff
+    :alt: Ruff

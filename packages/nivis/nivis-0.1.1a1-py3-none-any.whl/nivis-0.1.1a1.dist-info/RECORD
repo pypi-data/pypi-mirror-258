@@ -1,0 +1,15 @@
+nivis/__init__.py,sha256=r-LPLQc5Lo9xKtgXn5JotRVNDnmg7lz1pCJrmzTIdf4,249
+nivis/exception.py,sha256=qo62_Kw2MZ0rNqmCIWvyeUIdo40iKQ1C0MY_SV_wFoI,879
+nivis/execution.py,sha256=wFvuBs5wbkp8RMh8s5-hRceUbgYXmVs-zVPEN596D_U,944
+nivis/interpreter.py,sha256=ibx3eo69grdBXmJDD637CcdvE6LJEU_Yj1olqARFFWE,1788
+nivis/lexer.py,sha256=hMRdWsc9tr9m3ksoatN8tljSNLAm8VvdDMBtGaco3Gs,8039
+nivis/mathmatics.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nivis/parsers.py,sha256=xVQeXS55k2_8aGeCsQABUZw0CgA0_SzX_SJrRaAQPsg,3360
+nivis/type.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nivis/Grammar/Token,sha256=Dsv36SwhebW7KEU7mMlbZyzXaPv82OOQkQx3iqoI-2Y,1534
+nivis/Lib/IOStream/__init__.nivis,sha256=AwqpVUCIWcUEZD8w916TjVX9cvj3QudXTsNLloKZXRY,31
+nivis/Modules/asyncio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nivis-0.1.1a1.dist-info/METADATA,sha256=7l4E5SHKH3ZxQs7fpEmSUgqzWyaEmCBFP5TQuKTyJds,580
+nivis-0.1.1a1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+nivis-0.1.1a1.dist-info/licenses/COPYING,sha256=Y_QCynEYV-NuyYPTyhxSzUfT2fzmuxQ3Zc0IKSHzp-c,1092
+nivis-0.1.1a1.dist-info/RECORD,,
