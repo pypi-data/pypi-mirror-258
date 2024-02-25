@@ -1,0 +1,3 @@
+[console_scripts]
+trsp-build = trsp.build:main
+trsp-run = trsp.run:main
