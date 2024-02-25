@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: agentscript_pyo3
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License-File: LICENSE
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# agentscript.pyo3
+
+Python bindings for the Rust agentscript interpreter
+
