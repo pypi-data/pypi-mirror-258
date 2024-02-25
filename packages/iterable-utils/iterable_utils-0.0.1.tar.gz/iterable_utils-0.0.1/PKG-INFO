@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: iterable_utils
+Version: 0.0.1
+Summary: utils for iterable objects
+Author: fleecy
+Description-Content-Type: text/markdown
+
+# Iterable utils #
+is a package of functions designed to help fellow python developers to operate iterable objects.

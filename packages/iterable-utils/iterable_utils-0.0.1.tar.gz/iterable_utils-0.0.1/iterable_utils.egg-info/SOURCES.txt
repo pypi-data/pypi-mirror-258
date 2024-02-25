@@ -1,0 +1,7 @@
+README.md
+setup.py
+iterable_utils/__init__.py
+iterable_utils.egg-info/PKG-INFO
+iterable_utils.egg-info/SOURCES.txt
+iterable_utils.egg-info/dependency_links.txt
+iterable_utils.egg-info/top_level.txt
