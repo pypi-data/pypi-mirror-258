@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+toohardman_pkg/__init__.py
+toohardman_pkg_dosoos.egg-info/PKG-INFO
+toohardman_pkg_dosoos.egg-info/SOURCES.txt
+toohardman_pkg_dosoos.egg-info/dependency_links.txt
+toohardman_pkg_dosoos.egg-info/top_level.txt

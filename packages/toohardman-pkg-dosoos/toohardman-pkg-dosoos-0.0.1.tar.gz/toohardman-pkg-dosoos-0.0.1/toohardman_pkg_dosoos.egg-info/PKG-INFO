@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: toohardman-pkg-dosoos
+Version: 0.0.1
+Summary: A man introduce package
+Home-page: UNKNOWN
+Author: dosoos
+Author-email: dosoos94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 负债累累的中年人
+
+生活为何如此艰难, 生活的意义到底是什么, 日复一日的努力工作着, 挣得钱勉强糊口, 如今竟然为了空投领奖励来pypi上传python包, 真的够了, 太难了
+
