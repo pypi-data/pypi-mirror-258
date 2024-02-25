@@ -1,0 +1,32 @@
+[project]
+name = "pybase-ext"
+authors = [
+    # You can specify multiple authors if required!
+    { name = "Jaime Gonzalez Gomez", email = "jim.gomez.dnn@gmail.com" },
+]
+description = """
+Basic Python modules to support new classes in old Python
+releases (for example, enum.StrEnum) or new unreleased/experimental codes.
+"""
+urls = { Source = "https://github.com/Jtachan/PyBaseExtension.git" }
+dependencies = [
+    # The idea is to keep this package without dependencies
+]
+requires-python = ">=3.8"
+license = { text = "MIT license" }
+dynamic = ["readme", "version"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+version = { attr = "pybase_ext._version.__version__" }
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "unittests"]
