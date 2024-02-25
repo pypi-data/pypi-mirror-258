@@ -1,0 +1,5 @@
+dataset_support-0.1.1.dist-info/METADATA,sha256=c33PvAc26WL1t1ry5tYv8AdKoivUNkraOvRsLutFBN0,630
+dataset_support-0.1.1.dist-info/WHEEL,sha256=S0rB2hDy1vo9ABZi7A01rQ8AAoGmft-elqksCH-s-Bw,95
+dataset_support/__init__.py,sha256=3gyp_UiViRJVBqkHhqwdFYd-Zjavg8a-0EM2vnrkk5A,143
+dataset_support/dataset_support.cp310-win_amd64.pyd,sha256=Rf87DIWhuwWcOYv5JBtj2oV33JU4XPO-mpbNcO3rQro,310784
+dataset_support-0.1.1.dist-info/RECORD,,
