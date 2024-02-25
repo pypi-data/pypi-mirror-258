@@ -1,0 +1,10 @@
+diapasons/__init__.py,sha256=fEjdkXNahX_HVOgK03OXZNaBEJysxns3NiyecKyCQKQ,75
+diapasons/base.py,sha256=DW9TSqabZAKi_TrLlNErY2v_vkstShf73KueegbO8Bk,7438
+diapasons/exceptions.py,sha256=DlEic4OIQ2k4PJQs9e1AEV3Voi6VODYiJZj5f50Yeuo,174
+diapasons/tests.py,sha256=GP6B8Di2iQf1TEGZ4X66FBuYmA9oJB-wWGWc-ijlH0Q,6980
+diapasons/validators.py,sha256=1f9o3kffPiFnxAiuZL4ef22eXOq049DenaHbFAIQxQ4,144
+diapasons-0.0.3.dist-info/LICENSE,sha256=6L8X3dLipuBTUdUcNXI8pytEdWmr1u2nzwlg8zZuT3M,1330
+diapasons-0.0.3.dist-info/METADATA,sha256=cTfZQpw2K62WaG5yXGunsPCf9ZwMu0E-h1T6RlVB3Go,5194
+diapasons-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+diapasons-0.0.3.dist-info/top_level.txt,sha256=yxxM3luTHEbklMNNWaE5mFDFONpW2x4HUg0q4687Qt8,10
+diapasons-0.0.3.dist-info/RECORD,,
