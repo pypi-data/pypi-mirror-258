@@ -1,0 +1,11 @@
+pyemvue/__init__.py,sha256=mupS3vGB3QNIKr1zy6V9cgEkfYcYaa2QXvyD3ZLUeek,36
+pyemvue/__main__.py,sha256=5zVS_W-z2wKpsMY4QstLe6bW9IMLeLL97XkYZg9Z9ug,5100
+pyemvue/auth.py,sha256=FyS2gPxilIg3LA6A1VS0YqPSj0iRJ-DQGQBzx-vCPdQ,6209
+pyemvue/customer.py,sha256=GjVoIn97ZNX45C4ZPvajx_M-FE59K_lEO_x3eOpSECA,774
+pyemvue/device.py,sha256=eQsHUSj7_aKnaSsZVXt3SOZRohdbLLdxRJgdmSc1drk,15154
+pyemvue/enums.py,sha256=azGsUcN5E9LJoBbhMxUQEqlai-Di5EwG4QM6Z-dDrYU,372
+pyemvue/pyemvue.py,sha256=_3ewTFNi9Cw_v_jua3Hd-h_d1n3brbOGDFug-965f2c,15935
+pyemvue-0.18.1.dist-info/METADATA,sha256=R5PrMWvpbLZu6sh5hGN3JE5mDBoz3rboWRyYwjjd6V0,9541
+pyemvue-0.18.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pyemvue-0.18.1.dist-info/licenses/LICENSE.txt,sha256=z694nzvwGgO2Uw31fMzVO0pAuxQlDr__xOg2tA82D-E,1071
+pyemvue-0.18.1.dist-info/RECORD,,
