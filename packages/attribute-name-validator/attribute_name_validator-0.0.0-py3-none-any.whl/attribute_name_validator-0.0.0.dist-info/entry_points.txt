@@ -1,0 +1,3 @@
+[console_scripts]
+anv = attribute_name_validator.__main__:main
+attribute-name-validator = attribute_name_validator.__main__:main
