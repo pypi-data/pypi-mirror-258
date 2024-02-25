@@ -1,0 +1,16 @@
+py_arg_reports/config.py,sha256=e5_Elw6Ekacwmf7q3OHcaSy83-l40Ml4bPECxMbs5iw,263
+py_arg_reports/base_reports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_arg_reports/base_reports/recibo_base_1.py,sha256=bhqUK41fyU_l_vbaNCmodhySsvSXyBTzFj6JSbgAV2E,8971
+py_arg_reports/reporters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_arg_reports/reporters/descarga_excel.py,sha256=_4exsq78UKEXB6TMey6yTIyMfo0SZlobQLFnw1eKt3g,2916
+py_arg_reports/reporters/recibo_sueldo.py,sha256=BngIg0gjSLWMdfLqaBaZFpxP8Oy0zONIZahLX7omrQc,34140
+py_arg_reports/tables/base_tables.py,sha256=3u1aWA6koXUirepBqlnkAytlY4NtYTiArrIJJom7dCs,90
+py_arg_reports/test_cases/liquidacion_completa.json,sha256=hmgfgPHL9znOqX1xaTsRT0lPMRdUEqoi5yQo8ZNkzN0,154914
+py_arg_reports/test_cases/liquidacion_corta.json,sha256=SKpkJwQaKhYi79CcTnbD7ADGMegYGlV0grOS7zww4nw,10093
+py_arg_reports/test_cases/test_recibo.py,sha256=B9plWI7tqbYLgQE8O1DqFjZAGcJCIrg72t8I_35LpTo,346
+py_arg_reports/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_arg_reports/tools/recibos_utils.py,sha256=uPX7FpCeg6SHTAL6CoCJva2mqELhpvGl6WjvjVSqlJU,2658
+payroll_arg_reportes-0.0.14.dist-info/METADATA,sha256=NdyU7iIONctiiGiZRw809xbDJePqO07dCe8Ooqcf1SE,13974
+payroll_arg_reportes-0.0.14.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+payroll_arg_reportes-0.0.14.dist-info/licenses/LICENSE,sha256=dZz3ZOdv3GX7HdmjoyDF5Ux8oUfDQEpHcwOWQOInWls,1067
+payroll_arg_reportes-0.0.14.dist-info/RECORD,,
