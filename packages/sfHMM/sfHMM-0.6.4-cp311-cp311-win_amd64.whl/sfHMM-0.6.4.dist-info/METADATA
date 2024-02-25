@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sfHMM
+Version: 0.6.4
+Summary: step finding based HMM
+Author: Hanjin Liu
+Author-email: liuhanjin-sc@g.ecc.u-tokyo.ac.jp
+License: GPLv2
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: hmmlearn >=0.2.3
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: pandas >=1
+
