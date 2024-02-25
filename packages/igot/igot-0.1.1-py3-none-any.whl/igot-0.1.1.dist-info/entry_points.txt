@@ -1,0 +1,3 @@
+[console_scripts]
+igot = i_got.__main__:main
+
