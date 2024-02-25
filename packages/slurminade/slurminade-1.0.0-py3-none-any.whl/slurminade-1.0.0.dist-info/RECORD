@@ -1,0 +1,15 @@
+slurminade/__init__.py,sha256=XfgkHkDiolUaC4OMG2ZOr3rSpHmJB-XC7R7lEDE2myc,2918
+slurminade/batch.py,sha256=w7eS7TmbhUH93RWDvXGt-nuuf18JqmNInX4DrHDCiME,4898
+slurminade/conf.py,sha256=gJP3MfIsa5oTsihfGVMEkjQOXPWLS-68jkP6bmLZYUY,1309
+slurminade/dispatcher.py,sha256=R5V5DtPCiwv7kBECHvb5is02Fvth34BAYdiUFQh5Kcs,16204
+slurminade/execute.py,sha256=DYfOK4An5NYzab2PO77QxchgfDwRmBWmRCvPoTSXduM,1954
+slurminade/function.py,sha256=_jQWkzjXnHRe90_gg1g_4wpOSeQp5fvYQdogKpwhPoM,5808
+slurminade/function_map.py,sha256=m-L7T-wzVyqWskmhGZiVR33TpRMHsSnI6hy3suRitcs,4778
+slurminade/guard.py,sha256=lAfBRi5J_jsjmHV3RprlePZXeyp_J9Pp-HluUqtEWvo,4632
+slurminade/node_setup.py,sha256=AdoqF5lbMKODZz7J5khPlhbkrgWdYxxZPvB5opAgT_8,485
+slurminade/options.py,sha256=6UUjVJlBxjBiMiEXmHwyEY-b6MGW1fzg3GJxLmhppGU,717
+slurminade-1.0.0.dist-info/LICENSE,sha256=8PRpSF_gvlxY4I1_yNtrFB9y5lumnfGfUyjQUJx5LxE,1071
+slurminade-1.0.0.dist-info/METADATA,sha256=OmwyuSNVYKUBVtNM7_NN19JL020csVipWNoN_9U0sLE,15125
+slurminade-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+slurminade-1.0.0.dist-info/top_level.txt,sha256=YrWObMR3at2lbVLLw9gj1K_Q0JozAMXSCI3BEuTlIW4,11
+slurminade-1.0.0.dist-info/RECORD,,
