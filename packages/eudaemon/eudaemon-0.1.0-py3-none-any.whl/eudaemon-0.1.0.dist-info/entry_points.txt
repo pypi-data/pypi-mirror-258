@@ -1,0 +1,5 @@
+[console_scripts]
+eudaemon=eudaemon:main
+eudaemon-brightness=eudaemon.brightness:main
+eudaemon-idleness=eudaemon.idleness:main
+

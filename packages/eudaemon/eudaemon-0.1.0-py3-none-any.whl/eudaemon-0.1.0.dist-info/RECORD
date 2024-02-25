@@ -1,0 +1,9 @@
+eudaemon/__init__.py,sha256=KmzXhTX5fbrOfbqB-NWyiyrCd8xyuWM4xbVBea2caKA,500
+eudaemon/brightness.py,sha256=K01TfK2A0z-kKuteGEeO6-vP4dVRWuRyXGgBRodyIOM,2377
+eudaemon/idleness.py,sha256=q0qop3jDmYAUMgusbPK5FbgP4NnYT4GVi5h_OhX0t10,3854
+eudaemon/utils.py,sha256=QGQ7mNHYfTz4OIKnnCw2abrhue_pppVKuaBVzrndhaU,1814
+eudaemon-0.1.0.dist-info/LICENSE,sha256=seqbHYTbAuIsfYIdHJbtCPIwyNALMdX37nZT8eCJjTg,35800
+eudaemon-0.1.0.dist-info/METADATA,sha256=ScCE53JP94grMRWx4cHX7me749vJIXSRgd5ZjUI6IhA,4828
+eudaemon-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+eudaemon-0.1.0.dist-info/entry_points.txt,sha256=82G97UiS3du8F54hWHrJjUxD7mnQd_n16LNM0NT7-cA,128
+eudaemon-0.1.0.dist-info/RECORD,,
