@@ -1,0 +1,3 @@
+[console_scripts]
+pbj_tools = pbj_tools.main:main
+
