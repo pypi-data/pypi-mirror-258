@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pso-optimizer
+Version: 1.0.0
+Summary: Hyperparameter selection on machine learning models using PSO algorithm.
+Home-page: https://github.com/mBayraktar12/PSO-Hyperparameter-Selection
+Author: Mert Bayraktar
+Author-email: mertbayraktar07@outlook.com
