@@ -1,0 +1,2 @@
+[console_scripts]
+nitro-promo-gen = nitro_promo_gen.nitro:generate_promo_codes
