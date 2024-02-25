@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: kuunda
+Version: 0.0.1
+Summary: Allround tool to help with test data setup for PySpark tests
+Author: Sven Hofstede
+Author-email: info@svenhofstede.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Kuunda
+
+Attempts to be your one-stop shop for managing and setting up test data for your PySpark unit tests. 
+
+## Installation
+
+```
+pip install kuunda
+```
+
+
