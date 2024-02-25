@@ -1,0 +1,1 @@
+from gaia_cmd_plotter.__version__ import __version__
