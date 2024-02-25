@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: xontrib-makefile-complete
+Version: 0.1.3
+Summary: This provides tab completion for make in xonsh.
+Project-URL: Code, https://codeberg.org/taconi/xontrib-makefile-complete
+Project-URL: Issue tracker, https://codeberg.org/taconi/xontrib-makefile-complete/issues
+Author-email: Igor Taconi <igor.taconi@protonmail.com>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Requires-Dist: xonsh>=0.13.1
+Description-Content-Type: text/markdown
+
+# Xontrib Makefile Complete
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?label=License&color=%234B78E6)](https://codeberg.org/taconi/xontrib-makefile-complete/raw/branch/main/LICENSE)
+[![PyPI version](https://img.shields.io/pypi/v/xontrib-makefile-complete.svg?logo=pypi&label=PyPI&color=%23FA9BFA)](https://pypi.org/project/xontrib-makefile-complete/)
+[![Supported Python versions](https://img.shields.io/pypi/pyversions/xontrib-makefile-complete.svg?logo=python&label=Python&color=%234B78E6)](https://pypi.python.org/pypi/xontrib-makefile-complete/)
+[![Downloads](https://img.shields.io/pypi/dm/xontrib-makefile-complete?logo=pypi&label=Downloads&color=%2373DC8C)](https://pypi.org/project/xontrib-makefile-complete/)
+
+This provides tab completion for make in xonsh.
+
+## Installation
+
+To install use xpip:
+
+```sh
+xpip install xontrib-makefile-complete
+```
+
+or
+
+```sh
+xpip install -U git+https://codeberg.org.com/taconi/xontrib-makefile-complete
+```
+
+## Usage
+
+```sh
+xontrib load makefile_complete
+ ```
