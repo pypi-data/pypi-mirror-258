@@ -1,0 +1,9 @@
+README.md
+setup.py
+kailakuletar.egg-info/PKG-INFO
+kailakuletar.egg-info/SOURCES.txt
+kailakuletar.egg-info/dependency_links.txt
+kailakuletar.egg-info/top_level.txt
+pycalculator/__init__.py
+pycalculator/calculator.py
+pycalculator/operations.py
