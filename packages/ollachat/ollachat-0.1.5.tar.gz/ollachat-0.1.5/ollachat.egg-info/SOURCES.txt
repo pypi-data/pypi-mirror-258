@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ollachat/__init__.py
+ollachat/chatbot.py
+ollachat/cli.py
+ollachat.egg-info/PKG-INFO
+ollachat.egg-info/SOURCES.txt
+ollachat.egg-info/dependency_links.txt
+ollachat.egg-info/entry_points.txt
+ollachat.egg-info/requires.txt
+ollachat.egg-info/top_level.txt
