@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: get-sunny
+Version: 0.1.0
+Summary: A Python package to get sunrise and sunset time for any city
+Home-page: https://github.com/purebluen73/get-sunny
+Author: purebluen73
+Author-email: purebluen73@gmail.com
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: requests

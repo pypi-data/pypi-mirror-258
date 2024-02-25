@@ -1,0 +1,3 @@
+需要在sunrise_sunset.py中
+将YOUR_API_KEY替换为自己申请的API KEY
+城市名称是英文
