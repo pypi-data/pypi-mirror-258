@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: ilytix
+Version: 0.1.1
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+License-File: LICENSE
+Summary: A simple cli tool for images analysis, written in Rust.
+Keywords: automation,cli,Dedup,rust,python
+Author: Jamjamjon <jamjamjon.usls@gmail.com>
+Author-email: Jamjamjon <jamjamjon.usls@gmail.com>
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/jamjamjon/ilytix
+
+# ilytix
+Images analytics.
+
+
+# Key functions
+- [X]  images integraty check
+- [X]  images de-duplicate
+- [ ]  image-image retival
+- [ ]  text-image retrival
+- [ ]  image catption
+
+
+# TODO:
+- [X] phash for deup
+- [ ] dinov2 for deup
+- [ ] visualization 
+- [ ] rayon to speedup
+- [X] usearch 
