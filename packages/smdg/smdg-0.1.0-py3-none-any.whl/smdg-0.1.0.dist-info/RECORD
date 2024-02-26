@@ -1,0 +1,11 @@
+smdg/__init__.py,sha256=NSSkxDELVtzmlFMaM8PpD4vuxrmwKkQFoeq5vNJ4dLo,538
+smdg/__main__.py,sha256=3SFByAvuDFnO_dlm6Ss36_yOr5J1pT6AjoCFmKqoUeY,919
+smdg/commandline.py,sha256=ZhGebUtNThJuVZC0llcI5lcMXY-cn7kZPt7Ano-orxA,3492
+smdg/elements.py,sha256=9yOJlBkSdq1X8ce9t5HCrheaXYnq7YOYCk8r0EhJJpE,6362
+smdg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smdg/strings.py,sha256=kt7v7mi1PTWb69T859qHHO-7EJNUusSSnWaveghFkVQ,3297
+smdg-0.1.0.dist-info/LICENSE,sha256=QisI1W5gYr4Ih0F-vH2s_xXj9LD-pJBdZ81LnODf_f8,1075
+smdg-0.1.0.dist-info/METADATA,sha256=HgwkuyPVRpka4ie3W4FylL4yAcbz9gdoAl8ZajQj99E,2856
+smdg-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+smdg-0.1.0.dist-info/top_level.txt,sha256=HhRZGXV1cQeb0M7LIY08kpRNsmsZQ24ZBPTJuMUz-v8,5
+smdg-0.1.0.dist-info/RECORD,,
