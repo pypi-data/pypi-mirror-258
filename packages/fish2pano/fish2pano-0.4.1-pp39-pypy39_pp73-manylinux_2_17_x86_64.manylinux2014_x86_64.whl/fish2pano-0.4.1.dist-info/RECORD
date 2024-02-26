@@ -1,0 +1,12 @@
+fish2pano.libs/libgomp-a34b3233.so.1.0.0,sha256=On6uznIxkRvi-7Gz58tMtcLg-E4MK7c3OUcrWh_uyME,168193
+fish2pano/fast.pypy39-pp73-x86_64-linux-gnu.so,sha256=c0q-Bp4qeE8O5tk9njYzMWnenWV7RAnf9V73I_xRAOw,204857
+fish2pano/fast.c,sha256=bxHhN2KvJ9ZbldwjcaJQwhxbJaiB-Ryo4Fj6DSg39G4,1038244
+fish2pano/fast.py,sha256=UyoQOStSC_aKp3MN8OpkwLEuWaQ9zi7dVoH_HJf56Dg,2343
+fish2pano/__init__.py,sha256=5VKcEOcIKHYgvxwY5d1f_qSIR_rcTfzuvYqSKj_qWKQ,2432
+fish2pano/tests/__init__.py,sha256=T2da_Pb00yav_hiCgAYCFJ1vv9uSkw7M6kKaU07FZg8,3799
+fish2pano-0.4.1.dist-info/LICENSE,sha256=sJ-vQS6t7P0quwndGcrx48k_ybyNTOhBtSP5HFG7Sfk,7115
+fish2pano-0.4.1.dist-info/AUTHORS,sha256=e-tND7TVcIGZPv7UXzjpNG0OeBigIYL9-q1HqCrqQB0,42
+fish2pano-0.4.1.dist-info/WHEEL,sha256=Cbg0nsX8XUWK0XXyuFqImveu21GlM0i0SUNuS4t0nDw,162
+fish2pano-0.4.1.dist-info/METADATA,sha256=HQAf9D4zXCMkLY3uomd9Cy4sJRSqrAwUKuZ6fH2yyXY,1796
+fish2pano-0.4.1.dist-info/top_level.txt,sha256=sRz_1PQo0DyxOOTfgJd2yz5Ttc6yq_CibYtYw2hYem0,10
+fish2pano-0.4.1.dist-info/RECORD,,
