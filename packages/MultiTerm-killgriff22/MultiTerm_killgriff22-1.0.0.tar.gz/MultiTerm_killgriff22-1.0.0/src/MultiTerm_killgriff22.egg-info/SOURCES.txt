@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/MultiTerm_killgriff22/__init__.py
+src/MultiTerm_killgriff22/classes.py
+src/MultiTerm_killgriff22/modules.py
+src/MultiTerm_killgriff22.egg-info/PKG-INFO
+src/MultiTerm_killgriff22.egg-info/SOURCES.txt
+src/MultiTerm_killgriff22.egg-info/dependency_links.txt
+src/MultiTerm_killgriff22.egg-info/top_level.txt
