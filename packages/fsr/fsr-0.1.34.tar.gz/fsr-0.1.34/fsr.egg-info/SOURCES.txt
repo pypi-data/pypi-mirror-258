@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fsr.egg-info/PKG-INFO
+fsr.egg-info/SOURCES.txt
+fsr.egg-info/dependency_links.txt
+fsr.egg-info/entry_points.txt
+fsr.egg-info/top_level.txt
+reporter/__init__.py
+reporter/main.py
+reporter/server.py
+reporter/report_web/app.js
+reporter/report_web/index.html
+reporter/report_web/style.css
