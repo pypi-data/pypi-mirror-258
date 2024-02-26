@@ -1,0 +1,17 @@
+AUTHORS.rst
+CHANGELOG.rst
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/pyeee/__init__.py
+src/pyeee/_version.py
+src/pyeee/eee.py
+src/pyeee.egg-info/PKG-INFO
+src/pyeee.egg-info/SOURCES.txt
+src/pyeee.egg-info/dependency_links.txt
+src/pyeee.egg-info/not-zip-safe
+src/pyeee.egg-info/requires.txt
+src/pyeee.egg-info/top_level.txt
+tests/__init__.py
+tests/test_eee.py
