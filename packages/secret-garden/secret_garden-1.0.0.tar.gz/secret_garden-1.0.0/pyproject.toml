@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "secret-garden"
+version = "1.0.0"
+description = "A better way to manage your dotenv variables"
+authors = ["DanielMuringe <danielmuringe@gmail.com>"]
+readme = "USAGE.md"
+keywords = [
+    "dotenv",
+    "environment",
+    "variables",
+    "environment variables",
+    "dotenv variables",
+    "typed dotenv",
+    "typed environment variables",
+    "typed dotenv variables",
+    "dotenv management",
+    "environment management",
+    "secret variables",
+]
+classifiers = [
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-dotenv = "^1.0.1"
+toml = "^0.10.2"
+pyyaml = "^6.0.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+mypy = "^1.8.0"
+pylint = "^3.0.3"
+pytest = "^8.0.1"
+poetry-plugin-export = "^1.6.0"
+types-pyyaml = "^6.0.12.12"
+types-toml = "^0.10.8.7"
+types-xmltodict = "^0.13.0.3"
+types-pygments = "^2.17.0.20240106"
+types-colorama = "^0.4.15.20240205"
+types-setuptools = "^69.1.0.20240223"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
