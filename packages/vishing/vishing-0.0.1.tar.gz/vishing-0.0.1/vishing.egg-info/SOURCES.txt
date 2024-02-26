@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vishing/__init__.py
+vishing.egg-info/PKG-INFO
+vishing.egg-info/SOURCES.txt
+vishing.egg-info/dependency_links.txt
+vishing.egg-info/top_level.txt
