@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: vissuAlize
+Version: 0.1.1
+Summary: High-level visualization library built on top of matplotlib and seaborn
+Home-page: https://github.com/hocuf/vissuAlize
+Author: Abdullah Fatih Höcü
+Author-email: abdullahhocu19@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vissuAlize
+
+`vissuAlize`, Python iÃ§in yÃ¼ksek seviyeli bir veri gÃ¶rselleÅŸtirme kÃ¼tÃ¼phanesidir. Matplotlib ve Seaborn'un gÃ¼Ã§lÃ¼ Ã¶zelliklerini bir araya getirerek, kullanÄ±cÄ± dostu bir arayÃ¼z sunar. Veri bilimi projelerinizde hÄ±zlÄ± ve etkili gÃ¶rselleÅŸtirmeler oluÅŸturmanÄ±za olanak tanÄ±r.
+
+## Ã–zellikler
+
+- Ã‡eÅŸitli gÃ¶rselleÅŸtirme tÃ¼rleri: bar plotlar, scatter plotlar, line plotlar ve daha fazlasÄ±.
+- Seaborn ve Matplotlib tabanlÄ± estetik ve interaktif grafikler.
+- Kolay kullanÄ±m ve esnek API.
+- Ã‡oklu veri seti desteÄŸi ve kategorik veri analizi iÃ§in Ã¶zel gÃ¶rselleÅŸtirmeler.
+
+## Kurulum
+
+`vissuAlize`'Ä± pip kullanarak kolayca kurabilirsiniz:
+
+```bash
+pip install vissuAlize
+```
+
+## KullanÄ±m Ã–rnekleri
+
+`vissuAlize` ile gÃ¶rselleÅŸtirme yapmak basit ve doÄŸrudandÄ±r. Ä°ÅŸte bazÄ± temel kullanÄ±m Ã¶rnekleri:
+
+Bar Plot OluÅŸturma:
+
+```python
+import vissuAlize as viss
+import pandas as pd
+
+# Veri setini yÃ¼kle
+data = pd.read_csv('your_dataset.csv')
+
+# Bar plot oluÅŸtur
+viss.bar(x='category', y='value', data=data, title="Ã–rnek Bar Plot")
+```
+
+Scatter Plot OluÅŸturma:
+
+```python
+# Scatter plot oluÅŸtur
+viss.scatter(x='x_column', y='y_column', data=data, title="Ã–rnek Scatter Plot")
+```
+
+Bu basit Ã¶rnekler, `vissuAlize`'Ä±n nasÄ±l kullanÄ±lacaÄŸÄ±na dair bir fikir vermektedir. Daha fazla bilgi ve Ã¶rnek iÃ§in dokÃ¼mantasyonumuzu ziyaret edin.
+
+## KatkÄ±da Bulunma
+
+`vissuAlize`'a katkÄ±da bulunmak istiyorsanÄ±z, lÃ¼tfen KatkÄ±da Bulunma Rehberi'ni okuyun. Her tÃ¼rlÃ¼ katkÄ±, bÃ¼yÃ¼k ya da kÃ¼Ã§Ã¼k, takdirle karÅŸÄ±lanÄ±r!
+
+## Lisans
+
+`vissuAlize`, MIT LisansÄ± altÄ±nda lisanslanmÄ±ÅŸtÄ±r. Detaylar iÃ§in LICENSE dosyasÄ±na bakÄ±n.
+
+

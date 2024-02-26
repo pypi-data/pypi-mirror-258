@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vissuAlize/__init__.py
+vissuAlize/main.py
+vissuAlize.egg-info/PKG-INFO
+vissuAlize.egg-info/SOURCES.txt
+vissuAlize.egg-info/dependency_links.txt
+vissuAlize.egg-info/requires.txt
+vissuAlize.egg-info/top_level.txt
