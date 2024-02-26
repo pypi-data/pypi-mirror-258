@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fingerprint-analyze
+Version: 0.1.1
+Summary: A package for detecting the session fingerprint
+Home-page: https://github.com/tangfuhao/WasmFingerprint/tree/main/backend/py/fingerprint_analyze
+Author: Fuhao
+Author-email: fangshiyu2@gmail.com
+License: MIT
+Keywords: wasm
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
