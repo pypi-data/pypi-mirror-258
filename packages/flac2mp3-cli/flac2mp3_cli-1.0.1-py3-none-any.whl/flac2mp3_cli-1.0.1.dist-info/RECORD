@@ -1,0 +1,9 @@
+flac2mp3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flac2mp3/custom_functions.py,sha256=trCtivZLMS5ES9liLBqg2XdDmuf8mrDWIs_o9SoCzwU,3593
+flac2mp3/main.py,sha256=MD4I9NNy5V-uNR94yScInI74zwnTcH0io7alR5aB3-4,3573
+flac2mp3_cli-1.0.1.dist-info/LICENSE,sha256=-sZXOEZk61TzTYWg1v0DDP6p1KQKljiXRO_zfVzo9Cs,1064
+flac2mp3_cli-1.0.1.dist-info/METADATA,sha256=oARS4qTQnQgfhhGsiE5SYHwsyycUQWD4AiytfJ9WNzQ,763
+flac2mp3_cli-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flac2mp3_cli-1.0.1.dist-info/entry_points.txt,sha256=gQyxun2B2Rzs4lqpPKwZmN8JvEbBGQ3VPnM-zdSDXmg,48
+flac2mp3_cli-1.0.1.dist-info/top_level.txt,sha256=X8pvwWSANZ7R51PYjpXJa4sKzGiCdhF0PxAZAAcChek,9
+flac2mp3_cli-1.0.1.dist-info/RECORD,,
