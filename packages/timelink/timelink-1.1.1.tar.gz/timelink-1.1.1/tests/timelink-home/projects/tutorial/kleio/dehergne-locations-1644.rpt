@@ -1,0 +1,37 @@
+KleioTranslator - server version 12.4 - build 567 2024-02-07 13:02:03
+11-2-2024 8-58
+
+Processing data file dehergne-locations-1644.cli
+-------------------------------------------
+Generic Act translation module with geoentities (XML).
+     Joaquim Ramos de Carvalho (joaquim@uc.pt) 
+** New document: kleio
+=========================
+kleio translation started
+=========================
+Structure: gacto2.str
+Prefix: 
+Autorel: 
+Translation count: 54
+Obs: 
+** Processing source fonte$dehergne-locations-1644
+97: geodesc$deh-chre-1644
+
+WARNING: dehergne-locations-1644.cli line 119 Could not link data with Kia-hing, hoje:Jiaxing, 嘉兴, @widata:Q58178; is link$ definition for widata missing?
+Near lines: 119                geo3$Kashan%Kaosham#Kia-chan, hoje: Jiashan, 嘉善, @wikidata:Q1361347/tchou-hien/deh-r1644-kaosham/obs="""
+
+*** End of File
+
+
+Structure file: /usr/local/timelink/clio/src/gacto2.str
+Structure processing report: /usr/local/timelink/clio/src/gacto2.srpt
+Structure in JSON: /usr/local/timelink/clio/src/gacto2.str.json
+
+Kleio file: /kleio-home/kleio/dehergne-locations-1644.cli
+Original file: /kleio-home/kleio/dehergne-locations-1644.org
+Previous version: /kleio-home/kleio/dehergne-locations-1644.old
+Temp file with ids: /kleio-home/kleio/dehergne-locations-1644.ids
+** - /kleio-home/kleio/dehergne-locations-1644.cli-renamed to- /kleio-home/kleio/dehergne-locations-1644.old
+0  errors. 
+1  warnings.
+Translation finished.

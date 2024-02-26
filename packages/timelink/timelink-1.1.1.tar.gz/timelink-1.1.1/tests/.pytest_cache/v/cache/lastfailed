@@ -1,0 +1,16 @@
+{
+  "test_import_TL.py::test_import_atr_date[dbsystem1]": true,
+  "test_import_TL.py::test_import_from_kleio_server[dbsystem0]": true,
+  "test_import_TL.py::test_import_from_kleio_server[dbsystem1]": true,
+  "test_import_TL.py::test_import_git_hub[dbsystem1]": true,
+  "test_import_TL.py::test_import_identifications[dbsystem1]": true,
+  "test_import_TL.py::test_import_linked_data_attributes[dbsystem1]": true,
+  "test_import_TL.py::test_import_linked_data_geoentites[dbsystem1]": true,
+  "test_import_TL.py::test_import_sources_with_no_year[dbsystem0]": true,
+  "test_import_TL.py::test_import_sources_with_no_year[dbsystem1]": true,
+  "test_import_TL.py::test_import_status_1[dbsystem0]": true,
+  "test_import_TL.py::test_import_status_1[dbsystem1]": true,
+  "test_import_TL.py::test_import_with_custom_mapping[dbsystem1]": true,
+  "test_import_TL.py::test_import_with_many[dbsystem1]": true,
+  "test_import_TL.py::test_import_xml[dbsystem1]": true
+}
