@@ -1,0 +1,4 @@
+checksum_helper<0.3,>=0.2.2
+
+[test]
+pytest<8,>=7.2

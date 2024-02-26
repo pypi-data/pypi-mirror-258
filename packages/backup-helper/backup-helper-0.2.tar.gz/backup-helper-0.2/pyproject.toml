@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "backup-helper"
+version = "0.2"
+authors = [
+  { name="omgitsmoe", email="60219950+omgitsmoe@users.noreply.github.com" },
+]
+description = "Helper tool for creating plain-file cold-storage archives including checksum files"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["script", "verify", "backup", "archival", "bit-rot"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'checksum_helper >=0.2.2,<0.3',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/omgitsmoe/backup_helper"
+"Bug Tracker" = "https://github.com/omgitsmoe/backup_helper/issues"
+
+[project.scripts]
+backup_helper = "backup_helper.__main__:main"
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.2,<8"
+]
+
+[tool.setuptools.package-data]
+"backup_helper" = ["py.typed"]
