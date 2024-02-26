@@ -1,0 +1,14 @@
+weathercli/__init__.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+weathercli/__main__.py,sha256=HUCnYMNXmO8ucfP72uCt0ERRoNLESNiRY-edqBMfDis,195
+weathercli/api.py,sha256=QMK5DWWo4TXMa5Wgcfav1sY4adBZsBZBtAzwAqDRHd4,2276
+weathercli/config.py,sha256=PNmFYKKGgEIK03eEWBomonDYJGG2yXjYx-bB1yUXtyo,246
+weathercli/interface.py,sha256=kno7kuMhKxXHTYY127m2wv5q-ia3S5QEirfcqL-pJW4,2265
+weathercli/utils.py,sha256=7tmv3abZb9vKp6J2aHShR556uZ_3ImPfbSVDG_eq4_s,437
+weathercli/view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weathercli/view/asciiart.py,sha256=co56Tzwmi8v5LXpLcVWMu-tmSDnDD5Vrd5Npiyv5QUc,503
+weathercli/view/formater.py,sha256=cBzr8LBCYDLUXsWFkJB8Gyy9mWw4pRCur5yn33RtBbg,2419
+weathercli/view/printer.py,sha256=gEt5yEO9HJKe1zAwHR8UlR0pQ8lO3gObkT5-z2_KxP4,3950
+bgo-0.1.0.dist-info/METADATA,sha256=WxuBMf-AnAa0Y3FX7733vx_lvclTOplV92Y1_DsI9-8,6954
+bgo-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bgo-0.1.0.dist-info/entry_points.txt,sha256=fUEvP84glu7h5yns4Ab5b-MWRz8lFbVzgnLH9oNbcNE,42
+bgo-0.1.0.dist-info/RECORD,,
