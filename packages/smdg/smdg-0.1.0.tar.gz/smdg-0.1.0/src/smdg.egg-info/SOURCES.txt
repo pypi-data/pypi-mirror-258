@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/smdg/__init__.py
+src/smdg/__main__.py
+src/smdg/commandline.py
+src/smdg/elements.py
+src/smdg/py.typed
+src/smdg/strings.py
+src/smdg.egg-info/PKG-INFO
+src/smdg.egg-info/SOURCES.txt
+src/smdg.egg-info/dependency_links.txt
+src/smdg.egg-info/top_level.txt
+tests/test_commandline.py
+tests/test_main.py
+tests/test_strings.py

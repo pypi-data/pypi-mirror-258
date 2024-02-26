@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smdg"
+dynamic = ["version"]
+description = "Simple (pythonic) MarkDown Generator"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+keywords = [
+  "markdown",
+  "generator",
+]
+authors = [
+  {name = "Rainer Schwarzbach", email = "rainer@blackstream.de"},
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+]
+
+[project.urls]
+Homepage = "https://gitlab.com/blackstream-x/smdg"
+Documentation = "https://blackstream-x.gitlab.io/smdg"
+CI = "https://gitlab.com/blackstream-x/smdg/-/pipelines"
+"Bug Tracker" = "https://gitlab.com/blackstream-x/smdg/-/issues"
+Repository = "https://gitlab.com/blackstream-x/smdg.git"
+
+[tool.setuptools.dynamic]
+version = {attr = "smdg.__version__"}
+
+[tool.setuptools.package-data]
+"smdg" = ["py.typed"]
+
