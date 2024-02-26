@@ -1,0 +1,10 @@
+validb/__init__.py,sha256=65-3bKNb-Ei3db9o4W6aISUc9T9KCbeaAjBJSyGuQrA,353
+validb/__main__.py,sha256=Aqby2ywcJp1acdw7Q1trXchgupenRyJg3qPT0xVkVvA,1041
+validb/_detected.py,sha256=qRrpH6PGF63PAy2Hw4pvJ44zaH0MZ0fg_XVH0Yh_P6U,1469
+validb/_detectiondata.py,sha256=dLboC3qDaBtkR8L71ZoPuCBaB8CMcez-BvelPnrLVYI,4162
+validb/_rule.py,sha256=hHPSdmCfrO7FYm_pCmbyQYHc-UL9DrimPSsXF3SmBak,4810
+validb/_validate.py,sha256=9bEyRAL9IPtJoI1spsgd1MrBGblvYHwNTw187XJ3QlM,1854
+validb-0.0.1.dist-info/METADATA,sha256=Axj9i4waQ56RozADjIhHxid3j6cSzVAJRMUV3jxW_m0,491
+validb-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+validb-0.0.1.dist-info/top_level.txt,sha256=CcS6gGNjtl8lcb3I3QDG11had0n7d_CckIhUQ58CuBg,7
+validb-0.0.1.dist-info/RECORD,,
