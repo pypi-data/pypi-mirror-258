@@ -1,0 +1,6 @@
+pyproject.toml
+thermox/__init__.py
+thermox.egg-info/PKG-INFO
+thermox.egg-info/SOURCES.txt
+thermox.egg-info/dependency_links.txt
+thermox.egg-info/top_level.txt
