@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/natural_reasoning/__init__.py
+src/natural_reasoning.egg-info/PKG-INFO
+src/natural_reasoning.egg-info/SOURCES.txt
+src/natural_reasoning.egg-info/dependency_links.txt
+src/natural_reasoning.egg-info/top_level.txt
