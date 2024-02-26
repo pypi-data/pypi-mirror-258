@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: gitlab-webhook-receiver
+Version: 0.1.0
+Summary: gitlab webhook receiver
+Home-page: https://github.com/dragonkid/gitlab-webhook-receiver
+Author-email: dragonkid <idragonkid@gmail.com>
+Project-URL: Homepage, https://github.com/dragonkid/gitlab-webhook-receiver
+Project-URL: Issues, https://github.com/dragonkid/gitlab-webhook-receiver/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sh
+
+# install
+
+```shell
+python setup.py install
+```
+
+# usage
+
+```
+gitlab-webhook-receiver -h
+```
