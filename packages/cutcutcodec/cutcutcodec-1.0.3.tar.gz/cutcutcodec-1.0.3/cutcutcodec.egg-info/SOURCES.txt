@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+c_build.py
+pyproject.toml
+cutcutcodec/__init__.py
+cutcutcodec/__main__.py
+cutcutcodec/utils.py
+cutcutcodec.egg-info/PKG-INFO
+cutcutcodec.egg-info/SOURCES.txt
+cutcutcodec.egg-info/dependency_links.txt
+cutcutcodec.egg-info/entry_points.txt
+cutcutcodec.egg-info/requires.txt
+cutcutcodec.egg-info/top_level.txt
+cutcutcodec/core/generation/video/fractal/fractal.c
