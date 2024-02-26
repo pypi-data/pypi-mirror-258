@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+airdroptesttea.egg-info/PKG-INFO
+airdroptesttea.egg-info/SOURCES.txt
+airdroptesttea.egg-info/dependency_links.txt
+airdroptesttea.egg-info/requires.txt
+airdroptesttea.egg-info/top_level.txt
