@@ -1,0 +1,7 @@
+README.md
+setup.py
+TPE_Bot.egg-info/PKG-INFO
+TPE_Bot.egg-info/SOURCES.txt
+TPE_Bot.egg-info/dependency_links.txt
+TPE_Bot.egg-info/requires.txt
+TPE_Bot.egg-info/top_level.txt
