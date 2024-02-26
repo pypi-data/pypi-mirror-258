@@ -1,0 +1,5 @@
+nvitop
+redis
+rich
+psutil
+setproctitle
