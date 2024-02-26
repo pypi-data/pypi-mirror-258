@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: abstract-bots
+Version: 0.0.0.29
+Summary: abstract-bots
+Home-page: https://github.com/AbstractEndeavors/abstract_ai
+Author: putkoff
+Author-email: partners@abstractendeavors.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#magnets... how do they work? who invented them?
