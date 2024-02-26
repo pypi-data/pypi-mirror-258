@@ -1,0 +1,17 @@
+gsystemctl/__init__.py,sha256=B57o7wWIP_nYHR0ROblGRFd8FhPkbaxTzXUTDVR227M,652
+gsystemctl/systemctl.py,sha256=LgF_hmLoEPXSHBH2MeBSI0-esGIV7zspgLZJS3Yc5Yw,3302
+gsystemctl/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gsystemctl/ui/gtk4/__init__.py,sha256=Srs3x75NEEYAxCMh1F11RPIaeSyKN908Ey1Ony3Vruk,217
+gsystemctl/ui/gtk4/application.py,sha256=5qW8HWUsNHWffK8M7lJsEh7_MFLyJ64kTDrpfAl3pKM,554
+gsystemctl/ui/gtk4/dialog.py,sha256=F8Ved2eRboeWu75ZGmDYYYclT0NzB2F0oJnT9j2hvqA,3484
+gsystemctl/ui/gtk4/mainwindow.py,sha256=_6yYLSrhiHe73UP_rGrF3JpABEzDO9uXsMxeo9RQT6o,7272
+gsystemctl/ui/gtk4/menu.py,sha256=ZB_Us21Rei1lqVNmqXbQ0Ur0l8FC8zCjD3zvqWGP8GE,2044
+gsystemctl/ui/gtk4/systemdnotebook.py,sha256=WEK3t06tJx9IjbkFj7SDqJh_G5ZcMjxpMyWX0UkOiCU,6573
+gsystemctl/ui/image/gsystemctl.png,sha256=FR5RU4tSfh7lSWgI2yXKNN3GOsXJUJbthpi42MLMDCc,22172
+gsystemctl-0.2.0.dist-info/AUTHORS,sha256=CXR9shOPP2OBVVwxGJtLSh0hCqvLB1DMpX6_bVyn02E,63
+gsystemctl-0.2.0.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gsystemctl-0.2.0.dist-info/METADATA,sha256=E5K79tLIw0bzvJwThHm9IAiPRPOD-UC3UPswOIMIAEE,731
+gsystemctl-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gsystemctl-0.2.0.dist-info/entry_points.txt,sha256=wMEwL3u9qepelJ0q5AHkexQgTOHagx7P99sKGyIk2gc,66
+gsystemctl-0.2.0.dist-info/top_level.txt,sha256=p-artuCjnMum5fpCpETT9ot9vGcHS_QEFNvuSIQtsQM,11
+gsystemctl-0.2.0.dist-info/RECORD,,
