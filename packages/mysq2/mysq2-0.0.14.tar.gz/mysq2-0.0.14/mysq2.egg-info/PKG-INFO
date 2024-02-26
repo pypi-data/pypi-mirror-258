@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mysq2
+Version: 0.0.14
+Summary: exam copy
+Author: kaushal bhatol
+Author-email: <kaushal@bhatol.com>
+Keywords: mysq,mysq2
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+
+# mysq2
+
+* Chat client
+
+mail me: kaushal@bhatol.com
+
+thanks.
