@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/KAGraph.egg-info/PKG-INFO
+src/KAGraph.egg-info/SOURCES.txt
+src/KAGraph.egg-info/dependency_links.txt
+src/KAGraph.egg-info/top_level.txt
