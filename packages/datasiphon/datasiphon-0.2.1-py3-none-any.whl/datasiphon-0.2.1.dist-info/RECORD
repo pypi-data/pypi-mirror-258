@@ -1,0 +1,8 @@
+siphon/__init__.py,sha256=7ltwyH6KSTWo49qhqEXJpXQ-eMkeMghC54o8RTPonlQ,211
+siphon/base.py,sha256=3peCaDPR3lrIm4Ktc9aZw5Lik-b7pjIfxU9-fyGIpa8,1125
+siphon/nosql.py,sha256=48NQi7BYwByGfsKTK3sTdq8WZNKvpCxCbU2tRdgFOck,4319
+siphon/sql.py,sha256=COcsFbkodB-mMsQs1R0-fkPDRkOdXH8RQEg5JXB8lQM,20305
+datasiphon-0.2.1.dist-info/METADATA,sha256=VHOzXO3kSaftKaLlJNk8HL9h5-iMMj7XKhbyn8vdI9w,1562
+datasiphon-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+datasiphon-0.2.1.dist-info/top_level.txt,sha256=ijJ3kTvcgCJd_iIlKgy7GxPpchM999P27biEn_y1g8k,7
+datasiphon-0.2.1.dist-info/RECORD,,
