@@ -1,0 +1,13 @@
+gsd/__init__.py,sha256=kkIfWOby0SbfM5-3qIFasoMZWzrcVhhoMAz6zLl4bRU,305
+gsd/__main__.py,sha256=mlX1v2DzPrUKw2pxYxGhgTgpTUXwQmKBHuBDAyAc1YI,420
+gsd/fit.py,sha256=J3O2E7Bk6cq3F0DvODBuglJUtan_3l8gKgUkdqAKbHc,2515
+gsd/gsd.py,sha256=U1TgOvvBBy5JNrTueJ_39YZLifirfDlicLnBwjQMkuk,4694
+gsd/ref_prob.py,sha256=WMn9LI0SL95U8Zuj9xVkE-77dDxSeji6yGF7pOB0kRI,2599
+gsd/experimental/__init__.py,sha256=fMaf_GE2TibBEjeHjVE47s7Yn74cCb5YK9AOsZ951eA,412
+gsd/experimental/bootstrap.py,sha256=2JFZdfGkM8iGXpUyC8QbsXLwQwQOVnmxSecE10MQVrA,3457
+gsd/experimental/fit.py,sha256=-oVF4xxs2RbNzwPYNtGHZtksFUFzsEYcc2HdW1ZYY8s,7348
+gsd/experimental/max_entropy.py,sha256=JseX9GmY_agNP0Vktulv1EOkDTm612nGr2uFO6ztAHo,3699
+ref_gsd-0.2.3.dist-info/METADATA,sha256=CpZBA67qOuXHsE1xZyqFAVt0T52sHlHRw_hJNoyPBp0,16502
+ref_gsd-0.2.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+ref_gsd-0.2.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ref_gsd-0.2.3.dist-info/RECORD,,
