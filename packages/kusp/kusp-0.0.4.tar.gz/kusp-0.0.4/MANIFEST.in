@@ -1,0 +1,2 @@
+recursive-include kusp/KUSPPortableModel *.*
+include .pypi_readme.md
