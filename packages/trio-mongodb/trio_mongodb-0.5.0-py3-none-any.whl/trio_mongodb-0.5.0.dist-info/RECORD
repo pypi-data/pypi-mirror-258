@@ -1,0 +1,8 @@
+trio_mongodb/__init__.py,sha256=vqgGphB-VYOgYSVyGNoFDr5PMi5Om_WVc57O0YgTPpE,66
+trio_mongodb/process.py,sha256=GNVLYiXmxxeNHCT1HmwIQNUW8O_7N6s4ob6ZZ24jY9Y,3435
+trio_mongodb/threads.py,sha256=r_FmwpCf_vrvkoGqjtZ-mE_5Ann1ibnRZbgCeLxvpGQ,619
+trio_mongodb-0.5.0.dist-info/LICENSE,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+trio_mongodb-0.5.0.dist-info/METADATA,sha256=OUlgHQXmZGrnuLNKixIUJ1jm6njSuCKz9Fb0eyDjCys,1843
+trio_mongodb-0.5.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+trio_mongodb-0.5.0.dist-info/top_level.txt,sha256=_kY-T12V2CZ8LI79djhOwy8nq7rJeaAl3mQyGEAvmkQ,13
+trio_mongodb-0.5.0.dist-info/RECORD,,
