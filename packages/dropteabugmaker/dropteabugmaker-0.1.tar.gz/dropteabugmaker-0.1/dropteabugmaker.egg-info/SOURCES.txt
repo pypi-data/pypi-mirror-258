@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dropteabugmaker.egg-info/PKG-INFO
+dropteabugmaker.egg-info/SOURCES.txt
+dropteabugmaker.egg-info/dependency_links.txt
+dropteabugmaker.egg-info/requires.txt
+dropteabugmaker.egg-info/top_level.txt
