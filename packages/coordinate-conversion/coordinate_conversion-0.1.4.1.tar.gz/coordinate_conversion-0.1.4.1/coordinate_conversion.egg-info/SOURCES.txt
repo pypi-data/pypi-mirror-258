@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+coordinate_conversion/__init__.py
+coordinate_conversion/cartesian.py
+coordinate_conversion/cylindrical.py
+coordinate_conversion/spherical.py
+coordinate_conversion.egg-info/PKG-INFO
+coordinate_conversion.egg-info/SOURCES.txt
+coordinate_conversion.egg-info/dependency_links.txt
+coordinate_conversion.egg-info/requires.txt
+coordinate_conversion.egg-info/top_level.txt
