@@ -1,0 +1,14 @@
+bgo/__init__.py,sha256=UpMqeJ0C8i0pkue1AHnnyyX0bFJ9zZeJ7HBR6yhuA8A,54
+bgo/__main__.py,sha256=HUCnYMNXmO8ucfP72uCt0ERRoNLESNiRY-edqBMfDis,195
+bgo/api.py,sha256=XHR9-S4aD9jOGtmIHHWpetbCfAiUUIRyJI4yHC80XJw,2269
+bgo/config.py,sha256=PNmFYKKGgEIK03eEWBomonDYJGG2yXjYx-bB1yUXtyo,246
+bgo/interface.py,sha256=2lhKXIUGjYm0oksBgnDMzRe_DPiXxLW25AlpWWupHXY,2258
+bgo/utils.py,sha256=7tmv3abZb9vKp6J2aHShR556uZ_3ImPfbSVDG_eq4_s,437
+bgo/view/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bgo/view/asciiart.py,sha256=co56Tzwmi8v5LXpLcVWMu-tmSDnDD5Vrd5Npiyv5QUc,503
+bgo/view/formater.py,sha256=zcI-kwZU6dXh57ZvlMg6oJA2Nrux4PmMangm-fWDekE,2412
+bgo/view/printer.py,sha256=ai91-KW708Kw8dWgr8twfKcOZzGSojJ2HfMaIHkY-64,3943
+bgo-0.1.1.dist-info/METADATA,sha256=Hr35AkcwuzJK_FNmhQNl50onKtIFMmXnHUtlffN56ao,6954
+bgo-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+bgo-0.1.1.dist-info/entry_points.txt,sha256=3Lak63iQCAyepQkuWPmkV4UugeUrR23DRn_wfeMconk,41
+bgo-0.1.1.dist-info/RECORD,,
