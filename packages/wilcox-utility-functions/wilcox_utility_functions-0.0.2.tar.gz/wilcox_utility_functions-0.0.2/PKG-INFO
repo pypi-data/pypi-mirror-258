@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wilcox_utility_functions
+Version: 0.0.2
+Summary: Tools for Greg Wilcox
+Home-page: UNKNOWN
+Author: Gregory Wilcox
+Author-email: wilcox12@canisius.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+
+UNKNOWN
+
