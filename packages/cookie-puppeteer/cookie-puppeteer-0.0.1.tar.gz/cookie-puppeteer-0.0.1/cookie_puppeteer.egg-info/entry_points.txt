@@ -1,0 +1,3 @@
+[console_scripts]
+cookie-puppeteer = cookie_puppeteer.console:main
+cpt = cookie_puppeteer.console:main

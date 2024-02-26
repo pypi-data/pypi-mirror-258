@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cookie_puppeteer/__init__.py
+cookie_puppeteer/console.py
+cookie_puppeteer.egg-info/PKG-INFO
+cookie_puppeteer.egg-info/SOURCES.txt
+cookie_puppeteer.egg-info/dependency_links.txt
+cookie_puppeteer.egg-info/entry_points.txt
+cookie_puppeteer.egg-info/top_level.txt
