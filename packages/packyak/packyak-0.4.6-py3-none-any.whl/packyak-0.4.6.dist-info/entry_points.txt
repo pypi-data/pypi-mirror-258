@@ -1,0 +1,4 @@
+[console_scripts]
+packyak=packyak.cli:cli
+yak=packyak.cli:cli
+
