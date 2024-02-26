@@ -1,0 +1,38 @@
+name: release
+
+on:
+  release:
+    types: [published]
+    branches: [main]
+
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment: release
+    permissions:
+      # This permission is required for trusted publishing.
+      id-token: write
+      contents: read
+    steps:
+    - name: Checkout project
+      uses: actions/checkout@v4
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
+    - name: Install Rye
+      uses: sksat/setup-rye@v0.15.0
+    - name: Export tag
+      id: vars
+      run: echo tag=${GITHUB_REF#refs/*/} >> $GITHUB_OUTPUT
+    - name: Mint API token
+      id: mint
+      uses: tschm/token-mint-action@v1.0.2
+    - name: Build and publish
+      run: |
+        rye version $RELEASE_VERSION
+        rye build
+        rye publish --yes --token '${{ steps.mint.outputs.api-token }}'
+      env:
+        RELEASE_VERSION: ${{ steps.vars.outputs.tag }}

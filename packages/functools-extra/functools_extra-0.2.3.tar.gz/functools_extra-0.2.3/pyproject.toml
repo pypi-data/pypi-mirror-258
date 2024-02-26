@@ -1,0 +1,79 @@
+[project]
+name = "functools-extra"
+version = "0.2.3"
+description = "Additional functional tools for python not covered in the functools library"
+authors = [
+    { name = "Dennis Rall", email = "dennis.rall@web.de" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+license = {file = "LICENSE"}
+keywords = ["functional", "tools", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/dennisrall/functools-extra"
+Documentation = "https://github.com/dennisrall/functools-extra"
+Repository = "https://github.com/dennisrall/functools-extra"
+Issues = "https://github.com/dennisrall/functools-extra/issues"
+Changelog = "https://github.com/dennisrall/functools-extra/releases"
+
+[project.scripts]
+hello = "functools_extra:hello"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest>=8.0.1",
+    "mypy>=1.8.0",
+    "ruff>=0.2.2",
+]
+
+[tool.rye.scripts]
+test = "rye run pytest tests"
+lint = { chain = ["lint:ruff", "lint:format", "lint:mypy"] }
+"lint:ruff" = "rye run ruff check src tests"
+"lint:format" = "rye run ruff format --check src tests"
+"lint:mypy" = "rye run mypy src tests"
+fix = { chain = ["fix:format", "fix:ruff"] }
+"fix:format" = "rye run ruff format src tests"
+"fix:ruff" = "rye run ruff check --fix src tests"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/functools_extra"]
+
+[tool.mypy]
+check_untyped_defs = true
+warn_unused_ignores = true
+
+[tool.ruff.lint]
+select = [
+    "F", # pyflakes
+    "E", # pycodestyle errors
+    "W", # pycodestyle warnings
+    "C90", # mccabe complexity check
+    "I", # isort
+    "N", # pep8-naming
+    "B", # flake8-bugbear
+    "T20", # no prints
+    "UP", # pyupgrade: check for newer syntax
+    "FA", # check future annotations are used
+    "C4", # better comprehensions
+    "PL", # pylint
+    "RUF", # ruff
+]
+ignore = [
+    "PLR0913", # too many arguments
+]
