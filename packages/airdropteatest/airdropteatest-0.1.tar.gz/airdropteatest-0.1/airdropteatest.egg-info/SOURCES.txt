@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+airdropteatest.egg-info/PKG-INFO
+airdropteatest.egg-info/SOURCES.txt
+airdropteatest.egg-info/dependency_links.txt
+airdropteatest.egg-info/requires.txt
+airdropteatest.egg-info/top_level.txt
