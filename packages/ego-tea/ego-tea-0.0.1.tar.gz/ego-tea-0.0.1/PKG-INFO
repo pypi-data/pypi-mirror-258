@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ego-tea
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/ego520/ego-tea.git
+Author: ego
+Author-email: 1224632377@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package. You can use
+
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+
+to write your content.
+
+
+
