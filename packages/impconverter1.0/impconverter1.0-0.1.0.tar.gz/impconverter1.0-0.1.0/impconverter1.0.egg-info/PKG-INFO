@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: impconverter1.0
+Version: 0.1.0
+Summary: A package for converting imperial lengths and weights
+Author: Elias Dzobo
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.10
+Requires-Dist: pandas
+
+# Impyrial 
+
+A package for converting between imperial unit lengths and weights.
+
+This package was created for the [DataCamp] (https://www.datacamp.com) course "Developing Python Packages".
+
+### Features
+
+- Convert lengths between miles, yards, feet and inches.
+- Convert weights between hundredweight, stone, pounds and ounces.
+
+### Usage
+
+```
+import impyrial
+
+# Convert 500 miles to feet
+impyrial.length.convert_unit(500, from_unit='yd', to_unit='ft')  # returns 1500.0
+
+# Convert 100 ounces to pounds
+impyrial.weight.convert_unit(100, from_unit='oz', to_unit='lb')  # returns 6.25
+```
