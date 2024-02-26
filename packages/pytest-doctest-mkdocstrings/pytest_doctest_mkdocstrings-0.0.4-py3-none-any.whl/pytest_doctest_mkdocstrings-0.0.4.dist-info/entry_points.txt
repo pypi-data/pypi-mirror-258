@@ -1,0 +1,2 @@
+[pytest11]
+doctest_markup = pytest_doctest_mkdocstrings.patch_doctest
