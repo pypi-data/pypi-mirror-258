@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ego-tea/__init__.py
+ego_tea.egg-info/PKG-INFO
+ego_tea.egg-info/SOURCES.txt
+ego_tea.egg-info/dependency_links.txt
+ego_tea.egg-info/top_level.txt
