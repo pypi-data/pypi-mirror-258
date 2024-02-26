@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: feishu-p1
+Version: 1.0.2
+Summary: Feishu Third-party Libraries
+Home-page: https://github.com/tutan123/feishu-p1
+Author: tutu
+Author-email: tutu@gmail.com
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## 飞书 sdk
+
+第三方Feishu库，目前只实现了使用的 `机器人`部分功能，后续会看精力继续完善
+
+### 安装
+
+```python
+pip install feishu-p1
+```
