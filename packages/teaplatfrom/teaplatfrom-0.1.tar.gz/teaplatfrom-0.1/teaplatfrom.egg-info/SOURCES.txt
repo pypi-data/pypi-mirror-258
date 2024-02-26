@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+teaplatfrom.egg-info/PKG-INFO
+teaplatfrom.egg-info/SOURCES.txt
+teaplatfrom.egg-info/dependency_links.txt
+teaplatfrom.egg-info/requires.txt
+teaplatfrom.egg-info/top_level.txt
