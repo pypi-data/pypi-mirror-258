@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: flysearch
+Version: 0.1.0
+Summary: Flight Search API Wrapper
+Home-page: https://github.com/Adiorz/flysearch
+Author: adiorz
+Author-email: adiorz90@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Flight Search API Wrapper
+
+This Python project provides a convenient wrapper around the Flight Search API, enabling users to search for flight offers based on various criteria such as departure and arrival locations, date ranges, passenger birth dates, and more.
+
+## Features
+
+- Search flights by departure and arrival IATA codes.
+- Filter flights based on one-way trips, departure and arrival dates.
+- Sort flight offers by price, name ascending, and name descending.
+- Support for specifying passenger birth dates for age-specific searches.
