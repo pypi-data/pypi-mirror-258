@@ -1,0 +1,7 @@
+setup.py
+code_crusade/__init__.py
+code_crusade/code_module.py
+code_crusade.egg-info/PKG-INFO
+code_crusade.egg-info/SOURCES.txt
+code_crusade.egg-info/dependency_links.txt
+code_crusade.egg-info/top_level.txt
