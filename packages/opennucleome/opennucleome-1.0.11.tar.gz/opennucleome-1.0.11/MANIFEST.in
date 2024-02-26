@@ -1,0 +1,15 @@
+graft openNucleome
+
+prune */__pycache__
+prune docs
+prune examples
+prune image
+prune sphinx-files
+prune tests
+prune tutorials
+
+include README.md
+include LICENSE
+include *.txt
+include *.csv
+recursive-include openNucleome *.txt *.csv
