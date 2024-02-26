@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "wdata"
+version = "0.2.0"
+description = "W-Data format for superfluid dynamics and the W-SLDA Toolkit."
+authors = ["Michael McNeil Forbes <mforbes@alum.mit.edu>"]
+license = "MIT"
+readme = "README.md"
+
+classifiers = [
+    'Development Status :: 3 - Alpha',  
+    'Intended Audience :: Science/Research',
+    'Topic :: Scientific/Engineering :: Visualization',
+    'Topic :: Scientific/Engineering :: Physics',
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.13"
+numpy = [
+  {version = ">=1.19.4", python = "<3.8"},
+  {version = ">=1.23.4", python = ">=3.8"},
+  {version = ">=1.26.4", python = ">=3.12"},
+]
+tzlocal = ">=2.1"
+pytz = ">=2020.4"
+"zope.interface" = ">=5.2.0"
+#setuptools = ">=54.2.0"
+
+[tool.poetry.group.dev.dependencies]
+#nox = ">=2020.8.22"
+#pytest = ">=6.2.1"
+pytest-cov = ">=2.10.1"
+nox-poetry = ">=0.6.0"
+
+Sphinx = ">=5.3.0"
+sphinxcontrib-zopeext = ">=0.3.3"
+sphinx-autobuild = ">=2020.9.1"
+sphinx-rtd-theme = ">=0.5.0"
+readme-renderer = ">=29.0"
+
+[tool.poetry.urls]
+"Bug Reports" = "https://hg.iscimath.org/forbes-group/wdata/issues"
+"Source" =  "https://hg.iscimath.org/forbes-group/wdata"
+"Funding" = "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1707691"
+"W-SLDA" = "https://wslda.fizyka.pw.edu.pl"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
