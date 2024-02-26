@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: nodimo
+Version: 1.0.0
+Summary: Nodimo is a tool that creates nondimensional models.
+Author-email: Rodrigo Castro <rodrigopcastro018@gmail.com>
+Maintainer-email: Rodrigo Castro <rodrigopcastro018@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Rodrigo Castro
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/rodrigopcastro018/nodimo
+Keywords: dimensional analysis
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.17.5
+Requires-Dist: sympy >=1.6
+Provides-Extra: notebook
+Requires-Dist: jupyter ; extra == 'notebook'
+
+<p align="center" width="100%">
+    <img src="nodimo_logo.png" alt="Nodimo Logo">
+</p>
+
+---
+
+<p align="center">
+    <a href="https://www.python.org/" alt="Python">
+        <img src="https://img.shields.io/badge/python-3-green" /></a>
+    <a href="https://github.com/jupyter/notebook" alt="Jupyter">
+        <img src="https://img.shields.io/badge/jupyter-notebook-orange" /></a>
+    <a href="https://github.com/rodrigopcastro018/nodimo/blob/main/LICENSE" alt="License">
+        <img src="https://img.shields.io/badge/license-MIT-green" /></a>
+</p>
+
+# Nodimo
+The main purpose of Nodimo is to transform a dimensional relationship between variables into a nondimensional one. The variables are gathered in nondimensional groups such that the number of groups is lower than the number of variables. The resulting nondimensional model is, at the same time, a generalization and simplification of the dimensional model.
+
+Nodimo supports any number of dimensions and variables. It can be used for applications in science, engineering, economics and finance. The resulting nondimensional groups can be used as the basis for further studies in similarity and model testing.
+
+## Installation
+Nodimo and its dependencies (`numpy` and `sympy`) are installed by:
+```shell
+pip install nodimo
+```
+
+When running Nodimo on the terminal, make sure that the terminal supports Unicode characters. For the best experience, it is recommended the use of [jupyter notebook](https://github.com/jupyter/notebook).
+
+## Getting started
+### Basic example
+Simple pendulum:
+
+<p align="center" width="100%">
+    <img width="30%" src="simple_pendulum.png" alt="Simple Pendulum">
+</p>
+
+The nondimensional model for the pendulum's period as a function of the other variables is built and displayed as:
+```python
+from nodimo import Variable, NonDimensionalModel
+
+# Variables' dimensions: Mass (M), Length (L) and Time (T)
+T = Variable('T', M=0, L=0, T=1, dependent=True)  # period
+L = Variable('L', M=0, L=1, T=0, scaling=True)    # length
+m = Variable('m', M=1, L=0, T=0)                  # mass
+g = Variable('g', M=0, L=1, T=-2, scaling=True)   # gravity
+t0 = Variable('theta_0')                          # initial angle
+
+ndmodel = NonDimensionalModel(T, L, m, g, t0)
+ndmodel.show()
+```
+
+And the result is:
+```math
+\displaystyle \frac{T g^{\frac{1}{2}}}{L^{\frac{1}{2}}} = \Pi{\left(\theta_{0} \right)}
+```
+
+For more functionalities and examples, check the documentation.
+
+## License
+Nodimo is open-source and released under the [MIT License](LICENSE)

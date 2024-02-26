@@ -1,0 +1,16 @@
+nodimo/__init__.py,sha256=-juOv8kWHxV3YoeuCQcSTWWLTn2hlUgAsx-4--hy4j8,3052
+nodimo/_internal.py,sha256=toA_A-1DGAFF4G2CDxjc0kVX0IaV1TAwWDJf81yg9CA,3465
+nodimo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nodimo/models/__init__.py,sha256=x1gGvPlrkWAoibFvbl7QyGThPeKlgY38Q5-_auBJeyc,719
+nodimo/models/dimensional.py,sha256=y3B0skrlj-cMoYE2fkQU5b9Eq3Cs1egBesW_Xhmjhi0,8201
+nodimo/models/function.py,sha256=AGMXM6n3Kp-O0FiuYKC2ggoC4FQi5jgbl7YQKKtUC0k,4333
+nodimo/models/nondimensional.py,sha256=Gsyx8RTaQTEc1P0hZOMIObY5jbi0YMGX7NZ653kmReA,15508
+nodimo/variables/__init__.py,sha256=NBWGcr4P85ptlZ2IU6we2wRFVWoO1p2ZS9-ULn20vBk,551
+nodimo/variables/group.py,sha256=j8pHjy-AHF0coclyIw9jofoFPEdKLsLMS0vHV3gUVH8,6945
+nodimo/variables/matrix.py,sha256=iJgF2EqrkNYMVGpW2n8QnfqwAjtHhmAhOuuAWtR09Pk,6138
+nodimo/variables/variable.py,sha256=Vhb-k9qGEGC8yJNNarrliaWu6qPAODebSincF_eK0uM,3254
+nodimo-1.0.0.dist-info/LICENSE,sha256=eUv0GuyXBV774mIXEdfIc4_z1PS0ZXfnqBWBummtKaM,1092
+nodimo-1.0.0.dist-info/METADATA,sha256=JUkYMwEi_OkGRngYOoqkbVXGH-lf-TCI62kIIm8XEUk,5092
+nodimo-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nodimo-1.0.0.dist-info/top_level.txt,sha256=Yq4u2NzavAlKsGNOzufCMu7qVcwldz2gu7maDkHtBts,7
+nodimo-1.0.0.dist-info/RECORD,,
