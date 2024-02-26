@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turboo"
+version = "0.0.3"
+authors = [
+  { name="Robert Degen", email="turbodev@mailbox.org" },
+]
+description = "REST-based same-host octoprint cli in python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests"
+]
+
+[project.urls]
+Homepage = "https://github.com/turbo-bert/o"
+Issues = "https://github.com/turbo-bert/o/issues"
