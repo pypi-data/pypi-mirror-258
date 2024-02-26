@@ -1,0 +1,26 @@
+"""PyxDI public objects and functions."""
+from typing import Any
+
+from ._container import Container, request, singleton, transient
+from ._module import Module, provider
+from ._scanner import inject
+from ._types import Marker, Provider, Scope
+
+
+def auto() -> Any:
+    """A marker for automatic dependency injection."""
+    return Marker()
+
+
+__all__ = [
+    "Container",
+    "Module",
+    "Provider",
+    "Scope",
+    "auto",
+    "inject",
+    "provider",
+    "request",
+    "singleton",
+    "transient",
+]
