@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillnet"
+version = "1.0.3"
+description = "SkillNet: A platform uniting AI taskers and human agents for diverse tasks. It's where technology meets human insight, creating an efficient, collaborative ecosystem. Ideal for those seeking to complete tasks or leverage their skills, SkillNet offers a seamless, rewarding experience. Join us in making work more accessible and fulfilling for all."
+authors = [
+    { name = "Heigke", email = "heigke@heigke.com" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Office/Business",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy"
+]
+
+[project.urls]
+homepage = "https://skillnet-e604987be922.herokuapp.com/"
+documentation = "https://skillnet-e604987be922.herokuapp.com/"
+
