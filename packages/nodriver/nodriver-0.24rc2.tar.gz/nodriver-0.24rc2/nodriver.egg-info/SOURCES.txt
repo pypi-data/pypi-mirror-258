@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+docs/readme.rst
+nodriver/__init__.py
+nodriver.egg-info/PKG-INFO
+nodriver.egg-info/SOURCES.txt
+nodriver.egg-info/dependency_links.txt
+nodriver.egg-info/requires.txt
+nodriver.egg-info/top_level.txt
