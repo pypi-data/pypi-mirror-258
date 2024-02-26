@@ -1,0 +1,10 @@
+fastapi_geolocation/__init__.py,sha256=UAaquu38SxHsbb-8DXyIHUPNbUWUx0--ZD4PTMolUTc,186
+fastapi_geolocation/geoip.py,sha256=39ZwmknJEdP_dI6SuI-zMTPHTCHvqkSlw3wLcrzkMzc,11992
+fastapi_geolocation/middleware.py,sha256=2WwDuAjqY_RqyVY6HArgjKvxi2gPEvQ41HLWHm_W7us,776
+fastapi_geolocation/resources.py,sha256=YlldCGQe_U-J90znMdAEQ0SxWIkfZvkuD7uSGKHVcG8,748
+fastapi_geolocation/service.py,sha256=6Do83O6gWh5St2LPITgfrUQwEgRs6K7gMtzTq3QwNGE,3652
+fastapi_geolocation-1.0.1.dist-info/LICENSE,sha256=D4WF8yJrw7P8RiQgjeXav-JzyRlHa2BT3xM27uRxs4I,1081
+fastapi_geolocation-1.0.1.dist-info/METADATA,sha256=ocrOVLMHZStieXLV1Hse_LHHvOKC-ThSOlowB8vESF4,4298
+fastapi_geolocation-1.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fastapi_geolocation-1.0.1.dist-info/top_level.txt,sha256=DjcDEwqJ0SD8oTAiMC3TgMSCA55BiS5FYn4hN524xR0,20
+fastapi_geolocation-1.0.1.dist-info/RECORD,,
