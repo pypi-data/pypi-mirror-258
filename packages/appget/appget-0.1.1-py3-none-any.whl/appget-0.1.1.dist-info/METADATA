@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: appget
+Version: 0.1.1
+Summary: A package management tool
+Author-email: Example Author <author@example.com>
+Maintainer-email: "A. Great Maintainer" <maintainer@example.com>
+Project-URL: Homepage, https://github.com/lonelypale/appget
+Project-URL: Issues, https://github.com/lonelypale/appget/issues
+Keywords: appget,setuptools,development
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# appget
+
+**AppGet** This project provides a tools for packaging and distributing python application.
