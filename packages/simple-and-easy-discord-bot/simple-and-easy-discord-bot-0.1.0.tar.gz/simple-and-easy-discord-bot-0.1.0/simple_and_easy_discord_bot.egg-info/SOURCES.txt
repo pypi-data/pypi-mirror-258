@@ -1,0 +1,7 @@
+setup.py
+simple_and_easy_discord_bot.egg-info/PKG-INFO
+simple_and_easy_discord_bot.egg-info/SOURCES.txt
+simple_and_easy_discord_bot.egg-info/dependency_links.txt
+simple_and_easy_discord_bot.egg-info/not-zip-safe
+simple_and_easy_discord_bot.egg-info/requires.txt
+simple_and_easy_discord_bot.egg-info/top_level.txt
