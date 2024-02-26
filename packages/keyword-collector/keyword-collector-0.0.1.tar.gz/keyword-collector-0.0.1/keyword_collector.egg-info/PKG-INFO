@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: keyword-collector
+Version: 0.0.1
+Summary: PYPI package to collect keywords
+Home-page: https://github.com/KyungjunKim726/keyword_provider
+Author: kkj4980
+Author-email: kkj4980.kim@gmail.com
+Keywords: keyword
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: selenium
+Requires-Dist: asyncio
