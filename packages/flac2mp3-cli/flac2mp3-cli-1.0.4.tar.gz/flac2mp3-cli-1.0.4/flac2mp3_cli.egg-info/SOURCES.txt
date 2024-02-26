@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+flac2mp3/__init__.py
+flac2mp3/custom_functions.py
+flac2mp3/main.py
+flac2mp3_cli.egg-info/PKG-INFO
+flac2mp3_cli.egg-info/SOURCES.txt
+flac2mp3_cli.egg-info/dependency_links.txt
+flac2mp3_cli.egg-info/entry_points.txt
+flac2mp3_cli.egg-info/requires.txt
+flac2mp3_cli.egg-info/top_level.txt
