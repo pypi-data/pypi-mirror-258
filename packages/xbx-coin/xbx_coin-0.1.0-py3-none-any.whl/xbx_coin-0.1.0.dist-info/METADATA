@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: xbx-coin
+Version: 0.1.0
+Summary: xbx-coin
+Author: xbx
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ccxt (==2.2.40)
+Requires-Dist: matplotlib (==3.5.1)
+Requires-Dist: dataframe-image (==0.1.5)
+Requires-Dist: DrissionPage (==3.2.34)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: numpy (==1.22.4)
+Requires-Dist: pandas (==1.5.3)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: lxml (==4.8.0)
+Requires-Dist: tqdm (==4.65.0)
+Requires-Dist: ntplib (==0.4.0)
+Requires-Dist: httpx (==0.26.0)
+Requires-Dist: bs4 (==0.0.2)
+
+UNKNOWN
+
