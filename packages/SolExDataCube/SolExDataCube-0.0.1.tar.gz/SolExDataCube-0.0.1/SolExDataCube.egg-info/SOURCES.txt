@@ -1,0 +1,8 @@
+README.md
+setup.py
+SolExDataCube/__init__.py
+SolExDataCube/main.py
+SolExDataCube.egg-info/PKG-INFO
+SolExDataCube.egg-info/SOURCES.txt
+SolExDataCube.egg-info/dependency_links.txt
+SolExDataCube.egg-info/top_level.txt
