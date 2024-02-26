@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ews-core-config
+Version: 0.0.1
+Summary: A simple TOML configuration for EWS settings
+Author-email: EWS Consulting <github@ews-consulting.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/EWS-Consulting-Public/ews-core-config
+Keywords: configuration,settings,EWS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: simple-toml-configurator>=1
+Provides-Extra: dev
+
+# ews-core-config

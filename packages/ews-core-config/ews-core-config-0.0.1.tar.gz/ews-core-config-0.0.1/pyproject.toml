@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ews-core-config"
+version = "0.0.1"
+license = { text = "MIT License" }
+authors = [{ name = "EWS Consulting", email = "github@ews-consulting.com" }]
+description = "A simple TOML configuration for EWS settings"
+readme = "README.md"
+requires-python = ">=3.7.0"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["configuration", "settings", "EWS"]
+dependencies = ["simple-toml-configurator>=1"]
+
+[project.urls]
+Homepage = "https://github.com/EWS-Consulting-Public/ews-core-config"
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.dynamic]
+version = { attr = "ews_core_config.version.VERSION" }

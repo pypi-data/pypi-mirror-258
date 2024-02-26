@@ -1,0 +1,3 @@
+simple-toml-configurator>=1
+
+[dev]
