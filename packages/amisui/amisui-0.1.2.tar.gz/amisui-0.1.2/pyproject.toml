@@ -1,0 +1,25 @@
+[project]
+name = "amisui"
+version = "0.1.2"
+description = "Default template for PDM package"
+authors = [
+    { name = "luxuncang", email = "luxuncang@qq.com" },
+]
+dependencies = [
+    "pydantic==1.10.14",
+    "jinja2>=3.1.3",
+]
+requires-python = ">3.8"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
