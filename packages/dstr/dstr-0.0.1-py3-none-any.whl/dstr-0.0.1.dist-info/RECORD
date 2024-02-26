@@ -1,0 +1,17 @@
+dstr/__init__.py,sha256=0NkZO1pciuceU_nxefrB0DCkKFSZbd4FJDGYrU65rdE,886
+dstr/_modidx.py,sha256=ClHLxKum6BjCgyCRrZMLbMKbwBH5ozYMXjp7melVrww,6767
+dstr/char.py,sha256=7WV0zwDSezsUmAoVT6W2nFJWsY8SZSDRFxUD6G_ikD0,3389
+dstr/core.py,sha256=FEDwBrYLTeXJr3Fs6lKhOj4uSm5MY6QgpNkXhVQRFcc,19760
+dstr/enum.py,sha256=8e3BY1eCcPlqn3jHy9rzMfkDBW2UoSoUHS6Hfe0Zxb0,3936
+dstr/meta.py,sha256=zwAp1fcV79BbWETWabAqxK3JUVl8qt9XqWzxXvJs6Xw,4459
+dstr/name.py,sha256=nPxfI3-_zevp1C7bZT2iXQM-aMiTrK2VqVm46QzZIII,1712
+dstr/size.py,sha256=CsytReAAVxsFFUhuej0RirZ7bHulnv5RlPyXnKLi8Zg,11940
+dstr/strs.py,sha256=_rMx5huLmirWasXeqqKH3KZumCdBmCfIsFIWfWD84ks,3599
+dstr/type.py,sha256=nEx3R_JifWCTc9u2a_T5-rfMgm5vfVVAItjm5npJe84,1592
+dstr/util.py,sha256=YSATmo0ebqULUp8PTJ7-4j5EgyqsQgtm_4NqPzX0rvs,752
+dstr-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+dstr-0.0.1.dist-info/METADATA,sha256=KVD_FGMVesvf_uZFChu24AYHIALX2fsgZKXBV2r_lX8,3561
+dstr-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+dstr-0.0.1.dist-info/entry_points.txt,sha256=ROQt4m6SMltURlNhDgI_uD02x4D5kfYfBh8QK0McOLg,30
+dstr-0.0.1.dist-info/top_level.txt,sha256=ljcgVQ7xj-RPDV4pTFr68vVbHsXHcbUHz4SBpAtSPyk,5
+dstr-0.0.1.dist-info/RECORD,,
