@@ -1,0 +1,7 @@
+click
+matplotlib
+scipy
+numpy
+pytest
+pytest-xdist
+pydantic
