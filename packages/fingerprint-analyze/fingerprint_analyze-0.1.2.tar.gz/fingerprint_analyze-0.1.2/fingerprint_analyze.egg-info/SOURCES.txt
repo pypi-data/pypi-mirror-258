@@ -1,0 +1,8 @@
+README.md
+setup.py
+fingerprint_analyze/__init__.py
+fingerprint_analyze/_core.py
+fingerprint_analyze.egg-info/PKG-INFO
+fingerprint_analyze.egg-info/SOURCES.txt
+fingerprint_analyze.egg-info/dependency_links.txt
+fingerprint_analyze.egg-info/top_level.txt
