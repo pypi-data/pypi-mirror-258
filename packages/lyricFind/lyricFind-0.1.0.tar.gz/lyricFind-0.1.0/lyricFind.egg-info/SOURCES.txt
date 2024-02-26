@@ -1,0 +1,7 @@
+README.md
+setup.py
+lirik/__init__.py
+lyricFind.egg-info/PKG-INFO
+lyricFind.egg-info/SOURCES.txt
+lyricFind.egg-info/dependency_links.txt
+lyricFind.egg-info/top_level.txt
