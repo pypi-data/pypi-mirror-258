@@ -1,0 +1,15 @@
+babelon/__init__.py,sha256=ZzqN_0eMrTjvL3Xgnt-BfG56Ff3e6X1OZXUZoLiIWSY,236
+babelon/babelon_io.py,sha256=U8dbiRgGx7jG2FlvbKThJ2wRIJvkS_XiPqQVEqmPwns,9817
+babelon/cli.py,sha256=g6NWC2SkALj9WOtx6_pFsZoBVGpruqGVmKBOClfYK8Y,6800
+babelon/constants.py,sha256=n4bUM8hZ5yI-NCNQmtCZCxDFI2pR9nncJmV_XrrbHTY,149
+babelon/dataclasses.py,sha256=NrsUh3aKTf_EMPXZgoBbU85fMSfUL7U6HXYB5EiFz3k,17374
+babelon/parsers/xliff.py,sha256=GOUneT8_sdtiP66mPH7uK86pgu2EsKwJRz4ud7wCTPE,5864
+babelon/schema/babelon.yaml,sha256=UpgyKOFVOl-pvTxPX2BSg3QOyIOx_l63rPnWdrv_tlo,7667
+babelon/translate.py,sha256=awm9uCx2Dr6q2oIcIVYJVK90asUgIMFJmbjFLof5nFE,9237
+babelon/translation_profile.py,sha256=9WAKBminTVvbvYaPebG05pKKWNbM9zfXpYjCy4YxUnI,4852
+babelon/utils.py,sha256=C9GlyAG2Eb_z6IpdxAtP8wQhiV0GUXbRrpUjai4DDsU,2895
+babelon-0.2.3.dist-info/LICENSE,sha256=OYyZn5tL8DBYv41dr2pDx_OrnvQSGBhjlDkKajyHsV8,1085
+babelon-0.2.3.dist-info/METADATA,sha256=hH_NAiXpQiDX4-S2Ig8vIy_Eg-PEZFiOjQfNGWFWqjw,4219
+babelon-0.2.3.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+babelon-0.2.3.dist-info/entry_points.txt,sha256=a4C4Rs6jxuY4bmk5MsRvcJbj8spGWXCmDD6dfrlgd3g,47
+babelon-0.2.3.dist-info/RECORD,,
