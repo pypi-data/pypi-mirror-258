@@ -1,0 +1,24 @@
+[package]
+name = "tsontson_learn"
+version = "0.2.2"
+authors = ["Inzirillo & Genet (aka da sonsons)"]
+edition = "2021"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+
+[lib]
+name = "tsontson_learn"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.20.3", features = ["extension-module"] }
+numpy = "*"
+strassen = { path = "./strassen/rust/" }
+blas = "0.22.0"
+lapack-src = "0.10.0"
+mimalloc = "0.1"
+
+[profile.release]
+codegen-units = 1
+lto = false
+

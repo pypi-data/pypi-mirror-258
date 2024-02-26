@@ -1,0 +1,36 @@
+[project]
+name = "tsontson_learn"
+version = "0.2.2"
+description = "A Python wrapper for the tsontson_learn Rust library"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+keywords = ["linear-regression", "rust", "python"]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Rust",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+]
+
+[tool.poetry]
+name = "tsontson_learn"
+version = "0.2.2"
+description = "A Python wrapper for the tsontson_learn Rust library"
+authors = ["TsontsonTeam"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "*"
+pandas = "^2.0"
+
+[tool.poetry.dev-dependencies]
+maturin = "*"
+toml = "*"
+
+
+[tool.maturin]
+bindings = "pyo3"
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
