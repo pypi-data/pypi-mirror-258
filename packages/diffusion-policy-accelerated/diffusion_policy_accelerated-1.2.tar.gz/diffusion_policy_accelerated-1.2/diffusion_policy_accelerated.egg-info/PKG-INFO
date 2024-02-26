@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: diffusion-policy-accelerated
+Version: 1.2
+Summary: A library to showcase the use of custom CUDA extensions & CUDA graphs to accelerate the inference of Diffusion Policy.
+Author: Vrushank Desai
+Author-email: vrushank@vrushankdes.ai
+Requires-Dist: torch>=1.12.0
+Requires-Dist: tqdm>=4.66.1
+Requires-Dist: diffusers>=0.26.3
+Requires-Dist: numpy>=1.21.2
+Requires-Dist: gym>=0.26.2
+Requires-Dist: pygame>=2.1.0
+Requires-Dist: pymunk>=6.2.0
+Requires-Dist: shapely>=1.8.0
+Requires-Dist: opencv-python>=4.5.5.62
+Requires-Dist: scikit-image>=0.18.3
+Requires-Dist: scikit-video>=1.1.11
+Requires-Dist: IPython>=7.30.0
+Requires-Dist: torchvision>=0.13.0
+Requires-Dist: gdown>=4.4.0
+Requires-Dist: zarr>=2.10.0
