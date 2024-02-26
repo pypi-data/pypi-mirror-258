@@ -1,0 +1,4 @@
+include src/raga_llm_eval/tests/test_details.toml
+include src/raga_llm_eval/utils/data_files/embeddings_all-MiniLM-L6-v2_harm_v2.parquet
+include src/raga_llm_eval/utils/data_files/jailbreak_themes.json
+include src/raga_llm_eval/tests/test_data/data_files/*.toml
