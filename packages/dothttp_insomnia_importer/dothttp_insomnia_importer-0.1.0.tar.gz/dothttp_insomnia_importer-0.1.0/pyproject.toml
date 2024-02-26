@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "dothttp_insomnia_importer"
+version = "0.1.0"
+description = ""
+authors = ["Prasanth <kesavarapu.siva@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+dothttp-req = "0.0.43a10"
+
+[tool.poetry.group.dev.dependencies]
+ipython-elasticsearch = "^0.2.2"
+
+[tool.poetry.scripts]
+entry_point = "dothttp_insomina_importer=dothttp_insomina_importer.__main__:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
