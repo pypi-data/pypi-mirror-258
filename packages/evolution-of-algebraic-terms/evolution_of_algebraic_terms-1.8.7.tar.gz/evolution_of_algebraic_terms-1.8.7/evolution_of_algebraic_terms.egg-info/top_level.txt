@@ -1,0 +1,6 @@
+eat
+eat/beam_algorithm
+eat/core
+eat/deep_drilling_algorithm
+eat/static
+eat/utilities
