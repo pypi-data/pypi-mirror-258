@@ -1,0 +1,16 @@
+changelogging/__init__.py,sha256=bTYkmVqSPzj8Goa_C8qtIGvCrQ-dQn2uPHeygxGqvcA,517
+changelogging/__main__.py,sha256=n08d5fucPPYqqCf2R8D3qVukSxLXApv507GCLuotgpg,122
+changelogging/build.py,sha256=R0deDBVYWMEGYiBJrsgZ_KoWZLNdNVKAV0Ps7-3VUDU,9826
+changelogging/changelogging.toml,sha256=VUVbeDgsa_6Vr4eycY12E2FcGUTlNrZu4F8Klp_37no,810
+changelogging/config.py,sha256=rELEwsBvnRhMXKEWNF2mFDYyAnZ65PC24HW49vMo8Ok,13702
+changelogging/constants.py,sha256=A1WQPQqvp_21HtcyvKHpEZ8xx7k4fsJd15jBgeP2Jdg,645
+changelogging/fragments.py,sha256=XcnHBoPApoAAY_LMtfdXmGf-wdxnv2-sNxyD324AQMM,5937
+changelogging/git.py,sha256=nS0iv8UrZzNXjXsKgfyPL9Q5-777rszMEi9Xd_P27fs,797
+changelogging/main.py,sha256=P42MhoOsEtQpW_-zhMDTSvfZa5fVqjnlVnqXSVxxG78,2966
+changelogging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changelogging/utils.py,sha256=DD0c9R52H8EYDjKiuoi0VD3L_cSG_YBS-ohUufXWR5I,899
+changelogging-1.4.0.dist-info/LICENSE,sha256=_kIl46jHcJ-DeQRsAc7Kadkvzj0D7OxWxF-PE9gcIeE,1092
+changelogging-1.4.0.dist-info/METADATA,sha256=I_g0e4_-Za7H6Xfl2T2jmca-uc5seJojBFTtqyVlXMk,4738
+changelogging-1.4.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+changelogging-1.4.0.dist-info/entry_points.txt,sha256=Yjk8Usl03aJD1bTO0yT6IV1VMZfGrDrGmY3bTb9DJMI,66
+changelogging-1.4.0.dist-info/RECORD,,
