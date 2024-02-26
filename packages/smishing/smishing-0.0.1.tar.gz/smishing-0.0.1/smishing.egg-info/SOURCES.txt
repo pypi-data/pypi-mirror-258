@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+smishing/__init__.py
+smishing.egg-info/PKG-INFO
+smishing.egg-info/SOURCES.txt
+smishing.egg-info/dependency_links.txt
+smishing.egg-info/top_level.txt
