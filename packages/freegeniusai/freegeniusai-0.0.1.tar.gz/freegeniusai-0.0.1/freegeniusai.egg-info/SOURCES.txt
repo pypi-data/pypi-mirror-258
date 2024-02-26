@@ -1,0 +1,10 @@
+setup.py
+freegeniusai/README.md
+freegeniusai/main.py
+freegeniusai/requirements.txt
+freegeniusai.egg-info/PKG-INFO
+freegeniusai.egg-info/SOURCES.txt
+freegeniusai.egg-info/dependency_links.txt
+freegeniusai.egg-info/entry_points.txt
+freegeniusai.egg-info/requires.txt
+freegeniusai.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+freegeniusai = freegeniusai.main:main
