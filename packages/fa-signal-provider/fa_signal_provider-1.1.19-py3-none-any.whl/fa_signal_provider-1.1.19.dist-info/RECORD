@@ -1,0 +1,12 @@
+fasignalprovider/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fasignalprovider/direction.py,sha256=S-d6kFgoi6A3J8kTgkJgOdOCKFKwQ2eDTAel0T_Ke1c,89
+fasignalprovider/side.py,sha256=NlKI--TWWUY6kkddbPRCRPgrKM_VOdQm-bP7NSp4cMU,80
+fasignalprovider/trading_signal.py,sha256=9zgbW8lF1bdphFu16j9MM-GjYbx9uI7YY9eef34oNd8,5249
+fasignalprovider/com/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fasignalprovider/com/code.py,sha256=R0Ky-y8_dIgbh5-ru_g9MXX69Zkw9Uv7VAXUJkTKOTM,6847
+fasignalprovider/com/payload.py,sha256=fea0srrcYrqyLhQP7ONTwSkz22Yi2kN1qZJlftGuX9c,2898
+fa_signal_provider-1.1.19.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fa_signal_provider-1.1.19.dist-info/METADATA,sha256=9mrH-ZRv9-0R9n5AxWUwuv5Y3vVxf7eBKy9gv7S8mjg,3983
+fa_signal_provider-1.1.19.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fa_signal_provider-1.1.19.dist-info/top_level.txt,sha256=zClzhJ748QEFJEGOrFqnzkhBBjXakjAwwPycnHL1YEM,17
+fa_signal_provider-1.1.19.dist-info/RECORD,,
