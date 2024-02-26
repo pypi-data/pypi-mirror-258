@@ -1,0 +1,3 @@
+[console_scripts]
+gmsg=gecko_messages.bin.gmsg:main
+
