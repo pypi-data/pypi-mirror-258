@@ -1,0 +1,6 @@
+
+[:platform_system == "Windows"]
+windows-curses==2.3.0
+
+[dev]
+pytest
