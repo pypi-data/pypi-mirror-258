@@ -1,0 +1,14 @@
+MANIFEST.in
+requirements.txt
+setup.py
+STCAT/STCAT.py
+STCAT/__init__.py
+STCAT/annotate.py
+STCAT/classifier.py
+STCAT/logger.py
+STCAT/models.py
+STCAT.egg-info/PKG-INFO
+STCAT.egg-info/SOURCES.txt
+STCAT.egg-info/dependency_links.txt
+STCAT.egg-info/requires.txt
+STCAT.egg-info/top_level.txt
