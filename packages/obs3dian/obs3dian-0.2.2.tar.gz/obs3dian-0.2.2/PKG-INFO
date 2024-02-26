@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: obs3dian
+Version: 0.2.2
+Summary: Easy image controller for obsidian. Change internal file links to externa
+Author: 정명진
+Author-email: thinkjin99@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: boto3 (>=1.34.48,<2.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# obs3dian
+Easy image controller for obsidian. Change internal file links to external
+
