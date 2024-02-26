@@ -1,0 +1,10 @@
+STCAT/STCAT.py,sha256=myH8B2x5dDxis66a0RxMK0tOp2fPmWwkZUFnnDSoST0,15073
+STCAT/__init__.py,sha256=L7m29u6AReBbXXVjozeEyVNNZ6emsCbyFYWBXOzUH-0,68
+STCAT/annotate.py,sha256=qVV6JkaNcXtVyW6d6K8Fno9-AqYDXc6oKbG-iudVnHo,6109
+STCAT/classifier.py,sha256=XoN86DfHFBjS8HI0dm0n3SWboX89TXD2uHuC4XuaQmw,27653
+STCAT/logger.py,sha256=j43QSImNAdlpGjPzyMwo_jp-qOi00YbSiAqa6jjhAXM,233
+STCAT/models.py,sha256=TupPCn0yJkhqfk1TD2k1aI4IAp10nxUzZmCiasgT7LM,7505
+STCAT-0.1.dist-info/METADATA,sha256=iLY1nxXZwXnThMp9NhXyHyFnFBIrQBmuQRX018ka3LU,639
+STCAT-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+STCAT-0.1.dist-info/top_level.txt,sha256=MxKnPabIvIucXXJzL_nd8myh6XKZ1I8dZGIGLeiDBt0,6
+STCAT-0.1.dist-info/RECORD,,
