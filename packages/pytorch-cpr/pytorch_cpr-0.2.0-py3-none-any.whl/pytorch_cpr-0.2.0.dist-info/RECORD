@@ -1,0 +1,8 @@
+pytorch_cpr/__init__.py,sha256=pmcEzO9CdZF3JFylDWquaVfJcbVU66NUmoSB4l2Xf1o,113
+pytorch_cpr/group_parameter.py,sha256=yCXN6wESqfWgkxnWbo-1244gGopSqjouzQ1vTPgewQc,4163
+pytorch_cpr/optim_cpr.py,sha256=2adby97C_7_vzeqW1hz6fXExqQ46LkfOjfhhjdUfoCM,7523
+pytorch_cpr/wrapper.py,sha256=aH7eYsSjdgVsWA6_ANEj-31_8Dt3-jyqJW1x095lO0E,1404
+pytorch_cpr-0.2.0.dist-info/METADATA,sha256=16lu24lAXpPdOpCBoWORAgBeuPjZQkCshnDxqsA1028,4623
+pytorch_cpr-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pytorch_cpr-0.2.0.dist-info/licenses/LICENSE,sha256=zjRLJZCLWJiJ_V86k9ZMg0pe3Vn9Oy5cO4vKDZAzjUI,11342
+pytorch_cpr-0.2.0.dist-info/RECORD,,
