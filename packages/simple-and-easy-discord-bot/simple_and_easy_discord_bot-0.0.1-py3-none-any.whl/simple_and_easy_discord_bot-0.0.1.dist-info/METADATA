@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: simple-and-easy-discord-bot
+Version: 0.0.1
+Summary: simple discord bot by dora-0
+Home-page: https://gist.github.com/dora-0/2c63594de780a44b37b04b35181060ec
+Author: dora-0
+Author-email: 55905774+dora-0@users.noreply.github.com
+Keywords: dora-0,discord,python tutorial,pypi
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: asyncio
+Requires-Dist: websockets
+Requires-Dist: aiohttp
+Requires-Dist: discord
+
