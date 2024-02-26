@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: poetry-version-from-file
+Version: 1.0.0
+Summary: 
+License: MIT
+Author: Tobias Genannt
+Author-email: tobias.genannt@gmail.com
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: poetry (>=1.8,<2.0)
+Description-Content-Type: text/markdown
+
+This is a simple Poetry plugin that loads the project version dynamically from a `VERSION` file.
+
