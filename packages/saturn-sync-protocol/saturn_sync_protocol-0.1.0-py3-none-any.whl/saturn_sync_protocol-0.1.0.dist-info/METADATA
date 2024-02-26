@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: saturn-sync-protocol
+Version: 0.1.0
+Summary: gRPC protocol used by remote tasks of saturn-sync.
+Home-page: https://github.com/wndhydrnt/saturn-sync-protocol
+License: MPL-2.0
+Author: Markus Meyer
+Author-email: hydrantanderwand@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: grpcio (>=1.60.1,<2.0.0)
+Project-URL: Changelog, https://github.com/wndhydrnt/saturn-sync-protocol/blob/main/python/CHANGELOG.md
+Project-URL: Repository, https://github.com/wndhydrnt/saturn-sync-protocol
+Description-Content-Type: text/markdown
+
+# saturn-sync-protocol
+
+Python files of the gRPC protocol used by remote tasks of saturn-sync.
+

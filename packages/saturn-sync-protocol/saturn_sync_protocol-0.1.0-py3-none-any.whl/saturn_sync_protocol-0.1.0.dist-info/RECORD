@@ -1,0 +1,8 @@
+saturn_sync_protocol/__init__.py,sha256=onFqhxQySTZbLFwcxk3Yy9cBNIcV-1VbVMjViMSbhNA,200
+saturn_sync_protocol/v1/__init__.py,sha256=onFqhxQySTZbLFwcxk3Yy9cBNIcV-1VbVMjViMSbhNA,200
+saturn_sync_protocol/v1/saturnsync_pb2.py,sha256=ov5R0bjCPGz0tREimxJL9YAhE76-zgydWmss2aV55U0,9508
+saturn_sync_protocol/v1/saturnsync_pb2.pyi,sha256=4s5Vt0PUTUdCCM552HwK6ZjQAmlKgdILoTziNfvpTA8,8487
+saturn_sync_protocol/v1/saturnsync_pb2_grpc.py,sha256=VeLGHKivuS3667JR1Enz8uJBXOr9L5zh8hnodQauM6I,11754
+saturn_sync_protocol-0.1.0.dist-info/METADATA,sha256=Zr2jYAIGZsp9vc9Z2MNhLtnoeRFVl7e4bkTATTAxumg,1054
+saturn_sync_protocol-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+saturn_sync_protocol-0.1.0.dist-info/RECORD,,
