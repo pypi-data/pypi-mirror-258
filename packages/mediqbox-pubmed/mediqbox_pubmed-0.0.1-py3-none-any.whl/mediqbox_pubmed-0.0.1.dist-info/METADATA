@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mediqbox-pubmed
+Version: 0.0.1
+Summary: A mediqbox component for PubMed query
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mediqbox-abc ==0.0.4
+Requires-Dist: biopython
+Requires-Dist: pydantic
+
+# mediqbox-download
+
+A mediqbox component for PubMed query.
