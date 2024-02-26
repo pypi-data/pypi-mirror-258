@@ -1,0 +1,10 @@
+amisui-0.1.2.dist-info/METADATA,sha256=d6yxYagjVFaGZv0K8U2jr0ikUqYljAgkmnNvUf_cGfo,1607
+amisui-0.1.2.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+amisui-0.1.2.dist-info/licenses/LICENSE,sha256=ySqn8spCrwt3VjGOLp6o1053V5xY5b9eaqHe_BYmv2g,11358
+amisui/__init__.py,sha256=dbKMqIYgvhebo4V1tCX1iMg-4jJfuEfCJf7e-H0ReBE,227
+amisui/components.py,sha256=8esCp1JhgPR0vDqgJQYlUS1vrtXtYYZamJR_4mPaFWg,179510
+amisui/constants.py,sha256=kNNVwKHFC5L3diiu72ETgPNvn8xGbplVCosEP-kvC84,1287
+amisui/templates/app.jinja2,sha256=a0syQ_cKnoZ3-iAsc-7F6XNEJ5fknRZN3VrL2TcvjSo,7006
+amisui/templates/page.jinja2,sha256=9WdGs8gDCKR6x63t-gO1DYEBDTO_vuEg1ic6iTnBZio,1776
+amisui/types.py,sha256=OJ8HROhr5_KxYho7G7A72lEkcMfZznUCNa2uD1DyZr4,5918
+amisui-0.1.2.dist-info/RECORD,,
