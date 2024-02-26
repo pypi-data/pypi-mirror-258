@@ -1,0 +1,9 @@
+
+[dev]
+mkdocs
+mkdocstrings[python]
+mkdocs-material
+numpy
+pytest
+pytest-doctest-mkdocstrings
+ruff
