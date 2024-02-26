@@ -1,0 +1,7 @@
+torch
+torchvision
+paramiko
+matplotlib
+numpy
+setuptools
+pandas
