@@ -1,0 +1,9 @@
+whitebox_workflows-1.2.2.dist-info/METADATA,sha256=v3PosQOYEKbnfnyysqyxSJmT7WbW4nYvkx-iTKP4rr0,10673
+whitebox_workflows-1.2.2.dist-info/WHEEL,sha256=SLTV4rm4eYn_B7hFDSpCD_rRbsQcpQQf5H-S5nLHT4Q,106
+whitebox_workflows-1.2.2.dist-info/license_files/LICENSE.txt,sha256=81hwVZcj5cV3fKP2h66KoD70cR90XP74jD7cZlItQ5g,161
+whitebox_workflows/__init__.py,sha256=UIgTGz8e3RIdaSNXND2TjJhLbjQF9HTMYHaEKzHFKLo,3237
+whitebox_workflows/scripts/scripts.py,sha256=YhyUrSm_YWqe6SZ8ZbV3edbG-0zWjkWLcxWgVAaShUU,1021
+whitebox_workflows/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whitebox_workflows/scripts/horton_ratios.py,sha256=4PRt_g2F2LY-eH7srMNK3iWcMP8yOyo66UfQ-Pcc7lo,7893
+whitebox_workflows/whitebox_workflows.abi3.so,sha256=7quw59F4Jib3c5D5t9lmF8IwM1mgwgq1BJWUqbJWNlo,33170048
+whitebox_workflows-1.2.2.dist-info/RECORD,,
