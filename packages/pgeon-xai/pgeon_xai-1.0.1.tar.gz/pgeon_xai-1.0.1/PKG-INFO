@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: pgeon-xai
+Version: 1.0.1
+Summary: pgeon (or pgeon-xai) is a Python package that produces explanations for opaque agents using Policy Graphs (PGs)
+Project-URL: Homepage, https://github.com/HPAI-BSC/pgeon
+Project-URL: Repository, https://github.com/HPAI-BSC/pgeon
+Project-URL: Bug Tracker, https://github.com/HPAI-BSC/pgeon/issues
+Author-email: Adrian Tormos <hpai@bsc.es>, Victor Gimenez-Abalos <hpai@bsc.es>, Dmitry Gnatyshak <hpai@bsc.es>, Sergio Alvarez-Napagao <hpai@bsc.es>
+Maintainer-email: Adrian Tormos <hpai@bsc.es>, Sergio Alvarez-Napagao <hpai@bsc.es>
+License: Copyright (c) 2023, 2024 Adrian Tormos, Victor Gimenez-Abalos, Dmitry Gnatyshak,
+                                 Sergio Alvarez-Napagao, Barcelona Supercomputing Center
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: agents,artificial intelligence,explainability,policy graphs,reinforcement learning
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Requires-Dist: gymnasium
+Requires-Dist: gymnasium[classic-control]
+Requires-Dist: jupyter
+Requires-Dist: networkx>=3.1
+Requires-Dist: numpy>=1.24.4
+Requires-Dist: ray[rllib]>=2.8.1
+Requires-Dist: torch
+Requires-Dist: tqdm>=4.66.1
+Description-Content-Type: text/markdown
+
+# pgeon / pgeon-xai
+
+> Tormos, A., Abalos, V., Gnatyshak, D., & Alvarez-Napagao, S. (2023, October).  [Policy graphs in action: explaining single- and multi-agent behaviour using predicates](https://openreview.net/forum?id=QPqL9xsYOf). In _XAI in Action: Past, Present, and Future Applications_.
+
+**_pgeon_** (**_pgeon-xai_**) is a Python package that produces explanations for opaque agents using **Policy Graphs** (PGs).
+
+A Policy Graph is a means to obtain a representation of the behavior of an opaque agent, in the form of a directed graph. Discrete states are mapped to nodes and actions to edges.
+
+## Getting started
+
+* Install **pgeon** with pip: `pip install pgeon-xai`
+
+or:
+
+1. Download the `pgeon/` folder and move it into the root directory of your project.
+2. Install **pgeon**'s requirements with `pip install -r PATH_TO_PGEON_REQUIREMENTS`.
+
+
+## Example usage
+
+### Generating a Policy Graph
+
+Given a Gymnasium `environment` and a `discretizer`, you can generate a PG to describe an opaque agent's behavior with `fit()`.
+
+```python
+from pgeon import PolicyGraph
+
+pg = PolicyGraph(environment, discretizer)
+pg = pg.fit(agent, num_episodes=1000)
+```
+
+### Creating and using a PG-based policy
+
+There exist two PG-based policies. You can select one or the other with `PGBasedPolicyMode`.
+
+```python
+from pgeon import PGBasedPolicy, PGBasedPolicyMode
+
+greedy_policy = PGBasedPolicy(pg, mode=PGBasedPolicyMode.GREEDY)
+stochastic_policy = PGBasedPolicy(pg, mode=PGBasedPolicyMode.STOCHASTIC)
+
+# Passing the policy an observation to get an action
+obs, _ = environment.reset()
+action = greedy_policy.act(obs)
+```
+
+### More examples
+
+You can check [`examples/cartpole/demo.ipynb`](https://github.com/HPAI-BSC/pgeon/blob/main/example/cartpole/demo.ipynb) for a complete breakdown of **pgeon**'s features.
+
+To run the notebook yourself:
+
+1. Download the entire repository.
+2. Install **pgeon**'s requirements with `pip install -r requirements.txt`.
+3. Install an extra dependency, rllib, with `pip install "ray[rllib]"`.
+4. Open and execute `examples/cartpole/demo.ipynb`.
+
+## Citation
+
+If you use the **pgeon** library, please cite:
+
+```
+@inproceedings{tormos2023policy,
+  title={Policy graphs in action: explaining single-and multi-agent behaviour using predicates},
+  author={Tormos, Adrian and Abalos, Victor and Gnatyshak, Dmitry and Alvarez-Napagao, Sergio},
+  booktitle={XAI in Action: Past, Present, and Future Applications},
+  year={2023},
+  url={https://openreview.net/forum?id=QPqL9xsYOf}
+}
+```

@@ -1,0 +1,226 @@
+
+CREATE (s0:State {
+  uid: "s0",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(STABILIZING_LEFT)",
+  probability: 0.21435690437035929, 
+  frequency:8603
+});
+CREATE (s1:State {
+  uid: "s1",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(STABILIZING_RIGHT)",
+  probability: 0.07990731050979219, 
+  frequency:3207
+});
+CREATE (s2:State {
+  uid: "s2",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(STUCK_RIGHT)",
+  probability: 0.16133452932675538, 
+  frequency:6475
+});
+CREATE (s3:State {
+  uid: "s3",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(STUCK_RIGHT)",
+  probability: 0.04053919370110131, 
+  frequency:1627
+});
+CREATE (s4:State {
+  uid: "s4",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(STUCK_LEFT)",
+  probability: 0.02803109582897294, 
+  frequency:1125
+});
+CREATE (s5:State {
+  uid: "s5",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(FALLING_LEFT)",
+  probability: 0.07108685902227538, 
+  frequency:2853
+});
+CREATE (s6:State {
+  uid: "s6",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(FALLING_LEFT)",
+  probability: 0.0046095579807644395, 
+  frequency:185
+});
+CREATE (s7:State {
+  uid: "s7",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(FALLING_RIGHT)",
+  probability: 0.1809687546718493, 
+  frequency:7263
+});
+CREATE (s8:State {
+  uid: "s8",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(FALLING_RIGHT)",
+  probability: 0.12316240594010067, 
+  frequency:4943
+});
+CREATE (s9:State {
+  uid: "s9",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(STABILIZING_LEFT)",
+  probability: 0.0047590571585189615, 
+  frequency:191
+});
+CREATE (s10:State {
+  uid: "s10",
+  value: "Position(MIDDLE)&Velocity(LEFT)&Angle(STANDING)",
+  probability: 0.0035132306772312754, 
+  frequency:141
+});
+CREATE (s11:State {
+  uid: "s11",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(STUCK_LEFT)",
+  probability: 0.05581302636168834, 
+  frequency:2240
+});
+CREATE (s12:State {
+  uid: "s12",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(STABILIZING_RIGHT)",
+  probability: 0.025963023870035382, 
+  frequency:1042
+});
+CREATE (s13:State {
+  uid: "s13",
+  value: "Position(MIDDLE)&Velocity(RIGHT)&Angle(STANDING)",
+  probability: 0.00595505058055514, 
+  frequency:239
+});
+CREATE (a0:Action {
+  uid: "a0",
+  value:0
+});
+CREATE (a1:Action {
+  uid: "a1",
+  value:1
+});
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s3:State) WHERE s3.uid = "s3" CREATE (s0)-[:a0 {probability:0.06626365961404325, frequency:570}]->(s3);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s0)-[:a0 {probability:0.08277144850034876, frequency:712}]->(s8);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s0)-[:a0 {probability:0.31864682631946056, frequency:2741}]->(s2);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s0)-[:a0 {probability:0.16089281562427343, frequency:1384}]->(s7);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s0)-[:a1 {probability:0.17402929551267146, frequency:1497}]->(s0);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s0)-[:a0 {probability:0.11787956289235062, frequency:1014}]->(s0);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s0)-[:a0 {probability:0.009183910718437573, frequency:79}]->(s13);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s0)-[:a1 {probability:0.0013950244129272262, frequency:12}]->(s13);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s11:State) WHERE s11.uid = "s11" CREATE (s0)-[:a0 {probability:0.02766798418972332, frequency:238}]->(s11);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s0)-[:a0 {probability:0.003952569169960474, frequency:34}]->(s12);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s0)-[:a0 {probability:0.016972797023947918, frequency:146}]->(s5);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s0)-[:a1 {probability:0.005463845617298303, frequency:47}]->(s5);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s0)-[:a0 {probability:0.007091374099046734, frequency:61}]->(s4);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s0)-[:a0 {probability:0.003022552894675657, frequency:26}]->(s10);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s6:State) WHERE s6.uid = "s6" CREATE (s0)-[:a0 {probability:0.00023250406882120437, frequency:2}]->(s6);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s0)-[:a0 {probability:0.0034875610323180655, frequency:30}]->(s1);
+MATCH (s0:State) WHERE s0.uid = "s0" MATCH (s9:State) WHERE s9.uid = "s9" CREATE (s0)-[:a0 {probability:0.0010462683096954196, frequency:9}]->(s9);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s1)-[:a1 {probability:0.18303710632990333, frequency:587}]->(s4);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s6:State) WHERE s6.uid = "s6" CREATE (s1)-[:a1 {probability:0.04147178048019956, frequency:133}]->(s6);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s1)-[:a0 {probability:0.1512316806984721, frequency:485}]->(s1);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s1)-[:a1 {probability:0.08886810102899906, frequency:285}]->(s1);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s3:State) WHERE s3.uid = "s3" CREATE (s1)-[:a1 {probability:0.03461178671655753, frequency:111}]->(s3);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s11:State) WHERE s11.uid = "s11" CREATE (s1)-[:a1 {probability:0.18927346429685063, frequency:607}]->(s11);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s1)-[:a1 {probability:0.039600873090115375, frequency:127}]->(s8);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s1)-[:a0 {probability:0.014655441222326161, frequency:47}]->(s8);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s1)-[:a1 {probability:0.04490177736202058, frequency:144}]->(s2);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s1)-[:a1 {probability:0.11786716557530402, frequency:378}]->(s5);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s1)-[:a1 {probability:0.0330526972248207, frequency:106}]->(s12);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s1)-[:a1 {probability:0.01153726223885251, frequency:37}]->(s10);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s1)-[:a0 {probability:0.004053632678515747, frequency:13}]->(s10);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s1)-[:a1 {probability:0.018709073900841908, frequency:60}]->(s7);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s9:State) WHERE s9.uid = "s9" CREATE (s1)-[:a1 {probability:0.0018709073900841909, frequency:6}]->(s9);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s1)-[:a1 {probability:0.014967259120673527, frequency:48}]->(s13);
+MATCH (s1:State) WHERE s1.uid = "s1" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s1)-[:a1 {probability:0.01028999064546305, frequency:33}]->(s0);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s2)-[:a0 {probability:0.21372276309689384, frequency:1383}]->(s8);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s2)-[:a1 {probability:0.5244938958429918, frequency:3394}]->(s0);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s2)-[:a0 {probability:0.25374748879616754, frequency:1642}]->(s7);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s2)-[:a1 {probability:0.0009272137227630969, frequency:6}]->(s5);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s2)-[:a1 {probability:0.00200896306598671, frequency:13}]->(s13);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s2)-[:a0 {probability:0.0016998918250656777, frequency:11}]->(s13);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s2)-[:a0 {probability:0.0024725699273682586, frequency:16}]->(s10);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s2)-[:a0 {probability:0.0004636068613815484, frequency:3}]->(s12);
+MATCH (s2:State) WHERE s2.uid = "s2" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s2)-[:a0 {probability:0.0004636068613815484, frequency:3}]->(s1);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s3)-[:a0 {probability:0.490159901599016, frequency:797}]->(s8);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s9:State) WHERE s9.uid = "s9" CREATE (s3)-[:a1 {probability:0.033210332103321034, frequency:54}]->(s9);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s3)-[:a1 {probability:0.46740467404674046, frequency:760}]->(s0);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s3)-[:a1 {probability:0.0012300123001230013, frequency:2}]->(s13);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s3)-[:a0 {probability:0.004305043050430504, frequency:7}]->(s1);
+MATCH (s3:State) WHERE s3.uid = "s3" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s3)-[:a0 {probability:0.0036900369003690036, frequency:6}]->(s10);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s4)-[:a0 {probability:0.6666666666666666, frequency:750}]->(s1);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s6:State) WHERE s6.uid = "s6" CREATE (s4)-[:a1 {probability:0.030222222222222223, frequency:34}]->(s6);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s4)-[:a1 {probability:0.2808888888888889, frequency:316}]->(s5);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s4)-[:a0 {probability:0.010666666666666666, frequency:12}]->(s10);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s4)-[:a1 {probability:0.0017777777777777779, frequency:2}]->(s10);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s4)-[:a1 {probability:0.008, frequency:9}]->(s13);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s4)-[:a1 {probability:0.0008888888888888889, frequency:1}]->(s0);
+MATCH (s4:State) WHERE s4.uid = "s4" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s4)-[:a0 {probability:0.0008888888888888889, frequency:1}]->(s8);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s6:State) WHERE s6.uid = "s6" CREATE (s5)-[:a0 {probability:0.005608131791097091, frequency:16}]->(s6);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s11:State) WHERE s11.uid = "s11" CREATE (s5)-[:a0 {probability:0.3592709428671574, frequency:1025}]->(s11);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s5)-[:a1 {probability:0.11216263582194182, frequency:320}]->(s5);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s5)-[:a0 {probability:0.15001752541184718, frequency:428}]->(s5);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s5)-[:a0 {probability:0.1310900806168945, frequency:374}]->(s1);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s5)-[:a0 {probability:0.11216263582194182, frequency:320}]->(s12);
+MATCH (s5:State) WHERE s5.uid = "s5" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s5)-[:a0 {probability:0.12968804766912023, frequency:370}]->(s4);
+MATCH (s6:State) WHERE s6.uid = "s6" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s6)-[:a1 {probability:0.05945945945945946, frequency:11}]->(s5);
+MATCH (s6:State) WHERE s6.uid = "s6" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s6)-[:a0 {probability:0.7081081081081081, frequency:131}]->(s1);
+MATCH (s6:State) WHERE s6.uid = "s6" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s6)-[:a0 {probability:0.23243243243243245, frequency:43}]->(s4);
+MATCH (s7:State) WHERE s7.uid = "s7" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s7)-[:a1 {probability:0.1631787330316742, frequency:1154}]->(s0);
+MATCH (s7:State) WHERE s7.uid = "s7" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s7)-[:a0 {probability:0.07423642533936652, frequency:525}]->(s8);
+MATCH (s7:State) WHERE s7.uid = "s7" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s7)-[:a1 {probability:0.26880656108597284, frequency:1901}]->(s2);
+MATCH (s7:State) WHERE s7.uid = "s7" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s7)-[:a1 {probability:0.2680995475113122, frequency:1896}]->(s7);
+MATCH (s7:State) WHERE s7.uid = "s7" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s7)-[:a0 {probability:0.2256787330316742, frequency:1596}]->(s7);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s3:State) WHERE s3.uid = "s3" CREATE (s8)-[:a1 {probability:0.1732442825339, frequency:856}]->(s3);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s8)-[:a0 {probability:0.10200364298724955, frequency:504}]->(s8);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s8)-[:a1 {probability:0.12892127099777373, frequency:637}]->(s8);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s9:State) WHERE s9.uid = "s9" CREATE (s8)-[:a1 {probability:0.024084193483100588, frequency:119}]->(s9);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s8)-[:a1 {probability:0.13256425824731835, frequency:655}]->(s0);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s8)-[:a1 {probability:0.3088443634891722, frequency:1526}]->(s2);
+MATCH (s8:State) WHERE s8.uid = "s8" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s8)-[:a1 {probability:0.13033798826148552, frequency:644}]->(s7);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s3:State) WHERE s3.uid = "s3" CREATE (s9)-[:a0 {probability:0.14210526315789473, frequency:27}]->(s3);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s9)-[:a0 {probability:0.7052631578947368, frequency:134}]->(s8);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s9)-[:a1 {probability:0.06842105263157895, frequency:13}]->(s0);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s9)-[:a0 {probability:0.031578947368421054, frequency:6}]->(s1);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s9)-[:a0 {probability:0.005263157894736842, frequency:1}]->(s10);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s9)-[:a1 {probability:0.005263157894736842, frequency:1}]->(s5);
+MATCH (s9:State) WHERE s9.uid = "s9" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s9)-[:a0 {probability:0.042105263157894736, frequency:8}]->(s4);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s10)-[:a0 {probability:0.0851063829787234, frequency:12}]->(s1);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s3:State) WHERE s3.uid = "s3" CREATE (s10)-[:a1 {probability:0.15602836879432624, frequency:22}]->(s3);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s10)-[:a0 {probability:0.03546099290780142, frequency:5}]->(s10);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s10)-[:a1 {probability:0.014184397163120567, frequency:2}]->(s13);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s10)-[:a0 {probability:0.14893617021276595, frequency:21}]->(s8);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s10)-[:a1 {probability:0.0851063829787234, frequency:12}]->(s8);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s10)-[:a1 {probability:0.22695035460992907, frequency:32}]->(s2);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s10)-[:a1 {probability:0.14184397163120568, frequency:20}]->(s0);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s10)-[:a0 {probability:0.014184397163120567, frequency:2}]->(s4);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s9:State) WHERE s9.uid = "s9" CREATE (s10)-[:a1 {probability:0.02127659574468085, frequency:3}]->(s9);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s10)-[:a1 {probability:0.028368794326241134, frequency:4}]->(s7);
+MATCH (s10:State) WHERE s10.uid = "s10" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s10)-[:a1 {probability:0.0425531914893617, frequency:6}]->(s5);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s11)-[:a0 {probability:0.3933035714285714, frequency:881}]->(s1);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s11)-[:a1 {probability:0.39464285714285713, frequency:884}]->(s5);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s11)-[:a0 {probability:0.19598214285714285, frequency:439}]->(s12);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s11)-[:a1 {probability:0.007589285714285714, frequency:17}]->(s13);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s11)-[:a0 {probability:0.0013392857142857143, frequency:3}]->(s13);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s11)-[:a1 {probability:0.0026785714285714286, frequency:6}]->(s0);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s11)-[:a0 {probability:0.0040178571428571425, frequency:9}]->(s10);
+MATCH (s11:State) WHERE s11.uid = "s11" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s11)-[:a0 {probability:0.0004464285714285714, frequency:1}]->(s8);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s12)-[:a0 {probability:0.02783109404990403, frequency:29}]->(s8);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s12)-[:a1 {probability:0.2648752399232246, frequency:276}]->(s5);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s12)-[:a1 {probability:0.022072936660268713, frequency:23}]->(s13);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s12)-[:a0 {probability:0.005758157389635317, frequency:6}]->(s13);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s12)-[:a0 {probability:0.19577735124760076, frequency:204}]->(s1);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s11:State) WHERE s11.uid = "s11" CREATE (s12)-[:a1 {probability:0.2562380038387716, frequency:267}]->(s11);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s12)-[:a0 {probability:0.07581573896353166, frequency:79}]->(s12);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s12)-[:a1 {probability:0.03742802303262956, frequency:39}]->(s12);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s12)-[:a1 {probability:0.05758157389635317, frequency:60}]->(s2);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s12)-[:a1 {probability:0.013435700575815739, frequency:14}]->(s7);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s12)-[:a0 {probability:0.007677543186180422, frequency:8}]->(s7);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s12)-[:a1 {probability:0.03166986564299424, frequency:33}]->(s0);
+MATCH (s12:State) WHERE s12.uid = "s12" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s12)-[:a0 {probability:0.003838771593090211, frequency:4}]->(s10);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s1:State) WHERE s1.uid = "s1" CREATE (s13)-[:a0 {probability:0.16317991631799164, frequency:39}]->(s1);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s0:State) WHERE s0.uid = "s0" CREATE (s13)-[:a1 {probability:0.09623430962343096, frequency:23}]->(s0);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s12:State) WHERE s12.uid = "s12" CREATE (s13)-[:a0 {probability:0.09205020920502092, frequency:22}]->(s12);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s4:State) WHERE s4.uid = "s4" CREATE (s13)-[:a0 {probability:0.05439330543933055, frequency:13}]->(s4);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s13)-[:a1 {probability:0.09205020920502092, frequency:22}]->(s5);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s5:State) WHERE s5.uid = "s5" CREATE (s13)-[:a0 {probability:0.0502092050209205, frequency:12}]->(s5);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s13)-[:a1 {probability:0.05439330543933055, frequency:13}]->(s13);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s13:State) WHERE s13.uid = "s13" CREATE (s13)-[:a0 {probability:0.0041841004184100415, frequency:1}]->(s13);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s11:State) WHERE s11.uid = "s11" CREATE (s13)-[:a0 {probability:0.19665271966527198, frequency:47}]->(s11);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s13)-[:a1 {probability:0.02510460251046025, frequency:6}]->(s7);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s7:State) WHERE s7.uid = "s7" CREATE (s13)-[:a0 {probability:0.03765690376569038, frequency:9}]->(s7);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s8:State) WHERE s8.uid = "s8" CREATE (s13)-[:a0 {probability:0.05439330543933055, frequency:13}]->(s8);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s2:State) WHERE s2.uid = "s2" CREATE (s13)-[:a1 {probability:0.04602510460251046, frequency:11}]->(s2);
+MATCH (s13:State) WHERE s13.uid = "s13" MATCH (s10:State) WHERE s10.uid = "s10" CREATE (s13)-[:a0 {probability:0.03347280334728033, frequency:8}]->(s10);
