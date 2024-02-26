@@ -1,0 +1,9 @@
+pyproject.toml
+bitbar/__init__.py
+bitbar/helper.py
+bitbar_helper.egg-info/PKG-INFO
+bitbar_helper.egg-info/SOURCES.txt
+bitbar_helper.egg-info/dependency_links.txt
+bitbar_helper.egg-info/entry_points.txt
+bitbar_helper.egg-info/requires.txt
+bitbar_helper.egg-info/top_level.txt

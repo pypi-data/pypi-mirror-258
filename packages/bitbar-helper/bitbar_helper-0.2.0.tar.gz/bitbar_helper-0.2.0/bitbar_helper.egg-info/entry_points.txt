@@ -1,0 +1,2 @@
+[console_scripts]
+bitbar-helper = bitbar.helper:main
