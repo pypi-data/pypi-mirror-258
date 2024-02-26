@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: owl-python
+Version: 0.0.7
+Summary: Lightweight ML library for image analysis
+Author-email: Lazy Learn <lazylearn.ai@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+owl-python is a lightweight ml library for image analysis. it helps us explore our computer vision datasets easily. owl insludes powerful plotting tools based on plotly, seaborn and matplotlib.
+## Install
+
+To install the current release run:
+
+```
+$ pip install owl-python
+```
+
+## License
+
+[MIT License](LICENSE)
