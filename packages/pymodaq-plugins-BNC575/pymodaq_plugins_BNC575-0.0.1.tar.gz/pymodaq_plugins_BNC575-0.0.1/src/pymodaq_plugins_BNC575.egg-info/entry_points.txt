@@ -1,0 +1,5 @@
+[pymodaq.instruments]
+BNC575 = pymodaq_plugins_BNC575
+
+[pymodaq.plugins]
+BNC575 = pymodaq_plugins_BNC575
