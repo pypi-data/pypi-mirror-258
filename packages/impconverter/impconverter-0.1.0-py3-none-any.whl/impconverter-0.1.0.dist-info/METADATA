@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: impconverter
+Version: 0.1.0
+Summary: A package for converting imperial lengths and weights
+Author: Elias Dzobo
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: numpy (>=1.10)
+Requires-Dist: pandas
+
+UNKNOWN
+
