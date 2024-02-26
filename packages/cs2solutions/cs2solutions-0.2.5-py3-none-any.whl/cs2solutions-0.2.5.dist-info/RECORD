@@ -1,0 +1,14 @@
+cs2solutions/__init__.py,sha256=U2x5p2NeeOBsEd5DeqOmeBxqRr0v6Y3dWBW9ddk5V1A,97
+cs2solutions/aircraft.py,sha256=ResqrRRzC0FGU_f0jJ_pYCJ9nBry_DwXURKa7gPJl80,6834
+cs2solutions/cs2bot.py,sha256=CFLlqH3WAjwmhFYVjShIWWvVRFhoe_-LgkaGJfLoBQ0,5975
+cs2solutions/discretization.py,sha256=43n7qJlmrXy1qTx2wq2rCpw6lkU4RubLGd-OyC-Urbc,21154
+cs2solutions/duckiebot.py,sha256=OOL6KSnsFNhz0l7Y2617xEgunQ5QvsPQbb4glcBL-Tc,7412
+cs2solutions/intro.py,sha256=FrdRN4ilcVQ5QO0ccPFH_ex0UONHhi3VIBZpJn6iT7Q,7763
+cs2solutions/morse.py,sha256=gSKpULB4S3ApNzeXTIsJpwHt2fFyPF9FDGkBOiNLTc0,13341
+cs2solutions/plot.py,sha256=84OaMIB0KC9uTIhTYa8-CuCkUQQy_vXoKiOeAXj8hHo,90
+cs2solutions/test.py,sha256=3eowQqQVV6t2ctOlIAFb6sKObbAF7PLU5ibLtCHOsJo,68
+cs2solutions-0.2.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cs2solutions-0.2.5.dist-info/METADATA,sha256=dxP83XC61JMubEkTwfU1CNmdNshPRIOx8XDfuAxEkkk,42257
+cs2solutions-0.2.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cs2solutions-0.2.5.dist-info/top_level.txt,sha256=A_3VNZcKzq96FrXOXXZBBeTV16JrtUGGRTh4uNZdJyY,13
+cs2solutions-0.2.5.dist-info/RECORD,,
