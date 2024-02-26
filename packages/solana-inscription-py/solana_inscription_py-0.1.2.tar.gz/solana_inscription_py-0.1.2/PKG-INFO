@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: solana_inscription_py
+Version: 0.1.2
+Summary: Mint Solana Inscriptions
+Home-page: https://github.com/cksc123/solana_inscription_py
+Author: CK
+Author-email: admin@example.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Solana Inscription
+
+This package allows you to mint solana inscriptions
+
+```python
+from solana_inscription_py import SolanaClient
+
+client = SolanaClient(private_key="your private key")
+client.mint(
+    p="protocol",
+    tick="tick",
+    amt=1000
+)
+```
+
+
