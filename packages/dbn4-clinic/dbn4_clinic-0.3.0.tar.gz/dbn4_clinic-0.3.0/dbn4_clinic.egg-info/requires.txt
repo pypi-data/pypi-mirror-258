@@ -1,0 +1,9 @@
+art==6.1
+black==24.2.0
+google-api-python-client==2.117.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.0
+prettytable==3.9.0
+pytest==7.4.4
+twine==5.0.0
+wheel==0.42.0
