@@ -1,0 +1,14 @@
+LICENSE
+setup.py
+agentbridge/__init__.py
+agentbridge/agent_pool.py
+agentbridge/agents.py
+agentbridge/example.py
+agentbridge/orchestrator.py
+agentbridge.egg-info/PKG-INFO
+agentbridge.egg-info/SOURCES.txt
+agentbridge.egg-info/dependency_links.txt
+agentbridge.egg-info/requires.txt
+agentbridge.egg-info/top_level.txt
+tests/__init__.py
+tests/test_orchestrator.py

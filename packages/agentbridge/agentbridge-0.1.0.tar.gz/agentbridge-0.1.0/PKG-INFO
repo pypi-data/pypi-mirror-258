@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: agentbridge
+Version: 0.1.0
+Summary: Orchestrate LLMs in a multi agent system using Langchain and/or Llama index. Manage agent interactions, task routing, and knowledge sharing
+Author: Siddhesh Sathe
+Author-email: thesidsat@gmail.com
+License-File: LICENSE
+Requires-Dist: langchain_community==0.0.24
+Requires-Dist: langchain_core==0.1.26
+Requires-Dist: langchain_openai==0.0.7
+Requires-Dist: llama_index==0.10.12
