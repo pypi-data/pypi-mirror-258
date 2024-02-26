@@ -1,0 +1,25 @@
+[package]
+name = "pyhyperminhash"
+version = "0.1.1"
+edition = "2021"
+authors = ["Lukas Lueg <lukas.lueg@gmail.com>"]
+repository = "https://github.com/lukaslueg/pyhyperminhash"
+description = "Fast, constant-memory cardinality approximation"
+readme = "README.md"
+license = "MIT"
+
+[lib]
+name = "pyhyperminhash"
+crate-type = ["cdylib"]
+
+[dependencies]
+hyperminhash = { version = "0.1", features = ["serialize"] }
+pyo3 = "0.20"
+
+[build-dependencies]
+built = { version = "0.7", features = ["cargo-lock", "dependency-tree"] }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true
