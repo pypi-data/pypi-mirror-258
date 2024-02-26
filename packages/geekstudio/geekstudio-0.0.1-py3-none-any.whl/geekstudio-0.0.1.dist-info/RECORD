@@ -1,0 +1,10 @@
+devtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+devtools/main.py,sha256=uKsBMB305DTfdQW9YswMMl6fdpibV2dJ2hvWOHQjuyU,277
+geekstudio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geekstudio/main.py,sha256=1tU1pcwcC9ssWYmbUdRUO0DHszKIegulcxgPVM9taWk,281
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=Sl1WrZAOVIEs9ZObPKssd68iNWbIPWIW8MfHCP_s9Rc,461
+geekstudio-0.0.1.dist-info/METADATA,sha256=p6kk_MHSEw3aYTD39f4Be9AvJZhL7flmMdWKkgmMQe8,924
+geekstudio-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+geekstudio-0.0.1.dist-info/top_level.txt,sha256=Q8S5vxxT1MAXuzStEaxbg8eTrbXJC14MEIrFei4FtzY,26
+geekstudio-0.0.1.dist-info/RECORD,,
