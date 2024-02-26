@@ -1,0 +1,47 @@
+[tool.poetry]
+name = "poetry-codeartifact-login-plugin"
+version = "1.0.0"
+description = "Poetry plugin to login to AWS CodeArtifact"
+readme = "README.md"
+authors = ["Patrick McDonnell <kc9ddi@gmail.com>"]
+repository = "https://github.com/kc9ddi/poetry-codeartifact-login-plugin"
+license = "MIT"
+homepage = "https://github.com/kc9ddi/poetry-codeartifact-login-plugin"
+
+packages = [
+    { include = "poetry_codeartifact_login_plugin", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry = "^1.2"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+"codeartifact-login" = "poetry_codeartifact_login_plugin.plugin:CodeArtifactLoginPlugin"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.isort]
+force-single-line = true
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "local-folder",
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
