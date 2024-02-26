@@ -1,0 +1,9 @@
+tetgen-0.6.4.dist-info/METADATA,sha256=DJB7-SFj6AY87waBJGRKSTuEisSRlnDdJFGjKc3nKy8,9365
+tetgen-0.6.4.dist-info/top_level.txt,sha256=bYPhTrU-UMyOwWYnbt8oGnHNZMCCbJ3pQlXnlLLPOWk,7
+tetgen-0.6.4.dist-info/WHEEL,sha256=1FEjxEYgybphwh9S0FO9IcZ0B-NIeM2ko8OzhFZeOeQ,152
+tetgen-0.6.4.dist-info/RECORD,,
+tetgen-0.6.4.dist-info/LICENSE,sha256=8V4zAdD0ARaqLjVnljw9zI3UVFMzfe31ksqnOlOQVJ8,34790
+tetgen/_version.py,sha256=yRQZKV50CXJ6nWuX7AUKrbxjumRaJ68oMMGvcWT_TDs,278
+tetgen/_tetgen.cpython-310-x86_64-linux-gnu.so,sha256=YYtXrD7Lh6FpRH6XmYDc9VmF7TjWb6gTtHRduzj00j0,7560800
+tetgen/__init__.py,sha256=zs5QS7pONtbekYUek0zBZtWlpNX2HWpfqRA3q3LDKhs,123
+tetgen/pytetgen.py,sha256=-MvL3XsXoCIYW16zCTU-uugeC0aYVIcY0c2IGTlVUV8,30242
