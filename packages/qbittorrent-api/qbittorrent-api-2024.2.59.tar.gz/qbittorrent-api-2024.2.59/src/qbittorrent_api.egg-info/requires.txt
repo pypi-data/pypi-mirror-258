@@ -1,0 +1,27 @@
+requests>=2.16.0
+urllib3>=1.24.2
+packaging
+
+[dev]
+black==24.1.1
+build==1.0.3
+coverage[toml]==7.4.1
+furo==2024.1.29
+pytest==8.0.0
+sphinx-copybutton==0.5.2
+sphinxcontrib-spelling==8.0.0
+sphinx-autodoc-typehints==1.25.3
+tox==4.12.1
+twine==4.0.2
+types-requests==2.31.0.20240125
+types-six==1.16.21.20240106
+
+[dev:platform_python_implementation != "PyPy"]
+mypy==1.8.0
+
+[dev:python_version < "3.9"]
+pre-commit<3.6.0
+
+[dev:python_version >= "3.9"]
+pre-commit==3.6.0
+sphinx==7.2.6
