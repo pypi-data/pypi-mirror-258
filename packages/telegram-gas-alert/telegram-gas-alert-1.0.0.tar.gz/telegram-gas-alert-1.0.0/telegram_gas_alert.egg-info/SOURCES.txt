@@ -1,0 +1,8 @@
+README.md
+setup.py
+package/__init__.py
+package/main.py
+telegram_gas_alert.egg-info/PKG-INFO
+telegram_gas_alert.egg-info/SOURCES.txt
+telegram_gas_alert.egg-info/dependency_links.txt
+telegram_gas_alert.egg-info/top_level.txt
