@@ -1,0 +1,331 @@
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  release:
+    types: [published]
+
+jobs:
+  version-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check project version
+        if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
+        run: |
+          latest=$(git tag -l | tail -1)
+          cargo_v=$(grep -m 1 -oP 'version = "(.*)"' Cargo.toml | sed -rn 's/.*"(.*)"/v\1/p')
+          pyproject_v=$(grep -m 1 -oP 'version = "(.*)"' pyproject.toml | sed -rn 's/.*"(.*)"/v\1/p')
+
+          if [ ! $latest = $cargo_v ]; then
+            echo "Latest tag doesnt match Cargo.toml version - failing build."
+            exit 1
+          elif [ ! $latest = $pyproject_v ]; then
+            echo "Latest tag doesnt match pyproject.toml version - failing build."
+            exit 1
+          fi
+
+          echo "Tags match: $latest" && exit 0
+
+  macos-x86:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build wheels - x86_64
+        uses: PyO3/maturin-action@v1
+        with:
+          target: x86_64
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist --sdist
+
+      - name: Install built wheel - x86_64
+        run: |
+          pip install piston_rspy --no-index --find-links dist --force-reinstall
+          cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  macos-universal2:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build wheels - universal2
+        uses: PyO3/maturin-action@v1
+        with:
+          target: universal2-apple-darwin
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - universal2
+        run: |
+          pip install piston_rspy --no-index --find-links dist --force-reinstall
+          cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  windows:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [x64, x86]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: ${{ matrix.target }}
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Build wheels - ${{ matrix.target }}
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - ${{ matrix.target }}
+        run: |
+          pip install piston_rspy --no-index --find-links dist --force-reinstall
+          cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  linux:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [x86_64, i686]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: Build wheels - ${{ matrix.target }}
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          manylinux: auto
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - ${{ matrix.target }}
+        if: matrix.target == 'x86_64'
+        run: |
+          pip install piston_rspy --no-index --find-links dist --force-reinstall
+          cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  linux-cross:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [aarch64, armv7, s390x, ppc64le]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Build wheels - ${{ matrix.target }}
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          manylinux: 2_28
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - ${{ matrix.target }}
+        uses: uraimo/run-on-arch-action@v2.6.0
+        with:
+          arch: ${{ matrix.target }}
+          distro: ubuntu20.04
+          githubToken: ${{ github.token }}
+          install: |
+            apt-get update
+            apt-get install -y --no-install-recommends python3 python3-pip
+            pip3 install -U pip
+          run: |
+            pip3 install piston_rspy --no-index --find-links dist/ --force-reinstall
+            cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  musllinux:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [x86_64-unknown-linux-musl, i686-unknown-linux-musl]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+          architecture: x64
+
+      - name: Build wheels - ${{ matrix.target }}
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          manylinux: musllinux_1_2
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - ${{ matrix.target }}
+        if: matrix.target == 'x86_64-unknown-linux-musl'
+        uses: addnab/docker-run-action@v3
+        with:
+          image: alpine:latest
+          options: -v ${{ github.workspace }}:/io -w /io
+          run: |
+            apk add py3-pip
+            python3 -m venv .venv
+            source .venv/bin/activate
+            pip3 install -U pip
+            pip3 install piston_rspy --no-index --find-links /io/dist/ --force-reinstall
+            cd /io/dist/ && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  musllinux-cross:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+          - target: aarch64-unknown-linux-musl
+            arch: aarch64
+          - target: armv7-unknown-linux-musleabihf
+            arch: armv7
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Build wheels - ${{ matrix.platform.target }}
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.platform.target }}
+          manylinux: musllinux_1_2
+          args: --release -i 3.8 3.9 3.10 3.11 3.12 -o dist
+
+      - name: Install built wheel - ${{ matrix.platform.arch }}
+        uses: uraimo/run-on-arch-action@v2.6.0
+        with:
+          arch: ${{ matrix.platform.arch }}
+          distro: alpine_latest
+          githubToken: ${{ github.token }}
+          install: |
+            apk add py3-pip
+          run: |
+            python3 -m venv .venv
+            source .venv/bin/activate
+            pip3 install -U pip
+            pip3 install piston_rspy --no-index --find-links dist/ --force-reinstall
+            cd dist && python3 -c "import piston_rspy"
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheels
+          path: dist
+
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'release' && github.event.action == 'published' }}
+    needs: [
+        version-check,
+        macos-x86,
+        macos-universal2,
+        windows,
+        linux,
+        linux-cross,
+        musllinux,
+        # musllinux-cross,
+      ]
+
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: wheels
+
+      - name: Publish to PyPI
+        uses: messense/maturin-action@v1
+        env:
+          MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        with:
+          command: upload
+          args: --skip-existing *
