@@ -1,0 +1,6 @@
+setup.py
+cloudoperations.egg-info/PKG-INFO
+cloudoperations.egg-info/SOURCES.txt
+cloudoperations.egg-info/dependency_links.txt
+cloudoperations.egg-info/requires.txt
+cloudoperations.egg-info/top_level.txt
