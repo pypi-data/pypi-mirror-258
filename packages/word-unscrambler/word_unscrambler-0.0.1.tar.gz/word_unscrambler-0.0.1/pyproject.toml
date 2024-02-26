@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling", "enchant"]
+build-backend = "hatchling.build"
+
+[project]
+name = "word_unscrambler"
+version = "0.0.1"
+authors = [
+  { name="Rufus Gordon-Heywood", email="rufus.gordonheywood@education.nsw.gov.au" },
+]
+description = "A python module that unscrambles characters into words"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/rufus-gh/word-unscrambler/"
+Issues = "https://github.com/rufus-gh/word-unscrambler/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/word_unscrambler"]
