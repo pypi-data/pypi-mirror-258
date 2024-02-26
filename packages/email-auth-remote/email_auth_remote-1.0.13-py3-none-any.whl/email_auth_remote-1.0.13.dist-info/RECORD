@@ -1,0 +1,9 @@
+email_auth_remote/__init__.py,sha256=li6uDamUqc2AhK9duM-Ml4iHfKLEHGDoW2mDVFdZuPQ,274
+email_auth_remote/apps.py,sha256=h9OJO4Ma5IVcSfupA_bS3a6dsla1-OV9THNVoK7sdwo,919
+email_auth_remote/authentication.py,sha256=udwzQsaRa2YSG-zyZqlKHCqteMrR8SkosRW803AiG14,2436
+email_auth_remote/extensions.py,sha256=X8s93Yy-SD-3kJEsXUchX3hYcLi9xwVZYD0Adgbp0W8,730
+email_auth_remote/models.py,sha256=ElwZz8hFMVqkhDLuIrWTg5l6EVaILUc7A-KbVsqKkvs,5258
+email_auth_remote-1.0.13.dist-info/METADATA,sha256=d0iOmue5YA6VuRo_InzbNd5TYjFhIk01M8nA-b3fb-8,2048
+email_auth_remote-1.0.13.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+email_auth_remote-1.0.13.dist-info/top_level.txt,sha256=xMdBgOQM_bI-zodW_45pEjF-o06r-T9fRaWgzadzOtU,18
+email_auth_remote-1.0.13.dist-info/RECORD,,
