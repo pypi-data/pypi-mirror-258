@@ -1,0 +1,15 @@
+# Ignore compiled files
+*.class
+*.jar
+*.pyc
+*.DS_Store
+
+# Ignore folders
+logs/
+correlationHistogramAnalysis.egg-info/
+dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+Shape_analysis.ipynb
