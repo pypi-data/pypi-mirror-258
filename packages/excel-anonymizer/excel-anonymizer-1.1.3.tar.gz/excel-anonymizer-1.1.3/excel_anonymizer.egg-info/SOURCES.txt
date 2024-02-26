@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+excel_anonymizer.egg-info/PKG-INFO
+excel_anonymizer.egg-info/SOURCES.txt
+excel_anonymizer.egg-info/dependency_links.txt
+excel_anonymizer.egg-info/entry_points.txt
+excel_anonymizer.egg-info/requires.txt
+excel_anonymizer.egg-info/top_level.txt
