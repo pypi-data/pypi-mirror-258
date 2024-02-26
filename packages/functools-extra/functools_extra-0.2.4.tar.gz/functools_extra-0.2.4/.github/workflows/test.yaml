@@ -1,0 +1,23 @@
+name: Test
+
+on: push
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+    steps:
+    - name: Install Rye
+      uses: sksat/setup-rye@v0.15.0
+    - name: Pin python version to rye
+      run: rye pin ${{ matrix.python-version }}
+    - name: Checkout project
+      uses: actions/checkout@v4
+    - name: Install dependencies
+      run: rye sync --no-lock
+    - name: Lint
+      run: rye run lint
+    - name: Run tests
+      run: rye run test
