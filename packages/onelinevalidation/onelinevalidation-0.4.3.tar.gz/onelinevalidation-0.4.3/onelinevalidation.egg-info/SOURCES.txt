@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+onelinevalidation/__init__.py
+onelinevalidation/onelinevalidation.py
+onelinevalidation.egg-info/PKG-INFO
+onelinevalidation.egg-info/SOURCES.txt
+onelinevalidation.egg-info/dependency_links.txt
+onelinevalidation.egg-info/requires.txt
+onelinevalidation.egg-info/top_level.txt
