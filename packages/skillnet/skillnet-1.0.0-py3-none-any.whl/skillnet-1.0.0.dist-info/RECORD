@@ -1,0 +1,8 @@
+skillnet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+skillnet/ai_tasker.py,sha256=Vt_VDGwSPF0fRQ40mhYDijAEw5Dlqh6Udi8HJTCdnnE,400
+skillnet/human_agent.py,sha256=DKblr6sJBVEV4Q5Y89deswmWKm2gy3zvY1ce7MNlSPQ,425
+skillnet-1.0.0.dist-info/LICENSE,sha256=XSLuGYk2ERb_pyfzAVRalHPfMfFC02hijwKq1HKuEvU,1204
+skillnet-1.0.0.dist-info/METADATA,sha256=CUmDfMFBOJY66VuuVS60Dvpvw5bwJRo6SnD4QvsWPt4,4331
+skillnet-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+skillnet-1.0.0.dist-info/top_level.txt,sha256=h49ala_XQJBKN-brJQaflwXI3eaCa93jzkl2qtfjmV4,9
+skillnet-1.0.0.dist-info/RECORD,,
