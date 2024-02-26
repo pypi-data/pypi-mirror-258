@@ -1,0 +1,9 @@
+xaux/__init__.py,sha256=SiN4Pwb-9OAZE6R8spe0q8MCO4NbvwptFG5NEZ--wm8,276
+xaux/cern_fs.py,sha256=KW5azyJXX_XPaYYvjhGQDBn4ZDDL-J8-vl_bfMMYLaI,1648
+xaux/fs.py,sha256=u5UCXhuN_S-tzgyzePr0Osp1dF0gbgBAG2PepviDR_g,14632
+xaux/general.py,sha256=pRtE1HsNRPJj8p7Noryzc4WDUblckSImGCGUah2uTyg,361
+xaux/protectfile.py,sha256=TwJl7ja8uufoM1XCA4mUVOPHyuG79nd1caQByd3pYe4,19584
+xaux-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+xaux-0.1.1.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+xaux-0.1.1.dist-info/METADATA,sha256=McK7al6nryjis33my7FMQQAgm170Gt2xQAzjbD2Ep_M,534
+xaux-0.1.1.dist-info/RECORD,,
