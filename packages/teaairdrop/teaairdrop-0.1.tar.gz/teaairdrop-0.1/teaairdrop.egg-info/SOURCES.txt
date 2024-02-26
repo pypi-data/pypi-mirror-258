@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+teaairdrop.egg-info/PKG-INFO
+teaairdrop.egg-info/SOURCES.txt
+teaairdrop.egg-info/dependency_links.txt
+teaairdrop.egg-info/requires.txt
+teaairdrop.egg-info/top_level.txt
