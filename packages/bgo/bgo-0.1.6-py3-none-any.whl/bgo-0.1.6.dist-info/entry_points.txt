@@ -1,0 +1,3 @@
+[console_scripts]
+bgo=bgo.__main__:main
+
