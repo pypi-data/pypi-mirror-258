@@ -1,0 +1,18 @@
+.env
+
+# Otros
+Todo.txt
+__pycache__/
+/carpetas
+*.log
+tmp*/
+
+/docs/html/
+
+# Downloads
+downloads/
+
+# Pypi
+dist/
+build/
+*.egg-info/
