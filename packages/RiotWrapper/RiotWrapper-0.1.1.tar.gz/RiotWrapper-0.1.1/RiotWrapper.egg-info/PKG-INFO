@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: RiotWrapper
+Version: 0.1.1
+Summary: Interface for Riot API
+Home-page: https://github.com/anuiit/RiotWrapper
+Author: anui
+Author-email: 
+License: BSD 2-clause
+Keywords: Riot,API,wrapper
+Requires-Python: >=3.6
+
+Your detailed description goes here.
