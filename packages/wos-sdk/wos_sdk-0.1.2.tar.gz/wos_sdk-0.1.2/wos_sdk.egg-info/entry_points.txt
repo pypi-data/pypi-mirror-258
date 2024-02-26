@@ -1,0 +1,3 @@
+[console_scripts]
+woscli = wos_sdk.cli:main
+
