@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: point_in_geojson_jaluebbe
+Version: 0.0.1
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+Summary: Checks how a point is related to a GeoJSON shape.
+Author-email: Jannis Lübbe <jannisluebbe1982@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Homepage, https://github.com/jaluebbe/point_in_geojson
+Project-URL: Issues, https://github.com/jaluebbe/point_in_geojson/issues
+
+# point_in_geojson
