@@ -1,0 +1,2 @@
+[console_scripts]
+diffusion-policy-accelerated = diffusion_policy_accelerated.main:main
