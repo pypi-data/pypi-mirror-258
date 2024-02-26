@@ -1,0 +1,14 @@
+ethz_snow/CITATION,sha256=7uwjySs1kLSJClOFc8XxWrdod8RKxlIVhxKB0Y-GVkM,6581
+ethz_snow/__init__.py,sha256=wtlEnd9vGgPhXc0l_zZftqjZ_TEp9a5dRvF-Pkw2mW0,1045
+ethz_snow/constants.py,sha256=EJTAnYN2KHmCSwnHFDIB6r-A-UpjMxU-Lbx-VmudGRM,11755
+ethz_snow/operatingConditions.py,sha256=o62JDBKxfjXFktLM0FKGQCIZMzctjnSURFKaDS2qUHU,9277
+ethz_snow/snowfall.py,sha256=-R_dxJ07KRzda0lveaD50HizNlp4X-4gnGhTHUFNWc8,11416
+ethz_snow/snowflake.py,sha256=iG-AdbjdiqUF4G_wQbq0gGtTRoS4gvd5UqX3Ysoeg5c,44739
+ethz_snow/snowing.py,sha256=giJqQ1LItmzth52qLPrusddEJE9uOYWEpmAiXYKarxU,84290
+ethz_snow/utils.py,sha256=xMdbXXssvOfCNY5GwHEP8F0FoXIAVxMbcD5Q1vewk3Y,4620
+ethz_snow/config/snowConfig_default.yaml,sha256=-zVQEL3VpGl2CWYb-zU4sYNDkWaYyo97uSjvoreRY_U,2364
+ethz_snow-2.0.0.dist-info/LICENSE.txt,sha256=rQ5lwrfBBmilNbWha8rtwICsuADBidG8sMMeY_3LgNw,1142
+ethz_snow-2.0.0.dist-info/METADATA,sha256=m3EyvbiqpIcHIc2F2j4hmOVimAVrOgebnLrmWabBFZA,6195
+ethz_snow-2.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+ethz_snow-2.0.0.dist-info/top_level.txt,sha256=f9PRW4vzbrSsLWMJw0oJIH4tCqZFZ9e-df1xSax9wCw,10
+ethz_snow-2.0.0.dist-info/RECORD,,
