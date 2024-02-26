@@ -1,0 +1,6 @@
+include strypy/docs/*
+include strypy/docs/*.rst
+include strypy/tests/*
+include strypy/tests/test.txt
+include logo.png
+exclude strypy/try.py

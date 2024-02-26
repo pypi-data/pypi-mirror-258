@@ -1,0 +1,6 @@
+colorama
+pyperclip
+pytest
+
+[dev]
+pytest
