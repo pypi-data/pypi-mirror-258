@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: stcp_api
+Version: 0.1.0
+Summary: Unofficial API to retrieve STCP information for public transit buses in Porto, Portugal
+Author: Guilherme Borges
+Author-email: g@guilhermeborges.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+License-File: LICENSE
