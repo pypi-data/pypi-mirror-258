@@ -1,0 +1,3 @@
+mediqbox-abc==0.0.4
+biopython
+pydantic
