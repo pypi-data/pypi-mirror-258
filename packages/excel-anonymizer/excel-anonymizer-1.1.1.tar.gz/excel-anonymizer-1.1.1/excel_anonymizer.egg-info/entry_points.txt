@@ -1,0 +1,3 @@
+[console_scripts]
+excel-anon = excel_anonymizer:main
+excel-anonymizer = excel_anonymizer:main
