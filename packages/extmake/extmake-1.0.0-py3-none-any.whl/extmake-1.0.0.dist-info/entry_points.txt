@@ -1,0 +1,4 @@
+[console_scripts]
+extmake=extmake.cli:main
+extmake-edit=extmake.cli:edit
+
