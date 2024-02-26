@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fsr_report_generator.egg-info/PKG-INFO
+fsr_report_generator.egg-info/SOURCES.txt
+fsr_report_generator.egg-info/dependency_links.txt
+fsr_report_generator.egg-info/entry_points.txt
+fsr_report_generator.egg-info/top_level.txt
+reporter/__init__.py
+reporter/reporter.py
