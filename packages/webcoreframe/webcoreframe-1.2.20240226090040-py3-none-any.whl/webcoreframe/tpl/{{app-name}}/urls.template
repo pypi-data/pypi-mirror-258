@@ -1,0 +1,9 @@
+from flask import Flask
+from flask_restful import Api
+
+
+def init_app(app: Flask):
+    from .admin import model_mange_decorator as _
+    api = Api(app, prefix=app.config.get("API_PREFIX"))
+
+    # register your api
