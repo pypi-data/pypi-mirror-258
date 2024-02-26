@@ -1,0 +1,29 @@
+[tool.poetry]
+authors = ["Daniel CAUNE <daniel.caune@gmail.com>"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "License :: Other/Proprietary License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Topic :: Software Development :: Libraries",
+]
+description = "Python small, little, mini, tiny, micro Object-Relational Mapping (ORM)"
+keywords = ["micro", "orm", "libray", "postgresql", "rdbms"]
+license = "SEE LICENSE IN <LICENSE.md>"
+name = "perseus-microrm-library"
+packages = [{ include = "majormode", from = "src" }]
+readme = "README.md"
+repository = "https://github.com/majormode/perseus-microrm-python-library"
+version = "1.3.8"
+
+[tool.poetry.dependencies]
+perseus-core-library = "^1.19"
+psycopg2-binary = "^2.9"
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+setuptools = "^69.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
