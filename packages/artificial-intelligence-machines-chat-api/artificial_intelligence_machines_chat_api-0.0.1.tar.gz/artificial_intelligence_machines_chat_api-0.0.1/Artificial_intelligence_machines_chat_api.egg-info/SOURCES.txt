@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Artificial_intelligence_machines_chat_api.egg-info/dependency_links.txt
+artificial_intelligence_machines_chat_api.egg-info/PKG-INFO
+artificial_intelligence_machines_chat_api.egg-info/SOURCES.txt
+artificial_intelligence_machines_chat_api.egg-info/dependency_links.txt
+artificial_intelligence_machines_chat_api.egg-info/entry_points.txt
+artificial_intelligence_machines_chat_api.egg-info/requires.txt
+artificial_intelligence_machines_chat_api.egg-info/top_level.txt
