@@ -1,0 +1,5 @@
+setup.py
+ammar.egg-info/PKG-INFO
+ammar.egg-info/SOURCES.txt
+ammar.egg-info/dependency_links.txt
+ammar.egg-info/top_level.txt
