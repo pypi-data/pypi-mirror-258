@@ -1,0 +1,20 @@
+[project]
+name = "gitlab-webhook-receiver"
+version = "0.1.0"
+authors = [
+  { name="dragonkid", email="idragonkid@gmail.com" },
+]
+description = "gitlab webhook receiver"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = ['sh']
+scripts = { 'gitlab-webhook-receiver' = 'gitlab_webhook_receiver.receiver:main' }
+
+[project.urls]
+Homepage = "https://github.com/dragonkid/gitlab-webhook-receiver"
+Issues = "https://github.com/dragonkid/gitlab-webhook-receiver/issues"
