@@ -1,0 +1,13 @@
+compmec/section/__init__.py,sha256=B0sAuXVtN8gHFVSnHj-O6TYVfSOl_WIxxYdKdiC4y4A,274
+compmec/section/curve.py,sha256=bT3QkUGo2Jr7HEgKFd9m6Yu44iXzZ3DJjZ8gG7Etmh4,10409
+compmec/section/dataio.py,sha256=hXEgKCTjpgyLQl9ZO3L9-HOXxuFuCVRJt8Zw9sd-dL8,7022
+compmec/section/integral.py,sha256=vjSUSWerJYOtaMeIdDgM74YwjB_Hoil35vwcyWW4aj8,10309
+compmec/section/material.py,sha256=6cC40jOs88jmwVwL62KBj712fJCqbBMFWrvcAtqGtlc,7057
+compmec/section/schema/curve.json,sha256=TrCY0pIf3p8t_PEGA_-YvyKf5dk4NzVXPwgoLKcjl5I,1811
+compmec/section/schema/material.json,sha256=cGszk8kbohFPpH38s6xDSZaN7GJ0XshgMaNk-f1E3nU,1824
+compmec/section/schema/section.json,sha256=Y8iXJ36R_JcJBUQhFnGY7lKOKGVWtOitKvuLDIxdwe8,841
+compmec/section/section.py,sha256=9jd46h7r9_BWXI6qpC2vV2dBguYjN9ffpXpNYtPNShE,11903
+compmec_section-0.3.0.dist-info/LICENSE.md,sha256=eMgFzm8Pvz5bst1zicPqAuM2J4L-bUnzUFsn1mQpapU,1079
+compmec_section-0.3.0.dist-info/METADATA,sha256=0CuriKzqD91xiOgkt1qEzu22ryALUhUkw2KiH9iS6FQ,2883
+compmec_section-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+compmec_section-0.3.0.dist-info/RECORD,,
