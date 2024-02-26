@@ -1,0 +1,44 @@
+<!--
+SPDX-FileCopyrightText: 2024 PATHFINDER
+
+SPDX-License-Identifier: Unlicense
+-->
+
+# Google Tasks to iCal
+
+Version: 1.0.0
+
+A simple CLI tool that converts Google Tasks JSON into iCal VTODO.
+
+## Building
+
+The easiest way to run the source code locally is using [`web-ext run`](https://extensionworkshop.com/documentation/develop/getting-started-with-web-ext/) for
+Firefox.
+
+Do note that this opens up a separate Firefox browser. To run it on your actual
+browser, you still have to sign it via Mozilla, so you'll still have to merge
+the changes back here for it to be of use, unless you sign it yourself.
+
+Chrome is not officially supported currently, but you can probably run it as an
+[unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world).
+
+## Repo Map
+
+- `/`: Manifest, HTML, JS, CSS, and other files.
+- `/icons`: Extension iconset.
+
+## Credits
+
+- By [PATHFINDER](https://pathfinderdreams.com/)
+- Original idea by [maple mavica syrup](https://maple.pet/blog/fighting-otherkin-erasure-from-captchas)
+- Icon by [Apple](https://en.wikipedia.org/wiki/Apple_Color_Emoji)
+
+## License
+
+Uses the [AGPLv3](https://www.gnu.org/licenses/agpl-3.0.en.html). See COPYING
+for details.
+
+## See Also
+
+- [Website](https://pathfinderdreams.com/projects/i-am-a-robot)
+- [Forge](https://forge.pathfinderdreams.com/pathfinder/i-am-a-robot)
