@@ -1,0 +1,10 @@
+README.md
+setup.py
+RiotWrapper.egg-info/PKG-INFO
+RiotWrapper.egg-info/SOURCES.txt
+RiotWrapper.egg-info/dependency_links.txt
+RiotWrapper.egg-info/requires.txt
+RiotWrapper.egg-info/top_level.txt
+Wrapper/RequestHandler.py
+Wrapper/__init__.py
+Wrapper/riotWrapper.py
