@@ -1,0 +1,10 @@
+xia_module_gcp_project/__init__.py,sha256=Gaql8ESrUgTfI5uJvkMcYzYEBEMTCGFSB7ZsVoAH-yo,103
+xia_module_gcp_project/project.py,sha256=zLnfbVI1nU9gWeVurHKC-_FSgLf8V2BSISHIgT69-OA,94
+xia_module_gcp_project/templates/gcp-module-project/base/main.tf,sha256=z_kQpwPCI55DCvsKZKopN7sSNaX9HndDvzrOGXZEmaw,288
+xia_module_gcp_project/templates/gcp-module-project/module/main.tf,sha256=oJBIFwxsg4DuK7qdt3lWzMh7kwnAZQYF3Zst4WQhAlw,6985
+xia_module_gcp_project/templates/gcp-module-project/module/variables.tf,sha256=qlCiElMb1MPagEtzhoLC3EChkfz90Lp95uYfWEMiVZk,254
+xia_module_gcp_project-0.0.2.dist-info/LICENSE,sha256=RJDBG1pyQlnqJqp7zHghqWIOzrnMJSSiw_voH1hh06Q,1062
+xia_module_gcp_project-0.0.2.dist-info/METADATA,sha256=SRGhhkG_-sG836AcB7Nnp3XjgYcyhAYcLtYCh1p-fdk,244
+xia_module_gcp_project-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xia_module_gcp_project-0.0.2.dist-info/top_level.txt,sha256=Q5gcncdVnV7WJx_UvjdQqBSTQTGrgvnUb8tZCIxrjMw,23
+xia_module_gcp_project-0.0.2.dist-info/RECORD,,
