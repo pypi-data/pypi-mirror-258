@@ -1,0 +1,8 @@
+README.md
+setup.py
+ColorKit/__init__.py
+ColorKit/colorkit.py
+ColorKitv2.egg-info/PKG-INFO
+ColorKitv2.egg-info/SOURCES.txt
+ColorKitv2.egg-info/dependency_links.txt
+ColorKitv2.egg-info/top_level.txt
