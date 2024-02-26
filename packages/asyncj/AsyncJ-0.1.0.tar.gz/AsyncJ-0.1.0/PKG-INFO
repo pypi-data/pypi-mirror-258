@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AsyncJ
+Version: 0.1.0
+Summary: Python module for fast asynchronous work with JSON files
+Home-page: https://github.com/Vengryyy/AsyncJ
+Author: VengDevs
+License: Apache License, Version 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires: aiofiles
+Requires: ujson
+Requires-Python: >=3.8
