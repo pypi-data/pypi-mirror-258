@@ -1,0 +1,17 @@
+xiaomi_ndef/__init__.py,sha256=Xq3hKocT1q3TStnH-d7-bKBOlT62Zl_dYQUoed_f8Gs,341
+xiaomi_ndef/_utils.py,sha256=yjxd0RPF-seiSgOJ0lcuaieHTfVG6HFk8u2hcqUaPX0,2418
+xiaomi_ndef/base.py,sha256=tyOolMJljlrM0A8f3MpjJkAwt24e1wRklPbmYXw0YzM,3051
+xiaomi_ndef/handoff.py,sha256=2jDaByWMKQoSLFLq2XDJXVOKz1nkJWxQrJYb7guKTXQ,4565
+xiaomi_ndef/mi_connect.py,sha256=MAoB6R0UFuOkXjIrUoAKYF_kQrpFOVpttc9DD8lsD0E,3034
+xiaomi_ndef/ndef.py,sha256=Nj2mEG-ltHKUBJ5Sh-vfHEx6PkGmEv7O-xst3I87qfk,1719
+xiaomi_ndef/nfc.py,sha256=9cDMiRo0ZbagwGIArgwbJm1Lci07aZkDaOKgHgTYGj0,2378
+xiaomi_ndef/tag.py,sha256=tUsxiCmbcpOg0k2N0ZSHpsmwNRYww4GqJitQn9VC6JI,13807
+xiaomi_ndef/tnf.py,sha256=cJKKBWvvb7X2FAm0Cifvxhae0KJ2zeE29fQCDwmvyd0,656
+xiaomi_ndef/xiaomi.py,sha256=wGfXdWh2jDkfrG5dHuoewO3j0B3nmvn-QGywLYd2T20,5431
+xiaomi_ndef/proto/MiConnectProtocol_pb2.py,sha256=4YNhKGExOCQSjGuIf0Nt0a3NV6twGJ5oM5Kya563rQY,1915
+xiaomi_ndef/proto/MiConnectProtocol_pb2.pyi,sha256=buQBbrOfNnwQiYJNNgq6e1uMFIsbMexSkuwaAEWNT8o,2743
+xiaomi_ndef/proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xiaomi_ndef-0.1.1.dist-info/METADATA,sha256=6_edPUqlCazIiZrHJOwVe3UbmWbfrVWPcdTwdP1ORCc,4964
+xiaomi_ndef-0.1.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+xiaomi_ndef-0.1.1.dist-info/licenses/LICENSE,sha256=kGMVVsi4XXD2xjuVNO_ztzpVZX7z--LX0XLCvuZ595k,1064
+xiaomi_ndef-0.1.1.dist-info/RECORD,,
