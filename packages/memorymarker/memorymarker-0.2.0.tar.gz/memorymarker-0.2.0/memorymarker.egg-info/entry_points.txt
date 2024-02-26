@@ -1,0 +1,3 @@
+[console_scripts]
+memorymarker = memorymarker.__main__:app
+mm = memorymarker.__main__:app
