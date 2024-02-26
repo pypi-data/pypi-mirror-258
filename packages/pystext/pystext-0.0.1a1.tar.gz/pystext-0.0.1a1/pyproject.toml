@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "pystext"
+version = "0.0.1a1"
+description = "Bare-bones IEC 61131 Structured Text programming language parsing"
+authors = ["James Schwartz <james@schwartz.engineer>"]
+keywords = ["iec 61131", "structured text", "parser"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/jbschwartz/pystext"
+repository = "https://github.com/jbschwartz/pystext"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Scientific/Engineering",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+pytest = "^7.4.1"
+ruff = "^0.2.2"
+mypy = "^1.8.0"
+coverage = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+extend-exclude = [".**"]
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+    "ANN101", # Annotating `self` is never necessary.
+    "ANN102", # Annotating `cls` is never necessary.
+    "D100",   # Module docstrings are not necessary.
+    "D107",   # __init__.py docstrings are not necessary.
+    "D203",   # Preference for no extra blank line (D211).
+    "D213",   # Preference for no additional new line (D212).
+    "EM",     # Covered adequately by other rules.
+    "TRY003", # Using built-in exception types is acceptable when semantically appropriate.
+    "TRY400", # Use `exc_info` instead.
+]
