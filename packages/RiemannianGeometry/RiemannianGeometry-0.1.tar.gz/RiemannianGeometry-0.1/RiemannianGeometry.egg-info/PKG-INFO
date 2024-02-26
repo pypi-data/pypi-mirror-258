@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: RiemannianGeometry
+Version: 0.1
+Summary: A package for handling Riemannian manifolds
+Home-page: https://github.com/swittum/Geometry
+Author: Simon Wittum
+Author-email: simonwittum@gmx.de
+License: MIT

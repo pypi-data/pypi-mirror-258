@@ -1,0 +1,8 @@
+setup.py
+RiemannianGeometry/__init__.py
+RiemannianGeometry/riemannian_manifold.py
+RiemannianGeometry.egg-info/PKG-INFO
+RiemannianGeometry.egg-info/SOURCES.txt
+RiemannianGeometry.egg-info/dependency_links.txt
+RiemannianGeometry.egg-info/requires.txt
+RiemannianGeometry.egg-info/top_level.txt
