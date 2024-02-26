@@ -1,0 +1,15 @@
+bestie=3
+normal=1
+neg=-1
+grade=''
+number_partitions=2
+colors=['red',
+        'blue',
+        'green',
+        'purple',
+        'plum',
+        'lime',
+        'maroon',
+        'aqua',
+        'forestgreen',
+        ]

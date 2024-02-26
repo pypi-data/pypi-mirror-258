@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: patrol-graph
+Version: 0.2.0
+Summary: use graph division algorithm to split scouts into patrols
+Author-email: Michael Perkins <perkinsms@gmail.com>
+Maintainer-email: Michael Perkins <perkinsms@gmail.com>
+License: MIT License
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >3.8
