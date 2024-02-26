@@ -1,0 +1,11 @@
+biolord/__init__.py,sha256=m1EEKDebfcYXprTZmzaXLb3QHXYt5c-LWH3Kq55tLbQ,1111
+biolord/_constants.py,sha256=1hNPuBs-UzF8FF9zQSJSNP78_oEp2Y57aSQZBtzSUXI,281
+biolord/_data.py,sha256=Sbqs-rxCqfxRUh_LLxQUdE3tnbx0ePt2lBAp9Bh3-SE,805
+biolord/_model.py,sha256=aJtXAxpS4xyIUDp_lj5J4TclWvixuU4t0DRFtfZak40,34283
+biolord/_module.py,sha256=PubYSY4w0VTCyfgzq6uSnSnT4EtRtoQ94AsA3DeAe9c,35234
+biolord/_train.py,sha256=HQ-e-2RNKW6RJw2d6KGugtgteyCZVT2AOlN5Ejr6T0c,14409
+biolord/_utils.py,sha256=C0zJi-bNuGm2anxFL1cjQ-b9-XR5OiIxvdfWqDwXKSg,2328
+biolord-0.0.3.dist-info/METADATA,sha256=QM20WcEO1PASHHuGRaA2qrnVuTM-kevBXMJv4bAZSNQ,5267
+biolord-0.0.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+biolord-0.0.3.dist-info/licenses/LICENSE,sha256=-nDt5pI_DXYNoo2adOTnXPlQr27Qf8XsWbwdVi3nS1U,1517
+biolord-0.0.3.dist-info/RECORD,,
