@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+
+version = { attr = "ews_core_config.version.VERSION" }
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+[project]
+name = "ews-core-config"
+authors = [{ name = "EWS Consulting", email = "github@ews-consulting.com" }]
+description = "A simple TOML configuration for EWS settings"
+license = { file = "LICENSE" }
+dynamic = ["version", "readme"]
+requires-python = ">=3.7.0"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+keywords = ["configuration", "settings", "EWS"]
+dependencies = ["simple-toml-configurator>=1"]
+
+[project.urls]
+Homepage = "https://github.com/EWS-Consulting-Public/ews-core-config"
+Source = "https://github.com/EWS-Consulting-Public/ews-core-config"
+
+[project.optional-dependencies]
+dev = ["pytest", "coverage"]
+
+
+[tool.pip-tools]
+allow-unsafe = false
+annotate = true
+emit-find-links = false
+emit-index-url = false
+emit-options = true
+emit-trusted-host = false
+generate-hashes = false
+strip-extras = true
+# emit-header = false
+# index-urls = index-urls
+# trusted-hosts = trusted-hosts
+
+[tool.pytest.ini_options]
+addopts = "--log-cli-level=INFO -sv"
+testpaths = ['tests']
+python_files = 'test_*.py'
+python_functions = 'test_*'
+xfail_strict = true
+filterwarnings = []
+
+
+[tool.coverage.run]
+omit = []
+
+source = ['src/ews_core_config']
+parallel = true
+branch = true
+
+[tool.coverage.paths]
+source = ['src/ews_core_config']
+
+[tool.coverage.report]
+show_missing = true
+precision = 2
+fail_under = 80
+exclude_lines = ['pragma: no cover']
