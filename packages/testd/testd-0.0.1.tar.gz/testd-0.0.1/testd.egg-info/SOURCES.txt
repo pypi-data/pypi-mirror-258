@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+testd/__init__.py
+testd.egg-info/PKG-INFO
+testd.egg-info/SOURCES.txt
+testd.egg-info/dependency_links.txt
+testd.egg-info/top_level.txt
