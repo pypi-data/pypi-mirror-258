@@ -1,0 +1,12 @@
+README.md
+main.py
+pesan.txt
+pyproject.toml
+requirements.txt
+settings.yaml
+setup.py
+.github/workflows/python-publish.yml
+heynotbot.egg-info/PKG-INFO
+heynotbot.egg-info/SOURCES.txt
+heynotbot.egg-info/dependency_links.txt
+heynotbot.egg-info/top_level.txt
