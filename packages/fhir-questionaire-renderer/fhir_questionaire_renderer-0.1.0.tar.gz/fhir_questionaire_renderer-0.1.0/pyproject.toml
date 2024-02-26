@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fhir-questionaire-renderer"
+version = "0.1.0"
+description = ""
+authors = ["Axel Vanraes <axel.vanraes@tiro.health>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.31.1"
+
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
