@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: py3dephell
+Version: 0.2.1
+Summary: Helps to control project dependencies and provides
+Author-email: Daniel Zagaynov <kotopesutility@altlinux.org>
+License: GPLv2
+Project-URL: Homepage, https://git.altlinux.org/people/kotopesutility/packages/py3dephell.git
+Keywords: dependencies,provides,requirements,dependency hell
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System :: Software Distribution
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: COPYING
+
+# Py3DepHell
+This project presents tools to work with dependencies and provides of python3 projects.
+
+## py3req
+This module detects dependencies of python3 packages. It has verbose **--help** option, but here is simple example how to use it:
+
+## py3prov
+This module generate provides for python3 packages. As for **py3req** its **--help** is verbose enough
+
+## How to
+Imagine you have simple project like this one:
+```
+src/
+├── pkg1
+│   ├── mod1.py
+│   └── subpkg
+│       └── mod3.py
+└── tests
+    └── test1.py
+```
+
+Now you want to detect its dependencies:
+```
+% python3 -m py3dephell.py3req --pip_format src
+unittest
+re
+re
+```
+Feel free to make it more verbose:
+```
+% python3 -m py3dephell.py3req --pip_format --verbose src
+py3prov: detected potential module:src
+/tmp/.private/kotopesutility/src/tests/test1.py:unittest
+/tmp/.private/kotopesutility/src/pkg1/mod1.py:requests os
+/tmp/.private/kotopesutility/src/pkg1/subpkg/mod3.py:re
+```
+As you can see, there are some modules from standard library, so let py3req to learn it:
+```
+% python3 -m py3dephell.py3req --pip_format --add_prov_path /usr/lib64/python3.11 src
+requests
+```
+That's it! But what if we want to detect its provides, to understand which dependencies it could satisfy? Let's use py3prov!
+```
+% python3 -m py3dephell.py3prov src
+test1
+tests.test1
+src.tests.test1
+mod1
+pkg1.mod1
+src.pkg1.mod1
+mod3
+subpkg.mod3
+pkg1.subpkg.mod3
+src.pkg1.subpkg.mod3
+```
+Yeah, let's enhance the verbosity level!
+```
+% python3 -m py3dephell.py3prov --verbose src/pkg1 src/tests
+src/tests:['test1', 'tests.test1', 'src.tests.test1']
+src/pkg1:['mod1', 'pkg1.mod1', 'src.pkg1.mod1', 'mod3', 'subpkg.mod3', 'pkg1.subpkg.mod3', 'src.pkg1.subpkg.mod3']
+```
