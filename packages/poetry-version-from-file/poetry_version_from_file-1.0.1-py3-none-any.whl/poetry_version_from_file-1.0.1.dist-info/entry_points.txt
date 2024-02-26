@@ -1,0 +1,3 @@
+[poetry.plugin]
+poetry-version-from-file=poetry_version_from_file.plugin:PoetryVersionFromFile
+
