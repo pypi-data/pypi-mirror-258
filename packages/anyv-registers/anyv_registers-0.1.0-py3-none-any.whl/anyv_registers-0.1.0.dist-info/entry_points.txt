@@ -1,0 +1,2 @@
+[console_scripts]
+anyv_registers = anyv_registers:main

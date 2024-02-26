@@ -1,0 +1,10 @@
+anyv_registers/__init__.py,sha256=NQ5jnEKiDHMJXR6uZP3_RgZkhRLmdjmHGqLJqDghkjg,1377
+anyv_registers/anyv_registers.py,sha256=no5XyjAkzXJMsnyvX65O18-UjskrBKWbT36wZ34Wj7U,8342
+anyv_registers/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anyv_registers/templates/registerBank.sv.j2,sha256=mbAKzJc1TOCBoWJ42Rn867iVOZRF_8Msyhdff2kFyQQ,202
+anyv_registers-0.1.0.dist-info/LICENSE,sha256=8zxEbO-JBuDp7xWbaNVfVWZ_L4Q5H1PT1_gEahAK82s,1075
+anyv_registers-0.1.0.dist-info/METADATA,sha256=ktqVdBwgN535xwhpJE7l0UCSl7Jv8k2QZzgLdcA7xSw,501
+anyv_registers-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+anyv_registers-0.1.0.dist-info/entry_points.txt,sha256=MnddqLvo-cfg4t8NDYxu8O3S05MP-d0Dcn19Kvv9DXg,55
+anyv_registers-0.1.0.dist-info/top_level.txt,sha256=wELFGGkfoSqJlaVpyTRGZJtyfVL3NII4FNbdra1JwZU,15
+anyv_registers-0.1.0.dist-info/RECORD,,

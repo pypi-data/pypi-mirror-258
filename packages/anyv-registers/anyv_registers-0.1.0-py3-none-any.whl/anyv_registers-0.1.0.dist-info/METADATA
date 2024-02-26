@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: anyv-registers
+Version: 0.1.0
+Summary: A template-based hardware register bank generator
+Home-page: https://github.com/Louis-DR/AnyV-Registers
+Author: Louis Duret-Robert
+Author-email: louisduret@gmail.com
+License: MIT
+Keywords: verilog,register,generator,fpga,asic,semiconductor,microelectronics,hardware,jinja2
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: j2gpp
+Requires-Dist: xmltodict
+
+# AnyV-Registers - Hardware register bank generator
