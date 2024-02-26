@@ -1,0 +1,14 @@
+Endpoints/__init__.py,sha256=Wm5EqMerY0wyIzRXKOvuFbMmSKYzWbpzOvsEziW0lSA,149
+Endpoints/account_v1.py,sha256=nbAOqBxb_9pVbrIo4QXZH08kXdAugt6AJWKaCBPSdBs,821
+Endpoints/championMastery_v4.py,sha256=0J5ZTV_5XM3ZL1WsYtyZlVKvmT97nZWTBOMUet5UOAM,1958
+Endpoints/champion_v3.py,sha256=70ow-6gxahgazpHXlmesKvTqSp8bKLCc50wCikgteeE,459
+Endpoints/leagueExp_v4.py,sha256=eZCIGiH1i4PiLU6a4mGN3dS1frv2TAyIhZE6o_5ozwE,850
+Endpoints/league_v4.py,sha256=3ToS99hF8YGnRtJGz8Xtr40tAZON_bYhXkceH12i2jI,1943
+Endpoints/lolStatus_v4.py,sha256=Z_KPlXJ6i4yWEdnT75xHOI_w7E3GO1qifiF2OIUJ_dQ,438
+Endpoints/match_v5.py,sha256=mGP_n5HtcFOoZq9rITKUqvuWKqSTPMlRMRVe8ly6LyE,1719
+Endpoints/spectator_v4.py,sha256=6B_wCVP11ArsmZgn3dvtkQMgfB_Qu6qLWHYTuH5Lpqo,680
+Endpoints/summoner_v4.py,sha256=rr7OpT6QQ5nSI202OeNUiVQIxBnLKOpe1xrjpnAZosM,1464
+PoroPilot-0.1.dist-info/METADATA,sha256=dwuHRioTBFV5o4zKwT_y9kXcfpwubYxXta9r27hS-lg,1730
+PoroPilot-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+PoroPilot-0.1.dist-info/top_level.txt,sha256=x4LSHeNEMuGtDo6CjfpgCd_DZDdTy76-2XXG-uK7gRw,10
+PoroPilot-0.1.dist-info/RECORD,,
