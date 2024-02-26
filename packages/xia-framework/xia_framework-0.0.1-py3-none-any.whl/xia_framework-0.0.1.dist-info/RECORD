@@ -1,0 +1,11 @@
+xia_framework/__init__.py,sha256=UfRTszg2m2IpDnqZdcRgieNhIwC6cA3Jg5HPWy5756o,340
+xia_framework/application.py,sha256=AbC1eO39OpB2eTtKi-31gxT1J8FMPjtWkVjKYvWnZeU,87
+xia_framework/cosmos.py,sha256=B3d31E8Vi3dhTTy8fpyV72FvAkMwPPO9XMnL860oT-Q,2326
+xia_framework/foundation.py,sha256=z3yWQfHESuEtpiDJDlaKHZ4tHMNVaSHCVSMEH2o_im4,5889
+xia_framework/framework.py,sha256=v9mha5nkorSoOeCNaCvWbuqjPCBzvd7sXGtIih4KfJ4,2766
+xia_framework/realm.py,sha256=A60aqRP2_k6XONVxruNJd3a2oh2XBDzBu5uq1CimIXg,81
+xia_framework-0.0.1.dist-info/LICENSE,sha256=RJDBG1pyQlnqJqp7zHghqWIOzrnMJSSiw_voH1hh06Q,1062
+xia_framework-0.0.1.dist-info/METADATA,sha256=lqUO5yOzXetEXRu15Nb-7q-KSr7ShZ1sassCmXbr0ZM,235
+xia_framework-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xia_framework-0.0.1.dist-info/top_level.txt,sha256=nsqQPILRIIL9d9ob5Ky5VCmeiP-19rdka8GWp6SvjLM,14
+xia_framework-0.0.1.dist-info/RECORD,,
