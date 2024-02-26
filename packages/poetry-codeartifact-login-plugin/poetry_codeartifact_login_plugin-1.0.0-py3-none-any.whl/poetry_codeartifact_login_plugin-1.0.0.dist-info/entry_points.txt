@@ -1,0 +1,3 @@
+[poetry.application.plugin]
+codeartifact-login=poetry_codeartifact_login_plugin.plugin:CodeArtifactLoginPlugin
+
