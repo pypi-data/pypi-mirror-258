@@ -1,0 +1,7 @@
+README.md
+setup.py
+mysq2/__init__.py
+mysq2.egg-info/PKG-INFO
+mysq2.egg-info/SOURCES.txt
+mysq2.egg-info/dependency_links.txt
+mysq2.egg-info/top_level.txt
