@@ -1,0 +1,155 @@
+Metadata-Version: 2.1
+Name: FederatedLib
+Version: 0.1.3
+Summary: Librairie pour faire du federated learning
+Author: Logan Bauvois, Anthony Carvalho
+Requires-Python: >=3.6.9
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: paramiko
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: pandas
+
+# Federated
+Auteur : BAUVOIS Logan, CARVALHO Anthony
+
+Le Federated Learning permet d'entraîner un modèle performant sans centraliser les données, préservant ainsi la confidentialité des informations sur les clients. Chaque client participe à l'entraînement sans partager ses données brutes, contribuant ainsi à l'amélioration du modèle global.
+
+## Federated Learning Library
+
+La bibliothèque FederatedLib est une librairie Python permettant de mettre en œuvre le concept de Federated Learning. Pour cela, elle utilise des connexions SSH (Secure Shell) pour établir des communications sécurisées et des transferts de fichiers via SFTP (SSH File Transfer Protocol) pour échanger des données entre le serveur central et les clients distants.
+
+# Interface
+
+La librairie offre une interface pour paramétrer toutes les informations nécessaires à la mise en place d'un apprentissage fédéré. Cette interface permet de configurer les adresses IP, les noms d'utilisateur, les mots de passe, la politique de choix des clients, la fonction de fusion des modèles.
+
+## Configuration facile et centralisée
+
+L'interface permet à l'utilisateur de spécifier les détails de chaque client en utilisant une configuration centralisée stockée dans un fichier config.txt. Chaque ligne de ce fichier représente un client avec les informations nécessaires. les colonnes représentent :
+- ID : créé automatiquement dans l'interface graphique (si vous définissez vous même dans le fichier config.txt vos client attention a bien mettre des ids différents)
+- IP : adresse ip du client
+- Username : Nom de l'utilisateur sur le client
+- Password : Mot de passe de l'utilisateur sur le client
+- Chemin absolu dans lequel seront placé les fichiers utilisés (modèle, torchClient.py, ...)
+- Python : la version de python utilisé, si pous utiliser comme commande pour executer votre code **python3** alors il faut mettre ça. Si vous devez utiliser un chemin entier vers python pour executer mettez le en entier comme : ***usr/etc/bin/python*** par exemple.
+
+## Exécution de l'apprentissage fédéré en un clic
+
+L'interface offre également la possibilité d'exécuter l'apprentissage fédéré en un seul clic. Une fois que tous les paramètres sont correctement définis, l'utilisateur peut lancer le processus d'apprentissage fédéré directement depuis l'interface.
+
+## Affichage des résultats
+
+Après l'exécution, l'interface affiche pour chaque round d'apprentissage fédéré des graphiques comparants les différents clients participents via 4 graphiques pour la précision, la loss, le temps d'entrainement et le temps de test. </br>
+En plus de ça la librairie garde en mémoire les précisions et loss d'un modèle afin d'afficher leurs évolution au fils des entrainements avec deux courbes.
+
+# Prérequis
+- Python 3.x
+- torch
+- torchvision
+- paramiko
+- numpy
+- pandas
+- torchtext
+- matplotlib
+
+
+
+# Pour utiliser la bibliothèque, suivez les étapes suivantes :
+
+- Installez la bibliothèques FederatedLib qui installera seul les dépendances nécessaires.
+- Définir un modèle dans une classe **Net** dans un fichier **neuralNetwork.py** voir composition du fichier dans la suite.
+- Définir le fichier principal dans lequel on importe la librairie de la façon suivante :
+``` py
+from FederatedLib.interface import FederatedLearning
+```
+- Instacier un objet de cette classe est lancer la fonction **run** comme ceci :
+``` py
+fl = FederatedLearning(Net)
+dependance_a_ajouter = ["pygame"] 
+fl.run(dependance_a_ajouter, fonction_choix = fl.choix_client_alea, fonction_average = fl.average_models)
+```
+ici on utilise des fonction prédéfinis par la librairie pour le choix des clients et la methode d'agrégation des modèles mais vous pouvez définir les votres en suivant le modèle d'entrée sortie défini dans la suite.
+- Exécuter test.py
+- Renseigner les informations du serveur, des clients et du federated learning
+- Run
+- Observer les résultats
+- *Il peut y avoir des problèmes de connexion avec le SSH. Veuillez vérifier que le serveur OpenSSH est correctement installé sur vos appareils si c'est un windows*
+
+# Utiliser votre propre réseau de neurones avec FederatedLib
+Si vous souhaitez utiliser FederatedLib avec votre propre réseau de neurones, vous devrez définir un fichier neuralNetwork.py contenant des fonctions spécifiques. 
+Ces fonctions doivent avoir le même nom, les mêmes entrées et sorties que celles fournies d'office dans l'exemple neuralNetwork.py et doivent appartenir à une classe Net.
+``` py
+- class Net(nn.Module):
+    - def __init__(self):
+
+    - def forward(self, x):
+        - return out
+
+    - def test(self, dl, device):
+        - return loss,accuracy
+
+    - def load_data(repertoire):
+        - return train_data,test_data # sous la forme de dataloaders
+
+    - def train(self, train_loader, epochs, device):
+```
+# Sans Interface
+L'interface est obligatoire mais vous pouvez définir certaines choses sans passer par l'interface :
+- Utilisez un fichier config.txt avec les informations des clients sous cette forme:
+    - id:ip:username:password:path:python (path = dossier au dessus des données)
+    - Pour en définir beaucoup d'un coup cela peut-être plus rapide que d'utiliser l'interface mais ATTENTION  à bien définir les IDs
+
+# Définition des fontions
+## Fonction de choix de client
+vous pouvez définir vous même votre fonction de choix de client il faut simplement suivre un modèle pour qu'il ai les mêmes entrées et sorties. Ainsi vous pourrez décider d'utiliser seulement les clients qui entraines vites par exemple. Modèle de fonction :
+```py
+def choix_client(nombre_de_clients_utilisé_pour_l_execution, tableau_de_tous_les_client):
+                   
+        return clients_choisis #sous la forme d'un tableau de client
+```
+
+Pour vous aider à réaliser ce genre de fonction nous avons mis en place dans la librairie une fonction :
+```py
+tableau = fl.get_perfs()
+```
+qui retourne un tableau des performances de tous les clients sous la forme de deux valeurs. Le gains d'accuracy moyen apporté à un modèle par epoch et le temps d'entrainement moyen du modèle. ces données sont calculé au fils des entrainements, lors du premier entrainement il vaut mieux utiliser une fonction de choix aléatoir histoir de laisser le temps aux clients de définir leurs performances.
+
+## Fonction d'agrégation des modèles
+Pour cette fonction comme pour celle juste au dessus il suffit de suivre le modèle :
+```py
+def average_models_test(folder_path):
+
+    return model_agrégation_de_tous_les_autres
+```
+Ici folder_path correspond au dossier dans lequel sera stocké tous les modèles revenant des clients sous la forme de .pt, ils sont nommées selont le modèle **m**{ID}**.pt**, le modèle revenant du client 1 aura alirs le nom **m1.pt**
+
+Si vous voulez définir un device ou des sous fonction utilisé dans celle-ci définissez les à l'interieur sinon elles seront maquante dans l'exécution et ça causera des problèmes.
+
+# Fonctionnement de FederatedLib
+
+- Initialisation du Serveur : Le processus commence par l'initialisation du serveur. Le serveur crée un modèle initial de la classe neuralNetwork et sauvegarde ce modèle dans un fichier m.pt.
+
+- Connexion au Client : Le serveur se connecte à plusieurs clients via SSH en parallèle. Chaque client est identifié par un fichier ID.txt contenant un identifiant unique créé et donné par le serveur. Le serveur transfère également deux fichiers aux clients : un fichier ***TorchClient.py*** contenant le code pour entraîner le modèle et le fichier ***m.pt*** contenant le modèle initial. De plus, le serveur installera automatiquement les librairies nécessaires à l'entrainement.
+
+- Entraînement sur le Client : Une fois les fichiers transférés, le serveur exécute le fichier TorchClient.py sur chaque client. Ce fichier contient le code d'entraînement du modèle. Chaque client utilise le modèle initial ***m.pt*** pour l'entraînement local sur ses propres données.
+
+- Retour des Modèles : Après l'entraînement local, chaque client renvoie son modèle au serveur. Le serveur récupère tous les modèles des clients. Dans un même temps le client fais le nouveau calcul de sont temps d'entrainement moyen et de sont gain d'accuracy moyen et les stocks dans un fichier ***perf.txt***.
+
+- Fusion des Modèles : Le serveur fusionne les modèles reçus à l'aide d'une fonction spécifiée (ex : ***fl.average_models*** dans le code). Cette fonction effectue une moyenne pondérée des poids des différents modèles pour obtenir un modèle global.
+
+- Affichage des Résultats : Enfin, le server évalue le modèle, notamment la loss, la précisions pour chaque round. Les résultats sont affichés sous forme de deux graphiques d'évoutions de précisions et de loss. En plus de ces deux graphiques, on aura pour chaque round un set de 4 graphiques comparant pour le round en question la précision, la loss, le temps t'entrainement et de test de chaque client entre eux.
+
+# Compiler et installer la librairie
+Pour transformer le projet en librairie en local exécuter les commandes suivantes dans le terminal :
+- pip install setuptools
+- A la racine du projet (où se situe le ***setup.py***):
+    - python setup.py sdist (python ou votre version de python >= 3)
+    - pip install ./dist/FederatedLib-*x.x.x*.tar.gz - (mettre la bonne version celle rendu sera la 0.1.0)
+
+- Vous pouvez également la télécharger comme tout modules python avec un simple :
+```sh
+pip install FederatedLib
+```
