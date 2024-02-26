@@ -1,0 +1,8 @@
+README.md
+setup.py
+easy-cloud/__init__.py
+easy-cloud/main.py
+easy_cloud.egg-info/PKG-INFO
+easy_cloud.egg-info/SOURCES.txt
+easy_cloud.egg-info/dependency_links.txt
+easy_cloud.egg-info/top_level.txt
