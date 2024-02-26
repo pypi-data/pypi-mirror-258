@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+abbrfix/__init__.py
+abbrfix/abbr.py
+abbrfix.egg-info/PKG-INFO
+abbrfix.egg-info/SOURCES.txt
+abbrfix.egg-info/dependency_links.txt
+abbrfix.egg-info/top_level.txt
