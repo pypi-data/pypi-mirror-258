@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "idgen-alpha"
+version = "0.1.0"
+description = ""
+authors = ["tnahddisttud <siddhantp73@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+bson = "^0.5.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
