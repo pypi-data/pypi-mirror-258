@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+00000000/__init__.py
+00000000.egg-info/PKG-INFO
+00000000.egg-info/SOURCES.txt
+00000000.egg-info/dependency_links.txt
+00000000.egg-info/top_level.txt
