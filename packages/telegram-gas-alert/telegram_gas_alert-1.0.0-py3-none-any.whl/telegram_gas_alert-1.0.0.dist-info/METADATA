@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: telegram-gas-alert
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/ayuk977/telegram-gas-alert
+Author: ayuk977
+Author-email: ayuk977@gmail.com
+License: GPL
+Keywords: Telegram Gas Alert
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+
+# Telegram Gas Alert
+
+This app is for making an alert if the gas on etherscan us under 20 gwei 
+
+
+## How To Use this Repository in your local host
+* To use the script you should clone this Repository
+* Make sure you already have python 3 installed on your local host
+* Create new telegram bot token and filled up this value below on the script
+> TELEGRAM_BOT_TOKEN=`bot token from telegram`<br>
+> TELEGRAM_CHAT_ID=`chat id from telegram`
+* Create new api token on etherscan from your account and filled up this value below on the script
+> ETHERSCAN_API_KEY=`api key from etherscan`
+* Install python dependencies requirements to your local host
+> pip install -r requirements.txt
+* Execute this main python script 
+> python3 package/main.py
+
+
