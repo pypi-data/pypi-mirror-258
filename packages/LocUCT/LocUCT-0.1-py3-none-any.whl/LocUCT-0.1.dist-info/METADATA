@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: LocUCT
+Version: 0.1
+Requires-Dist: geopy
+Requires-Dist: requests
+Requires-Dist: geocoder
+Requires-Dist: pygeodesy
+Requires-Dist: mgrs
+Requires-Dist: utm
+Requires-Dist: pyproj
+Requires-Dist: openlocationcode
+Requires-Dist: geohash2
+Requires-Dist: maidenhead
+
