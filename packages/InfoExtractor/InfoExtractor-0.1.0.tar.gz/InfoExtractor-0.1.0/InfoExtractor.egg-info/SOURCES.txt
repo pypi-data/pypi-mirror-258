@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+InfoExtractor.egg-info/PKG-INFO
+InfoExtractor.egg-info/SOURCES.txt
+InfoExtractor.egg-info/dependency_links.txt
+InfoExtractor.egg-info/top_level.txt
+src/InfoExtractor_alxchemist/__init__.py
+src/InfoExtractor_alxchemist/extractor.py
