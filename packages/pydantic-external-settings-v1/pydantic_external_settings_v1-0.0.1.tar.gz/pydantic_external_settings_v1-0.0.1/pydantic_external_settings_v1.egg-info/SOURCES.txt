@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pydantic_external_settings/__init__.py
+pydantic_external_settings/external_config.py
+pydantic_external_settings_v1.egg-info/PKG-INFO
+pydantic_external_settings_v1.egg-info/SOURCES.txt
+pydantic_external_settings_v1.egg-info/dependency_links.txt
+pydantic_external_settings_v1.egg-info/not-zip-safe
+pydantic_external_settings_v1.egg-info/requires.txt
+pydantic_external_settings_v1.egg-info/top_level.txt
