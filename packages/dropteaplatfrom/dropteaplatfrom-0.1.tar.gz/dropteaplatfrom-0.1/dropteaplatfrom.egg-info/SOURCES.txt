@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+dropteaplatfrom.egg-info/PKG-INFO
+dropteaplatfrom.egg-info/SOURCES.txt
+dropteaplatfrom.egg-info/dependency_links.txt
+dropteaplatfrom.egg-info/requires.txt
+dropteaplatfrom.egg-info/top_level.txt
