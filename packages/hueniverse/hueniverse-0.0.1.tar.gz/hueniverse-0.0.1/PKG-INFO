@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hueniverse
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/jeremyschiemann/hueniverse
+Keywords: hue,async,api,philips hue
+Author: Jeremy
+Author-email: jeremy.schiemann@googlemail.com
+Maintainer: Jeremy
+Maintainer-email: jeremy.schiemann@googlemail.com
+Requires-Python: >=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Project-URL: Repository, https://github.com/jeremyschiemann/hueniverse
+Description-Content-Type: text/markdown
+
+# hueniverse
+
+placeholder for now
