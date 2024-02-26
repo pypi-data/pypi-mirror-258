@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+show_weather/__init__.py
+show_weather/show_weather.py
+show_weather.egg-info/PKG-INFO
+show_weather.egg-info/SOURCES.txt
+show_weather.egg-info/dependency_links.txt
+show_weather.egg-info/entry_points.txt
+show_weather.egg-info/requires.txt
+show_weather.egg-info/top_level.txt
