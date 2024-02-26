@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+jinja2
+jinja2-time
+pyyaml
+markdown
+pymdown-extensions
+feedgen
+
+[dev]
+ruff
+pytest
+coverage
+mypy
+types-Markdown
