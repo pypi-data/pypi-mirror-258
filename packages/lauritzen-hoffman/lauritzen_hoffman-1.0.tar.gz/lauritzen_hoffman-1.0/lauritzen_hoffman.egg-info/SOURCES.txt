@@ -1,0 +1,12 @@
+setup.py
+lauritzen_hoffman/__init__.py
+lauritzen_hoffman/functions.py
+lauritzen_hoffman/linear_rate.py
+lauritzen_hoffman/load.py
+lauritzen_hoffman/log_functions.py
+lauritzen_hoffman.egg-info/PKG-INFO
+lauritzen_hoffman.egg-info/SOURCES.txt
+lauritzen_hoffman.egg-info/dependency_links.txt
+lauritzen_hoffman.egg-info/entry_points.txt
+lauritzen_hoffman.egg-info/requires.txt
+lauritzen_hoffman.egg-info/top_level.txt

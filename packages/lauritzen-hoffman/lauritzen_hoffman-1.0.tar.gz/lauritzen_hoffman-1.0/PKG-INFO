@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lauritzen_hoffman
+Version: 1.0
+Summary: Package for computing secondary nucleation constants from DSC measurements Enthalpy vs time
+Author: Simona Buzzi
+Author-email: s.buzzi@tue.nl
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
