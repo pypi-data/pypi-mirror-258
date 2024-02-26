@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: rova-client
+Version: 2.2.5
+Summary: Event tracking with rova AI
+Author-email: sam@rovaai.com
+Requires-Dist: clickhouse-connect>=0.7.0
