@@ -1,0 +1,12 @@
+cutcutcodec-1.0.3.data/platlib/c_build.py,sha256=FwMV7BmDz3_du73er0QuZtnE64KTPi9zjSoLdfpvn4M,912
+cutcutcodec-1.0.3.data/platlib/cutcutcodec/__init__.py,sha256=gYxgq4epIwo3pgwGq_SdHKb7Vk8nSdXUXAqsqosSHSM,131
+cutcutcodec-1.0.3.data/platlib/cutcutcodec/__main__.py,sha256=kbGPR1-rxOHTUjCceE7ekcxr7p2d-nsod9Gflz-C8fk,1168
+cutcutcodec-1.0.3.data/platlib/cutcutcodec/utils.py,sha256=QLYoSZhIyVsRu5okyClmrFoF1ip2x6NWn5eqQVwQ0p8,1165
+cutcutcodec-1.0.3.data/platlib/cutcutcodec/core/generation/video/c_fractal.cpython-311-x86_64-linux-gnu.so,sha256=TK984bA6oc6VeYRnAiHzeaKfcDOE-emJD-VxarV5dC8,42792
+cutcutcodec-1.0.3.data/platlib/cutcutcodec/core/generation/video/fractal/fractal.c,sha256=R5U2H2omyKjMk2W7K6PYO8I0pRx_AkdeDA1Z7US6CxI,3355
+cutcutcodec-1.0.3.dist-info/LICENSE,sha256=Zei4i4FjvCbf5N4fVGP6_uRMAvR0UumJv0eBSoe9xys,1064
+cutcutcodec-1.0.3.dist-info/METADATA,sha256=0yJ1HR4bF1pIDtgFksLgPL3KuYyGllTTclI6gQYxn6I,12026
+cutcutcodec-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cutcutcodec-1.0.3.dist-info/entry_points.txt,sha256=GTXBxq4z8Sg_aYrAtzoodhPHcuBIGXbTGIHrvHrLBlQ,174
+cutcutcodec-1.0.3.dist-info/top_level.txt,sha256=6ZzAJ89KlOjmQwnOgZ-yKkLignGNjXU6HkHyRYP30tE,20
+cutcutcodec-1.0.3.dist-info/RECORD,,
