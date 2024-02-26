@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: test-set-sdk
+Version: 1.0.0
+Summary: The test set SDK for Python
+Home-page: https://github.com/johlin/test3
+Author: test-set SDK
+License: MIT License
+Keywords: pip,test,test-set-sdk
+Platform: any
+Requires-Dist: requests>=2.25.1
+Requires-Dist: retry==0.9.2
+Requires-Dist: pytz==2020.5
+Requires-Dist: pycryptodome==3.9.9
+Requires-Dist: protobuf>=3.18.3
+Requires-Dist: google>=3.0.0
+Requires-Dist: six>=1.0
