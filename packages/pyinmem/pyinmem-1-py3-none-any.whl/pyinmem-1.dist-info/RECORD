@@ -1,0 +1,13 @@
+pyinmem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyinmem/core.py,sha256=vBvYdwqgaMxG-0UxglIeNepWT70PjGY_bCAtUNneCwY,8282
+pyinmem/exceptions.py,sha256=_cIaT1OH9mzkJO631Zpf_SehIo66Quh6KeRLut7q2CM,316
+pyinmem/server.py,sha256=QMMbY0gay0zol1chF0WNroOHJEUf4Ap_uHs3qaf5SCc,3279
+pyinmem/strategy/__init__.py,sha256=_JYn3nWxLUu3z6pgspraiXNjEecZGuKoiTPnIqJFNko,137
+pyinmem/strategy/base.py,sha256=cRDuqp4E1Mi4PmjsA98JIPf6b9sT983Ymy57-SHx-R8,505
+pyinmem/strategy/list.py,sha256=OjtLjKwKgqOsnRGeFhVemTuAAbmV9CR1sidIUrPQoss,1212
+pyinmem/strategy/set.py,sha256=2iQPPPBq-HfrYAFiXBqDp4rQ9-7orSKPmMWk95sldNQ,1619
+pyinmem/strategy/sorted_set.py,sha256=rXFFx_fixQ0Cdmy9vEJQRtKxdM4Xk6TivTIYH0xZfdg,1663
+pyinmem/strategy/string.py,sha256=J1Fo6iihzl7veIsJdy9uvT3qfhLtZ83uevMiCsLab0Q,324
+pyinmem-1.dist-info/METADATA,sha256=xDkD-Ued7GLGqRkfH59CaerMQQPG06Qi53PZwZr3chE,2530
+pyinmem-1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pyinmem-1.dist-info/RECORD,,
