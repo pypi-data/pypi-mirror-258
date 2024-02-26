@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/workflow-patterns/__init__.py
+src/workflow_patterns.egg-info/PKG-INFO
+src/workflow_patterns.egg-info/SOURCES.txt
+src/workflow_patterns.egg-info/dependency_links.txt
+src/workflow_patterns.egg-info/top_level.txt
