@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: flask-tea
+Version: 0.0.1
+Summary: Exception
+Home-page: https://github.com/alphagot812/flask-tea
+Author: alphagot812
+Author-email: alphagot@163.com
+License: MIT license
+Keywords: Exception
+License-File: LICENSE
