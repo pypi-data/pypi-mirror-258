@@ -1,0 +1,10 @@
+stellarmortis/__init__.py,sha256=RT6i1_XPABqaf5oPjWrJhIB0xgE08jYABcjVkboTRsw,170
+stellarmortis/galaxy.py,sha256=MPmrxDu0IcYsffljRNMTRjC793Yr5yz4k6woi9OiBOo,7414
+stellarmortis/kick.py,sha256=Y_r-54hGz4-KBJaU4AJqQuLGR_53lnEL2PveBzbp4rI,7099
+stellarmortis/mass.py,sha256=Xb273urLemVBG7JxNHRClKHuHP2FQcfRFJhvwI-YpGo,1211
+stellarmortis/underworld.py,sha256=-Kb9750dyPaEEIpdaK2GPo8jeLmuAHYhAjTP-uLLCsU,16418
+stellarmortis/utils.py,sha256=KfgKC84pM4BB9vlcNE_4yUCg5OjnOJq67zOB_5W80IM,5364
+stellarmortis-0.0.1.dist-info/METADATA,sha256=Cs03WRooshIeOfueYfa8739T00jn2sQ85LkwRlvI_DA,666
+stellarmortis-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+stellarmortis-0.0.1.dist-info/top_level.txt,sha256=uU0kiMpe8HkhE6OWlgQdr4n3e85FGADW2rPs38oGOnU,14
+stellarmortis-0.0.1.dist-info/RECORD,,
