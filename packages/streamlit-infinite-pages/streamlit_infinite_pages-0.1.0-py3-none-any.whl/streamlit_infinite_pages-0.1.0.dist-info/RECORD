@@ -1,0 +1,16 @@
+sip/.assets/default_logo.png,sha256=IodTwCXEJ73GwXILlNC1TKj_KAFnjWhdzF91WxULm4A,122378
+sip/.assets/default_theme.css,sha256=3Nj37ROBkKFErhqnV5lQZ9Rwjj2Xz3OcTBRgevnT550,2545
+sip/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sip/backend.py,sha256=Ss7mrz2lFoPjZAhykgK4Jm2F5nv0LA5YBf49agSvP8o,4097
+sip/config/app.py,sha256=dH-v4qrJrnFv-Fj-bQoKY35zY26s7cL9eXnfJ8ZvhmE,7182
+sip/config/streamlit.py,sha256=nRDMh00cz5Ts7vCbaKKiXFXMPi3CuJaEBMmBQHGK_6g,18236
+sip/core.py,sha256=hPUUQ4IEvLLVRmWo6bk30nF8lxtz_c2lfwWnt0HXTSs,5402
+sip/defaults.py,sha256=aAd11SGoDUydTF5Nx9p6nirxqlNEjtlqT4TtPe6IVQw,403
+sip/env.py,sha256=BGILyYErR-_vd4jMbX5iOt3YowkGumvLaH5Odotl7a8,749
+sip/runner.py,sha256=CTrEWqUDjsCjfsNPwzVmDZ7JtYLUrSa6cWygosO4B2A,1095
+sip/schema.py,sha256=Ch4iYEoo2_5JLzdbXSshWiyGXPGFAW1ou6kot1DPrSo,2263
+sip/util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamlit_infinite_pages-0.1.0.dist-info/LICENSE,sha256=Xstwk9h9cohLSHf3rajWoY0JcQBImx3NVR8e-OUleqk,1071
+streamlit_infinite_pages-0.1.0.dist-info/METADATA,sha256=meD647DzGVfXJR74VDw27zgUVIij_E8_e-77WgMOLnU,1301
+streamlit_infinite_pages-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+streamlit_infinite_pages-0.1.0.dist-info/RECORD,,
