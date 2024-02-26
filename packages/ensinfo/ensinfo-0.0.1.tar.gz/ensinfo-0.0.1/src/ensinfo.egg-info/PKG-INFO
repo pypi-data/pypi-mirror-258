@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ensinfo
+Version: 0.0.1
+Summary: A package to fetch ENS domain information.
+Author: Andrew Dal
+Project-URL: Documentation, https://docs.ens.domains
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: urllib3>=1.26

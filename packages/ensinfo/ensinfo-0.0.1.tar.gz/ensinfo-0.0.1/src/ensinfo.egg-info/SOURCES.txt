@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/ensinfo.egg-info/PKG-INFO
+src/ensinfo.egg-info/SOURCES.txt
+src/ensinfo.egg-info/dependency_links.txt
+src/ensinfo.egg-info/requires.txt
+src/ensinfo.egg-info/top_level.txt
+src/python_package/__init__.py
+src/python_package/ensinfo.py
+tests/test.py
