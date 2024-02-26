@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: flac2mp3-cli
+Version: 1.0.2
+Summary: A Python CLI tool to convert FLAC to MP3
+Home-page: https://github.com/yourusername/your-repo
+Author: mariout
+License: MIT
+Keywords: python,audio coverter,flac,mp3,multithreading
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+License-File: LICENSE
+Requires-Dist: alive-progress
+Requires-Dist: mutagen
+Requires-Dist: pydub
+
+A robust package for converting FLAC files to MP3 and copying files. It supports single file and directory conversion, and leverages multithreading for efficient processing.
