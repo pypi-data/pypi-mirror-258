@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ package_name }}"
+description = "{{ description }}"
+authors = [{name = "{{ author }}", email = "{{ author_email }}"}]
+maintainers = [{name = "{{ author }}", email = "{{ author_email }}"}]
+license = {file = "{{ license }}"}
+readme = "README.md"
+dynamic = ["version"]
+requires-python = ">= 3.10"
+dependencies = [
+  "docopt >= 0.6.2"
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development"
+]
+
+[project.urls]
+Repository = "{{ url }}"
+
+[project.scripts]
+{{ package_name }} = "{{ module_name }}.cli:main"
+
+[tool.setuptools]
+include-package-data = {{ include_package_data }}
+
+[tool.setuptools.dynamic]
+version = {attr = "{{ module_name }}.__version__"}
+
+[tool.setuptools.packages.find]
+where = ["./"]
