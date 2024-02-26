@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: show-weather
+Version: 0.1.0
+Summary: Tells you the weather of any city/town anywhere in the world over the command line
+Author: Max Besley
+Author-email: <besleymax@gmail.com>
+Project-URL: Repository, https://github.com/MaxBesley/show-weather-command
+Project-URL: Bug Tracker, https://github.com/MaxBesley/show-weather-command/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+
+
+A small Python script that can tell you the weather of any city/town anywhere in the world over the command line.
+
+Weather data is accessed over the internet using the *OpenWeather* API. You'll need an API key, which you can get by simply [sigining up](https://openweathermap.org/ "Link to website") to their website, signing in, and then going to "My API keys" under your profile.
+
+The program has a proper command line interface with optional flags, help messages and so forth. Run `show_weather --help` to see more.
+
+## Install
+
+```
+% pip install show-weather
+```
+
+## Example
+
+To get the current weather in Toronto, for example, run
+
+```
+% show_weather <API_KEY> toronto
+```
+
+which outputs to the terminal
+
+```
+--------------------------------------------------
+
+      Place:    Toronto
+    Country:    Canada
+Temperature:    -10.6°C
+
+--------------------------------------------------
+```
