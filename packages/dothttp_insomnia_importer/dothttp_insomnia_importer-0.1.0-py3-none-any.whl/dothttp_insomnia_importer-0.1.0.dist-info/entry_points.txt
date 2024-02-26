@@ -1,0 +1,3 @@
+[console_scripts]
+entry_point=dothttp_insomina_importer=dothttp_insomina_importer.__main__:main
+
