@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ip-checker-app
+Version: 0.1
+Summary: A simple application to check IP information.
+Home-page: https://github.com/Xcord42/ip-checker-app
+Author: xcord
+Author-email: xcord42@gmail.com
+License: MIT
+Requires-Dist: requests
