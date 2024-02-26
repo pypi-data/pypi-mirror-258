@@ -1,0 +1,12 @@
+persistent_cache/__init__.py,sha256=HW3KlSKW6JSRxTZW3jRMlxsJF-k3a03Va2jwNQbydok,499
+persistent_cache/_version.py,sha256=9GTNkADgEYZ6fEjCvZZUdKyqxiPIgtskLFZNJz7nq_U,411
+persistent_cache/decorators.py,sha256=MAeDv2A-XiVP9_NS417Kn1wKs4f97K9nqvZlaNwOYL8,10045
+persistent_cache/backend/__init__.py,sha256=TK7eCuCpZ6WHVjU2vuZlI4UW7qO9wqH-bkVM47s1Puw,3925
+persistent_cache/backend/json.py,sha256=mGASko16Tv8oHBku8m5jfJyrfdy2zvtPDNgLLwynyRo,2971
+persistent_cache/backend/pickle.py,sha256=iDRvsz8U6JQFRZeqFeNjAzCJm6BwKKijHKeU6BhQM3E,1698
+persistent_cache/backend/sqlite.py,sha256=2cXxpW0a9k75aLmVZJMynR9cJ2vu0LUA1dKZ7UtV3gk,4499
+persistent_cache/wrappers/__init__.py,sha256=3BPNIZRaT-4LJCp2CXq152Powa7wLTH6WO02cTkUA7A,1799
+persistent_cache_decorator-0.1.4.dist-info/METADATA,sha256=4J_PejSdoB31R-QkACzERWmf0peHgZPXzXyrlKR8Kq4,5862
+persistent_cache_decorator-0.1.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+persistent_cache_decorator-0.1.4.dist-info/licenses/LICENSE,sha256=hnwRw-SOiu-dsEIEedurFKcVZEL4uyF2XFBRE95vJGE,1063
+persistent_cache_decorator-0.1.4.dist-info/RECORD,,
