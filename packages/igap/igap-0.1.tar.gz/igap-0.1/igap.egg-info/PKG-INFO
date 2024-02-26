@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: igap
+Version: 0.1
+Summary: igap library
+Home-page: https://github.com/metect
+Author: AmirAli Irvany
+Author-email: dev.amirali.irvany@gmail.com
+Keywords: bot,igap,robot,messangers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+# Igap
