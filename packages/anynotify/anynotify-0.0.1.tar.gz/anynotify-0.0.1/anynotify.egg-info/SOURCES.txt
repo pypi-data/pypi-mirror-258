@@ -1,0 +1,8 @@
+README.md
+anynotify.py
+setup.py
+anynotify.egg-info/PKG-INFO
+anynotify.egg-info/SOURCES.txt
+anynotify.egg-info/dependency_links.txt
+anynotify.egg-info/requires.txt
+anynotify.egg-info/top_level.txt
