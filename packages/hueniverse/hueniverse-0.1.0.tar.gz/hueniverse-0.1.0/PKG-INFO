@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hueniverse
+Version: 0.1.0
+Summary: 
+Author: Jeremy
+Author-email: jeremy.schiemann@googlemail.com
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Description-Content-Type: text/markdown
+
+# hueniverse
+
+placeholder for now
