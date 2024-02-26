@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "streamlit-infinite-pages"
+version = "0.1.0"
+description = "Streamlit app template with minimal theme, keyboard shortcuts, and support for an arbitrary number of pages."
+authors = ["Hart Traveller <ruling_fiction.0b@icloud.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "sip" }]
+include = ["sip/.assets/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich-click = "^1.7.3"
+streamlit = "^1.31.1"
+pydantic = "^2.6.2"
+loguru = "^0.7.2"
+rich = "^13.7.0"
+watchdog = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

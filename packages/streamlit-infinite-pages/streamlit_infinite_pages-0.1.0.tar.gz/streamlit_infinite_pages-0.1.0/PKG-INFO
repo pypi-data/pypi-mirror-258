@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: streamlit-infinite-pages
+Version: 0.1.0
+Summary: Streamlit app template with minimal theme, keyboard shortcuts, and support for an arbitrary number of pages.
+License: MIT
+Author: Hart Traveller
+Author-email: ruling_fiction.0b@icloud.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: rich-click (>=1.7.3,<2.0.0)
+Requires-Dist: streamlit (>=1.31.1,<2.0.0)
+Requires-Dist: watchdog (>=4.0.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# streamlit-infinite-pages
+
+Streamlit app template with minimal theme, keyboard shortcuts, and support for an arbitrary number of pages.
+
+
+## Features
+
+### Future
+
+- Stripe Integration
+- AWS Cognito Integration
+- Sentry Integration
+- Custom pages (combinations of other pages)
+    - Saving custom page state
+        - Could do via cookies, but st cookies components create insecure iframes
+        - Instead, create interface_state save functions that user can define
