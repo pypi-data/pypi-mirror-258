@@ -1,0 +1,16 @@
+.bumpversion.cfg
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+A_GIS/__init__.py
+A_GIS/__main__.py
+A_GIS/image/__init__.py
+A_GIS/image/purify.py
+a_gis.egg-info/PKG-INFO
+a_gis.egg-info/SOURCES.txt
+a_gis.egg-info/dependency_links.txt
+a_gis.egg-info/entry_points.txt
+a_gis.egg-info/requires.txt
+a_gis.egg-info/top_level.txt
+tests/test_image.py

@@ -1,0 +1,2 @@
+[console_scripts]
+olm = A_GIS.__main__:a_gis
