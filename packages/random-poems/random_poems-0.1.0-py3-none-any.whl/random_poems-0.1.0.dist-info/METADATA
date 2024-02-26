@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: random-poems
+Version: 0.1.0
+Summary: A collection of randomly generated poems from public domain
+License: MIT
+Author: Ana Paula Gomes
+Author-email: apgomes88@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Random Poems
+
