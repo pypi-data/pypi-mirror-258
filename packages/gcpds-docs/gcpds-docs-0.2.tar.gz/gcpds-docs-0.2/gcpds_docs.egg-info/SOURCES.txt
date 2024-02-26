@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gcpds/docs/__init__.py
+gcpds_docs.egg-info/PKG-INFO
+gcpds_docs.egg-info/SOURCES.txt
+gcpds_docs.egg-info/dependency_links.txt
+gcpds_docs.egg-info/not-zip-safe
+gcpds_docs.egg-info/requires.txt
+gcpds_docs.egg-info/top_level.txt
