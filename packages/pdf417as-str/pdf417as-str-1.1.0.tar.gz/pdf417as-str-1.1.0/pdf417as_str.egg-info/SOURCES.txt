@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+font/pdf417.ttf
+pdf417as_str/__init__.py
+pdf417as_str/convert.py
+pdf417as_str/main.py
+pdf417as_str.egg-info/PKG-INFO
+pdf417as_str.egg-info/SOURCES.txt
+pdf417as_str.egg-info/dependency_links.txt
+pdf417as_str.egg-info/top_level.txt
+test/test.py
