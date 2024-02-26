@@ -1,0 +1,6 @@
+setup.py
+xbx_coin.egg-info/PKG-INFO
+xbx_coin.egg-info/SOURCES.txt
+xbx_coin.egg-info/dependency_links.txt
+xbx_coin.egg-info/requires.txt
+xbx_coin.egg-info/top_level.txt
