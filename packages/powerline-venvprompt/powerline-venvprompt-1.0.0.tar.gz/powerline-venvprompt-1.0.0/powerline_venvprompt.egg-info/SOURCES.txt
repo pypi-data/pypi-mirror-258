@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+powerline_venvprompt/segments.py
+powerline_venvprompt.egg-info/PKG-INFO
+powerline_venvprompt.egg-info/SOURCES.txt
+powerline_venvprompt.egg-info/dependency_links.txt
+powerline_venvprompt.egg-info/top_level.txt
