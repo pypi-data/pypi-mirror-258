@@ -1,0 +1,14 @@
+pycodedoc/__init__.py,sha256=4hqC13k5OtoEAeOfGrVlc54dKu2lqaVTGWFO4YlJdtE,57
+pycodedoc/cli.py,sha256=xhv2ds8XDvxJ0KGXv2DvAkO8nooDGY3yk6ZWyOJOvVo,3104
+pycodedoc/costs.py,sha256=_-2rxs2quVcgGtye4pGyDYXEZZ7_rx0ESbWgEaq9O0U,3865
+pycodedoc/docgen.py,sha256=dUCuudw0_s2DOFpvnlA4HZ_u-21nKQqRHOnczRPrtpQ,12938
+pycodedoc/llm.py,sha256=8C3t6nqBxbRUthoTI20H8giX_ISqrL_xc8nyasMCQdY,4751
+pycodedoc/parser.py,sha256=WmBG4a_oLBSO46eVkjOmo-M17NobYqP417bW0HF0orU,17459
+pycodedoc/prompts.py,sha256=Ys8zbgQfvL20jlTkNvYdvaj1XmdydEOo9j4Vj5yzbQI,4621
+pycodedoc/utils.py,sha256=ie1ruhxLtt7Lkenr__h4uj38Xcu3DqqZS40RjhsxfG4,534
+pycodedoc-0.1.0.dist-info/LICENSE,sha256=EVYb1pB5VPNl3eKbzI2l1GyXuIbj0WNwtLposSASLjY,1105
+pycodedoc-0.1.0.dist-info/METADATA,sha256=uXTmghfeNNShYyUReioWnPnAHnLWWwgqhSoBtFT5EnQ,9354
+pycodedoc-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pycodedoc-0.1.0.dist-info/entry_points.txt,sha256=DE_0sM4I24KjZXIlYZYy0E6XiO_0J2NmLITerwETzV8,48
+pycodedoc-0.1.0.dist-info/top_level.txt,sha256=aivEYU0BgKaAq7B6eRkaR7QMI6emnAWEOo7zxCmjUok,10
+pycodedoc-0.1.0.dist-info/RECORD,,
