@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dbn4_clinic
+Version: 0.3.0
+Description-Content-Type: text/markdown
+Requires-Dist: art ==6.1
+Requires-Dist: black ==24.2.0
+Requires-Dist: google-api-python-client ==2.117.0
+Requires-Dist: google-auth-httplib2 ==0.2.0
+Requires-Dist: google-auth-oauthlib ==1.2.0
+Requires-Dist: prettytable ==3.9.0
+Requires-Dist: pytest ==7.4.4
+Requires-Dist: twine ==5.0.0
+Requires-Dist: wheel ==0.42.0
+
+#### _[Credentials](https://console.cloud.google.com/apis/credentials)_
+
+Please ensure that you have downloaded your _[credentials](https://console.cloud.google.com/apis/credentials)_ and stored them in the directory `~/.code_clinic/credentials` within the project's root
+
+Please rename file to `credentials.json`
+
