@@ -1,0 +1,9 @@
+zelus/__init__.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+zelus/cli.py,sha256=xDAuzZNrOvgFCQFPd25lD68ejDCez7qFNYi0dEz1lX4,2964
+zelus/core.py,sha256=P05CJigBkIXKS5CN-TkuMGZdeEvP8Oi7eW-Ek-tnq9Q,28351
+zelus_route_manager-0.2.4.dist-info/LICENSE,sha256=lzFM4XiTpM4-CIk7xdc_oGP4Fz2w7ba4_TgvXkvFPdw,1069
+zelus_route_manager-0.2.4.dist-info/METADATA,sha256=vHk83Oi_GIVqv3CpJQmr6bsaHlSyWqGmL1MbnKqn7n8,2799
+zelus_route_manager-0.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+zelus_route_manager-0.2.4.dist-info/entry_points.txt,sha256=PfFRyjzbV-xyNADzpnzVMW9lo_oJkKbZYBEVaLsAsmY,41
+zelus_route_manager-0.2.4.dist-info/top_level.txt,sha256=n_4zIAmOWyRykXxQPoV3IVHydUlY5LZ5vaPOYvJosUY,6
+zelus_route_manager-0.2.4.dist-info/RECORD,,
