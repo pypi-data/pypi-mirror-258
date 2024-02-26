@@ -1,0 +1,5 @@
+presidio_analyzer
+presidio_anonymizer
+pandas
+pyarrow
+faker
