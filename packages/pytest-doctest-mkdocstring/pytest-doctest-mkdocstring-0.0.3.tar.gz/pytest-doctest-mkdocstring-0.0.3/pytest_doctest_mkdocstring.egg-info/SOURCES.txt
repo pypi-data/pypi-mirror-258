@@ -1,0 +1,9 @@
+README.md
+__version__
+pyproject.toml
+pytest_doctest_mkdocstring/patch_doctest.py
+pytest_doctest_mkdocstring.egg-info/PKG-INFO
+pytest_doctest_mkdocstring.egg-info/SOURCES.txt
+pytest_doctest_mkdocstring.egg-info/dependency_links.txt
+pytest_doctest_mkdocstring.egg-info/entry_points.txt
+pytest_doctest_mkdocstring.egg-info/top_level.txt
