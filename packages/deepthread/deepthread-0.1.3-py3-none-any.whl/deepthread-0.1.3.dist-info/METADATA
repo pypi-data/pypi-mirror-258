@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: deepthread
+Version: 0.1.3
+Summary: Rich threads for AI agents
+License: Apache 2.0
+Author: Patrick Barker
+Author-email: patrickbarkerco@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: sqlalchemy (>=2.0.27,<3.0.0)
+Description-Content-Type: text/markdown
+
+# deepthread
+
+Rich threads for AI agents
+
+Deepthread provides a chat abstraction for AI agents with a Python abstraction on the backend and a React abstraction on the frontend. We support [Agentscript](https://github.com/agentsea/agentscript) for beautiful UI experiences.
+
+## Backend
+
+### Installation
+
+```
+pip install deepthread
+```
+
+### Usage
+
+```python
+from deepthread import Thread
+
+thread = Thread()
+thread.post("user123", "Hello, Thread!")
+
+print(thread.messages())
+```
+
+## Frontend
+
+### Installation
+
+```
+npm i @agentsea/deepthread
+```
+
