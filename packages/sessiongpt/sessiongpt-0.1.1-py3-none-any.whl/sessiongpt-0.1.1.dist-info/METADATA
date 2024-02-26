@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sessiongpt
+Version: 0.1.1
+Summary: Generates an AWS IAM session policy given a description of the tasks the user needs to perform.
+Author-email: Kamil Wilk <github@kamilwilk.com>
+Requires-Python: >=3.8
+Requires-Dist: marvin>=2.1.5
+Requires-Dist: pydantic>=2.6.2
+Requires-Dist: rich>=13.7.0
+Requires-Dist: typer>=0.9.0
+Description-Content-Type: text/markdown
+
+# sessionGPT
+
+Just for fun utility to generate AWS IAM session policies using GPT-4.
+
+### Install
+```
+pip install sessiongpt
+```
+
+### Example Usage
+
+```sh
+sessiongpt --description "I want to create and manage S3 buckets, update my Lambda memory configuration. I also need to perform all database actions, but I don't want to delete any by accident." --pretty
+```
