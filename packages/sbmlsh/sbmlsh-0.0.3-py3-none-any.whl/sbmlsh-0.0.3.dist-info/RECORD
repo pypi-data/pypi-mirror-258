@@ -1,0 +1,11 @@
+sbmlsh/__init__.py,sha256=8zf6mt3shNLnIsxaPIpoYgVaJ2_VSw99D4AndJMUJn0,71
+sbmlsh/mod2sbml.py,sha256=pboeIpT_rf_vO1VyqjxIetSn4NcFvnJIoie3nwLzbso,20973
+sbmlsh/roundtrip.py,sha256=847boTL0D_UzwNWR5O7Z4NM8OuzVDyRpSsAgMXS-euY,1069
+sbmlsh/sbml-latex-extract.py,sha256=UmkG9t_vMRVidMtXRl5Bmsy_Hc0TKem7zTmcHZ_GzVo,504
+sbmlsh/sbml2latex.py,sha256=3vjIsN6G9eTix3fUjv7wgEgLCgXV_X_9xbJMg_51CfI,9713
+sbmlsh/sbml2mod.py,sha256=o_HeuVfbuLD37UwsiUy26HjPUIv2gSTf0DK_LNe0PnM,12520
+sbmlsh-0.0.3.dist-info/METADATA,sha256=Yhfv0wzKGl7r-CkazF8W5SDwvcVQp-H034wcbsB3D4c,2970
+sbmlsh-0.0.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+sbmlsh-0.0.3.dist-info/entry_points.txt,sha256=BYDSReCNHh7Y072eYNtDBEvi2cRM6jfm_vEUrBQcuhI,82
+sbmlsh-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sbmlsh-0.0.3.dist-info/RECORD,,
