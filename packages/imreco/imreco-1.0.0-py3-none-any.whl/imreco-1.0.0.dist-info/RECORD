@@ -1,0 +1,10 @@
+imreco/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imreco/compressor.py,sha256=J6Qi28ffHsSlpNCHecjiHyn_hKF6MmazDn5ogqJ3Mz4,403
+imreco/converter.py,sha256=Is6jM6biLmY8vqrPLwQjIsGRi4Hm4q7_7BOJaOBtXOk,388
+imreco/imreco.py,sha256=wVvL_-0TK_TeiekE3CdtavOcHDugoG_9FMIFm1IrF_0,1342
+imreco/resizer.py,sha256=tRc9egaCQYKHbSgfc-kEJKPTvtHGUfNLM5GX4aPY-8w,578
+imreco-1.0.0.dist-info/LICENSE,sha256=Ul8sqOUApdHyfpbGkaYY77OM6BaOyPB98_N-Iu8lluM,1062
+imreco-1.0.0.dist-info/METADATA,sha256=v9UFFdMcs-5p4dyOgWKpkgEezA8smDuvB7LIKUyxcC8,1498
+imreco-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+imreco-1.0.0.dist-info/entry_points.txt,sha256=E93p2aWAa82SffzA65IPD8k7b0UVMIBipmBvW4F047I,45
+imreco-1.0.0.dist-info/RECORD,,
