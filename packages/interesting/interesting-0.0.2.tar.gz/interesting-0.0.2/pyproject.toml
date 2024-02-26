@@ -1,0 +1,53 @@
+[tool.pytest.ini_options]
+addopts = [
+    "--import-mode=importlib",
+]
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.build]
+includes = [
+    "src",
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pre-commit>=3.6.2",
+]
+
+[project]
+name = "interesting"
+version = "0.0.2"
+description = "A corporate finance package focused on Brazilian Fixed Income titles."
+authors = [
+    { name = "Daniel Ruiz", email = "daniel.rocharuiz@bocconialumni.it" },
+]
+dependencies = [
+    "coverage",
+    "ipywidgets",
+    "matplotlib",
+    "numpy-financial",
+    "pandas",
+    "pandas-stubs",
+    "pdm",
+    "pre-commit",
+    "pyarrow",
+    "pydantic",
+    "pytest",
+    "ruff",
+    "setuptools",
+    "tqdm",
+    "types-python-dateutil",
+]
+requires-python = ">=3.12"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
