@@ -1,0 +1,13 @@
+novana/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+novana/api.py,sha256=NlEbWVLc2G6AX5q6tlxESbd2wni6A-dzeYmkLdGRGoY,1658
+novana/chem.py,sha256=t3_v1_0lCgzvTZbFEF7mSft4WkwmSIz6Jxt4HVa1A5U,1762
+novana/core.py,sha256=tdrjZ5sLK0SLarfwhZlrHTCIn1VEMlG6Ruvg6HUC25k,1379
+novana/exception.py,sha256=AefjadK9oSY8nZHflcTwFiVM0rXmZNAqRYEVU3mfTtM,233
+novana/process.py,sha256=Dha6ZTuCqAGobU-JaVGtspNtjfZoIczpzLqBvHglMt4,4299
+novana/utils.py,sha256=OQoR-0nQLd53IJ6b67WP319A0cd-sfh-FVuk11Al_SM,555
+novana/valence.py,sha256=V_zhYqQHymGQOB72FxxgXY0r-fBP1N8II8D1yktXp6g,3864
+novana-0.2.0.dist-info/LICENSE,sha256=WBAENiZQo7KVGsb-iA2MvsHLQ2_d6Q4TxgUnTlA1Fuw,1063
+novana-0.2.0.dist-info/METADATA,sha256=pztJNckcoqwPXXb-4Z6rb_Txmo7dCLplgLEBT77hssE,5429
+novana-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+novana-0.2.0.dist-info/top_level.txt,sha256=S18k4cxONDtUBhaIw8vpVlDikDL9x_x09RsSNDDDK7g,7
+novana-0.2.0.dist-info/RECORD,,
