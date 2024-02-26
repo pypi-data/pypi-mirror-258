@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+drawmatrix/__init__.py
+drawmatrix/drawmatrix.py
+matrixdraw.egg-info/PKG-INFO
+matrixdraw.egg-info/SOURCES.txt
+matrixdraw.egg-info/dependency_links.txt
+matrixdraw.egg-info/top_level.txt
