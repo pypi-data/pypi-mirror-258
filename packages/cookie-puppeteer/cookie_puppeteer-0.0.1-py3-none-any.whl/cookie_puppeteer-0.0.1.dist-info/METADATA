@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: cookie-puppeteer
+Version: 0.0.1
+Summary: Retrieve cookies exported by Export cookie JSON File Puppeteer extension 
+Home-page: https://github.com/Simatwa/cookie-puppeteer
+Author: Smartwa
+Author-email: simatwacaleb@proton.me
+Maintainer: Smartwa
+License: MIT
+Project-URL: Bug Report, https://github.com/Simatwa/cookie-puppeteer/issues/new
+Project-URL: Homepage, https://github.com/Simatwa/cookie-puppeteer
+Project-URL: Source Code, https://github.com/Simatwa/cookie-puppeteer
+Project-URL: Issue Tracker, https://github.com/Simatwa/cookie-puppeteer/issues
+Project-URL: Download, https://github.com/Simatwa/cookie-puppeteer/releases
+Project-URL: Documentation, https://github.com/Simatwa/cookie-puppeteer/blob/main/docs
+Keywords: cookies,cookies-puppeteer
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cookie-puppeteer
+
+Retrieve cookies exported by Export cookie JSON File Puppeteer extension
+
+# Installation
+
+```sh
+pip install cookie-puppeteer
+```
+
+# Usage
+
+```python
+from cookie_puppeteer import Puppeteer
+
+cookies = Puppeteer("/home/smartwa/Downloads/gemini.google.com.cookies.json")
+
+print(cookies.get("AEC"))
+# Ae3NU9ORz35qy6ucvgm9D3U161kwUayh0dj*********
+```
+
+<details>
+
+<summary>
+Console
+</summary>
+
+`$ cookie-puppeteer --help` or `$ cpt -h`
+
+```
+usage: cookie-puppeteer [-h] [-v] [-k [KEY ...]] [-d [DEFAULT ...]]
+                        [-i INDENT] [--whole]
+                        PATH
+
+Retrieve cookies exported by Export cookie JSON File Puppeteer extension
+
+positional arguments:
+  PATH                  Path to cookie file
+
+options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -k [KEY ...], --key [KEY ...]
+                        Set cookie value of this key
+  -d [DEFAULT ...], --default [DEFAULT ...]
+                        Default cookie value incase of None
+  -i INDENT, --indent INDENT
+                        Stdout all cookies with this indentation - 4
+  --whole               Stdout whole cookie contents
+
+```
+
+</details>
