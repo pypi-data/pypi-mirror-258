@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: UPLID
+Version: 0
+Summary: Universal Prefixed Literal Ids, runtime/statically typed via pydanitc, designed for humans
+Home-page: https://github.com/z-v-s/pydantic-prefixed-id
+License: MIT
+Author: Zachary V Smith
+Author-email: zvs@daswolf.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Framework :: Pydantic
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Typing :: Typed
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Requires-Dist: svix-ksuid (==0.6.2)
+Project-URL: Documentation, https://github.com/z-v-s/pydantic-prefixed-id
+Project-URL: Repository, https://github.com/z-v-s/pydantic-prefixed-id
+Description-Content-Type: text/markdown
+
+# UPLID - Universal Prefixed Literal Unique Ids
+
+A pydantic compatible, human friendly prefixed id.
+
+Uses literal string types to enforce typing at both runtime (via pydantic) and during static analysis.
+
+UIDs underneath are KSUIDs allowing them to be sorted by time of creation while still being collision resistant.
+
+String representations are encoded with base62 keeping them url safe and human friendly.
+
+Python 3.9 or higher is required.
+
+## Usage
+
+### With Pydantic
+
+```py
+from lpid import LPID, factory
+from pydantic import BaseModel, Field
+
+UserId = LPID[Literal["usr]]
+WorkspaceId = LPID[Literal["wrkspace"]]
+
+class User(BaseModel):
+  id: UserId = Field(default_factory=factory(UserId))
+  workspace_id: WorkspaceId
+
+user = User(workspace_id = LPID.generate("wrkspace))
+
+user_json = user.model_dump_json()
+
+restored_user = User.validate_json(user_json)
+```
+
+### Standalone
+
+```py
+from lpid import LPID
+
+UserId = LPID[Literal["usr]]
+
+user_id = LPID.generate("usr")
+workspace_id = LPID.generate("wrkspace")
+
+def foo(bar: UserId) -> None:
+  pass
+
+foo(bar=user_id) # good
+foo(bar=workspace_id) # fails static check
+```
+
+## Inspirations
+
+- https://dev.to/stripe/designing-apis-for-humans-object-ids-3o5a
+- https://pypi.org/project/django-charid-field/
+- https://pypi.org/project/django-prefix-id/
+- https://sudhir.io/uuids-ulids
+
