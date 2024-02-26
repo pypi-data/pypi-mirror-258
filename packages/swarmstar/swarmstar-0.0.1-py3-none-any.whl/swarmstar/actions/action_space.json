@@ -1,0 +1,73 @@
+{
+    "swarmstar/actions": {
+        "is_folder": true,
+        "type": "internal_folder",
+        "name": "actions",
+        "description": "This is the root of the action space",
+        "children_ids": [
+            "swarmstar/actions/reasoning",
+            "swarmstar/actions/communication"
+        ],
+        "internal_folder_path": "swarmstar/actions"
+    },
+    "swarmstar/actions/reasoning": {
+        "is_folder": true,
+        "type": "internal_folder",
+        "name": "reasoning",
+        "description": "This folder contains all actions pertaining to reasoning operations. It currently only contains an action that decomposes a directive into immediate sub-directives.",
+        "children_ids": [
+            "swarmstar/actions/reasoning/decompose_directive",
+            "swarmstar/actions/reasoning/route_action",
+            "swarmstar/actions/reasoning/confirm_completion"
+        ],
+        "parent": "swarmstar/actions",
+        "internal_folder_path": "swarmstar/actions/reasoning"
+    },
+    "swarmstar/actions/communication": {
+        "is_folder": true,
+        "type": "internal_folder",
+        "name": "communication",
+        "description": "Contains actions to interact with the user",
+        "children_ids": [
+            "swarmstar/actions/communication/ask_user_questions"
+        ],
+        "parent": "swarmstar/actions",
+        "internal_folder_path": "swarmstar.actions.communication"
+    },
+    "swarmstar/actions/reasoning/decompose_directive": {
+        "is_folder": false,
+        "type": "internal_action",
+        "name": "DecomposeDirective",
+        "description": "Decompose directives into immediate parralel sub-directives.",
+        "parent": "swarmstar/actions/reasoning",
+        "internal_action_path": "swarmstar.actions.reasoning.decompose_directive",
+        "termination_policy": "parallel_review"
+    },
+    "swarmstar/actions/reasoning/route_action": {
+        "is_folder": false,
+        "type": "internal_action",
+        "name": "RouteAction",
+        "description": "Decide what action to take given a directive. Don't choose this if you are the action router, that'd be dumb and cause an infinite loop.",
+        "parent": "swarmstar/actions/reasoning",
+        "internal_action_path": "swarmstar.actions.reasoning.route_action",
+        "termination_policy": "simple"
+    },
+    "swarmstar/actions/communication/ask_user_questions": {
+        "is_folder": false,
+        "type": "internal_action",
+        "name": "AskUserQuestions",
+        "description": "Ask the user questions.",
+        "parent": "swarmstar/actions/communication",
+        "internal_action_path": "swarmstar.actions.communication.ask_user_questions",
+        "termination_policy": "simple"
+    },
+    "swarmstar/actions/reasoning/confirm_completion": {
+        "is_folder": false,
+        "type": "internal_action",
+        "name": "ConfirmCompletion",
+        "description": "This agent is called when all the children of a 'DecomposeDirective' node have terminated.\n\nIt is crucial to note, the 'DecomposeDirective' node breaks a directive into parallel subdirectives to be executed independently. There may still be further steps that need to be taken following the completion of this set of subdirectives.\n\nThis agent will confirm the completion of the directive. If complete, it will terminate and signal the parent node to terminate as well. Otherwise, it will spawn a new 'Decompose Directive' node to continue the process.",
+        "parent": "swarmstar/actions/reasoning",
+        "termination_policy": "simple",
+        "internal_action_path": "swarmstar.actions.reasoning.confirm_completion"
+    }
+}
