@@ -1,0 +1,7 @@
+fcgi_client/FastCGIClient.py,sha256=p1-K-98sCsQ0nlNDVa1zqLWKd2bQBwHZwVIlwLYmf1U,10137
+fcgi_client/PHPFPMClient.py,sha256=bgx4g3tPy4YGm7defrPy-d8GiNuz4fWvxjgsGY_XGkA,3919
+fcgi_client/__init__.py,sha256=k6pS2ClbgJlc9-1DJ8qxlwAkJM6ojiDUf5yzPlAQidg,190
+fcgi_client-0.0.1.dist-info/METADATA,sha256=iglFZR7Zu5CAWOiYDWZQTU_z_jcW2eGC_l9d-GwDM70,4061
+fcgi_client-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+fcgi_client-0.0.1.dist-info/licenses/LICENSE,sha256=Msmuf3zmtnjYVyRCstHuiTnDWVmeSIiXMbi_M6UNWYk,1065
+fcgi_client-0.0.1.dist-info/RECORD,,
