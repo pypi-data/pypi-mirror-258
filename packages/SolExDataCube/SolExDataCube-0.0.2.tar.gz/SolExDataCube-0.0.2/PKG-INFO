@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: SolExDataCube
+Version: 0.0.2
+Description-Content-Type: text/markdown
+
+# Sol'ex Prototype Data Visualization Toolkit
+
+This toolkit, implemented as a Python package, provides functionality to visualize data cubes in the context of the Sol'ex prototype. The primary purpose is to facilitate the exploration and analysis of data within the Sol'ex project.
+
+## Installation
+
+To use this toolkit, you can install it using pip. Open your terminal or command prompt and run:
+
+```bash
+pip install SolExDataCube
+
+Usage
+Import the toolkit in your Python script or notebook and make use of the provided functions. Currently, the toolkit includes the following functions:
+
+Dir_Read(key=str(), path=None)
+This function reads the contents of a directory.
+
+## Contribution
+Feel free to contribute to this toolkit by opening issues or submitting pull requests. Your feedback and contributions are highly appreciated!
