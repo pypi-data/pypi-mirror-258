@@ -1,0 +1,2 @@
+[console_scripts]
+hello = functools_extra:hello
