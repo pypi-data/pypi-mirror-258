@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mediqbox-sendmail
+Version: 0.0.2
+Summary: A mediqbox component for sending email
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mediqbox-abc==0.0.4
+Requires-Dist: pydantic[email]
+
+# mediqbox-sendmail
+
+A mediqbox component for sending email.

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+src/mediqbox/sendmail/__init__.py
+src/mediqbox/sendmail/sendmail.py
+src/mediqbox_sendmail.egg-info/PKG-INFO
+src/mediqbox_sendmail.egg-info/SOURCES.txt
+src/mediqbox_sendmail.egg-info/dependency_links.txt
+src/mediqbox_sendmail.egg-info/requires.txt
+src/mediqbox_sendmail.egg-info/top_level.txt
+tests/test_sendmail.py
