@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+maman/__init__.py
+maman/__main__.py
+maman/cli.py
+maman.egg-info/PKG-INFO
+maman.egg-info/SOURCES.txt
+maman.egg-info/dependency_links.txt
+maman.egg-info/entry_points.txt
+maman.egg-info/requires.txt
+maman.egg-info/top_level.txt

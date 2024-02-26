@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: maman
+Version: 0.0.1
+Summary: A test PyPI package
+Home-page: https://aimanhaziq.my
+Author: aimanhaziq.my
+Author-email: aimanhaziqyazik@gmail.com
+License: The Unlicense
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10,<3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas>=2.0
+Provides-Extra: excel
+Requires-Dist: openpyxl; extra == "excel"
+
+# Maman
+
+This is just a test package for training purpose.
+
+Just a test package.
