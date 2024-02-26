@@ -1,0 +1,2 @@
+[certbot.plugins]
+dns-directadmin = certbot_dns_directadmin.dns_directadmin:Authenticator
