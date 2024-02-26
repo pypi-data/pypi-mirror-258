@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: zbig
+Version: 0.1.7
+Summary: Big Zhu Python Utility Library
+Author: bigzhu
+Author-email: vermiliondun@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: environs (>=10.3.0,<11.0.0)
+Requires-Dist: pyTelegramBotAPI (>=4.16.1,<5.0.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Description-Content-Type: text/markdown
+
+好像是一个乱七八糟, 什么都要一些的公用库, 主要是给 Bigzhu 开发用的.
+
+不要随意用, 小心非死即伤
+
+## test
+
+```
+pytest
+```
+
