@@ -1,0 +1,4 @@
+[console_scripts]
+connectm-bot = bot:cmd
+connectm-gui = gui:cmd
+connectm-tui = tui:cmd

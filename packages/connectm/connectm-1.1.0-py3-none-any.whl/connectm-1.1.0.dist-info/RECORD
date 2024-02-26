@@ -1,0 +1,12 @@
+base.py,sha256=6QonOJUxjQ4kamcj9WP58jMVSllNDq0bXL40jtoP5i0,4673
+bot.py,sha256=3fVPkoDdoleflSJ1VOgiEamg_GY92UjljyUxO4e1mvY,6709
+connectm.py,sha256=frKruajd92_T3CwU6VNx1CCMSh5kCujAaGLUXb7H_XU,8787
+fakes.py,sha256=PV6_RYbJCZOzLNeiZtAkkLRv6_cXSns_SYOzkHYOTWc,4748
+gui.py,sha256=87Gg_rFp2pXUxMlkMom53zhIYdVy5psIIvpjEV1gTAI,7167
+tui.py,sha256=DLX1zRca0YNePm6bl1Esu97ThTVLZpuc-5p5NxeYH2E,6062
+connectm-1.1.0.dist-info/LICENSE,sha256=sfJ5_IyDML31kjAOV-tMvJmJNrnFtLyO-99xQL2Sfm0,1507
+connectm-1.1.0.dist-info/METADATA,sha256=SZ-fbht_uD37ohSXW6zVZNoPXb-ZYdqSbocYkHDbIiA,5846
+connectm-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+connectm-1.1.0.dist-info/entry_points.txt,sha256=yJ8Buty3RuJE4VQGvYEuR9tRf9sVBDQzygMro0g6n5s,87
+connectm-1.1.0.dist-info/top_level.txt,sha256=0O8lrM6TX8HMVyaxpd1203gLRf0UUjd9zC5hI8ssutg,32
+connectm-1.1.0.dist-info/RECORD,,
