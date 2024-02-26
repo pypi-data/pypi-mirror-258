@@ -1,0 +1,2 @@
+[nbdev]
+parag = parag._modidx:d

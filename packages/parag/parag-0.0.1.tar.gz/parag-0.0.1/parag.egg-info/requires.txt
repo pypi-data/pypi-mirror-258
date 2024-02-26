@@ -1,0 +1,6 @@
+roux
+networkx
+vl-convert-python
+
+[dev]
+scanpy
