@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/fastapi_geolocation/__init__.py
+src/fastapi_geolocation/geoip.py
+src/fastapi_geolocation/middleware.py
+src/fastapi_geolocation/resources.py
+src/fastapi_geolocation/service.py
+src/fastapi_geolocation.egg-info/PKG-INFO
+src/fastapi_geolocation.egg-info/SOURCES.txt
+src/fastapi_geolocation.egg-info/dependency_links.txt
+src/fastapi_geolocation.egg-info/requires.txt
+src/fastapi_geolocation.egg-info/top_level.txt

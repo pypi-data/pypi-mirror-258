@@ -1,0 +1,7 @@
+fastapi>=0.92.0
+
+[dev]
+black
+bumpver
+isort
+mypy
