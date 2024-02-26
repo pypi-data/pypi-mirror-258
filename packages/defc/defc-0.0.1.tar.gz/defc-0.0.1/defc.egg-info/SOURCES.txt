@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+defc/__init__.py
+defc.egg-info/PKG-INFO
+defc.egg-info/SOURCES.txt
+defc.egg-info/dependency_links.txt
+defc.egg-info/top_level.txt
