@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: hello-tea
+Version: 0.2
+Summary: hello tea oss projects
+Home-page: https://github.com/akronoo/hello_tea
+Author: akronoo
+Author-email: 
+Project-URL: Bug Tracker, https://github.com/akronoo/hello_tea
+Project-URL: Documentation, https://github.com/akronoo/hello_tea
+Project-URL: Source Code, https://github.com/akronoo/hello_tea
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Pillow
+Requires-Dist: numpy
+
+# hello_tea
+
+hello tea oss projects !!!
+
+```bash
+# 鎵撳寘
+pip3 install setuptools
+pip3 install wheel
+
+python3 setup.py sdist bdist_wheel
+
+
+# 涓婁紶
+pip3 install twine
+
+twine upload dist/*
+
+```
