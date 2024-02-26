@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ReadingBricks - Ничего не найдено</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='css/baseline_style.css') }}"/>
+        <link rel=icon type=image/png href="{{ url_for('static', filename='images/favicon.png') }}"/>
+    </head>
+    <body>
+        <nav id="frozen_button_one"><a href="{{ url_for('index') }}" class="button">/</a></nav>
+        <nav id="frozen_button_two"><a href="{{ field_url }}" class="button">⌂</a></nav>
+        <nav id="frozen_button_three"><a href="{{ url_for('about') }}" class="button">?</a></nav>
+        <div id="central">
+            <div id="short_contents">
+                <h2>Ничего не найдено</h2>
+                <p>Введён следующий запрос:</p>
+                <p><span style="background-color: #f1ece8">{{ query }}</span></p>
+                <p>Этот запрос корректно обработан, но не нашлось ни одной заметки, соответствующей ему. Попробуйте поискать что-нибудь другое.</p>
+            </div>
+        </div>
+    </body>
+</html>
