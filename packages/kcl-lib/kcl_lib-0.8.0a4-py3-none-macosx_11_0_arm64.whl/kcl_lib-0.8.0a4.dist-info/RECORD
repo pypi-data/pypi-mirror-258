@@ -1,0 +1,13 @@
+kcl_lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kcl_lib/api/__init__.py,sha256=NN2OSdewCABzsU9t28BWT7e3nMWxmtVyn-FHWnUODVY,68
+kcl_lib/api/service.py,sha256=epfczneaIKEUtDgS05Bg-XGWBinTIPI-D9gTAYATueY,9724
+kcl_lib/api/spec_pb2.py,sha256=Xs7gIvwMyAvswUGe3l-8Nz91eO87pOclxjP2VS2lSl0,25190
+kcl_lib/bootstrap/__init__.py,sha256=ycj2cUeAv5i4D4VSzONd8XZxDOhYUbnj4QaJTL7LjAQ,2451
+kcl_lib/bootstrap/artifact.py,sha256=2MfpHMK44Izh-uwb_XgZqWQjeJLCRKy7jVGhgudXxYQ,2824
+kcl_lib/lib/darwin-arm64/libkclvm_cli_cdylib.dylib,sha256=Xk1zypBrvPzRk1FWWIUmU1DrHADd20q6QB70XW_YYJo,79341814
+kcl_lib-0.8.0a4.data/data/libkclvm_cli_cdylib.dylib,sha256=Xk1zypBrvPzRk1FWWIUmU1DrHADd20q6QB70XW_YYJo,79341814
+kcl_lib-0.8.0a4.dist-info/METADATA,sha256=FocaNgCBqg2ng3HWzvvDltz3WmAc26Xdo4xHYzdc9VU,364
+kcl_lib-0.8.0a4.dist-info/WHEEL,sha256=xZdgoFAQMvammfkHpxkY2ADE52FRngiZg5BzW058SIA,106
+kcl_lib-0.8.0a4.dist-info/top_level.txt,sha256=7ixt31oNkGmbvR4Nze5_KKldzc7S2JHMCd2yPv38G70,38
+kcl_lib-0.8.0a4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kcl_lib-0.8.0a4.dist-info/RECORD,,
