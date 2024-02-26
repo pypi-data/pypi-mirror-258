@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: google-tasks-to-ical
+Version: 1.0.1
+Summary: Converts Google Tasks JSON into iCal VTODO
+Author: PATHFINDER
+Author-email: pathfinder@pathfinderdreams.com
+Requires-Python: >=3.12,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: icalendar (>=5.0.11,<6.0.0)
+Description-Content-Type: text/markdown
+
+<!--
+SPDX-FileCopyrightText: 2024 PATHFINDER
+
+SPDX-License-Identifier: Unlicense
+-->
+
+# Google Tasks to iCal
+
+Version: 1.0.1
+
+A simple CLI tool that converts Google Tasks JSON into iCal VTODO.
+
+## Building
+
+The easiest way to run the source code locally is using
+[Poetry](https://python-poetry.org/):
+
+```
+poetry install
+poetry run google-tasks-to-ical
+```
+
+## Repo Map
+
+- `/`: Poetry and README files.
+- `/LICENSES/`: Contains the Unlicense file.
+- `/google_tasks_to_ical/`: Main source code.
+- `/tests/`: Test source code, currently unused.
+
+## Credits
+
+- By [PATHFINDER](https://pathfinderdreams.com/)
+
+## License
+
+This software is dedicated to the public domain. For jurisdictions that do not
+recognise such declarations, this software is also licensed under the
+[Unlicense](https://choosealicense.com/licenses/unlicense/). See LICENSES for
+details.
+
+## See Also
+
+- [Website](https://pathfinderdreams.com/projects/google-tasks-to-ical)
+- [Forge](https://forge.pathfinderdreams.com/pathfinder/google-tasks-to-ical)
+
