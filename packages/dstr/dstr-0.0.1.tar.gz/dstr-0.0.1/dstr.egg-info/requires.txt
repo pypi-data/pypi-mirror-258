@@ -1,0 +1,11 @@
+nchr
+nlit
+atup
+
+[dev]
+numpy
+pandas
+matplotlib
+torch
+pytorch_lightning
+torchvision
