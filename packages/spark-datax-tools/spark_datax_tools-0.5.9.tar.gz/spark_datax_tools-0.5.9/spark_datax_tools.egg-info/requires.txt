@@ -1,0 +1,2 @@
+spark_dataframe_tools>=0.5.9
+ipywidgets==8.1.2
