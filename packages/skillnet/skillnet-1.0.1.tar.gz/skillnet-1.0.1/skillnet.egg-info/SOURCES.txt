@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+skillnet/__init__.py
+skillnet/ai_tasker.py
+skillnet/human_agent.py
+skillnet.egg-info/PKG-INFO
+skillnet.egg-info/SOURCES.txt
+skillnet.egg-info/dependency_links.txt
+skillnet.egg-info/requires.txt
+skillnet.egg-info/top_level.txt
