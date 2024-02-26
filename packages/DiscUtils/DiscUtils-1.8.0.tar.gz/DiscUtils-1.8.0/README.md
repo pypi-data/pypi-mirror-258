@@ -1,0 +1,62 @@
+## DiscordUtils
+
+[![DiscUtils - 1.8.0](https://img.shields.io/badge/DiscUtils-1.8.0-2ea44f)](https://)
+
+
+[![DiscUtils](https://cdn.discordapp.com/attachments/1199732518774124656/1211017807987351652/1708787531801.png?ex=65ecab39&is=65da3639&hm=a880cd2afbc0a9084638379999bfc2ad1658221fe7c4ea9f9a8dc093cd8f9b06&)](https://)
+
+### О библиотеке
+
+ **DiscordUtils - библиотека является полным переосмыслением Discum, discord.py-self без лишнего функционала, более легкая**
+
+### Функциональность:
+
+* Не асинхронная библиотека
+* Поддержка embeds
+* Легкий gateway
+* ~~Поддержка обхода капч~~
+
+
+### Быстрый старт
+
+```python
+import DiscUtils
+from DiscUtils import embeds, client
+
+bot = client("TOKEN", prefix="!", onlyone=True)
+
+@bot.ready
+def ready(data):
+	print("Logged in as: {data['username']}")
+
+@bot.command("oldping")
+def oldping(m, args=None):
+	bot.send_message(m['channel_id'], "pong!")
+
+@bot.command("ping")
+def ping(m, args=None):
+	embed = embeds.get_embed(provider_name="Pong", description="PONG", color="2A8B55")
+	bot.send_message(m['channel_id'], embed=embed)
+
+@bot.message
+def message(m):
+	print(f"{m['author']['username']} > {m['content']}")
+	
+bot.run()
+```
+
+### Подробнее
+[вся документация тута](https://github.com/mosaiyka/DiscUtils/tree/master/docs)
+
+### ⚠️ Отказ от ответственности ⚠️
+  Пользовательские боты нарушают условия использования Discord
+  Библиотека создана лишь для демонстрации того, что пользовательские боты возможны
+
+### Change log
+
+1.8.0:
+  * * fetch_members - подробнее в документации
+  * * Фикс багов
+
+1.7.92:
+  * * Релиз

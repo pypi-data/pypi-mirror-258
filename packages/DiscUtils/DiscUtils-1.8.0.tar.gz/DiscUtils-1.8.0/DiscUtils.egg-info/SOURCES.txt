@@ -1,0 +1,9 @@
+DiscUtils.py
+README.md
+setup.cfg
+setup.py
+DiscUtils.egg-info/PKG-INFO
+DiscUtils.egg-info/SOURCES.txt
+DiscUtils.egg-info/dependency_links.txt
+DiscUtils.egg-info/requires.txt
+DiscUtils.egg-info/top_level.txt
