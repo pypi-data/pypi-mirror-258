@@ -1,0 +1,11 @@
+README.md
+setup.py
+FederatedLib/TorchClient.py
+FederatedLib/__init__.py
+FederatedLib/base.py
+FederatedLib/interface.py
+FederatedLib.egg-info/PKG-INFO
+FederatedLib.egg-info/SOURCES.txt
+FederatedLib.egg-info/dependency_links.txt
+FederatedLib.egg-info/requires.txt
+FederatedLib.egg-info/top_level.txt
