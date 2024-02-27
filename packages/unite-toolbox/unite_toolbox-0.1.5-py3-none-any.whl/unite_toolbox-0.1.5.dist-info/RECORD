@@ -1,0 +1,8 @@
+unite_toolbox/__init__.py,sha256=Nmswip0IUvJenHIhdfSyTYurDcwWTvOQ8mPDREtwE1o,21
+unite_toolbox/bin_estimators.py,sha256=1AQmoHnyi9URv7bddYDkQvJK3tfNL_b9fykBqMkVzJo,5353
+unite_toolbox/kde_estimators.py,sha256=CVELz7SkK5d1BN2PLTE39Wia7h9DHqcjQlD3AlXvyPo,4232
+unite_toolbox/knn_estimators.py,sha256=65uXHHvx3_ySGKE-rKN6ybdQGKmG9TWPQ-cDhflxr48,7885
+unite_toolbox-0.1.5.dist-info/METADATA,sha256=-ZM1e683kz_0qmTjV4Z47mBFfxsufrNf1LPEL8cq6VU,2378
+unite_toolbox-0.1.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+unite_toolbox-0.1.5.dist-info/top_level.txt,sha256=U7-1osicdrB12NmvZOArSrlQeGDRE3tRY_429rURLnk,14
+unite_toolbox-0.1.5.dist-info/RECORD,,
