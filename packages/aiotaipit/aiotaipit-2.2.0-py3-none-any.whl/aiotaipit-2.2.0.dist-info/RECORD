@@ -1,0 +1,16 @@
+aiotaipit/__init__.py,sha256=U_X4p0q_h5Ht7UYq3bElF8T5ZDMG9A87y8HfSNu2GB8,439
+aiotaipit/__main__.py,sha256=48IsyTiODijtbkdGnj_xYJ7kn5YR7UI6VoX2bWr_IoA,165
+aiotaipit/_version.py,sha256=pbL_Q6fDSZl5UbKP04ZFdzrJpd1PO1gH7IwJCwLV7mk,411
+aiotaipit/api.py,sha256=ipP26mZwPtIQKdG6QJuvWj_UX618fMW1IkiwcscvO7w,2784
+aiotaipit/auth.py,sha256=7is2IDQjIxT0f1fo6cZao5kQSthSvOap6KV-F5Fvra4,5853
+aiotaipit/cli.py,sha256=fWrRZEHeLBU4xZzs7ACNbFqMvQpdItxjY_NVqfK8ZEM,4537
+aiotaipit/const.py,sha256=Yeng9-J5ksFcHn6GmWyeXVi0JQnzzbS4QPP0SviLSgA,7014
+aiotaipit/exceptions.py,sha256=yd2IOVa7whvGFnVfBnKbMFQCB1ur7I8Z9rper_htX6c,735
+aiotaipit/helpers.py,sha256=Rft50CrcFXNV2iz7FIPjvd95MDRxRZNwQ58W-3ZE0ls,341
+aiotaipit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiotaipit-2.2.0.dist-info/LICENSE,sha256=hjwhznxjMJ2q_zWKaOhlo73ep5vN9tQ_atwkEwTmfZw,1070
+aiotaipit-2.2.0.dist-info/METADATA,sha256=xv_iBZ4xOgz8QygcDL9FktRHjX7u0_mUz5Fs35BHKDo,5615
+aiotaipit-2.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aiotaipit-2.2.0.dist-info/entry_points.txt,sha256=mUM8WRFu1_BX7e60UBKTFvN_TWRS-hnrU1C-0vLGA48,54
+aiotaipit-2.2.0.dist-info/top_level.txt,sha256=N2HgW8DymKbp6yAJvIGdZwc42Ky3-3lAKCg7rKwISJE,10
+aiotaipit-2.2.0.dist-info/RECORD,,
