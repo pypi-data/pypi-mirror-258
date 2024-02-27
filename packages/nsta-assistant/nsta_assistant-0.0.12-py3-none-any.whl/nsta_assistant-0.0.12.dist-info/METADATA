@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: nsta-assistant
+Version: 0.0.12
+Summary: A personal assistant to store contacts.
+Home-page: https://github.com/nazarsmith/goitneo-python-hw-3-group-3
+Author: Nazar Stakhovskyi
+Author-email: nazarstahovsky@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# goitneo-python-hw-3-group-3
+
+## Description
+A CLI organizer that can help store contacts' phone numbers and birthday dates.
+
+
+## Get Started
+
+Run `pip install nsta_assistant` to install the package and then `get-started` to get started. The list of available commands is as follows:
+
+- `hi` or `hello` or `greeting` - to say hi to your favorite PA!
+- `add name phone` - to add a acontact and its phone number;
+- `all` - to list all the contacts and their phone numbers;
+- `phone name` - to list all the phone numbers associated with the contact; 
+- `change name old phone new phone` - to change the phone number;
+- `remove-phone name phone` - to remove the phone number;
+- `add-birthday name DD.MM.YYYY` - to add birthday;
+- `show-birthday name` - to show birthday associate with the contact;
+- `birthdays` - to show the list of contacts who have a birthday within the following 7 days;
+- `delete name` or `remove name` - to delete the contact;
+- `entries` - to show the number of contacts
+- `close` or `exit` - to exit the personal assistant;
+
+## Notes:
+
+1. Currently, it is not possible to add a contact with a name only. Both name and a phone number must be provided;
+2. The PA saves the progress upon exiting; this does not apply to the cases when it is forcefully shut down (e.g. keyboard interrupt)
