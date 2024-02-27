@@ -1,0 +1,13 @@
+sl4a/__init__.py,sha256=v6BfWGX2r0WsCL6gqp2-4Cxo0Qs1T7E0gQEZPdZWsNU,318
+sl4a/android.py,sha256=_mbQCyl0FW60s2Ferwcs3EB54nM8Rlh2UxGRq10FZnQ,76000
+sl4a/apk/Py4A.apk,sha256=361xHObXaAVsz_6VpA621y4UryOgPfOfAVWIsGBLq_E,932003
+sl4a/apk/SL4A.apk,sha256=XjOp3xZJcsvsIUUDou_hMM8jAu1jRP3WI778IT8E114,1252292
+sl4a/example.txt,sha256=o8OX_57aYZwGrOfuxuh1qxYBR8jHiSK5iELJqEZL_B8,41
+sl4a/rpc.py,sha256=0Z9i-ur9ObN6zPL_h9qdTN58VTH8B3tW6AabRrwqELQ,2675
+sl4a/script.py,sha256=MwXiSRC4I2NNrM9UiE3zjJVzAujkh-BaYMFlJKfvXTI,2404
+sl4a/scripts/SL4A-SERVER.py,sha256=72sf5VIKvxoK6gMqEw22nKysRxOdwDqHvMBwFn3tWXI,300
+sl4a-0.0.1.dist-info/LICENSE,sha256=NAIE1kmjlmRNJ1BwR9m9i0jXHmQqqujTnEyIBuIxvwM,1074
+sl4a-0.0.1.dist-info/METADATA,sha256=XgZlXGESlxN3qCW97uSnWxLGqpAhar9RMV3BVJzHCvc,635
+sl4a-0.0.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+sl4a-0.0.1.dist-info/entry_points.txt,sha256=EpiWye4T4qek2IiSXnI75foLkCvzC8GcZhFDGETNS1g,120
+sl4a-0.0.1.dist-info/RECORD,,

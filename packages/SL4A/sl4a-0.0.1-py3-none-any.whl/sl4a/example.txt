@@ -1,0 +1,2 @@
+from sl4a import Android
+droid=Android()

@@ -1,0 +1,5 @@
+[console_scripts]
+sl4a-get=sl4a.script:get
+sl4a-install=sl4a.script:install
+sl4a-instructions=sl4a.script:instructions
+
