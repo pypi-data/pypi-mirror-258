@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: colordithering
+Version: 0.2
+Summary: Color strings using ANSI escape codes. Uses "dithering" to attempt to match the specified RGB value as close as possible.
+Home-page: https://github.com/ingobeans/terminal-rgb-color-dithering
+Author: ingobeans
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: colorama>=0.4.6
