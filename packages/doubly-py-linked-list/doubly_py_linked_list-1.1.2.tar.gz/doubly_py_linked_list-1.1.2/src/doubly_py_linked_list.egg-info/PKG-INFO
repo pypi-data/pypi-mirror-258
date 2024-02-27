@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: doubly_py_linked_list
+Version: 1.1.2
+Summary: Doubly linked list implementation in Python
+Author-email: "Konstantin (k0nze) Lübeck" <admin@konze.org>
+License: BSD 3-Clause License
+        
+        Copyright (c) 2024, Konstantin (Konze) Lübeck
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        * Redistributions of source code must retain the above copyright notice, this
+          list of conditions and the following disclaimer.
+        
+        * Redistributions in binary form must reproduce the above copyright notice,
+          this list of conditions and the following disclaimer in the documentation
+          and/or other materials provided with the distribution.
+        
+        * Neither the name of the copyright holder nor the names of its
+          contributors may be used to endorse or promote products derived from
+          this software without specific prior written permission.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/k0nze/doubly_py_linked_list
+Keywords: data structures
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pre-commit; extra == "dev"
+Requires-Dist: bumpver; extra == "dev"
+
+# Doubly (Py) Linked List 1️⃣ ↔️ 2️⃣ ↔️ 3️⃣
+
+[![CI](https://github.com/k0nze/doubly_py_linked_list/actions/workflows/ci.yml/badge.svg)](https://github.com/k0nze/doubly_py_linked_list/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+
+A module that implements doubly linked lists in python
+
+## Example
+
+```
+python -m pip install doubly-py-linked-list
+```
+
+```python
+>>> from doubly_py_linked_list import DoublyLinkedList as dll
+>>> d = dll([1, 2, 3, 4])
+>>> d
+1 <-> 2 <-> 3 <-> 4
+>>> node_0 = d.insert_head(0)
+>>> node_5 = d.insert_tail(5)
+>>> for v in d:
+...     print(v)
+...
+0
+1
+2
+3
+4
+5
+>>> d.move_to_head(node_5)
+>>> d.move_to_tail(node_0)
+>>> list(d)
+[5, 1, 2, 3, 4, 0]
+>>> d.pop_head()
+5
+>>> list(d)
+[1, 2, 3, 4, 5, 0]
+>>> d.pop_tail()
+0
+>>> list(d)
+[1, 2, 3, 4]
+>>> d.nodes()
+[ddl_node(1), ddl_node(2), ddl_node(3), ddl_node(4)]
+```
