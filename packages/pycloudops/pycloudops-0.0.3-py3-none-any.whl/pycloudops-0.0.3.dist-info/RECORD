@@ -1,0 +1,7 @@
+gcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gcs/client.py,sha256=jSIzX4Hx9VS-SsMflgiKfonSBgQMMg6rwuWSa99iV60,3166
+gcs/path.py,sha256=zKMhbVsnW372y_s3LRr5iNqGRA2HiM-jcRsaMe9bKsE,1459
+pycloudops-0.0.3.dist-info/METADATA,sha256=PTkKAzbXEILJsPmGxKJFTFHV6HN_9LB4Nkn_AKYG6UQ,535
+pycloudops-0.0.3.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+pycloudops-0.0.3.dist-info/top_level.txt,sha256=nHySJ7FQbUMcLTYJcwdiQvNb6dlrtESkP-Jhrnyo_P0,4
+pycloudops-0.0.3.dist-info/RECORD,,
