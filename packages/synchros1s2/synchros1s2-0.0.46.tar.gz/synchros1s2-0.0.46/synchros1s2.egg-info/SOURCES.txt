@@ -1,0 +1,7 @@
+README.md
+setup.py
+synch2jira/__init__.py
+synchros1s2.egg-info/PKG-INFO
+synchros1s2.egg-info/SOURCES.txt
+synchros1s2.egg-info/dependency_links.txt
+synchros1s2.egg-info/top_level.txt
