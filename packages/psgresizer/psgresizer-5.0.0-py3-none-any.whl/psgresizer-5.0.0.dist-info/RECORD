@@ -1,0 +1,13 @@
+psgresizer/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgresizer/README.md,sha256=1AP1Ek6_nVPuXwOdjPvftUe5wt_IHUEE4WgmBdah5wY,3656
+psgresizer/__init__.py,sha256=cp0HqEKQMBlJiNaPfKr8S7APMDJkb21vce3Wm70C3NY,64
+psgresizer/__main__.py,sha256=k-O4KmK7L75BN5rD3yfEMPD3OPCDCd3PIqIWhcxdZdw,69
+psgresizer/psgresizer.ico,sha256=7Lg6VqsLJuLwlncqHQGAmytcUM3XNQTIves5ROcT_cU,16958
+psgresizer/psgresizer.py,sha256=mbozIoo4v6q5iD3RNoFcylo2K_bwxoUjY8RGvUmvSmk,17855
+psgresizer/screenshot.jpg,sha256=FCn7qDEOdDCkgbIpFfZu3GjD-1ZyZSSFMIUhLyV_mw0,120212
+psgresizer-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgresizer-5.0.0.dist-info/METADATA,sha256=7nCqylCRGMotpri5wP-2gIBLdkwo50v-AFW_OBXgNxY,5004
+psgresizer-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psgresizer-5.0.0.dist-info/entry_points.txt,sha256=B7B-X0YYBmD2_bXsUobdNXsizjhsR70W6oJ0wHFre-U,66
+psgresizer-5.0.0.dist-info/top_level.txt,sha256=aXtKQZqsAb44-qUPHS40mIgGXYwcH2BdvZ6bFTE3srs,11
+psgresizer-5.0.0.dist-info/RECORD,,
