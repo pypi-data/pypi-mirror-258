@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Embed_Builder/__init__.py
+Embed_Builder/exemplo.py
+embed_builder.pt_br.egg-info/PKG-INFO
+embed_builder.pt_br.egg-info/SOURCES.txt
+embed_builder.pt_br.egg-info/dependency_links.txt
+embed_builder.pt_br.egg-info/requires.txt
+embed_builder.pt_br.egg-info/top_level.txt
