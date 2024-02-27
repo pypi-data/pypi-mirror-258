@@ -1,0 +1,5 @@
+include LICENSE
+include README.md
+recursive-include crx_settings_override/static *
+recursive-include crx_settings_override/templates *
+recursive-include docs *
