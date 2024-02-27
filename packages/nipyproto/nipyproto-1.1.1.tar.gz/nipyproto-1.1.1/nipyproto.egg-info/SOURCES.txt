@@ -1,0 +1,9 @@
+README.md
+nipyproto.py
+setup.py
+nipyproto.egg-info/PKG-INFO
+nipyproto.egg-info/SOURCES.txt
+nipyproto.egg-info/dependency_links.txt
+nipyproto.egg-info/entry_points.txt
+nipyproto.egg-info/requires.txt
+nipyproto.egg-info/top_level.txt
