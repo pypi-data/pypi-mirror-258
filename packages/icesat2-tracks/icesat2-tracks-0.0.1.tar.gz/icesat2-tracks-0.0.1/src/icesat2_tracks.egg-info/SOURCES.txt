@@ -1,0 +1,72 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/icesat2_tracks/__init__.py
+src/icesat2_tracks/app.py
+src/icesat2_tracks/clitools.py
+src/icesat2_tracks.egg-info/PKG-INFO
+src/icesat2_tracks.egg-info/SOURCES.txt
+src/icesat2_tracks.egg-info/dependency_links.txt
+src/icesat2_tracks.egg-info/entry_points.txt
+src/icesat2_tracks.egg-info/requires.txt
+src/icesat2_tracks.egg-info/top_level.txt
+src/icesat2_tracks/ICEsat2_SI_tools/__init__.py
+src/icesat2_tracks/ICEsat2_SI_tools/angle_optimizer.py
+src/icesat2_tracks/ICEsat2_SI_tools/beam_stats.py
+src/icesat2_tracks/ICEsat2_SI_tools/convert_GPS_time.py
+src/icesat2_tracks/ICEsat2_SI_tools/convert_julian.py
+src/icesat2_tracks/ICEsat2_SI_tools/filter_regrid.py
+src/icesat2_tracks/ICEsat2_SI_tools/generalized_FT.py
+src/icesat2_tracks/ICEsat2_SI_tools/iotools.py
+src/icesat2_tracks/ICEsat2_SI_tools/lanczos.py
+src/icesat2_tracks/ICEsat2_SI_tools/read_ground_tracks.py
+src/icesat2_tracks/ICEsat2_SI_tools/sliderule_converter_tools.py
+src/icesat2_tracks/ICEsat2_SI_tools/spectral_estimates.py
+src/icesat2_tracks/ICEsat2_SI_tools/spicke_remover.py
+src/icesat2_tracks/ICEsat2_SI_tools/wave_tools.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/__init__.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/angle_optimizer.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/beam_stats.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/convert_GPS_time.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/convert_julian.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/filter_regrid.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/generalized_FT.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/iotools.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/lanczos.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/read_ground_tracks.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/sliderule_converter_tools.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/spectral_estimates.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/spicke_remover.py
+src/icesat2_tracks/ICEsat2_SI_tools - Copy/wave_tools.py
+src/icesat2_tracks/analysis/SA01b_download_tester.py
+src/icesat2_tracks/analysis_db/A01b_ALT07_SHNH_variance_tester.py
+src/icesat2_tracks/analysis_db/A02c_IOWAGA_thredds_prior.py
+src/icesat2_tracks/analysis_db/B01_SL_load_single_file.py
+src/icesat2_tracks/analysis_db/B02_make_spectra_gFT.py
+src/icesat2_tracks/analysis_db/B03_plot_spectra_ov.py
+src/icesat2_tracks/analysis_db/B04_angle.py
+src/icesat2_tracks/analysis_db/B05_define_angle.py
+src/icesat2_tracks/analysis_db/B06_correct_separate_var.py
+src/icesat2_tracks/analysis_db/__init__.py
+src/icesat2_tracks/analysis_fake_data/A01_1D_spectra.py
+src/icesat2_tracks/analysis_fake_data/S02_spectra_estimates_test.py
+src/icesat2_tracks/analysis_fake_data/S03_spectra_estimates_lomb_scargle.py
+src/icesat2_tracks/analysis_fake_data/X03_MCMC_surface_smapling.py
+src/icesat2_tracks/config/IceSAT2_startup.py
+src/icesat2_tracks/config/__init__.py
+src/icesat2_tracks/config/color_def.json
+src/icesat2_tracks/config/config.json
+src/icesat2_tracks/config/generate_colors.py
+src/icesat2_tracks/icesat2_tools_scripts/nsidc_icesat2_associated2.py
+src/icesat2_tracks/local_modules/JONSWAP_gamma.py
+src/icesat2_tracks/local_modules/__init__.py
+src/icesat2_tracks/local_modules/m_colormanager_ph3.py
+src/icesat2_tracks/local_modules/m_general_ph3.py
+src/icesat2_tracks/local_modules/m_spectrum_ph3.py
+src/icesat2_tracks/local_modules/m_tools_ph3.py
+src/icesat2_tracks/local_modules - Copy/JONSWAP_gamma.py
+src/icesat2_tracks/local_modules - Copy/__init__.py
+src/icesat2_tracks/local_modules - Copy/m_colormanager_ph3.py
+src/icesat2_tracks/local_modules - Copy/m_general_ph3.py
+src/icesat2_tracks/local_modules - Copy/m_spectrum_ph3.py
+src/icesat2_tracks/local_modules - Copy/m_tools_ph3.py
