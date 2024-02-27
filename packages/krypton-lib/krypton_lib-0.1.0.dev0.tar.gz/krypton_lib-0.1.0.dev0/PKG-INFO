@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: krypton-lib
+Version: 0.1.0.dev0
+Summary: 
+Author: starecv
+Author-email: starec@mailbox.org
+Requires-Python: >=3.12.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: scipy
+Description-Content-Type: text/plain
+
+#+TITLE: krypton-lib
+
+In the beginning there was darkness
+

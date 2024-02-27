@@ -1,0 +1,3 @@
+#+TITLE: krypton-lib
+
+In the beginning there was darkness

@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "krypton-lib"
+version = "0.1.0.dev0"
+description = ""
+authors = ["starecv <starec@mailbox.org>"]
+readme = "README.org"
+packages = [{include = "krypton"}]
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+pandas = "*"
+pyarrow = "*"
+pydantic = "*"
+scipy = "*"
+
+[tool.poetry.group.dev.dependencies]
+isort = "*"
+ipykernel = "*"
+matplotlib = "*"
+plotly = "*"
+pytest = "*"
+nose = "*"
+pyflakes = "*"
+black = "*"
+mypy = "*"
+python-lsp-server = "*"
+pylsp-mypy = "*"
+
+[tool.poetry.group.dev-local.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
