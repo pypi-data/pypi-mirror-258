@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: supertts
+Version: 0.0.6
+Summary: A super TTS package supporting multiple providers.
+Author: Aman Kumar
+Author-email: 2000.aman.sinha@gmail.com
+Requires: openai
+Description-Content-Type: text/markdown
+
+## SuperTTS
+
+Single TTS Package to use multiple TTS engines.
