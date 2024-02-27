@@ -1,0 +1,11 @@
+README.md
+setup.py
+vimusic_converter/__init__.py
+vimusic_converter/__main__.py
+vimusic_converter/dbhandler.py
+vimusic_converter/spotify.py
+vimusic_converter.egg-info/PKG-INFO
+vimusic_converter.egg-info/SOURCES.txt
+vimusic_converter.egg-info/dependency_links.txt
+vimusic_converter.egg-info/requires.txt
+vimusic_converter.egg-info/top_level.txt
