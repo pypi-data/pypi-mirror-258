@@ -1,0 +1,7 @@
+dowker/__init__.py,sha256=fk_kgv9zT_W6_ulBRJfGYc4wdW8FbS3hGmpHaCOHeTM,60
+dowker/simplex_tree.py,sha256=lgQvh5YA2Lcu2EG8LqT6dqQeaCBNJj5SclYOCJzWG8Y,3432
+dowker/sink.py,sha256=gJAe35ssTZcP2eqb9Vi0JSFVZb0qqvag-1oz0vDNQyI,575
+dowker-0.0.1.dist-info/METADATA,sha256=dp2_b26OOTQ-B2hBdeGY-WAx-2h5hqkwZ2pe_GK4jS8,659
+dowker-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+dowker-0.0.1.dist-info/top_level.txt,sha256=f0GhGU_KS1m25Eucjx3uZ0D0DdJ6eLlrfwnPMpl7b7M,7
+dowker-0.0.1.dist-info/RECORD,,

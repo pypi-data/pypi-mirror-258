@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dowker
+Version: 0.0.1
+Summary: Simplex tree for Dowker complex
+Home-page: https://github.com/thessal/dowker
+Author: Jongkook Choi
+Author-email: jongkook90@hotmail.com
+Keywords: dowker complex simplex tree
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst
+Requires-Dist: gudhi (>=3.9.0)
+
+Simplex tree for dowker complex.
+Directed edges, expansion, filtration
+It can be converted into gudhi simplex tree
