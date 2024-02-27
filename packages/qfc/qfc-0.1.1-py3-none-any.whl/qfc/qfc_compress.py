@@ -1,0 +1,250 @@
+# flake8: noqa: E501
+
+from typing import Callable, Union
+import numpy as np
+import zlib
+
+from pyparsing import C
+
+
+def qfc_compress(
+    x: np.ndarray,
+    normalization_factor: float
+):
+    """
+    Compresses an array using the QFC algorithm
+
+    Parameters
+    ----------
+    x : np.ndarray
+        The input array to be compressed
+    normalization_factor : float
+        The normalization factor to use during compression,
+        obtained from qfc_estimate_normalization_factor
+
+    Returns
+    -------
+    np.ndarray
+        The compressed array
+    """
+    nf = normalization_factor
+    x_fft = np.fft.rfft(x, axis=0) / x.shape[0]  # we divide by the number of samples so that normalization factor does not depend on the number of samples
+    x_fft_re = np.real(x_fft)
+    x_fft_im = np.imag(x_fft)
+    x_fft_im = x_fft_im[1:-1]  # the first and last values are always zero
+    x_fft_concat = np.concatenate([x_fft_re, x_fft_im], axis=0)
+    x_fft_concat_quantized = np.round(x_fft_concat * nf).astype(
+        np.int16
+    )
+    compressed_bytes = zlib.compress(x_fft_concat_quantized.tobytes())
+    return compressed_bytes
+
+
+def qfc_decompress(
+    compressed_bytes: bytes,
+    normalization_factor: float,
+    original_shape: tuple
+):
+    """
+    Decompresses an array using the QFC algorithm
+
+    Parameters
+    ----------
+    compressed_bytes : bytes
+        The compressed array
+    normalization_factor : float
+        The normalization factor used during compression
+    original_shape : tuple
+        The original shape of the array
+
+    Returns
+    -------
+    np.ndarray
+        The decompressed array
+    """
+    nf = normalization_factor
+    num_samples = original_shape[0]
+    num_channels = original_shape[1] if len(original_shape) > 1 else 1
+    decompressed_array = np.frombuffer(
+        zlib.decompress(compressed_bytes), dtype=np.int16
+    )
+    decompressed_array = decompressed_array.reshape(num_samples, num_channels)
+    x_fft_re = decompressed_array[: (num_samples // 2 + 1), :] / nf
+    x_fft_im = decompressed_array[(num_samples // 2 + 1):, :] / nf
+    x_fft_im = np.concatenate(
+        [np.zeros((1, num_channels)), x_fft_im, np.zeros((1, num_channels))],
+        axis=0
+    )
+    x_fft = x_fft_re + 1j * x_fft_im
+    x = np.fft.irfft(x_fft, axis=0) * num_samples
+    if len(original_shape) == 1:
+        x = x.ravel()
+    return x
+
+
+def qfc_estimate_normalization_factor(
+    x: np.ndarray,
+    target_compression_ratio: Union[float, None] = None,
+    target_residual_std: Union[float, None] = None
+):
+    """
+    Estimates the normalization factor for the QFC algorithm for a given
+    target compression ratio
+
+    Parameters
+    ----------
+    x : np.ndarray
+        The input array to be compressed
+    target_compression_ratio : float
+        The target compression ratio
+
+    Returns
+    -------
+    float
+        The normalization factor
+    """
+    x_fft = np.fft.rfft(x, axis=0) / x.shape[0]  # we divide by the number of samples so that normalization factor does not depend on the number of samples
+    x_fft_re = np.real(x_fft)
+    x_fft_im = np.imag(x_fft)
+    x_fft_im = x_fft_im[1:-1]  # the first and last values are always zero
+
+    if target_compression_ratio is not None:
+        if target_residual_std is not None:
+            raise ValueError(
+                "Only one of target_compression_ratio and target_residual_std can be specified"
+            )
+        values = np.concatenate([x_fft_re, x_fft_im], axis=0).ravel()
+
+        # sample at most 5000 values to estimate the normalization factor
+        # do it deterministically to avoid randomness in the results
+        if values.size > 5000:
+            indices = np.linspace(0, values.size - 1, 5000).astype(np.int32)
+            values = values[indices]
+
+        def _estimate_entropy(values: np.ndarray):
+            """
+            Computes the entropy of an array
+
+            Parameters
+            ----------
+            values : np.ndarray
+                The values to compute the entropy of
+
+            Returns
+            -------
+            float
+                The entropy of the array
+            """
+            unique_values, counts = np.unique(values, return_counts=True)
+            probabilities = counts / values.size
+            entropy = -np.sum(probabilities * np.log2(probabilities)).astype(np.float32)
+            return float(entropy)
+
+        def entropy_for_normalization_factor(nf: float):
+            return _estimate_entropy(np.round(values * nf).astype(np.int16))
+
+        num_bits_per_value_in_original_array = np.dtype(x.dtype).itemsize * 8
+        target_entropy = float(num_bits_per_value_in_original_array) / target_compression_ratio
+
+        nf = _monotonic_binary_search(
+            entropy_for_normalization_factor,
+            target_value=target_entropy,
+            max_iterations=100,
+            tolerance=0.001,
+            ascending=True
+        )
+        return nf
+    elif target_residual_std is not None:
+        if target_compression_ratio is not None:
+            raise ValueError(
+                "Only one of target_compression_ratio and target_residual_std can be specified"
+            )
+        target_sumsqr_in_fourier_domain = target_residual_std**2 / 2
+        def resid_sumsqr_in_fourier_domain_for_normalization_factor(nf: float):
+            x_re_quantized = np.round(x_fft_re * nf).astype(np.int16) / nf
+            x_im_quantized = np.round(x_fft_im * nf).astype(np.int16) / nf
+            diffs = np.concatenate([x_re_quantized - x_fft_re, x_im_quantized - x_fft_im], axis=0)
+            return np.sum(np.square(diffs)) / x.shape[1]
+        nf = _monotonic_binary_search(
+            resid_sumsqr_in_fourier_domain_for_normalization_factor,
+            target_value=target_sumsqr_in_fourier_domain,
+            max_iterations=100,
+            tolerance=0.001,
+            ascending=False
+        )
+        return nf
+    else:
+        raise ValueError(
+            "You must either specify target_compression_ratio or target_residual_std"
+        )
+
+
+def _monotonic_binary_search(
+    func: Callable[[float], float],
+    target_value: float,
+    max_iterations: int,
+    tolerance: float,
+    ascending: bool
+):
+    """
+    Performs a binary search to find the value that minimizes the difference
+    between the output of a function and a target value
+
+    Parameters
+    ----------
+    func : callable
+        The function to minimize
+        assumed to be a monotonically increasing function
+    target_value : float
+        The target value
+    max_iterations : int
+        The maximum number of iterations
+    tolerance : float
+        The tolerance for the difference between the output of the function
+        and the target value
+    ascending : bool
+        Whether the function is monotonically increasing or decreasing
+
+    Returns
+    -------
+    float
+        The value that minimizes the difference between the output of the
+        function and the target value
+    """
+    effective_target_value = target_value
+    if not ascending:
+        effective_target_value = -target_value
+    num_iterations = 0
+    # first find an upper bound
+    upper_bound = 1
+    last_val = None
+    while True:
+        new_val = func(upper_bound)
+        if not ascending:
+            new_val = -new_val
+        if new_val > effective_target_value:
+            break
+        upper_bound *= 2
+        num_iterations += 1
+        if num_iterations > max_iterations:
+            return upper_bound
+        if last_val is not None:
+            if new_val < last_val:
+                # fails to be monotonically increasing
+                break
+        last_val = new_val
+    # then do a binary search
+    lower_bound = 0
+    while upper_bound - lower_bound > tolerance:
+        candidate = (upper_bound + lower_bound) / 2
+        candidate_value = func(candidate)
+        if not ascending:
+            candidate_value = -candidate_value
+        if candidate_value < effective_target_value:
+            lower_bound = candidate
+        else:
+            upper_bound = candidate
+        num_iterations += 1
+        if num_iterations > max_iterations:
+            break
+    return (upper_bound + lower_bound) / 2
