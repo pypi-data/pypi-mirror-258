@@ -1,0 +1,14 @@
+hjson
+mo-dots==9.547.24058
+mo-files==6.547.24058
+mo-future==7.546.24057
+mo-json==6.547.24058
+mo-logs==8.547.24058
+requests
+
+[tests]
+mo-testing>=7.523.24033
+keyring>=24.3.0
+boto3>=1.34.42
+pyyaml
+moto>=4.2.14
