@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "robolog"
+version = "0.4.0"
+description = "Personalized logger for RPA solutions"
+authors = ["Wojciech Jankiewicz <jankiwojciech@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/roboforge-solutions/robolog"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+colorlog = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
