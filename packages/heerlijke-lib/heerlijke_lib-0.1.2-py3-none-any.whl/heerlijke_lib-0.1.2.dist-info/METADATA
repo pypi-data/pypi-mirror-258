@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: heerlijke-lib
+Version: 0.1.2
+Summary: Library of personal utilities.
+Author-email: Thomas Vanhelden <thomas.vanhelden@gmail.com>
+License: MIT
+License-File: LICENSE.txt
+Requires-Python: >=3.12
+Requires-Dist: strenum==0.4.15
+Description-Content-Type: text/markdown
+
+# heerlijke-tools
+
+Describe your project here.
+* License: MIT
