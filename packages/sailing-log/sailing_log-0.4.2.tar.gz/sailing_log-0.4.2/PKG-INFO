@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sailing_log
+Version: 0.4.2
+Summary: Simple logger class for usage in data streams related to deep learning, reinforcement learning, and high performance computing
+Author-email: "Julian M. Kleber" <julian.m.kleber@gmail.com>
+Project-URL: Homepage, https://www.codeberg.org/cap_jmk/sailing-log.git
+Project-URL: Bug Tracker, https://www.codeberg.org/cap_jmk/sailing-log.git/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: amarium
+
+# metrics-logger
+
+A small python logging configuration used in deep learning and reinforcement learning
