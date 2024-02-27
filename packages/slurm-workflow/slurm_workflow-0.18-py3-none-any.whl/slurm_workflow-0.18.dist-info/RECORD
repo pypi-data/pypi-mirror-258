@@ -1,0 +1,8 @@
+slurmflow/__init__.py,sha256=atBqs6NaF4KLsSdu0zgXVqc-lpDKsTHWvXZhEbP-ojY,624
+slurmflow/config.py,sha256=kx8cnx1K-Ey_6q8g0I1jOfx7SbiBZWdrH_c2VInGt_w,7007
+slurmflow/driver.py,sha256=XFa9ql04OLMjg_2oWuJKRm2dsODaOiCWLk8SbCkQV4g,12437
+slurmflow/serializer.py,sha256=Vp_K1MgxwA3ZncKfhF5QgM-CnuzN4q_nuYWh2gYMATQ,9932
+slurm_workflow-0.18.dist-info/METADATA,sha256=FdtuMCxA1LHyAfo4fgJcTycI43nM5BUL1ZghhGp-FzU,420
+slurm_workflow-0.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slurm_workflow-0.18.dist-info/top_level.txt,sha256=9Rfs6aL45XIbVj-ygYMaUoLbj4fnirQwSoLlXhRkWWg,10
+slurm_workflow-0.18.dist-info/RECORD,,
