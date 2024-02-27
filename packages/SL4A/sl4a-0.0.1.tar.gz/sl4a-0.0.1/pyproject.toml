@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "SL4A"
+version = "0.0.1"
+description = "Connect to Android via SL4A"
+authors = ["MainPlay TG <xbox.roman6666666666@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/MainPlay-TG/SL4A.py"
+packages = [
+    { include = "sl4a", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+sl4a-install = "sl4a.script:install"
+sl4a-instructions = "sl4a.script:instructions"
+sl4a-get = "sl4a.script:get"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
