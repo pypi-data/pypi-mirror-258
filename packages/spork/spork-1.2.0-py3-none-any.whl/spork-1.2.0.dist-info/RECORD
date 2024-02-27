@@ -1,0 +1,10 @@
+spork/__about__.py,sha256=E5wj8AnU8GN1DqSmzYlA2EWsccl5pCEOB7bFHHZJd7o,125
+spork/__init__.py,sha256=SeRyJAS_Nb6-hw0T5ln_HRjGDwh4nIciazZTxiokUcc,1013
+spork/decorators.py,sha256=yRIVbxIom2q27YdK1V1AkcbnNA0C8XeqRga1xYqeKhg,2572
+spork/models.py,sha256=Z1WgK-JkAmN7W89tiImC038TzFiBGZiPua8S_OzZRM8,6379
+spork/protocols.py,sha256=Po9J8BE7EYuYVTFXh5Gr-j9kmzzLwai1kn99dulmVxE,673
+spork/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spork-1.2.0.dist-info/METADATA,sha256=tWdRmAI7bjy_nda6k14EQoynmaBvRi7-CFVHW5ANZ6U,2415
+spork-1.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+spork-1.2.0.dist-info/licenses/LICENSE.txt,sha256=a-KFb9F2ZZp-555DHeto0bcGsp7HC7jmJuQpDW18DV0,1095
+spork-1.2.0.dist-info/RECORD,,
