@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: azar-deys-greeter
+Version: 1.0.1
+Summary: A simple package to greet people
+Home-page: https://github.com/EXPESRaza/simple_greeter
+Author: Azar Deys
+Author-email: furqanraza@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This guide provides a clear and concise walkthrough for creating and publishing a fundamental Python package using the greeter package as an example.
