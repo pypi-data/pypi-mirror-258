@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: GandalfAPIClient
+Version: 0.0.1
+Summary: A Python SDK for accessing The Lord of the Rings movie API.
+Author-email: Hassaan Dar <hassaan.dar@ultralytics.com>
+Maintainer-email: Hassaan Dar <hassaan.dar@ultralytics.com>
+License: AGPL-3.0
+Keywords: lord-of-the-rings,movie,api,sdk
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# GandalfAPIClient
+
+A Python SDK for accessing The Lord of the Rings movie API
