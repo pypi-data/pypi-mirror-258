@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: lmdoctor
+Version: 0.1.0
+Summary: pkg for extracting and controlling concepts within language models as they generate text
+Home-page: https://github.com/joshlevy89/lmdoctor
+Author: Josh Levy
+Author-email: joshlevy89@gmail.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# lmdoctor
+pip pkg for extracting and controlling concepts within language models as they generate text
