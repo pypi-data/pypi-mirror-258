@@ -1,0 +1,3 @@
+[console_scripts]
+ctd=gitcy.cli.ctd_:main
+
