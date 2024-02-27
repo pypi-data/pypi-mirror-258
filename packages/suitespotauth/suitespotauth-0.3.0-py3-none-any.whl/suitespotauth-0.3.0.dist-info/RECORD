@@ -1,0 +1,11 @@
+suitespotauth/__init.__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+suitespotauth/auth.py,sha256=4DpJWuskgJQb0P5l8_VDQLzSWUW6vKCg3BOqAVXKFNI,3236
+suitespotauth/configure.py,sha256=BQVYspuiAE7l3yPhBe0fJvzi-5CdP1JH6Ccj7QdPx5c,1260
+suitespotauth/credentials.py,sha256=Zd6v6zDzaxo3uY6eu6uyvdL-ZNxnx81MDKaidfyF0oI,4958
+suitespotauth/exceptions.py,sha256=lka5ap8Tepw86tFIVLfXiv55M6hcxwFdY7t0dVrKSQk,140
+suitespotauth-0.3.0.dist-info/LICENSE,sha256=qtvmDAzrHOTXi9lHjeNnoTxHanXIhvCmx0wXuBM62g0,1067
+suitespotauth-0.3.0.dist-info/METADATA,sha256=vWRG4kRVjR_RCWKhcWq7fspDfZptZ46aNhtAi-2e-Ok,5288
+suitespotauth-0.3.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+suitespotauth-0.3.0.dist-info/entry_points.txt,sha256=bMoWGVTIQSwVkqGbWRsALcXaphGxZmPDL-sgeaBKoWQ,73
+suitespotauth-0.3.0.dist-info/top_level.txt,sha256=bazZ4yu8Epouk4IdGunOjsRJ6WvzsLafQPADACBID0Y,14
+suitespotauth-0.3.0.dist-info/RECORD,,
