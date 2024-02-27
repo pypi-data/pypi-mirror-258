@@ -1,0 +1,13 @@
+autopress/__init__.py,sha256=yx226QaHg94aSC4Stgee1UwNMHKhbaFo5ZwgdnNs8j0,123
+autopress/autopress.py,sha256=_0TLlNox7zhDT0Y-19Jby6UIlcaSFvorUUAiSI6XyD0,5613
+autopress/openai.py,sha256=YUPPwIubBiVpSdmkOCudgWJnERR-_xSiamK1wOeA39w,836
+autopress/utils.py,sha256=sgVJy-IifZl5UI1HfPk7mnPE4GHKWXnQu-jxg3ptXns,1720
+autopress/cli/__init__.py,sha256=xG_LW5RtBFu1CEgwGRt_HWWUePP2xezeX2sWityUYGc,444
+autopress/cli/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopress/cli/configure.py,sha256=rEnWierVbHRcGXBHvaLumTo1A1rsUmCpCVXQlR97F0c,1209
+autopress/settings/__init__.py,sha256=2S_3j-Pkoll3pyWlAcJ_kq-IB2Pbt9nxlhUaLXIZrME,1608
+autopress-0.1.0.dist-info/METADATA,sha256=MeNO2IAnDjm8LUVEGU3910JJIJwlVUZmtaOTbTsw2rc,3440
+autopress-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+autopress-0.1.0.dist-info/entry_points.txt,sha256=KSPkYZVoxnS7Pm1Sa1yIrnOwdS9kX5pyX3e12sZx56c,49
+autopress-0.1.0.dist-info/top_level.txt,sha256=fqQGHOC6Odhn5JdAWBH9eaaZ5lsKLJKbiWN368MW22c,10
+autopress-0.1.0.dist-info/RECORD,,
