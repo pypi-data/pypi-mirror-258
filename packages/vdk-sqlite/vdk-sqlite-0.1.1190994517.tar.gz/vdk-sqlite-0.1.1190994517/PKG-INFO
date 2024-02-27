@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: vdk-sqlite
+Version: 0.1.1190994517
+Requires-Dist: vdk-core
+Requires-Dist: tabulate
