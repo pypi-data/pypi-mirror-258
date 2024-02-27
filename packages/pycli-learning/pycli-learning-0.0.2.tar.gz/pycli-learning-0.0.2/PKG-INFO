@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pycli-learning
+Version: 0.0.2
+Summary: Python-written clone of Unix commands
+Author: Alexey Radkevich
+Keywords: python
