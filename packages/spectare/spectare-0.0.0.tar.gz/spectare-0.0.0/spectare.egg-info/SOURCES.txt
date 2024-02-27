@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+spectare.egg-info/PKG-INFO
+spectare.egg-info/SOURCES.txt
+spectare.egg-info/dependency_links.txt
+spectare.egg-info/requires.txt
+spectare.egg-info/top_level.txt
