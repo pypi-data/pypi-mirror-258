@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hikapi/__init__.py
+hikapi/aksk.py
+hikapi.egg-info/PKG-INFO
+hikapi.egg-info/SOURCES.txt
+hikapi.egg-info/dependency_links.txt
+hikapi.egg-info/not-zip-safe
+hikapi.egg-info/top_level.txt

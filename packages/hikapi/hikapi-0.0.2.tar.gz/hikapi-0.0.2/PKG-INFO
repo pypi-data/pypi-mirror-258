@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hikapi
+Version: 0.0.2
+Summary: 海康的python库
+Author: Chen chuan
+Author-email: kcchen@139.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+根据 海康 的综合安防管理平台写的python库
+
+https://open.hikvision.com/docs/docId?productId=5c67f1e2f05948198c909700&version=%2Ff95e951cefc54578b523d1738f65f0a1&tagPath=%E7%BC%96%E7%A8%8B%E5%BC%95%E5%AF%BC-%E4%B8%80%E5%8D%A1%E9%80%9A%E5%BA%94%E7%94%A8%E6%9C%8D%E5%8A%A1
