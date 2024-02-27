@@ -1,0 +1,5 @@
+setup.py
+fixinventory_plugin_posthog.egg-info/PKG-INFO
+fixinventory_plugin_posthog.egg-info/SOURCES.txt
+fixinventory_plugin_posthog.egg-info/dependency_links.txt
+fixinventory_plugin_posthog.egg-info/top_level.txt
