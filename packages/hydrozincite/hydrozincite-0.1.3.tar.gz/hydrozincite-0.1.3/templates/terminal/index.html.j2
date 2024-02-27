@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="static/terminal.min.css"/>
+		<link rel="stylesheet" href="static/style.css"/>
+		<meta charset="UTF-8">
+		<title>{{ title }}</title>
+	</head>
+<body class="terminal">
+
+
+   <div class="container">
+   <h1 class="terminal-prompt">
+     <a href="/">
+       {{ title }}
+     </a>
+   </h1>
+   </div>
+
+   <div class="components components-grid container">
+   <aside>
+     <nav>
+       <ul>
+         {% for repo in repositories %}
+         <li>
+		 <a href="#{{ repo.parent / repo.name }}">> {{ repo.parent / repo.name }}</a>
+         </li>
+	 {% endfor %}
+       </ul>
+     </nav>
+   </aside>
+
+
+   <main>
+   <div class="container">
+   <div class="terminal-timeline">
+   {% for repo in repositories %}
+   <div id="{{ repo.parent / repo.name }}" class="terminal-card">
+	   <header>
+		<a href="#{{ repo.parent / repo.name }}">> {{ repo.parent / repo.name }}</a>
+	   	{% if repo.description %}
+	   	<h3 >{{ repo.description }}</h3>
+	   	{% endif %}
+	   </header>
+	   <div >
+	   	{% if repo.url %}
+		<center><a href="{{ repo.url }}">{{ repo.url }}</a></center>
+	   	{% endif %}
+		<center><p><code>git clone {{ clone_url }}/{{ repo.parent / repo.path.name }}</code></p></center>
+	   {% if repo.readme %}
+		<details >
+			<summary><center><p class="btn btn-default btn-ghost">Readme</p></center></summary>
+		<pre>
+			<code>{{ repo.readme }}</code>
+		</pre>
+		</details>
+	   {% endif %}
+	   <div><center>{{ repo.last_modif }}</center></div>
+	   </div>
+  </div>
+  {% endfor %}
+  </div>
+  </div>
+   </main>
+  </div>
+
+   <footer class="container">
+      <hr/>
+      <center>
+      <div>{{ now }}</div>
+      <div><a href="https://forge.dotslashplay.it/HS-157/Hydrozincite">Hydrozincite - Zn₅(CO₃)₂(OH)₆</a></div>
+      <div><a href="https://terminalcss.xyz/">Terminal CSS</a> : <small><a href="https://github.com/Gioni06/terminal.css">v0.7.5</a></small> - <a href="https://www.nordtheme.com/">Nord</a></div>
+      </center>
+   </footer>
+</body>
+</html> 
