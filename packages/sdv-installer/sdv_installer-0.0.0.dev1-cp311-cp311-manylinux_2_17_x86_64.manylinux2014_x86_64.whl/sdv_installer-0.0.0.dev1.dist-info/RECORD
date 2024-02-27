@@ -1,0 +1,9 @@
+sdv_installer-0.0.0.dev1.dist-info/METADATA,sha256=85ovmP7fijXtzBvQ3JfcbMeaQRP1h1SXn_4XE4AQGYA,2741
+sdv_installer-0.0.0.dev1.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev1.dist-info/WHEEL,sha256=AI1yqBLEPcVKWn5Ls2uPawjbqPXPFTYdQLSdN8WFCJw,152
+sdv_installer-0.0.0.dev1.dist-info/RECORD,,
+sdv_installer-0.0.0.dev1.dist-info/LICENSE,sha256=yvPXLYJjZGdrkpah9WFuFg_V6kdZuwgyGkDLrJMMTV0,1065
+sdv_installer-0.0.0.dev1.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer/installation/installer.cpython-311-x86_64-linux-gnu.so,sha256=IVMSQwddtBbMhCFyLZXZtz82XhjHmBRYNabaDpmWHO0,944920
+sdv_installer/licensing/authentication.cpython-311-x86_64-linux-gnu.so,sha256=eEj_F_6ZGFuTerZ2EqB6Y-LSCaOA_h-rE_PcKXq677E,856296
+sdv_installer/cli/__main__.cpython-311-x86_64-linux-gnu.so,sha256=4mPbRtfKhKpkzKs6jmEuR4xk20HhKqLnMT4OCjIA9CA,427608
