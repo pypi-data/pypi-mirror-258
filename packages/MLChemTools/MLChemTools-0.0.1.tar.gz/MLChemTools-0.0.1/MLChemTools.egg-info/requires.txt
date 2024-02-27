@@ -1,0 +1,17 @@
+rdkit
+glob2
+ipython
+mordred
+pandas
+xgboost
+seaborn
+numpy
+matplotlib
+lazypredict
+chembl_webresource_client
+padelpy
+sklearn
+padelpy
+mordred
+imblearn
+shap
