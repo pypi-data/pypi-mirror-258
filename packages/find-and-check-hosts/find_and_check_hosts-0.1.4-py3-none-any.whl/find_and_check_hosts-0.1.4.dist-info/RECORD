@@ -1,0 +1,14 @@
+find_and_check_hosts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+find_and_check_hosts/checker.py,sha256=9CsRvhkGwFZ-E-1EcYinsvu3b-v8wvOW8MYqHAqYbm4,3156
+find_and_check_hosts/example-config.yaml,sha256=v7KpEAURQ3W887UO7RJCqARFsi_r3NAxkGmEo3mmnrw,415
+find_and_check_hosts/iana_tld_list.txt,sha256=KAFTiNREstmK8ygLSt7Q-8bFUVYZz9rmlbV4IkVRcXE,10032
+find_and_check_hosts/main.py,sha256=9Ho4JzB7_iycngntiDIc-VvT-yvbMAn7CYPwuLbM4ho,5924
+find_and_check_hosts/patterns.py,sha256=2Qiz88XxV1Cva4xkGYEJkoxfpidM4ujb161DRX_0O74,5830
+find_and_check_hosts/replacer.py,sha256=mnhW1BDIDdsUTAtZqRi1rs7gwPsb8U1GumAsktm5nEY,1228
+find_and_check_hosts/rules.py,sha256=BgzwgzRXSfVNPVwKlFTuLPRmFD-1MEi2pM6wy7KIHEU,3795
+find_and_check_hosts-0.1.4.data/scripts/find-and-check-hosts,sha256=0iI5n7_ciV5QkLjJaECYDybjceUNN5ChQQWV9ioEaT4,91
+find_and_check_hosts-0.1.4.dist-info/LICENSE,sha256=bbSVKh1ngBh7-Mh_Xfk69Flx_5Q9JnvsQArHe_AXhok,1063
+find_and_check_hosts-0.1.4.dist-info/METADATA,sha256=lbZO4PZ9L-vMvBdEwIArrRUnQkDj3_EPT6P9pFrCK1c,2579
+find_and_check_hosts-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+find_and_check_hosts-0.1.4.dist-info/top_level.txt,sha256=F4VbuiM3MeFYpb2QHqlv4mRbmqMt9rPUKxQIwY-y80I,21
+find_and_check_hosts-0.1.4.dist-info/RECORD,,
