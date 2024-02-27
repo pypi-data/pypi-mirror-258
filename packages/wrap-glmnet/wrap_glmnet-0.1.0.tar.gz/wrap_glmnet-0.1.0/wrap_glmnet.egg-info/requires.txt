@@ -1,0 +1,8 @@
+numpy
+glmnet>=2.2.1
+extendanything
+scikit-learn
+pandas
+genetools
+multiclass-metrics
+typing-extensions
