@@ -1,0 +1,10 @@
+lobster_translator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lobster_translator/helpers/__init__.py,sha256=L-wwkfA4Ga-8uttZiIrEpCu4sqHQnrHOYFboR-Dc9Jg,63
+lobster_translator/helpers/get_interaction_from_line.py,sha256=J6e7gOqhUeA5URtb7gHNz8rlkK-99k3XNgNvi4I185U,174
+lobster_translator/io/__init__.py,sha256=APF-4xZxJ-Y5Ksle1T8h9anjhfdJFecTuNEMrSWIRlI,81
+lobster_translator/io/carfile_to_df.py,sha256=lmH-FutEosKmqhAHo-dtbwaUsZWBeYVY84H2rFfIzRQ,966
+lobster_translator/io/listfile_to_df.py,sha256=ibps69Q0m7l42XNFwoIIXxBZYJiHQgeNN1VtPlYiA18,362
+lobster_translator-0.1.1.dist-info/LICENSE,sha256=_Hqkv3kFSFtlUesonbAR7F91VGIse52y4i095BX9V4o,1064
+lobster_translator-0.1.1.dist-info/METADATA,sha256=gPS_ImL72peFgv_EKAL2Y3KJbzPR50R3PAwFhrki5YU,418
+lobster_translator-0.1.1.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+lobster_translator-0.1.1.dist-info/RECORD,,
