@@ -1,0 +1,36 @@
+name: Release
+
+on:
+  push:
+    tags: ["**"]
+  pull_request:
+    # make sure build works on every pr,
+    # but we don't publish unless it's a tag push event
+    branches: [ "*" ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+    permissions:
+      id-token: write
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --upgrade setuptools setuptools-scm build twine
+      - name: Build
+        run: |
+          python -m build
+          twine check dist/*
+          ls -l dist
+      - name: Publish
+        uses: pypa/gh-action-pypi-publish@release/v1
+        if: startsWith(github.ref, 'refs/tags/')
+  
