@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: crx-settings-override
+Version: 1.0.0b0
+Summary: Overrides of default Wagtail CRX settings, eg. navbars, footers, etc.
+Author-email: "LESPROJEKT-SLUŽBY Ltd." <h4e@lesprojekt.cz>
+Project-URL: Homepage, https://github.com/hslayers/crx-hslayers
+Project-URL: Bug Tracker, https://github.com/hslayers/crx-hslayers/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: coderedcms >=2.0.0
+Requires-Dist: pynpm >=0.1.2
+
+# Wagtail CRX (CodeRed) Settings Override
+
+Overrides of default Wagtail CRX settings, eg. navbars, footers, etc.
+
+## Quick start
+
+1. Install the package from PyPi:
+   ```
+   pip install crx-settings-override
+   ```
+   
+2. Add "crx_settings_override" to your INSTALLED_APPS setting like this::
+
+   <pre>
+   INSTALLED_APPS = [
+      ...,
+      <b>"crx_settings_override",</b>
+   ]
+   </pre>
+
+3. Add "crx_settings_override.context_processors.navbars" and "crx_settings_override.context_processors.footers" to your TEMPLATES settings like this::
+
+   <pre>
+   TEMPLATES = [
+      {
+         ...,
+         "OPTIONS": {
+               "context_processors": [
+                  ...,
+                  <b>"crx_settings_override.context_processors.navbars",</b>
+                  <b>"crx_settings_override.context_processors.footers"</b>
+               ],
+               "loaders": [...]
+         },
+      },
+   ]
+   </pre>
+
+4. To make translations work for navbars, override navbar template of CodeRed by creating /templates/coderedcms/snippets/navbar.html and change
+
+   ```
+   {% if settings.coderedcms.LayoutSettings.site_navbar %}
+      {% get_navbars as navbars %}
+         {% for navbar in navbars %}
+         <ul class="navbar-nav {{navbar.custom_css_class}}" {% if navbar.custom_id %}id="{{navbar.custom_id}}" {% endif %}>
+            {% for item in navbar.menu_items %}
+               {% include_block item with liclass="nav-item" aclass="nav-link" ga_event_category="Navbar" %}
+            {% endfor %}
+         </ul>
+      {% endfor %}
+   {% endif %}
+   ```
+
+   so it doesn't use site_navbar and get_navbars method (this is overriden by the [context_processor](https://github.com/LESPROJEKT/crx-settings-override/blob/main/crx_settings_override/context_processors.py)), eg. simply erase those lines like this
+
+   ```
+   {% for navbar in navbars %}
+      <div>
+         <ul class="navbar-nav flex-wrap justify-content-around">
+            {% for item in navbar.menu_items %}
+              {% include_block item with liclass="nav-item fs-5" aclass="nav-link" ga_event_category="Navbar" %}
+            {% endfor %}
+         </ul>
+      </div>
+   {% endfor %}
+   ```
+
+5. Run `python manage.py migrate` to create the models.
+
+6. Start the development server and visit the admin to:
+
+   - create localized navbars under Snippets > Translatable Navigation Bars
+   - set one of the localized navbar as a site navigation in **CRX Settings Overrides**.
+
+7. Navigation switches automatically based on current site localization.
+
+
+## Development
+Update semantic version of the package
+
+Run test update without commiting
+```
+$ bumpver update --patch(--minor|--major) --dry
+```
+
+Run update and commit the changes to the repo
+```
+$ bumpver update --patch(--minor|--major)
+```
