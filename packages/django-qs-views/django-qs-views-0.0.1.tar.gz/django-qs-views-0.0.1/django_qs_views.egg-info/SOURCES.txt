@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+django_qs_views.egg-info/PKG-INFO
+django_qs_views.egg-info/SOURCES.txt
+django_qs_views.egg-info/dependency_links.txt
+django_qs_views.egg-info/requires.txt
+django_qs_views.egg-info/top_level.txt
+qs_views/apps.py
+qs_views/models.py
+qs_views/utils.py
+tests/test_models.py
+tests/test_settings.py
