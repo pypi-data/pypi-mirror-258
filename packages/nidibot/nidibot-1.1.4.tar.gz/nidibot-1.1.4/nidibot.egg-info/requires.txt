@@ -1,0 +1,10 @@
+dacite
+ftputil
+hikari
+hikari-lightbulb
+paramiko
+python-telegram-bot
+requests
+
+[test]
+pytest
