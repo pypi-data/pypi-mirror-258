@@ -1,0 +1,15 @@
+minio_extensions/__init__.py,sha256=0VTzUua7tsGMdLpgtNHMtvY15S25Gs4RSZ-l3CBXeQo,307
+minio_extensions/_typing.py,sha256=LKsRMva7cYrD0cyBa2C8uIg-EZJH9jANj8zQqd15Wf8,506
+minio_extensions/abstractions.py,sha256=0TsW5cqIE0yDbDF_dEG07vdajaaImIo-5EWUJA875zY,785
+minio_extensions/environment.py,sha256=YzfstX4sW31uuO9i7Kc5wkAUmx0NGd3KPzrXecIDkzU,5134
+minio_extensions/exceptions.py,sha256=_fRQee__CmXifnxROafe7GpJ_l0agu7nqvOD3dTP_ec,692
+minio_extensions/extensions.py,sha256=tfQDDPYDbxx1C0EXbOb--SDcgpcZ-816DEbulsRqcNc,22756
+minio_extensions/providers.py,sha256=7BBaZH56W1IA9wUjbLldYAjfBlNFP--i1P_1WCeIgKo,5023
+minio_extensions/metadata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minio_extensions/metadata/constants.py,sha256=NqflmAmIFcPWGAwMliAm2EoHO_WTlK0sYB82nAnUlgA,890
+minio_extensions/metadata/metadata.py,sha256=3sG1x69rbyXfMs0FmkkQfh7DIAd-KEhivgUH2vv5ayU,6526
+minio_extensions-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+minio_extensions-0.1.0.dist-info/METADATA,sha256=KuQF3SRiQ_ilvqjPsUadQut3Zv_iA07TpjVnEuhlpno,1569
+minio_extensions-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+minio_extensions-0.1.0.dist-info/top_level.txt,sha256=4U1Mlj0hllQangczh8akEQTtfhwHCRonQ1RfYlS2rDU,17
+minio_extensions-0.1.0.dist-info/RECORD,,

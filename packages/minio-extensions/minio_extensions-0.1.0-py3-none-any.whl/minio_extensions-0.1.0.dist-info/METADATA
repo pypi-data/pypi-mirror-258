@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: minio_extensions
+Version: 0.1.0
+Summary: MinIO Python Extension Package for S3 Storage Operations
+Home-page: https://github.com/chrisbewz/minio-extensions
+Author: Christian Celso Bewzenko
+Author-email: crisbewz@gmail.com
+License: Apache-2.0
+Keywords: minio,minio-extensions
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: minio
+Requires-Dist: urllib3
+Requires-Dist: pydantic
+Requires-Dist: typing
+Requires-Dist: typing-extensions
+Requires-Dist: python-dotenv
+
+# minio-extensions
+
+## Install the MinIO Extensions Package
+
+The Python SDK requires Python version 3.8+.
+You can install the SDK with `pip` or from the [`minio-extensions` GitHub repository](https://github.com/chrisbewz/minio-extensions):
+
+### Using `pip`
+
+```sh
+pip3 install minio-extensions
+```
+
+### Using Source From GitHub
+
+```sh
+git clone https://github.com/chrisbewz/minio-extensions/
+cd minio-extensions
+python setup.py install
