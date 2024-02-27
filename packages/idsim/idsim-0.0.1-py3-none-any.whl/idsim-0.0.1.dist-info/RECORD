@@ -1,0 +1,15 @@
+idsim/__init__.py,sha256=nie-a1FCSVMg_UtD7ZBWYpd7pflN1WGLb-wTLgWqB9U,37
+idsim/detector.py,sha256=ASdKXICLJfWBrdS28pFYFx3GWo81UxQ_HPTJ8i70MGc,3278
+idsim/loss.py,sha256=1xdldYVCGmjsWvCRqR3cUkmz2DQkbqe1dlsPzgXmVaY,5998
+idsim/core/__init__.py,sha256=Te9KnuVUxZLx5YLS7ATspQvzQexaW-VRi9IFJaxf4WU,4353
+idsim/core/iresnet.py,sha256=e7EJoGjtXKrlY7NyukFS8faSv4Wi1tP6fCB78bIUZcE,7788
+idsim/core/iresnet2060.py,sha256=F62mWHQpS7z4SfK60uoauUoKrM__x8bpsLxOAXGElQs,6697
+idsim/core/mobilefacenet.py,sha256=53vMYfj31LFW7hWkz7pFBDPw_xm8ZtLvC38m_wcOHCQ,7153
+idsim/core/vit.py,sha256=kngIVhtzdnROEi7Xs2ompYztowshxe3Y9BSJ51JjjZg,11173
+idsim-0.0.1.data/data/requirements.txt,sha256=GjB-kiYVlnDEj6b3dnHqUH4jH-84CFlugDoOT8LiXmU,118
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_inference.py,sha256=McASwpk3i8DkM17p0NYcKUQg3-LNnSP22bkmfF7yrlk,1628
+idsim-0.0.1.dist-info/METADATA,sha256=cfmsY6s4b_5bRvyXHG3Qt-xaXqaMLCB6J3eyvQS_G7Y,3231
+idsim-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+idsim-0.0.1.dist-info/top_level.txt,sha256=SF1nlWh0h1-HR1wXnsYlB-eXG8vbzdnMoAbcn7ztdOI,12
+idsim-0.0.1.dist-info/RECORD,,
