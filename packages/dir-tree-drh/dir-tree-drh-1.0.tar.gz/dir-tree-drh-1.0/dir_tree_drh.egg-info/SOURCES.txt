@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dir_tree_drh.egg-info/PKG-INFO
+dir_tree_drh.egg-info/SOURCES.txt
+dir_tree_drh.egg-info/dependency_links.txt
+dir_tree_drh.egg-info/entry_points.txt
+dir_tree_drh.egg-info/top_level.txt
+dir_tree_structure/__init__.py
+dir_tree_structure/main.py
