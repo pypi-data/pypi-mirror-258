@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tonic-ragas-logger
+Version: 1.0.1
+Summary: Uploads results from ragas to Tonic Validate.
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: ragas (>=0.1.2,<0.2.0)
+Requires-Dist: tonic-validate (>=3.2.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Tonic Validate Ragas Logger
+ 
+The Tonic Validate Ragas Logger is a tool to upload your results from Ragas to the Tonic Validate UI for visualization. The UI is completely free to use. To get started, install the `validate-ragas-logger` library.
+
+```bash
+tonic-ragas-logger
+```
