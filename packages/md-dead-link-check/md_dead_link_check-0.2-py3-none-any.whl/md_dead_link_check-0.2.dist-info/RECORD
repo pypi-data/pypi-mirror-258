@@ -1,0 +1,9 @@
+md_dead_link_check/__main__.py,sha256=e3PrQ6D61qQjTL2-4EvEptLNJPGQ3DJtHEbEtsBjP9w,2107
+md_dead_link_check/config.py,sha256=QTlvHvQ9RTeGmrKqC1JjUVCHOWsXhf0o1lyD7SjGQUs,1112
+md_dead_link_check/link_checker.py,sha256=9ZJDisuxD_zStPrOA5e0YGR8NyCJ43r2niIJKmrGOZE,5560
+md_dead_link_check/preprocess.py,sha256=XNsNsgw_ve_u-3bZnF9tsWGIitUA9_veAsLGGN1igA4,3279
+md_dead_link_check-0.2.dist-info/METADATA,sha256=CX3dZfkqzX8mo7wSELGLu4bXaSfFHUcSPBk23gSvYgg,16449
+md_dead_link_check-0.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+md_dead_link_check-0.2.dist-info/entry_points.txt,sha256=LFg1viCmFRyLjeobyJRqE7VQqZMIyNMSVM75uV2grDM,72
+md_dead_link_check-0.2.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+md_dead_link_check-0.2.dist-info/RECORD,,
