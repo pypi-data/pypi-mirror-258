@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+psgreddit/LICENSE.txt
+psgreddit/README.md
+psgreddit/__init__.py
+psgreddit/__main__.py
+psgreddit/psgreddit.py
+psgreddit/screenshot.png
+psgreddit/screenshotA.png
+psgreddit.egg-info/PKG-INFO
+psgreddit.egg-info/SOURCES.txt
+psgreddit.egg-info/dependency_links.txt
+psgreddit.egg-info/entry_points.txt
+psgreddit.egg-info/requires.txt
+psgreddit.egg-info/top_level.txt
