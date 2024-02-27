@@ -1,0 +1,259 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+This project adheres to [Semantic Versioning](http://semver.org/), within
+reason.
+
+## [NEXT] - YYYY-MM-DD
+
+## 1.3.7 - 2024-02-26
+
+Minor fix to actors that only have a main generator
+
+## [1.3.6] - (bumped, 1.3.7 was next release)
+
+Bumped minor version number to 3 since we have dropped python 2 support. 
+The reason why the major version number hasn't changed is because the API
+has not changed for python 3 users (yet).  However the API being no longer
+available for py2 users is a breaking change, so the version number should
+be bumped. 
+
+This means that should I need to have security fixes for py2 I can start a
+1.2.x version tree, and versions less than 1.2 can be applied for py2 by
+simply searching for VER <= 1.3.0
+
+* New features
+  - Initial version of the promises API
+     * guild.promise - core code
+     * guild.exceptions - extracted out for clarity
+     * guild.actor - uses promises in actor functions by default, extensions
+       to provide a mechanism for using any regular actor function as a
+       promise instead of blocking
+  - Allow promises to be cancelled before execution
+  - Allow an STM store to have specific custom values.  The reason behind
+    this is to allow correct copying of things like SDL/pygame surfaces
+  - When committing a value to the STM you can now recieve a copy back of
+    the updated value
+
+  - An STM snapshot (checkout of values) can now pull updated versions from
+    the STM Store.  This is ala a git pull - the changes are fetched and
+    merged into your snapshot.  You *also* get a list of the values that
+    have changed.
+
+  - Update examples/sketch/pygame_test to be completely threadsafe, by using
+    the new features of the STM:
+      * To use a custom Value type for copying surfaces - SurfaceValue
+      * to push values into the store.
+      * To store requests surfaces in an STM store not a list
+      * Uses the pull_updates method to update its local checkout (which
+        will change when clients push changes to their surfaces).  This also
+        is used for updating the display when surfaces change.
+      * This means the pygame_test is quickly becoming an exemplar on how
+        the STM can and should be used
+
+* New experimental things
+  - Experimental sketches from guildpp merged into this codebase.  (Work
+    towards a currently hypothetical C++ implementation of guild)
+    (This is stuff from 2019 through 2022)
+
+* Deprecate use of "gen_process" over "main", including changing the
+  following to use main:
+
+  - guild.av.AudioCapture
+  - guild.av.WebCamTest
+  - guild.network.Selector
+  - Docs: README.md, setup.py, site/src/index.html
+  - guild.qtactor.QtActorMixin
+  - examples/qt_video_player.Player
+  - examples/99bottles.Follow
+  - examples/blog/log_watcher.Follow
+  - examples/blog/recording_webcam.Camera
+  - examples/sketch/pygame_test.Display
+
+* Python3 related updates:
+   * quild.actor stop & exception handing updated
+   * examples/99bottles.Follow file handing updated
+   * Diched used of "six" - remove python2 support
+   * examples/blog/accounts-[1,2,3].py - largedly print related(!)
+   * examples/blog/accounts-stm-[1,2,3].py - largedly print related(!)
+   * examples/blog/accounts-stm.py - largedly print related(!)
+   * examples/blog/log_watcher - use "open" not "file"
+   * examples/blog/recording_webcam - exceptions
+   * examples/backplane_demo - print function
+   * examples/dogs_go_woof_actors.py - remove future import
+   * guild.stm.Store - locking updated to match changed API in py3.2
+
+* Other updates:
+   * guild.qtactor and examples/qu_video_player updated to Qt5
+   * examples/sketch/pygame_test
+      - Restructured code re tracking of surfaces
+      - Then much later, lots of updates to use new features (see above)
+
+* Code Cleanups
+   * Callback maker functions (eg @actor_method) extracted from inline
+   * Remove race hazard in shutdown of process_method actors
+   * Ensure process_method actors stop if there's any exception raised
+     withing them
+   * process_methods stopped from rescheduling when stopping
+   * process_methods set to stopped when they exit
+   * fix examples/sketch/pygame_test to run flicker free, and cleanly under
+     plasma/KDE
+   * Minor change to guild.av.AudioCapture to improve capture quality &
+     flexibility
+   * example/av_record.py updates to list required libraries
+   * Old version of actor_function removed
+   * examples/blog/accounts-stm.py
+      - Make timeout time match comment
+      - Account checkout pulled into a separate function
+      - Handle retry exception
+   * Add join (synonym for wait_for) since like start() it matches the
+     thread API
+
+## [1.1.6] - 2021-09-04
+
+Version bumped to keep ppa packaging happy.
+
+* Update stdeb.cfg for python3 building on launchpad properly
+  - Incorrectly still assumed python2 build environment.
+  - Bumped version suite
+  - Incorrect dependencies removed
+  - Correct dependency AND build dependencies added
+  - Python version bumped to match current state"
+
+* Fix RST formatting in doc string
+  Previously used a heading line that was informally accepted by
+  PYPI RST parser, but is now rejected. Fixed.
+
+(not released to pypi since changes to primarily keep Launchpad happy)
+
+## [1.1.5] - 2021-09-04
+
+Version bumped to keep ppa packaging happy.
+
+(not released to pypi since changes to primarily keep Launchpad happy)
+
+## [1.1.4] - 2021-09-03
+
+Bunch of minor changes improving the interface.
+
+* Enable tracing of actor calls
+  Periodcally it's useful to see what's actually being transferred between
+  which actors. Having this as a flag that can be set ...
+
+      import guild
+      guild.trace_actor_calls =  True
+
+  ... makes this quite simple/useful.
+
+* Update `Makefile` targets
+  The makefile is used as an interface for a bunch of useful things to do.
+  Sign posting which bits to use I think is useful, hence the updates.
+
+* Drop support for python2 builds
+  Been using python3 pretty exclusively for a while, and python2 was EOL a
+  while back, so dropping support here seems reasonable.
+
+* Process incoming messages before main loop
+  These were done after the main loop. However this led to to some minor
+  oddities - such as if an actor has a number of late bound methods, you
+  needed a matching number of yields before you could assume they've been
+  dealt with.
+
+  It will become clear at some point whether this is a good idea or a bad
+  one, but for now it's a better decision than the one before.
+
+* When the main loop generator exits, set stop flag
+  This is to match the intent - which is to run one generator and then
+  stop. This may in itself be changed at some point (for example to handle
+  certain sorts of state machine better - RTSP springs to mind), but for
+  now this seems a reasonable plan. (It's better than the thread
+  continuing to run but not actually have any work to do!)
+
+* Allow use of `main()` as well as `gen_process()`
+  It's more intuitive to use `main()` as the main loop (if any) of the
+  actor. More intuitive than `gen_process()` at least - so you can
+  now use `main()` instead. At some point `gen_process()` will become
+  deprecated, but it's been the core name for a while, so it can stay for
+  now.
+
+* Make calls to unbound late bound methods report which one is bust
+  Before was not very helpful:
+
+      guild.actor.UnboundActorMethod: Call to Unbound Latebind
+
+  How it's more helpful:
+
+      guild.actor.UnboundActorMethod: ('Call to Unbound Latebind', <function Client.get_new_frame at 0x7fc07c3654c0>)
+
+  Could be prettier, but it's more useful this way.
+
+* Ensure that generator in main thread is a generator
+
+In order to run the thread mainloop, we run a generator alongside the
+interactions needed for the actor (outbound/inbound queues).
+
+Given that the function the user supplies must be a generator or else
+there will be subtle errors that start creeping in. So we now enforce
+this by checking the code object before starting it. Raises a ValueError
+(which is perhaps wrong error) if the function isn't a generator (which
+is technically a value error, but perhaps something better might be
+useful)
+
+## [1.1.3] - 2017-03-23
+
+* Added experimental "strace" style trace support
+* Added some initial TCP networking tools (select based server/sockets)
+  to the existing multicast examples
+* Added a simple echo server and tracing/debug example
+* Added overview/ref documentation of guild actors
+
+## [1.0.3] - 2015-07-28
+
+* Fix packaging details on PyPI and Launchpad
+
+## [1.0.2] - 2015-07-28
+
+### New
+
+* Support for exporting values from the store. The idea behind this is to
+  support read only views
+
+### Other
+
+* Pygame example. (Uses the exported values)
+* Initial version of website for Guild. Also to be used to create in-package
+  documentation
+* Explicitly allow use in GPL projects in license.
+
+## [1.0.1] - 2015-03-04
+
+Releases prior to 1.0.2 did not use this form of changelog.
+
+This release was published to pypi on 2015-03-04, and rolled up changed by
+Jim Easterbrook and Michael Sparks.  These can be summarised as:
+
+* Documentation improvemenst
+* Start to use functools in decorators
+* Capture metadata
+* Support for Qt based actors. (relates to event loops/etc) Qt Examples
+  added
+* Initial Python 3 support
+* Improved packaging (in theory)
+* Add in the retry decorator from examples into core and fixed examples to
+  pull retry in from core
+* Disable bogus guildservice
+* Basic error logging added to example
+* Added Inboxes/Outboxes to support guild.kamaelia
+* Cleanup timeout handling in actor function calls
+* First set of tests using "behave" - these may start to form formal specs
+  for guild as time moves on.
+
+## [1.0.0] - 2014-02-10
+
+Releases prior to 1.0.2 did not use this form of changelog. 
+
+In the dev log however the code was first published to github on 2014-02-10,
+and followed by fairly regular development. This initial development period
+- fleshing out details, removing bugs etc finished on 2014-04-03, so that's
+why that's listed as the release date for 1.0.0
+

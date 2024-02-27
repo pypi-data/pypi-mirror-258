@@ -1,0 +1,41 @@
+#!/usr/bin/python
+
+
+import time
+from guild.actor import *
+
+
+class Woofie(Actor):
+    @actor_method
+    def bark(self):
+        print("woof")
+
+    @actor_function
+    def name(self):
+        return "woofie"
+
+class Barkie(Actor):
+    @actor_method
+    def bark(self):
+        print("bark")
+
+    @actor_function
+    def name(self):
+        return "barkie"
+
+woofie = Woofie()
+barkie = Barkie()
+
+woofie.start()
+barkie.start()
+
+time.sleep(0.01)     # Give woofie a chance
+name = woofie.name()
+print("NAME", name)
+
+bname = barkie.name()
+print("BARKIE NAME", bname)
+
+woofie.bark()
+woofie.stop()
+woofie.join()
