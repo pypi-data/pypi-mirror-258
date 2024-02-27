@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request_target:
+    types: [labeled]
+
+jobs:
+  lint_and_typecheck:
+    if: ${{ github.event_name == 'push' || github.event.label.name == 'run-ci' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: check changes
+        uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            sources:
+              - src/**
+              - tests/**
+              - scripts/**
+
+      - name: Install Rye
+        if: steps.changes.outputs.sources == 'true'
+        uses: eifinger/setup-rye@v1
+        with:
+          enable-cache: true
+          cache-prefix: "refiners-rye-cache"
+
+      - name: add home shims dir to PATH
+        if: steps.changes.outputs.sources == 'true'
+        run: echo "$HOME/.rye/shims" >> $GITHUB_PATH
+
+      - name: pin python
+        if: steps.changes.outputs.sources == 'true'
+        run: rye pin 3.10
+
+      - name: rye sync
+        if: steps.changes.outputs.sources == 'true'
+        run: rye sync --all-features
+
+      - name: ruff format
+        if: steps.changes.outputs.sources == 'true'
+        run: rye run ruff format --check .
+
+      - name: ruff check
+        if: steps.changes.outputs.sources == 'true'
+        run: rye run ruff check .
+
+      - name: typecheck
+        if: steps.changes.outputs.sources == 'true'
+        run: rye run pyright
