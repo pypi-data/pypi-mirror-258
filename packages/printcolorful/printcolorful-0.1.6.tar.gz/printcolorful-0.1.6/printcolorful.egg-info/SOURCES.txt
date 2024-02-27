@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+printcolorful.egg-info/PKG-INFO
+printcolorful.egg-info/SOURCES.txt
+printcolorful.egg-info/dependency_links.txt
+printcolorful.egg-info/requires.txt
+printcolorful.egg-info/top_level.txt
+printk/__init__.py
+printk/printk.py
