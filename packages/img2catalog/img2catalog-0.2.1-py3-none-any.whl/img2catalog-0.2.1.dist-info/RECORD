@@ -1,0 +1,14 @@
+img2catalog/__about__.py,sha256=7VyHp48OUTQQUylqTtD2KYmDnZ1N5qU2-WFiy4BFYEo,23
+img2catalog/__init__.py,sha256=L7hj7zwT4LE0tkJAhB6qVCRd6-CL3U9yZj2sP9O0G_s,90
+img2catalog/__main__.py,sha256=xPF-wQMMmtADX37jx5Y7glrbKjNujGiW9-vBRuvysV8,79
+img2catalog/cli_app.py,sha256=Kd8AIV1X2tD5OShvkvshpwiGi5S1T2ht97hw0y8Ru0M,11049
+img2catalog/const.py,sha256=SDaauwql0UYHCpVEyiIO_kXaqO6d-UIzz3H7sEYBocA,480
+img2catalog/dcat_model.py,sha256=h1RnNrIyzdysUGu4yo07tB1t9PSA3wDnVQ6aocKSfwI,8569
+img2catalog/fdpclient.py,sha256=-cHb0wwBMi4TbbvcTzr4tA6t9mx08a_c0zWYpEiSiB0,9032
+img2catalog/logger.py,sha256=psKP7xF16xF-OuscWZ98mlLSv69y4848WnUbc2wvzqU,2660
+img2catalog/xnat_parser.py,sha256=qaGIWCr460W8s-dFR9tMlFuj8SAHYLBVyMn3Oc8b1Go,12092
+img2catalog-0.2.1.dist-info/METADATA,sha256=kpXdFPZj_oDZFvG7pyiCODEPExBmSTkkccCKXZ68PjU,8698
+img2catalog-0.2.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+img2catalog-0.2.1.dist-info/entry_points.txt,sha256=GF2K-4Y-wIB3eHcOem4HoZJlqV94JKdp6rLet7-S1GE,118
+img2catalog-0.2.1.dist-info/licenses/LICENSE.md,sha256=sFKUMmLTUZ35Whl6GQZ4fHhSX5i4zo_g9Fcx16W_crE,1140
+img2catalog-0.2.1.dist-info/RECORD,,
