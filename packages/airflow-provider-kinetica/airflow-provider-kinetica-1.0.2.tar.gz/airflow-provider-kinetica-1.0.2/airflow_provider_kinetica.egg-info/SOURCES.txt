@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+airflow_provider_kinetica.egg-info/PKG-INFO
+airflow_provider_kinetica.egg-info/SOURCES.txt
+airflow_provider_kinetica.egg-info/dependency_links.txt
+airflow_provider_kinetica.egg-info/entry_points.txt
+airflow_provider_kinetica.egg-info/requires.txt
+airflow_provider_kinetica.egg-info/top_level.txt
+kinetica_provider/__init__.py
+kinetica_provider/get_provider_info.py
+kinetica_provider/hooks/__init__.py
+kinetica_provider/hooks/sql.py
+kinetica_provider/operator/__init__.py
+kinetica_provider/operator/spark.py
+kinetica_provider/operator/sql.py
