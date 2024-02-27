@@ -1,0 +1,11 @@
+tuf_on_ci_sign/__init__.py,sha256=0K9kH0RApKBsr-jiY2No-b1bqujVgEVcfswaa8maXfY,180
+tuf_on_ci_sign/_common.py,sha256=uh6jrdDonMRi7vwp3Y6W3Ko_4NxERbOWPmk_q-az9PE,3380
+tuf_on_ci_sign/_signer_repository.py,sha256=E0Y_xC6fPtYwt7F3ZbaRQ6vIAWyiYLRyxDuq5xvQWHc,27659
+tuf_on_ci_sign/_user.py,sha256=G0F1QxNsxUHdswKCbWlJ1zTI6ot2jDz326QyIEEzOvY,3815
+tuf_on_ci_sign/delegate.py,sha256=spYDbX_Lrx6njr4eqsopHHHs1revtpRU0E9JB9rRC2Q,14216
+tuf_on_ci_sign/import_repo.py,sha256=ZyPUcxXbFdodhCkIhpvKqxevBXDnfUQRTVOd6GIIuXw,8081
+tuf_on_ci_sign/sign.py,sha256=oHnN6GSnvYH1vjLyK4tVeARddBP6jmjLJnBQaS-xdUI,3243
+tuf_on_ci_sign-0.7.0.dist-info/METADATA,sha256=53KYGGNcqxa1G4DSWl6YYiqEdS2-pNP_atkXO-xuHAQ,459
+tuf_on_ci_sign-0.7.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+tuf_on_ci_sign-0.7.0.dist-info/entry_points.txt,sha256=JYXBCPR8dFNKMVh5PrspJyek5MXzLNR-32GK8i5gpL4,151
+tuf_on_ci_sign-0.7.0.dist-info/RECORD,,
