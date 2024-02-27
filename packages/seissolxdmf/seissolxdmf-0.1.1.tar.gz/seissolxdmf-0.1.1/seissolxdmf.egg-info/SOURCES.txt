@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+seissolxdmf/__init__.py
+seissolxdmf/seissolxdmf.py
+seissolxdmf.egg-info/PKG-INFO
+seissolxdmf.egg-info/SOURCES.txt
+seissolxdmf.egg-info/dependency_links.txt
+seissolxdmf.egg-info/requires.txt
+seissolxdmf.egg-info/top_level.txt
