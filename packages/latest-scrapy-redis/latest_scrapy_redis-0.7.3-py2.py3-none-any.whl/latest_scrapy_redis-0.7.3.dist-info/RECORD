@@ -1,0 +1,17 @@
+scrapy_redis/__init__.py,sha256=I-pLC-8_h70-8XGlXggjC_8L4vkyp1jYib3-6_IZJaQ,193
+scrapy_redis/connection.py,sha256=Svz4D-Y4XaDoj8FTTxzef9RuKIlVp9PV6Rvlr32-svk,2638
+scrapy_redis/defaults.py,sha256=O2a9NXu2c1WAV4cqbVh2VWIBqJMq-ww_gnPPi43RQ9o,764
+scrapy_redis/dupefilter.py,sha256=-FyglAJYCmNzOqM8thgI8jwDSbuDjw5DgP7NjyfnAqI,4784
+scrapy_redis/picklecompat.py,sha256=yny-2gjbzFyU8O2g4yVQ1_NP9kRP_2DZ2tdfWJcgi30,242
+scrapy_redis/pipelines.py,sha256=feyTU15Xm1Y5QYvyaAIEcdu2OBNvwRfB9A9ZKZu9wOI,2083
+scrapy_redis/queue.py,sha256=JEBXLavDQ3exqbe9EQ0kTzZ4AxrfOSe948JuxZEx1-s,4547
+scrapy_redis/scheduler.py,sha256=reEAnobXY3eYMRfD0w3B2dmjE_ZfUQUMxT9wysyFGVk,5730
+scrapy_redis/spiders.py,sha256=1k08V7Vb2QeMX7RbG3jsa0gQuAvM0YRyqwrxTrV7-co,10618
+scrapy_redis/stats.py,sha256=vjtkuDj15HQGdRzVVhDI68pOu8l6J_McZHQ3ILL0rPw,3201
+scrapy_redis/utils.py,sha256=k6qogJLt0n2nMbJGMuRNYTGV6fHSEqOWIelHEobWdYE,1100
+latest_scrapy_redis-0.7.3.dist-info/AUTHORS.rst,sha256=10QwwcCTeeKRtkOCJJX9vjg_rfDK11fVeT1xgpO7BOA,160
+latest_scrapy_redis-0.7.3.dist-info/LICENSE,sha256=-IgsDWrWZeLLemElosfdQYsCvrM0FelDn48w9PBu8Dw,1061
+latest_scrapy_redis-0.7.3.dist-info/METADATA,sha256=YzWYtsXa1aTlV_gUSzLgS-c7HpEq5WbxQdhe_g0Ma6U,7958
+latest_scrapy_redis-0.7.3.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+latest_scrapy_redis-0.7.3.dist-info/top_level.txt,sha256=Sz48Fwtrrort4ebSUHT7u3etgn_Iox3gmWv_D-unNd4,13
+latest_scrapy_redis-0.7.3.dist-info/RECORD,,
