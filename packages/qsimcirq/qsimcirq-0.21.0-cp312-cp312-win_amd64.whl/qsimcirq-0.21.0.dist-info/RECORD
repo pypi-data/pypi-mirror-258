@@ -1,0 +1,16 @@
+qsimcirq/__init__.py,sha256=UVI_URCjQVPcXaNsWybmFS0wR0YgcRq8yDWAXsTi984,1966
+qsimcirq/_version.py,sha256=0FEFpu9BvntE3uRzINCtFXK_mMS4GFbJBx_n3pkBheM,100
+qsimcirq/py.typed,sha256=-iPtxftU8G1qwXw8jhb2RRoV38oTBriahST6CMXv_qY,60
+qsimcirq/qsim_avx2.cp312-win_amd64.pyd,sha256=NJ9oL8TgCOaY3VLphPiDH7ro9XIKbwKusqc67jD1FhQ,706048
+qsimcirq/qsim_avx512.cp312-win_amd64.pyd,sha256=7KqR6qfQz5129kC2FDHOQkgHCIbRX2s8WYZbIomt260,706560
+qsimcirq/qsim_basic.cp312-win_amd64.pyd,sha256=8UC_-pM76MYPMnb5Anz_CEkKzsZ_ccIeiEqPJ-KFh88,564224
+qsimcirq/qsim_circuit.py,sha256=zdF-niD9pFtxcowyyufePu8KkcQuD-lg-h_S-kyXT84,19467
+qsimcirq/qsim_decide.cp312-win_amd64.pyd,sha256=fhLdgsCRD6pbucpXM7Fdkk_9hxb-8CUBgdtv2OUfb8M,113152
+qsimcirq/qsim_simulator.py,sha256=n7Wes5JX9m7C2VOpeU8sXU1gv_RMAGO8VyqE2M90uBY,35564
+qsimcirq/qsim_sse.cp312-win_amd64.pyd,sha256=vPfyaNUGkNSvNY1tbCWZg0m24JKZY1EiM6gQdMKo6_0,684544
+qsimcirq/qsimh_simulator.py,sha256=KaOFIpO_NquNnvkJEtBP0iSyqfvrbyL7K0TuVgnAJMc,2884
+qsimcirq-0.21.0.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+qsimcirq-0.21.0.dist-info/METADATA,sha256=3nnY-xF3gwYD-RBvF-DHorRQXSYGqNbb4veEz6SgcBw,6517
+qsimcirq-0.21.0.dist-info/WHEEL,sha256=j9Aissza3750LQHFAQyYerNjmkEON1-8w_RaZNFtKSs,102
+qsimcirq-0.21.0.dist-info/top_level.txt,sha256=GL2B7YIG5KQvXSwycP3eT7Kvyeg2SyOdh2SdQbK5mBs,170
+qsimcirq-0.21.0.dist-info/RECORD,,
