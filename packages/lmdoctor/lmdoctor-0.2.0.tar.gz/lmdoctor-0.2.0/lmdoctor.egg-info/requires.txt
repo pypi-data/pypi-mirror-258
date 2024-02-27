@@ -1,0 +1,4 @@
+transformers>=4.32.0
+torch
+plotly
+tokenizers>=0.13.3

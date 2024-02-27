@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+lmdoctor/__init__.py
+lmdoctor.egg-info/PKG-INFO
+lmdoctor.egg-info/SOURCES.txt
+lmdoctor.egg-info/dependency_links.txt
+lmdoctor.egg-info/requires.txt
+lmdoctor.egg-info/top_level.txt
