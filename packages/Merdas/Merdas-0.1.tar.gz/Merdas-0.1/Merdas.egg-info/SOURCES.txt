@@ -1,0 +1,5 @@
+setup.py
+Merdas.egg-info/PKG-INFO
+Merdas.egg-info/SOURCES.txt
+Merdas.egg-info/dependency_links.txt
+Merdas.egg-info/top_level.txt
