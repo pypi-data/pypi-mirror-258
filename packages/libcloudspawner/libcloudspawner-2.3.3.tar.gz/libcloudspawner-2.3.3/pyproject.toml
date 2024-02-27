@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "libcloudspawner"
+dynamic = ["version"]
+authors = [
+  { name="Tristan Le Toullec", email="tristan.letoullec@cnrs.fr" },
+]
+description = "JupyterHub Spawner for clouds"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Development Status :: 5 - Production/Stable",
+]
+dependencies = [
+    "jinja2",
+    "jupyterhub>=4.0.0",
+    "apache-libcloud"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jupytercloud-project/jupyterhub-libcloudspawner"
+"Documentation" = "https://libcloudspawner.readthedocs.io/en/latest/"
+"Bug Tracker" = "https://github.com/jupytercloud-project/jupyterhub-libcloudspawner/issues"
+
+[tool.hatch.version]
+path = "libcloudspawner/__about__.py"
