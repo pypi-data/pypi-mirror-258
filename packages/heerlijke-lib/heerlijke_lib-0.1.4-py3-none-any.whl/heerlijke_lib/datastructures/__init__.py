@@ -1,0 +1,1 @@
+from .case_insensitive_strenum import CaseInsensitiveStrEnum
