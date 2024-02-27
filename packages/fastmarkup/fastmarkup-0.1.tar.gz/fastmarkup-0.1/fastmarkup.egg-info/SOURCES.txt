@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastmarkup/__init__.py
+fastmarkup/components.py
+fastmarkup/elements.py
+fastmarkup.egg-info/PKG-INFO
+fastmarkup.egg-info/SOURCES.txt
+fastmarkup.egg-info/dependency_links.txt
+fastmarkup.egg-info/top_level.txt
