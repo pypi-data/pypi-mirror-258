@@ -1,0 +1,9 @@
+pyrfd/__init__.py,sha256=iSfkdltjUmu1Sy26ccOSOBjKHaHc8KbRXxD1h-4EzZs,69
+pyrfd/__main__.py,sha256=vPFwOp-PPD8tLW6QcuHFw2JeqQlPh4A3Z02HpVUnGys,516
+pyrfd/batchsize.py,sha256=rByML-FMIS8VQnhd1QdqA_DfMihIIWD6PvxLAnMGWAA,4865
+pyrfd/covariance.py,sha256=0ydom2eICTjjNDrb0oXyHmTim23Img2T6FqzEa9-POc,15796
+pyrfd/optimizer.py,sha256=3Ei_jnD3Nm3iZ3BuseTka_Tjc5IYpDmMKImE6l2tgCc,2083
+pyrfd/sampling.py,sha256=2kToTkdtc7bN4_8cK1qYguyNS9yvBERlD0UWzEcw6Fc,3523
+pyrfd-0.1.0.dist-info/METADATA,sha256=mBv7MHXmFBHkctUm51DVCs5NdOw5Ma86lq9nOnWdgBM,2134
+pyrfd-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pyrfd-0.1.0.dist-info/RECORD,,
