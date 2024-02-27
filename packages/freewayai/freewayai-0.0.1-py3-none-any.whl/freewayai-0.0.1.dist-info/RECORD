@@ -1,0 +1,12 @@
+freewayai/__init__.py,sha256=Xx_vOBSCWqkxpt4GQCAE_NS9H1JfA6i5jPlw85NoLH4,127
+freewayai/database_query_template_format.py,sha256=uN8kGcwWgoWHf5fv2YUT1ocO_3lbEu4PwsoLv4miLY0,551
+freewayai/llm_system.py,sha256=W5DJZCT7Dh0ftxgFoydrNNs7XXPuPntnZdB9Wbr2fag,910
+freewayai/prompt_formatted.py,sha256=QgknIW76s7L8Ht2q7rivBhTIigQV_QkLB6eK2ulN2rw,1055
+freewayai/prompt_messages_to_provider_format.py,sha256=5Ph9yw47yRC_Gg0MTDly8e8wLzm-rjlRR6k6kib3WsE,3394
+freewayai/prompt_template_format.py,sha256=ra5E0yRJiHqLH7SxLxPGA_cCx2I7Q0EX4-Sz_1Mf3rg,1711
+freewayai/utilities.py,sha256=nhuS5_Ms8n9LQKoxLWs7AW-mwRsawAGsvPNMjm5h6gs,853
+freewayai-0.0.1.dist-info/LICENSE,sha256=wjLX6vJHDtXLYI6UIQLp_KxVGVcWbQ87_EH5ozv9QT0,1074
+freewayai-0.0.1.dist-info/METADATA,sha256=nu5c8W-mdO38EvjMerXa7YzKbdOFQ6MBSSh82Sfd-gk,585
+freewayai-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+freewayai-0.0.1.dist-info/top_level.txt,sha256=vWWdcsAx9XVns8LQtT9kt1DIV2RMT46C4GtjcRQaAfE,10
+freewayai-0.0.1.dist-info/RECORD,,
