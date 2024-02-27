@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: quickkeys
+Version: 0.0.1
+Summary: Creating Strong passwords and OTP
+Author: Mohammed shibil K (shibilmohd13)
+Author-email: shibilmhdjr13@gmail.com
+Keywords: python,password,otp
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+Boost your app's security with quickkeys. Easily generate time-based OTPs and customizable passwords. Simple, powerful, and secure.
