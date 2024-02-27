@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: meta-agent
+Version: 0.1.0
+Summary: An Agent can generate toolkits based on LLM
+License: MIT
+Author: arcstep
+Author-email: 43801@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# meta_agent
+An Agent can generate toolkits based on LLM
+
