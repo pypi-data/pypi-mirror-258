@@ -1,0 +1,9 @@
+setup.py
+src/tiny_ta/__init__.py
+src/tiny_ta/calc.py
+src/tiny_ta/candles.py
+src/tiny_ta.egg-info/PKG-INFO
+src/tiny_ta.egg-info/SOURCES.txt
+src/tiny_ta.egg-info/dependency_links.txt
+src/tiny_ta.egg-info/requires.txt
+src/tiny_ta.egg-info/top_level.txt
