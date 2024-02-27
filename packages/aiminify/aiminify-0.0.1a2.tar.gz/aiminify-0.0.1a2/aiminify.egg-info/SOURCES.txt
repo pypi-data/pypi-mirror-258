@@ -1,0 +1,6 @@
+setup.py
+aiminify/__init__.py
+aiminify.egg-info/PKG-INFO
+aiminify.egg-info/SOURCES.txt
+aiminify.egg-info/dependency_links.txt
+aiminify.egg-info/top_level.txt
