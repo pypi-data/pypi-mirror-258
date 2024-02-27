@@ -1,0 +1,16 @@
+simplemseed/__init__.py,sha256=g7tsaP7W5F2f6JJqj4NYIzq1OMsXuNhdgPBpfpq0UKM,1652
+simplemseed/bandcode.json,sha256=yJr4wVsyqzE-rhIm4GwUA9ERkuJJw-Epqcl7PRU9jQg,1909
+simplemseed/fdsnsourceid.py,sha256=SvUydOkL-9C3n2NKsg-bRqJriv5x9wfO10Onexw-omY,12624
+simplemseed/miniseed.py,sha256=s8qWpj0uigbxonsxWvHWHo6sRtPiwB9kEtO8s82v8Qo,23247
+simplemseed/mseed2to3.py,sha256=1oYlbgxTo_h1p3eXlKeNOLRwZOUcMC2j77cRMFPnoqg,4586
+simplemseed/mseed3.py,sha256=EYewc-B4gSuZ-vPfDFPUMQ7jN6LQV-1YtsMKr_YpIJk,24755
+simplemseed/mseed3details.py,sha256=C-zGMVgthfYSrR87sgZOiJOmph2xT4kG9v3GXMJwozY,7091
+simplemseed/mseed3merge.py,sha256=bn5vawydEtWLWckHOjoNEm33HHZnofYyYjEnU25IS6c,1201
+simplemseed/py.typed,sha256=la67KBlbjXN-_-DfGNcdOcjYumVpKG_Tkw-8n5dnGB4,8
+simplemseed/seedcodec.py,sha256=C4Wnw3Mk8rNvTduVu92_5dkVAljUkICNar9LMyul3yE,23351
+simplemseed/sourcecode.json,sha256=rd2hxXFR5GBeYw3L9aiU1-kmVHcoSQap4rGDE1qfzzg,5366
+simplemseed-0.2.2.dist-info/METADATA,sha256=TIgkPQGTXGU10vLXaaOCYPfInFUBB6U4t92-Re7_QX8,5946
+simplemseed-0.2.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+simplemseed-0.2.2.dist-info/entry_points.txt,sha256=F1Q_pYmQT8oZLV4iz5fpmBmEmsaDPOkGVflzZ8JgFmc,192
+simplemseed-0.2.2.dist-info/licenses/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+simplemseed-0.2.2.dist-info/RECORD,,
