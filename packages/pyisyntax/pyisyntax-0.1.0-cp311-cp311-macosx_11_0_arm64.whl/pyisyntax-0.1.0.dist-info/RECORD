@@ -1,0 +1,11 @@
+_pyisyntax.abi3.so,sha256=lMKEPkrHSX0s5NhM379dGh6o6NFYpqWveoyR4V9u9Q0,321024
+pyisyntax-0.1.0.dist-info/RECORD,,
+pyisyntax-0.1.0.dist-info/LICENSE,sha256=eKo8d-7o2VI1N6WpXbAPFDjlUt-zPcTh15qDBbmdvnc,1056
+pyisyntax-0.1.0.dist-info/WHEEL,sha256=qZ5gUYMG4t2JcLLcFLlOXld9g3WjqyANneXZkxLH8gU,110
+pyisyntax-0.1.0.dist-info/top_level.txt,sha256=AN4WEBKUcjQivO8_X2eugc6S8ViTNFJO-xKLOMbTbAw,19
+pyisyntax-0.1.0.dist-info/METADATA,sha256=yYy56pKE8-h72PN1gQFUoau3vzsiTj9CWtn9g_BVNI4,2290
+isyntax/wrapper.py,sha256=b5M21yIb9D7D6bR16y_lcqAHaCFeXHWqUIkv_ntAb8I,6887
+isyntax/__init__.py,sha256=m4BuPQ8bPeEoltBIpWdyHiZjXh4rTrnXyQxa71YtQNA,66
+isyntax/lowlevel/libisyntax.py,sha256=zR75XPpPsGrOmJMEMktWCKfUmukvzj34MRff6n3qA8Q,6947
+isyntax/lowlevel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+isyntax/lowlevel/io_management.py,sha256=gz0M0xy70kPTJeAdH2ETUB8vYBVq9WJCmhGIH2stkOQ,3227
