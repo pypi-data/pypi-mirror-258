@@ -1,0 +1,16 @@
+psgyolo/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgyolo/README.md,sha256=-A6y9X-8lQScPN4MCAcenig1kDZkyThoRy5KWJul1GE,4315
+psgyolo/__init__.py,sha256=ZdJyjSF9aTJY1PMl0nKXiW2yBS3WfdHLmy7GTn8cG38,58
+psgyolo/__main__.py,sha256=4I63FicojArxMSmfBkBb4EM72mlPTzw6O502qYMg_CA,66
+psgyolo/psgyolo.py,sha256=Ux_oR8boFN1zcnLSSAJiuRvCd6RESZBQqIW93a9RBJQ,15780
+psgyolo/screenshot.jpg,sha256=TMcIBiLsYcj5-8IUtUK5bqfh-QJtlRY3vecsZhJF5Lo,79710
+psgyolo/screenshot2.gif,sha256=kO9rI9qEhd1mHiVtpWaI86ruuB5y0RtfsMdWMv2gwTI,4854364
+psgyolo/yolo-coco/coco.names,sha256=DzbNM53Ej4TWW02YPcDfglnbOo7Kuq6TpSDQGtMP9RA,703
+psgyolo/yolo-coco/yolov3.cfg,sha256=kLjQcQZLXoEcOSsuG4HWBpY8Tdnxn9thV3s0MfIltjk,9131
+psgyolo/yolo-coco/yolov3.weights README,sha256=Pd1bx6Z7_-5mK50W85X6vP1mhcqZ1UoA_iFRyexD3BM,305
+psgyolo-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgyolo-5.0.0.dist-info/METADATA,sha256=cjWtzJUy6tS8q_iJDeNf7HdpFLdgvsVAPC22I67hieM,5644
+psgyolo-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psgyolo-5.0.0.dist-info/entry_points.txt,sha256=KvRSRQO0Bze5w4CbCtckEOVtPR_Ep6TMiVSAYBddcxM,45
+psgyolo-5.0.0.dist-info/top_level.txt,sha256=p_0MVbsUxGaTaEXczTtwzOSjSfEpR0tI0OFAYulNEFQ,8
+psgyolo-5.0.0.dist-info/RECORD,,
