@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dseval
+Version: 0.0.1
+License-File: LICENSE
+Requires-Dist: colorama
+Requires-Dist: langchain
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: psutil
+Requires-Dist: python-dotenv
+Requires-Dist: pyyaml
+Requires-Dist: scipy
+Provides-Extra: agent
+Requires-Dist: codeinterpreterapi; extra == 'agent'
+Requires-Dist: mlcopilot; extra == 'agent'
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: flake8; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: scikit-learn; extra == 'dev'
+Requires-Dist: tabulate; extra == 'dev'
