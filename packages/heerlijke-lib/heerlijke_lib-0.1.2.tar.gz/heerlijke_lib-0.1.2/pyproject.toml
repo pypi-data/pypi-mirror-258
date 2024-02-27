@@ -1,0 +1,77 @@
+[project]
+name = "heerlijke-lib"
+version = "0.1.2"
+description = "Library of personal utilities."
+authors = [
+    { name = "Thomas Vanhelden", email = "thomas.vanhelden@gmail.com" }
+]
+dependencies = [
+    "strenum==0.4.15",
+]
+readme = "README.md"
+requires-python = ">= 3.12"
+license = { text = "MIT" }
+
+[project.scripts]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "pytest==8.0.2",
+    "pytest-cov==4.1.0",
+    "pytest-randomly==3.15.0",
+    "pytest-sugar==1.0.0",
+    "bump-my-version==0.18.3",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/heerlijke_lib"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = [
+    "-ra",
+    "-q",
+    "-vv",
+    "-s",
+    "--disable-warnings",
+    "--cache-clear",
+    "-v",
+    "--cov=src/heerlijke_lib",
+    "--verbose",
+    "--cov-report=xml:test_reports/cov.xml"
+]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test"]
+python_functions = ["test"]
+pythonpath = [".", "src", "src/heerlijke_lib"]
+
+
+[tool.bumpversion]
+current_version = "0.1.2"
+parse = "(?P<major>\\d+)\\.(?P<minor>\\d+)\\.(?P<patch>\\d+)"
+serialize = ["{major}.{minor}.{patch}"]
+search = "{current_version}"
+replace = "{new_version}"
+regex = false
+ignore_missing_version = false
+commit = true
+tag = true
+sign_tags = true
+tag_name = "{new_version}"
+tag_message = "Bump version: {current_version} → {new_version}"
+allow_dirty = false
+message = "Bump version: {current_version} → {new_version}"
+commit_args = "--gpg-sign"
+
+[[tool.bumpversion.files]]
+filename = "pyproject.toml"
+search = 'version = "{current_version}"'
+replace = 'version = "{new_version}"'
