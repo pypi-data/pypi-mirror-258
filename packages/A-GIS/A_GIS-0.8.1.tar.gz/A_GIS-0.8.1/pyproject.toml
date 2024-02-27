@@ -1,0 +1,41 @@
+[project]
+name = "A_GIS"
+version = "0.8.1"
+description = "Functional python that shields users from breaking changes."
+authors = [
+    { name = "AEGIS 001", email = "a-gis-001@proton.me" },
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["art", "AI"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3 :: Only",
+    "License :: OSI Approved :: The Unlicense (Unlicense)",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "click",
+    "matplotlib",
+    "scipy",
+    "numpy",
+    "pydantic",
+]
+requires-python = ">=3.10"
+
+[project.urls]
+documentation = "https://a-gis.readthedocs.io"
+bug-tracker = "https://github.com/a-gis-001/a-gis/issues"
+source = "https://github.com/a-gis-001/a-gis"
+
+[project.scripts]
+a-gis = "A_GIS.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["A_GIS","A_GIS.*"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
