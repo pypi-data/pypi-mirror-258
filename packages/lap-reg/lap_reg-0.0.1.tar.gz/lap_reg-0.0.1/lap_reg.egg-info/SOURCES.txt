@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+lap_reg/LazyPolynomialRegression.py
+lap_reg/Model.py
+lap_reg/PolynomialColumnsAdder.py
+lap_reg/PowerDecider.py
+lap_reg/__init__.py
+lap_reg/alreadyInitialized.py
+lap_reg.egg-info/PKG-INFO
+lap_reg.egg-info/SOURCES.txt
+lap_reg.egg-info/dependency_links.txt
+lap_reg.egg-info/requires.txt
+lap_reg.egg-info/top_level.txt
