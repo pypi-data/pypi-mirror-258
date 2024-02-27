@@ -1,0 +1,15 @@
+tomli
+GitPython
+
+[:python_version >= "3.10"]
+importlib-metadata
+
+[dev]
+pytest
+pytest-cov
+
+[doc]
+sphinx
+myst-parser
+sphinx-book-theme
+sphinx-autodoc2
