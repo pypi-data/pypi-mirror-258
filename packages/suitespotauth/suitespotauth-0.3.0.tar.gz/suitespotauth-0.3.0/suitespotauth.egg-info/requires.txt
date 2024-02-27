@@ -1,0 +1,8 @@
+keyring
+requests
+boto3
+botocore
+google-cloud-secret-manager
+google-api-core
+azure-identity
+azure-keyvault
