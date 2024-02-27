@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include ga_htmx/static *
+recursive-include ga_htmx/templates *
+recursive-include ga_htmx/locale *
+recursive-include ga_htmx/migrations *
+recursive-include ga_htmx/templatetags *
