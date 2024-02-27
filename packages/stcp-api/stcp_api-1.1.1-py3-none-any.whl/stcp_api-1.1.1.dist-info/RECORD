@@ -1,0 +1,11 @@
+stcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stcp/_hash_cache.py,sha256=IyTeao8cs9nlW9e8NG6o-tPh4CVuT5TDznGyvXPKUKI,888
+stcp/_primitives.py,sha256=BPF_JAa3L1GHQp9_IJoikIhiY_3ijtp1-7GdqDYgRgo,2326
+stcp/_util.py,sha256=1LcpvujLzz9iEJ4caGfVREX49AYYg1_mLVt2_SOIz70,1159
+stcp/api.py,sha256=vVaDfNqVLUfF56i_Z49ur_cF4nvCOrxPE42uLLC0LhY,3611
+stcp/util.py,sha256=hicYd7RfwwATsp8KAyKoLRio2voa8OEAxwP-II9L5ms,2023
+stcp_api-1.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+stcp_api-1.1.1.dist-info/METADATA,sha256=CCzkg2nPqVwY1CdHhR9xfSgBY-Y6Hvp30Qs-zO__ntQ,2830
+stcp_api-1.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+stcp_api-1.1.1.dist-info/top_level.txt,sha256=u9ya9OlvWMym4F9LLJpAzcEOLL5Yvfwqx35Wu2_N3oo,5
+stcp_api-1.1.1.dist-info/RECORD,,
