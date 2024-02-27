@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: gitcy
+Version: 1.0.3
+Summary: Some usefull gitcommands to make life easier :)
+Home-page: https://github.com/ahartlba/gitcy
+License: MIT
+Author: Andreas Hartl-Bachinger
+Author-email: andreas.hartl-bachinger@gmx.at
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Gitcy
+
+A small python package for some github cli utilities.
+Is it necessary? No.
+Is it helpful? Maybe.
+Does it feel better? Yes.
+
+## Why
+
+Instead of writing
+
+```shell
+git commit -m "Title \n\nMore Description"
+git push
+```
+
+you can directly type
+
+```shell
+ctd -t "Title" -d "More Description" -p
+```
+
+## Install
+
+Use either pipx to install
+
+```shell
+pipx install git+https://github.com/ahartlba/gitcy.git
+```
+
+or install the package in your python environment and use it there.
+
+```shell
+pip install gitcy
+```
+
