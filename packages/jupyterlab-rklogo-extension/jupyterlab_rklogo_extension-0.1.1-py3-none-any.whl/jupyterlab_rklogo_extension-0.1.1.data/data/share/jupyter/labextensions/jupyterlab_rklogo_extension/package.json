@@ -1,0 +1,63 @@
+{
+  "name": "jupyterlab_rklogo_extension",
+  "version": "0.1.1",
+  "description": "jupyterlab logo change.",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/AIfengstudy",
+  "bugs": {
+    "url": "https://github.com/AIfengstudy/TTT/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "rkwork",
+    "email": "rkwork17527796274@gmail.com"
+  },
+  "files": [
+    "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
+    "style/**/*.{css,js,eot,gif,html,jpg,json,png,svg,woff2,ttf}"
+  ],
+  "main": "lib/index.js",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIfengstudy/TTT"
+  },
+  "scripts": {
+    "build": "jlpm run build:labextension:dev",
+    "build:prod": "jlpm run build:labextension",
+    "build:labextension": "jupyter labextension build .",
+    "build:labextension:dev": "jupyter labextension build --development True .",
+    "clean:labextension": "rimraf jupyterlab_ou_brand_extension/labextension",
+    "clean:all": "jlpm run clean:labextension",
+    "install:extension": "jupyter labextension develop --overwrite .",
+    "prepare": "jlpm run build:prod",
+    "prettier": "prettier --write \"**/*{.js,.jsx,.css,.json,.md}\"",
+    "watch": "jlpm run watch:labextension",
+    "watch:labextension": "jupyter labextension watch ."
+  },
+  "devDependencies": {
+    "prettier": ">=2.0.0",
+    "rimraf": ">=3.0.0"
+  },
+  "sideEffects": [
+    "style/*.css",
+    "style/index.js"
+  ],
+  "styleModule": "style/index.js",
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "jupyterlab_rklogo_extension/labextension",
+    "_build": {
+      "load": "static/remoteEntry.7ad76e262108aadc220f.js",
+      "extension": "./extension",
+      "style": "./style"
+    }
+  },
+  "dependencies": {
+    "@jupyterlab/builder": "^4.0.5"
+  }
+}

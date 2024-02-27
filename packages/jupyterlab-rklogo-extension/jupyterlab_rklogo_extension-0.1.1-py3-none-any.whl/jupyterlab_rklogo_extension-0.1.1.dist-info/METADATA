@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: jupyterlab_rklogo_extension
+Version: 0.1.1
+Summary: jupyterlab logo change.
+Home-page: https://github.com/AIfengstudy
+Author: rkwork
+Author-email: rkwork17527796274@gmail.com
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jupyterlab >=3.0
+
+# jupyterlab_rklogo__extension[text]
+
+
+
+To install the prebuilt extension from a wheel:
+
+
+Custom logos applied to:
+
+- JupyterLab IDE
+- RetroLab homepage
+- RetroLab notebooks
+- favicons
+
+![](./images/branding_logos_jupyterlab.png)
+
+
+## Building and Pushing Newly Built Wheels to PyPi
+
+```bash
+# Build
+pip install build
+
+#Install the package
+pip install .
+
+# Node MUST BE INSTALLED
+python -m build
+# packages built into ./dist
+
+# Push to PyPi
+pip install twine
+twine upload MY_PACKAGE.whl
+```
