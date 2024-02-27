@@ -1,0 +1,5 @@
+[console_scripts]
+mysnippet.config = mysnippet.cmd.script_config:main
+mysnippet.encrypt = mysnippet.cmd.script_encrypt:main
+mysnippet.project = mysnippet.cmd.script_project:main
+mysnippet.snippet = mysnippet.cmd.script_snippet:main
