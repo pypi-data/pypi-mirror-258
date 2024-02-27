@@ -1,0 +1,3 @@
+[console_scripts]
+pulser-template=robopulser.scripts.shell:copy_templates
+
