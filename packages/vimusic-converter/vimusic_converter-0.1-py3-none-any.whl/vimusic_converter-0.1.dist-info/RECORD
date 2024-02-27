@@ -1,0 +1,8 @@
+vimusic_converter/__init__.py,sha256=KKefuqp6Y93PReNw4xfpLfTTT4J7Noyr9XeuRRlCaXk,99
+vimusic_converter/__main__.py,sha256=y3m0EfdQLvKT1auFI801oJhg_jc_BzZ8vfsXKSuYh0I,2458
+vimusic_converter/dbhandler.py,sha256=PqyjKpQtKfHcHwEv3GIg_yg6EyF1DdZeLKGEbOfLhFM,820
+vimusic_converter/spotify.py,sha256=NMvwiMpJys6sop_Nt1BZic_o2hCr5VN62ldsi06XWiw,1003
+vimusic_converter-0.1.dist-info/METADATA,sha256=qdXmAP0K2dyMWI07HVpkFWmCRD7DJkMLWl1AKMqbsKA,2843
+vimusic_converter-0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vimusic_converter-0.1.dist-info/top_level.txt,sha256=CYUrtWyEUqUJyNNNj6yadq2IZcuBK3eh-MEQAmXvoVc,18
+vimusic_converter-0.1.dist-info/RECORD,,
