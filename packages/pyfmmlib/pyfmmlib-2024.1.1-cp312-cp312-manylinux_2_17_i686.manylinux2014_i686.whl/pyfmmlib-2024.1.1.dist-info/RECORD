@@ -1,0 +1,8 @@
+pyfmmlib/_internal.cpython-312-i386-linux-gnu.so,sha256=6Q_R7IFsev8tpeWMZjLEbLv3HLltFYNCPL1d43d_OM8,1878049
+pyfmmlib/__init__.py,sha256=719rAa4bjjJ8GRHGJOPySwpgj8MhaTgRJXYxjXOHGlk,10201
+pyfmmlib/version.py,sha256=ezwOeUvE8KrF4ySY8iJmFT0sLr1w-1v4TsbBObrTK3E,156
+pyfmmlib.libs/libquadmath-e2ac3af2.so.0.0.0,sha256=jfMFeZZPrFzTE93qT655xOMT-94XAlANEB1aTfOvv18,362301
+pyfmmlib.libs/libgfortran-a8535147.so.5.0.0,sha256=Q2DWESDD9Zo_A8duz8t6a0c2x-UZkTMzR_ThvJVtG7k,2491809
+pyfmmlib-2024.1.1.dist-info/METADATA,sha256=KuBQGzrP2q_cEDNyhOJdpAeQgmpnZ2SxD6o9QwrxkOY,6138
+pyfmmlib-2024.1.1.dist-info/WHEEL,sha256=m8xSD7H0M6c8kTBrGL7KdF2qjX8ZqbabyPdWuccniJ0,133
+pyfmmlib-2024.1.1.dist-info/RECORD,,
