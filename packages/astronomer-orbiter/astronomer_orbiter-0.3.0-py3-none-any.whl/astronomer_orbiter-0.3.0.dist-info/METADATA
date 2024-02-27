@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: astronomer-orbiter
+Version: 0.3.0
+Summary: Astronomer Orbiter can take your legacy workloads and land them safely down in a new home on Apache Airflow!
+Author-email: Fritz Davenport <fritz@astronomer.io>, Nancy Wong <nancy.wong@astronomer.io>, CETA Team <ceta@astronomer.io>, Astronomer <humans@astronomer.io>
+License: All Rights Reserved
+        
+        Copyright (c) 2024 Astronomer, LLC
+        
+        Created by Astronomer, LLC
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+Project-URL: Homepage, https://astronomer.io
+Project-URL: Source, https://github.com/astronomer/orbiter/
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: pydantic >=2.6
+Requires-Dist: inflection
+Requires-Dist: xmltodict
+Requires-Dist: pyyaml
+Requires-Dist: pendulum
+Requires-Dist: loguru
+Requires-Dist: ruff
+Requires-Dist: sh
+Requires-Dist: eval-type-backport ; python_version < "3.10"
+Provides-Extra: dev
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine >=4.0.2 ; extra == 'dev'
+Requires-Dist: pyinstaller ; extra == 'dev'
+Requires-Dist: mkdocs ; extra == 'dev'
+Requires-Dist: mkdocs-click ; extra == 'dev'
+Requires-Dist: mkdocs-material ; extra == 'dev'
+Requires-Dist: mkdocstrings-python ; extra == 'dev'
+Requires-Dist: pygments ; extra == 'dev'
+Requires-Dist: pytest >=7.4 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1 ; extra == 'dev'
+Requires-Dist: pytest-sugar >=0.9.7 ; extra == 'dev'
+Requires-Dist: black >=23.12.0 ; extra == 'dev'
+Requires-Dist: ruff >=0.1.0 ; extra == 'dev'
+Requires-Dist: pylint >=3.0.0 ; extra == 'dev'
+Requires-Dist: isort >=5.13.0 ; extra == 'dev'
+Requires-Dist: detect-secrets >=1.4.0 ; extra == 'dev'
+Requires-Dist: pre-commit >=3.6.0 ; (python_version >= "3.9") and extra == 'dev'
+
+<!--suppress HtmlDeprecatedAttribute -->
+<p align="center">
+  <img
+    width="200px" height="200px"
+    src="docs/orbiter.svg"
+    alt="Logo of Spaceship Orbiting a Planet"
+  />
+</p>
+<p align="center">
+  <b>Astronomer Orbiter</b> can land legacy workloads safely down in a new home on Apache Airflow!
+</p>
+
+
+## What is it?
+`orbiter` is a CLI that runs on your workstation and converts workflow definitions from other tools to Airflow DAGs.
+
+[Read more at the official documentation!](https://astronomer.github.io/orbiter)
+
+# Artwork
+Orbiter logo [by Ivan Colic](https://thenounproject.com/Ivanisawesome/) used with permission
+from [The Noun Project](https://thenounproject.com/icon/lunar-orbiter-196219/)
+under [Creative Commons](https://creativecommons.org/licenses/by/3.0/us/legalcode).
