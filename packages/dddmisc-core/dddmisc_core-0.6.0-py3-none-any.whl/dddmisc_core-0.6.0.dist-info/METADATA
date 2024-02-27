@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dddmisc-core
+Version: 0.6.0
+Summary: This package provides the core interfaces and types for dddmisc packages family
+License: MIT
+Author: Vladislav Vorobyov
+Author-email: vladislav.vorobyov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
