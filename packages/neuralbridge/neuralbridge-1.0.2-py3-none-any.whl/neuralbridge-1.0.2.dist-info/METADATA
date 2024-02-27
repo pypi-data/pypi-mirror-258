@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: neuralbridge
+Version: 1.0.2
+Summary: Easy-to-use, one-liner AI model conversion tool between AI frameworks to ensure faster model development and portability with ONNX.
+Author-email: Team Rixel <hq@hyperrixel.com>
+Project-URL: Homepage, https://gitlab.com/neuralbridge/neuralbridge-python
+Project-URL: Issues, https://gitlab.com/neuralbridge/neuralbridge-python/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python >=3.11.7
+Requires-Dist: torch >=2.2.0
+Requires-Dist: tensorflow >=2.13.1
+Requires-Dist: tensorflow-probability >=0.21.0
+Requires-Dist: onnx >=1.15.0
+Requires-Dist: onnx2torch >=1.5.13
+Requires-Dist: onnx-tf >=1.10.0
+Requires-Dist: tf2onnx >=1.16.1
+
+# NeuralBridge
+
+Easy-to-use, one-liner AI model conversion tool between AI frameworks to ensure faster model development and portability with Open Neural Network Exchange (ONNX).
+
+## How to Install
+
+To install NeuralBridge simple use:
+
+` pip install neuralbridge `
+
+In case you would like to build this project from source please consult the ` requirements.txt ` file and the ` src ` directory.
+
+## How to Use
+
+The main use case of NeuralBridge is to convert model runtime. It converts TensorFlow and PyTorch models from one framework to another absolutely automatically. You can access runtime conversion like this:
+
+```Python
+from neuralbridge import convert_model
+
+model_in_other_framework = convert_model(model_in_one_framework)
+```
+
+## Examples
+
+You can find additional examples in the ` examples ` directory.
+
+### Converting PyTorch model into TensorFlow
+
+This example is in the ` example_tf_to_torch.py ` file.
+
+### Converting TensorFlow model into PyTorch
+
+This example is in the ` example_torch_to_tf.py ` file.
+
+### Old design patterns
+
+You can find the old design patterns in the following files:
+
+- ` old_way_onnx_to_tf.py `
+
+- ` old_way_onnx_to_torch.py `
+
+- ` old_way_tf_to_onnx.py `
+
+- ` old_way_tf_to_torch.py `
+
+- ` old_way_torch_to_onnx.py `
+
+- ` old_way_torch_to_tf.py `
+
+## Requirements
+
+The list of all requirements are in the [requirements.txt](https://gitlab.com/neuralbridge/neuralbridge-python/-/blob/main/requirements.txt).
+
+## License
+
+See details in the [LICENSE](https://gitlab.com/neuralbridge/neuralbridge-python/-/blob/main/LICENSE).
