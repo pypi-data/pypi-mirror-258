@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: framelib
+Version: 0.0.0b4
+Summary: lightweight library for building farcaster frames using python and flask
+Home-page: https://github.com/devinaconley/python-frames
+Author: Devin A. Conley
+Author-email: devinaconley@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flask<4,>=3
+Requires-Dist: pydantic<3,>=2
+Requires-Dist: requests<3,>=2
+
+# python-frames
+
+lightweight library for building farcaster frames using python and flask
+
+
+## quickstart
+
+```
+pip install framelib
+```
