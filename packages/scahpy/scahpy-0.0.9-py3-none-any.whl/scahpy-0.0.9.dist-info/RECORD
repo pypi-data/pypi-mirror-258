@@ -1,0 +1,13 @@
+scahpy/__init__.py,sha256=LQ7sbMuvJVBdgeYAlomSeua1EpN4UAR3RYnYK1pZCQU,168
+scahpy/colors_scales.py,sha256=A80CD85xICTtHLCkaN3rLHrDkEUFZoFOyLjGf-LGiZY,1152
+scahpy/in_out.py,sha256=oXFrWGEywMHXZWqVLseVGTzrNjJyRCXBYON6-27MUGU,8402
+scahpy/map_plots.py,sha256=JRuG60IPW3eixnxWnHQmzPmx75Q6G34spqZn-HtYoBc,3594
+scahpy/met_diag.py,sha256=Vgfv1Vikpp7qQW2aPrMvHAIqJcf0WrfQL1F3W8W4B60,2905
+scahpy/spatial_scales.py,sha256=qFKHpxmmnhnrh-msCrpia8sfcTZyLBcJocBiLxjEaiE,1502
+scahpy/temp_scales.py,sha256=cpseJhY6kaz4GsUhihQr9Ig6kU41Uc62vUKhXm-H0CU,3398
+scahpy/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scahpy-0.0.9.dist-info/LICENSE,sha256=D5xyQ9tAc2QinZl2RJvTvN0nct1A_Ga3CNTAqOrxQro,35128
+scahpy-0.0.9.dist-info/METADATA,sha256=NOJHwisD962oEBr2pT0xgoxJLQWaJs1r4HEUMQJI2sA,43708
+scahpy-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+scahpy-0.0.9.dist-info/top_level.txt,sha256=klkaF0FTpSbk4kSu_Nt1IjMh1nO2tYMNS6YOHP7EP7Q,7
+scahpy-0.0.9.dist-info/RECORD,,
