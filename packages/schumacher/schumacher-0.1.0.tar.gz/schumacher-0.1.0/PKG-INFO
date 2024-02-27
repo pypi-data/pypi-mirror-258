@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: schumacher
+Version: 0.1.0
+Summary: 
+Author: Nikita
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: datasets (>=2.17.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+# SchumacherOCR
+
+![logo](/assets/logo.svg)
+
+Библиотека предоставляет модули для работы с изображениями в педагогических 
+
+## Установка
+
+```bash
+pip install SchumacherOCR
+```
+
+## Работа с изображением
+
+### Выделение иллюстраций и аннотаций
+
+```python
+from Schumacher.Ocr import Processor
+
+Processor
+
+```
+## Работа с документом или книгой
+
+```python
+from Schumacher.Ocr import Processor
+
+Processor
+```
+
+## Датасеты
+
+Для оценки качества моделирования вы можете использовать уже размеченный датасет с а
+
+https://huggingface.co/datasets/NMashalov/ru_educational_book_datasets
+
+## Обучение
+
+
+Разметка в [Label Studio](https://labelstud.io/).
+
+Для разметки репозиторий необходимо склонировать и установить `docker` для вашей операционной системы 
+
+Для клонирования выполните
+```
+git clone
+```
+
+Далее следуете  [](/labeling/README.md)
+
+
+## Разработка
+
+Сопровождающая статья с описанием  [статья](/article)
+
+Публикация репозитория на pypi выполняется через Github Actions
+
+
+
+
+
