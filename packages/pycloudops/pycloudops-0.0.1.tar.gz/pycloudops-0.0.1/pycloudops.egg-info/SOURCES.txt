@@ -1,0 +1,9 @@
+README.md
+setup.py
+gcs/__init__.py
+gcs/client.py
+gcs/path.py
+pycloudops.egg-info/PKG-INFO
+pycloudops.egg-info/SOURCES.txt
+pycloudops.egg-info/dependency_links.txt
+pycloudops.egg-info/top_level.txt
