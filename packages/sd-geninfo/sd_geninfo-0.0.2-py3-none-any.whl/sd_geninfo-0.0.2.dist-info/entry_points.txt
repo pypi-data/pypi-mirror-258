@@ -1,0 +1,2 @@
+[console_scripts]
+sd-geninfo = sd_geninfo.sd_geninfo:main
