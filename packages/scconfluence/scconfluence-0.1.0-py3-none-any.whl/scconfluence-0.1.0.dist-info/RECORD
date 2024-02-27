@@ -1,0 +1,10 @@
+scconfluence/__init__.py,sha256=qWd2RRgvorNvb2nOU0pxRJ7RQwNXi5yPxT_qgUoJnwA,148
+scconfluence/base_module.py,sha256=iwf_Zmgyue5Jb-DpgVe9z1vqld4crXsNuKTVnjHgBgc,10420
+scconfluence/dataset_utils.py,sha256=rlVNIao7M2YAgqi5JDlZnX87A6Ax1A8v5QNv-LI3-aI,13477
+scconfluence/distributions.py,sha256=HQrR2up-_6R_Uw9JrxmCbZw0ZigKoVpSTcmG3SQHkks,11467
+scconfluence/model.py,sha256=_xs3kR4tdHbSftutOBfo_99sMPM8zkmpDX2Bk2zFZkA,18542
+scconfluence/nn.py,sha256=4eSimWLXqrZf1EzmEzs-XhFjKZDLM-wjA4ij8QL2tcU,13618
+scconfluence/unimodal.py,sha256=1JlCuZlFnOzo4RF9UgGzH7hXbw28mZ4XfkemTOao_3s,14374
+scconfluence-0.1.0.dist-info/METADATA,sha256=nlNQDl0w1-wlmn5UOjJdChNdnEWoHybCTqT9UVg5Dao,3875
+scconfluence-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+scconfluence-0.1.0.dist-info/RECORD,,
