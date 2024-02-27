@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+src/csic_logger_tool/__init__.py
+src/csic_logger_tool/__version__.py
+src/csic_logger_tool/logginConfig.conf
+src/csic_logger_tool/sys_log.py
+src/csic_logger_tool.egg-info/PKG-INFO
+src/csic_logger_tool.egg-info/SOURCES.txt
+src/csic_logger_tool.egg-info/dependency_links.txt
+src/csic_logger_tool.egg-info/requires.txt
+src/csic_logger_tool.egg-info/top_level.txt
