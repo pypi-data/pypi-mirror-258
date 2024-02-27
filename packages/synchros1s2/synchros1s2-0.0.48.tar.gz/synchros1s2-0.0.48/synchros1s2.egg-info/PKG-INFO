@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: synchros1s2
+Version: 0.0.48
+Summary: Lib
+Author: wefine
+Author-email: wefine2529@ebuthor.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# sync2jira
+
+## Importer le package
+```
+ pip install synchros1s2
+```
+
+## Mettre à jour le package 
+⚠️ A faire 2 fois !! 
+```
+ pip install --upgrade synchros1s2
+ pip install --upgrade synchros1s2
+```
+
+## Remplir le fichier de config 
+Pour remplir les différents paramétres du fichier de config
+1. from config.config_package import config_package 
+2. config_package()
+
+
+
+
+
