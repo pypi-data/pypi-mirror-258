@@ -1,0 +1,7 @@
+[cobbler]
+gitdate = Mon Feb 26 21:31:34 2024 +0100
+gitstamp = 3ed865b
+builddate = Mon Feb 26 20:33:54 2024
+version = 3.3.4
+version_tuple = [3, 3, 4]
+
