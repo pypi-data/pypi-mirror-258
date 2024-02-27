@@ -1,0 +1,9 @@
+sdv_installer/cli/__main__.cp39-win_amd64.pyd,sha256=hU2eVAbzBazS1LlBDq_-Fa605vK4ls07PR2GgEhG594,52736
+sdv_installer/installation/installer.cp39-win_amd64.pyd,sha256=OjIjKoAWcqA-eVBerFnn0O9BsAV4waZGKv2K2dN1RY0,91648
+sdv_installer/licensing/authentication.cp39-win_amd64.pyd,sha256=IDN-NEaFiwWzrlXy4p3Lf08FhFhSVejKdcvfhcus4vk,88576
+sdv_installer-0.0.0.dev1.dist-info/LICENSE,sha256=_d1m3b6XYQZ-3Ua4-xmFy_tHZ39BP_RYbUbFynDdezQ,1086
+sdv_installer-0.0.0.dev1.dist-info/METADATA,sha256=OubIfI6x_kAGl_oDWcwOr2YEGxuFgEutzSnithJVkmM,2801
+sdv_installer-0.0.0.dev1.dist-info/WHEEL,sha256=GZFS91_ufm4WrNPBaFVPB9MvOXR6bMZQhPcZRRTN5YM,100
+sdv_installer-0.0.0.dev1.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev1.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev1.dist-info/RECORD,,
