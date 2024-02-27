@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: krypton-client
+Version: 0.1.0.dev0
+Summary: 
+Author: starecv
+Author-email: starec@mailbox.org
+Requires-Python: >=3.12.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp
+Description-Content-Type: text/plain
+
+#+TITLE: krypton-client
+
+In the beginning there was darkness
+
