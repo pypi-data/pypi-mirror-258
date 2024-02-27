@@ -1,0 +1,11 @@
+lap_reg/LazyPolynomialRegression.py,sha256=B2ubn2AGjtJGPf3ilPIcuBKvZlcVGVaST2wTO4iZTD8,1719
+lap_reg/Model.py,sha256=kd6HUD3LLKZj2qa1MjmkCyhfu_FnB5xeXhzwyx7KN1w,198
+lap_reg/PolynomialColumnsAdder.py,sha256=c06vFfjXksAkU3vn9lV6lfDuiYXGmk7zymWnoJIKIR0,1464
+lap_reg/PowerDecider.py,sha256=0Z_PA5QpGzKE9UwwTuxFXDcojNROGS76wERnP-yxwnw,6485
+lap_reg/__init__.py,sha256=PN0SOnKP8K_RVhFq05Q_Co-7jBXKkNXSdvoFpqkEOK0,164
+lap_reg/alreadyInitialized.py,sha256=62S1UtGo8MyG1qjSCKYz0ulAlPrm1NXERh81l0tqz3k,209
+lap_reg-0.0.1.dist-info/LICENSE,sha256=RXD88OPNCSp2G2IWhBeIFl6FjB0hnJLvNmPjYE1UXCQ,1092
+lap_reg-0.0.1.dist-info/METADATA,sha256=eTUu5RjGjnfvHfzcZJO8FIzJrlYlGJ8G1ysfnuJFUwI,730
+lap_reg-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+lap_reg-0.0.1.dist-info/top_level.txt,sha256=TR3NezINkJ0G1DZZ26ndkK0jW0Ugl6B4RD45SfCQ9JQ,8
+lap_reg-0.0.1.dist-info/RECORD,,
