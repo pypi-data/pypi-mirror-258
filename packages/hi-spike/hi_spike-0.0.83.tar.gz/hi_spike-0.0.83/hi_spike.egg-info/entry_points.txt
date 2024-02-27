@@ -1,0 +1,2 @@
+[console_scripts]
+spike = spike.cmd_utils:main
