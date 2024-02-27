@@ -1,0 +1,10 @@
+simple_ollama_rag/__init__.py,sha256=DYVw7_rKRU_ZqNgAyR0AxrmxidMVOHjgonXIB-CWYK0,2162
+simple_ollama_rag/example.py,sha256=-9jCUo5fdd9WjO3TfvK1i9R-ZQatIKVtdqPYQQ24BzU,487
+simple_ollama_rag/example1.py,sha256=p_4Oc7jjk7uXBSjocK3mR80eNMa-2y7uDWXFF4McpOU,2429
+simple_ollama_rag/inference_tools.py,sha256=KlY6W1EEYD1mrfujn0uulBjpVwj4BLd5u4TM3uOQeG4,640
+simple_ollama_rag/tools.py,sha256=KAcuBtouJif1DJQceFFNtpj-mLHslVuaxAiroFhUCZM,729
+simple_ollama_rag/vectordb_tools.py,sha256=FquHcFwOdIc8e72dv8wnKokdNfpHqDwu1s6DoeNoMwY,1406
+simple_ollama_rag-0.1.0.dist-info/METADATA,sha256=f2vLCdpcQBU3VPbL14wOlf-YYmaTG31Or_9McKRvPBA,3189
+simple_ollama_rag-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simple_ollama_rag-0.1.0.dist-info/top_level.txt,sha256=ltz5BwQLuMyBAtfQ5D9PzvcgxPXXpn67whefxim1Go0,18
+simple_ollama_rag-0.1.0.dist-info/RECORD,,
