@@ -1,0 +1,15 @@
+apscheduler==3.10.4
+pypdf==4.0.1
+json-repair
+requests
+func-timeout
+selenium
+pathvalidate
+psutil
+pympler
+beautifulsoup4
+dill
+notebook
+cryptography
+boto3
+trafilatura
