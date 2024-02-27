@@ -1,0 +1,15 @@
+jupyterwebcatconnect/__init__.py,sha256=4TbBvO9W6WAVy5IFmrhkl2nxMYQQqsGa5kvyiei7Xt8,1132
+jupyterwebcatconnect/_version.py,sha256=m7juaewkLVe-1Tr3vJin_WnNj-hrLM4BT2ccsYWhH34,171
+jupyterwebcatconnect/handlers.py,sha256=NDvTlPWWdmA1fuBKDLmew7pxb9N3Q7_SJ4CtVRg98C0,2302
+jupyterwebcatconnect-1.0.1.data/data/etc/jupyter/jupyter_server_config.d/jupyterwebcatconnect.json,sha256=Ahhv0dw6w2_DhGeKx5xUDfc2iXjzRMQtiHmIGV8J4-w,95
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/package.json,sha256=7uA7iPSq-0vrv98AAEzZdYfD6Tg9xBd6Vq6Rh0WlV8I,5942
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/static/537.5af852b926d188b2de37.js,sha256=WvhSuSbRiLLeNyjjS4BtAmZFfJBtjAwHibIBquGPHlE,2949
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/static/728.bb25cab8fa421a1fc3c2.js,sha256=uyXKuPpCGh_Dwn1L2jVxbTLcXP254E9ym51jTI1L9lI,4018
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/static/remoteEntry.1c1b4656ede7918870df.js,sha256=HBtGVu3nkYhw31BtYUSQn2HnBftSdCqVIFLKUXTLl8g,6642
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/static/style.js,sha256=wLOko4AA1LOwZVhNn4AFTgglhyTxMC8H753MJyKXjpY,163
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/static/third-party-licenses.json,sha256=i4z96RB0T1_RGdmoFCyvPxH0skhEL5qSKT9D1EdclF8,2453
+jupyterwebcatconnect-1.0.1.data/data/share/jupyter/labextensions/jupyterwebcatconnect/install.json,sha256=RvHSgLLXy38AOzUjqoHciBCa6x2ju9ecnD_5Vnx8JGI,201
+jupyterwebcatconnect-1.0.1.dist-info/METADATA,sha256=Nu8cmEUjn7Kpk3loX4cFLSzZuf50qAXBogo7-AeOw0Y,6157
+jupyterwebcatconnect-1.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jupyterwebcatconnect-1.0.1.dist-info/licenses/LICENSE,sha256=uB9wmSMDUsiye3HB2KUSo-mlksWlF0GOrPyXTMCYkn4,1522
+jupyterwebcatconnect-1.0.1.dist-info/RECORD,,
