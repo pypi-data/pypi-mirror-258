@@ -1,0 +1,11 @@
+README.md
+setup.py
+MNIST_Linear_Algebra.egg-info/PKG-INFO
+MNIST_Linear_Algebra.egg-info/SOURCES.txt
+MNIST_Linear_Algebra.egg-info/dependency_links.txt
+MNIST_Linear_Algebra.egg-info/requires.txt
+MNIST_Linear_Algebra.egg-info/top_level.txt
+operations/__init__.py
+operations/eigen_VV.py
+operations/linear_regression.py
+operations/svd.py
