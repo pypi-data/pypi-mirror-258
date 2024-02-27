@@ -1,0 +1,26 @@
+[build-system]
+requires = ["maturin>=1.3,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "codecov-ribs"
+authors = [
+    {name = "Codecov", email = "support@codecov.io"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = "BuSL-1.1"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+dependencies = []
+dynamic = ["version"]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
+python-packages = ["cc_rustyribs"]
+
+[tool.setuptools]
+packages = ["cc_rustyribs"]
