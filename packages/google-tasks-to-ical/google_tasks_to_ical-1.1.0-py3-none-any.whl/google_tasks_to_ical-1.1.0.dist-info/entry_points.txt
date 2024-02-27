@@ -1,0 +1,3 @@
+[console_scripts]
+google-tasks-to-ical=google_tasks_to_ical.main:main
+
