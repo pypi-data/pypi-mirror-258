@@ -1,0 +1,15 @@
+outerbounds/__init__.py,sha256=GPdaubvAYF8pOFWJ3b-sPMKCpyfpteWVMZWkmaYhxRw,32
+outerbounds/cli_main.py,sha256=e9UMnPysmc7gbrimq2I4KfltggyU7pw59Cn9aEguVcU,74
+outerbounds/command_groups/__init__.py,sha256=QPWtj5wDRTINDxVUL7XPqG3HoxHNvYOg08EnuSZB2Hc,21
+outerbounds/command_groups/cli.py,sha256=H4LxcYTmsY9DQUrReSRLjvbg9s9Ro7s-eUrcMqEJ_9A,261
+outerbounds/command_groups/local_setup_cli.py,sha256=DwQYfTnK_kb63oQM0A8cAJeLRCTLOcyEwjkBL42O1fQ,29414
+outerbounds/command_groups/perimeters_cli.py,sha256=9tOql42d00KfHpZYkLLGEAOiy8iRbIzsknldCyICwU0,12063
+outerbounds/command_groups/workstations_cli.py,sha256=f3gwHMZPHzeOcGj5VfC5tZZA18JQhFzy2LRGzqAosOk,19286
+outerbounds/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+outerbounds/utils/kubeconfig.py,sha256=l1mUP1j9VIq3fsffi5bJ1Nk-hYlwd1dIqkpj7DvVS1E,7936
+outerbounds/utils/metaflowconfig.py,sha256=HgaDmK3F97rppfGUdysS1Zppe28ERTLV_HcB5IuPpV4,2631
+outerbounds/utils/schema.py,sha256=Ht_Yf5uoKO0m36WXHZLSPmWPH6EFWXfZDQsiAUquc5k,2160
+outerbounds-0.3.53rc1.dist-info/METADATA,sha256=uUkhPz_gBBdZGk4mA3B5PrwediF87wcbiMRxb9bPe_w,1364
+outerbounds-0.3.53rc1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+outerbounds-0.3.53rc1.dist-info/entry_points.txt,sha256=7ye0281PKlvqxu15rjw60zKg2pMsXI49_A8BmGqIqBw,47
+outerbounds-0.3.53rc1.dist-info/RECORD,,
