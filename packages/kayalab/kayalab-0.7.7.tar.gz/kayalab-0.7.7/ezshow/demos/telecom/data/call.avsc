@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "name": "call",
+  "namespace": "com.acme",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "starttime", "type": "long" },
+    { "name": "endtime", "type": "long" },
+    { "name": "base", "type": "string" },
+    { "name": "userid", "type": "string" }
+  ]
+}
