@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pypi-changes
+Version: 1.2.3
+Summary: check out when packages changed
+Project-URL: Homepage, https://github.com/gaborbernat/pypi_changes
+Project-URL: Source, https://github.com/gaborbernat/pypi_changes
+Project-URL: Tracker, https://github.com/gaborbernat/pypi_changes/issues
+Author-email: Bernát Gábor <gaborjbernat@gmail.com>
+Maintainer-email: Bernát Gábor <gaborjbernat@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: environments,isolated,testing,virtual
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Requires-Dist: humanize>=4.9
+Requires-Dist: packaging>=23.2
+Requires-Dist: platformdirs>=4.2
+Requires-Dist: pypi-simple>=1.5
+Requires-Dist: requests-cache>=1.2
+Requires-Dist: requests>=2.31
+Requires-Dist: rich>=13.7
+Provides-Extra: testing
+Requires-Dist: covdefaults>=2.3; extra == 'testing'
+Requires-Dist: pytest-cov>=4.1; extra == 'testing'
+Requires-Dist: pytest-mock>=3.12; extra == 'testing'
+Requires-Dist: pytest>=8.0.2; extra == 'testing'
+Requires-Dist: urllib3<2; extra == 'testing'
+Requires-Dist: vcrpy>=6.0.1; extra == 'testing'
+Requires-Dist: virtualenv>=20.25.1; extra == 'testing'
+Description-Content-Type: text/markdown
+
+# pypi_changes
+
+[![PyPI](https://img.shields.io/pypi/v/pypi-changes?style=flat-square)](https://pypi.org/project/pypi-changes/)
+[![Supported Python
+versions](https://img.shields.io/pypi/pyversions/pypi-changes.svg)](https://pypi.org/project/pypi-changes/)
+[![check](https://github.com/gaborbernat/pypi_changes/actions/workflows/check.yml/badge.svg)](https://github.com/gaborbernat/pypi_changes/actions/workflows/check.yml)
+[![Downloads](https://static.pepy.tech/badge/pypi-changes/month)](https://pepy.tech/project/pypi-changes)
+
+[![asciicast](https://asciinema.org/a/446966.svg)](https://asciinema.org/a/446966)
