@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: django_keycloak_lma
+Version: 1.0.2
+Summary: Modified version of the package django_keycloak (0.1.1)
+Author: Vyacheslav Konovalov
+Requires-Dist: djangorestframework
+
+Modified version of the package django_keycloak (0.1.1)
