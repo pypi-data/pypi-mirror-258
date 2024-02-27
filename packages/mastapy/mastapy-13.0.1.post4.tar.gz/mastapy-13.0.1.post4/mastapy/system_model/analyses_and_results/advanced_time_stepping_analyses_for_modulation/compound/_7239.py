@@ -1,0 +1,590 @@
+"""SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation"""
+
+from __future__ import annotations
+
+from typing import TYPE_CHECKING, TypeVar, List
+
+from mastapy._internal import conversion
+from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+    _7141,
+)
+from mastapy._internal.cast_exception import CastException
+from mastapy._internal.python_net import python_net_import
+
+_SPECIALISED_ASSEMBLY_COMPOUND_ADVANCED_TIME_STEPPING_ANALYSIS_FOR_MODULATION = python_net_import(
+    "SMT.MastaAPI.SystemModel.AnalysesAndResults.AdvancedTimeSteppingAnalysesForModulation.Compound",
+    "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+)
+
+if TYPE_CHECKING:
+    from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation import (
+        _7110,
+    )
+    from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+        _7147,
+        _7151,
+        _7154,
+        _7159,
+        _7161,
+        _7162,
+        _7167,
+        _7172,
+        _7175,
+        _7178,
+        _7182,
+        _7184,
+        _7190,
+        _7196,
+        _7198,
+        _7201,
+        _7205,
+        _7209,
+        _7212,
+        _7215,
+        _7221,
+        _7225,
+        _7232,
+        _7242,
+        _7243,
+        _7248,
+        _7251,
+        _7254,
+        _7258,
+        _7266,
+        _7269,
+        _7220,
+    )
+    from mastapy.system_model.analyses_and_results.analysis_cases import _7546, _7543
+    from mastapy.system_model.analyses_and_results import _2651
+
+
+__docformat__ = "restructuredtext en"
+__all__ = ("SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",)
+
+
+Self = TypeVar(
+    "Self", bound="SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation"
+)
+
+
+class SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation(
+    _7141.AbstractAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+):
+    """SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+
+    This is a mastapy class.
+    """
+
+    TYPE = _SPECIALISED_ASSEMBLY_COMPOUND_ADVANCED_TIME_STEPPING_ANALYSIS_FOR_MODULATION
+    _CastSelf = TypeVar(
+        "_CastSelf",
+        bound="_Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+    )
+
+    class _Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation:
+        """Special nested class for casting SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation to subclasses."""
+
+        def __init__(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+            parent: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ):
+            self._parent = parent
+
+        @property
+        def abstract_assembly_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7141.AbstractAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation":
+            return self._parent._cast(
+                _7141.AbstractAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def part_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7220.PartCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7220,
+            )
+
+            return self._parent._cast(
+                _7220.PartCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def part_compound_analysis(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7546.PartCompoundAnalysis":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7546
+
+            return self._parent._cast(_7546.PartCompoundAnalysis)
+
+        @property
+        def design_entity_compound_analysis(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7543.DesignEntityCompoundAnalysis":
+            from mastapy.system_model.analyses_and_results.analysis_cases import _7543
+
+            return self._parent._cast(_7543.DesignEntityCompoundAnalysis)
+
+        @property
+        def design_entity_analysis(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_2651.DesignEntityAnalysis":
+            from mastapy.system_model.analyses_and_results import _2651
+
+            return self._parent._cast(_2651.DesignEntityAnalysis)
+
+        @property
+        def agma_gleason_conical_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7147.AGMAGleasonConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7147,
+            )
+
+            return self._parent._cast(
+                _7147.AGMAGleasonConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def belt_drive_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7151.BeltDriveCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7151,
+            )
+
+            return self._parent._cast(
+                _7151.BeltDriveCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def bevel_differential_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7154.BevelDifferentialGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7154,
+            )
+
+            return self._parent._cast(
+                _7154.BevelDifferentialGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def bevel_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7159.BevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7159,
+            )
+
+            return self._parent._cast(
+                _7159.BevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def bolted_joint_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7161.BoltedJointCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7161,
+            )
+
+            return self._parent._cast(
+                _7161.BoltedJointCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def clutch_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7162.ClutchCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7162,
+            )
+
+            return self._parent._cast(
+                _7162.ClutchCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def concept_coupling_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7167.ConceptCouplingCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7167,
+            )
+
+            return self._parent._cast(
+                _7167.ConceptCouplingCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def concept_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7172.ConceptGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7172,
+            )
+
+            return self._parent._cast(
+                _7172.ConceptGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def conical_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7175.ConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7175,
+            )
+
+            return self._parent._cast(
+                _7175.ConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def coupling_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7178.CouplingCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7178,
+            )
+
+            return self._parent._cast(
+                _7178.CouplingCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def cvt_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7182.CVTCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7182,
+            )
+
+            return self._parent._cast(
+                _7182.CVTCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def cycloidal_assembly_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7184.CycloidalAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7184,
+            )
+
+            return self._parent._cast(
+                _7184.CycloidalAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def cylindrical_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> (
+            "_7190.CylindricalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation"
+        ):
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7190,
+            )
+
+            return self._parent._cast(
+                _7190.CylindricalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def face_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7196.FaceGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7196,
+            )
+
+            return self._parent._cast(
+                _7196.FaceGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def flexible_pin_assembly_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> (
+            "_7198.FlexiblePinAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation"
+        ):
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7198,
+            )
+
+            return self._parent._cast(
+                _7198.FlexiblePinAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7201.GearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7201,
+            )
+
+            return self._parent._cast(
+                _7201.GearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def hypoid_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7205.HypoidGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7205,
+            )
+
+            return self._parent._cast(
+                _7205.HypoidGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def klingelnberg_cyclo_palloid_conical_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7209.KlingelnbergCycloPalloidConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7209,
+            )
+
+            return self._parent._cast(
+                _7209.KlingelnbergCycloPalloidConicalGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def klingelnberg_cyclo_palloid_hypoid_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7212.KlingelnbergCycloPalloidHypoidGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7212,
+            )
+
+            return self._parent._cast(
+                _7212.KlingelnbergCycloPalloidHypoidGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def klingelnberg_cyclo_palloid_spiral_bevel_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7215.KlingelnbergCycloPalloidSpiralBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7215,
+            )
+
+            return self._parent._cast(
+                _7215.KlingelnbergCycloPalloidSpiralBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def part_to_part_shear_coupling_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7221.PartToPartShearCouplingCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7221,
+            )
+
+            return self._parent._cast(
+                _7221.PartToPartShearCouplingCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def planetary_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7225.PlanetaryGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7225,
+            )
+
+            return self._parent._cast(
+                _7225.PlanetaryGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def rolling_ring_assembly_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> (
+            "_7232.RollingRingAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation"
+        ):
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7232,
+            )
+
+            return self._parent._cast(
+                _7232.RollingRingAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def spiral_bevel_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> (
+            "_7242.SpiralBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation"
+        ):
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7242,
+            )
+
+            return self._parent._cast(
+                _7242.SpiralBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def spring_damper_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7243.SpringDamperCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7243,
+            )
+
+            return self._parent._cast(
+                _7243.SpringDamperCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def straight_bevel_diff_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7248.StraightBevelDiffGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7248,
+            )
+
+            return self._parent._cast(
+                _7248.StraightBevelDiffGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def straight_bevel_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7251.StraightBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7251,
+            )
+
+            return self._parent._cast(
+                _7251.StraightBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def synchroniser_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7254.SynchroniserCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7254,
+            )
+
+            return self._parent._cast(
+                _7254.SynchroniserCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def torque_converter_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7258.TorqueConverterCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7258,
+            )
+
+            return self._parent._cast(
+                _7258.TorqueConverterCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def worm_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7266.WormGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7266,
+            )
+
+            return self._parent._cast(
+                _7266.WormGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def zerol_bevel_gear_set_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "_7269.ZerolBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation":
+            from mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.compound import (
+                _7269,
+            )
+
+            return self._parent._cast(
+                _7269.ZerolBevelGearSetCompoundAdvancedTimeSteppingAnalysisForModulation
+            )
+
+        @property
+        def specialised_assembly_compound_advanced_time_stepping_analysis_for_modulation(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+        ) -> "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation":
+            return self._parent
+
+        def __getattr__(
+            self: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation",
+            name: str,
+        ):
+            try:
+                return self.__dict__[name]
+            except KeyError:
+                class_name = "".join(n.capitalize() for n in name.split("_"))
+                raise CastException(
+                    f'Detected an invalid cast. Cannot cast to type "{class_name}"'
+                ) from None
+
+    def __init__(
+        self: Self,
+        instance_to_wrap: "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation.TYPE",
+    ):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def assembly_analysis_cases(
+        self: Self,
+    ) -> "List[_7110.SpecialisedAssemblyAdvancedTimeSteppingAnalysisForModulation]":
+        """List[mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.SpecialisedAssemblyAdvancedTimeSteppingAnalysisForModulation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.AssemblyAnalysisCases
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def assembly_analysis_cases_ready(
+        self: Self,
+    ) -> "List[_7110.SpecialisedAssemblyAdvancedTimeSteppingAnalysisForModulation]":
+        """List[mastapy.system_model.analyses_and_results.advanced_time_stepping_analyses_for_modulation.SpecialisedAssemblyAdvancedTimeSteppingAnalysisForModulation]
+
+        Note:
+            This property is readonly.
+        """
+        temp = self.wrapped.AssemblyAnalysisCasesReady
+
+        if temp is None:
+            return None
+
+        value = conversion.pn_to_mp_objects_in_list(temp)
+
+        if value is None:
+            return None
+
+        return value
+
+    @property
+    def cast_to(
+        self: Self,
+    ) -> "SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation":
+        return self._Cast_SpecialisedAssemblyCompoundAdvancedTimeSteppingAnalysisForModulation(
+            self
+        )
