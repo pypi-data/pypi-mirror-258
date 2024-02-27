@@ -1,0 +1,13 @@
+kinetica_provider/__init__.py,sha256=zRPDLRGUfVjMTG-Tp95VZ5oRYrF5LayfSOXtZOr6Do4,59
+kinetica_provider/get_provider_info.py,sha256=QjSDkjrzziRf-Q1-Kog7acy5I0gM8JdyV46HAgduKIo,908
+kinetica_provider/hooks/__init__.py,sha256=zRPDLRGUfVjMTG-Tp95VZ5oRYrF5LayfSOXtZOr6Do4,59
+kinetica_provider/hooks/sql.py,sha256=ECZN8ht_EV7auXEIkkf8FOihJS2aki5EWhlhrO-QG30,6723
+kinetica_provider/operator/__init__.py,sha256=zRPDLRGUfVjMTG-Tp95VZ5oRYrF5LayfSOXtZOr6Do4,59
+kinetica_provider/operator/spark.py,sha256=pXmIgd552PgLOjOQHByYteBdCyHXc8JunjhcM9c09r0,10331
+kinetica_provider/operator/sql.py,sha256=WQUzz-0fH26zDXpr5AecoL2_BD_3sXXZrAS3nUiyIB8,827
+airflow_provider_kinetica-1.0.2.dist-info/LICENSE,sha256=ONsfvBC05f6d4vG7vFGkI4a9yMs6USXArk5FHkspJEg,1065
+airflow_provider_kinetica-1.0.2.dist-info/METADATA,sha256=NjYbiZMUpYXnvhizJ3OF1YuMcF3V2sa6YV0YNPg_tfo,8864
+airflow_provider_kinetica-1.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+airflow_provider_kinetica-1.0.2.dist-info/entry_points.txt,sha256=mIKxHc1BAx4s-5R8bDV3pstU5dbg6yVblKQDn9MNQk4,96
+airflow_provider_kinetica-1.0.2.dist-info/top_level.txt,sha256=27oAOu5Ed9UwQkIpzXbYaiFF6KQSFfVWV6InXj5qZAs,18
+airflow_provider_kinetica-1.0.2.dist-info/RECORD,,
