@@ -1,0 +1,11 @@
+psgtray/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgtray/README.md,sha256=z_nCfmMSDyo4-FW1WTI-wOzt3fgiKFuWc49EzjoFaOY,7003
+psgtray/__init__.py,sha256=YiQV27G_oZwcuiiIHO8sultZbzJxmhrAJP6gtGGa4NQ,58
+psgtray/__main__.py,sha256=2gvavu7X3l7TqJ0T8bgrHsJ9aYsHbPGzE-EfCAu-Au4,66
+psgtray/psgtray.py,sha256=xqTx5jJBBBhsQOf3r4UEI_jToZOZ_co_wpekwFAUuvY,17503
+psgtray-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgtray-5.0.0.dist-info/METADATA,sha256=KkzmuuFko_7RZDbQ8Qjp-S2IqRGkXAqQjQ3VplSnnfs,8404
+psgtray-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psgtray-5.0.0.dist-info/entry_points.txt,sha256=VAFma8bbRB-Ca8FzuftIHZ7G09-TaxgeSp8fOLaQTBM,45
+psgtray-5.0.0.dist-info/top_level.txt,sha256=S538BFwRuwh5XsVs4_p-0TaBPPj06Kche9UlEXQnAGw,8
+psgtray-5.0.0.dist-info/RECORD,,
