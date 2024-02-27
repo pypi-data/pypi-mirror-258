@@ -1,0 +1,5 @@
+setup.py
+fixinventoryclient.egg-info/PKG-INFO
+fixinventoryclient.egg-info/SOURCES.txt
+fixinventoryclient.egg-info/dependency_links.txt
+fixinventoryclient.egg-info/top_level.txt
