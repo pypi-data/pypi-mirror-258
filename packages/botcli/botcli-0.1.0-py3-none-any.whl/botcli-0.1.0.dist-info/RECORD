@@ -1,0 +1,10 @@
+botcli/__init__.py,sha256=YlO2cdWGAL1bEU5j_M4w2R8iPdLH1ZeFvCAOWg_3O6U,264
+botcli/cli.py,sha256=xgqeg-yfuSYtIvy9ijVaRB8EpwE-WlR0D-juxx_uGCs,9061
+botcli/generate.py,sha256=Nyj2EMwsHh39kKW5T1wUVcVdlqA_bDYXv8SwsWFbZaM,4126
+botcli-0.1.0.dist-info/AUTHORS.md,sha256=BUH_3To0OQZi2YONFW6FjFgaRWpJuxKGzYY3WfCHRmc,133
+botcli-0.1.0.dist-info/LICENSE,sha256=ob1s9OHOqgFUixg05hVpGMF9z_5AB_9W3sUaZL41Ek8,1062
+botcli-0.1.0.dist-info/METADATA,sha256=7BFBbxfSU3RhzzC5IhXLyZMF_ZbIs2ubFeINn4ReLak,1438
+botcli-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+botcli-0.1.0.dist-info/entry_points.txt,sha256=TfCdGEALI3vvjt7J_G9XqOYC3HfgtkD7mNuV8ua8xzA,48
+botcli-0.1.0.dist-info/top_level.txt,sha256=ILH7l6TrAG-ep9VcfJFg_CpVVLyauoLcJW1MmE5tCW4,7
+botcli-0.1.0.dist-info/RECORD,,
