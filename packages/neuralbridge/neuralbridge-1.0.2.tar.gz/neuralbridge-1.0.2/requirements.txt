@@ -1,0 +1,21 @@
+# Library dependencies for the NeuralBridge project
+# You have to install these libraries, before you can run the code:
+# 'pip install -r requirements.txt'
+
+# Python version dependency
+python>=3.11.7
+
+# Standard library dependencies:
+# collections.abc.Iterable
+# os.remove
+# shutil.rmtree
+# typing.Union
+
+# Additional library dependencies:
+torch>=2.2.0
+tensorflow>=2.13.1
+tensorflow-probability>=0.21.0
+onnx>=1.15.0
+onnx2torch>=1.5.13
+onnx_tf>=1.10.0
+tf2onnx>=1.16.1

@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.2.2"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "neuralbridge"
+version = "1.0.2"
+authors = [
+  { name="Team Rixel", email="hq@hyperrixel.com" },
+]
+description = "Easy-to-use, one-liner AI model conversion tool between AI frameworks to ensure faster model development and portability with ONNX."
+readme = "README.md"
+requires-python = ">=3.11.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+Homepage = "https://gitlab.com/neuralbridge/neuralbridge-python"
+Issues = "https://gitlab.com/neuralbridge/neuralbridge-python/-/issues"
