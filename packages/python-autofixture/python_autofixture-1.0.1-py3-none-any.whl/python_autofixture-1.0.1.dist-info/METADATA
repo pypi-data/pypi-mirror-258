@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: python-autofixture
+Version: 1.0.1
+Summary: A web library for AWS lambda, gateway and SQS event handling
+Author: GanTheMan
+Author-email: aidanwilliamgannon@gmail.com
+Keywords: python,lambda,api gateway,sqs
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema ==4.17.3
+Requires-Dist: filetype ==1.2.0
+Requires-Dist: boto3 ==1.26.50
+Requires-Dist: validators ==0.20.0
+Requires-Dist: callee ==0.3.1
+Requires-Dist: punq ==0.7.0
+Requires-Dist: ddt ==1.7.1
+
+Allows for handling http api gateway requests, and SQS events
