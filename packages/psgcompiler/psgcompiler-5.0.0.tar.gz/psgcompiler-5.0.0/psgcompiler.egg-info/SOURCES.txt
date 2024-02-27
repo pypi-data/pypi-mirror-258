@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.py
+psgcompiler/LICENSE.txt
+psgcompiler/README.md
+psgcompiler/__init__.py
+psgcompiler/__main__.py
+psgcompiler/psgcompiler.py
+psgcompiler/psgcompiler_icon.ico
+psgcompiler/psgcompiler_icon.png
+psgcompiler/screenshot.jpg
+psgcompiler.egg-info/PKG-INFO
+psgcompiler.egg-info/SOURCES.txt
+psgcompiler.egg-info/dependency_links.txt
+psgcompiler.egg-info/entry_points.txt
+psgcompiler.egg-info/requires.txt
+psgcompiler.egg-info/top_level.txt
