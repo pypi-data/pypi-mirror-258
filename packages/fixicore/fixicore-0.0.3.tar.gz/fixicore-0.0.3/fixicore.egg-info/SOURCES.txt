@@ -1,0 +1,5 @@
+setup.py
+fixicore.egg-info/PKG-INFO
+fixicore.egg-info/SOURCES.txt
+fixicore.egg-info/dependency_links.txt
+fixicore.egg-info/top_level.txt
