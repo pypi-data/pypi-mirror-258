@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.py
+psghotkey/LICENSE.txt
+psghotkey/README.md
+psghotkey/__init__.py
+psghotkey/__main__.py
+psghotkey/psghotkey.py
+psghotkey/screenshot.gif
+psghotkey/screenshot.jpg
+psghotkey.egg-info/PKG-INFO
+psghotkey.egg-info/SOURCES.txt
+psghotkey.egg-info/dependency_links.txt
+psghotkey.egg-info/entry_points.txt
+psghotkey.egg-info/requires.txt
+psghotkey.egg-info/top_level.txt
