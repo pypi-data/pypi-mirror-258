@@ -1,0 +1,15 @@
+usearch-2.9.1.dist-info/METADATA,sha256=K5nHq06HxuJF0NUm7C6ziCBzOBlXU3UdLu9V2shfFYo,26650
+usearch-2.9.1.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch-2.9.1.dist-info/WHEEL,sha256=JfkX_eSPpJ51o4lPVW-z6zIfLh8AgItfT6glxWHbUfg,112
+usearch-2.9.1.dist-info/RECORD,,
+usearch-2.9.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch/server.py,sha256=TBppxGSNnYxZshGTnUAQgpTWkSmUpT6SXkSeR1aKfBQ,3721
+usearch/compiled.cpython-39-x86_64-linux-gnu.so,sha256=zsKx8v3-mJwk7DSiutNE9w1O-SIoal0_7X157JV_MSM,6703297
+usearch/index.py,sha256=D7abdhu9ylPOlwzIiBiXiXLeD0pKq1SA8EcxNE2cloo,48163
+usearch/eval.py,sha256=Qlwd1quDgg_r8xut25G4rk31BWiC7TC1O2O65lWfLFA,14768
+usearch/numba.py,sha256=EDg7XvMKNkuR3zEuyFYShepNKXZJrYJ0vNeQiefCRHY,3979
+usearch/io.py,sha256=hkoOv1xL73t3STQelN3BGrV86DUQop6zgWFxW8bOFuo,3161
+usearch/__init__.py,sha256=MdU2sg0EASGVSfi6Xvt4vaPnaZefyuKTOHQ88SAfLOE,362
+usearch/client.py,sha256=H7nFnscuUk0fcN_dC3pUH6pbDqeLOPnRCVXO2SPoP7Q,4117
+usearch./libsqlite3-cc75b2dd.so.0.8.6,sha256=0wYvQ2uEm6iyl6042LofLFiJv_4W5_hYVBt9AexXKVw,1434593
+usearch./libmvec-2-1d7272ed.28.so,sha256=NFUAZv6MuBZKDUIr_9KGEOT4xBZ9PRKBg9UEx4mt0oQ,181969
