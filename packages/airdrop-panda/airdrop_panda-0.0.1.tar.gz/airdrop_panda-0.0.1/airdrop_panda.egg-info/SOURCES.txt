@@ -1,0 +1,6 @@
+README.md
+setup.py
+airdrop_panda.egg-info/PKG-INFO
+airdrop_panda.egg-info/SOURCES.txt
+airdrop_panda.egg-info/dependency_links.txt
+airdrop_panda.egg-info/top_level.txt

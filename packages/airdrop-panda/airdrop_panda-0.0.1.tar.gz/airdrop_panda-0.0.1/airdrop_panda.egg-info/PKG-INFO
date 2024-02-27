@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: airdrop-panda
+Version: 0.0.1
+Summary: 一个关于web3 airdop的python包
+Home-page: https://airdrop.panda
+Author: fliter
+Author-email: uuuu89012@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
