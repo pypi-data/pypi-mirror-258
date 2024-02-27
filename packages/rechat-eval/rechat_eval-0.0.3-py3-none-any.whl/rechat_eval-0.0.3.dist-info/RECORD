@@ -1,0 +1,10 @@
+rechat_eval/__init__.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+rechat_eval/_modidx.py,sha256=52CngGiQn0oV0VR2XXWWC3Y1WJiKx4-jJChG9pt5N84,2273
+rechat_eval/airtable.py,sha256=FG31dis-qwa4uU8Sqg6xz7tj0uspiLWfYoUK-Fk9HFY,5616
+rechat_eval/smith.py,sha256=gs8wP2qLOUBWenptwMMAWkAf83GohmNzVhzaYzrxB1o,1089
+rechat_eval-0.0.3.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+rechat_eval-0.0.3.dist-info/METADATA,sha256=VakzxRA0YxkA58zBSGbKw_Ke3tAKXS3VUWVK48VNz9Q,1630
+rechat_eval-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rechat_eval-0.0.3.dist-info/entry_points.txt,sha256=rjgMLOpEZuX7HJPoWbznZ0MEe0-KlbBFT3WVKDinr3E,44
+rechat_eval-0.0.3.dist-info/top_level.txt,sha256=qqq3uCXzFQ_8FmReUQ3MWhg_6BZ7pswQcmRY7cyE6zQ,12
+rechat_eval-0.0.3.dist-info/RECORD,,

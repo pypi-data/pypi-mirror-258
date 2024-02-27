@@ -1,0 +1,2 @@
+[nbdev]
+rechat_eval = rechat_eval._modidx:d
