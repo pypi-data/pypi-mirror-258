@@ -1,0 +1,4 @@
+include *.txt *.md
+recursive-include docs *.txt *.rst *.py *.png *.ico
+recursive-include src *.py *.sh
+prune docs/build/
