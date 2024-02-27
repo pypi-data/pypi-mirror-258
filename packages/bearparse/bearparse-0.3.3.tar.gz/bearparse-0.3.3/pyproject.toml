@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "bearparse"
+version = "0.3.3"
+description = "A custom argument parser for non-standard arguments. Useful for Appworx"
+authors = ["Zevaryx <zevaryx@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+repository = "https://git.zevaryx.com/zevaryx/bearparse"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+attrs = ">=23.2.0"
+PyYAML = ">=6.0.1,<7"
+toml = "^0.10.2"
+
+[tool.poetry.dev-dependencies]
+enum-tools = ">=0.11.0,<1"
+pytest = ">=8.0.2,<9"
+pytest-cov = ">=4.1.0,<5"
+Sphinx = ">=7.2.6,<8"
+sphinx-rtd-theme = ">=2.0.0,<3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
