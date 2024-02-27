@@ -1,0 +1,5 @@
+setup.py
+fixclient.egg-info/PKG-INFO
+fixclient.egg-info/SOURCES.txt
+fixclient.egg-info/dependency_links.txt
+fixclient.egg-info/top_level.txt
