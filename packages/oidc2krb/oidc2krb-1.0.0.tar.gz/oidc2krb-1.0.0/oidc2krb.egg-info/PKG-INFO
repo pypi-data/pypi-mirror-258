@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: oidc2krb
+Version: 1.0.0
+Summary: Flask app for exchanging OIDC access tokens for Kerberos tickets
+Home-page: https://gitlab.ics.muni.cz/perun-proxy-aai/python/oidc2krb.git
+Requires-Python: >=3.9
+Requires-Dist: setuptools
+Requires-Dist: certifi==2023.7.22
+Requires-Dist: charset-normalizer~=3.0
+Requires-Dist: click~=8.1
+Requires-Dist: Command==0.1.0
+Requires-Dist: Flask~=2.2
+Requires-Dist: Flask-HTTPAuth~=4.7
+Requires-Dist: idna~=3.4
+Requires-Dist: itsdangerous~=2.1
+Requires-Dist: Jinja2~=3.1
+Requires-Dist: MarkupSafe~=2.1
+Requires-Dist: PyYAML~=6.0
+Requires-Dist: requests~=2.28
+Requires-Dist: urllib3~=2.0
+Requires-Dist: Werkzeug~=2.2

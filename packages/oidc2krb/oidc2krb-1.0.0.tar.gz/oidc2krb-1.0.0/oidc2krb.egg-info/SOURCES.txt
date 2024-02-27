@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+oidc2krb.egg-info/PKG-INFO
+oidc2krb.egg-info/SOURCES.txt
+oidc2krb.egg-info/dependency_links.txt
+oidc2krb.egg-info/requires.txt
+oidc2krb.egg-info/top_level.txt
