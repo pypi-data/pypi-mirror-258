@@ -1,0 +1,36 @@
+{
+  "time": {
+    "start": 1401580800000,
+    "end": 1401753600000,
+    "aggregator": "sum",
+    "downsampler": {
+      "interval": "1m",
+      "aggregator": "avg"
+    }
+  },
+  "metrics": [
+    {
+      "id": "a",
+      "metric": "Entries",
+      "fillPolicy": {
+        "policy": "nan"
+      }
+    }
+  ],
+  "expressions": [
+    {
+      "id": "b",
+      "expr": "a / 2"
+    }
+  ],
+  "outputs": [
+    {
+      "id": "a",
+      "alias": "incominng"
+    },
+    {
+      "id": "b",
+      "alias": "outgoing"
+    }
+  ]
+}
