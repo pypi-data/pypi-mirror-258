@@ -1,0 +1,21 @@
+# SPDX-FileCopyrightText: 2024 PATHFINDER
+#
+# SPDX-License-Identifier: Unlicense
+
+[tool.poetry]
+name = "google-tasks-to-ical"
+version = "1.1.0"
+description = "Converts Google Tasks JSON into iCal VTODO"
+authors = ["PATHFINDER <pathfinder@pathfinderdreams.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+google-tasks-to-ical = "google_tasks_to_ical.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+icalendar = "^5.0.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
