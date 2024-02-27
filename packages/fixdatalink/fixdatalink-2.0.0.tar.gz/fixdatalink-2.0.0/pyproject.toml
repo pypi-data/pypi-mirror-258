@@ -1,0 +1,93 @@
+[project]
+name = "fixdatalink"
+version = "2.0.0"
+authors = [{name="Some Engineering Inc."}]
+description = "Data Pipelines for Fix infrastructure data."
+license = {file="LICENSE"}
+requires-python = ">=3.9"
+classifiers = [
+    # Current project status
+    "Development Status :: 4 - Beta",
+    # Audience
+    "Intended Audience :: System Administrators",
+    "Intended Audience :: Information Technology",
+    # License information
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    # Supported python versions
+    "Programming Language :: Python :: 3.9",
+    # Supported OS's
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    # Extra metadata
+    "Environment :: Console",
+    "Natural Language :: English",
+    "Topic :: Security",
+    "Topic :: Utilities",
+]
+readme = {file="README.md", content-type="text/markdown"}
+keywords = ["data source", "data sink", "data synchronization", "data pipeline"]
+
+dependencies = [
+    "networkx",
+    "fixclient>=2.0.0",
+    "fixinventorylib",
+    "rich",
+    "sqlalchemy",
+]
+
+[project.optional-dependencies]
+
+# The different database backends we have tested explicitly
+snowflake = [ "snowflake-sqlalchemy" ]
+mysql = [ "pymysql" ]
+parquet = [ "pyarrow", "boto3", "google-cloud-storage" ]
+postgres = [ "psycopg2-binary" ]
+
+# All extra dependencies
+extra = [
+    "boto3",
+    "urllib3 < 2", # boto3 requires urllib3 < 2
+    "google-cloud-storage",
+    "pymysql",
+    "psycopg2-binary",
+    "pyarrow",
+    "snowflake-sqlalchemy",
+]
+
+# All dev dependencies
+dev = [
+    "pip-tools",
+    "types_python_dateutil",
+    "types_requests",
+    "types_setuptools",
+]
+
+# All test dependencies
+test = [
+    "black",
+    "coverage",
+    "flake8",
+    "hypothesis",
+    "mypy",
+    "pep8-naming",
+    "posthog",
+    "pylint",
+    "pytest",
+    "pytest-asyncio",
+    "pytest-cov",
+    "pytest-runner",
+    "tox",
+    "wheel",
+    "fix-plugin-example-collector"
+]
+
+[project.urls]
+Documentation = "https://fix.com"
+Source = "https://github.com/someengineering/fixdatalink"
+
+[build-system]
+requires = ["setuptools>=67.8.0", "wheel>=0.40.0", "build>=0.10.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+fixdatalink = ["py.typed"]
