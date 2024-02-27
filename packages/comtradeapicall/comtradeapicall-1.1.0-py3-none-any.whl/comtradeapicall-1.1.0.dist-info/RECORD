@@ -1,0 +1,14 @@
+comtradeapicall/AIS.py,sha256=rrZFn4Je6lUx80kT5qpcxhAtKzzb6vrJeE5Bs4ogz1Y,1098
+comtradeapicall/Async.py,sha256=BFwYC8T0nt9pls5THVW1qQEk1Hjtdkz-VpEJUjD7cqw,6397
+comtradeapicall/BulkDownload.py,sha256=5KQTDT5Grs3LVIBCEEQxCcm0GGF_uE-LOoMrekE3IGI,5505
+comtradeapicall/DataAvailability.py,sha256=l0kmbGkL8osTFASsAnMcncRDYC0RccbhL3LQXHDPAHw,3453
+comtradeapicall/Metadata.py,sha256=C0uPuduvg5XaX4g8RpHnvPuqBySmjXzJn8PI3oaVeTg,3655
+comtradeapicall/PreviewGet.py,sha256=wR0a3LfSS4dPHHXPm97yNmdcLnI7WP8uykJ1i_x2_eM,11150
+comtradeapicall/SUV.py,sha256=T8QRFdfx3gqfk_RVYjeszS9rP7wWGO_m_GsdWh_xTrQ,957
+comtradeapicall/__init__.py,sha256=5uDiPFcz4qbPzM3QuXvklWj1et1nfT3eTMijKpornIg,1472
+comtradeapicall-1.1.0.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+comtradeapicall-1.1.0.dist-info/METADATA,sha256=vCZ5Yz--3VUQ9M-aI39nYxXFfeE-L6X9Cu_ZPbg5hbw,19178
+comtradeapicall-1.1.0.dist-info/PKG-INFO-W10LT-PF2ZCSNL,sha256=BEcYiSqnsqq0GFTRlN2Ld2Pqh17ramPPkdq--yhS_Nk,17767
+comtradeapicall-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+comtradeapicall-1.1.0.dist-info/top_level.txt,sha256=v75tnkD2pPa-7F5vs9TzC9UjOW_jEXVVwx9kuSRmCjE,16
+comtradeapicall-1.1.0.dist-info/RECORD,,
