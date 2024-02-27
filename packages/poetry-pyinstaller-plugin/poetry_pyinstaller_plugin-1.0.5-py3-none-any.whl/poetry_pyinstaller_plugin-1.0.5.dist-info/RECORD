@@ -1,0 +1,7 @@
+poetry_pyinstaller_plugin/__init__.py,sha256=krJDNv9YTMuf79FveT5jmoMx4poSlQ3ihcWMuJgqH18,1993
+poetry_pyinstaller_plugin/plugin.py,sha256=9GiAYzQVnTK6GdRAb2-RHKEk9YDgKbkc9KRRVpY2ojU,8136
+poetry_pyinstaller_plugin-1.0.5.dist-info/LICENSE,sha256=WuouhGLVald9hlyrdaQbsbD9_8SDYyi35Bnx9QoJtbQ,1069
+poetry_pyinstaller_plugin-1.0.5.dist-info/METADATA,sha256=NAQTb_0uQjJMd87_GPlD67iF_c5D0mC7ulSzfrZgAew,5905
+poetry_pyinstaller_plugin-1.0.5.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+poetry_pyinstaller_plugin-1.0.5.dist-info/entry_points.txt,sha256=CYGM7iaPYjgl4JBAjLo0VN6YpmzMujPLABoOaEfcYAs,106
+poetry_pyinstaller_plugin-1.0.5.dist-info/RECORD,,
