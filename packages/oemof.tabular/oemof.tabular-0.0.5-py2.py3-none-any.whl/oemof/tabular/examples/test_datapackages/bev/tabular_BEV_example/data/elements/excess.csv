@@ -1,0 +1,2 @@
+name;type;carrier;capacity;bus;marginal_cost;tech
+excess;excess;electricity;100;el_bus;10;excess

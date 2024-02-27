@@ -1,0 +1,2 @@
+from_bus;to_bus;carrier;tech;capacity;efficiency;marginal_cost;carrier_cost;capacity_cost;expandable;capacity_potential;capacity_minimum;input_parameters;output_parameters;name;type;year
+ch4;electricity;gas;generator_gas;;1;0;0;;False;inf;;{};{};BB_gas_generator_gas;conversion;[2016, 2030, 2050]
