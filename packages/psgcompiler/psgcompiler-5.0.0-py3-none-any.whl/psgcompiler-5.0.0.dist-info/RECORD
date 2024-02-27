@@ -1,0 +1,14 @@
+psgcompiler/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgcompiler/README.md,sha256=Q3zbBn-gIYLyE_jhnDK5kiW1oyvZLnBvVtPLgtYi3UI,7193
+psgcompiler/__init__.py,sha256=wNpLt-eEwtYMugJ1_zhpF-SighvNzgu0jRygD05Sa1E,66
+psgcompiler/__main__.py,sha256=heNi6A5KlLw_19jJpktmbZRckQ1bEoPcHlbLMZGcojY,70
+psgcompiler/psgcompiler.py,sha256=f4MiQjiq-jJGKU0kUsZzMS_dsw8Grlmyo-dG10nfr_Q,25490
+psgcompiler/psgcompiler_icon.ico,sha256=mWrcAm2PM0zL6qR1mLRv4FICiZrX1eD804pBBVb4osM,16958
+psgcompiler/psgcompiler_icon.png,sha256=0fuyzsaf5sb8WtTHhMsRljkiZn9xoTDioLG8EE21lyI,2711
+psgcompiler/screenshot.jpg,sha256=p-bxl3vSFXGUtmnGhn19AMwqaeYPq2VMwbpZMRSB6AI,158854
+psgcompiler-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psgcompiler-5.0.0.dist-info/METADATA,sha256=ZPdEx-N0zqV75mXjvn0gYB3phS_rQLS6FI9w4AAZhp0,8604
+psgcompiler-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psgcompiler-5.0.0.dist-info/entry_points.txt,sha256=XBwdNwLHLNqp-3nbL0al_OGghu_Ees6VIg7JTb7FW-E,57
+psgcompiler-5.0.0.dist-info/top_level.txt,sha256=1zorpWK15veELtN5PGZJuDzpQ_PTDQOf9gq0rzFHzlQ,12
+psgcompiler-5.0.0.dist-info/RECORD,,
