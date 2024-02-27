@@ -1,0 +1,9 @@
+gammarer/aws_waf_ip_rate_limit_rule_group/__init__.py,sha256=uHJQrDLXv9XN9Fc3UNX9axsCmVTD_ZcscXY7B0qLL3w,7634
+gammarer/aws_waf_ip_rate_limit_rule_group/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+gammarer/aws_waf_ip_rate_limit_rule_group/_jsii/__init__.py,sha256=PEd7F4Ljp0rXMzHboJj1hn7wbJ6BR9v_5xRKMaCYArs,454
+gammarer/aws_waf_ip_rate_limit_rule_group/_jsii/aws-waf-ip-rate-limit-rule-group@1.1.7.jsii.tgz,sha256=S0o7lzXTm83HMvAyUA6WCOgfMfHX4kngWPeQH_k9h58,24018
+gammarer.aws_waf_ip_rate_limit_rule_group-1.1.7.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gammarer.aws_waf_ip_rate_limit_rule_group-1.1.7.dist-info/METADATA,sha256=K3ggRzk-_DqtOjQvWpRPZm0tZ7o59yh_VzeawqK6I_Y,3701
+gammarer.aws_waf_ip_rate_limit_rule_group-1.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gammarer.aws_waf_ip_rate_limit_rule_group-1.1.7.dist-info/top_level.txt,sha256=KJjeCHKZfj1dN2Ip1piM9BKO8rN6r4xXHtkpTHMDzVk,9
+gammarer.aws_waf_ip_rate_limit_rule_group-1.1.7.dist-info/RECORD,,
