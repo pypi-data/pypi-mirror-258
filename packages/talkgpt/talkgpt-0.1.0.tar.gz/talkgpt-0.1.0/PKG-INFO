@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: talkgpt
+Version: 0.1.0
+Summary: Talk to chatgpt
+License: GPLv3
+Author-email: Wincer <WincerChan+github@gmail.com>
+Requires-Python: >=3.10,<4.0
