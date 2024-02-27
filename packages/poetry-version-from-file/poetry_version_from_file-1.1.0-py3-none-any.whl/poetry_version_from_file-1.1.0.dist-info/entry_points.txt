@@ -1,0 +1,6 @@
+[poetry.plugin]
+poetry-version-from-file=poetry_version_from_file.plugin:PoetryVersionFromFile
+
+[version-from-file]
+enabled=true
+
