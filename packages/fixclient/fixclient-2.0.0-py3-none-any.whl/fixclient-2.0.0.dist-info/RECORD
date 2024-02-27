@@ -1,0 +1,13 @@
+fixclient/__init__.py,sha256=X4Iob_mCMxtFI45yThh-ulF4ZzkJGNXVtZxNNKZqg4s,20348
+fixclient/async_client.py,sha256=zFJad4FqSdth9B915W-xhWyRaLqbi70VkEkOiD-ptgY,23457
+fixclient/ca.py,sha256=_j1cS5QHv29aJwmebPgf6kuQTRhYTeAU8dsI22-jJ9E,6045
+fixclient/http_client/__init__.py,sha256=PzVvzPGYHV9S6P9_N6tmaZXseLyCr0v9Y6yVlTk7aX4,2797
+fixclient/http_client/aiohttp_client.py,sha256=xlAQyhXPC64FuaJoqaDFJ2aW6SLk2G3UY87XIhE4Ym4,12965
+fixclient/http_client/event_loop_thread.py,sha256=mEKXKM7zo-kv1pN064EYzEJEFf1GpaV27UazF_ya7po,1311
+fixclient/json_utils.py,sha256=b7LMmSYp-120j4BrU3rcrwy8CVHybbyC54RfD3KEW28,691
+fixclient/jwt_utils.py,sha256=7zr-gjxWj-Jv8dtMwC5SoERqRXP3VRZRC4nIOpMqcsk,3781
+fixclient/models.py,sha256=A6ZgPQqNBJUH_p95WHu_BkYxGT4oBoA84k7nfSLJjBo,2304
+fixclient-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fixclient-2.0.0.dist-info/METADATA,sha256=i5wKohK21DPospvma0lhpelwaMy6lM25fgMeVJqWZyw,2631
+fixclient-2.0.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+fixclient-2.0.0.dist-info/RECORD,,
