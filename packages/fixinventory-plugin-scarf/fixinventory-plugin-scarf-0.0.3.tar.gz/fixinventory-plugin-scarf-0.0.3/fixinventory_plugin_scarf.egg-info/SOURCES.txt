@@ -1,0 +1,5 @@
+setup.py
+fixinventory_plugin_scarf.egg-info/PKG-INFO
+fixinventory_plugin_scarf.egg-info/SOURCES.txt
+fixinventory_plugin_scarf.egg-info/dependency_links.txt
+fixinventory_plugin_scarf.egg-info/top_level.txt
