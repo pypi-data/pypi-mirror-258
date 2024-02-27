@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: smbprotocol-legacy
+Version: 0.1.1
+Summary: Interact with a server using the SMB 2/3 Protocol
+Home-page: https://github.com/jborean93/smbprotocol
+Author: Jordan Borean
+Author-email: jborean93@gmail.com
+License: MIT
+Keywords: smb smb2 smb3 cifs python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: cryptography >=2.0
+Requires-Dist: ntlm-auth
+Requires-Dist: pyasn1
+Requires-Dist: six
+Requires-Dist: ordereddict ; python_version<"2.7"
+Provides-Extra: kerberos
+Requires-Dist: gssapi >=1.4.1 ; (sys_platform!="win32") and extra == 'kerberos'
+
+UNKNOWN
+
