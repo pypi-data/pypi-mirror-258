@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/nats_connect_opts.egg-info/PKG-INFO
+src/nats_connect_opts.egg-info/SOURCES.txt
+src/nats_connect_opts.egg-info/dependency_links.txt
+src/nats_connect_opts.egg-info/requires.txt
+src/nats_connect_opts.egg-info/top_level.txt
+src/nats_contrib/connect_opts/__about__.py
+src/nats_contrib/connect_opts/__init__.py
+src/nats_contrib/connect_opts/connect.py
+src/nats_contrib/connect_opts/connect_opts.py
+src/nats_contrib/connect_opts/option.py
+src/nats_contrib/connect_opts/py.typed
+tests/test_connect_opts.py
