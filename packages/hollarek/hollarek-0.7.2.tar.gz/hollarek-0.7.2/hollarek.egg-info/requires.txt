@@ -1,0 +1,13 @@
+apscheduler
+beautifulsoup4
+cryptography
+dill
+func-timeout
+json-repair
+pathvalidate
+psutil
+pympler
+pypdf
+requests
+selenium
+trafilatura
