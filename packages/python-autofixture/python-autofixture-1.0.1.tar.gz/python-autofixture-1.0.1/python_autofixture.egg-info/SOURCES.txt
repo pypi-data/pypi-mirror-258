@@ -1,0 +1,14 @@
+setup.py
+formula_thoughts_web/__init__.py
+formula_thoughts_web/abstractions.py
+formula_thoughts_web/application.py
+formula_thoughts_web/crosscutting.py
+formula_thoughts_web/events.py
+formula_thoughts_web/exceptions.py
+formula_thoughts_web/ioc.py
+formula_thoughts_web/web.py
+python_autofixture.egg-info/PKG-INFO
+python_autofixture.egg-info/SOURCES.txt
+python_autofixture.egg-info/dependency_links.txt
+python_autofixture.egg-info/requires.txt
+python_autofixture.egg-info/top_level.txt
