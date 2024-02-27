@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: odoo12-addon-login-user-detail
+Version: 12.0.1.0.1.99.dev4
+Summary: Login User Details & IP Address
+Home-page: https://www.cybrosys.com
+Author: Cybrosys Techno Solutions
+License: LGPL-3
+Description: User Log Details v11
+        ====================
+        
+        This module developed to  record  login details of user.
+        
+        Installation
+        ============
+        
+        Just select it from available modules to install it, there is no need to extra installations.
+        
+        Configuration
+        =============
+        
+        Nothing to configure.
+        
+        Credits
+        =======
+        
+        Developer: Saritha @ cybrosys
+        
+        > :warning: This module has been uploaded to PyPI by Coopdevs Treball SCCL, but it was authored by Cybrosys. We need it on PyPI to streamline our deployments. For further details, you can contact sysadmin@coopdevs.org.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Requires-Python: >=3.5
