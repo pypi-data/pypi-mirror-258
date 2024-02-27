@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+metabase_mate/__init__.py
+metabase_mate.egg-info/PKG-INFO
+metabase_mate.egg-info/SOURCES.txt
+metabase_mate.egg-info/dependency_links.txt
+metabase_mate.egg-info/top_level.txt
