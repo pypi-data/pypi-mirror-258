@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cdrnn
+Version: 0.8.5
+Summary: A toolkit for continuous-time deconvolutional regression (CDR)
+Home-page: https://github.com/coryshain/cdr
+Author: Cory Shain
+Author-email: cory.shain@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
+License-File: LICENSE.txt
+Requires-Dist: dash
+Requires-Dist: numpy (>=1.9.1)
+Requires-Dist: pandas (>=1.1)
+Requires-Dist: pyyaml
+Requires-Dist: matplotlib
+Requires-Dist: tensorflow (>=1.9)
+Requires-Dist: tensorflow-probability
+Requires-Dist: scikit-learn
+Requires-Dist: scipy (>=0.14)
+
+UNKNOWN
+
