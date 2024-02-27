@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/analysis.py
+src/compute_features.py
+src/experimental_tracks.py
+src/generate_lstm_model.py
+src/simulate_tracks.py
+src/utils.py
+src/TrackSegNet.egg-info/PKG-INFO
+src/TrackSegNet.egg-info/SOURCES.txt
+src/TrackSegNet.egg-info/dependency_links.txt
+src/TrackSegNet.egg-info/top_level.txt

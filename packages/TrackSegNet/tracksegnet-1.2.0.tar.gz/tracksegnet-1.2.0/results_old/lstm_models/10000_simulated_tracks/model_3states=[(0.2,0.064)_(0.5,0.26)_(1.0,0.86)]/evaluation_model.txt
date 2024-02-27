@@ -1,0 +1,2 @@
+Train loss:	0.54	Train accuracy:	0.77
+Test loss:	0.55	Test accuracy:	0.77

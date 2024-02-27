@@ -1,0 +1,15 @@
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ bidirectional (Bidirectiona  (None, None, 400)        331200    
+ l)                                                              
+                                                                 
+ time_distributed (TimeDistr  (None, None, 3)          1203      
+ ibuted)                                                         
+                                                                 
+=================================================================
+Total params: 332,403
+Trainable params: 332,403
+Non-trainable params: 0
+_________________________________________________________________
