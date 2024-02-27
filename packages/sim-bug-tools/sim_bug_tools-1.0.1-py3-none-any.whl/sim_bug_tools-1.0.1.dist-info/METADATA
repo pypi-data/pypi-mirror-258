@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: sim-bug-tools
+Version: 1.0.1
+Summary: A toolkit for exploring bugs in software simulations.
+Home-page: https://github.com/AkbasLab/sim-bug-tools
+Author: Quentin Goss, John Thompson, Dr. Mustafa Ilhan Akbas
+Author-email: gossq@my.erau.edu, thomj130@my.erau.edu, akbasm@erau.edu
+Project-URL: Bug Tracker, https://github.com/AkbasLab/sim-bug-tools/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.21.1
+Requires-Dist: matplotlib >=3.4.2
+Requires-Dist: scipy >=1.7.1
+Requires-Dist: scikit-learn >=0.24.2
+Requires-Dist: networkx >=2.6.2
+Requires-Dist: pandas >=1.3.2
+Requires-Dist: openturns >=1.17
+Requires-Dist: treelib >=1.6.1
+Requires-Dist: Rtree >=1.0.0
+
+# sim-bug-tools
+`sim_bug_tools` is a python toolkit for exploring bugs in software simulations. This module consists of python classes for describing, navigating, and interacting with software simulations to find bugs or other scenario outcomes based on geometric analysis of known information.
+
+This module is developed for research in scenario-based testing for the validation and verification (V&V) of autonomous vehicles (AV). We were frustrated by the limitations imposed by time and resource cost of the AV V&V testing process given the many configurations of parameters for AV Testing. This module contains the tools we use to understand and navigate these high-dimensional spaces.
+
+## Research Team
+This research is conducted by <u>Embry-Riddle Aeronautical University</u> of Daytona Beach, Florida. Dept. of Electrical Engineering and Computer Science.
+
+**Faculty Team Lead**<br>
+Dr. Mustafa İlhan Akbaş `akbasm@erau.edu`
+
+**PhD Students**<br>
+Quentin Goss `gossq@my.erau.edu`<br>
+John Thompson `thomj130@my.erau.edu`
+
+**Undergraduate Students**<br>
+Annamaria Summer `summera@my.erau.edu`
+
+## Citing This Work
+If you would like to cite this work. Please cite our latest paper about the topic:
+
+J. M. Thompson, Q. Goss, and M. I. Akbas, “A Strategy for Boundary Adherence and Exploration in Black-Box Testing of Autonomous Vehicles,” in *2023 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)*, pp. 17–19, IEEE.
+
+```
+@incollection{Thompson2023Strategy,
+	author = {Thompson, John M. and Goss, Quentin and Akba{\ifmmode\mbox{\c{s}}\else\c{s}\fi}, Mustafa {\ifmmode\dot{I}\else\.{I}\fi}lhan},
+	title = {{A Strategy for Boundary Adherence and Exploration in Black-Box Testing of Autonomous Vehicles}},
+	booktitle = {{2023 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)}},
+	journal = {Published in: 2023 IEEE International Conference on Mobility, Operations, Services and Technologies (MOST)},
+	pages = {17--19},
+	publisher = {IEEE},
+	doi = {10.1109/MOST57249.2023.00028}
+}
+```
