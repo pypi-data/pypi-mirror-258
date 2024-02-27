@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "krypton-server"
+version = "0.1.0.dev0"
+description = ""
+authors = ["starecv <starec@mailbox.org>"]
+readme = "README.org"
+packages = [{include = "krypton"}]
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
