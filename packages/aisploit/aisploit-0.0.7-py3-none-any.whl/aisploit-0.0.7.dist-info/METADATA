@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: aisploit
+Version: 0.0.7
+Summary: Tiny package designed to support red teams and penetration testers in exploiting large language model AI solutions.
+Home-page: https://github.com/hupe1980/aisploit
+License: MIT
+Keywords: redteam,genai,llm,ai,pentest,cybersecurity
+Author: hupe1980
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Requires-Dist: langchain-community (>=0.0.24,<0.0.25)
+Requires-Dist: langchain-core (>=0.1.26,<0.2.0)
+Requires-Dist: langchain-openai (>=0.0.7,<0.0.8)
+Requires-Dist: numpy (>=1.26.4,<2.0.0)
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: transformers (>=4.38.1,<5.0.0)
+Project-URL: Repository, https://github.com/hupe1980/aisploit
+Description-Content-Type: text/markdown
+
+# 🤖🛡️🔍🔒🔑 aisploit
+
+AISploit is a Python package designed to support red teams and penetration testers in exploiting large language model AI solutions. It provides tools and utilities to automate tasks related to AI-based security testing.
+
+## Features
+
+- Automate red teaming tasks using large language model AI solutions
+- Perform penetration testing with AI-powered tools
+- Support for various security testing scenarios
+- Easy-to-use Python interface
+
+## Installation
+
+You can install aisploit using pip:
+
+```bash
+pip install aisploit
+```
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
