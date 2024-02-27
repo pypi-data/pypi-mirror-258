@@ -1,0 +1,1 @@
+2024-02-27 01:04:40,005 [ERROR] [utility_manager.py:109] [read_config_file] - Error in reading config file: [Errno 2] No such file or directory: '/opt/homebrew/Caskroom/miniforge/base/lib/python3.10/site-packages/open_code_interpreter/configs/groq-mixtral.config'
