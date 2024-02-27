@@ -1,0 +1,169 @@
+[
+  {
+    "name": "banking",
+    "description": "Here we would like to process transaction messages coming from different sources to detect fraud. For that, we would like to capture these messages as they arrive, process and apply our ML model to detect if that specific transaction is fradualent or not.  \n\nWe will be using Data Fabric Event Store pub/sub mechanism to submit transaction data into a topic, and another app/process that is consuming these transaction messages and generating a transaction profile and put this profile into Data Fabric Binary Table for quick referral. Finally the microservice that is checking all previous and related transactions with the profile placed in this table will respond to our app via topic creating a bi-directional messaging pipeline. \n\nOur pipeline here supports Ezmeral Data Fabric converged platform to store and serve data in both streaming and operational database engines.",
+    "diagram": "banking.jpg",
+    "volume": "/apps/banking",
+    "stream": "activity",
+    "table": "profiles",
+    "monitors": ["apprunner.topic_stats.transactions", "apprunner.consumer_stats.transactions"],
+    "steps":[
+      {
+        "id": 1,
+        "name": "create the volume",
+        "description": "We will start with creating a volume to place all app content. This will hold our data and provides an isolation for different apps and users. Volumes are also the primary construct to define data placement and distribution, replication/mirroring capabilities. It is easy to create a volume using REST API. \n\n!! If you get a warning that volume already exists, you can ignore it (forgot to clean up after previous run?). \n\nLet's create this stream by sending this request to Data Fabric REST API endpoint:",
+        "runner_parameters": "/rest/volume/create?name=banking&path=/apps/banking&tieringenable=true",
+        "runner": "rest"
+      },
+      {
+        "id": 2,
+        "name": "create the stream",
+        "description": "Lets start with creating a stream for our application to send messages. The messages will be sent to their respective topics, and topics will be automatically created if they don't exist. This behaviour can be changed with stream settings, but we are not interested in that now. If needed, we can also create a topic manually using the same method (or any other available management interface, such as CLI & GUI). \n\nLet's submit this request to create the stream (don't worry if stream already exists, as a leftover from previous run):",
+        "runner_parameters": "/rest/stream/create?path=/apps/banking/activity&ttl=86400&compression=lz4",
+        "runner": "rest"
+      },
+      {
+        "id": 3,
+        "name": "create transactions",
+        "description": "Now we would like to push some transactions into the topic. We will use the `faker` library to generate random transactions and use Kafka REST interface to push these transactions into the `transactions` topic in our stream. It is preferred to use native clients and libraries, ie, Java, C, Python clients, in production for performance and scalability. \n\nYou can see below sample code for both REST API and Python library but we will be using only the REST API for its simplicity. For performance and flexibility, language-native APIs and libraries would be preferred in real-world.",
+        "runner_parameters": "send_transactions",
+        "count": 500,
+        "runner": "app",
+        "app_parameters": ["transactions"],
+        "codes": ["restrunner.kafkapost", "apprunner.kafka_publish"]
+      },
+      {
+        "id": 4,
+        "name": "process transactions",
+        "description": "We will capture the messages using Kafka REST interface and fake a transformation to strip relevant information from the messages. It is possible to do the same processing using any other client/library that is available for other programming languages. And an example code is provided below. \n\nEach message we will consume will correspond to a transaction and should be transformed to a format that is suitable for our fraud detection ML model. For low-latency access, we will use certain fields in the messages and push them into a JSON DocumentDB so our ML model can perform fast querying with filters and selects for specific accounts and timeframes, rather than trying to read all messages or transactions. \n\nIn a real-world scenario, we would run this process as a service across multiple instances to increase the throughput and reduce processing/response times. In our simple scenario, it is acceptable to process messages that are available right now in the topic and we are not concerned about future transactions now. \n\nLet's run the consumer code as shown below to process these messages.",
+        "runner_parameters": "process_transactions",
+        "runner": "app",
+        "app_parameters": ["transactions"],
+        "codes": ["apprunner.stream_consume", "apprunner.kafka_consume"]
+      },
+      {
+        "id": 5,
+        "name": "monitor transaction flow",
+        "description": "Lets see what is currently going on with our transactions, using Kafka monitoring metrics. \n\nSelect the knobs below to activate metric collection from Streams, using REST API calls. They would provide visibility to published and consumed messages, and how much the consumers are lagging behind, for example. Enabling more in-depth metric collection is also possible using the JMX but we are not getting into those details here.",
+        "runner_parameters": "monitor_transactions",
+        "runner": "noop"
+      },
+      {
+        "id": 98,
+        "name": "clean up - delete the topic",
+        "description": "Since the kafka topics are created on a separate (internally managed) volume, we would delete the topic first.",
+        "runner_parameters": "/rest/kafkatopic/delete?topic=banking",
+        "runner": "rest"
+      },
+      {
+        "id": 99,
+        "name": "clean up - delete the volume",
+        "description": "Once finished, we can delete the volume to get rid off all artifacts we created with this demo",
+        "runner_parameters": "/rest/volume/remove?name=banking&force=true",
+        "runner": "rest"
+      }
+    ]
+  },
+  {
+    "name": "telecom",
+    "description": "Process base station and call data for a telco operator in real-time using kafka streams and delta tables.",
+    "diagram": "telecom.png",
+    "volume": "/apps/telecom",
+    "steps": [
+      {
+        "id": 1,
+        "name": "Create the volume",
+        "description": "We will create a volume to store all app related information...",
+        "runner_parameters": "/rest/volume/create?name=telecom&path=/apps/telecom&tieringenable=true",
+        "runner": "rest"
+      },
+      {
+        "id": 2,
+        "name": "Copy files to the volume",
+        "description": "using REST",
+        "runner_parameters": "data/",
+        "runner": "restfile"
+      },
+      {
+        "id": 3,
+        "name": "Insert base station details into delta table",
+        "description": "using pyspark",
+        "runner_parameters": "/opt/mapr/spark/spark-3.3.2/bin/pyspark < ./py/baseStationDelta.py",
+        "runner": "shell"
+      },
+      {
+        "id": 4,
+        "name": "Create table for base stations",
+        "description": "using REST API",
+        "runner_parameters": "/rest/table/create?path=/apps/telecom/basestations&tabletype=json",
+        "runner": "rest"
+      },
+      {
+        "id": 5,
+        "name": "Create table for calls",
+        "description": "using REST API",
+        "runner_parameters": "/rest/table/create?path=/apps/telecom/calls&tabletype=json",
+        "runner": "rest"
+      },
+      {
+        "id": 6,
+        "name": "Insert base station details",
+        "description": "into delta table",
+        "runner_parameters": "/opt/mapr/spark/spark-3.3.2/bin/pyspark < ./py/baseStationDB.py",
+        "runner": "shell"
+      },
+      {
+        "id": 7,
+        "name": "Create Topic telecom:calls",
+        "description": "using CLI",
+        "runner_parameters": "maprcli kafkatopic create -topic telecom:calls -ttl 36000 -compression lz4",
+        "runner": "shell"
+      },
+      {
+        "id": 8,
+        "name": "Publish calls into topic: telecom:calls",
+        "description": "using Java",
+        "runner_parameters": "generate_calls",
+        "runner": "app",
+        "count": 200
+      },
+      {
+        "id": 9,
+        "name": "Process messages in topic telecom:calls",
+        "description": "using python",
+        "runner_parameters": "./py/opentsdb.py",
+        "runner": "shell"
+      },
+      {
+        "id": 10,
+        "name": "Start Web Service",
+        "description": "for dashboard",
+        "runner_parameters": "node ./myApp/bin/www &",
+        "runner": "shell"
+      }
+    ]
+  },
+  {
+    "name": "core to edge",
+    "description": "Hopefully available soon",
+    "diagram": "core-edge.png",
+    "volume": "/apps/core-to-edge",
+    "steps": [
+      {
+        "id": 1,
+        "name": "Create volume",
+        "description": "We need to create a remote volume to ...",
+        "runner_parameters": "/rest/volume/create?name=core-to-edge&path=/apps/core-to-edge&tieringenable=true",
+        "runner": "rest"
+      },
+      {
+        "id": 2,
+        "name": "Create remote volume",
+        "description": "We need to create a remote volume to ...",
+        "runner_parameters": "/rest/volume/create?name=core-to-edge&path=/apps/core-to-edge&tieringenable=true",
+        "runner": "rest",
+        "input": "remote_cluster_host"
+      }
+    ]
+  }
+]
