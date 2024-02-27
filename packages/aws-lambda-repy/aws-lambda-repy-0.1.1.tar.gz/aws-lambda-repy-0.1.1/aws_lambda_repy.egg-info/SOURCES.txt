@@ -1,0 +1,6 @@
+README.md
+setup.py
+aws_lambda_repy.egg-info/PKG-INFO
+aws_lambda_repy.egg-info/SOURCES.txt
+aws_lambda_repy.egg-info/dependency_links.txt
+aws_lambda_repy.egg-info/top_level.txt
