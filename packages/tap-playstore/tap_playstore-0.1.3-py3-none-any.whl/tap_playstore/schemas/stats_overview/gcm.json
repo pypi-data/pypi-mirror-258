@@ -1,0 +1,32 @@
+{
+    "properties": {
+        "date": {
+            "type": ["null", "string"], "format": "date"
+        },
+        "package_name": {
+            "type": ["null", "string"]
+        },
+        "gcm_sender_id": {
+            "type": ["null", "integer"]
+        },
+        "gcm_messages": {
+            "type": ["null", "integer"]
+        },
+        "gcm_registrations": {
+            "type": ["null", "integer"]
+        },
+        "_file_path": {
+            "type": "string"
+        },
+        "_file_lineno": {
+            "type": "integer"
+        },
+        "_file_updated_at": {
+            "type": "string", "format": "date-time"
+        },
+        "_bucket": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

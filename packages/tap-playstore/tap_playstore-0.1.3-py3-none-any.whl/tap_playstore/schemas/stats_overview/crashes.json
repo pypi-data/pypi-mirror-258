@@ -1,0 +1,29 @@
+{
+    "properties": {
+        "date": {
+            "type": ["null", "string"], "format": "date"
+        },
+        "package_name": {
+            "type": ["null", "string"]
+        },
+        "daily_crashes": {
+            "type": ["null", "integer"]
+        },
+        "daily_an_rs": {
+            "type": ["null", "integer"]
+        },
+        "_file_path": {
+            "type": "string"
+        },
+        "_file_lineno": {
+            "type": "integer"
+        },
+        "_file_updated_at": {
+            "type": "string", "format": "date-time"
+        },
+        "_bucket": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}

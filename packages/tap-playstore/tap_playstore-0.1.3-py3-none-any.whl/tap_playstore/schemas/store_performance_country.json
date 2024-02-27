@@ -1,0 +1,35 @@
+{
+    "properties": {
+        "date": {
+            "type": ["null", "string"], "format": "date"
+        },
+        "package_name": {
+            "type": ["null", "string"]
+        },
+        "country_region": {
+            "type": ["null", "string"]
+        },
+        "store_listing_acquisitions": {
+            "type": ["null", "integer"]
+        },
+        "store_listing_visitors": {
+            "type": ["null", "integer"]
+        },
+        "store_listing_conversion_rate": {
+            "type": ["null", "number"]
+        },
+        "_file_path": {
+            "type": "string"
+        },
+        "_file_lineno": {
+            "type": "integer"
+        },
+        "_file_updated_at": {
+            "type": "string", "format": "date-time"
+        },
+        "_bucket": {
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
