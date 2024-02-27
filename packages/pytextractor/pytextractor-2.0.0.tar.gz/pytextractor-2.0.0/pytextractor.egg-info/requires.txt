@@ -1,0 +1,8 @@
+imutils
+opencv-python
+Pillow
+pytesseract
+requests
+
+[dev]
+pytest
