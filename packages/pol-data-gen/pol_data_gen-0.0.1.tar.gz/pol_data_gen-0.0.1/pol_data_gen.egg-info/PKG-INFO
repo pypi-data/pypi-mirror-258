@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pol_data_gen
+Version: 0.0.1
+Summary: Polynomial Data Generator
+Home-page: https://github.com/yehorkhod/polynomial-data-generator
+Author: Yehor Khodysko
+Author-email: e.khodysko@gmail.com
+License: MIT
+Keywords: polynomial,data,generator,polynomial data,polynomial generator,data generator,polynomial data generator
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+A way to generate polynomial distributed data. Read more: https://github.com/yehorkhod/lazy-polynomial-regression-research.git.
