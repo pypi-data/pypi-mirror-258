@@ -1,0 +1,9 @@
+pytest_better_parametrize/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_better_parametrize/core.py,sha256=nuqbECwa8NZE1kjF98-6qfivzyFXiWY4kCEELEXX7oE,1225
+pytest_better_parametrize/plugin.py,sha256=D_eJheC8wp7BAs5IbcJzrX05e-4YtQ9xscx1sBIRjOE,589
+pytest_better_parametrize-0.1.0.dist-info/LICENSE,sha256=J4p-2bwkipiLSc7VfgQSkj1XWLK6MRMVag-d0_QKCYs,1081
+pytest_better_parametrize-0.1.0.dist-info/METADATA,sha256=cn8JFaeWq3Si0cG_MeslI2T2PhTdZb6WV41__bB4kko,4853
+pytest_better_parametrize-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_better_parametrize-0.1.0.dist-info/entry_points.txt,sha256=szvGv6VYEIEyyiKQDhaBXE201s1D7QKlMZTI0RY-Poc,53
+pytest_better_parametrize-0.1.0.dist-info/top_level.txt,sha256=pm1m0HFyn9Byj9jwRvX2SF_xhoiwOyoWDtdSfm3kBIA,26
+pytest_better_parametrize-0.1.0.dist-info/RECORD,,
