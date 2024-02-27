@@ -1,0 +1,2 @@
+[console_scripts]
+show_weather = show_weather.show_weather:main
