@@ -1,0 +1,13 @@
+astropy
+cython
+emcee
+getdist
+h5py
+healpy
+matplotlib
+numpy
+pyabel
+pyyaml
+scipy
+tqdm
+vide
