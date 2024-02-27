@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "asdm"
+version = "0.1.0"
+description = "Agile System Dynamics Engine"
+authors = [
+    "Wang Zhao <wang.zhao@strath.ac.uk>",
+    "Matt Stammers <matt@reallyusefulmodels.com>"
+]
+license = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/wzh1895/ASDM"
+repository = "https://github.com/wzh1895/ASDM"
+documentation = "https://github.com/wzh1895/ASDM/tree/main/Documentation.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+networkx = "*"
+scipy = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+pandas = "*"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
