@@ -1,0 +1,54 @@
+
+def updateAnnotazioni(gatenlpOriginale:dict, risultatoAnalisi:list):
+#REQUIRES: Valid GateNLP and a List which contains the results of an analysis run by Presidio
+#MODIFIES: input GateNLP
+#EFFECTS: Returns a new GateNLP with updated annotations found via Presidio
+    annotazioni = gatenlpOriginale['annotation_sets']["entities"]["annotations"]
+    nextID = gatenlpOriginale['annotation_sets']["entities"]["next_annid"]
+
+    # Mappiamo le entità per rinominarle
+    entity_type_mapping = {
+        'PERSON': 'persona_presidio',
+        'LOCATION': 'indirizzo',
+        'ORGANIZATION': 'persona_presidio',
+        'IT_FISCAL_CODE':'codice_fiscale',
+        'IT_VAT_CODE':'partita_iva'
+    }
+
+
+    for nuovaAnnotazione in risultatoAnalisi:
+        flagPresenza = False
+
+        for annotazioneOriginale in annotazioni:
+            if annotazioneOriginale["start"] == nuovaAnnotazione.start and annotazioneOriginale["end"] == nuovaAnnotazione.end:
+                print("La seguente annotazione non è stata inserita in quanto doppione:")
+                print(nuovaAnnotazione)
+                flagPresenza = True,
+                break
+        
+        if flagPresenza == False:
+            mapped_entity_type = entity_type_mapping.get(nuovaAnnotazione.entity_type)
+
+            testoAnnotazione = {"type": "Word",
+                                "start": nuovaAnnotazione.start,
+                                "end": nuovaAnnotazione.end,
+                                "id": nextID,
+                                "features": {
+                                "title": gatenlpOriginale["text"][nuovaAnnotazione.start:nuovaAnnotazione.end],
+                                "url": "",
+                                "ner": {
+                                    "type": mapped_entity_type,
+                                    "normalized_text": gatenlpOriginale["text"][nuovaAnnotazione.start:nuovaAnnotazione.end],
+                                },
+                                "entity_registry": {
+                                    "er_name": None,
+                                    "entity_type": None,
+                                    "entity_id": None
+                                    }
+                                },
+                            }
+            annotazioni.append(testoAnnotazione)
+            nextID += 1
+    
+    gatenlpOriginale['annotation_sets']["entities"]["next_annid"] = nextID
+    return gatenlpOriginale
