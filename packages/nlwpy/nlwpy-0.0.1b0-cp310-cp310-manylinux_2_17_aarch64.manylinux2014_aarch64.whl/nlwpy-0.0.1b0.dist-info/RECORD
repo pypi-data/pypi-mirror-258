@@ -1,0 +1,11 @@
+_nlwpy.cpython-310-aarch64-linux-gnu.so,sha256=fWfwzjZcMr8KXgslc0wzxCxabkHhKuZmxvHKWxd7kDY,14111336
+nlwpy-0.0.1b0.dist-info/LICENSE,sha256=y2p0r-078svtstoJpa51DCwL0EAc6VOgGlO6R_tkVEE,1521
+nlwpy-0.0.1b0.dist-info/WHEEL,sha256=7-IJbjbL0nWUFP_cSrTULDrfI4l8JN0GBqGHPqza7ao,154
+nlwpy-0.0.1b0.dist-info/METADATA,sha256=ofIXlmJoC9L69x4YDsyrCT84d0A1jp3saV-oM2If7PE,309
+nlwpy-0.0.1b0.dist-info/top_level.txt,sha256=g3xSf2VCwWG693CEyZs7RhfV66Dicb517OL43rjtwLc,13
+nlwpy-0.0.1b0.dist-info/RECORD,,
+nlwpy/__init__.py,sha256=pymLR-Bodx6_ssdb_X-oGPuxpQvoVRB6du3m3zAbSWs,52
+nlwpy/docs/conf.py,sha256=4JnwY1ii_YvW9dTEk_ZvpEIdCtPw6bNmFlsGs_M6dHI,9549
+nlwpy/test/test_solve.py,sha256=wWN9Wh58NAgXRQ68t1h4w3rk8YTNY7AzFOAnyzIj6pI,5567
+nlwpy/test/__init__.py,sha256=ZlAQoAUo8AL-1fVdNuH_dbChxUv-_h5yvkgwN_FK71o,40
+nlwpy/test/__main__.py,sha256=GYJMRdFbiMibLLS65w2JIsKNdE07HPrInJWNxsSO4nY,55
