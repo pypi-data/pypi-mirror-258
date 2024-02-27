@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: itlmon
+Version: 0.0.3
+Summary: Utility functions for provisioning
+Author-email: That Dev <sunny@thatone.ai>
+License-File: LICENSE
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: itllib
+Requires-Dist: textual
+Requires-Dist: watchdog
