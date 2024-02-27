@@ -1,0 +1,1 @@
+Correctly handle a header which has DEAXES=0.
