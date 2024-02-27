@@ -1,0 +1,5 @@
+setup.py
+fixinventory_plugin_gcp.egg-info/PKG-INFO
+fixinventory_plugin_gcp.egg-info/SOURCES.txt
+fixinventory_plugin_gcp.egg-info/dependency_links.txt
+fixinventory_plugin_gcp.egg-info/top_level.txt
