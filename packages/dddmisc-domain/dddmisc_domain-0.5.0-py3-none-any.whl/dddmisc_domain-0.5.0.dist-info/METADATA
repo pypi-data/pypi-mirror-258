@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dddmisc-domain
+Version: 0.5.0
+Summary: This package provides implementation domain's objects classes
+License: MIT
+Author: Vladislav Vorobyov
+Author-email: vladislav.vorobyov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: pydantic
+Requires-Dist: dddmisc-core (>=0.6.0,<0.7.0)
+Requires-Dist: pydantic (>=2.0.0,<3.0.0) ; extra == "pydantic"
