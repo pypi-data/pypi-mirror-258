@@ -1,0 +1,70 @@
+[project]
+name = "jinja2yaml"
+version = "0.1.4"
+description = "YamlLoader for jinja2"
+keywords = [
+    "jinja2",
+    "jinja2-template",
+    "jinja2-extention",
+    "jinja2yaml",
+    "yaml",
+    "template",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+authors = [
+    { name = "vd", email = "jinja2yaml@vd2.org" },
+]
+dependencies = [
+    "jinja2~=3.1.3",
+    "pyyaml~=6.0.1",
+]
+requires-python = ">=3.8,<3.13"
+readme = "README.md"
+
+[project.license]
+file = "LICENSE"
+
+[project.urls]
+homepage = "https://github.com/vd2org/jinja2yaml"
+repository = "https://github.com/vd2org/jinja2yaml.git"
+issues = "https://github.com/vd2org/jinja2yaml/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest~=8.0.2",
+    "ubump~=0.1.8; python_version >= '3.11'",
+    "requests>=2.31.0",
+]
+
+[tool.ubump]
+template = "v${major}.${minor}.${patch}"
+message = "Bump to ${version}"
+tag = true
+files = [
+    "src/jinja2yaml/__init__.py",
+]
