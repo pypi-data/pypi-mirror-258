@@ -1,0 +1,11 @@
+magia_flow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magia_flow/online/__init__.py,sha256=Su8JGCRNRggc9193X8_JMk8yPifM4hGyojZiea8ZrSk,487
+magia_flow/online/digitaljs.py,sha256=LSXKCk5Yvey3QFK2TEMQoShHE23vgTneoAjvXFRqcmU,1549
+magia_flow/simulation/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+magia_flow/simulation/general.py,sha256=CTI2XpemLAJs-i0uRf-V3wwHq3iGvM6WLpXOJOikbSE,3440
+magia_flow/simulation/surfer.py,sha256=Nn9LIT6_XJcaMoCRNfZHFOlBhSKc1-u3rzDGDk20P2Y,2782
+magia_flow/simulation/verilator.py,sha256=m82yKNuKoovzpcMy5e9oMvEC9s-qWvAwEzxzRFklBfE,1851
+magia_flow-0.1.0.dist-info/LICENSE,sha256=gUcr_D5EfI_iL26MsxAqWp6TI8-UmNNoYqTXYJayUdM,1069
+magia_flow-0.1.0.dist-info/METADATA,sha256=VYd0ARYUnRxL0DQTqTIBOId25QAvnVwR2hphgKBzU1M,1421
+magia_flow-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+magia_flow-0.1.0.dist-info/RECORD,,
