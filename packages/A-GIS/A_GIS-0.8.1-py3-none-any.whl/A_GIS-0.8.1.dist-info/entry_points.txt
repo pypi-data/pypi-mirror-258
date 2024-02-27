@@ -1,0 +1,2 @@
+[console_scripts]
+a-gis = A_GIS.__main__:main
