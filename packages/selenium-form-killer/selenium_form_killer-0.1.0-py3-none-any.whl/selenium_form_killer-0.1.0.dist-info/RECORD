@@ -1,0 +1,9 @@
+selenium_form_killer/__init__.py,sha256=zxB61J0sEfTMVlrI_WTkWLh3RO4k4rXBd5N6lhCLm70,65
+selenium_form_killer/capmonster/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selenium_form_killer/capmonster/captcha_breaker.py,sha256=w_SiMq7wPyhpfJd8KwsfARYvnUIQ020ZfZcJ_BosDEQ,601
+selenium_form_killer/killer.py,sha256=ox8PIJnYZPunLyn1z9r-O21A12LEeOh_fU9AfJNufbk,11865
+selenium_form_killer/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+selenium_form_killer/util/util.py,sha256=erul9QwafHhAE0Zm4oIQApJNG4KsUUg5bhgr085RenA,221
+selenium_form_killer-0.1.0.dist-info/METADATA,sha256=azJgSAfhc10G8bmQ131C9s8dQ7fhoFjHHXs23w4KU5s,2009
+selenium_form_killer-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+selenium_form_killer-0.1.0.dist-info/RECORD,,
