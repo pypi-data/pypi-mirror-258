@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+	<meta charset="UTF-8">
+	<title>Telecom App</title>
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet.css">
+	<script src="https://d3js.org/d3.v7.min.js"></script>
+
+	
+
+
+	<script src="https://cdn.jsdelivr.net/npm/leaflet@1.8.0/dist/leaflet-src.min.js"></script>
+	
+	<link rel="stylesheet" href="stylesheets/style.css">
+	
+	<style type="text/css">
+	
+		ul {
+			padding-inline-start: 0px;
+		}
+		li {
+        	margin: 5px 5px 15px;
+        	list-style-type: none;
+      	}
+      	
+      	li:hover {
+        	cursor: pointer;
+        	background-color: #4287f5;
+        	color: white
+      	}
+      	
+      	table {
+      		margin-left: auto;
+            margin-right: auto;
+            font-size: 12px;
+            width: 100%;
+            table-layout:fixed;
+      	}
+      	
+      	td {
+      		text-align: center;
+      		padding: 5px;
+        }
+        
+        td.title {
+        	font-weight: bold;
+        }
+        
+        td.label {
+        	text-align: right;
+        }
+        
+        
+        body {
+        	width: 100%;
+      		height: 100%;
+      		padding: 0px;
+      		background-color: #dcd9d9;
+        }
+        
+		
+		g.selectedRaster > circle {
+			r: 8;
+			fill: red;
+		}
+		
+		g.selectedRaster > text {
+			fill: red;
+		}
+		
+		circle {
+			r: 4;
+			fill: black;
+		}
+		
+		.marker {
+			z-index: 10000;
+			fill: blue;
+			fill-opacity: 1;
+			&:hover {
+				fill: #8d3155;
+				fill-opacity: 1;
+				cursor: pointer;
+			}
+		}
+
+		#marker_photo {
+			width: 180px;
+      		height: 180px;
+      		margin-left: auto;
+  			margin-right: auto;
+  			display: block;
+  			padding: 20px;
+		}
+        
+        .black  { background-color: white }
+        .w3-center .w3-bar{display:inline-block;width:auto}
+		.bar .bar-item{padding:8px 16px;float:left;width:50%;border:none;display:block;outline:0}
+		.w3-bar .w3-dropdown-hover,.w3-bar .w3-dropdown-click{position:static;float:left}
+		.w3-bar .w3-button{white-space:normal}
+		.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+		
+		.selecteTab { background-color: gray; color: white;}
+		
+		
+
+
+.panel {
+	position: absolute;
+	z-index: 1000;
+    margin: 10px;
+    background: white;
+    border-radius: 10px;
+  	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	text-align: center;
+}
+
+#map { 
+	height: 800px; 
+	margin: 0px;
+}
+
+#menu {
+  	left:10px;
+  	top: 100px;
+    opacity: 100%;    
+}
+
+
+#coordinates {
+	left: 10px;
+	bottom: 10px;
+	opacity: 100%;
+	border-radius: 4px;
+	padding: 4px;
+	font-style: italic;
+	font-size: 10px;
+}
+
+#capture {
+  	left:10px;
+  	top: 300px;
+  	width: 220px;
+ 	height: 220px;
+    opacity: 100%;    
+}
+
+h3 {
+  	margin-top: 5px;
+}
+
+	#player {
+		width: 400px;
+		height: 40px;
+		top: 10px;
+		left: 300px;
+		padding: 5px 15px 5px 15px;
+		opacity: 70%;
+
+	}
+
+		.player_button {
+			background-color: transparent;
+    		background-repeat: no-repeat;
+    		border: none;
+		}
+		
+		.player_button svg {
+			width: "24";
+			height: "24";
+			viewBox: "0 0 24 24";
+		}
+		
+		.timer div span {
+			padding: 4px;
+			font-style: italic;
+		}
+		
+		.timeline {
+			width: 100%;
+			height: 4px;
+			border-radius: 2px;
+			position: relative;
+			margin: 5px;
+		}
+		
+		.dot {
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			position: absolute;
+			top: 50%;
+			transform: translate(-50%,-50%);
+		}
+		
+		.timer {
+    		display: block;
+    		margin-left: auto;
+    		margin-right: auto;
+    		text-align: center;
+     	}
+
+#details {
+ 	width: 220px;
+ 	height: 420px;
+  	right: 20px;
+  	top: 50px;
+    opacity: 100%
+}
+
+.leaflet-overlay-pane svg path{
+    pointer-events: auto;
+}
+
+        
+    </style>
+    
+	<script charset="utf-8">
+	
+		async function sendData(url = '', data = {}, action = 'GET') {
+		
+			const response = await fetch( url, {
+    			method: action,
+    			mode: 'cors',
+    			cache: 'no-cache', 
+    			credentials: 'same-origin', 
+    			headers: { 'Content-Type': 'application/json' },
+    			redirect: 'follow', 
+    			referrerPolicy: 'no-referrer', 
+    			body: ((action == 'POST' ) ? JSON.stringify(data) : null) 
+  			});
+  		
+  			return response.json(); 
+		}
+
+  
+	const timeParser = d3.timeParse("%Y-%m-%d")
+     
+
+    class Coordinate {
+    
+    	constructor(id, map) {   	
+    		this.elt = document.getElementById(id);
+    		map.on("mousemove", this.update, this);
+    	}
+    	
+    	update(evt) {   	
+    		this.elt.innerHTML = '<b>Lat</b>: ' + evt.latlng.lat.toFixed(4) + ' : <b>Lng</b>:' + evt.latlng.lng.toFixed(4);
+    	}
+    
+    }
+    
+    class Player {
+	
+		fastReward = "M10.5897199,6.00427024 C11.1420047,6.00427024 11.5897199,6.45198549 11.5897199,7.00427024 L11.5897199,7.00427024 L11.5897199,16.9956177 C11.5897199,17.1910447 11.5324577,17.3821888 11.4250101,17.5454271 C11.1213588,18.0067451 10.5012286,18.1345592 10.0399106,17.8309079 L10.0399106,17.8309079 L2.45030238,12.8352342 C2.33672243,12.760473 2.23958272,12.6633333 2.1648215,12.5497533 C1.8611702,12.0884353 1.98898434,11.4683051 2.45030238,11.1646538 L2.45030238,11.1646538 L10.0399106,6.16898004 C10.2031488,6.06153246 10.3942929,6.00427024 10.5897199,6.00427024 Z M20.9981405,6.00427024 C21.5504253,6.00427024 21.9981405,6.45198549 21.9981405,7.00427024 L21.9981405,7.00427024 L21.9981405,16.9956177 C21.9981405,17.1910447 21.9408783,17.3821888 21.8334307,17.5454271 C21.5297794,18.0067451 20.9096492,18.1345592 20.4483312,17.8309079 L20.4483312,17.8309079 L12.858723,12.8352342 C12.745143,12.760473 12.6480033,12.6633333 12.5732421,12.5497533 C12.2695908,12.0884353 12.3974049,11.4683051 12.858723,11.1646538 L12.858723,11.1646538 L20.4483312,6.16898004 C20.6115694,6.06153246 20.8027135,6.00427024 20.9981405,6.00427024 Z";
+		fastForward = "M3,6.00427024 C3.19542699,6.00427024 3.38657107,6.06153246 3.54980932,6.16898004 L11.1394175,11.1646538 C11.6007356,11.4683051 11.7285497,12.0884353 11.4248984,12.5497533 C11.3501372,12.6633333 11.2529975,12.760473 11.1394175,12.8352342 L3.54980932,17.8309079 C3.08849128,18.1345592 2.4683611,18.0067451 2.1647098,17.5454271 C2.05726222,17.3821888 2,17.1910447 2,16.9956177 L2,7.00427024 C2,6.45198549 2.44771525,6.00427024 3,6.00427024 Z M13.4084206,6.00427024 C13.6038476,6.00427024 13.7949917,6.06153246 13.9582299,6.16898004 L21.5478381,11.1646538 C22.0091562,11.4683051 22.1369703,12.0884353 21.833319,12.5497533 C21.7585578,12.6633333 21.6614181,12.760473 21.5478381,12.8352342 L13.9582299,17.8309079 C13.4969119,18.1345592 12.8767817,18.0067451 12.5731304,17.5454271 C12.4656828,17.3821888 12.4084206,17.1910447 12.4084206,16.9956177 L12.4084206,7.00427024 C12.4084206,6.45198549 12.8561359,6.00427024 13.4084206,6.00427024 Z";
+		play = "M5,20.1957524 L5,3.80424764 C5,3.25196289 5.44771525,2.80424764 6,2.80424764 C6.18741972,2.80424764 6.37106734,2.85691709 6.52999894,2.95624934 L19.6432027,11.1520017 C20.1115392,11.444712 20.2539124,12.0616624 19.9612021,12.5299989 C19.8807214,12.6587681 19.7719718,12.7675176 19.6432027,12.8479983 L6.52999894,21.0437507 C6.06166241,21.336461 5.44471203,21.1940878 5.1520017,20.7257513 C5.05266944,20.5668197 5,20.3831721 5,20.1957524 Z";
+		stop = "M18.3836045,3 C19.2763151,3 20,3.78390469 20,4.75090012 L20,4.75090012 L20,19.2490999 C20,20.2160953 19.2763151,21 18.3836045,21 L18.3836045,21 L15.6163955,21 C14.7236849,21 14,20.2160953 14,19.2490999 L14,19.2490999 L14,4.75090012 C14,3.78390469 14.7236849,3 15.6163955,3 L15.6163955,3 Z M8.38360453,3 C9.2763151,3 10,3.78390469 10,4.75090012 L10,4.75090012 L10,19.2490999 C10,20.2160953 9.2763151,21 8.38360453,21 L8.38360453,21 L5.61639547,21 C4.7236849,21 4,20.2160953 4,19.2490999 L4,19.2490999 L4,4.75090012 C4,3.78390469 4.7236849,3 5.61639547,3 L5.61639547,3 Z";
+	
+		constructor(name) {
+
+			let self = this;
+			
+			this.pos = 0;
+			this.step = 5;
+			this.width = 300;
+			this.duration = 1000;
+			this.transition = false;
+			this.dateFormat = d3.timeFormat("%Y/%m/%d");
+			this.times = [ new Date('2014-06-01'), new Date('2014-06-02') ]
+		
+
+			
+			this.elt = d3.select('#' + name);
+					
+			var play = (step) => {
+				return function() {
+						self.transition = true;
+						if (self.timer != null ) self.timer.stop();
+						self.timer = d3.interval( function(duration) {
+						self.pos = Math.max(Math.min( self.pos + step ,100),0);
+						if (self.pos > 0 && self.pos < 100) {
+							self.update();
+						} else {
+							self.timer.stop();
+						}
+					}, self.duration);
+				}
+			};
+			
+			this.x = d3.scaleTime()
+    			.domain(this.times)
+    			.range([0,this.width])
+    			.clamp(true)
+		
+			
+			this.line = this.elt.append('div')
+				.attr('class', 'timeline timer')
+				.style('width', this.width)
+				.style('background', 'linear-gradient(to right, blue 0%, black 0%)' )
+			
+			this.cursor = this.line.append('div')
+					.attr('class', 'dot')
+					.style('left', '0%')
+					.style('background-color', 'blue')
+					.call(d3.drag()
+						.on('drag', function(event) {
+							var curr = ( event.x - self.x.range()[0]) * 100 / width;
+							if ( curr >= 0 && curr <= 100) {
+								self.pos = curr;
+								self.update();	
+							}
+						})
+					)
+					
+		    this.group = this.elt.append('div');	
+		    
+			this.addButton('fastReward', play(-5));
+			this.addButton('play', play(1));		
+			this.addButton('stop', () => { 
+				self.timer.stop();
+				self.transition = false;	
+			 });
+			this.addButton('fastForward', play(5));	
+
+						
+		}
+		
+		updateDates() {
+		
+			this.x = this.x.domain(this.times);
+    			
+    		this.addDate(this.x.domain()[0],'left');
+			this.addDate(this.x.domain()[1],'right');
+		}
+		
+		addDate(value,pos) {
+			this.group.append('span')
+				.style('float', pos)
+				.text(this.dateFormat(value))
+		}
+		
+		addButton(name, func) {
+		
+			this.group.append('button')
+				.attr('id',name)
+				.attr('class', 'player_button')
+				.attr('type','button')
+				.on('click', func)
+				.append('svg')
+					.attr('width', 24)
+					.attr('height', 24)
+					.attr('viewBox', '0 0 24 24')
+					.append('path')
+						.attr('d', this[name])				
+		}
+		
+	
+		
+		update() {
+			this.line
+				.transition()
+				.ease(d3.easeLinear)
+				.duration( this.transition ? this.duration : 0 )
+				.style('background', 'linear-gradient(to right, blue ' + this.pos + '%, black ' + this.pos + '%)' );
+				
+			this.cursor
+				.transition()
+				.ease(d3.easeLinear)
+				.duration(this.transition ? this.duration : 0)
+				.style('left', this.pos + '%')	
+				
+			this.onUpdate();
+				
+		}
+		
+		 onUpdate = function(d) { }
+    	
+	}
+	
+	
+	class TrendChart {
+  
+      constructor(name, legend, props) {
+    	
+    	this.x;
+    	this.y;
+    	this.url;
+    	this.lines = [];
+    	this.currvalues = [];
+    	this.props = Object.assign( { width: 180, height: 100, margin: 10}, props); 
+    	
+    	let self = this;
+    	
+    	this.svg = d3.select(name).append('svg')    
+    	     .attr("width", this.props.width + 2 * this.props.margin)
+    		 .attr("height", this.props.height + 2 * this.props.margin)
+    		 .attr("padding", 10)
+  			 .append("g")
+  			    .attr("transform","translate(" + this.props.margin + "," + this.props.margin + ")")
+  			
+  		this.cursor = this.svg.append('g')
+			  .append('line')
+		  		.attr("stroke", "grey")
+		  		.attr('stroke-width', 1)
+		  		.attr('x1', 0)
+		  		.attr('y1', - this.props.margin/2)
+		  		.attr('x2', 0)
+		  		.attr('y2', this.props.height + this.props.margin/2 )
+		  		.style("opacity", 0);
+		  		
+      	this.svg.append('rect')
+			.style("fill", "none")
+			.style("pointer-events", "all")
+			.attr('width', this.props.width)
+			.attr('height', this.props.height)
+			.on('mouseover', (e) => {
+				self.cursor.style("opacity", 1)
+			})
+			.on('mouseout', (e) => {
+				self.cursor.style("opacity", 0)
+				self.abcissValue.text('')
+				self.currvalues.forEach( item => item.text("") )
+			})
+			.on('mousemove', (e) => {
+				self.info( self.x.invert(d3.pointer(e)[0]))
+			});
+			
+		this.legend = d3.select(legend).append('svg')
+			.attr('width', this.props.width)
+		
+		this.abciss = this.legend.append('g')
+		
+		this.abciss.append('text')
+				.attr("transform", "translate(0,10)" )
+				.style("alignment-baseline", "middle")
+				.text('Time:');
+		
+		this.abcissValue = this.abciss.append('text')
+			.attr('x', 40)
+			.attr('y', 10)
+			.attr("text-anchor", "right")
+			.style("alignment-baseline", "middle");
+
+    }
+
+    
+    updateLegend() {
+    
+    	let self = this;
+    
+    	this.legend.selectAll('.legend').data(this.lines)
+			.enter()
+			.append('g')
+				.attr('class', 'legend')
+				.attr("transform", (d,i) => { return "translate(" + 0 + "," + (20 + 20 * i) + ")"; } )
+				.each( function(d,i) {
+
+					var item = d3.select(this)
+					
+					item.append('rect')
+						.attr('y', 5)
+						.attr('width', 10)
+						.attr('height', 10)
+						.attr("fill", d => d.color)
+					
+					item.append('text')
+						.attr('x', 20)
+						.attr('y', 10)
+						.attr("text-anchor", "left")
+						.style("alignment-baseline", "middle")
+						.text( d => d.name + ":"  )
+					
+					self.currvalues[i] = item.append('text')
+						.attr('x', 100)
+						.attr('y', 10)
+						.attr("text-anchor", "right")
+						.style("alignment-baseline", "middle");
+				
+				})
+    }
+    
+    update() {
+    
+    	let self = this;
+    	
+    	this.getData().then( (data) => {
+    	
+    		this.data = data;
+    		console.log(data)
+    		if ( data.error != null ) {
+    			data.outputs = [];
+    			this.lines.forEach( (d,i) => { data.outputs.push({ id: d.id, dps: [] }); } );
+    		}
+
+    		var minmax_x = [];
+    		var minmax_y = [];	
+    		var line = self.lines[0];
+    		var lineData = line.data(data) || [];
+    		
+    		var minmax_x = d3.extent( lineData, line.x);
+    		var minmax_y = d3.extent( lineData, line.y);
+    		
+    		for (var i =1; i< self.lines.length; i++) {	
+    			var line = self.lines[i];		
+    			line.data(data).forEach( d => {	
+    				var x = line.x(d), y = line.y(d);
+    				minmax_x = [ Math.min( minmax_x[0], x), Math.max( minmax_x[1], x) ];
+    				minmax_y = [ Math.min( minmax_y[0], y), Math.max( minmax_y[1], y) ];
+    			})
+    		}
+    	
+  		   	this.x = d3.scaleTime().domain(minmax_x).range([ 0, this.props.width ]);
+    		this.y = d3.scaleLinear().domain(minmax_y).range([ this.props.height, 0 ]);
+    	
+ 			this.lines.forEach( line => {
+				self.svg.append("path").datum(line.data(data))
+				  .attr("fill", "none")
+				  .attr("stroke", line.color)
+				  .attr("stroke-width", 1.5)
+				  .attr("d", d3.line()
+				  		.x( d => self.x(line.x(d)) )
+				  		.y( d => self.y(line.y(d)) )
+				  );
+			});	
+			  
+  		})
+    }
+    
+    
+    info(date) {
+    
+    	let self = this;
+    	    	
+    	this.lines.forEach( (line,index) => {
+    		
+    		var bisect = d3.bisector( d => d[0] ).left;
+    		var i = bisect( line.data(this.data), date, 1);
+    		var curr = line.data(this.data)[i];
+    		
+    		var x0 = self.x(line.x(curr));
+    		
+    		self.abcissValue.text( d3.timeFormat('%Y/%m/%d - %H:%m:%S')(line.x(curr)) )	
+    		self.cursor.attr('x1',x0).attr('x2',x0);
+    		self.currvalues[index].text( line.y(curr));
+    		
+    	});
+
+    }
+    
+    getData = function(d) {}
+
+  }
+
+     
+     
+  class GeoMap {
+    
+    	elt;
+    	svg;
+    	map;
+    	imageOverlay;
+    	overlay;
+    	
+    	colors = d3.scaleLinear().domain([1,4]).range(["blue", "red"]);
+    
+    	constructor( name) {
+    		
+    		this.map = L
+		  		.map(name)
+		  		.setView([47, 2], 5);   
+	    
+			L.tileLayer(
+				'https://tile.openstreetmap.org/{z}/{x}/{y}.png', {  
+				attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
+				maxZoom: 20,
+				}).addTo(this.map);
+
+			L.svg({clickable:true}).addTo(this.map)
+			
+			this.elt = d3.select('#' + name);	
+			this.svg = this.elt.select('svg');
+	
+  
+    		this.overlay = d3.select(this.map.getPanes().overlayPane)
+    		this.svg = this.overlay.select('svg')
+    			.attr("pointer-events", "auto")
+    			.style('z-index',10000)
+		
+    		
+    		const imageUrl = ''; //'https://maps.lib.utexas.edu/maps/historical/newark_nj_1922.jpg';
+			const latLngBounds = L.latLngBounds([[40.799311, -74.118464], [40.68202047785919, -74.33]]);
+
+			this.imageOverlay = L.imageOverlay(imageUrl, latLngBounds, {
+				opacity: .7,
+				errorOverlayUrl: 'https://cdn-icons-png.flaticon.com/512/110/110686.png',
+				alt: 'Captured Field Image',
+				interactive: true
+			}).addTo(this.map); 
+		
+		 	L.rectangle(latLngBounds).addTo(this.map);
+			this.map.fitBounds(latLngBounds);
+			
+			
+			this.map.on("moveend", e => { this.update.bind(this)(e); });
+    	}
+    	
+    	
+    	update(evt) {
+    			
+			this.svg.selectAll('.marker')
+    			.attr('transform', d => {
+    				const point = this.map.latLngToLayerPoint([d.latitude, d.longitude])
+    				return 'translate(' + point.x + ',' + point.y + ')';	
+    			});
+    		
+    	}
+    	
+    	
+    	loadMarkers( params = {}) {
+    	
+    		var self = this;
+ 
+ 			this.markersLoader(params)
+    			.then((data) => {
+    				
+					data.total = 0 
+					data.healthy = 0			
+					data.disease = 0
+					
+					const markers = data.rows || [];
+				
+					markers.forEach( d => {
+				
+						data.total = data.total + 1
+						if ( d.type === 'Healthy' ) {
+							d.color = 'green';
+							data.healthy = data.healthy + 1;
+						} else {
+							d.color = 'green'
+							data.disease = data.disease + 1;
+						}
+					})
+				
+					
+					var selection = this.svg.selectAll('.marker').data(markers, (d) => { return d.base; } )
+					
+					selection.exit().transition().duration(500).attr("r", 0).remove();	
+					
+					var selectionEnter = selection.enter()
+						.append('circle')
+						.attr('class','marker')
+						.attr('r',2)
+						.style("cursor", "pointer")
+						.on('click', this.onMarkerMouseClick ) 
+						.each(function(d) {
+					
+							var point = self.map.latLngToLayerPoint([d.latitude, d.longitude]);
+														
+							d3.select(this)
+								.attr('transform', 'translate(' +  point.x + ',' +  point.y + ') scale(0)')
+						})
+						
+					 selection = selection.merge(selectionEnter)
+					 selection.each(function(d) {
+					
+							var point = self.map.latLngToLayerPoint([d.latitude, d.longitude]);
+														
+							d3.select(this)
+								.transition()
+								.duration(500)
+								.attr('r',10)
+								.style('fill', (d) => self.colors(d.total)  )
+								.attr('transform', 'translate(' +  point.x + ',' +  point.y + ') scale(1)') 
+						})
+						
+							
+					this.onMarkersLoad(data);
+				})
+				
+		}
+    
+    	markersLoader = function(d) {}
+    	
+        onRasterLoad = function(d) {}
+        
+        onMarkersLoad = function(d) {}
+        
+        onMarkerMouseClick = function(evt) {}
+    
+    }
+
+     
+	async function loadRasters(params = {}) {
+	
+     	var response = await sendData( '/data/sawie/ndvi/field_level/png_files/data.json', params, 'GET')
+			.then((data) => {
+			
+				const arr = data.DocumentStream || [];
+
+				arr.sort( function (a, b) {
+                                      if (a.date > b.date) return 1;
+                                      if (b.date > a.date) return -1;
+                                      return 0;
+                                }).forEach( (elt,index) => {
+					elt.img = new Image();
+					elt.img.src = "/data/sawie/ndvi/field_level/png_files/" +  elt.src;					
+					elt.time = timeParser(elt.date	)					
+				})
+						
+    			return arr;
+  			});
+  			
+  		return response;
+    }
+    
+      	
+  	
+  	function init() {
+  	
+  		var start = new Date('2014-06-01');
+  		var end = new Date('2014-06-03');
+  		var base_station = 'base_1076';
+  			
+    	var geoMap = new GeoMap('map')
+    	
+    	geoMap.onRasterLoad = function(d) {
+    	
+    		document.getElementById('pointA').innerHTML = 'Long: ' + d.geometry.a[0] + ' Lat: ' + d.geometry.a[1];
+			document.getElementById('pointB').innerHTML = 'Long: ' + d.geometry.b[0] + ' Lat: ' + d.geometry.b[1];	
+			this.loadMarkers( { tables: '%2Fukcloud%2Fmarkers', condition: '?condition={"$le":{"upload":"' + d.date + '"}}' } )
+    	};
+    	
+    	geoMap.markersLoader =  function(d) {
+    	
+    		return sendData( '/basedb', d, 'POST');
+    	}
+    	
+    	geoMap.onMarkersLoad = function(d) {
+    
+    		document.getElementById('rusted').innerHTML = d.disease ;
+    		document.getElementById('healthy').innerHTML = d.healthy;
+    		document.getElementById('changePerct').innerHTML = Intl.NumberFormat("en-US", { style: "percent"}).format(d.disease / d.total);
+    	}
+    	
+    	geoMap.onMarkerMouseClick = function(evt,d) {
+
+    		document.getElementById('marker_base').innerHTML = d.base;
+    		document.getElementById('marker_longitude').innerHTML = d.longitude
+    		document.getElementById('marker_latitude').innerHTML = d.latitude
+    		
+    		base_station = d.base;
+    		trendChart1.update();
+    		
+    		openTab(null,'markerDetails')
+    	}
+	
+  		var player = new Player("player")	
+  		player.times = [start,end];
+  		player.updateDates();
+  	
+
+    	/*loadRasters({})
+    	 	.then( data => {	 	
+		 		//mySlider.data = data;
+    	 		//mySlider.update();
+    		})*/
+    
+    
+    	new Coordinate('coordinates', geoMap.map);
+    	
+    /*	geoMap.map.on('click', evt => {	
+    		document.getElementById("longitude").value = evt.latlng.long;
+    		document.getElementById("latitude").value = evt.latlng.lat;  	
+    	})*/
+    	
+    	
+    	const latLngBounds = [ 	[30, 120], [32,122] ];		
+  		geoMap.map.fitBounds(latLngBounds);
+    	geoMap.loadMarkers( { "limit": 0, "timestamp": 1401617220, "selection": [[0,0],[0,0]] } );
+    	
+    	
+    	player.onUpdate = function() {
+    	
+    		var date = this.x.invert(this.pos);
+    		let timestamp = Math.floor( date.getTime() /1000);
+    		geoMap.loadMarkers( { "limit": 0, "timestamp": timestamp, "selection": [[0,0],[0,0]] } );
+    		
+    		trendChart.info(date)
+    		//trendChart1.info(date)		
+    	}
+    	
+   	
+   	 	let trendChart = new TrendChart("#trendline",'#trendline_legend',{});	
+    	trendChart.lines = [
+			{ id: 'a', name: 'incoming', color: 'steelblue', data: d => d.outputs[0].dps, x: d => new Date(d[0]), y: d => +d[1]  },
+			{ id: 'b', name: 'outgoing', color: 'green'    , data: d => d.outputs[1].dps, x: d => new Date(d[0]), y: d => +d[1]  }
+		];
+		
+		trendChart.updateLegend();
+		
+		trendChart.getData = function() {
+			return d3.json( '/opentsdb', {
+				method:"POST",
+				headers: {
+					"Content-type": "application/json; charset=UTF-8"
+				},
+				body: JSON.stringify({
+					time: {
+					   "start": start.getTime(),
+					   "end": end.getTime(),
+					   "aggregator":"sum",
+					   "downsampler":{"interval":"1m","aggregator":"avg"}
+					},
+					metrics: [
+					   { "id": "a", "metric": "Entries", "fillPolicy": { "policy": "nan"} }
+					],
+					expressions: [
+       				   { "id": "b", "expr": "a / 2" }
+       				],
+					outputs:[
+					  { "id": "a", "alias": "incominng"},
+					  { "id": "b", "alias": "outgoing"}
+					]
+				})
+			});
+		}
+		
+		trendChart.update();
+		
+    	
+    /*	let trendChart1 = new TrendChart('#trendline1', '#trendline1_legend',{});
+
+    	
+    	trendChart1.lines =  [
+			{ id: 'a', name: 'incoming', color: 'steelblue', data: d => d.outputs[0].dps, x: d => new Date(d[0]), y: d => +d[1]  },
+			{ id: 'b', name: 'outgoing', color: 'green'    , data: d => d.outputs[1].dps, x: d => new Date(d[0]), y: d => +d[1]  }
+		];
+		
+		trendChart1.updateLegend();
+		
+		trendChart1	.getData = function() {
+			return d3.json( '/opentsdb', {
+				method:"POST",
+				headers: {
+					"Content-type": "application/json; charset=UTF-8"
+				},
+				body: JSON.stringify({
+					time: {
+					   "start": start.getTime(),
+					   "end": end.getTime(),
+					   "aggregator":"sum",
+					   "downsampler":{"interval":"1m","aggregator":"avg"}
+					},
+					filters: [
+					   {
+						   "tags": [
+							   {
+								   "type": "literal_or",
+								   "tagk": "base",
+								   "filter": base_station,
+								   "groupBy": false
+							   }
+						   ],
+						   "id": "bybase"
+					   }
+				    ],
+					metrics: [
+					   { "id": "a", "metric": "Entries", "filter": "bybase", "fillPolicy": { "policy": "nan"} },
+					   { "id": "b", "metric": "Entries", "filter": "bybase",  "fillPolicy": { "policy": "nan"} }
+					],
+					outputs:[
+					  { "id": "a", "alias": "incominng"},
+					  { "id": "b", "alias": "outgoing"}
+					]
+				})
+			});
+		}
+		
+    	trendChart1.update();
+    	
+    	*/
+    	
+  	}
+ 
+
+</script> 
+ 
+</head>
+
+<body onload="init()" >
+
+ <div id="map" ></div>
+ 
+ <div id="player" class="panel timer" ></div>
+ 
+ <div id="menu"  class="panel" >
+ 	<h3>View</h3>
+	<ul>
+		<li onclick="loadRasters('/data/sawie/ndvi/country_level/png_files/data.json')" >Base Stations</li>
+		<li onclick="loadRasters('/data/sawie/ndvi/country_level/png_files/data.json')" >Incoming</li>
+		<li onclick="loadRasters('/data/sawie/ndvi/country_level/png_files/data.json')" >Outgoing</li>
+		<li onclick="loadRasters('/data/sawie/ndvi/country_level/png_files/data.json')" >Drops</li>
+	</ul>
+ </div>
+ 
+ <div id="coordinates" class="panel" ></div>
+ 
+ <div id="details" class="panel" >
+	<div class="bar black">
+		<button id="plotSummary_tab" class="bar-item w3-button selecteTab" onclick="openTab(event,'plotSummary')">Summary</button>
+		<button id="markerDetails_tab" class="bar-item w3-button" onclick="openTab(event,'markerDetails')">Details</button>
+	</div>
+
+	<div id="plotSummary" class="w3-container w3-display-container tab" > 
+		<table style=" padding-top: 15px">
+			<tr><td class="title" colspan=2 >Base Stations:</td></tr>
+			<tr><td class="label">Active:</td><td id="rusted" >0</td></tr>
+			<tr><td class="label">Total:</td><td id="healthy" >0</td></tr></tr>
+			<tr><td class="label">Percentage:</td><td id="changePerct">0</td></tr>
+		</table>
+		<table style=" padding-top: 15px">
+			<tr><td class="title" colspan=2 >Call Evolution:</td></tr>
+			<tr><td colspan=2 ><div id="trendline" /></td></tr>
+			<tr><td colspan=2 ><div id="trendline_legend" /></td></tr>
+		</table>
+	</div>
+	
+	<div id="markerDetails" class="w3-container w3-display-container tab" style="display:none" > 
+		<table style=" padding-top: 15px">
+			<tr><td class="title" colspan=2 >Base Station:</td></tr>
+			<tr><td class="label">Base ID:</td><td id="marker_base" >Unknown</td></tr>
+			<tr><td class="label">Latitude</td><td id="marker_latitude"></td></tr>
+			<tr><td class="label">Longitude</td><td id="marker_longitude"></td></tr>
+		<table>
+		<table style=" padding-top: 15px">
+			<tr><td class="title" colspan=2 >Call Evolution:</td></tr>
+			<tr><td colspan=2 ><div id="trendline1" /></td></tr>
+			<tr><td colspan=2 ><div id="trendline1_legend" /></td></tr>
+		</table>
+	</div>
+  
+	<script>
+		function openTab(event,tabName) {
+	
+			Array.prototype.forEach.call( document.getElementsByClassName("bar-item"), elt => {
+				elt.classList.remove("selecteTab");
+			})
+	
+			document.getElementById(tabName+ '_tab').className += " selecteTab"
+		
+			Array.prototype.forEach.call( document.getElementsByClassName("tab"), elt => {
+				elt.style.display = "none"; 
+			})
+		
+			document.getElementById(tabName).style.display = "block"; 	 
+		}
+	</script>
+ 
+ </div>
+
+</body>
+
+</html>
