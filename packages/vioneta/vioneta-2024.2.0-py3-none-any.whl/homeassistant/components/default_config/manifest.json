@@ -1,0 +1,24 @@
+{
+  "domain": "default_config",
+  "name": "Default Config",
+  "codeowners": ["@home-assistant/core"],
+  "dependencies": [
+    "bluetooth",
+    "dhcp",
+    "energy",
+    "history",
+    "logbook",
+    "map",
+    "media_source",
+    "mobile_app",
+    "ssdp",
+    "stream",
+    "sun",
+    "usb",
+    "webhook",
+    "zeroconf"
+  ],
+  "documentation": "https://www.home-assistant.io/integrations/default_config",
+  "integration_type": "system",
+  "quality_scale": "internal"
+}
