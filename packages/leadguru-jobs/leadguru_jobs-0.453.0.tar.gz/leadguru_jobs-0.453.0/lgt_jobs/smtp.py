@@ -1,0 +1,45 @@
+from abc import ABC
+from pydantic import BaseModel
+from lgt_jobs.lgt_common.lgt_logging import log
+from lgt_jobs.basejobs import BaseBackgroundJobData, BaseBackgroundJob
+from lgt_jobs.env import smtp_login, smtp_password, smtp_host
+from lgt_jobs.lgt_data.enums import ImageName
+
+"""
+Send email
+"""
+
+
+class SendMailJobData(BaseBackgroundJobData, BaseModel):
+    html: str
+    subject: str
+    recipient: str
+    sender: str = "noreply@leadguru.co"
+    images: list[ImageName] = []
+
+
+class SendMailJob(BaseBackgroundJob, ABC):
+    @property
+    def job_data_type(self) -> type:
+        return SendMailJobData
+
+    def exec(self, data: SendMailJobData):
+        from redmail import EmailSender
+        email = EmailSender(host=smtp_host, port=587, username=smtp_login, password=smtp_password, use_starttls=True)
+        body_image = {}
+        log.info(body_image)
+        for image in data.images:
+            path = f'assets/images/{image.value}'
+            image_file = open(path, 'rb')
+            log.info(f'File exists {path}')
+            image_file.close()
+            body_image[f'IMAGE_{ImageName(image.value).name}'] = f'assets/images/{image.value}'
+
+        email.send(
+            sender=data.sender,
+            receivers=[data.recipient],
+            subject=data.subject,
+            html=data.html,
+            body_images=body_image
+        )
+        log.info('email message has been sent')
