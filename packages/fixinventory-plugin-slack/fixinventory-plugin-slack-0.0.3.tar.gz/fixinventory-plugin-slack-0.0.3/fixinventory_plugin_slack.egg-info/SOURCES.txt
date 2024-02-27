@@ -1,0 +1,5 @@
+setup.py
+fixinventory_plugin_slack.egg-info/PKG-INFO
+fixinventory_plugin_slack.egg-info/SOURCES.txt
+fixinventory_plugin_slack.egg-info/dependency_links.txt
+fixinventory_plugin_slack.egg-info/top_level.txt
