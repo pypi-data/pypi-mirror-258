@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+lzid/__init__.py
+lzid/lzid.py
+lzid.egg-info/PKG-INFO
+lzid.egg-info/SOURCES.txt
+lzid.egg-info/dependency_links.txt
+lzid.egg-info/requires.txt
+lzid.egg-info/top_level.txt
