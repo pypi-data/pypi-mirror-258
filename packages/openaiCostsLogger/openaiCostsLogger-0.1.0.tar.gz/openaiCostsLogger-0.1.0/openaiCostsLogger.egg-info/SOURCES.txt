@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+openaiCostsLogger.egg-info/PKG-INFO
+openaiCostsLogger.egg-info/SOURCES.txt
+openaiCostsLogger.egg-info/dependency_links.txt
+openaiCostsLogger.egg-info/top_level.txt
