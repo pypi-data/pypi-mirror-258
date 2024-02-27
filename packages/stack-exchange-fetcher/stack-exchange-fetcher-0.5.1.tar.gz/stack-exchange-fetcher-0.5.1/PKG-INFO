@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stack-exchange-fetcher
+Version: 0.5.1
+Summary: stack-exchange-fetcher is now stack-fetcher-bakircius
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: stack-fetcher-bakircius
+
+# stack-exchange-fetcher is now stack-fetcher-bakircius
+
+This package has been renamed. Use `pip install stack-fetcher-bakircius` instead.
+
+New package: https://pypi.org/project/stack-fetcher-bakircius/
