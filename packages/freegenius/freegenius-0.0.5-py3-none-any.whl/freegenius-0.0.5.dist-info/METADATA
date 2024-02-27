@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: freegenius
+Version: 0.0.5
+Summary: FreeGenius AI, a FREE, LOCAL, OFFLINE & HIGHLY CUSTOMIZABLE AI suite that supports numerous open-source LLMs, with optional integration with AutoGen agents, OpenAI API, Google Gemini Pro and unlimited plugins.
+Home-page: https://letmedoit.ai
+Author: Eliran Wong
+Author-email: support@letmedoit.ai
+License: GNU General Public License (GPL)
+Project-URL: Source, https://github.com/eliranwong/freegenius
+Project-URL: Tracker, https://github.com/eliranwong/freegenius/issues
+Project-URL: Documentation, https://github.com/eliranwong/freegenius/wiki
+Project-URL: Funding, https://www.paypal.me/letmedoitai
+Keywords: ai open llm ollama gpt mistral llama
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: letmedoit
+Requires-Dist: ollama
+
+# FreeGenius AI
+
+FreeGenius AI is an ambitious project sparked by the pioneering work of [LetMeDoIt AI](https://github.com/eliranwong/letmedoit). It's designed with the primary objective of offering a comprehensive suite of AI solutions that mirror the capabilities of [LetMeDoIt AI](https://github.com/eliranwong/letmedoit). However, FreeGenius AI is remarkably different in that all core features are completely free, and it doesn't require the use of an OpenAI key.
+
+As with [LetMeDoIt AI](https://github.com/eliranwong/letmedoit), FreeGenius AI is designed to be capable of engaging in intuitive conversations, executing codes, providing up-to-date information, and performing
+a wide range of tasks. It's designed to learn, adapt, and grow with the user, offering personalized experiences and interactions.
+
+# Progress
+
+... in progress ...
+
