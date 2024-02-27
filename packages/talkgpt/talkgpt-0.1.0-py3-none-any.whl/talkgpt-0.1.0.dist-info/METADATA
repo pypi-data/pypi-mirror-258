@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: talkgpt
+Version: 0.1.0
+Summary: Talk to chatgpt
+License: GPLv3
+Author-email: Wincer <WincerChan+github@gmail.com>
+Requires-Python: >=3.10,<4.0
+Requires-Dist: PyAudio>=0.2.13
+Requires-Dist: SpeechRecognition>=3.9.0
+Requires-Dist: edge-tts<7.0.0,>=6.1.3
+Requires-Dist: gtts>=2.3.1
+Requires-Dist: openai<1.0.0,>=0.27.1
+Requires-Dist: pydub>=0.25.1
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
