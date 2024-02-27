@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: nipyproto
+Version: 1.1
+Summary: Post only client for Nostr, Activity Pub, and AT
+Requires-Dist: atproto
+Requires-Dist: keyring
+Requires-Dist: mastodon.py
+Requires-Dist: pynostr
+
