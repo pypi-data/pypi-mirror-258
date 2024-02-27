@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+awscloudwatchlogger/__init__.py
+awscloudwatchlogger/awslogger.py
+awscloudwatchlogger.egg-info/PKG-INFO
+awscloudwatchlogger.egg-info/SOURCES.txt
+awscloudwatchlogger.egg-info/dependency_links.txt
+awscloudwatchlogger.egg-info/requires.txt
+awscloudwatchlogger.egg-info/top_level.txt

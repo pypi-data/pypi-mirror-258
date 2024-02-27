@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: awscloudwatchlogger
+Version: 0.1
+Summary: Logging into aws cloudwatch from python apps
+Author: Babasaheb Pinjar
+Author-email: babasahebpinjar@gmail.com
+Keywords: python,logger,cloudwatch
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/plain
+License-File: LICENSE
+
+
+# AWSCloudWatchLogger
+
+CloudWatchLogger is a Python package that provides functionality to log messages to Amazon CloudWatch Logs.
+
+## Installation
+
+You can install AWSCloudWatchLogger from PyPI using pip:
+
+```bash
+pip install awscloudwatchlogger
