@@ -1,0 +1,7 @@
+README.md
+setup.py
+FortiGateTools.egg-info/PKG-INFO
+FortiGateTools.egg-info/SOURCES.txt
+FortiGateTools.egg-info/dependency_links.txt
+FortiGateTools.egg-info/requires.txt
+FortiGateTools.egg-info/top_level.txt
