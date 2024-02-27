@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: vibrio
+Version: 0.3.0
+License: MIT License
+        
+        Copyright (c) 2023 jagan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: typing_extensions
+Requires-Dist: aiohttp
+Requires-Dist: psutil
+
+# vibrio-python ([documentation](https://vibrio-python.readthedocs.io/en/latest/))
+
+[![PyPI](https://img.shields.io/pypi/v/vibrio.svg)](https://pypi.org/project/vibrio/)
+[![Build](https://github.com/notjagan/vibrio-python/actions/workflows/build.yml/badge.svg)](https://github.com/notjagan/vibrio-python/actions/workflows/build.yml)
+[![CodeFactor](https://www.codefactor.io/repository/github/notjagan/vibrio-python/badge)](https://www.codefactor.io/repository/github/notjagan/vibrio-python)
+
+Python library for interfacing with osu!lazer functionality. Acts as bindings for https://github.com/notjagan/vibrio under the hood.
+
+# Installation
+
+`pip install vibrio`
+
+Supports Python 3.9+.
+
+Tested (through `cibuildwheel` deployment) and published on `pip` on the following platforms:
+- Ubuntu (via manylinux and musl) (x86)
+- macOS (x86, arm64)
+    - arm is currently untested due to unavailability through GitHub actions hosting
+- Windows (x86 and AMD64)
+
+If you do not have one of the supported platforms (or otherwise want to build from source), simply clone the repository and use the `build` subcommand (and/or any superset of `build` like `sdist`) in `setup.py` to produce an installable package, then use `pip install` on the result. This will require having the `dotnet` C# SDK on the system path to compile the server solution.
