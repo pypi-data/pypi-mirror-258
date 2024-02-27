@@ -1,0 +1,13 @@
+psghotkey/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psghotkey/README.md,sha256=aCPkAFWZZ3GneTSUi7i-CLCg3rds1bHwg8DDwrw1YOE,9769
+psghotkey/__init__.py,sha256=xwFS9oJXi_-VDh4W0WPY9WHO0IreZMC0KuvIMUveKSU,62
+psghotkey/__main__.py,sha256=7tbDULwi5gRXjZ9ilhoEawhtiRb72GqorBqKJqSfEH8,68
+psghotkey/psghotkey.py,sha256=lepwEssvQcRmUqVawwqnxnW7sKA_Dh1jOn8MX8auOTU,13828
+psghotkey/screenshot.gif,sha256=DjeKxAjem8SQqEhx-ZTE9LNnQxyGqa4fMjke0X_duis,536022
+psghotkey/screenshot.jpg,sha256=DjeKxAjem8SQqEhx-ZTE9LNnQxyGqa4fMjke0X_duis,536022
+psghotkey-5.0.0.dist-info/LICENSE.txt,sha256=PHtcJvE5Wt9karpjKf_hLcmiAQf7r5xAAJJt8nzEWIU,36666
+psghotkey-5.0.0.dist-info/METADATA,sha256=RkVi60I6eRH1Jk-85DTcHH6BeYcybo4fd3Zh7Zc33Z0,11080
+psghotkey-5.0.0.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+psghotkey-5.0.0.dist-info/entry_points.txt,sha256=-p927Ccq8pUtDHW4IY5z69FO_i24ULvab6kVbCnND3Q,51
+psghotkey-5.0.0.dist-info/top_level.txt,sha256=8DPwBdxnF-Mvm56IsGIaz08PfiohzESZcd4BraErzaM,10
+psghotkey-5.0.0.dist-info/RECORD,,
