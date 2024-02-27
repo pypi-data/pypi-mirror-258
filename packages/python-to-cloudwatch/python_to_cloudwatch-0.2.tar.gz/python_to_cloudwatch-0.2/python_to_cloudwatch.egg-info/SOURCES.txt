@@ -1,0 +1,9 @@
+setup.py
+python_to_cloudwatch/__init__.py
+python_to_cloudwatch/core.py
+python_to_cloudwatch/utils.py
+python_to_cloudwatch.egg-info/PKG-INFO
+python_to_cloudwatch.egg-info/SOURCES.txt
+python_to_cloudwatch.egg-info/dependency_links.txt
+python_to_cloudwatch.egg-info/requires.txt
+python_to_cloudwatch.egg-info/top_level.txt
