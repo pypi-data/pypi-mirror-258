@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dddmisc-unit-of-work
+Version: 0.3.0
+Summary: This package provides the implementation pattern 'unit of work'
+License: MIT
+Author: Vladislav Vorobyov
+Author-email: vladislav.vorobyov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: dddmisc-core (>=0.6.0,<0.7.0)
