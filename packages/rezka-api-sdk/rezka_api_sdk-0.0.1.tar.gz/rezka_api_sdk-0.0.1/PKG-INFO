@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rezka_api_sdk
+Version: 0.0.1
+Summary: It is a library that allows you to interact with unofficial HDRezka API
+Home-page: https://github.com/arynyklas/rezka_api_sdk
+Author: Aryn Yklas
+Author-email: arynyklas@gmail.com
+Keywords: rezka,hdrezka,films,series
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+
+# Rezka API SDK
+
+[![PyPI Version](https://img.shields.io/pypi/v/rezka_api_sdk.svg)](https://pypi.org/project/rezka_api_sdk/)
+[![Python Version](https://img.shields.io/pypi/pyversions/rezka_api_sdk.svg)](https://pypi.org/project/rezka_api_sdk/)
+
+...
+
+
+## Installation
+
+You can install `rezka_api_sdk` using pip:
+
+```bash
+pip install rezka_api_sdk
+```
+
+
+## Usage
+
+See [example.py](example.py)
+
+
+## Stay Updated
+
+For the latest news and updates, follow my [Telegram Channel](https://t.me/aryn_dev)
