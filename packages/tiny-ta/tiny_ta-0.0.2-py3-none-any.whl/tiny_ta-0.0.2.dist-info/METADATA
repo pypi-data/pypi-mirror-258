@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: tiny_ta
+Version: 0.0.2
+Summary: some methods for technical analysis!
+Home-page: https://github.com/fxhuhn/tiny_ta
+Author: Markus Schulze
+Author-email: m@rkus-schulze.de
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas >=2.2.0
+Requires-Dist: scikit-learn >=1.3.0
+Requires-Dist: numpy >=1.26.0
+
