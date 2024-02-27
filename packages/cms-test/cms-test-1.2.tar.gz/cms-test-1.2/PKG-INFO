@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cms-test
+Version: 1.2
+Summary: CMS Helper library
+Home-page: https://github.com/test/cms
+Author: HCMP DE
+Author-email: Rishabh2.Mehta@ril.com
+Requires-Dist: requests
+Requires-Dist: loguru
+Requires-Dist: pycryptodome
+Requires-Dist: setuptools
