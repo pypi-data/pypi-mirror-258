@@ -1,0 +1,9 @@
+jinja2utils-0.1.1.dist-info/METADATA,sha256=wSj8RqPv6WQJw3DWoRMEfBzr89Azh34zHmrZHzeDx_4,5933
+jinja2utils-0.1.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+jinja2utils-0.1.1.dist-info/licenses/LICENSE,sha256=XKuNWRE6CUdU980lEvjyY_-lCJOp_82WuslFoNDj1VU,1069
+jinja2utils/__init__.py,sha256=XfkuuTy4OmZsfMygR9RcFJymHu2pKJrtWgFKFf_dZeo,290
+jinja2utils/elapsed.py,sha256=SeuHYHmwaN7NBkEcLMOIVtSwOyd9T0_p2kJSuFj3jC0,2114
+jinja2utils/plural.py,sha256=zUR2KV80ngjxzNEOdkcmnLB_rckUY7NdxPLp2VSXzu8,3021
+jinja2utils/t.py,sha256=67wr9S438q41HM22OwAQULUEg1y8iRz-A1XnA33juIA,1353
+jinja2utils/uchar.py,sha256=GKc10dSprKKrRJ_UwrGzFisB9iA59aSP1PwCT1Ep-b0,553
+jinja2utils-0.1.1.dist-info/RECORD,,
