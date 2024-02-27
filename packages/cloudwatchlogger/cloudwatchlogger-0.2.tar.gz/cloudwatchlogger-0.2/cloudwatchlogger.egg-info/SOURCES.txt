@@ -1,0 +1,9 @@
+README.md
+setup.py
+cloudwatchlogger/__init__.py
+cloudwatchlogger/cloudwatchlogger.py
+cloudwatchlogger.egg-info/PKG-INFO
+cloudwatchlogger.egg-info/SOURCES.txt
+cloudwatchlogger.egg-info/dependency_links.txt
+cloudwatchlogger.egg-info/requires.txt
+cloudwatchlogger.egg-info/top_level.txt
