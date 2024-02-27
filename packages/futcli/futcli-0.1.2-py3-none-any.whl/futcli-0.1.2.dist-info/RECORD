@@ -1,0 +1,11 @@
+futcli/__init__.py,sha256=Uc_8D5OnU2g87xstkfafto_MP5hFKC7MK5orEostDPA,220
+futcli/evolutions.py,sha256=9fOpDnn9hJNX2v_ECDlaKgrsHkpfQN4nOpBSdLDNg4Y,2541
+futcli/futcli.py,sha256=8ars9irG_ozP6x_9A-fowo8j9EBzgPIBgxsgkUCqoAU,2781
+futcli/sbc.py,sha256=vJb2mCUIxUlAz-Sj6YkVB8bT39MVNUggLmCZ9ueWf10,2172
+futcli/urls.py,sha256=9ePzZPwI9iYf__nf1toSBqZlCKMgOBKXkxqnaIQMk2g,319
+futcli-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+futcli-0.1.2.dist-info/METADATA,sha256=U8_MwYCAU8ZerUCe13m8i3LFtsGBXyFMlWio1b4a6gY,3828
+futcli-0.1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+futcli-0.1.2.dist-info/entry_points.txt,sha256=4AXLzUCtU3v5aRSJ12qASOuUvGZRGEN69V-HFRd-28I,48
+futcli-0.1.2.dist-info/top_level.txt,sha256=Ye_RdO-ojjBOb4MH_SJvXa0tA-X-56o0DGQWHSqUn4M,7
+futcli-0.1.2.dist-info/RECORD,,
