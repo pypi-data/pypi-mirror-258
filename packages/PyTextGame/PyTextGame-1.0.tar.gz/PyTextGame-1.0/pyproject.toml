@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyTextGame"
+version = "1.0"
+authors = [
+  { name="Himank Deka", email="neil.himank3@gmail.com" },
+]
+description = "A package for building text based games."
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "keyboard"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dev-hd11/pytextgame"
+"Bug Tracker" = "https://github.com/dev-hd11/pytextgame/issues"
+
+
