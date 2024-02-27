@@ -1,0 +1,5 @@
+setup.py
+fixinventory_plugin_example_collector.egg-info/PKG-INFO
+fixinventory_plugin_example_collector.egg-info/SOURCES.txt
+fixinventory_plugin_example_collector.egg-info/dependency_links.txt
+fixinventory_plugin_example_collector.egg-info/top_level.txt
