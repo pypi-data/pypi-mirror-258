@@ -1,0 +1,15 @@
+supertts/__init__.py,sha256=1HePRGH2ErX-tpH-eRWdD-iWvGokl7o3yPr3T3OZH6w,37
+supertts/tts.py,sha256=UvvK-4z3ZnsHZ3DgEzDtu7YYwuGg6ocFVZQdBHucsno,810
+supertts/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supertts/providers/azure_provider.py,sha256=3zBZ4Ek-WpOtDZUfjyWFUljgfn1XpwBCt1aXlXhhLQE,356
+supertts/providers/base_provider.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+supertts/providers/google_provider.py,sha256=3zBZ4Ek-WpOtDZUfjyWFUljgfn1XpwBCt1aXlXhhLQE,356
+supertts/providers/openai_provider.py,sha256=y3y3-sb22awMPH_Ob4GrgE3b8TFGK3KTl6WOBtbYQq0,1542
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=Gy5MGTKn97l1n4G4kom4N6DzamcYcU8AjWtQddK1Nhk,585
+tests/test_openai.py,sha256=1Sfdl7t79zBB3vgOuuZqiwKut9Y4jAgdl15ekATI7Xg,1365
+supertts-0.0.11.dist-info/LICENSE,sha256=Cq-NDxzrBqezBFn0jfvwYYIHzetqnfb5Q5h4AZDirBQ,1057
+supertts-0.0.11.dist-info/METADATA,sha256=_gXiC3NiKMwNzFQBUf8ENeZjmOpV-J7-CAb8fuU2VQc,1538
+supertts-0.0.11.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+supertts-0.0.11.dist-info/top_level.txt,sha256=nhInplHpP0TT5GaJk2yiOlLCdQB_XJh2UkXksNFeh70,15
+supertts-0.0.11.dist-info/RECORD,,
