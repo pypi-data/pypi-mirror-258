@@ -1,0 +1,16 @@
+ca_api_wrapper/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ca_api_wrapper/api/client.py,sha256=k9scDxYmT7e7x3o7obAI4tsPWYETdi1XsYKtxSa2wbM,907
+ca_api_wrapper/api/client_registry.py,sha256=5x64sofpz-cmZhWquFg9uqjfw26cF9KSBjG4wmfVeck,922
+ca_api_wrapper/api/exports.py,sha256=6GTV9F8D865EI7TXlHj7bGJ6t-F4uDH22QrJDljACkk,4667
+ca_api_wrapper/api/filters.py,sha256=O6_LtiKzZfHI-rcjI0145RAHuX72GQFMiiXdKAHHpgs,2378
+ca_api_wrapper/api/orders.py,sha256=ulVvw0IKWFeMGlvqWDFVuaxld2UrCw5JyjmRiK5tLHU,442
+ca_api_wrapper/api/products.py,sha256=lFlE7KZmJRdfNnL4n-P47ru5K6e9GRHBZQdkFXxFdI8,2883
+ca_api_wrapper/custom_models/index.py,sha256=KOwxSfrFl0nwwhssV58u6h5Xkqr5voAFgOVt9WJhmx0,305
+ca_api_wrapper/custom_models/orders/Order.py,sha256=rgusCPwoZNpJ0HpMCMTjesUOnu_H8YHiLW5-sRljht8,2086
+ca_api_wrapper/custom_models/orders/OrderItem.py,sha256=OAgOYceBwDkpTWi5EHp5VO8kFrjc0FbLL2BUCqnBbfw,383
+ca_api_wrapper/custom_models/orders/PaymentStatus.py,sha256=FtzlCKwBSNrmVdtxEz9hVDLkgYAENvD9gXcxc9TUWjc,160
+ca_api_wrapper/custom_models/orders/Promotions.py,sha256=RBZK4N3ON77UlVvtIW4vzVD92kwnNiLD8uqR7QF-E_U,176
+ca_api_wrapper/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ca_api_wrapper-2.0.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ca_api_wrapper-2.0.6.dist-info/METADATA,sha256=JsSxZrYnYbUeojwoJI2WaobX5xCc-Aiw0HEQVt63OjY,1897
+ca_api_wrapper-2.0.6.dist-info/RECORD,,
