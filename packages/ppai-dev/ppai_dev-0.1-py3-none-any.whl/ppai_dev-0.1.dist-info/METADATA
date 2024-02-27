@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ppai-dev
+Version: 0.1
+Summary: The library provides convenient access to the PeakPrivacy AI REST API
+Home-page: https://github.com/freihandlabor/peakprivacyai-python-dev
+Author: PeakPrivacy
+Author-email: ppai-python@pp.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: typing
+
