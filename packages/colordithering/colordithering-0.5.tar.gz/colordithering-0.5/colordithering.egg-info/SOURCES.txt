@@ -1,0 +1,7 @@
+setup.py
+colordithering/__init__.py
+colordithering.egg-info/PKG-INFO
+colordithering.egg-info/SOURCES.txt
+colordithering.egg-info/dependency_links.txt
+colordithering.egg-info/requires.txt
+colordithering.egg-info/top_level.txt
