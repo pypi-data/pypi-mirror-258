@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: openride
+Version: 0.3.6
+Home-page: https://gitlab.com/jldez/openride
+Author: Jean-Luc Déziel
+Author-email: jluc1011@hotmail.com
+Description-Content-Type: text/markdown
+Requires-Dist: shapely
+Requires-Dist: numba
+Requires-Dist: numpy
+Requires-Dist: dataclasses
+Requires-Dist: vtk>=9.1.0
+Requires-Dist: matplotlib
+Requires-Dist: multipledispatch
+Requires-Dist: opencv-python
+Requires-Dist: sk-video
+
+# openride
