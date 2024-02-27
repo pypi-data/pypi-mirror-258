@@ -1,0 +1,3 @@
+[console_scripts]
+black-codeclimate=black_codeclimate.__main__:main
+

@@ -1,0 +1,7 @@
+black_codeclimate/__init__.py,sha256=fyLjWlq0ejKZzXILdJ_iPzCmTSRZH3V197t5ccYUXM0,93
+black_codeclimate/__main__.py,sha256=nkvHF5dQLiAxix8_o7nQMoS1ZasrA-8k1kz5HddISew,1635
+black_codeclimate/generate_report.py,sha256=eC9EeI5AMQp_3ih5WUvLvT5bEwwbfwHHbF9ZZlM_mYg,2318
+black_codeclimate-1.0.0.dist-info/METADATA,sha256=HIlIQwgNGCrZOGCiNgi_F9LHLhhCvoaxu4JdZuj37T0,1782
+black_codeclimate-1.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+black_codeclimate-1.0.0.dist-info/entry_points.txt,sha256=Pb8QyA3C6sjhUZqjP-OEDVV5qZYdMO4kYAWiKjvoThs,69
+black_codeclimate-1.0.0.dist-info/RECORD,,
