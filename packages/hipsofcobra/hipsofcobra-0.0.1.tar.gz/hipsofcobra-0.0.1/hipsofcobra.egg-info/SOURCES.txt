@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+hipsofcobra/__init__.py
+hipsofcobra/classes.py
+hipsofcobra.egg-info/PKG-INFO
+hipsofcobra.egg-info/SOURCES.txt
+hipsofcobra.egg-info/dependency_links.txt
+hipsofcobra.egg-info/requires.txt
+hipsofcobra.egg-info/top_level.txt
