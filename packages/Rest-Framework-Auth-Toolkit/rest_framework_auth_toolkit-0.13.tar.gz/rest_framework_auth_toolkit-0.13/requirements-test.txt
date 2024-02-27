@@ -1,0 +1,10 @@
+flake8
+
+pytest
+pytest-django
+pytest-env
+
+coverage
+django-webtest
+
+pretend
