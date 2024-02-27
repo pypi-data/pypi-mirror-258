@@ -1,0 +1,2 @@
+[console_scripts]
+mhr = main:main
