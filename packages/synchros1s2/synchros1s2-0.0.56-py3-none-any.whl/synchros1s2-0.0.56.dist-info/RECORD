@@ -1,0 +1,17 @@
+synch2jira/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+synch2jira/config_package.py,sha256=SdRVBi_tPS7WSqV9Bk92C7PR8pP1ose2IGQBxE5xIbA,2579
+synch2jira/historique.py,sha256=3HNOnDbA6DRZU_6DDVfpNt4wC1rgzzOWnzR5RfqHkX8,169
+synch2jira/implementation_config.py,sha256=3TitHMlPFp1PhtMewoajRlCuGHSm0eSeYSQeuxOeDc0,2599
+synch2jira/implementation_historique.py,sha256=GYTtxNnaNhcOhsMvnYY9n127RHyGan1-124KUk2roc4,456
+synch2jira/implementation_issue_S1.py,sha256=i-fq9dABW6Ylpej-r2unIJlKNn6_YdlktHzvha1HyCM,3065
+synch2jira/implementation_issue_S2.py,sha256=AXsfFiEM-13aJqLOE8_bI1OkqpDyeKlJX-XcSBM60Ys,10556
+synch2jira/implementation_issue_S3.py,sha256=40JOAco7Zy31b1RcbkobEVGATHtE0axV1Yj_zsf3NE0,2603
+synch2jira/implementation_synchronisation_S1.py,sha256=ytThSlNRF8vA0y6sBY0fn80-8dDw79Q6sOYWtlMK-Rw,631
+synch2jira/implementation_synchronisation_S2.py,sha256=ytThSlNRF8vA0y6sBY0fn80-8dDw79Q6sOYWtlMK-Rw,631
+synch2jira/implementation_table_correpondance_key_id.py,sha256=yNRQJGsRpNkTwW08lpCvzK2Edo2wSs61NyIIitwRFkI,2539
+synch2jira/issue.py,sha256=oLPR6wTA9bGcnxhz_MkGtmtyxb8d5GKiHUi6H7h4dvM,4614
+synch2jira/synchronisation.py,sha256=US5sPXkZKqhfDS1WYgsG8GkP8qNAtdKXo7AWqL_S9vc,4478
+synchros1s2-0.0.56.dist-info/METADATA,sha256=69ExoQv6vdOtFTIsTfvMePZvkXyBuuq4k85ApT4WEXk,699
+synchros1s2-0.0.56.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+synchros1s2-0.0.56.dist-info/top_level.txt,sha256=RDbN0aRxzznGEpXk55OUD_V62j_1QHq5GDCQa2fmOZ4,11
+synchros1s2-0.0.56.dist-info/RECORD,,
