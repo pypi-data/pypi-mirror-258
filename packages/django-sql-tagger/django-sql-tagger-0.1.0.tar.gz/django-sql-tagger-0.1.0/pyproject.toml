@@ -1,0 +1,29 @@
+[project]
+name = "django-sql-tagger"
+version = "0.1.0"
+description = "Adds a comment to SQL queries pointing to their place of origin"
+authors = [{name= "Filip Sedlák", email = "filip@sedlakovi.org"}]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+dependencies = ["Django>=4,<6"]
+
+[project.optional-dependencies]
+dev = [
+    "ipython~=8.22.0",
+    "pytest~=8.0.1",
+    "pytest-django~=4.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/monitora-media/django-sql-tagger"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["django_sql_tagger"]

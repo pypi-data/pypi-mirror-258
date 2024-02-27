@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+django_sql_tagger/__init__.py
+django_sql_tagger/apps.py
+django_sql_tagger/tagging.py
+django_sql_tagger/transaction.py
+django_sql_tagger.egg-info/PKG-INFO
+django_sql_tagger.egg-info/SOURCES.txt
+django_sql_tagger.egg-info/dependency_links.txt
+django_sql_tagger.egg-info/requires.txt
+django_sql_tagger.egg-info/top_level.txt
