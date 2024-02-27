@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/sd_geninfo/__init__.py
+src/sd_geninfo/sd_geninfo.py
+src/sd_geninfo.egg-info/PKG-INFO
+src/sd_geninfo.egg-info/SOURCES.txt
+src/sd_geninfo.egg-info/dependency_links.txt
+src/sd_geninfo.egg-info/entry_points.txt
+src/sd_geninfo.egg-info/requires.txt
+src/sd_geninfo.egg-info/top_level.txt
