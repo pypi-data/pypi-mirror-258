@@ -1,0 +1,58 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "pytest-regtest"
+version = "2.1.1"
+description = "pytest plugin for snapshot regression testing"
+readme = "docs/index.md"
+authors = [
+  {name = "Uwe Schmitt", email = "uwe.schmitt@id.ethz.ch"}
+]
+
+license = {text = "MIT License"}
+
+classifiers = [
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+
+
+dependencies = [
+  "pytest>7.2",
+]
+
+[project.urls]
+Source = "https://gitlab.com/uweschmitt/pytest-regtest"
+Documentation = "https://pytest-regtest.readthedocs.org"
+
+[project.optional-dependencies]
+dev = ["twine", "build", "hatchling", "wheel", "pre-commit", "ruff", "black"]
+
+[project.entry-points.pytest11]
+regtest = "pytest_regtest"
+
+[tool.hatch.build.targets.sdist]
+only-include = ["pytest_regtest", "tests/conftest.py", "tests/test_plugin.py"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["pytest_regtest"]
+
+[tool.tox]
+legacy_tox_ini = '''
+[tox]
+isolated_build = true
+envlist = py39,py310,py311,py312
+package = sdist
+
+[testenv]
+skip_install = false
+passenv = *
+allowlist_externals = pytest
+extras = dev
+commands =
+    pytest -ra -v tests
+'''

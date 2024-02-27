@@ -1,0 +1,13 @@
+dist/
+build/
+site/
+pytest_regtest.egg-info/
+*.pyc
+.*.sw?
+.cache
+venv*
+.tox
+.pytest_cache
+.coverage
+coverage.xml
+tests_dev/_regtest_outputs/
