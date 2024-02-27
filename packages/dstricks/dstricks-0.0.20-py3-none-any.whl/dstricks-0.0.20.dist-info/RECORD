@@ -1,0 +1,9 @@
+dstricks/__init__.py,sha256=w6TZQERW4XoWVlVh4Pt_1QGC0fNLBy_2MMN0li5phz4,16
+dstricks/cfg.py,sha256=dMFRM2jXPafMhb8iuQMZDHF1Mrx0FbrcMk_ngZlQtCU,1291
+dstricks/model_metrics.py,sha256=D3d9QoEhb728v5mu4tncL79_N6rpO0FrYwYuqK0iiSk,2343
+dstricks/plot.py,sha256=yR9k3h5LLmbNCXOs1BjnEJqb414_SuZgV6hCHK7Fuy8,3757
+dstricks-0.0.20.dist-info/LICENSE,sha256=XJvipKaWZf_UsF224YyP6hREsXIgBmacX-b0-FK8Sa4,1084
+dstricks-0.0.20.dist-info/METADATA,sha256=SJvNhSZbt4muz_5dtdb9NkJAUJ3WfM1ZXKHoVf6_A1o,1329
+dstricks-0.0.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dstricks-0.0.20.dist-info/top_level.txt,sha256=IGmXizGsO5RPhksiXgIijMbYvAIKxshfAdieqxfgJdc,9
+dstricks-0.0.20.dist-info/RECORD,,
