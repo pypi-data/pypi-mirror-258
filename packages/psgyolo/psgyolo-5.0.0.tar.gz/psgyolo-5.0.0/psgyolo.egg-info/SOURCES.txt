@@ -1,0 +1,19 @@
+LICENSE.txt
+README.md
+setup.py
+psgyolo/LICENSE.txt
+psgyolo/README.md
+psgyolo/__init__.py
+psgyolo/__main__.py
+psgyolo/psgyolo.py
+psgyolo/screenshot.jpg
+psgyolo/screenshot2.gif
+psgyolo.egg-info/PKG-INFO
+psgyolo.egg-info/SOURCES.txt
+psgyolo.egg-info/dependency_links.txt
+psgyolo.egg-info/entry_points.txt
+psgyolo.egg-info/requires.txt
+psgyolo.egg-info/top_level.txt
+psgyolo/yolo-coco/coco.names
+psgyolo/yolo-coco/yolov3.cfg
+psgyolo/yolo-coco/yolov3.weights README
