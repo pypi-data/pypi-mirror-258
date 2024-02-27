@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: azcam-lbtguiders
+Version: 24.1
+Summary: Azcam extension for LBTO lbtguiders cameras
+Keywords: ccd,imaging,astronomy,sensors
+Author: Michael Lesser
+Author-email: mlesser@arizona.edu
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: ipython
+Requires-Dist: rich
+Requires-Dist: azcam
+Requires-Dist: azcam-server
+Requires-Dist: azcam-console
+Requires-Dist: azcam-webtools
+Project-URL: Documentation, https://azcam.readthedocs.io/
+Project-URL: Repository, https://github.com/mplesser/azcam-lbtguiders/
+
+# azcam-lbtguiders
+
+## Purpose
+
+This repository contains the *azcam-lbtguiders* *azcam* environment.  It contains the code and data files for the LBTO lbtguiders camera systems.
+
+## Installation
+
+Download the code (usually into the *azcam* root folder such as `/azcam`) and install.
+
+```shell
+cd /azcam
+git clone https://github.com/mplesser/azcam-lbtguiders
+cd azcam-lbtguiders
+pip install -e .
+```
+
