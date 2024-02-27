@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "correlationHistogramAnalysis"
+version = "0.3.0"
+description = "\"For in depth analysis of correlation histograms in APT\""
+authors = ["Shyam Katnagallu <s.katnagallu@mpie.de>"]
+license = "APACHE 2.0"
+readme = "README.md"
+packages = [
+    { include = "correlationHistogramAnalysis" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+ifes-apt-tc-data-modeling = "^0.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+matplotlib = "^3.8.3"
+scipy = "^1.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
