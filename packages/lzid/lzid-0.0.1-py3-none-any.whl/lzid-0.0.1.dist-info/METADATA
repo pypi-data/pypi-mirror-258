@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lzid
+Version: 0.0.1
+Summary: Landing Zone ID.
+Home-page: https://dev.azure.com/dev-the-office/_git/lzid
+Download-URL: https://dev.azure.com/dev-the-office/_git/lzidarchive/master.zip
+Author: Tomas Maggio
+Author-email: tomas-github@maggio.nz
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: hashlib
+
+# TODO :)
