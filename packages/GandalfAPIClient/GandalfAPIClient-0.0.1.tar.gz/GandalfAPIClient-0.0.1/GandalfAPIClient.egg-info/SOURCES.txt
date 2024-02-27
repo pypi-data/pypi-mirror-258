@@ -1,0 +1,11 @@
+LICENCE
+README.md
+pyproject.toml
+GandalfAPIClient/__init__.py
+GandalfAPIClient/main.py
+GandalfAPIClient/utils.py
+GandalfAPIClient.egg-info/PKG-INFO
+GandalfAPIClient.egg-info/SOURCES.txt
+GandalfAPIClient.egg-info/dependency_links.txt
+GandalfAPIClient.egg-info/requires.txt
+GandalfAPIClient.egg-info/top_level.txt
