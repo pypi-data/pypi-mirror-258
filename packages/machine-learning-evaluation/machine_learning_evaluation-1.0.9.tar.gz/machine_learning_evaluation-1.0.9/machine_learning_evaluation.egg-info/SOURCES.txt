@@ -1,0 +1,9 @@
+LICENSE.txt
+setup.py
+machine_learning_evaluation/__init__.py
+machine_learning_evaluation/model_evaluation.py
+machine_learning_evaluation.egg-info/PKG-INFO
+machine_learning_evaluation.egg-info/SOURCES.txt
+machine_learning_evaluation.egg-info/dependency_links.txt
+machine_learning_evaluation.egg-info/requires.txt
+machine_learning_evaluation.egg-info/top_level.txt
