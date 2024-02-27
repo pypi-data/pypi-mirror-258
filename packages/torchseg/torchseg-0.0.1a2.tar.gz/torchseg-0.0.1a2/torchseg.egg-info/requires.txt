@@ -1,0 +1,16 @@
+einops>=0.7.0
+timm>=0.9.12
+torch>=1.13
+
+[all]
+torchseg[style,tests]
+
+[style]
+black[jupyter]>=21.8
+flake8>=3.8
+isort[colors]>=5.8
+pyupgrade>=2.8
+
+[tests]
+pytest>=7.3
+pytest-cov>=4
