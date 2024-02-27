@@ -1,0 +1,7 @@
+presidio_analyzer
+presidio_anonymizer
+pandas
+pyarrow
+faker
+openpyxl
+en_core_web_lg
