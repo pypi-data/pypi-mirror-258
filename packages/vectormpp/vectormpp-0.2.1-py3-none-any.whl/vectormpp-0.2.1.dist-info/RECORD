@@ -1,0 +1,11 @@
+vectormpp/__init__.py,sha256=HfjVOrpTnmZ-xVFCYSVmX50EXaBQeJteUHG-PD6iQs8,22
+vectormpp/__main__.py,sha256=kk2E02MQ23_BDSAiJNNlMMXNUjF4PD4ZgEDATqxqn4s,4331
+vectormpp/client.py,sha256=2IDJrxQeZ5O608USrJaa59mnsr0AsThJAHOrXw1JJuE,11283
+vectormpp/executor.py,sha256=I7U4ffN9XmicZCSw31IODEmO2gmPfwqnOsDow5y-U2I,10546
+vectormpp/loggers.py,sha256=AntRdjm00Vu7vYVvEL60g7xODqv_cshbS8YWPJR5t5s,2465
+vectormpp/manifest.py,sha256=mAiFhbY_2rhuwpLofdbWPtw8J92DDuqR9b-J7F-62Ic,8531
+vectormpp-0.2.1.dist-info/METADATA,sha256=P-7if8C9Jd155IrPPnkisOqhmGjdyq_FFPX3wHYCVAI,2821
+vectormpp-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vectormpp-0.2.1.dist-info/entry_points.txt,sha256=NOFnGdy-r492WQ3kduLeGCGMTMkWImNmSVDE2w7fzxY,54
+vectormpp-0.2.1.dist-info/top_level.txt,sha256=5dKBKylPk1C9nRLwjyK_8HGtY4SqFNJajQt7HBzJYvg,10
+vectormpp-0.2.1.dist-info/RECORD,,
