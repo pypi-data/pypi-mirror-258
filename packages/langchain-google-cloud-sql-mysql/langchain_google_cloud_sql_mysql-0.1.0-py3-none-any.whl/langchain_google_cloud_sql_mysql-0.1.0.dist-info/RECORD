@@ -1,0 +1,11 @@
+langchain_google_cloud_sql_mysql/__init__.py,sha256=KXVsgF84VCs7U5T1j72L2VFBS--vVitLDiSFubY3Vf8,879
+langchain_google_cloud_sql_mysql/chat_message_history.py,sha256=oWraSyTTYkGoZSyjZOIZ9Tr_FdVBrw_GPm5W0Fi9A0A,4647
+langchain_google_cloud_sql_mysql/engine.py,sha256=4lEfPy6rYPWwZ9XvYIyZCaeNUMkTMOhqJXqgyK2s8S0,11012
+langchain_google_cloud_sql_mysql/loader.py,sha256=0F7jBQCbklmTF0EfUwLOjS_zZvoyZYbF9uDtapCgLvU,11939
+langchain_google_cloud_sql_mysql/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_google_cloud_sql_mysql/version.py,sha256=RuXdOB4FN_GOqGKFzaNfTuwuWOqyoQLC1DkG2RBXgGw,597
+langchain_google_cloud_sql_mysql-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+langchain_google_cloud_sql_mysql-0.1.0.dist-info/METADATA,sha256=R6tpH6tuFFlo1kL2-xP1fiqDpDiZVo8IrKYF2CjtAE0,17611
+langchain_google_cloud_sql_mysql-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+langchain_google_cloud_sql_mysql-0.1.0.dist-info/top_level.txt,sha256=66mG3PXjFtwydGTUP8umus8EqCXttsD9B01ulc-Q67g,33
+langchain_google_cloud_sql_mysql-0.1.0.dist-info/RECORD,,
