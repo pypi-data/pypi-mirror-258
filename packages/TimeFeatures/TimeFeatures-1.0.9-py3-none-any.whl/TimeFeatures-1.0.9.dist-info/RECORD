@@ -1,0 +1,14 @@
+timefeatures/widgets/__init__.py,sha256=6viBNfXPIpq5dFEvEgBnMpfE4ZjxUAb_kU7T3NT8c6I,110
+timefeatures/widgets/owsavetodb.py,sha256=r5MMO3f0vq_HDkZrAjoAz3qzSVdpknBFQAKD9pq-ukU,11440
+timefeatures/widgets/owtfgraphgenerator.py,sha256=GZHrPNOA1JXFN_1HwElsNdhiPOlhBVCvo56UT8C7LPI,5607
+timefeatures/widgets/owtimefeatureconstructor.py,sha256=_8OMFw36ZKQ1uMh9owptFJF-6NY_hsjj4oCRjXPhbbs,67683
+timefeatures/widgets/icons/graphgenerator.svg,sha256=Oo_8gUu1MWsjHYzexJrLJsTwhaE_GaFZYtNkQq85Xp4,573
+timefeatures/widgets/icons/savedatadb.svg,sha256=oDxquha6WrLQIdBjTCI2cdAHkD_pLwN8OAQY7-5cj5E,666
+timefeatures/widgets/icons/timefeature-xs.svg,sha256=IjM1wxbceGZtBWxBIYgvrLmC9w6Mv8dcBIxRW5Os-Hw,782
+timefeatures/widgets/icons/timefeature.svg,sha256=NfuL_qX_lWZCpyXkhFIwgG1__4MJx3WyB4Dy36lGesk,759
+TimeFeatures-1.0.9.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+TimeFeatures-1.0.9.dist-info/METADATA,sha256=QkjveyT9e2jHw3HnkixKH-3BJJU_RxyHlZQOt9I3-HI,2671
+TimeFeatures-1.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+TimeFeatures-1.0.9.dist-info/entry_points.txt,sha256=2mxXcSGJXxoFAfe0-FZGyKnI1w3LYTOozcbqTiGa8sI,54
+TimeFeatures-1.0.9.dist-info/top_level.txt,sha256=W5yGHlI-T3H8rFQY7LfdlAco_6ivuQwZAEupzkxMGs8,13
+TimeFeatures-1.0.9.dist-info/RECORD,,
