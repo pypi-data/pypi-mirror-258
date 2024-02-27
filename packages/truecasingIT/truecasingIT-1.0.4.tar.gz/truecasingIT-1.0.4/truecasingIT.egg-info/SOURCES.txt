@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+truecasingIT/__init__.py
+truecasingIT/punct.txt
+truecasingIT/truecase.py
+truecasingIT/wordforms.txt
+truecasingIT.egg-info/PKG-INFO
+truecasingIT.egg-info/SOURCES.txt
+truecasingIT.egg-info/dependency_links.txt
+truecasingIT.egg-info/top_level.txt
