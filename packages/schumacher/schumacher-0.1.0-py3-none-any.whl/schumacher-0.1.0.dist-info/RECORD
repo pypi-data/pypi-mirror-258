@@ -1,0 +1,12 @@
+schumacher/__init__.py,sha256=6LIAfHHE30w4ZO6kn3OHa5g6G590y72OB-op7McKF-A,252
+schumacher/datasets/__init__.py,sha256=4ddA0gO6gA-UK4CdbWFMJohoStf-P0fLAPphizwk0wY,378
+schumacher/image_extraction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schumacher/image_extraction/bipartite.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schumacher/ocr/__init__.py,sha256=1fshnIaLMPgn_c9ehexdPq9RW_7cRQsFfgsOMtTsDM0,244
+schumacher/ocr/train/__init__.py,sha256=Aayicv7oaqjeZLiQzjBsLCkZHknH3heCAKyFe4PbXe4,431
+schumacher/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schumacher/utils/image_processor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schumacher/utils/unpack_folder.sh,sha256=1tLbtfZdtvTyzVssrkdYnpa6sDotPN7pUcAZEgdb-lg,497
+schumacher-0.1.0.dist-info/METADATA,sha256=zw8ZH-yH-f9fKePpWVeIO3c9NUKSm8qFlsXDTOkCGXo,1813
+schumacher-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+schumacher-0.1.0.dist-info/RECORD,,
