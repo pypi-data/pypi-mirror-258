@@ -1,0 +1,10 @@
+kurdish_reshaper/__init__.py,sha256=yQYanlxp7-IxwH_5CzXNBP69E0-uzFmj-o4Qe1mrgJY,436
+kurdish_reshaper/__version__.py,sha256=WZxVB-2_454JxgdmIIsxG-DUc65ia-VgtyjcgvV4mro,22
+kurdish_reshaper/kurdish_reshaper.py,sha256=TKWoRURz_c2XgFeJdC0m4K_YnMqgM-awwayoB4q7Mgs,8813
+kurdish_reshaper/letters.py,sha256=ONDazM8pSFaVbEn-lwxw2iCw7bnMFJZ1Nxm-D__fIwE,20228
+kurdish_reshaper/ligatures.py,sha256=oLt_lbzYKijWe7cm_RAwIcQlSi33EsVkUM5BC8b9t68,33442
+kurdish_reshaper/reshaper_config.py,sha256=NBwCR0XyxhAfutXDE8ko7dVpTfUBrN5Cn2NMv66gkZc,19756
+kurdish_reshaper-1.0.dist-info/METADATA,sha256=zGVCLvygek71ZTb_Op-BMChHH2uzaHYXLntdg-NW704,91
+kurdish_reshaper-1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kurdish_reshaper-1.0.dist-info/top_level.txt,sha256=hkvORPmu6hTnny4IuSLwz2a6Nvd0J273MeVK5mICX2M,17
+kurdish_reshaper-1.0.dist-info/RECORD,,
