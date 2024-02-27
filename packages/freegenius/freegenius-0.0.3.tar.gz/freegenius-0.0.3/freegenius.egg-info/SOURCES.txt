@@ -1,0 +1,15 @@
+setup.py
+freegenius/README.md
+freegenius/config.py
+freegenius/main.py
+freegenius/requirements.txt
+freegenius.egg-info/PKG-INFO
+freegenius.egg-info/SOURCES.txt
+freegenius.egg-info/dependency_links.txt
+freegenius.egg-info/entry_points.txt
+freegenius.egg-info/requires.txt
+freegenius.egg-info/top_level.txt
+freegenius/configs/config_essential.py
+freegenius/configs/config_tools.py
+freegenius/core/assistant.py
+freegenius/utils/shortcuts.py
