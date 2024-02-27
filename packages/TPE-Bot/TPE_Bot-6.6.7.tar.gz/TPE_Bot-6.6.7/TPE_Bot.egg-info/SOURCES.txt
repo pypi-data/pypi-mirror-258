@@ -1,0 +1,12 @@
+README.md
+setup.py
+TPE_Bot.egg-info/PKG-INFO
+TPE_Bot.egg-info/SOURCES.txt
+TPE_Bot.egg-info/dependency_links.txt
+TPE_Bot.egg-info/requires.txt
+TPE_Bot.egg-info/top_level.txt
+parrot/__init__.py
+parrot/demo.py
+parrot/filters.py
+parrot/parrot.py
+pyarmor_runtime_000000/__init__.py
