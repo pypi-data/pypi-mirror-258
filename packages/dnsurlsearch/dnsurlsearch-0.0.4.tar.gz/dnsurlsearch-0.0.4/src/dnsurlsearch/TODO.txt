@@ -1,0 +1,5 @@
+- Ajouter un handler PiHole avec configuration DNS au niveau de PiHole
+- Automatisation de tcpdump
+    Ajout d'un paramètre pour dire si c'est automatique ou non
+    Si automatique, ajouter un temps d'attente avant de tuer le prosee tcpdump
+- traitement argv en pop up? level=debug
