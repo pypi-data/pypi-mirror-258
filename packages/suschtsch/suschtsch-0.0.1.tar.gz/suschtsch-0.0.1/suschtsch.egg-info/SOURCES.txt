@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+Suschtsch/__init__.py
+Suschtsch/sub_classes.py
+Suschtsch/suschtsch.py
+suschtsch.egg-info/PKG-INFO
+suschtsch.egg-info/SOURCES.txt
+suschtsch.egg-info/dependency_links.txt
+suschtsch.egg-info/requires.txt
+suschtsch.egg-info/top_level.txt
