@@ -1,0 +1,13 @@
+freegenius/README.md,sha256=tj4kpgZTVsf3pjXMDvPB_-UPP-Q0kJOC2iY2wF_V-xE,921
+freegenius/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freegenius/main.py,sha256=wkZe_CBVSX1T7m4uKzadgOTy6X7ViS1q2Z6kaFFZAHU,12129
+freegenius/requirements.txt,sha256=FHluC2AT9dX3MN6smVaHow21p5J3LX78r5vThRq6GcQ,16
+freegenius/configs/config_essential.py,sha256=aYU2m6JBo8Wsq5vfC4DHE-5-6s-kxsZO_fwBhlta5kY,10358
+freegenius/configs/config_tools.py,sha256=L0DW5i8U0MfTYfZK9Xh41_chWKvk4jIwVeNUEdpFYdk,3824
+freegenius/core/assistant.py,sha256=C6K-C9rrY2bn9EUM99tu1l4Mad7f_2rJi0nhPFr9sbw,119667
+freegenius/utils/shortcuts.py,sha256=UzeMavcoOkagVJp-cbjn8A0HoqEdVraVz5n-J7pLGd0,17965
+freegenius-0.0.6.dist-info/METADATA,sha256=QvQ6ct__jIt6TTZvrXqu5539tVLwYA5rN-caZ-hr5zg,2201
+freegenius-0.0.6.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+freegenius-0.0.6.dist-info/entry_points.txt,sha256=5-OW17m3yTPHqDTN5j6jad2qOqSscGY6zsRHjIIuku4,53
+freegenius-0.0.6.dist-info/top_level.txt,sha256=Ii9juj9ZE7mqL2Jm6v_zgqe6tpEO71RXqvcNcGmuT2Q,11
+freegenius-0.0.6.dist-info/RECORD,,
